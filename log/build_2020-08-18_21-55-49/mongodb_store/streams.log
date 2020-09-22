@@ -1,0 +1,240 @@
+[0.206s] Invoking command in '/home/handsome/ros_ws_test/build/mongodb_store': CMAKE_PREFIX_PATH=/home/handsome/ros_ws_test/install/mongodb_store_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/handsome/ros_ws_test/install/mongodb_store_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/handsome/ros_ws_test/build/mongodb_store -- -j12 -l12
+[0.548s] [35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[0.571s] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[0.571s] [35m[1mScanning dependencies of target _mongodb_store_generate_messages_check_deps_MongoFind[0m
+[0.584s] [35m[1mScanning dependencies of target gtest[0m
+[0.584s] [35m[1mScanning dependencies of target _mongodb_store_generate_messages_check_deps_GetParam[0m
+[0.585s] [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[0.590s] [35m[1mScanning dependencies of target _mongodb_store_generate_messages_check_deps_SetParam[0m
+[0.591s] [35m[1mScanning dependencies of target _mongodb_store_generate_messages_check_deps_MongoInsert[0m
+[0.593s] [35m[1mScanning dependencies of target _mongodb_store_generate_messages_check_deps_MongoUpdate[0m
+[0.598s] [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[0.598s] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[0.604s] [35m[1mScanning dependencies of target mongodb_store_msgs_generate_messages_cpp[0m
+[0.624s] [  0%] Built target std_msgs_generate_messages_cpp
+[0.656s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.656s] [  0%] Built target std_msgs_generate_messages_py
+[0.664s] [  0%] Built target std_msgs_generate_messages_lisp
+[0.678s] [  2%] [32mBuilding CXX object gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.711s] [  2%] Built target mongodb_store_msgs_generate_messages_cpp
+[0.723s] [  2%] Built target std_msgs_generate_messages_eus
+[0.834s] [  2%] Built target _mongodb_store_generate_messages_check_deps_MongoInsert
+[0.839s] [35m[1mScanning dependencies of target message_store[0m
+[0.872s] [  2%] Built target _mongodb_store_generate_messages_check_deps_SetParam
+[0.905s] [  2%] Built target _mongodb_store_generate_messages_check_deps_MongoFind
+[0.905s] [  2%] Built target _mongodb_store_generate_messages_check_deps_MongoUpdate
+[0.928s] [  2%] Built target _mongodb_store_generate_messages_check_deps_GetParam
+[0.928s] [  5%] [32mBuilding CXX object CMakeFiles/message_store.dir/src/message_store.cpp.o[0m
+[1.012s] [35m[1mScanning dependencies of target mongodb_store_generate_messages_cpp[0m
+[1.031s] [35m[1mScanning dependencies of target mongodb_store_generate_messages_eus[0m
+[1.054s] [35m[1mScanning dependencies of target mongodb_store_generate_messages_py[0m
+[1.060s] [35m[1mScanning dependencies of target mongodb_store_generate_messages_lisp[0m
+[1.063s] [35m[1mScanning dependencies of target mongodb_store_generate_messages_nodejs[0m
+[1.106s] [  8%] [34m[1mGenerating EusLisp code from mongodb_store/MongoFind.srv[0m
+[1.135s] [ 10%] [34m[1mGenerating C++ code from mongodb_store/GetParam.srv[0m
+[1.136s] [ 13%] [34m[1mGenerating C++ code from mongodb_store/SetParam.srv[0m
+[1.141s] [ 16%] [34m[1mGenerating C++ code from mongodb_store/MongoFind.srv[0m
+[1.142s] [ 18%] [34m[1mGenerating EusLisp code from mongodb_store/SetParam.srv[0m
+[1.163s] [ 21%] [34m[1mGenerating Lisp code from mongodb_store/MongoFind.srv[0m
+[1.164s] [ 24%] [34m[1mGenerating Python code from SRV mongodb_store/MongoFind[0m
+[1.164s] [ 27%] [34m[1mGenerating C++ code from mongodb_store/MongoUpdate.srv[0m
+[1.190s] [ 29%] [34m[1mGenerating C++ code from mongodb_store/MongoInsert.srv[0m
+[1.192s] [ 32%] [34m[1mGenerating Javascript code from mongodb_store/MongoFind.srv[0m
+[1.595s] [ 35%] [34m[1mGenerating Javascript code from mongodb_store/SetParam.srv[0m
+[1.607s] [ 40%] [34m[1mGenerating Python code from SRV mongodb_store/SetParam[0m
+[1.607s] [ 40%] [34m[1mGenerating Lisp code from mongodb_store/SetParam.srv[0m
+[1.642s] [ 43%] [34m[1mGenerating EusLisp code from mongodb_store/MongoInsert.srv[0m
+[1.643s] [ 45%] [34m[1mGenerating EusLisp code from mongodb_store/GetParam.srv[0m
+[1.919s] [ 48%] [34m[1mGenerating EusLisp manifest code for mongodb_store[0m
+[1.936s] [ 51%] [34m[1mGenerating EusLisp code from mongodb_store/MongoUpdate.srv[0m
+[2.030s] [ 54%] [34m[1mGenerating Python code from SRV mongodb_store/MongoInsert[0m
+[2.036s] [ 56%] [34m[1mGenerating Lisp code from mongodb_store/MongoInsert.srv[0m
+[2.126s] [ 59%] [34m[1mGenerating Javascript code from mongodb_store/MongoInsert.srv[0m
+[2.194s] [ 62%] [34m[1mGenerating Python code from SRV mongodb_store/GetParam[0m
+[2.238s] [ 64%] [34m[1mGenerating Python code from SRV mongodb_store/MongoUpdate[0m
+[2.238s] [ 67%] [34m[1mGenerating Lisp code from mongodb_store/GetParam.srv[0m
+[2.396s] [ 70%] [34m[1mGenerating Lisp code from mongodb_store/MongoUpdate.srv[0m
+[2.539s] [ 72%] [34m[1mGenerating Javascript code from mongodb_store/GetParam.srv[0m
+[2.628s] [ 75%] [34m[1mGenerating Javascript code from mongodb_store/MongoUpdate.srv[0m
+[2.694s] [ 75%] Built target mongodb_store_generate_messages_lisp
+[2.729s] [ 75%] Built target mongodb_store_generate_messages_cpp
+[2.956s] [ 75%] Built target mongodb_store_generate_messages_nodejs
+[3.103s] [ 78%] [34m[1mGenerating Python srv __init__.py for mongodb_store[0m
+[3.530s] [ 78%] Built target mongodb_store_generate_messages_py
+[5.342s] [ 81%] [32m[1mLinking CXX shared library devel/lib/libmessage_store.so[0m
+[5.578s] [ 81%] Built target mongodb_store_generate_messages_eus
+[5.663s] [35m[1mScanning dependencies of target mongodb_store_generate_messages[0m
+[5.685s] [ 81%] Built target message_store
+[5.692s] [ 81%] Built target mongodb_store_generate_messages
+[5.741s] [35m[1mScanning dependencies of target example_multi_event_log[0m
+[5.741s] [35m[1mScanning dependencies of target example_mongodb_store_cpp_client[0m
+[5.810s] [ 83%] [32mBuilding CXX object CMakeFiles/example_mongodb_store_cpp_client.dir/src/example_mongodb_store_cpp_client.cpp.o[0m
+[5.815s] [ 86%] [32mBuilding CXX object CMakeFiles/example_multi_event_log.dir/src/example_multi_event_log.cpp.o[0m
+[6.744s] [ 89%] [32m[1mLinking CXX shared library libgtest.so[0m
+[7.086s] [ 89%] Built target gtest
+[7.142s] [35m[1mScanning dependencies of target message_store_cpp_test[0m
+[7.205s] [ 91%] [32mBuilding CXX object CMakeFiles/message_store_cpp_test.dir/tests/message_store_cpp_test.cpp.o[0m
+[11.150s] [ 94%] [32m[1mLinking CXX executable devel/lib/mongodb_store/example_mongodb_store_cpp_client[0m
+[11.611s] [ 97%] [32m[1mLinking CXX executable devel/lib/mongodb_store/example_multi_event_log[0m
+[12.205s] [ 97%] Built target example_mongodb_store_cpp_client
+[12.536s] [ 97%] Built target example_multi_event_log
+[13.736s] [100%] [32m[1mLinking CXX executable devel/lib/mongodb_store/message_store_cpp_test[0m
+[14.582s] [100%] Built target message_store_cpp_test
+[14.635s] Invoked command in '/home/handsome/ros_ws_test/build/mongodb_store' returned '0': CMAKE_PREFIX_PATH=/home/handsome/ros_ws_test/install/mongodb_store_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/handsome/ros_ws_test/install/mongodb_store_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/handsome/ros_ws_test/build/mongodb_store -- -j12 -l12
+[15.257s] Invoking command in '/home/handsome/ros_ws_test/build/mongodb_store': CMAKE_PREFIX_PATH=/home/handsome/ros_ws_test/install/mongodb_store_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/handsome/ros_ws_test/install/mongodb_store_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/handsome/ros_ws_test/build/mongodb_store --target tests -- -j12 -l12
+[15.423s] [35m[1mScanning dependencies of target tests[0m
+[15.461s] Built target tests
+[15.494s] Invoked command in '/home/handsome/ros_ws_test/build/mongodb_store' returned '0': CMAKE_PREFIX_PATH=/home/handsome/ros_ws_test/install/mongodb_store_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/handsome/ros_ws_test/install/mongodb_store_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/handsome/ros_ws_test/build/mongodb_store --target tests -- -j12 -l12
+[16.355s] Invoking command in '/home/handsome/ros_ws_test/build/mongodb_store': CMAKE_PREFIX_PATH=/home/handsome/ros_ws_test/install/mongodb_store_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/handsome/ros_ws_test/install/mongodb_store_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/handsome/ros_ws_test/build/mongodb_store --target install -- -j12 -l12
+[16.577s] [  0%] Built target std_msgs_generate_messages_lisp
+[16.586s] [  0%] Built target std_msgs_generate_messages_py
+[16.615s] [  0%] Built target mongodb_store_msgs_generate_messages_cpp
+[16.628s] [  5%] Built target gtest
+[16.639s] [  5%] Built target std_msgs_generate_messages_cpp
+[16.643s] [  5%] Built target std_msgs_generate_messages_nodejs
+[16.667s] [  5%] Built target std_msgs_generate_messages_eus
+[16.696s] [  5%] Built target _mongodb_store_generate_messages_check_deps_SetParam
+[16.721s] [  5%] Built target _mongodb_store_generate_messages_check_deps_MongoUpdate
+[16.753s] [ 10%] Built target message_store
+[16.758s] [ 10%] Built target _mongodb_store_generate_messages_check_deps_MongoFind
+[16.788s] [ 10%] Built target _mongodb_store_generate_messages_check_deps_MongoInsert
+[16.789s] [ 10%] Built target _mongodb_store_generate_messages_check_deps_GetParam
+[16.878s] [ 16%] Built target example_mongodb_store_cpp_client
+[16.894s] [ 29%] Built target mongodb_store_generate_messages_nodejs
+[16.912s] [ 45%] Built target mongodb_store_generate_messages_py
+[16.919s] [ 51%] Built target message_store_cpp_test
+[16.922s] [ 64%] Built target mongodb_store_generate_messages_cpp
+[16.929s] [ 81%] Built target example_multi_event_log
+[16.930s] [ 86%] Built target mongodb_store_generate_messages_eus
+[16.932s] [100%] Built target mongodb_store_generate_messages_lisp
+[17.016s] [100%] Built target mongodb_store_generate_messages
+[17.091s] [36mInstall the project...[0m
+[17.113s] -- Install configuration: ""
+[17.131s] + cd /home/handsome/ros_ws_test/src/ros_base/mongodb_store/mongodb_store
+[17.131s] + mkdir -p /home/handsome/ros_ws_test/install/mongodb_store/lib/python2.7/dist-packages
+[17.139s] + /usr/bin/env PYTHONPATH=/home/handsome/ros_ws_test/install/mongodb_store/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/build/mongodb_store/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws/install/yocs_cmd_vel_mux/lib/python2.7/dist-packages:/home/handsome/ros_ws/install/tuw_waypoint_to_spline_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws/install/tuw_multi_robot_router/lib/python2.7/dist-packages:/home/handsome/ros_ws/install/tuw_vehicle_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws/install/tuw_object_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws/install/tuw_nav_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws/install/tuw_multi_robot_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws/install/tuw_local_controller_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws/install/tuw_geometry_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws/install/tuw_geometry/lib/python2.7/dist-packages:/home/handsome/ros_ws/install/tuw_gazebo_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws/install/tuw_control/lib/python2.7/dist-packages:/home/handsome/ros_ws/install/tuw_airskin_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws/install/tug_example_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws/install/teb2_local_planner/lib/python2.7/dist-packages:/home/handsome/ros_ws/install/spatio_temporal_voxel_layer/lib/python2.7/dist-packages:/home/handsome/ros_ws/install/samsungcmd_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws/install/rp_action_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws/install/rosserial_xbee/lib/python2.7/dist-packages:/home/handsome/ros_ws/install/rosserial_python/lib/python2.7/dist-packages:/home/handsome/ros_ws/install/rosserial_mbed/lib/python2.7/dist-packages:/home/handsome/ros_ws/install/rosserial_arduino/lib/python2.7/dist-packages:/home/handsome/ros_ws/install/rosserial_client/lib/python2.7/dist-packages:/home/handsome/ros_ws/install/rosserial_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws/install/robot_scheduling_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws/install/robot_localization/lib/python2.7/dist-packages:/home/handsome/ros_ws/install/robot_control_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws/install/reset_location/lib/python2.7/dist-packages:/home/handsome/ros_ws/install/razor_imu_9dof/lib/python2.7/dist-packages:/home/handsome/ros_ws/install/pnp_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws/install/open_auto_dock_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws/install/dwb_plugins/lib/python2.7/dist-packages:/home/handsome/ros_ws/install/car_schedule_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws/install/actionlib_modules_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws/install/locomotor_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws/install/dwb_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws/install/nav_2d_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws/install/mongodb_store/lib/python2.7/dist-packages:/home/handsome/ros_ws/install/mongodb_store_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws/install/hyc_multi_robot_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws/install/fetch_auto_dock_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws/install/cellctrl_control_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws/install/car_db_manager_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws/install/ca_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws/install/botcmd_msgs/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/handsome/ros_ws_test/build/mongodb_store /usr/bin/python2 /home/handsome/ros_ws_test/src/ros_base/mongodb_store/mongodb_store/setup.py build --build-base /home/handsome/ros_ws_test/build/mongodb_store install --root=/ --install-layout=deb --prefix=/home/handsome/ros_ws_test/install/mongodb_store --install-scripts=/home/handsome/ros_ws_test/install/mongodb_store/bin
+[17.253s] running build
+[17.253s] running build_py
+[17.254s] creating /home/handsome/ros_ws_test/build/mongodb_store/lib.linux-x86_64-2.7
+[17.254s] creating /home/handsome/ros_ws_test/build/mongodb_store/lib.linux-x86_64-2.7/mongodb_store
+[17.254s] copying src/mongodb_store/__init__.py -> /home/handsome/ros_ws_test/build/mongodb_store/lib.linux-x86_64-2.7/mongodb_store
+[17.254s] copying src/mongodb_store/util.py -> /home/handsome/ros_ws_test/build/mongodb_store/lib.linux-x86_64-2.7/mongodb_store
+[17.255s] copying src/mongodb_store/message_store.py -> /home/handsome/ros_ws_test/build/mongodb_store/lib.linux-x86_64-2.7/mongodb_store
+[17.256s] running install
+[17.256s] running install_lib
+[17.257s] creating /home/handsome/ros_ws_test/install/mongodb_store/lib/python2.7/dist-packages/mongodb_store
+[17.257s] copying /home/handsome/ros_ws_test/build/mongodb_store/lib.linux-x86_64-2.7/mongodb_store/__init__.py -> /home/handsome/ros_ws_test/install/mongodb_store/lib/python2.7/dist-packages/mongodb_store
+[17.257s] copying /home/handsome/ros_ws_test/build/mongodb_store/lib.linux-x86_64-2.7/mongodb_store/util.py -> /home/handsome/ros_ws_test/install/mongodb_store/lib/python2.7/dist-packages/mongodb_store
+[17.258s] copying /home/handsome/ros_ws_test/build/mongodb_store/lib.linux-x86_64-2.7/mongodb_store/message_store.py -> /home/handsome/ros_ws_test/install/mongodb_store/lib/python2.7/dist-packages/mongodb_store
+[17.259s] byte-compiling /home/handsome/ros_ws_test/install/mongodb_store/lib/python2.7/dist-packages/mongodb_store/__init__.py to __init__.pyc
+[17.265s] byte-compiling /home/handsome/ros_ws_test/install/mongodb_store/lib/python2.7/dist-packages/mongodb_store/util.py to util.pyc
+[17.267s] byte-compiling /home/handsome/ros_ws_test/install/mongodb_store/lib/python2.7/dist-packages/mongodb_store/message_store.py to message_store.pyc
+[17.269s] running install_egg_info
+[17.270s] Writing /home/handsome/ros_ws_test/install/mongodb_store/lib/python2.7/dist-packages/mongodb_store-0.5.0.egg-info
+[17.282s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/share/mongodb_store/srv/GetParam.srv
+[17.282s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/share/mongodb_store/srv/SetParam.srv
+[17.283s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/share/mongodb_store/srv/MongoFind.srv
+[17.283s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/share/mongodb_store/srv/MongoUpdate.srv
+[17.284s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/share/mongodb_store/srv/MongoInsert.srv
+[17.284s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/share/mongodb_store/cmake/mongodb_store-msg-paths.cmake
+[17.284s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/include/mongodb_store
+[17.284s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/include/mongodb_store/MongoFind.h
+[17.284s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/include/mongodb_store/MongoUpdate.h
+[17.284s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/include/mongodb_store/GetParamResponse.h
+[17.285s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/include/mongodb_store/MongoInsertResponse.h
+[17.285s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/include/mongodb_store/SetParamRequest.h
+[17.285s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/include/mongodb_store/MongoUpdateRequest.h
+[17.285s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/include/mongodb_store/MongoFindResponse.h
+[17.285s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/include/mongodb_store/SetParam.h
+[17.285s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/include/mongodb_store/SetParamResponse.h
+[17.285s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/include/mongodb_store/GetParam.h
+[17.286s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/include/mongodb_store/GetParamRequest.h
+[17.286s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/include/mongodb_store/MongoFindRequest.h
+[17.286s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/include/mongodb_store/MongoInsertRequest.h
+[17.286s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/include/mongodb_store/MongoUpdateResponse.h
+[17.286s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/include/mongodb_store/MongoInsert.h
+[17.287s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/share/roseus/ros/mongodb_store
+[17.287s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/share/roseus/ros/mongodb_store/manifest.l
+[17.287s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/share/roseus/ros/mongodb_store/srv
+[17.287s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/share/roseus/ros/mongodb_store/srv/MongoInsert.l
+[17.287s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/share/roseus/ros/mongodb_store/srv/GetParam.l
+[17.288s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/share/roseus/ros/mongodb_store/srv/SetParam.l
+[17.288s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/share/roseus/ros/mongodb_store/srv/MongoFind.l
+[17.288s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/share/roseus/ros/mongodb_store/srv/MongoUpdate.l
+[17.288s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/share/common-lisp/ros/mongodb_store
+[17.288s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/share/common-lisp/ros/mongodb_store/srv
+[17.288s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/share/common-lisp/ros/mongodb_store/srv/_package_MongoInsert.lisp
+[17.288s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/share/common-lisp/ros/mongodb_store/srv/SetParam.lisp
+[17.289s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/share/common-lisp/ros/mongodb_store/srv/_package_MongoUpdate.lisp
+[17.289s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/share/common-lisp/ros/mongodb_store/srv/_package_MongoFind.lisp
+[17.289s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/share/common-lisp/ros/mongodb_store/srv/GetParam.lisp
+[17.289s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/share/common-lisp/ros/mongodb_store/srv/_package.lisp
+[17.290s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/share/common-lisp/ros/mongodb_store/srv/MongoUpdate.lisp
+[17.290s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/share/common-lisp/ros/mongodb_store/srv/mongodb_store-srv.asd
+[17.290s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/share/common-lisp/ros/mongodb_store/srv/_package_GetParam.lisp
+[17.290s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/share/common-lisp/ros/mongodb_store/srv/_package_SetParam.lisp
+[17.290s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/share/common-lisp/ros/mongodb_store/srv/MongoFind.lisp
+[17.290s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/share/common-lisp/ros/mongodb_store/srv/MongoInsert.lisp
+[17.290s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/share/gennodejs/ros/mongodb_store
+[17.291s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/share/gennodejs/ros/mongodb_store/_index.js
+[17.291s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/share/gennodejs/ros/mongodb_store/srv
+[17.291s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/share/gennodejs/ros/mongodb_store/srv/MongoUpdate.js
+[17.291s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/share/gennodejs/ros/mongodb_store/srv/MongoFind.js
+[17.291s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/share/gennodejs/ros/mongodb_store/srv/_index.js
+[17.291s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/share/gennodejs/ros/mongodb_store/srv/MongoInsert.js
+[17.291s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/share/gennodejs/ros/mongodb_store/srv/GetParam.js
+[17.292s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/share/gennodejs/ros/mongodb_store/srv/SetParam.js
+[17.359s] Listing /home/handsome/ros_ws_test/build/mongodb_store/devel/lib/python2.7/dist-packages/mongodb_store ...
+[17.360s] Compiling /home/handsome/ros_ws_test/build/mongodb_store/devel/lib/python2.7/dist-packages/mongodb_store/__init__.py ...
+[17.360s] Listing /home/handsome/ros_ws_test/build/mongodb_store/devel/lib/python2.7/dist-packages/mongodb_store/srv ...
+[17.361s] Compiling /home/handsome/ros_ws_test/build/mongodb_store/devel/lib/python2.7/dist-packages/mongodb_store/srv/_GetParam.py ...
+[17.361s] Compiling /home/handsome/ros_ws_test/build/mongodb_store/devel/lib/python2.7/dist-packages/mongodb_store/srv/_MongoFind.py ...
+[17.361s] Compiling /home/handsome/ros_ws_test/build/mongodb_store/devel/lib/python2.7/dist-packages/mongodb_store/srv/_MongoInsert.py ...
+[17.361s] Compiling /home/handsome/ros_ws_test/build/mongodb_store/devel/lib/python2.7/dist-packages/mongodb_store/srv/_MongoUpdate.py ...
+[17.361s] Compiling /home/handsome/ros_ws_test/build/mongodb_store/devel/lib/python2.7/dist-packages/mongodb_store/srv/_SetParam.py ...
+[17.362s] Compiling /home/handsome/ros_ws_test/build/mongodb_store/devel/lib/python2.7/dist-packages/mongodb_store/srv/__init__.py ...
+[17.362s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store/lib/python2.7/dist-packages/mongodb_store
+[17.362s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/lib/python2.7/dist-packages/mongodb_store/srv
+[17.362s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/lib/python2.7/dist-packages/mongodb_store/srv/_MongoUpdate.pyc
+[17.362s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/lib/python2.7/dist-packages/mongodb_store/srv/_SetParam.py
+[17.362s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/lib/python2.7/dist-packages/mongodb_store/srv/_MongoFind.pyc
+[17.363s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/lib/python2.7/dist-packages/mongodb_store/srv/_MongoInsert.pyc
+[17.363s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/lib/python2.7/dist-packages/mongodb_store/srv/_GetParam.pyc
+[17.363s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/lib/python2.7/dist-packages/mongodb_store/srv/_GetParam.py
+[17.363s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/lib/python2.7/dist-packages/mongodb_store/srv/_MongoFind.py
+[17.363s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/lib/python2.7/dist-packages/mongodb_store/srv/_MongoUpdate.py
+[17.364s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/lib/python2.7/dist-packages/mongodb_store/srv/_SetParam.pyc
+[17.364s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/lib/python2.7/dist-packages/mongodb_store/srv/_MongoInsert.py
+[17.364s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store/lib/python2.7/dist-packages/mongodb_store
+[17.364s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store/lib/python2.7/dist-packages/mongodb_store/srv
+[17.364s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/lib/python2.7/dist-packages/mongodb_store/srv/__init__.py
+[17.365s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/lib/python2.7/dist-packages/mongodb_store/srv/__init__.pyc
+[17.365s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/lib/pkgconfig/mongodb_store.pc
+[17.365s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/share/mongodb_store/cmake/mongodb_store-msg-extras.cmake
+[17.365s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/share/mongodb_store/cmake/mongodb_storeConfig.cmake
+[17.365s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/share/mongodb_store/cmake/mongodb_storeConfig-version.cmake
+[17.365s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/share/mongodb_store/package.xml
+[17.368s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/lib/mongodb_store
+[17.369s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/lib/mongodb_store/config_manager.py
+[17.369s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/lib/mongodb_store/replicator_client.py
+[17.369s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/lib/mongodb_store/replicator_node.py
+[17.369s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/lib/mongodb_store/mongodb_play.py
+[17.369s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/lib/mongodb_store/message_store_node.py
+[17.370s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/lib/mongodb_store/example_message_store_client.py
+[17.370s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/lib/mongodb_store/mongodb_server.py
+[17.370s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/lib/mongodb_store/mongo_bridge.py
+[17.370s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/lib/mongodb_store/example_multi_event_log.py
+[17.370s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/share/mongodb_store/launch
+[17.370s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/share/mongodb_store/launch/mongodb_store_inc.launch
+[17.371s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/share/mongodb_store/launch/mongodb_store.launch
+[17.371s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/share/mongodb_store/launch/_mongodb_store.launch
+[17.372s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store/include/mongodb_store
+[17.372s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/include/mongodb_store/message_store.h
+[17.372s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/include/mongodb_store/util.h
+[17.372s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/lib/mongodb_store/example_mongodb_store_cpp_client
+[17.372s] -- Set runtime path of "/home/handsome/ros_ws_test/install/mongodb_store/lib/mongodb_store/example_mongodb_store_cpp_client" to ""
+[17.373s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/lib/mongodb_store/example_multi_event_log
+[17.373s] -- Set runtime path of "/home/handsome/ros_ws_test/install/mongodb_store/lib/mongodb_store/example_multi_event_log" to ""
+[17.373s] -- Installing: /home/handsome/ros_ws_test/install/mongodb_store/lib/libmessage_store.so
+[17.373s] -- Set runtime path of "/home/handsome/ros_ws_test/install/mongodb_store/lib/libmessage_store.so" to ""
+[17.392s] Invoked command in '/home/handsome/ros_ws_test/build/mongodb_store' returned '0': CMAKE_PREFIX_PATH=/home/handsome/ros_ws_test/install/mongodb_store_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/handsome/ros_ws_test/install/mongodb_store_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/handsome/ros_ws_test/build/mongodb_store --target install -- -j12 -l12

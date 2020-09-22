@@ -1,0 +1,701 @@
+[0.094s] Invoking command in '/home/handsome/ros_ws_test/build/cellctrl_control_msgs': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/cellctrl_control_msgs -- -j12 -l12
+[0.938s] [  0%] Built target actionlib_msgs_generate_messages_py
+[1.037s] [  0%] Built target std_msgs_generate_messages_py
+[1.135s] [  0%] Built target geometry_msgs_generate_messages_py
+[1.136s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_operatehistory_cmd
+[1.382s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_maintainhistory
+[1.525s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_base_cell_controller
+[1.577s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_base_device
+[1.577s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_base_maintain
+[1.596s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_base_mcfunction_cmd
+[1.618s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_alarmhistory_cmd
+[1.710s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_battery_caculate_cmd
+[1.753s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_agv_main_cmd
+[1.797s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_agv_imu
+[1.801s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_work_stationitems
+[1.816s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_base_operate
+[1.935s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_agv_basetype_cmd
+[1.963s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_work_orderitems_cmd
+[2.071s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_work_ordergoods_cmd
+[2.128s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_agv_lidar
+[2.167s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_agv_motor
+[2.358s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_agv_battery_cmd
+[2.375s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_agv_camera_cmd
+[2.401s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_work_ordergoods
+[2.404s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_alarmhistory
+[2.486s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_base_device_cmd
+[2.489s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_agv_camera
+[2.561s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_agv_basetypeitems
+[2.566s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_battery_caculate
+[2.591s] [  0%] Built target std_srvs_generate_messages_py
+[2.593s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_agv_basetypeitems_cmd
+[2.595s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_battery_remain_cmd
+[2.612s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_base_mcfunction
+[2.652s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_work_stations
+[2.827s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_base_alarm
+[2.860s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_work_stations_cmd
+[2.872s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_battery_remain
+[2.875s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_base_cell_controller_cmd
+[2.914s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_agv_basetype
+[2.930s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_base_transfer_cmd
+[2.949s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_work_order_cmd
+[2.961s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_operatehistory
+[2.971s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_base_transfer
+[3.003s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_base_alarm_cmd
+[3.040s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_work_order
+[3.047s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_agv_lidar_cmd
+[3.107s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_work_orderitems
+[3.112s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_agv_battery
+[3.137s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_base_operate_cmd
+[3.162s] [  0%] Built target std_srvs_generate_messages_eus
+[3.163s] [  0%] Built target geometry_msgs_generate_messages_eus
+[3.167s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_agv_imu_cmd
+[3.181s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_base_maintain_cmd
+[3.183s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_agv_motor_cmd
+[3.190s] [  0%] Built target std_msgs_generate_messages_eus
+[3.209s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[3.209s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_agv_main
+[3.212s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_work_stationitems_cmd
+[3.213s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[3.215s] [  0%] Built target std_msgs_generate_messages_cpp
+[3.238s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[3.238s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_maintainhistory_cmd
+[3.256s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[3.268s] [  0%] Built target std_srvs_generate_messages_nodejs
+[3.269s] [  0%] Built target std_srvs_generate_messages_cpp
+[3.287s] [  0%] Built target std_msgs_generate_messages_nodejs
+[3.287s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[3.287s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[3.295s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[3.302s] [  0%] Built target std_msgs_generate_messages_lisp
+[3.319s] [  0%] Built target std_srvs_generate_messages_lisp
+[3.327s] [ 20%] Built target cellctrl_control_msgs_generate_messages_py
+[3.332s] [ 41%] Built target cellctrl_control_msgs_generate_messages_eus
+[3.341s] [ 60%] Built target cellctrl_control_msgs_generate_messages_cpp
+[3.361s] [ 80%] Built target cellctrl_control_msgs_generate_messages_nodejs
+[3.405s] [100%] Built target cellctrl_control_msgs_generate_messages_lisp
+[3.473s] [100%] Built target cellctrl_control_msgs_generate_messages
+[3.517s] Invoked command in '/home/handsome/ros_ws_test/build/cellctrl_control_msgs' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/cellctrl_control_msgs -- -j12 -l12
+[4.853s] Invoking command in '/home/handsome/ros_ws_test/build/cellctrl_control_msgs': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/cellctrl_control_msgs --target tests -- -j12 -l12
+[5.339s] [35m[1mScanning dependencies of target tests[0m
+[5.448s] Built target tests
+[5.495s] Invoked command in '/home/handsome/ros_ws_test/build/cellctrl_control_msgs' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/cellctrl_control_msgs --target tests -- -j12 -l12
+[7.687s] Invoking command in '/home/handsome/ros_ws_test/build/cellctrl_control_msgs': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/cellctrl_control_msgs --target install -- -j12 -l12
+[8.047s] [  0%] Built target actionlib_msgs_generate_messages_py
+[8.121s] [  0%] Built target std_msgs_generate_messages_py
+[8.159s] [  0%] Built target geometry_msgs_generate_messages_py
+[8.225s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_alarmhistory_cmd
+[8.252s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_base_mcfunction_cmd
+[8.279s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_base_cell_controller
+[8.315s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_base_device
+[8.321s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_operatehistory_cmd
+[8.325s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_maintainhistory
+[8.353s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_agv_imu
+[8.369s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_battery_caculate_cmd
+[8.386s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_agv_main_cmd
+[8.421s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_base_maintain
+[8.603s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_base_operate
+[8.615s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_agv_basetype_cmd
+[8.672s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_work_orderitems_cmd
+[8.762s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_agv_lidar
+[8.763s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_work_stationitems
+[8.796s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_work_ordergoods
+[8.826s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_agv_battery_cmd
+[8.855s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_agv_camera_cmd
+[8.855s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_alarmhistory
+[8.874s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_agv_motor
+[8.912s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_work_ordergoods_cmd
+[8.924s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_agv_basetypeitems_cmd
+[9.152s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_battery_caculate
+[9.161s] [  0%] Built target std_srvs_generate_messages_py
+[9.177s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_base_device_cmd
+[9.235s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_battery_remain_cmd
+[9.448s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_agv_camera
+[9.454s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_work_stations
+[9.501s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_base_mcfunction
+[9.529s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_work_stations_cmd
+[9.529s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_agv_basetypeitems
+[9.641s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_operatehistory
+[9.698s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_base_transfer_cmd
+[9.720s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_base_alarm
+[9.730s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_work_order_cmd
+[9.740s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_battery_remain
+[9.852s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_base_cell_controller_cmd
+[9.948s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_base_transfer
+[10.057s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_agv_basetype
+[10.076s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_agv_lidar_cmd
+[10.105s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_agv_imu_cmd
+[10.105s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_work_order
+[10.139s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_agv_battery
+[10.158s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_base_alarm_cmd
+[10.188s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_base_maintain_cmd
+[10.220s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_agv_motor_cmd
+[10.251s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_work_orderitems
+[10.273s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_work_stationitems_cmd
+[10.295s] [  0%] Built target geometry_msgs_generate_messages_eus
+[10.303s] [  0%] Built target std_srvs_generate_messages_eus
+[10.315s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[10.319s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_base_operate_cmd
+[10.331s] [  0%] Built target std_msgs_generate_messages_eus
+[10.356s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[10.359s] [  0%] Built target std_msgs_generate_messages_cpp
+[10.373s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_agv_main
+[10.395s] [  0%] Built target std_srvs_generate_messages_cpp
+[10.433s] [  0%] Built target std_srvs_generate_messages_nodejs
+[10.463s] [  0%] Built target _cellctrl_control_msgs_generate_messages_check_deps_cell_maintainhistory_cmd
+[10.465s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[10.480s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[10.559s] [  0%] Built target std_msgs_generate_messages_nodejs
+[10.560s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[10.564s] [  0%] Built target std_msgs_generate_messages_lisp
+[10.571s] [  0%] Built target std_srvs_generate_messages_lisp
+[10.583s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[10.595s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[10.690s] [ 20%] Built target cellctrl_control_msgs_generate_messages_py
+[10.703s] [ 38%] Built target cellctrl_control_msgs_generate_messages_cpp
+[10.768s] [ 60%] Built target cellctrl_control_msgs_generate_messages_eus
+[10.819s] [ 80%] Built target cellctrl_control_msgs_generate_messages_lisp
+[10.901s] [100%] Built target cellctrl_control_msgs_generate_messages_nodejs
+[11.031s] [100%] Built target cellctrl_control_msgs_generate_messages
+[11.206s] [36mInstall the project...[0m
+[11.321s] -- Install configuration: ""
+[11.322s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/msg/cell_base_device.msg
+[11.322s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/msg/cell_base_transfer.msg
+[11.322s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/msg/cell_base_mcfunction.msg
+[11.322s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/msg/cell_base_alarm.msg
+[11.322s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/msg/cell_base_maintain.msg
+[11.323s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/msg/cell_base_operate.msg
+[11.323s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/msg/base_cell_controller.msg
+[11.323s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/msg/cell_agv_basetype.msg
+[11.323s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/msg/cell_agv_basetypeitems.msg
+[11.323s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/msg/cell_work_order.msg
+[11.323s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/msg/cell_work_ordergoods.msg
+[11.324s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/msg/cell_work_orderitems.msg
+[11.324s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/msg/cell_work_stations.msg
+[11.324s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/msg/cell_work_stationitems.msg
+[11.324s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/msg/cell_agv_main.msg
+[11.324s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/msg/cell_agv_motor.msg
+[11.324s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/msg/cell_agv_imu.msg
+[11.325s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/msg/cell_agv_lidar.msg
+[11.325s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/msg/cell_agv_camera.msg
+[11.325s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/msg/cell_agv_battery.msg
+[11.325s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/msg/cell_battery_caculate.msg
+[11.325s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/msg/cell_battery_remain.msg
+[11.326s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/msg/cell_alarmhistory.msg
+[11.326s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/msg/cell_maintainhistory.msg
+[11.326s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/msg/cell_operatehistory.msg
+[11.368s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/srv/cell_base_device_cmd.srv
+[11.368s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/srv/cell_base_transfer_cmd.srv
+[11.368s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/srv/cell_base_mcfunction_cmd.srv
+[11.369s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/srv/cell_base_alarm_cmd.srv
+[11.369s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/srv/cell_base_maintain_cmd.srv
+[11.369s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/srv/cell_base_operate_cmd.srv
+[11.369s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/srv/base_cell_controller_cmd.srv
+[11.369s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/srv/cell_agv_basetype_cmd.srv
+[11.369s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/srv/cell_agv_basetypeitems_cmd.srv
+[11.369s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/srv/cell_work_order_cmd.srv
+[11.369s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/srv/cell_work_ordergoods_cmd.srv
+[11.369s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/srv/cell_work_orderitems_cmd.srv
+[11.369s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/srv/cell_work_stations_cmd.srv
+[11.369s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/srv/cell_work_stationitems_cmd.srv
+[11.369s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/srv/cell_agv_main_cmd.srv
+[11.370s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/srv/cell_agv_motor_cmd.srv
+[11.370s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/srv/cell_agv_imu_cmd.srv
+[11.370s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/srv/cell_agv_lidar_cmd.srv
+[11.370s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/srv/cell_agv_camera_cmd.srv
+[11.370s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/srv/cell_agv_battery_cmd.srv
+[11.370s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/srv/cell_battery_caculate_cmd.srv
+[11.370s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/srv/cell_battery_remain_cmd.srv
+[11.371s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/srv/cell_alarmhistory_cmd.srv
+[11.371s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/srv/cell_maintainhistory_cmd.srv
+[11.371s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/srv/cell_operatehistory_cmd.srv
+[11.372s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/cmake/cellctrl_control_msgs-msg-paths.cmake
+[11.384s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs
+[11.384s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_maintainhistory_cmd.h
+[11.384s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_base_operate_cmdRequest.h
+[11.384s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_agv_main_cmdResponse.h
+[11.384s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_agv_camera_cmdRequest.h
+[11.384s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_agv_imu.h
+[11.384s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_work_stationitems.h
+[11.384s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_base_maintain_cmdResponse.h
+[11.385s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_agv_basetype_cmdResponse.h
+[11.385s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_work_stationitems_cmdResponse.h
+[11.385s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_agv_lidar.h
+[11.386s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_agv_camera.h
+[11.386s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_agv_camera_cmd.h
+[11.386s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_operatehistory_cmd.h
+[11.386s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_agv_battery_cmdResponse.h
+[11.386s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_agv_basetypeitems.h
+[11.387s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_operatehistory_cmdResponse.h
+[11.387s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_maintainhistory.h
+[11.387s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_agv_motor_cmdRequest.h
+[11.387s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_work_ordergoods_cmdResponse.h
+[11.387s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/base_cell_controller_cmd.h
+[11.387s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_alarmhistory.h
+[11.387s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_base_alarm_cmdRequest.h
+[11.387s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_work_ordergoods_cmdRequest.h
+[11.387s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_work_order_cmdRequest.h
+[11.388s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_agv_battery_cmd.h
+[11.388s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_agv_battery.h
+[11.388s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_alarmhistory_cmdResponse.h
+[11.388s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_alarmhistory_cmd.h
+[11.388s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_base_alarm.h
+[11.388s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_operatehistory.h
+[11.388s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_work_stationitems_cmd.h
+[11.389s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_agv_imu_cmdResponse.h
+[11.389s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_battery_caculate_cmdResponse.h
+[11.389s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_agv_motor.h
+[11.389s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_work_orderitems_cmd.h
+[11.389s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/base_cell_controller_cmdRequest.h
+[11.390s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_base_mcfunction_cmdRequest.h
+[11.390s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_agv_motor_cmdResponse.h
+[11.390s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_battery_caculate_cmdRequest.h
+[11.390s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_maintainhistory_cmdRequest.h
+[11.390s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_base_mcfunction_cmdResponse.h
+[11.390s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_battery_remain_cmdRequest.h
+[11.390s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_work_orderitems_cmdResponse.h
+[11.390s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_base_device_cmd.h
+[11.390s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_base_device_cmdResponse.h
+[11.391s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_base_operate_cmdResponse.h
+[11.391s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_base_transfer_cmdResponse.h
+[11.391s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_agv_main_cmd.h
+[11.391s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_work_stations_cmdResponse.h
+[11.391s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_agv_basetypeitems_cmd.h
+[11.391s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_work_orderitems_cmdRequest.h
+[11.391s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_agv_basetypeitems_cmdResponse.h
+[11.394s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_operatehistory_cmdRequest.h
+[11.394s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_agv_lidar_cmdRequest.h
+[11.395s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_work_ordergoods_cmd.h
+[11.395s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_work_stationitems_cmdRequest.h
+[11.414s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_work_stations_cmdRequest.h
+[11.414s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_battery_caculate_cmd.h
+[11.416s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_battery_caculate.h
+[11.419s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_base_maintain.h
+[11.424s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/base_cell_controller.h
+[11.424s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_agv_basetype_cmd.h
+[11.424s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_base_transfer_cmdRequest.h
+[11.424s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_agv_lidar_cmd.h
+[11.424s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_base_mcfunction.h
+[11.425s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_work_stations_cmd.h
+[11.425s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/base_cell_controller_cmdResponse.h
+[11.425s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_base_operate_cmd.h
+[11.425s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_battery_remain.h
+[11.425s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_agv_motor_cmd.h
+[11.425s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_base_operate.h
+[11.425s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_agv_basetype_cmdRequest.h
+[11.425s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_agv_imu_cmd.h
+[11.426s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_work_order.h
+[11.426s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_work_order_cmd.h
+[11.426s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_work_ordergoods.h
+[11.426s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_maintainhistory_cmdResponse.h
+[11.426s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_work_stations.h
+[11.426s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_agv_basetypeitems_cmdRequest.h
+[11.426s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_base_maintain_cmdRequest.h
+[11.426s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_base_transfer_cmd.h
+[11.427s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_agv_lidar_cmdResponse.h
+[11.427s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_base_mcfunction_cmd.h
+[11.427s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_agv_battery_cmdRequest.h
+[11.427s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_base_device_cmdRequest.h
+[11.427s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_agv_basetype.h
+[11.427s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_base_alarm_cmd.h
+[11.427s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_base_transfer.h
+[11.428s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_base_alarm_cmdResponse.h
+[11.428s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_base_maintain_cmd.h
+[11.428s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_agv_main.h
+[11.428s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_agv_camera_cmdResponse.h
+[11.428s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_work_order_cmdResponse.h
+[11.428s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_alarmhistory_cmdRequest.h
+[11.429s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_battery_remain_cmd.h
+[11.429s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_battery_remain_cmdResponse.h
+[11.429s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_agv_main_cmdRequest.h
+[11.429s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_work_orderitems.h
+[11.429s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_base_device.h
+[11.429s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/include/cellctrl_control_msgs/cell_agv_imu_cmdRequest.h
+[11.429s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs
+[11.429s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/msg
+[11.430s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/msg/cell_agv_lidar.l
+[11.430s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/msg/cell_battery_caculate.l
+[11.430s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/msg/cell_agv_main.l
+[11.430s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/msg/cell_base_alarm.l
+[11.430s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/msg/cell_maintainhistory.l
+[11.449s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/msg/base_cell_controller.l
+[11.450s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/msg/cell_operatehistory.l
+[11.450s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/msg/cell_work_orderitems.l
+[11.450s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/msg/cell_base_mcfunction.l
+[11.450s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/msg/cell_work_stations.l
+[11.450s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/msg/cell_base_transfer.l
+[11.450s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/msg/cell_battery_remain.l
+[11.451s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/msg/cell_work_ordergoods.l
+[11.451s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/msg/cell_work_stationitems.l
+[11.451s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/msg/cell_agv_battery.l
+[11.451s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/msg/cell_agv_motor.l
+[11.451s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/msg/cell_base_device.l
+[11.452s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/msg/cell_agv_imu.l
+[11.452s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/msg/cell_alarmhistory.l
+[11.452s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/msg/cell_agv_basetypeitems.l
+[11.452s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/msg/cell_agv_basetype.l
+[11.452s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/msg/cell_agv_camera.l
+[11.452s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/msg/cell_work_order.l
+[11.452s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/msg/cell_base_operate.l
+[11.452s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/msg/cell_base_maintain.l
+[11.452s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/manifest.l
+[11.453s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/srv
+[11.453s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/srv/base_cell_controller_cmd.l
+[11.453s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/srv/cell_work_order_cmd.l
+[11.453s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/srv/cell_work_stationitems_cmd.l
+[11.453s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/srv/cell_work_ordergoods_cmd.l
+[11.453s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/srv/cell_agv_main_cmd.l
+[11.453s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/srv/cell_maintainhistory_cmd.l
+[11.454s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/srv/cell_agv_battery_cmd.l
+[11.454s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/srv/cell_agv_camera_cmd.l
+[11.455s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/srv/cell_base_mcfunction_cmd.l
+[11.455s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/srv/cell_agv_basetype_cmd.l
+[11.455s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/srv/cell_base_operate_cmd.l
+[11.455s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/srv/cell_agv_lidar_cmd.l
+[11.460s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/srv/cell_work_orderitems_cmd.l
+[11.461s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/srv/cell_operatehistory_cmd.l
+[11.461s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/srv/cell_alarmhistory_cmd.l
+[11.461s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/srv/cell_base_maintain_cmd.l
+[11.461s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/srv/cell_battery_remain_cmd.l
+[11.461s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/srv/cell_work_stations_cmd.l
+[11.461s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/srv/cell_battery_caculate_cmd.l
+[11.461s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/srv/cell_base_device_cmd.l
+[11.462s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/srv/cell_agv_imu_cmd.l
+[11.462s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/srv/cell_base_alarm_cmd.l
+[11.462s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/srv/cell_agv_basetypeitems_cmd.l
+[11.462s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/srv/cell_agv_motor_cmd.l
+[11.462s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/roseus/ros/cellctrl_control_msgs/srv/cell_base_transfer_cmd.l
+[11.462s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs
+[11.462s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg
+[11.462s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/cell_work_orderitems.lisp
+[11.463s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/_package_cell_alarmhistory.lisp
+[11.463s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/cell_agv_lidar.lisp
+[11.463s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/_package_cell_agv_basetypeitems.lisp
+[11.464s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/cellctrl_control_msgs-msg.asd
+[11.464s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/_package_cell_agv_basetype.lisp
+[11.464s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/_package_cell_maintainhistory.lisp
+[11.464s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/_package_cell_base_alarm.lisp
+[11.464s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/cell_base_maintain.lisp
+[11.464s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/cell_base_transfer.lisp
+[11.464s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/_package_cell_agv_lidar.lisp
+[11.472s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/_package_cell_base_transfer.lisp
+[11.472s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/cell_maintainhistory.lisp
+[11.473s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/_package_cell_base_mcfunction.lisp
+[11.473s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/_package_cell_base_operate.lisp
+[11.473s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/_package_cell_battery_caculate.lisp
+[11.473s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/_package_cell_base_device.lisp
+[11.473s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/cell_alarmhistory.lisp
+[11.473s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/_package_cell_battery_remain.lisp
+[11.473s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/cell_base_operate.lisp
+[11.473s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/cell_work_order.lisp
+[11.474s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/cell_work_stations.lisp
+[11.474s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/_package_cell_work_orderitems.lisp
+[11.474s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/_package_cell_agv_battery.lisp
+[11.474s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/_package_cell_agv_imu.lisp
+[11.474s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/cell_work_ordergoods.lisp
+[11.474s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/_package_cell_agv_motor.lisp
+[11.474s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/_package.lisp
+[11.474s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/cell_agv_main.lisp
+[11.475s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/cell_base_mcfunction.lisp
+[11.475s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/_package_cell_operatehistory.lisp
+[11.475s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/cell_operatehistory.lisp
+[11.475s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/cell_base_device.lisp
+[11.476s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/_package_cell_agv_camera.lisp
+[11.476s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/_package_cell_base_maintain.lisp
+[11.476s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/_package_base_cell_controller.lisp
+[11.476s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/cell_agv_basetype.lisp
+[11.476s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/cell_agv_motor.lisp
+[11.476s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/cell_base_alarm.lisp
+[11.476s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/cell_battery_caculate.lisp
+[11.477s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/_package_cell_agv_main.lisp
+[11.477s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/cell_agv_basetypeitems.lisp
+[11.477s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/cell_agv_battery.lisp
+[11.477s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/_package_cell_work_stationitems.lisp
+[11.477s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/cell_work_stationitems.lisp
+[11.478s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/cell_agv_imu.lisp
+[11.478s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/_package_cell_work_ordergoods.lisp
+[11.478s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/cell_agv_camera.lisp
+[11.479s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/_package_cell_work_order.lisp
+[11.479s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/_package_cell_work_stations.lisp
+[11.479s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/cell_battery_remain.lisp
+[11.479s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/msg/base_cell_controller.lisp
+[11.479s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv
+[11.479s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/cell_work_ordergoods_cmd.lisp
+[11.479s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/cell_agv_motor_cmd.lisp
+[11.479s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/_package_cell_work_order_cmd.lisp
+[11.479s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/_package_cell_agv_camera_cmd.lisp
+[11.479s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/cell_agv_lidar_cmd.lisp
+[11.479s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/_package_cell_base_operate_cmd.lisp
+[11.480s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/_package_cell_alarmhistory_cmd.lisp
+[11.480s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/cell_base_alarm_cmd.lisp
+[11.480s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/_package_base_cell_controller_cmd.lisp
+[11.480s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/cell_base_maintain_cmd.lisp
+[11.480s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/_package_cell_agv_main_cmd.lisp
+[11.480s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/_package_cell_base_mcfunction_cmd.lisp
+[11.480s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/_package_cell_battery_remain_cmd.lisp
+[11.480s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/_package_cell_agv_basetype_cmd.lisp
+[11.481s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/cell_agv_basetype_cmd.lisp
+[11.481s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/cell_agv_battery_cmd.lisp
+[11.481s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/_package_cell_work_orderitems_cmd.lisp
+[11.481s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/_package_cell_agv_battery_cmd.lisp
+[11.481s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/_package_cell_work_stations_cmd.lisp
+[11.481s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/cellctrl_control_msgs-srv.asd
+[11.494s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/_package_cell_base_maintain_cmd.lisp
+[11.495s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/_package_cell_base_device_cmd.lisp
+[11.495s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/cell_base_device_cmd.lisp
+[11.495s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/cell_work_stations_cmd.lisp
+[11.495s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/_package.lisp
+[11.496s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/cell_agv_basetypeitems_cmd.lisp
+[11.496s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/_package_cell_agv_basetypeitems_cmd.lisp
+[11.496s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/_package_cell_battery_caculate_cmd.lisp
+[11.496s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/_package_cell_base_alarm_cmd.lisp
+[11.497s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/cell_operatehistory_cmd.lisp
+[11.497s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/cell_base_operate_cmd.lisp
+[11.497s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/cell_battery_caculate_cmd.lisp
+[11.497s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/cell_battery_remain_cmd.lisp
+[11.497s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/_package_cell_agv_lidar_cmd.lisp
+[11.497s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/cell_agv_imu_cmd.lisp
+[11.507s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/base_cell_controller_cmd.lisp
+[11.508s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/_package_cell_work_ordergoods_cmd.lisp
+[11.509s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/cell_work_stationitems_cmd.lisp
+[11.509s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/_package_cell_agv_motor_cmd.lisp
+[11.509s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/cell_base_transfer_cmd.lisp
+[11.509s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/cell_work_order_cmd.lisp
+[11.509s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/_package_cell_work_stationitems_cmd.lisp
+[11.509s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/_package_cell_maintainhistory_cmd.lisp
+[11.509s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/cell_maintainhistory_cmd.lisp
+[11.509s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/cell_agv_camera_cmd.lisp
+[11.509s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/_package_cell_operatehistory_cmd.lisp
+[11.509s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/cell_work_orderitems_cmd.lisp
+[11.510s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/cell_agv_main_cmd.lisp
+[11.510s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/_package_cell_agv_imu_cmd.lisp
+[11.510s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/cell_alarmhistory_cmd.lisp
+[11.510s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/_package_cell_base_transfer_cmd.lisp
+[11.510s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/common-lisp/ros/cellctrl_control_msgs/srv/cell_base_mcfunction_cmd.lisp
+[11.522s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs
+[11.523s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/msg
+[11.533s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/msg/cell_base_maintain.js
+[11.533s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/msg/cell_base_operate.js
+[11.533s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/msg/cell_agv_camera.js
+[11.533s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/msg/cell_agv_battery.js
+[11.533s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/msg/cell_agv_basetypeitems.js
+[11.541s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/msg/cell_base_mcfunction.js
+[11.541s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/msg/_index.js
+[11.541s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/msg/cell_operatehistory.js
+[11.541s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/msg/cell_maintainhistory.js
+[11.541s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/msg/cell_work_stations.js
+[11.542s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/msg/cell_agv_lidar.js
+[11.542s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/msg/cell_battery_caculate.js
+[11.542s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/msg/cell_work_ordergoods.js
+[11.542s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/msg/cell_base_transfer.js
+[11.542s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/msg/cell_base_alarm.js
+[11.542s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/msg/cell_battery_remain.js
+[11.542s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/msg/cell_agv_basetype.js
+[11.542s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/msg/cell_alarmhistory.js
+[11.543s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/msg/cell_agv_main.js
+[11.543s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/msg/cell_base_device.js
+[11.543s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/msg/base_cell_controller.js
+[11.543s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/msg/cell_work_stationitems.js
+[11.543s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/msg/cell_agv_motor.js
+[11.544s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/msg/cell_agv_imu.js
+[11.544s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/msg/cell_work_order.js
+[11.544s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/msg/cell_work_orderitems.js
+[11.544s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/_index.js
+[11.544s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/srv
+[11.544s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/srv/cell_maintainhistory_cmd.js
+[11.544s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/srv/cell_operatehistory_cmd.js
+[11.545s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/srv/cell_base_alarm_cmd.js
+[11.545s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/srv/cell_agv_main_cmd.js
+[11.545s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/srv/cell_base_device_cmd.js
+[11.545s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/srv/_index.js
+[11.545s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/srv/cell_work_stationitems_cmd.js
+[11.545s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/srv/cell_base_mcfunction_cmd.js
+[11.545s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/srv/cell_work_ordergoods_cmd.js
+[11.545s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/srv/cell_agv_basetype_cmd.js
+[11.546s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/srv/cell_agv_basetypeitems_cmd.js
+[11.546s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/srv/cell_base_operate_cmd.js
+[11.546s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/srv/base_cell_controller_cmd.js
+[11.546s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/srv/cell_base_maintain_cmd.js
+[11.546s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/srv/cell_work_stations_cmd.js
+[11.546s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/srv/cell_battery_caculate_cmd.js
+[11.546s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/srv/cell_work_orderitems_cmd.js
+[11.546s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/srv/cell_work_order_cmd.js
+[11.547s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/srv/cell_alarmhistory_cmd.js
+[11.547s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/srv/cell_battery_remain_cmd.js
+[11.547s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/srv/cell_agv_imu_cmd.js
+[11.547s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/srv/cell_agv_battery_cmd.js
+[11.547s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/srv/cell_agv_motor_cmd.js
+[11.547s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/srv/cell_base_transfer_cmd.js
+[11.548s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/srv/cell_agv_camera_cmd.js
+[11.548s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/gennodejs/ros/cellctrl_control_msgs/srv/cell_agv_lidar_cmd.js
+[11.664s] Listing /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs ...
+[11.664s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/__init__.py ...
+[11.664s] Listing /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/msg ...
+[11.664s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/__init__.py ...
+[11.665s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_base_cell_controller.py ...
+[11.665s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_agv_basetype.py ...
+[11.665s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_agv_basetypeitems.py ...
+[11.665s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_agv_battery.py ...
+[11.665s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_agv_camera.py ...
+[11.665s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_agv_imu.py ...
+[11.665s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_agv_lidar.py ...
+[11.666s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_agv_main.py ...
+[11.666s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_agv_motor.py ...
+[11.666s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_alarmhistory.py ...
+[11.666s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_base_alarm.py ...
+[11.666s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_base_device.py ...
+[11.666s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_base_maintain.py ...
+[11.666s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_base_mcfunction.py ...
+[11.667s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_base_operate.py ...
+[11.667s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_base_transfer.py ...
+[11.667s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_battery_caculate.py ...
+[11.667s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_battery_remain.py ...
+[11.667s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_maintainhistory.py ...
+[11.667s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_operatehistory.py ...
+[11.667s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_work_order.py ...
+[11.668s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_work_ordergoods.py ...
+[11.668s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_work_orderitems.py ...
+[11.901s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_work_stationitems.py ...
+[11.901s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_work_stations.py ...
+[11.902s] Listing /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/srv ...
+[11.902s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/__init__.py ...
+[11.902s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_base_cell_controller_cmd.py ...
+[11.902s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_agv_basetype_cmd.py ...
+[11.902s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_agv_basetypeitems_cmd.py ...
+[11.902s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_agv_battery_cmd.py ...
+[11.902s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_agv_camera_cmd.py ...
+[11.902s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_agv_imu_cmd.py ...
+[11.902s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_agv_lidar_cmd.py ...
+[11.902s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_agv_main_cmd.py ...
+[11.903s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_agv_motor_cmd.py ...
+[11.903s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_alarmhistory_cmd.py ...
+[11.903s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_base_alarm_cmd.py ...
+[11.903s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_base_device_cmd.py ...
+[11.903s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_base_maintain_cmd.py ...
+[11.903s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_base_mcfunction_cmd.py ...
+[11.903s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_base_operate_cmd.py ...
+[11.904s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_base_transfer_cmd.py ...
+[11.904s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_battery_caculate_cmd.py ...
+[11.904s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_battery_remain_cmd.py ...
+[11.905s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_maintainhistory_cmd.py ...
+[11.905s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_operatehistory_cmd.py ...
+[11.905s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_work_order_cmd.py ...
+[11.905s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_work_ordergoods_cmd.py ...
+[11.905s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_work_orderitems_cmd.py ...
+[11.925s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_work_stationitems_cmd.py ...
+[11.925s] Compiling /home/handsome/ros_ws_test/build/cellctrl_control_msgs/devel/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_work_stations_cmd.py ...
+[11.929s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs
+[11.929s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg
+[11.929s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_work_order.pyc
+[11.929s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_agv_motor.py
+[11.930s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_agv_basetypeitems.pyc
+[11.930s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_work_orderitems.pyc
+[11.930s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_agv_camera.py
+[11.930s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_base_operate.py
+[11.930s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_agv_basetype.py
+[11.931s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_agv_imu.pyc
+[11.932s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_agv_motor.pyc
+[11.932s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_maintainhistory.py
+[11.932s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_battery_remain.pyc
+[11.932s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_operatehistory.py
+[11.933s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/__init__.py
+[11.933s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_work_stations.pyc
+[11.933s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_work_ordergoods.pyc
+[11.933s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_battery_caculate.pyc
+[11.933s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_agv_battery.pyc
+[11.933s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_base_device.pyc
+[11.933s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_base_alarm.pyc
+[11.934s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_base_operate.pyc
+[11.934s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_maintainhistory.pyc
+[11.934s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_agv_basetype.pyc
+[11.934s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_agv_main.pyc
+[11.935s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_alarmhistory.py
+[11.935s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_battery_caculate.py
+[11.935s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_base_maintain.py
+[11.936s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_operatehistory.pyc
+[11.936s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_work_stationitems.py
+[11.937s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_work_stationitems.pyc
+[11.937s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_base_cell_controller.pyc
+[11.937s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_agv_camera.pyc
+[11.938s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_work_orderitems.py
+[11.940s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_base_maintain.pyc
+[11.941s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_base_mcfunction.pyc
+[11.941s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_agv_imu.py
+[11.941s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_agv_battery.py
+[11.941s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_base_device.py
+[11.941s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_battery_remain.py
+[11.941s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_base_transfer.py
+[11.941s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_base_mcfunction.py
+[11.941s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_work_order.py
+[11.941s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_base_transfer.pyc
+[11.941s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_work_stations.py
+[11.942s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_agv_main.py
+[11.942s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_base_cell_controller.py
+[11.942s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_work_ordergoods.py
+[11.942s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_agv_lidar.pyc
+[11.942s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/__init__.pyc
+[11.942s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_base_alarm.py
+[11.942s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_alarmhistory.pyc
+[11.942s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_agv_basetypeitems.py
+[11.944s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/msg/_cell_agv_lidar.py
+[11.944s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/__init__.py
+[11.944s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv
+[11.944s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_base_mcfunction_cmd.py
+[11.944s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_agv_basetype_cmd.py
+[11.945s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_agv_basetype_cmd.pyc
+[11.945s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_work_stationitems_cmd.py
+[11.945s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_battery_caculate_cmd.pyc
+[11.945s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_agv_main_cmd.py
+[11.945s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_work_order_cmd.pyc
+[11.945s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_base_device_cmd.py
+[11.945s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/__init__.py
+[11.945s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_agv_camera_cmd.pyc
+[11.946s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_work_stationitems_cmd.pyc
+[11.946s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_battery_caculate_cmd.py
+[11.946s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_alarmhistory_cmd.py
+[11.946s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_operatehistory_cmd.py
+[11.947s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_base_mcfunction_cmd.pyc
+[11.947s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_agv_lidar_cmd.py
+[11.947s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_base_operate_cmd.py
+[11.952s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_base_transfer_cmd.py
+[11.952s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_agv_motor_cmd.py
+[11.952s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_work_stations_cmd.pyc
+[11.952s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_base_maintain_cmd.py
+[11.952s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_agv_basetypeitems_cmd.pyc
+[11.953s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_operatehistory_cmd.pyc
+[11.953s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_base_device_cmd.pyc
+[11.953s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_work_orderitems_cmd.py
+[11.953s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_agv_battery_cmd.pyc
+[11.953s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_base_maintain_cmd.pyc
+[11.953s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_agv_imu_cmd.pyc
+[11.953s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_work_ordergoods_cmd.py
+[11.953s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_work_orderitems_cmd.pyc
+[11.953s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_base_alarm_cmd.pyc
+[11.954s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_maintainhistory_cmd.py
+[11.954s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_base_transfer_cmd.pyc
+[11.954s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_base_cell_controller_cmd.py
+[11.954s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_alarmhistory_cmd.pyc
+[11.954s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_agv_lidar_cmd.pyc
+[11.954s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_work_order_cmd.py
+[11.954s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_agv_imu_cmd.py
+[11.954s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_agv_camera_cmd.py
+[11.955s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_work_ordergoods_cmd.pyc
+[11.955s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_base_operate_cmd.pyc
+[11.956s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_base_cell_controller_cmd.pyc
+[11.956s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/__init__.pyc
+[11.956s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_battery_remain_cmd.py
+[11.956s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_agv_basetypeitems_cmd.py
+[11.956s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_agv_battery_cmd.py
+[11.957s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_work_stations_cmd.py
+[11.957s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_battery_remain_cmd.pyc
+[11.957s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_agv_motor_cmd.pyc
+[11.957s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_maintainhistory_cmd.pyc
+[11.957s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_agv_main_cmd.pyc
+[11.957s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/srv/_cell_base_alarm_cmd.py
+[11.958s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages/cellctrl_control_msgs/__init__.pyc
+[11.958s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/pkgconfig/cellctrl_control_msgs.pc
+[11.958s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/cmake/cellctrl_control_msgs-msg-extras.cmake
+[11.958s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/cmake/cellctrl_control_msgsConfig.cmake
+[11.958s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/cmake/cellctrl_control_msgsConfig-version.cmake
+[11.958s] -- Installing: /home/handsome/ros_ws_test/install/cellctrl_control_msgs/share/cellctrl_control_msgs/package.xml
+[11.967s] Invoked command in '/home/handsome/ros_ws_test/build/cellctrl_control_msgs' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/cellctrl_control_msgs --target install -- -j12 -l12

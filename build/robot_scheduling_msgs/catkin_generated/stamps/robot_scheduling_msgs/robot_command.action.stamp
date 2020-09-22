@@ -1,0 +1,30 @@
+# Define the goal
+uint8 GET=1
+uint8 SET=2
+uint8 DISPATCH =3
+uint8 command
+uint8 UNKNOW=1
+uint8 INIT_POSE=2
+uint8 STANDBY=3
+uint8 MANU_RUN=4
+uint8 REMOTE=5
+uint8 ALARM=6
+uint8 EXIT=7
+uint8 set_status
+---
+# Define the result
+uint8 UNKNOW=1
+uint8 INIT_POSE=2
+uint8 STANDBY=3
+uint8 MANU_RUN=4
+uint8 REMOTE=5
+uint8 ALARM=6
+uint8 EXIT=7
+uint8 status
+uint8 OK=1
+uint8 NOT_OK=2
+uint8 TIMED_OUT=3
+uint8 OUT_OF_TIMES=4
+uint8 result
+---
+# Define a feedback message

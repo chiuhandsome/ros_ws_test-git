@@ -1,0 +1,7 @@
+int8 cmd_id	        # 1:Add , 2:modify 3:delete 4:requery 		
+string index_name 
+string parameter 	
+robot_ctrl_alarmHistory rec_alarmHistory	 
+---
+bool result
+robot_ctrl_alarmHistory result_alarmHistory

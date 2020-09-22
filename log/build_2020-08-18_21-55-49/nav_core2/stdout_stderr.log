@@ -1,0 +1,28 @@
+[100%] Built target basic_costmap
+[35m[1mScanning dependencies of target gtest[0m
+[ 25%] [32mBuilding CXX object gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 50%] [32m[1mLinking CXX shared library libgtest.so[0m
+[ 50%] Built target gtest
+[35m[1mScanning dependencies of target bounds_test[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/bounds_test.dir/test/bounds_test.cpp.o[0m
+[100%] [32m[1mLinking CXX executable devel/lib/nav_core2/bounds_test[0m
+[100%] Built target bounds_test
+[35m[1mScanning dependencies of target tests[0m
+[100%] Built target tests
+[100%] Built target basic_costmap
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/handsome/ros_ws_test/install/nav_core2/lib/pkgconfig/nav_core2.pc
+-- Installing: /home/handsome/ros_ws_test/install/nav_core2/share/nav_core2/cmake/nav_core2Config.cmake
+-- Installing: /home/handsome/ros_ws_test/install/nav_core2/share/nav_core2/cmake/nav_core2Config-version.cmake
+-- Installing: /home/handsome/ros_ws_test/install/nav_core2/share/nav_core2/package.xml
+-- Installing: /home/handsome/ros_ws_test/install/nav_core2/include/nav_core2
+-- Installing: /home/handsome/ros_ws_test/install/nav_core2/include/nav_core2/costmap.h
+-- Installing: /home/handsome/ros_ws_test/install/nav_core2/include/nav_core2/bounds.h
+-- Installing: /home/handsome/ros_ws_test/install/nav_core2/include/nav_core2/exceptions.h
+-- Installing: /home/handsome/ros_ws_test/install/nav_core2/include/nav_core2/local_planner.h
+-- Installing: /home/handsome/ros_ws_test/install/nav_core2/include/nav_core2/basic_costmap.h
+-- Installing: /home/handsome/ros_ws_test/install/nav_core2/include/nav_core2/global_planner.h
+-- Installing: /home/handsome/ros_ws_test/install/nav_core2/include/nav_core2/common.h
+-- Installing: /home/handsome/ros_ws_test/install/nav_core2/lib/libbasic_costmap.so
+-- Set runtime path of "/home/handsome/ros_ws_test/install/nav_core2/lib/libbasic_costmap.so" to ""

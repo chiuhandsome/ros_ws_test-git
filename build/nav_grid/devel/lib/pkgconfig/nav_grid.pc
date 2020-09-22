@@ -1,0 +1,8 @@
+prefix=/home/handsome/ros_ws_test/build/nav_grid/devel
+
+Name: nav_grid
+Description: Description of nav_grid
+Version: 0.2.4
+Cflags: -I/home/handsome/ros_ws_test/src/ros_base/robot_navigation/nav_grid/include
+Libs: -L${prefix}/lib 
+Requires: 

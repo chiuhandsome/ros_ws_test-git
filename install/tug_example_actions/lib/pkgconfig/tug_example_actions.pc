@@ -1,0 +1,8 @@
+prefix=/home/handsome/ros_ws_test/install/tug_example_actions
+
+Name: tug_example_actions
+Description: Description of tug_example_actions
+Version: 0.0.11
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: actionlib roscpp tug_example_msgs

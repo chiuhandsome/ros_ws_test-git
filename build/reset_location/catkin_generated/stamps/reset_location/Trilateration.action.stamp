@@ -1,0 +1,17 @@
+#goal
+float64 tag1_x
+float64 tag1_y
+float64 tag2_x
+float64 tag2_y
+float64 tag3_x
+float64 tag3_y
+---
+#result
+int32   error_code 
+float64 x
+float64 y
+float64 theta
+---
+#feedback
+bool feedback
+

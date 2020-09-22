@@ -1,0 +1,231 @@
+[0.101s] Invoking command in '/home/handsome/ros_ws_test/build/open_auto_dock_msgs': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/open_auto_dock_msgs -- -j12 -l12
+[1.041s] [  0%] Built target geometry_msgs_generate_messages_py
+[1.078s] [  0%] Built target _open_auto_dock_msgs_generate_messages_check_deps_DockFeedback
+[1.109s] [  0%] Built target actionlib_msgs_generate_messages_py
+[1.371s] [  0%] Built target _open_auto_dock_msgs_generate_messages_check_deps_UndockActionFeedback
+[1.421s] [  0%] Built target _open_auto_dock_msgs_generate_messages_check_deps_DockActionGoal
+[1.469s] [  0%] Built target _open_auto_dock_msgs_generate_messages_check_deps_UndockAction
+[1.476s] [  0%] Built target _open_auto_dock_msgs_generate_messages_check_deps_UndockFeedback
+[1.487s] [  0%] Built target _open_auto_dock_msgs_generate_messages_check_deps_UndockActionGoal
+[1.508s] [  0%] Built target _open_auto_dock_msgs_generate_messages_check_deps_DockActionFeedback
+[1.523s] [  0%] Built target _open_auto_dock_msgs_generate_messages_check_deps_DockGoal
+[1.641s] [  0%] Built target _open_auto_dock_msgs_generate_messages_check_deps_UndockActionResult
+[1.722s] [  0%] Built target _open_auto_dock_msgs_generate_messages_check_deps_UndockResult
+[1.839s] [  0%] Built target geometry_msgs_generate_messages_eus
+[1.855s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[1.884s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[1.884s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[1.939s] [  0%] Built target _open_auto_dock_msgs_generate_messages_check_deps_DockAction
+[1.939s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[1.940s] [  0%] Built target _open_auto_dock_msgs_generate_messages_check_deps_DockActionResult
+[2.001s] [  0%] Built target _open_auto_dock_msgs_generate_messages_check_deps_UndockGoal
+[2.136s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[2.151s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[2.204s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[2.235s] [  0%] Built target _open_auto_dock_msgs_generate_messages_check_deps_Cloud
+[2.242s] [  0%] Built target _open_auto_dock_msgs_generate_messages_check_deps_DockResult
+[2.443s] [ 19%] Built target open_auto_dock_msgs_generate_messages_lisp
+[2.500s] [ 39%] Built target open_auto_dock_msgs_generate_messages_eus
+[2.507s] [ 58%] Built target open_auto_dock_msgs_generate_messages_nodejs
+[2.508s] [ 78%] Built target open_auto_dock_msgs_generate_messages_cpp
+[2.538s] [100%] Built target open_auto_dock_msgs_generate_messages_py
+[2.713s] [100%] Built target open_auto_dock_msgs_generate_messages
+[2.769s] Invoked command in '/home/handsome/ros_ws_test/build/open_auto_dock_msgs' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/open_auto_dock_msgs -- -j12 -l12
+[3.103s] Invoking command in '/home/handsome/ros_ws_test/build/open_auto_dock_msgs': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/open_auto_dock_msgs --target tests -- -j12 -l12
+[3.255s] Built target tests
+[3.339s] Invoked command in '/home/handsome/ros_ws_test/build/open_auto_dock_msgs' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/open_auto_dock_msgs --target tests -- -j12 -l12
+[4.819s] Invoking command in '/home/handsome/ros_ws_test/build/open_auto_dock_msgs': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/open_auto_dock_msgs --target install -- -j12 -l12
+[5.265s] [  0%] Built target actionlib_msgs_generate_messages_py
+[5.276s] [  0%] Built target geometry_msgs_generate_messages_py
+[5.405s] [  0%] Built target _open_auto_dock_msgs_generate_messages_check_deps_UndockActionFeedback
+[5.432s] [  0%] Built target _open_auto_dock_msgs_generate_messages_check_deps_DockActionGoal
+[5.445s] [  0%] Built target _open_auto_dock_msgs_generate_messages_check_deps_UndockActionGoal
+[5.475s] [  0%] Built target _open_auto_dock_msgs_generate_messages_check_deps_UndockAction
+[5.517s] [  0%] Built target _open_auto_dock_msgs_generate_messages_check_deps_DockFeedback
+[5.569s] [  0%] Built target _open_auto_dock_msgs_generate_messages_check_deps_UndockResult
+[5.574s] [  0%] Built target _open_auto_dock_msgs_generate_messages_check_deps_DockAction
+[5.599s] [  0%] Built target _open_auto_dock_msgs_generate_messages_check_deps_DockActionFeedback
+[5.649s] [  0%] Built target _open_auto_dock_msgs_generate_messages_check_deps_UndockActionResult
+[5.655s] [  0%] Built target _open_auto_dock_msgs_generate_messages_check_deps_DockGoal
+[5.679s] [  0%] Built target _open_auto_dock_msgs_generate_messages_check_deps_UndockFeedback
+[5.722s] [  0%] Built target _open_auto_dock_msgs_generate_messages_check_deps_DockActionResult
+[5.822s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[5.845s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[5.856s] [  0%] Built target geometry_msgs_generate_messages_eus
+[5.857s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[5.858s] [  0%] Built target _open_auto_dock_msgs_generate_messages_check_deps_Cloud
+[5.866s] [  0%] Built target _open_auto_dock_msgs_generate_messages_check_deps_DockResult
+[5.889s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[5.900s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[5.927s] [  0%] Built target _open_auto_dock_msgs_generate_messages_check_deps_UndockGoal
+[5.933s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[5.957s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[6.158s] [ 19%] Built target open_auto_dock_msgs_generate_messages_nodejs
+[6.199s] [ 39%] Built target open_auto_dock_msgs_generate_messages_eus
+[6.249s] [ 58%] Built target open_auto_dock_msgs_generate_messages_lisp
+[6.259s] [ 78%] Built target open_auto_dock_msgs_generate_messages_cpp
+[6.337s] [100%] Built target open_auto_dock_msgs_generate_messages_py
+[6.636s] [100%] Built target open_auto_dock_msgs_generate_messages
+[6.970s] [36mInstall the project...[0m
+[7.096s] -- Install configuration: ""
+[7.098s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/open_auto_dock_msgs/srv/Cloud.srv
+[7.098s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/open_auto_dock_msgs/action/Dock.action
+[7.099s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/open_auto_dock_msgs/action/Undock.action
+[7.099s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/open_auto_dock_msgs/msg/DockAction.msg
+[7.099s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/open_auto_dock_msgs/msg/DockActionGoal.msg
+[7.100s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/open_auto_dock_msgs/msg/DockActionResult.msg
+[7.100s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/open_auto_dock_msgs/msg/DockActionFeedback.msg
+[7.100s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/open_auto_dock_msgs/msg/DockGoal.msg
+[7.100s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/open_auto_dock_msgs/msg/DockResult.msg
+[7.100s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/open_auto_dock_msgs/msg/DockFeedback.msg
+[7.101s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/open_auto_dock_msgs/msg/UndockAction.msg
+[7.101s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/open_auto_dock_msgs/msg/UndockActionGoal.msg
+[7.101s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/open_auto_dock_msgs/msg/UndockActionResult.msg
+[7.101s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/open_auto_dock_msgs/msg/UndockActionFeedback.msg
+[7.101s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/open_auto_dock_msgs/msg/UndockGoal.msg
+[7.101s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/open_auto_dock_msgs/msg/UndockResult.msg
+[7.101s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/open_auto_dock_msgs/msg/UndockFeedback.msg
+[7.101s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/open_auto_dock_msgs/cmake/open_auto_dock_msgs-msg-paths.cmake
+[7.101s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/include/open_auto_dock_msgs
+[7.102s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/include/open_auto_dock_msgs/UndockActionResult.h
+[7.102s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/include/open_auto_dock_msgs/UndockActionFeedback.h
+[7.102s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/include/open_auto_dock_msgs/UndockGoal.h
+[7.102s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/include/open_auto_dock_msgs/Cloud.h
+[7.102s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/include/open_auto_dock_msgs/CloudRequest.h
+[7.102s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/include/open_auto_dock_msgs/UndockResult.h
+[7.103s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/include/open_auto_dock_msgs/DockActionGoal.h
+[7.103s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/include/open_auto_dock_msgs/DockActionFeedback.h
+[7.103s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/include/open_auto_dock_msgs/DockResult.h
+[7.103s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/include/open_auto_dock_msgs/UndockAction.h
+[7.103s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/include/open_auto_dock_msgs/CloudResponse.h
+[7.104s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/include/open_auto_dock_msgs/DockFeedback.h
+[7.104s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/include/open_auto_dock_msgs/DockAction.h
+[7.104s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/include/open_auto_dock_msgs/UndockFeedback.h
+[7.104s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/include/open_auto_dock_msgs/DockActionResult.h
+[7.104s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/include/open_auto_dock_msgs/UndockActionGoal.h
+[7.104s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/include/open_auto_dock_msgs/DockGoal.h
+[7.104s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/roseus/ros/open_auto_dock_msgs
+[7.104s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/roseus/ros/open_auto_dock_msgs/msg
+[7.104s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/roseus/ros/open_auto_dock_msgs/msg/UndockFeedback.l
+[7.104s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/roseus/ros/open_auto_dock_msgs/msg/DockFeedback.l
+[7.105s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/roseus/ros/open_auto_dock_msgs/msg/DockActionResult.l
+[7.105s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/roseus/ros/open_auto_dock_msgs/msg/UndockActionFeedback.l
+[7.105s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/roseus/ros/open_auto_dock_msgs/msg/DockActionGoal.l
+[7.105s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/roseus/ros/open_auto_dock_msgs/msg/DockResult.l
+[7.105s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/roseus/ros/open_auto_dock_msgs/msg/UndockGoal.l
+[7.105s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/roseus/ros/open_auto_dock_msgs/msg/DockGoal.l
+[7.105s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/roseus/ros/open_auto_dock_msgs/msg/UndockAction.l
+[7.106s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/roseus/ros/open_auto_dock_msgs/msg/UndockResult.l
+[7.106s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/roseus/ros/open_auto_dock_msgs/msg/DockActionFeedback.l
+[7.106s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/roseus/ros/open_auto_dock_msgs/msg/DockAction.l
+[7.107s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/roseus/ros/open_auto_dock_msgs/msg/UndockActionResult.l
+[7.107s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/roseus/ros/open_auto_dock_msgs/msg/UndockActionGoal.l
+[7.107s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/roseus/ros/open_auto_dock_msgs/manifest.l
+[7.107s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/roseus/ros/open_auto_dock_msgs/srv
+[7.107s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/roseus/ros/open_auto_dock_msgs/srv/Cloud.l
+[7.107s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/common-lisp/ros/open_auto_dock_msgs
+[7.108s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/common-lisp/ros/open_auto_dock_msgs/msg
+[7.108s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/common-lisp/ros/open_auto_dock_msgs/msg/DockFeedback.lisp
+[7.108s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/common-lisp/ros/open_auto_dock_msgs/msg/UndockResult.lisp
+[7.108s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/common-lisp/ros/open_auto_dock_msgs/msg/DockActionResult.lisp
+[7.108s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/common-lisp/ros/open_auto_dock_msgs/msg/_package_UndockActionGoal.lisp
+[7.108s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/common-lisp/ros/open_auto_dock_msgs/msg/_package_UndockResult.lisp
+[7.109s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/common-lisp/ros/open_auto_dock_msgs/msg/UndockAction.lisp
+[7.109s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/common-lisp/ros/open_auto_dock_msgs/msg/_package_DockAction.lisp
+[7.109s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/common-lisp/ros/open_auto_dock_msgs/msg/_package_UndockGoal.lisp
+[7.109s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/common-lisp/ros/open_auto_dock_msgs/msg/UndockActionResult.lisp
+[7.110s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/common-lisp/ros/open_auto_dock_msgs/msg/DockAction.lisp
+[7.110s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/common-lisp/ros/open_auto_dock_msgs/msg/DockActionFeedback.lisp
+[7.110s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/common-lisp/ros/open_auto_dock_msgs/msg/_package.lisp
+[7.110s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/common-lisp/ros/open_auto_dock_msgs/msg/DockGoal.lisp
+[7.110s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/common-lisp/ros/open_auto_dock_msgs/msg/open_auto_dock_msgs-msg.asd
+[7.110s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/common-lisp/ros/open_auto_dock_msgs/msg/_package_UndockActionResult.lisp
+[7.110s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/common-lisp/ros/open_auto_dock_msgs/msg/UndockActionGoal.lisp
+[7.110s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/common-lisp/ros/open_auto_dock_msgs/msg/DockResult.lisp
+[7.110s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/common-lisp/ros/open_auto_dock_msgs/msg/_package_DockActionResult.lisp
+[7.110s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/common-lisp/ros/open_auto_dock_msgs/msg/UndockFeedback.lisp
+[7.111s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/common-lisp/ros/open_auto_dock_msgs/msg/_package_DockResult.lisp
+[7.111s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/common-lisp/ros/open_auto_dock_msgs/msg/_package_DockGoal.lisp
+[7.111s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/common-lisp/ros/open_auto_dock_msgs/msg/_package_DockFeedback.lisp
+[7.111s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/common-lisp/ros/open_auto_dock_msgs/msg/_package_UndockActionFeedback.lisp
+[7.111s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/common-lisp/ros/open_auto_dock_msgs/msg/UndockGoal.lisp
+[7.111s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/common-lisp/ros/open_auto_dock_msgs/msg/_package_DockActionGoal.lisp
+[7.112s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/common-lisp/ros/open_auto_dock_msgs/msg/_package_UndockAction.lisp
+[7.112s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/common-lisp/ros/open_auto_dock_msgs/msg/UndockActionFeedback.lisp
+[7.112s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/common-lisp/ros/open_auto_dock_msgs/msg/_package_UndockFeedback.lisp
+[7.112s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/common-lisp/ros/open_auto_dock_msgs/msg/_package_DockActionFeedback.lisp
+[7.112s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/common-lisp/ros/open_auto_dock_msgs/msg/DockActionGoal.lisp
+[7.113s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/common-lisp/ros/open_auto_dock_msgs/srv
+[7.113s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/common-lisp/ros/open_auto_dock_msgs/srv/open_auto_dock_msgs-srv.asd
+[7.113s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/common-lisp/ros/open_auto_dock_msgs/srv/_package.lisp
+[7.113s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/common-lisp/ros/open_auto_dock_msgs/srv/_package_Cloud.lisp
+[7.113s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/common-lisp/ros/open_auto_dock_msgs/srv/Cloud.lisp
+[7.113s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/gennodejs/ros/open_auto_dock_msgs
+[7.113s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/gennodejs/ros/open_auto_dock_msgs/msg
+[7.113s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/gennodejs/ros/open_auto_dock_msgs/msg/DockActionGoal.js
+[7.113s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/gennodejs/ros/open_auto_dock_msgs/msg/UndockActionGoal.js
+[7.113s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/gennodejs/ros/open_auto_dock_msgs/msg/DockResult.js
+[7.114s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/gennodejs/ros/open_auto_dock_msgs/msg/DockActionFeedback.js
+[7.114s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/gennodejs/ros/open_auto_dock_msgs/msg/_index.js
+[7.114s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/gennodejs/ros/open_auto_dock_msgs/msg/DockFeedback.js
+[7.114s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/gennodejs/ros/open_auto_dock_msgs/msg/UndockResult.js
+[7.114s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/gennodejs/ros/open_auto_dock_msgs/msg/UndockActionResult.js
+[7.114s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/gennodejs/ros/open_auto_dock_msgs/msg/UndockGoal.js
+[7.114s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/gennodejs/ros/open_auto_dock_msgs/msg/UndockFeedback.js
+[7.115s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/gennodejs/ros/open_auto_dock_msgs/msg/UndockActionFeedback.js
+[7.115s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/gennodejs/ros/open_auto_dock_msgs/msg/UndockAction.js
+[7.115s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/gennodejs/ros/open_auto_dock_msgs/msg/DockGoal.js
+[7.115s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/gennodejs/ros/open_auto_dock_msgs/msg/DockActionResult.js
+[7.116s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/gennodejs/ros/open_auto_dock_msgs/msg/DockAction.js
+[7.116s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/gennodejs/ros/open_auto_dock_msgs/_index.js
+[7.116s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/gennodejs/ros/open_auto_dock_msgs/srv
+[7.116s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/gennodejs/ros/open_auto_dock_msgs/srv/_index.js
+[7.116s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/gennodejs/ros/open_auto_dock_msgs/srv/Cloud.js
+[7.197s] Listing /home/handsome/ros_ws_test/build/open_auto_dock_msgs/devel/lib/python2.7/dist-packages/open_auto_dock_msgs ...
+[7.197s] Listing /home/handsome/ros_ws_test/build/open_auto_dock_msgs/devel/lib/python2.7/dist-packages/open_auto_dock_msgs/msg ...
+[7.197s] Listing /home/handsome/ros_ws_test/build/open_auto_dock_msgs/devel/lib/python2.7/dist-packages/open_auto_dock_msgs/srv ...
+[7.198s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages/open_auto_dock_msgs
+[7.198s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages/open_auto_dock_msgs/msg
+[7.198s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages/open_auto_dock_msgs/msg/_UndockActionFeedback.py
+[7.198s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages/open_auto_dock_msgs/msg/_UndockActionGoal.pyc
+[7.198s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages/open_auto_dock_msgs/msg/__init__.py
+[7.198s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages/open_auto_dock_msgs/msg/_UndockGoal.py
+[7.198s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages/open_auto_dock_msgs/msg/_DockFeedback.pyc
+[7.199s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages/open_auto_dock_msgs/msg/_DockResult.py
+[7.199s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages/open_auto_dock_msgs/msg/_DockActionFeedback.pyc
+[7.199s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages/open_auto_dock_msgs/msg/_DockActionResult.py
+[7.199s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages/open_auto_dock_msgs/msg/_UndockGoal.pyc
+[7.199s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages/open_auto_dock_msgs/msg/_DockAction.pyc
+[7.199s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages/open_auto_dock_msgs/msg/_DockAction.py
+[7.199s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages/open_auto_dock_msgs/msg/_UndockAction.pyc
+[7.210s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages/open_auto_dock_msgs/msg/_DockActionFeedback.py
+[7.210s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages/open_auto_dock_msgs/msg/_UndockResult.pyc
+[7.211s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages/open_auto_dock_msgs/msg/_UndockFeedback.py
+[7.211s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages/open_auto_dock_msgs/msg/_UndockAction.py
+[7.211s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages/open_auto_dock_msgs/msg/_UndockActionResult.py
+[7.211s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages/open_auto_dock_msgs/msg/_DockGoal.pyc
+[7.211s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages/open_auto_dock_msgs/msg/_UndockActionFeedback.pyc
+[7.211s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages/open_auto_dock_msgs/msg/_UndockActionGoal.py
+[7.211s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages/open_auto_dock_msgs/msg/_UndockActionResult.pyc
+[7.212s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages/open_auto_dock_msgs/msg/_DockResult.pyc
+[7.212s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages/open_auto_dock_msgs/msg/_UndockResult.py
+[7.212s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages/open_auto_dock_msgs/msg/__init__.pyc
+[7.212s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages/open_auto_dock_msgs/msg/_DockActionGoal.pyc
+[7.212s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages/open_auto_dock_msgs/msg/_DockActionGoal.py
+[7.212s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages/open_auto_dock_msgs/msg/_DockGoal.py
+[7.212s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages/open_auto_dock_msgs/msg/_DockActionResult.pyc
+[7.212s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages/open_auto_dock_msgs/msg/_UndockFeedback.pyc
+[7.213s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages/open_auto_dock_msgs/msg/_DockFeedback.py
+[7.213s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages/open_auto_dock_msgs/__init__.py
+[7.213s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages/open_auto_dock_msgs/srv
+[7.213s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages/open_auto_dock_msgs/srv/__init__.py
+[7.213s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages/open_auto_dock_msgs/srv/_Cloud.pyc
+[7.213s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages/open_auto_dock_msgs/srv/_Cloud.py
+[7.213s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages/open_auto_dock_msgs/srv/__init__.pyc
+[7.213s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages/open_auto_dock_msgs/__init__.pyc
+[7.214s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/pkgconfig/open_auto_dock_msgs.pc
+[7.214s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/open_auto_dock_msgs/cmake/open_auto_dock_msgs-msg-extras.cmake
+[7.214s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/open_auto_dock_msgs/cmake/open_auto_dock_msgsConfig.cmake
+[7.214s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/open_auto_dock_msgs/cmake/open_auto_dock_msgsConfig-version.cmake
+[7.214s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock_msgs/share/open_auto_dock_msgs/package.xml
+[7.214s] Invoked command in '/home/handsome/ros_ws_test/build/open_auto_dock_msgs' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/open_auto_dock_msgs --target install -- -j12 -l12

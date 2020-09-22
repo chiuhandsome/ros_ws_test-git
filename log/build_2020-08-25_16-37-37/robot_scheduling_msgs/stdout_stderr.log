@@ -1,0 +1,66 @@
+[  0%] Built target _robot_scheduling_msgs_generate_messages_check_deps_robot_interface_proc_upperActionGoal
+[  0%] Built target _robot_scheduling_msgs_generate_messages_check_deps_power_charge_recoveryActionFeedback
+[  0%] Built target _robot_scheduling_msgs_generate_messages_check_deps_interrupt_infoFeedback
+[  0%] Built target _robot_scheduling_msgs_generate_messages_check_deps_robot_interface_proc_lowerGoal
+[  0%] Built target _robot_scheduling_msgs_generate_messages_check_deps_interrupt_infoAction
+[  0%] Built target _robot_scheduling_msgs_generate_messages_check_deps_pose_move_to_recoveryFeedback
+[  0%] Built target _robot_scheduling_msgs_generate_messages_check_deps_self_turn_toActionFeedback
+[  0%] Built target _robot_scheduling_msgs_generate_messages_check_deps_pose_recognize_recoveryActionResult
+[  0%] Built target _robot_scheduling_msgs_generate_messages_check_deps_db_process_recoveryAction
+[  0%] Built target _robot_scheduling_msgs_generate_messages_check_deps_pose_move_to_recoveryGoal
+[  0%] Built target _robot_scheduling_msgs_generate_messages_check_deps_db_process_recoveryActionGoal
+[  0%] Built target _robot_scheduling_msgs_generate_messages_check_deps_robot_interface_proc_lowerResult
+[  0%] Built target _robot_scheduling_msgs_generate_messages_check_deps_time_waitGoal
+[  0%] Built target _robot_scheduling_msgs_generate_messages_check_deps_power_charge_recoveryAction
+[  0%] Built target _robot_scheduling_msgs_generate_messages_check_deps_robot_interface_proc_lowerActionFeedback
+[  0%] Built target _robot_scheduling_msgs_generate_messages_check_deps_pose_recognizeResult
+[  0%] Built target _robot_scheduling_msgs_generate_messages_check_deps_dock_to_recoveryResult
+[  0%] Built target _robot_scheduling_msgs_generate_messages_check_deps_pose_move_toAction
+[  0%] Built target _robot_scheduling_msgs_generate_messages_check_deps_lower_if_command
+[  0%] Built target _robot_scheduling_msgs_generate_messages_check_deps_robot_interface_proc_upperAction
+[  0%] Built target _robot_scheduling_msgs_generate_messages_check_deps_power_charge_recoveryFeedback
+[  0%] Built target _robot_scheduling_msgs_generate_messages_check_deps_controller_state_recoveryGoal
+[  0%] Built target _robot_scheduling_msgs_generate_messages_check_deps_robot_interface_proc_lowerAction
+[  0%] Built target _robot_scheduling_msgs_generate_messages_check_deps_robot_commandActionResult
+[  0%] Built target _robot_scheduling_msgs_generate_messages_check_deps_pose_recognize_recoveryActionGoal
+[  0%] Built target _robot_scheduling_msgs_generate_messages_check_deps_robot_interface_paramsActionFeedback
+[  0%] Built target _robot_scheduling_msgs_generate_messages_check_deps_robot_interface_processAction
+[  0%] Built target _robot_scheduling_msgs_generate_messages_check_deps_self_turn_to_recoveryActionResult
+[  0%] Built target _robot_scheduling_msgs_generate_messages_check_deps_self_turn_toActionResult
+[  0%] Built target _robot_scheduling_msgs_generate_messages_check_deps_interrupt_infoResult
+[  0%] Built target _robot_scheduling_msgs_generate_messages_check_deps_interrupt_infoGoal
+[  0%] Built target _robot_scheduling_msgs_generate_messages_check_deps_robot_interface_paramsActionGoal
+[  0%] Built target _robot_scheduling_msgs_generate_messages_check_deps_db_process_recoveryGoal
+[  0%] Built target _robot_scheduling_msgs_generate_messages_check_deps_controller_state_recoveryActionFeedback
+[  0%] Built target _robot_scheduling_msgs_generate_messages_check_deps_function_run_recoveryResult
+[  0%] Built target _robot_scheduling_msgs_generate_messages_check_deps_self_turn_toActionGoal
+Traceback (most recent call last):
+  File "/opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py", line 57, in <module>
+    spec = load_srv_from_file(msg_context, msg_file, full_type_name)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/genmsg/msg_loader.py", line 485, in load_srv_from_file
+    spec = load_srv_from_string(msg_context, text, full_name)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/genmsg/msg_loader.py", line 469, in load_srv_from_string
+    msg_in = load_msg_from_string(msg_context, text_in.getvalue(), '%sRequest'%(full_name))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/genmsg/msg_loader.py", line 264, in load_msg_from_string
+    constants.append(_load_constant_line(orig_line))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/genmsg/msg_loader.py", line 213, in _load_constant_line
+    raise InvalidMsgSpec("Invalid constant value: %s"%e)
+genmsg.base.InvalidMsgSpec: Invalid constant value: cannot coerce [310] to uint8 (out of bounds)
+make[2]: *** [CMakeFiles/_robot_scheduling_msgs_generate_messages_check_deps_upper_if_command] Error 1
+CMakeFiles/_robot_scheduling_msgs_generate_messages_check_deps_upper_if_command.dir/build.make:57: recipe for target 'CMakeFiles/_robot_scheduling_msgs_generate_messages_check_deps_upper_if_command' failed
+CMakeFiles/Makefile2:2042: recipe for target 'CMakeFiles/_robot_scheduling_msgs_generate_messages_check_deps_upper_if_command.dir/all' failed
+make[1]: *** [CMakeFiles/_robot_scheduling_msgs_generate_messages_check_deps_upper_if_command.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[  0%] Built target _robot_scheduling_msgs_generate_messages_check_deps_power_charge_recoveryResult
+[  0%] Built target _robot_scheduling_msgs_generate_messages_check_deps_function_runAction
+[  0%] Built target _robot_scheduling_msgs_generate_messages_check_deps_robot_interface_processFeedback
+[  0%] Built target _robot_scheduling_msgs_generate_messages_check_deps_db_processActionFeedback
+[  0%] Built target _robot_scheduling_msgs_generate_messages_check_deps_dock_to_recoveryActionGoal
+[  0%] Built target _robot_scheduling_msgs_generate_messages_check_deps_function_runActionGoal
+[  0%] Built target _robot_scheduling_msgs_generate_messages_check_deps_db_process_recoveryResult
+[  0%] Built target _robot_scheduling_msgs_generate_messages_check_deps_dock_toFeedback
+[  0%] Built target _robot_scheduling_msgs_generate_messages_check_deps_function_runFeedback
+[  0%] Built target _robot_scheduling_msgs_generate_messages_check_deps_undock_toActionResult
+[  0%] Built target _robot_scheduling_msgs_generate_messages_check_deps_time_waitActionGoal
+make: *** [all] Error 2
+Makefile:140: recipe for target 'all' failed

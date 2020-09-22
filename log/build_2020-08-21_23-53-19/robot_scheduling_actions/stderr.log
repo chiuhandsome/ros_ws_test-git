@@ -1,0 +1,8 @@
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_if_proc_upper_action.cpp:[m[K In member function ‘[01m[Kvoid robot_if_proc_upper_action::do_proc_upper_get_function(const robot_interface_proc_upperGoalConstPtr&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_if_proc_upper_action.cpp:88:73:[m[K [01;31m[Kerror: [m[K‘[01m[KPROCESS[m[K’ is not a member of ‘[01m[Krobot_scheduling_msgs::robot_interface_proc_upperGoal {aka robot_scheduling_msgs::robot_interface_proc_upperGoal_<std::allocator<void> >}[m[K’
+     if(cmd_id == robot_scheduling_msgs::robot_interface_proc_upperGoal::[01;31m[KPROCESS[m[K){
+                                                                         [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/robot_scheduling_actions_node.dir/src/private_actions/robot_if_proc_upper_action.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/robot_scheduling_actions_node.dir/all] Error 2
+make: *** [all] Error 2

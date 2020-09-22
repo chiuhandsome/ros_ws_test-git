@@ -1,0 +1,11 @@
+int8 command
+---
+bool  result
+int8 Command_Params
+time stamp
+int16 alarmcode	
+int16 chargstate	 
+int16 voltage	
+int16 current	
+int16 full_capacity
+int16 percentage

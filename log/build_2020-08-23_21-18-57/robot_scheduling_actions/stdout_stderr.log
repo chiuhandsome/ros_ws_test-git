@@ -1,0 +1,16 @@
+[35m[1mScanning dependencies of target robot_scheduling_actions_node[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/robot_scheduling_actions.cpp.o[0m
+[ 22%] [32m[1mLinking CXX executable devel/lib/robot_scheduling_actions/robot_scheduling_actions_node[0m
+CMakeFiles/robot_scheduling_actions_node.dir/src/robot_scheduling_actions.cpp.o: In function `robot_scheduling_actions::robot_scheduling_actions()':
+robot_scheduling_actions.cpp:(.text+0x523): undefined reference to `pose_recognize_action::pose_recognize_action(ros::NodeHandle, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+robot_scheduling_actions.cpp:(.text+0x88f): undefined reference to `pose_recognize_action::set_robot_scheduling_parameter(robot_scheduling_parameter*)'
+robot_scheduling_actions.cpp:(.text+0xbc9): undefined reference to `pose_recognize_action::~pose_recognize_action()'
+CMakeFiles/robot_scheduling_actions_node.dir/src/robot_scheduling_actions.cpp.o: In function `robot_scheduling_actions::~robot_scheduling_actions()':
+robot_scheduling_actions.cpp:(.text+0xcff): undefined reference to `pose_recognize_action::~pose_recognize_action()'
+collect2: error: ld returned 1 exit status
+CMakeFiles/robot_scheduling_actions_node.dir/build.make:306: recipe for target 'devel/lib/robot_scheduling_actions/robot_scheduling_actions_node' failed
+make[2]: *** [devel/lib/robot_scheduling_actions/robot_scheduling_actions_node] Error 1
+make[1]: *** [CMakeFiles/robot_scheduling_actions_node.dir/all] Error 2
+CMakeFiles/Makefile2:227: recipe for target 'CMakeFiles/robot_scheduling_actions_node.dir/all' failed
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

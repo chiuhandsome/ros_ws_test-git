@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<package>
+  <name>robot_scheduling_actions</name>
+  <version>0.0.1</version>
+  <description>
+     pnp_controller for calibration of robot's behave .
+  </description>
+
+  <maintainer email="chiuhandsome1966@gmail.com">HYC Robot</maintainer>
+
+  <license>LGPLv3</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>message_generation</build_depend>
+
+	<build_depend>cmake_modules</build_depend>  
+	<build_depend>actionlib</build_depend>
+  <build_depend>move_base</build_depend>
+  <build_depend>pnp_ros</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>tf2</build_depend>
+  <build_depend>locomotor_msgs</build_depend>
+  <build_depend>open_auto_dock_msgs</build_depend>
+  <build_depend>botcmd_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <!--<build_depend>experiment</build_depend>-->
+  <!--<build_depend>tuw_multi_robot_msgs</build_depend>-->
+  <!--<build_depend>robot_database_bridge</build_depend>-->
+  <build_depend>robot_scheduling_msgs</build_depend>
+  <build_depend>car_db_manager_msgs</build_depend>
+  <!--<build_depend>car_db_manager_bridge</build_depend>-->
+  <build_depend>ros_utility_tools</build_depend>
+  <build_depend>reset_location</build_depend>
+  <build_depend>tf2_ros</build_depend>
+  <build_depend>mongodb_store</build_depend>
+	
+	<run_depend>message_runtime</run_depend>
+	<run_depend>actionlib</run_depend>
+  <run_depend>move_base</run_depend>
+  <run_depend>pnp_ros</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>tf2</run_depend>
+  <run_depend>locomotor_msgs</run_depend>
+  <run_depend>open_auto_dock_msgs</run_depend>
+  <run_depend>botcmd_msgs</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <!--<run_depend>experiment</run_depend>-->
+  <!--<run_depend>tuw_multi_robot_msgs</run_depend>-->
+  <!--<run_depend>robot_database_bridge</run_depend>-->
+  <run_depend>robot_scheduling_msgs</run_depend>
+  <run_depend>car_db_manager_msgs</run_depend>
+  <!--<run_depend>car_db_manager_bridge</run_depend>-->
+  <run_depend>ros_utility_tools</run_depend>
+  <run_depend>reset_location</run_depend>
+  <run_depend>tf2_ros</run_depend>
+  <run_depend>mongodb_store</run_depend>
+</package>
+
+

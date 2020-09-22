@@ -1,0 +1,158 @@
+[0.247s] Invoking command in '/home/handsome/ros_ws_test/build/locomotor_msgs': CMAKE_PREFIX_PATH=/home/handsome/ros_ws_test/install/nav_2d_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/handsome/ros_ws_test/install/nav_2d_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/handsome/ros_ws_test/build/locomotor_msgs -- -j12 -l12
+[0.870s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[1.037s] [  0%] Built target actionlib_msgs_generate_messages_py
+[1.037s] [  0%] Built target nav_2d_msgs_generate_messages_cpp
+[1.049s] [  0%] Built target _locomotor_msgs_generate_messages_check_deps_NavigateToPoseGoal
+[1.107s] [  0%] Built target _locomotor_msgs_generate_messages_check_deps_NavigateToPoseActionGoal
+[1.112s] [  0%] Built target _locomotor_msgs_generate_messages_check_deps_NavigateToPoseFeedback
+[1.120s] [  0%] Built target _locomotor_msgs_generate_messages_check_deps_NavigateToPoseResult
+[1.121s] [  0%] Built target _locomotor_msgs_generate_messages_check_deps_NavigateToPoseAction
+[1.134s] [  0%] Built target _locomotor_msgs_generate_messages_check_deps_NavigationState
+[1.134s] [  0%] Built target _locomotor_msgs_generate_messages_check_deps_NavigateToPoseActionFeedback
+[1.134s] [  0%] Built target nav_2d_msgs_generate_messages_py
+[1.155s] [  0%] Built target _locomotor_msgs_generate_messages_check_deps_NavigateToPoseActionResult
+[1.180s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[1.199s] [  0%] Built target nav_2d_msgs_generate_messages_eus
+[1.201s] [  0%] Built target _locomotor_msgs_generate_messages_check_deps_ResultCode
+[1.242s] [  0%] Built target nav_2d_msgs_generate_messages_lisp
+[1.303s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[1.341s] [  0%] Built target nav_2d_msgs_generate_messages_nodejs
+[1.345s] [ 21%] Built target locomotor_msgs_generate_messages_py
+[1.378s] [ 21%] Built target actionlib_msgs_generate_messages_eus
+[1.464s] [ 40%] Built target locomotor_msgs_generate_messages_cpp
+[1.465s] [ 59%] Built target locomotor_msgs_generate_messages_lisp
+[1.531s] [ 80%] Built target locomotor_msgs_generate_messages_eus
+[1.553s] [100%] Built target locomotor_msgs_generate_messages_nodejs
+[1.684s] [100%] Built target locomotor_msgs_generate_messages
+[1.756s] Invoked command in '/home/handsome/ros_ws_test/build/locomotor_msgs' returned '0': CMAKE_PREFIX_PATH=/home/handsome/ros_ws_test/install/nav_2d_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/handsome/ros_ws_test/install/nav_2d_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/handsome/ros_ws_test/build/locomotor_msgs -- -j12 -l12
+[2.390s] Invoking command in '/home/handsome/ros_ws_test/build/locomotor_msgs': CMAKE_PREFIX_PATH=/home/handsome/ros_ws_test/install/nav_2d_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/handsome/ros_ws_test/install/nav_2d_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/handsome/ros_ws_test/build/locomotor_msgs --target tests -- -j12 -l12
+[2.787s] Built target tests
+[2.850s] Invoked command in '/home/handsome/ros_ws_test/build/locomotor_msgs' returned '0': CMAKE_PREFIX_PATH=/home/handsome/ros_ws_test/install/nav_2d_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/handsome/ros_ws_test/install/nav_2d_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/handsome/ros_ws_test/build/locomotor_msgs --target tests -- -j12 -l12
+[3.225s] Invoking command in '/home/handsome/ros_ws_test/build/locomotor_msgs': CMAKE_PREFIX_PATH=/home/handsome/ros_ws_test/install/nav_2d_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/handsome/ros_ws_test/install/nav_2d_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/handsome/ros_ws_test/build/locomotor_msgs --target install -- -j12 -l12
+[3.536s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[3.551s] [  0%] Built target actionlib_msgs_generate_messages_py
+[3.600s] [  0%] Built target nav_2d_msgs_generate_messages_cpp
+[3.698s] [  0%] Built target _locomotor_msgs_generate_messages_check_deps_NavigateToPoseFeedback
+[3.738s] [  0%] Built target _locomotor_msgs_generate_messages_check_deps_NavigateToPoseGoal
+[3.746s] [  0%] Built target _locomotor_msgs_generate_messages_check_deps_NavigateToPoseActionResult
+[3.767s] [  0%] Built target _locomotor_msgs_generate_messages_check_deps_ResultCode
+[3.770s] [  0%] Built target _locomotor_msgs_generate_messages_check_deps_NavigateToPoseResult
+[3.778s] [  0%] Built target _locomotor_msgs_generate_messages_check_deps_NavigateToPoseActionGoal
+[3.778s] [  0%] Built target _locomotor_msgs_generate_messages_check_deps_NavigateToPoseAction
+[3.792s] [  0%] Built target _locomotor_msgs_generate_messages_check_deps_NavigateToPoseActionFeedback
+[3.797s] [  0%] Built target nav_2d_msgs_generate_messages_py
+[3.805s] [  0%] Built target nav_2d_msgs_generate_messages_lisp
+[3.818s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[3.839s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[3.847s] [  0%] Built target _locomotor_msgs_generate_messages_check_deps_NavigationState
+[3.863s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[3.870s] [  0%] Built target nav_2d_msgs_generate_messages_eus
+[3.899s] [  0%] Built target nav_2d_msgs_generate_messages_nodejs
+[3.973s] [ 19%] Built target locomotor_msgs_generate_messages_cpp
+[4.011s] [ 40%] Built target locomotor_msgs_generate_messages_py
+[4.012s] [ 59%] Built target locomotor_msgs_generate_messages_lisp
+[4.084s] [ 80%] Built target locomotor_msgs_generate_messages_eus
+[4.119s] [100%] Built target locomotor_msgs_generate_messages_nodejs
+[4.288s] [100%] Built target locomotor_msgs_generate_messages
+[4.420s] [36mInstall the project...[0m
+[4.422s] -- Install configuration: ""
+[4.423s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/locomotor_msgs/msg/NavigationState.msg
+[4.423s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/locomotor_msgs/msg/ResultCode.msg
+[4.425s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/locomotor_msgs/action/NavigateToPose.action
+[4.431s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/locomotor_msgs/msg/NavigateToPoseAction.msg
+[4.431s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/locomotor_msgs/msg/NavigateToPoseActionGoal.msg
+[4.432s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/locomotor_msgs/msg/NavigateToPoseActionResult.msg
+[4.432s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/locomotor_msgs/msg/NavigateToPoseActionFeedback.msg
+[4.432s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/locomotor_msgs/msg/NavigateToPoseGoal.msg
+[4.432s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/locomotor_msgs/msg/NavigateToPoseResult.msg
+[4.433s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/locomotor_msgs/msg/NavigateToPoseFeedback.msg
+[4.433s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/locomotor_msgs/cmake/locomotor_msgs-msg-paths.cmake
+[4.434s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/include/locomotor_msgs
+[4.434s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/include/locomotor_msgs/NavigateToPoseAction.h
+[4.435s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/include/locomotor_msgs/NavigateToPoseFeedback.h
+[4.435s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/include/locomotor_msgs/ResultCode.h
+[4.435s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/include/locomotor_msgs/NavigateToPoseActionGoal.h
+[4.435s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/include/locomotor_msgs/NavigationState.h
+[4.435s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/include/locomotor_msgs/NavigateToPoseActionFeedback.h
+[4.435s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/include/locomotor_msgs/NavigateToPoseGoal.h
+[4.435s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/include/locomotor_msgs/NavigateToPoseActionResult.h
+[4.435s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/include/locomotor_msgs/NavigateToPoseResult.h
+[4.435s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/roseus/ros/locomotor_msgs
+[4.436s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/roseus/ros/locomotor_msgs/msg
+[4.436s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/roseus/ros/locomotor_msgs/msg/NavigateToPoseActionGoal.l
+[4.436s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/roseus/ros/locomotor_msgs/msg/NavigateToPoseAction.l
+[4.437s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/roseus/ros/locomotor_msgs/msg/NavigateToPoseGoal.l
+[4.438s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/roseus/ros/locomotor_msgs/msg/NavigateToPoseFeedback.l
+[4.438s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/roseus/ros/locomotor_msgs/msg/NavigateToPoseActionResult.l
+[4.439s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/roseus/ros/locomotor_msgs/msg/ResultCode.l
+[4.439s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/roseus/ros/locomotor_msgs/msg/NavigateToPoseResult.l
+[4.440s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/roseus/ros/locomotor_msgs/msg/NavigateToPoseActionFeedback.l
+[4.440s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/roseus/ros/locomotor_msgs/msg/NavigationState.l
+[4.442s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/roseus/ros/locomotor_msgs/manifest.l
+[4.443s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/common-lisp/ros/locomotor_msgs
+[4.443s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/common-lisp/ros/locomotor_msgs/msg
+[4.443s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/common-lisp/ros/locomotor_msgs/msg/_package_NavigateToPoseActionResult.lisp
+[4.444s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/common-lisp/ros/locomotor_msgs/msg/locomotor_msgs-msg.asd
+[4.444s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/common-lisp/ros/locomotor_msgs/msg/_package_NavigateToPoseResult.lisp
+[4.445s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/common-lisp/ros/locomotor_msgs/msg/NavigateToPoseFeedback.lisp
+[4.446s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/common-lisp/ros/locomotor_msgs/msg/_package_ResultCode.lisp
+[4.446s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/common-lisp/ros/locomotor_msgs/msg/NavigateToPoseActionFeedback.lisp
+[4.447s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/common-lisp/ros/locomotor_msgs/msg/NavigateToPoseAction.lisp
+[4.449s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/common-lisp/ros/locomotor_msgs/msg/NavigationState.lisp
+[4.450s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/common-lisp/ros/locomotor_msgs/msg/_package.lisp
+[4.450s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/common-lisp/ros/locomotor_msgs/msg/ResultCode.lisp
+[4.450s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/common-lisp/ros/locomotor_msgs/msg/NavigateToPoseGoal.lisp
+[4.450s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/common-lisp/ros/locomotor_msgs/msg/NavigateToPoseActionResult.lisp
+[4.450s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/common-lisp/ros/locomotor_msgs/msg/_package_NavigateToPoseFeedback.lisp
+[4.450s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/common-lisp/ros/locomotor_msgs/msg/_package_NavigateToPoseActionGoal.lisp
+[4.450s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/common-lisp/ros/locomotor_msgs/msg/NavigateToPoseActionGoal.lisp
+[4.450s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/common-lisp/ros/locomotor_msgs/msg/_package_NavigateToPoseGoal.lisp
+[4.450s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/common-lisp/ros/locomotor_msgs/msg/_package_NavigateToPoseAction.lisp
+[4.451s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/common-lisp/ros/locomotor_msgs/msg/NavigateToPoseResult.lisp
+[4.451s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/common-lisp/ros/locomotor_msgs/msg/_package_NavigateToPoseActionFeedback.lisp
+[4.451s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/common-lisp/ros/locomotor_msgs/msg/_package_NavigationState.lisp
+[4.451s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/gennodejs/ros/locomotor_msgs
+[4.451s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/gennodejs/ros/locomotor_msgs/msg
+[4.452s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/gennodejs/ros/locomotor_msgs/msg/NavigateToPoseAction.js
+[4.452s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/gennodejs/ros/locomotor_msgs/msg/NavigateToPoseActionGoal.js
+[4.452s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/gennodejs/ros/locomotor_msgs/msg/_index.js
+[4.452s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/gennodejs/ros/locomotor_msgs/msg/NavigateToPoseResult.js
+[4.452s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/gennodejs/ros/locomotor_msgs/msg/NavigateToPoseActionResult.js
+[4.453s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/gennodejs/ros/locomotor_msgs/msg/NavigationState.js
+[4.453s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/gennodejs/ros/locomotor_msgs/msg/ResultCode.js
+[4.453s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/gennodejs/ros/locomotor_msgs/msg/NavigateToPoseFeedback.js
+[4.453s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/gennodejs/ros/locomotor_msgs/msg/NavigateToPoseActionFeedback.js
+[4.453s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/gennodejs/ros/locomotor_msgs/msg/NavigateToPoseGoal.js
+[4.453s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/gennodejs/ros/locomotor_msgs/_index.js
+[4.489s] Listing /home/handsome/ros_ws_test/build/locomotor_msgs/devel/lib/python2.7/dist-packages/locomotor_msgs ...
+[4.489s] Listing /home/handsome/ros_ws_test/build/locomotor_msgs/devel/lib/python2.7/dist-packages/locomotor_msgs/msg ...
+[4.495s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/lib/python2.7/dist-packages/locomotor_msgs
+[4.496s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/lib/python2.7/dist-packages/locomotor_msgs/msg
+[4.496s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/lib/python2.7/dist-packages/locomotor_msgs/msg/_NavigateToPoseGoal.py
+[4.497s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/lib/python2.7/dist-packages/locomotor_msgs/msg/_NavigateToPoseResult.pyc
+[4.497s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/lib/python2.7/dist-packages/locomotor_msgs/msg/_NavigateToPoseFeedback.py
+[4.498s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/lib/python2.7/dist-packages/locomotor_msgs/msg/__init__.py
+[4.498s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/lib/python2.7/dist-packages/locomotor_msgs/msg/_NavigationState.py
+[4.498s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/lib/python2.7/dist-packages/locomotor_msgs/msg/_NavigateToPoseActionGoal.pyc
+[4.498s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/lib/python2.7/dist-packages/locomotor_msgs/msg/_NavigateToPoseGoal.pyc
+[4.498s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/lib/python2.7/dist-packages/locomotor_msgs/msg/_NavigateToPoseActionResult.pyc
+[4.498s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/lib/python2.7/dist-packages/locomotor_msgs/msg/_NavigateToPoseActionGoal.py
+[4.498s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/lib/python2.7/dist-packages/locomotor_msgs/msg/_NavigateToPoseResult.py
+[4.498s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/lib/python2.7/dist-packages/locomotor_msgs/msg/_NavigateToPoseActionFeedback.pyc
+[4.499s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/lib/python2.7/dist-packages/locomotor_msgs/msg/_ResultCode.pyc
+[4.499s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/lib/python2.7/dist-packages/locomotor_msgs/msg/_ResultCode.py
+[4.499s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/lib/python2.7/dist-packages/locomotor_msgs/msg/_NavigateToPoseFeedback.pyc
+[4.499s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/lib/python2.7/dist-packages/locomotor_msgs/msg/_NavigateToPoseAction.pyc
+[4.500s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/lib/python2.7/dist-packages/locomotor_msgs/msg/_NavigateToPoseActionResult.py
+[4.500s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/lib/python2.7/dist-packages/locomotor_msgs/msg/__init__.pyc
+[4.500s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/lib/python2.7/dist-packages/locomotor_msgs/msg/_NavigateToPoseActionFeedback.py
+[4.500s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/lib/python2.7/dist-packages/locomotor_msgs/msg/_NavigateToPoseAction.py
+[4.501s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/lib/python2.7/dist-packages/locomotor_msgs/msg/_NavigationState.pyc
+[4.501s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/lib/python2.7/dist-packages/locomotor_msgs/__init__.py
+[4.501s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/lib/python2.7/dist-packages/locomotor_msgs/__init__.pyc
+[4.501s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/lib/pkgconfig/locomotor_msgs.pc
+[4.501s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/locomotor_msgs/cmake/locomotor_msgs-msg-extras.cmake
+[4.501s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/locomotor_msgs/cmake/locomotor_msgsConfig.cmake
+[4.501s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/locomotor_msgs/cmake/locomotor_msgsConfig-version.cmake
+[4.502s] -- Up-to-date: /home/handsome/ros_ws_test/install/locomotor_msgs/share/locomotor_msgs/package.xml
+[4.541s] Invoked command in '/home/handsome/ros_ws_test/build/locomotor_msgs' returned '0': CMAKE_PREFIX_PATH=/home/handsome/ros_ws_test/install/nav_2d_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/handsome/ros_ws_test/install/nav_2d_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/handsome/ros_ws_test/build/locomotor_msgs --target install -- -j12 -l12

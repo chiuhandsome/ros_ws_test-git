@@ -1,0 +1,13 @@
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_run_state_action.cpp:[m[K In member function ‘[01m[Kvoid robot_run_state_action::run_state_CB(const robot_run_stateGoalConstPtr&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_run_state_action.cpp:60:80:[m[K [01;31m[Kerror: [m[K‘[01m[KAWARED[m[K’ is not a member of ‘[01m[Krobot_scheduling_msgs::robot_run_stateResult {aka robot_scheduling_msgs::robot_run_stateResult_<std::allocator<void> >}[m[K’
+         _result.result = robot_scheduling_msgs::robot_run_stateResult::[01;31m[KAWARED[m[K ;
+                                                                        [01;31m[K^~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_run_state_action.cpp:64:80:[m[K [01;31m[Kerror: [m[K‘[01m[KMANUAL[m[K’ is not a member of ‘[01m[Krobot_scheduling_msgs::robot_run_stateResult {aka robot_scheduling_msgs::robot_run_stateResult_<std::allocator<void> >}[m[K’
+         _result.result = robot_scheduling_msgs::robot_run_stateResult::[01;31m[KMANUAL[m[K ;
+                                                                        [01;31m[K^~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_run_state_action.cpp:70:80:[m[K [01;31m[Kerror: [m[K‘[01m[KPAUSE[m[K’ is not a member of ‘[01m[Krobot_scheduling_msgs::robot_run_stateResult {aka robot_scheduling_msgs::robot_run_stateResult_<std::allocator<void> >}[m[K’
+          _result.result = robot_scheduling_msgs::robot_run_stateResult::[01;31m[KPAUSE[m[K ;
+                                                                         [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/robot_scheduling_actions_node.dir/src/private_actions/robot_run_state_action.cpp.o] Error 1
+make[1]: *** [CMakeFiles/robot_scheduling_actions_node.dir/all] Error 2
+make: *** [all] Error 2

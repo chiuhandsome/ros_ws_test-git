@@ -1,0 +1,187 @@
+[0.431s] Invoking command in '/home/handsome/ros_ws_test/build/dwb_msgs': CMAKE_PREFIX_PATH=/home/handsome/ros_ws_test/install/nav_2d_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/handsome/ros_ws_test/install/nav_2d_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/handsome/ros_ws_test/build/dwb_msgs -- -j12 -l12
+[0.884s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[0.946s] [  0%] Built target nav_msgs_generate_messages_lisp
+[1.015s] [  0%] Built target nav_2d_msgs_generate_messages_lisp
+[1.092s] [  0%] Built target geometry_msgs_generate_messages_eus
+[1.093s] [  0%] Built target _dwb_msgs_generate_messages_check_deps_LocalPlanEvaluation
+[1.095s] [  0%] Built target _dwb_msgs_generate_messages_check_deps_TrajectoryScore
+[1.103s] [  0%] Built target _dwb_msgs_generate_messages_check_deps_CriticScore
+[1.116s] [  0%] Built target _dwb_msgs_generate_messages_check_deps_ScoreTrajectory
+[1.142s] [  0%] Built target nav_2d_msgs_generate_messages_eus
+[1.143s] [  0%] Built target _dwb_msgs_generate_messages_check_deps_DebugLocalPlan
+[1.143s] [  0%] Built target _dwb_msgs_generate_messages_check_deps_Trajectory2D
+[1.143s] [  0%] Built target _dwb_msgs_generate_messages_check_deps_GenerateTrajectory
+[1.154s] [  0%] Built target nav_2d_msgs_generate_messages_cpp
+[1.164s] [  0%] Built target _dwb_msgs_generate_messages_check_deps_GetCriticScore
+[1.173s] [  0%] Built target _dwb_msgs_generate_messages_check_deps_GenerateTwists
+[1.178s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[1.178s] [  0%] Built target nav_msgs_generate_messages_eus
+[1.207s] [  0%] Built target nav_msgs_generate_messages_cpp
+[1.220s] [  0%] Built target nav_2d_msgs_generate_messages_nodejs
+[1.225s] [  0%] Built target nav_msgs_generate_messages_nodejs
+[1.230s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[1.233s] [  0%] Built target nav_msgs_generate_messages_py
+[1.234s] [  0%] Built target geometry_msgs_generate_messages_py
+[1.245s] [  0%] Built target nav_2d_msgs_generate_messages_py
+[1.253s] [ 18%] Built target dwb_msgs_generate_messages_lisp
+[1.278s] [ 39%] Built target dwb_msgs_generate_messages_eus
+[1.279s] [ 58%] Built target dwb_msgs_generate_messages_cpp
+[1.296s] [ 77%] Built target dwb_msgs_generate_messages_nodejs
+[1.317s] [100%] Built target dwb_msgs_generate_messages_py
+[1.471s] [100%] Built target dwb_msgs_generate_messages
+[1.613s] Invoked command in '/home/handsome/ros_ws_test/build/dwb_msgs' returned '0': CMAKE_PREFIX_PATH=/home/handsome/ros_ws_test/install/nav_2d_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/handsome/ros_ws_test/install/nav_2d_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/handsome/ros_ws_test/build/dwb_msgs -- -j12 -l12
+[2.280s] Invoking command in '/home/handsome/ros_ws_test/build/dwb_msgs': CMAKE_PREFIX_PATH=/home/handsome/ros_ws_test/install/nav_2d_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/handsome/ros_ws_test/install/nav_2d_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/handsome/ros_ws_test/build/dwb_msgs --target tests -- -j12 -l12
+[2.772s] Built target tests
+[2.930s] Invoked command in '/home/handsome/ros_ws_test/build/dwb_msgs' returned '0': CMAKE_PREFIX_PATH=/home/handsome/ros_ws_test/install/nav_2d_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/handsome/ros_ws_test/install/nav_2d_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/handsome/ros_ws_test/build/dwb_msgs --target tests -- -j12 -l12
+[3.971s] Invoking command in '/home/handsome/ros_ws_test/build/dwb_msgs': CMAKE_PREFIX_PATH=/home/handsome/ros_ws_test/install/nav_2d_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/handsome/ros_ws_test/install/nav_2d_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/handsome/ros_ws_test/build/dwb_msgs --target install -- -j12 -l12
+[4.142s] [  0%] Built target nav_2d_msgs_generate_messages_lisp
+[4.178s] [  0%] Built target nav_msgs_generate_messages_lisp
+[4.206s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[4.293s] [  0%] Built target _dwb_msgs_generate_messages_check_deps_GenerateTrajectory
+[4.364s] [  0%] Built target nav_2d_msgs_generate_messages_eus
+[4.383s] [  0%] Built target _dwb_msgs_generate_messages_check_deps_CriticScore
+[4.388s] [  0%] Built target _dwb_msgs_generate_messages_check_deps_TrajectoryScore
+[4.394s] [  0%] Built target _dwb_msgs_generate_messages_check_deps_GetCriticScore
+[4.416s] [  0%] Built target _dwb_msgs_generate_messages_check_deps_ScoreTrajectory
+[4.417s] [  0%] Built target geometry_msgs_generate_messages_eus
+[4.435s] [  0%] Built target _dwb_msgs_generate_messages_check_deps_DebugLocalPlan
+[4.466s] [  0%] Built target nav_msgs_generate_messages_eus
+[4.513s] [  0%] Built target _dwb_msgs_generate_messages_check_deps_Trajectory2D
+[4.518s] [  0%] Built target _dwb_msgs_generate_messages_check_deps_LocalPlanEvaluation
+[4.524s] [  0%] Built target nav_2d_msgs_generate_messages_cpp
+[4.538s] [  0%] Built target _dwb_msgs_generate_messages_check_deps_GenerateTwists
+[4.548s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[4.550s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[4.557s] [  0%] Built target nav_2d_msgs_generate_messages_nodejs
+[4.586s] [  0%] Built target nav_2d_msgs_generate_messages_py
+[4.614s] [  0%] Built target nav_msgs_generate_messages_cpp
+[4.619s] [  0%] Built target nav_msgs_generate_messages_nodejs
+[4.650s] [  0%] Built target geometry_msgs_generate_messages_py
+[4.722s] [ 20%] Built target dwb_msgs_generate_messages_eus
+[4.722s] [  0%] Built target nav_msgs_generate_messages_py
+[4.732s] [ 39%] Built target dwb_msgs_generate_messages_lisp
+[4.815s] [ 58%] Built target dwb_msgs_generate_messages_cpp
+[4.838s] [ 77%] Built target dwb_msgs_generate_messages_nodejs
+[4.887s] [100%] Built target dwb_msgs_generate_messages_py
+[5.173s] [100%] Built target dwb_msgs_generate_messages
+[5.268s] [36mInstall the project...[0m
+[5.356s] -- Install configuration: ""
+[5.356s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/dwb_msgs/msg/CriticScore.msg
+[5.356s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/dwb_msgs/msg/LocalPlanEvaluation.msg
+[5.356s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/dwb_msgs/msg/Trajectory2D.msg
+[5.356s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/dwb_msgs/msg/TrajectoryScore.msg
+[5.357s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan.srv
+[5.357s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory.srv
+[5.357s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists.srv
+[5.357s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore.srv
+[5.357s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory.srv
+[5.358s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs-msg-paths.cmake
+[5.358s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/include/dwb_msgs
+[5.358s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/include/dwb_msgs/DebugLocalPlan.h
+[5.358s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/include/dwb_msgs/TrajectoryScore.h
+[5.358s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/include/dwb_msgs/GenerateTwistsRequest.h
+[5.358s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/include/dwb_msgs/GenerateTrajectory.h
+[5.358s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/include/dwb_msgs/GenerateTrajectoryResponse.h
+[5.359s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/include/dwb_msgs/LocalPlanEvaluation.h
+[5.359s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/include/dwb_msgs/ScoreTrajectoryResponse.h
+[5.359s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/include/dwb_msgs/DebugLocalPlanRequest.h
+[5.359s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/include/dwb_msgs/GenerateTwistsResponse.h
+[5.359s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/include/dwb_msgs/ScoreTrajectory.h
+[5.359s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/include/dwb_msgs/GetCriticScore.h
+[5.359s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/include/dwb_msgs/DebugLocalPlanResponse.h
+[5.360s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/include/dwb_msgs/GetCriticScoreResponse.h
+[5.360s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/include/dwb_msgs/GetCriticScoreRequest.h
+[5.360s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/include/dwb_msgs/GenerateTwists.h
+[5.360s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/include/dwb_msgs/GenerateTrajectoryRequest.h
+[5.360s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/include/dwb_msgs/Trajectory2D.h
+[5.360s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/include/dwb_msgs/ScoreTrajectoryRequest.h
+[5.360s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/include/dwb_msgs/CriticScore.h
+[5.361s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/roseus/ros/dwb_msgs
+[5.361s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/roseus/ros/dwb_msgs/msg
+[5.361s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/roseus/ros/dwb_msgs/msg/TrajectoryScore.l
+[5.361s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/roseus/ros/dwb_msgs/msg/CriticScore.l
+[5.361s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/roseus/ros/dwb_msgs/msg/Trajectory2D.l
+[5.361s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/roseus/ros/dwb_msgs/msg/LocalPlanEvaluation.l
+[5.361s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/roseus/ros/dwb_msgs/manifest.l
+[5.362s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/roseus/ros/dwb_msgs/srv
+[5.362s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/roseus/ros/dwb_msgs/srv/ScoreTrajectory.l
+[5.362s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/roseus/ros/dwb_msgs/srv/GenerateTwists.l
+[5.362s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/roseus/ros/dwb_msgs/srv/GenerateTrajectory.l
+[5.362s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/roseus/ros/dwb_msgs/srv/GetCriticScore.l
+[5.363s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/roseus/ros/dwb_msgs/srv/DebugLocalPlan.l
+[5.363s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/common-lisp/ros/dwb_msgs
+[5.363s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/common-lisp/ros/dwb_msgs/msg
+[5.363s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/common-lisp/ros/dwb_msgs/msg/LocalPlanEvaluation.lisp
+[5.363s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/common-lisp/ros/dwb_msgs/msg/Trajectory2D.lisp
+[5.363s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/common-lisp/ros/dwb_msgs/msg/_package_CriticScore.lisp
+[5.363s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/common-lisp/ros/dwb_msgs/msg/dwb_msgs-msg.asd
+[5.364s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/common-lisp/ros/dwb_msgs/msg/_package.lisp
+[5.364s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/common-lisp/ros/dwb_msgs/msg/_package_TrajectoryScore.lisp
+[5.364s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/common-lisp/ros/dwb_msgs/msg/_package_Trajectory2D.lisp
+[5.364s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/common-lisp/ros/dwb_msgs/msg/CriticScore.lisp
+[5.364s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/common-lisp/ros/dwb_msgs/msg/_package_LocalPlanEvaluation.lisp
+[5.364s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/common-lisp/ros/dwb_msgs/msg/TrajectoryScore.lisp
+[5.364s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/common-lisp/ros/dwb_msgs/srv
+[5.364s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/common-lisp/ros/dwb_msgs/srv/GenerateTrajectory.lisp
+[5.364s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/common-lisp/ros/dwb_msgs/srv/_package_ScoreTrajectory.lisp
+[5.365s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/common-lisp/ros/dwb_msgs/srv/_package_DebugLocalPlan.lisp
+[5.365s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/common-lisp/ros/dwb_msgs/srv/_package_GetCriticScore.lisp
+[5.365s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/common-lisp/ros/dwb_msgs/srv/_package_GenerateTrajectory.lisp
+[5.365s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/common-lisp/ros/dwb_msgs/srv/_package_GenerateTwists.lisp
+[5.365s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/common-lisp/ros/dwb_msgs/srv/GetCriticScore.lisp
+[5.365s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/common-lisp/ros/dwb_msgs/srv/_package.lisp
+[5.365s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/common-lisp/ros/dwb_msgs/srv/dwb_msgs-srv.asd
+[5.365s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/common-lisp/ros/dwb_msgs/srv/GenerateTwists.lisp
+[5.365s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/common-lisp/ros/dwb_msgs/srv/DebugLocalPlan.lisp
+[5.366s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/common-lisp/ros/dwb_msgs/srv/ScoreTrajectory.lisp
+[5.366s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/gennodejs/ros/dwb_msgs
+[5.366s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/gennodejs/ros/dwb_msgs/msg
+[5.366s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/gennodejs/ros/dwb_msgs/msg/CriticScore.js
+[5.366s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/gennodejs/ros/dwb_msgs/msg/_index.js
+[5.366s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/gennodejs/ros/dwb_msgs/msg/LocalPlanEvaluation.js
+[5.366s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/gennodejs/ros/dwb_msgs/msg/Trajectory2D.js
+[5.367s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/gennodejs/ros/dwb_msgs/msg/TrajectoryScore.js
+[5.367s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/gennodejs/ros/dwb_msgs/_index.js
+[5.367s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/gennodejs/ros/dwb_msgs/srv
+[5.367s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/gennodejs/ros/dwb_msgs/srv/DebugLocalPlan.js
+[5.367s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/gennodejs/ros/dwb_msgs/srv/_index.js
+[5.368s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/gennodejs/ros/dwb_msgs/srv/ScoreTrajectory.js
+[5.368s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/gennodejs/ros/dwb_msgs/srv/GenerateTrajectory.js
+[5.368s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/gennodejs/ros/dwb_msgs/srv/GenerateTwists.js
+[5.368s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/gennodejs/ros/dwb_msgs/srv/GetCriticScore.js
+[5.441s] Listing /home/handsome/ros_ws_test/build/dwb_msgs/devel/lib/python2.7/dist-packages/dwb_msgs ...
+[5.442s] Listing /home/handsome/ros_ws_test/build/dwb_msgs/devel/lib/python2.7/dist-packages/dwb_msgs/msg ...
+[5.443s] Listing /home/handsome/ros_ws_test/build/dwb_msgs/devel/lib/python2.7/dist-packages/dwb_msgs/srv ...
+[5.444s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/lib/python2.7/dist-packages/dwb_msgs
+[5.445s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/lib/python2.7/dist-packages/dwb_msgs/msg
+[5.445s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/lib/python2.7/dist-packages/dwb_msgs/msg/_TrajectoryScore.pyc
+[5.445s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/lib/python2.7/dist-packages/dwb_msgs/msg/_CriticScore.pyc
+[5.445s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/lib/python2.7/dist-packages/dwb_msgs/msg/_LocalPlanEvaluation.pyc
+[5.445s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/lib/python2.7/dist-packages/dwb_msgs/msg/_CriticScore.py
+[5.445s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/lib/python2.7/dist-packages/dwb_msgs/msg/__init__.py
+[5.446s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/lib/python2.7/dist-packages/dwb_msgs/msg/_Trajectory2D.pyc
+[5.446s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/lib/python2.7/dist-packages/dwb_msgs/msg/_Trajectory2D.py
+[5.446s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/lib/python2.7/dist-packages/dwb_msgs/msg/__init__.pyc
+[5.446s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/lib/python2.7/dist-packages/dwb_msgs/msg/_TrajectoryScore.py
+[5.446s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/lib/python2.7/dist-packages/dwb_msgs/msg/_LocalPlanEvaluation.py
+[5.446s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/lib/python2.7/dist-packages/dwb_msgs/__init__.py
+[5.446s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/lib/python2.7/dist-packages/dwb_msgs/srv
+[5.446s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/lib/python2.7/dist-packages/dwb_msgs/srv/_GenerateTwists.py
+[5.448s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/lib/python2.7/dist-packages/dwb_msgs/srv/__init__.py
+[5.448s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/lib/python2.7/dist-packages/dwb_msgs/srv/_GetCriticScore.py
+[5.448s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/lib/python2.7/dist-packages/dwb_msgs/srv/_DebugLocalPlan.pyc
+[5.448s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/lib/python2.7/dist-packages/dwb_msgs/srv/_GetCriticScore.pyc
+[5.448s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/lib/python2.7/dist-packages/dwb_msgs/srv/_GenerateTwists.pyc
+[5.448s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/lib/python2.7/dist-packages/dwb_msgs/srv/_GenerateTrajectory.pyc
+[5.448s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/lib/python2.7/dist-packages/dwb_msgs/srv/_DebugLocalPlan.py
+[5.448s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/lib/python2.7/dist-packages/dwb_msgs/srv/__init__.pyc
+[5.448s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/lib/python2.7/dist-packages/dwb_msgs/srv/_GenerateTrajectory.py
+[5.449s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/lib/python2.7/dist-packages/dwb_msgs/srv/_ScoreTrajectory.pyc
+[5.449s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/lib/python2.7/dist-packages/dwb_msgs/srv/_ScoreTrajectory.py
+[5.449s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/lib/python2.7/dist-packages/dwb_msgs/__init__.pyc
+[5.449s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/lib/pkgconfig/dwb_msgs.pc
+[5.449s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs-msg-extras.cmake
+[5.449s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgsConfig.cmake
+[5.450s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgsConfig-version.cmake
+[5.451s] -- Up-to-date: /home/handsome/ros_ws_test/install/dwb_msgs/share/dwb_msgs/package.xml
+[5.455s] Invoked command in '/home/handsome/ros_ws_test/build/dwb_msgs' returned '0': CMAKE_PREFIX_PATH=/home/handsome/ros_ws_test/install/nav_2d_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/handsome/ros_ws_test/install/nav_2d_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/handsome/ros_ws_test/build/dwb_msgs --target install -- -j12 -l12

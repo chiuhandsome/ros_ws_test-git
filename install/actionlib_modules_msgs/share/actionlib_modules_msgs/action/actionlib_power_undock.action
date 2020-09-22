@@ -1,0 +1,17 @@
+# Define the goal
+# This action will always pull backwards off the dock Optionally, we can also turn around 180 degrees
+string call_aclib_name
+bool rotate_in_place
+float32 post_time
+bool use_timeout
+float32 timeout
+---
+# Define the result
+uint8 OK=1
+uint8 NOT_OK=2
+uint8 TIMED_OUT=3
+uint8 result		# OK=1,undocked
+---
+# Define a feedback message
+geometry_msgs/PoseStamped dock_pose	# robot's pose
+geometry_msgs/Twist command		# robot's command

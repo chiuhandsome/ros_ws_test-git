@@ -1,0 +1,8 @@
+prefix=/home/handsome/ros_ws_test/build/dlux_plugins/devel
+
+Name: dlux_plugins
+Description: Description of dlux_plugins
+Version: 0.2.4
+Cflags: -I/home/handsome/ros_ws_test/src/ros_base/robot_navigation/dlux_plugins/include
+Libs: -L${prefix}/lib -ldlux_plugins
+Requires: dlux_global_planner nav_core2 nav_grid pluginlib

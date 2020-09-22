@@ -1,0 +1,6 @@
+Invoking command in '/home/handsome/ros_ws_test/build/i_robot_navigation': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/i_robot_navigation -- -j12 -l12
+Invoked command in '/home/handsome/ros_ws_test/build/i_robot_navigation' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/i_robot_navigation -- -j12 -l12
+Invoking command in '/home/handsome/ros_ws_test/build/i_robot_navigation': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/i_robot_navigation --target tests -- -j12 -l12
+Invoked command in '/home/handsome/ros_ws_test/build/i_robot_navigation' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/i_robot_navigation --target tests -- -j12 -l12
+Invoking command in '/home/handsome/ros_ws_test/build/i_robot_navigation': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/i_robot_navigation --target install -- -j12 -l12
+Invoked command in '/home/handsome/ros_ws_test/build/i_robot_navigation' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/i_robot_navigation --target install -- -j12 -l12

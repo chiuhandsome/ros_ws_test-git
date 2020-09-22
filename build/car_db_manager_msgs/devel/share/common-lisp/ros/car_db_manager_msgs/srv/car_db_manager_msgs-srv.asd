@@ -1,0 +1,28 @@
+
+(cl:in-package :asdf)
+
+(defsystem "car_db_manager_msgs-srv"
+  :depends-on (:roslisp-msg-protocol :roslisp-utils :car_db_manager_msgs-msg
+)
+  :components ((:file "_package")
+    (:file "ActionFunctionParametersCmd" :depends-on ("_package_ActionFunctionParametersCmd"))
+    (:file "_package_ActionFunctionParametersCmd" :depends-on ("_package"))
+    (:file "AlarmcodeParametersCmd" :depends-on ("_package_AlarmcodeParametersCmd"))
+    (:file "_package_AlarmcodeParametersCmd" :depends-on ("_package"))
+    (:file "CarAlarmHistoryCmd" :depends-on ("_package_CarAlarmHistoryCmd"))
+    (:file "_package_CarAlarmHistoryCmd" :depends-on ("_package"))
+    (:file "CarOperateHistoryCmd" :depends-on ("_package_CarOperateHistoryCmd"))
+    (:file "_package_CarOperateHistoryCmd" :depends-on ("_package"))
+    (:file "CheckParametersCmd" :depends-on ("_package_CheckParametersCmd"))
+    (:file "_package_CheckParametersCmd" :depends-on ("_package"))
+    (:file "OperatecodeParametersCmd" :depends-on ("_package_OperatecodeParametersCmd"))
+    (:file "_package_OperatecodeParametersCmd" :depends-on ("_package"))
+    (:file "PidCtrlParametersCmd" :depends-on ("_package_PidCtrlParametersCmd"))
+    (:file "_package_PidCtrlParametersCmd" :depends-on ("_package"))
+    (:file "TargerPos2dParametersCmd" :depends-on ("_package_TargerPos2dParametersCmd"))
+    (:file "_package_TargerPos2dParametersCmd" :depends-on ("_package"))
+    (:file "WorkSheetItemsCmd" :depends-on ("_package_WorkSheetItemsCmd"))
+    (:file "_package_WorkSheetItemsCmd" :depends-on ("_package"))
+    (:file "WorkSheetMainCmd" :depends-on ("_package_WorkSheetMainCmd"))
+    (:file "_package_WorkSheetMainCmd" :depends-on ("_package"))
+  ))

@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target robot_scheduling_actions_node[0m
+[  4%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/public_actions/function_run_action.cpp.o[0m
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/function_run_action.cpp:[m[K In member function ‘[01m[Kactionlib::SimpleClientGoalState function_run_action::function_run_ac_handler(std::__cxx11::string, std::__cxx11::string, std::__cxx11::string)[m[K’:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/function_run_action.cpp:137:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct robot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> > {aka struct robot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kb_compensation[m[K’
+         goal_ac_ptr->[01;31m[Kb_compensation[m[K = true ;
+                      [01;31m[K^~~~~~~~~~~~~~[m[K
+CMakeFiles/robot_scheduling_actions_node.dir/build.make:518: recipe for target 'CMakeFiles/robot_scheduling_actions_node.dir/src/public_actions/function_run_action.cpp.o' failed
+CMakeFiles/Makefile2:227: recipe for target 'CMakeFiles/robot_scheduling_actions_node.dir/all' failed
+make[2]: *** [CMakeFiles/robot_scheduling_actions_node.dir/src/public_actions/function_run_action.cpp.o] Error 1
+make[1]: *** [CMakeFiles/robot_scheduling_actions_node.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

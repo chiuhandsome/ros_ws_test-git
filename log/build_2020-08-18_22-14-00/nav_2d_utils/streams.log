@@ -1,0 +1,203 @@
+[0.407s] Invoking command in '/home/handsome/ros_ws_test/build/nav_2d_utils': CMAKE_PREFIX_PATH=/home/handsome/ros_ws_test/install/nav_core2:/home/handsome/ros_ws_test/install/nav_grid:/home/handsome/ros_ws_test/install/nav_2d_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/handsome/ros_ws_test/install/nav_core2/lib:/home/handsome/ros_ws/install/yocs_cmd_vel_mux/lib:/home/handsome/ros_ws/install/tuw_multi_robot_router/lib:/home/handsome/ros_ws/install/tuw_voronoi_graph/lib:/home/handsome/ros_ws/install/tuw_vehicle_msgs/lib:/home/handsome/ros_ws/install/tuw_nav_rviz/lib:/home/handsome/ros_ws/install/tuw_multi_robot_local_behavior_controller/lib:/home/handsome/ros_ws/install/tuw_multi_robot_ctrl/lib:/home/handsome/ros_ws/install/tuw_nav_msgs/lib:/home/handsome/ros_ws/install/tuw_multi_robot_rviz/lib:/home/handsome/ros_ws/install/tuw_geometry_rviz/lib:/home/handsome/ros_ws/install/tuw_geometry_msgs/lib:/home/handsome/ros_ws/install/tuw_geometry/lib:/home/handsome/ros_ws/install/tuw_control/lib:/home/handsome/ros_ws/install/teb2_local_planner/lib:/home/handsome/ros_ws/install/spatio_temporal_voxel_layer/lib:/home/handsome/ros_ws/install/robot_database_bridge/lib:/home/handsome/ros_ws/install/ros_utility_tools/lib:/home/handsome/ros_ws/install/robot_localization/lib:/home/handsome/ros_ws/install/pnp_ros/lib:/home/handsome/ros_ws/install/omron_os32c_driver/lib:/home/handsome/ros_ws/install/dlux_plugins/lib:/home/handsome/ros_ws/install/dlux_global_planner/lib:/home/handsome/ros_ws/install/nav_grid_pub_sub/lib:/home/handsome/ros_ws/install/dwb_critics/lib:/home/handsome/ros_ws/install/nav_grid_iterators/lib:/home/handsome/ros_ws/install/locomotor/lib:/home/handsome/ros_ws/install/nav_core_adapter/lib:/home/handsome/ros_ws/install/dwb_plugins/lib:/home/handsome/ros_ws/install/dwb_local_planner/lib:/home/handsome/ros_ws/install/nav_2d_utils/lib:/home/handsome/ros_ws/install/global_planner_tests/lib:/home/handsome/ros_ws/install/costmap_queue/lib:/home/handsome/ros_ws/install/nav_core2/lib:/home/handsome/ros_ws/install/mongodb_store/lib:/home/handsome/ros_ws/install/libcreate/lib:/opt/ros/melodic/lib:/usr/local/lib PKG_CONFIG_PATH=/home/handsome/ros_ws_test/install/nav_core2/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_core2/lib/pkgconfig:/home/handsome/ros_ws_test/install/nav_grid/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_grid/lib/pkgconfig:/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/handsome/ros_ws_test/install/nav_core2/share:/home/handsome/ros_ws_test/install/nav_grid/share:/home/handsome/ros_ws_test/install/nav_2d_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/handsome/ros_ws_test/build/nav_2d_utils -- -j12 -l12
+[0.597s] [  0%] Built target nav_msgs_generate_messages_py
+[0.624s] [  0%] Built target actionlib_generate_messages_cpp
+[0.625s] [  0%] Built target geometry_msgs_generate_messages_eus
+[0.657s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[0.658s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[0.696s] [  0%] Built target roscpp_generate_messages_cpp
+[0.697s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[0.700s] [  0%] Built target actionlib_generate_messages_eus
+[0.705s] [ 42%] Built target polygons
+[0.726s] [ 42%] Built target geometry_msgs_generate_messages_lisp
+[0.736s] [ 42%] Built target rosgraph_msgs_generate_messages_cpp
+[0.753s] [ 42%] Built target actionlib_msgs_generate_messages_py
+[0.803s] [ 42%] Built target roscpp_generate_messages_lisp
+[0.861s] [ 42%] Built target roscpp_generate_messages_py
+[0.869s] [ 42%] Built target std_msgs_generate_messages_eus
+[0.882s] [ 42%] Built target nav_2d_msgs_generate_messages_nodejs
+[0.900s] [ 42%] Built target std_msgs_generate_messages_nodejs
+[0.914s] [ 42%] Built target geometry_msgs_generate_messages_py
+[0.919s] [ 42%] Built target actionlib_msgs_generate_messages_nodejs
+[0.920s] [ 42%] Built target std_msgs_generate_messages_cpp
+[0.949s] [ 42%] Built target nav_2d_msgs_generate_messages_cpp
+[0.954s] [ 42%] Built target geometry_msgs_generate_messages_nodejs
+[0.985s] [ 42%] Built target nav_msgs_generate_messages_nodejs
+[1.012s] [ 42%] Built target roscpp_generate_messages_nodejs
+[1.068s] [ 42%] Built target rosgraph_msgs_generate_messages_eus
+[1.082s] [ 42%] Built target actionlib_generate_messages_py
+[1.099s] [ 42%] Built target nav_2d_msgs_generate_messages_py
+[1.109s] [ 42%] Built target std_msgs_generate_messages_lisp
+[1.109s] [ 42%] Built target std_msgs_generate_messages_py
+[1.112s] [ 42%] Built target rosgraph_msgs_generate_messages_lisp
+[1.131s] [ 42%] Built target roscpp_generate_messages_eus
+[1.136s] [ 42%] Built target rosgraph_msgs_generate_messages_nodejs
+[1.191s] [ 42%] Built target rosgraph_msgs_generate_messages_py
+[1.192s] [ 42%] Built target tf2_msgs_generate_messages_py
+[1.220s] [ 42%] Built target nav_2d_msgs_generate_messages_lisp
+[1.246s] [ 42%] Built target tf2_msgs_generate_messages_nodejs
+[1.274s] [ 42%] Built target actionlib_msgs_generate_messages_eus
+[1.301s] [ 42%] Built target tf2_msgs_generate_messages_eus
+[1.326s] [ 42%] Built target sensor_msgs_generate_messages_lisp
+[1.358s] [ 42%] Built target nav_msgs_generate_messages_eus
+[1.362s] [ 42%] Built target nav_msgs_generate_messages_cpp
+[1.412s] [ 42%] Built target actionlib_generate_messages_nodejs
+[1.419s] [ 42%] Built target sensor_msgs_generate_messages_py
+[1.448s] [ 42%] Built target tf_generate_messages_cpp
+[1.448s] [ 42%] Built target tf_generate_messages_nodejs
+[1.448s] [ 42%] Built target tf_generate_messages_py
+[1.459s] [ 42%] Built target nav_msgs_generate_messages_lisp
+[1.484s] [ 42%] Built target tf_generate_messages_lisp
+[1.504s] [ 42%] Built target sensor_msgs_generate_messages_cpp
+[1.525s] [ 42%] Built target tf_generate_messages_eus
+[1.536s] [ 42%] Built target sensor_msgs_generate_messages_eus
+[1.565s] [ 42%] Built target actionlib_msgs_generate_messages_cpp
+[1.577s] [ 42%] Built target geometry_msgs_generate_messages_cpp
+[1.599s] [ 42%] Built target tf2_msgs_generate_messages_lisp
+[1.600s] [ 42%] Built target actionlib_generate_messages_lisp
+[1.625s] [ 42%] Built target nav_2d_msgs_generate_messages_eus
+[1.791s] [ 71%] Built target conversions
+[1.807s] [100%] Built target path_ops
+[1.850s] Invoked command in '/home/handsome/ros_ws_test/build/nav_2d_utils' returned '0': CMAKE_PREFIX_PATH=/home/handsome/ros_ws_test/install/nav_core2:/home/handsome/ros_ws_test/install/nav_grid:/home/handsome/ros_ws_test/install/nav_2d_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/handsome/ros_ws_test/install/nav_core2/lib:/home/handsome/ros_ws/install/yocs_cmd_vel_mux/lib:/home/handsome/ros_ws/install/tuw_multi_robot_router/lib:/home/handsome/ros_ws/install/tuw_voronoi_graph/lib:/home/handsome/ros_ws/install/tuw_vehicle_msgs/lib:/home/handsome/ros_ws/install/tuw_nav_rviz/lib:/home/handsome/ros_ws/install/tuw_multi_robot_local_behavior_controller/lib:/home/handsome/ros_ws/install/tuw_multi_robot_ctrl/lib:/home/handsome/ros_ws/install/tuw_nav_msgs/lib:/home/handsome/ros_ws/install/tuw_multi_robot_rviz/lib:/home/handsome/ros_ws/install/tuw_geometry_rviz/lib:/home/handsome/ros_ws/install/tuw_geometry_msgs/lib:/home/handsome/ros_ws/install/tuw_geometry/lib:/home/handsome/ros_ws/install/tuw_control/lib:/home/handsome/ros_ws/install/teb2_local_planner/lib:/home/handsome/ros_ws/install/spatio_temporal_voxel_layer/lib:/home/handsome/ros_ws/install/robot_database_bridge/lib:/home/handsome/ros_ws/install/ros_utility_tools/lib:/home/handsome/ros_ws/install/robot_localization/lib:/home/handsome/ros_ws/install/pnp_ros/lib:/home/handsome/ros_ws/install/omron_os32c_driver/lib:/home/handsome/ros_ws/install/dlux_plugins/lib:/home/handsome/ros_ws/install/dlux_global_planner/lib:/home/handsome/ros_ws/install/nav_grid_pub_sub/lib:/home/handsome/ros_ws/install/dwb_critics/lib:/home/handsome/ros_ws/install/nav_grid_iterators/lib:/home/handsome/ros_ws/install/locomotor/lib:/home/handsome/ros_ws/install/nav_core_adapter/lib:/home/handsome/ros_ws/install/dwb_plugins/lib:/home/handsome/ros_ws/install/dwb_local_planner/lib:/home/handsome/ros_ws/install/nav_2d_utils/lib:/home/handsome/ros_ws/install/global_planner_tests/lib:/home/handsome/ros_ws/install/costmap_queue/lib:/home/handsome/ros_ws/install/nav_core2/lib:/home/handsome/ros_ws/install/mongodb_store/lib:/home/handsome/ros_ws/install/libcreate/lib:/opt/ros/melodic/lib:/usr/local/lib PKG_CONFIG_PATH=/home/handsome/ros_ws_test/install/nav_core2/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_core2/lib/pkgconfig:/home/handsome/ros_ws_test/install/nav_grid/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_grid/lib/pkgconfig:/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/handsome/ros_ws_test/install/nav_core2/share:/home/handsome/ros_ws_test/install/nav_grid/share:/home/handsome/ros_ws_test/install/nav_2d_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/handsome/ros_ws_test/build/nav_2d_utils -- -j12 -l12
+[3.158s] Invoking command in '/home/handsome/ros_ws_test/build/nav_2d_utils': CMAKE_PREFIX_PATH=/home/handsome/ros_ws_test/install/nav_core2:/home/handsome/ros_ws_test/install/nav_grid:/home/handsome/ros_ws_test/install/nav_2d_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/handsome/ros_ws_test/install/nav_core2/lib:/home/handsome/ros_ws/install/yocs_cmd_vel_mux/lib:/home/handsome/ros_ws/install/tuw_multi_robot_router/lib:/home/handsome/ros_ws/install/tuw_voronoi_graph/lib:/home/handsome/ros_ws/install/tuw_vehicle_msgs/lib:/home/handsome/ros_ws/install/tuw_nav_rviz/lib:/home/handsome/ros_ws/install/tuw_multi_robot_local_behavior_controller/lib:/home/handsome/ros_ws/install/tuw_multi_robot_ctrl/lib:/home/handsome/ros_ws/install/tuw_nav_msgs/lib:/home/handsome/ros_ws/install/tuw_multi_robot_rviz/lib:/home/handsome/ros_ws/install/tuw_geometry_rviz/lib:/home/handsome/ros_ws/install/tuw_geometry_msgs/lib:/home/handsome/ros_ws/install/tuw_geometry/lib:/home/handsome/ros_ws/install/tuw_control/lib:/home/handsome/ros_ws/install/teb2_local_planner/lib:/home/handsome/ros_ws/install/spatio_temporal_voxel_layer/lib:/home/handsome/ros_ws/install/robot_database_bridge/lib:/home/handsome/ros_ws/install/ros_utility_tools/lib:/home/handsome/ros_ws/install/robot_localization/lib:/home/handsome/ros_ws/install/pnp_ros/lib:/home/handsome/ros_ws/install/omron_os32c_driver/lib:/home/handsome/ros_ws/install/dlux_plugins/lib:/home/handsome/ros_ws/install/dlux_global_planner/lib:/home/handsome/ros_ws/install/nav_grid_pub_sub/lib:/home/handsome/ros_ws/install/dwb_critics/lib:/home/handsome/ros_ws/install/nav_grid_iterators/lib:/home/handsome/ros_ws/install/locomotor/lib:/home/handsome/ros_ws/install/nav_core_adapter/lib:/home/handsome/ros_ws/install/dwb_plugins/lib:/home/handsome/ros_ws/install/dwb_local_planner/lib:/home/handsome/ros_ws/install/nav_2d_utils/lib:/home/handsome/ros_ws/install/global_planner_tests/lib:/home/handsome/ros_ws/install/costmap_queue/lib:/home/handsome/ros_ws/install/nav_core2/lib:/home/handsome/ros_ws/install/mongodb_store/lib:/home/handsome/ros_ws/install/libcreate/lib:/opt/ros/melodic/lib:/usr/local/lib PKG_CONFIG_PATH=/home/handsome/ros_ws_test/install/nav_core2/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_core2/lib/pkgconfig:/home/handsome/ros_ws_test/install/nav_grid/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_grid/lib/pkgconfig:/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/handsome/ros_ws_test/install/nav_core2/share:/home/handsome/ros_ws_test/install/nav_grid/share:/home/handsome/ros_ws_test/install/nav_2d_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/handsome/ros_ws_test/build/nav_2d_utils --target tests -- -j12 -l12
+[3.637s] [  0%] Built target nav_msgs_generate_messages_py
+[3.659s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[3.711s] [  0%] Built target actionlib_generate_messages_cpp
+[3.725s] [  0%] Built target geometry_msgs_generate_messages_eus
+[3.728s] [ 15%] Built target gtest
+[3.733s] [ 15%] Built target sensor_msgs_generate_messages_nodejs
+[3.743s] [ 15%] Built target roscpp_generate_messages_cpp
+[3.759s] [ 15%] Built target geometry_msgs_generate_messages_lisp
+[3.770s] [ 15%] Built target actionlib_msgs_generate_messages_py
+[3.778s] [ 15%] Built target actionlib_msgs_generate_messages_lisp
+[3.782s] [ 15%] Built target actionlib_generate_messages_eus
+[3.787s] [ 15%] Built target tf2_msgs_generate_messages_cpp
+[3.875s] [ 15%] Built target nav_2d_msgs_generate_messages_nodejs
+[3.877s] [ 15%] Built target nav_2d_msgs_generate_messages_cpp
+[3.900s] [ 15%] Built target roscpp_generate_messages_py
+[3.953s] [ 15%] Built target roscpp_generate_messages_lisp
+[3.981s] [ 15%] Built target std_msgs_generate_messages_lisp
+[3.994s] [ 15%] Built target geometry_msgs_generate_messages_nodejs
+[4.017s] [ 15%] Built target std_msgs_generate_messages_cpp
+[4.030s] [ 15%] Built target std_msgs_generate_messages_nodejs
+[4.046s] [ 15%] Built target roscpp_generate_messages_nodejs
+[4.057s] [ 15%] Built target nav_msgs_generate_messages_nodejs
+[4.075s] [ 15%] Built target geometry_msgs_generate_messages_py
+[4.079s] [ 15%] Built target std_msgs_generate_messages_eus
+[4.085s] [ 15%] Built target actionlib_msgs_generate_messages_nodejs
+[4.117s] [ 15%] Built target nav_2d_msgs_generate_messages_py
+[4.123s] [ 15%] Built target std_msgs_generate_messages_py
+[4.181s] [ 15%] Built target rosgraph_msgs_generate_messages_lisp
+[4.183s] [ 15%] Built target rosgraph_msgs_generate_messages_nodejs
+[4.199s] [ 15%] Built target rosgraph_msgs_generate_messages_eus
+[4.216s] [ 15%] Built target nav_2d_msgs_generate_messages_lisp
+[4.251s] [ 15%] Built target actionlib_msgs_generate_messages_eus
+[4.270s] [ 15%] Built target rosgraph_msgs_generate_messages_py
+[4.270s] [ 15%] Built target roscpp_generate_messages_eus
+[4.270s] [ 15%] Built target nav_msgs_generate_messages_cpp
+[4.286s] [ 15%] Built target tf2_msgs_generate_messages_nodejs
+[4.304s] [ 15%] Built target sensor_msgs_generate_messages_lisp
+[4.340s] [ 15%] Built target tf2_msgs_generate_messages_py
+[4.341s] [ 15%] Built target tf2_msgs_generate_messages_eus
+[4.345s] [ 15%] Built target actionlib_generate_messages_py
+[4.378s] [ 15%] Built target nav_msgs_generate_messages_eus
+[4.396s] [ 15%] Built target nav_msgs_generate_messages_lisp
+[4.399s] [ 15%] Built target tf_generate_messages_cpp
+[4.401s] [ 15%] Built target tf_generate_messages_lisp
+[4.408s] [ 15%] Built target actionlib_generate_messages_nodejs
+[4.426s] [ 15%] Built target sensor_msgs_generate_messages_py
+[4.432s] [ 15%] Built target tf_generate_messages_py
+[4.433s] [ 15%] Built target tf_generate_messages_nodejs
+[4.434s] [ 15%] Built target sensor_msgs_generate_messages_cpp
+[4.458s] [ 15%] Built target sensor_msgs_generate_messages_eus
+[4.484s] [ 15%] Built target tf_generate_messages_eus
+[4.510s] [ 15%] Built target nav_2d_msgs_generate_messages_eus
+[4.522s] [ 15%] Built target actionlib_msgs_generate_messages_cpp
+[4.527s] [ 15%] Built target actionlib_generate_messages_lisp
+[4.540s] [ 15%] Built target geometry_msgs_generate_messages_cpp
+[4.549s] [ 38%] Built target polygons
+[4.566s] [ 38%] Built target tf2_msgs_generate_messages_lisp
+[4.675s] [ 53%] Built target path_ops
+[4.708s] [ 69%] Built target polygon_tests
+[4.744s] [ 84%] Built target param_tests
+[4.876s] [100%] Built target compress_test
+[4.998s] [100%] Built target tests
+[5.029s] Invoked command in '/home/handsome/ros_ws_test/build/nav_2d_utils' returned '0': CMAKE_PREFIX_PATH=/home/handsome/ros_ws_test/install/nav_core2:/home/handsome/ros_ws_test/install/nav_grid:/home/handsome/ros_ws_test/install/nav_2d_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/handsome/ros_ws_test/install/nav_core2/lib:/home/handsome/ros_ws/install/yocs_cmd_vel_mux/lib:/home/handsome/ros_ws/install/tuw_multi_robot_router/lib:/home/handsome/ros_ws/install/tuw_voronoi_graph/lib:/home/handsome/ros_ws/install/tuw_vehicle_msgs/lib:/home/handsome/ros_ws/install/tuw_nav_rviz/lib:/home/handsome/ros_ws/install/tuw_multi_robot_local_behavior_controller/lib:/home/handsome/ros_ws/install/tuw_multi_robot_ctrl/lib:/home/handsome/ros_ws/install/tuw_nav_msgs/lib:/home/handsome/ros_ws/install/tuw_multi_robot_rviz/lib:/home/handsome/ros_ws/install/tuw_geometry_rviz/lib:/home/handsome/ros_ws/install/tuw_geometry_msgs/lib:/home/handsome/ros_ws/install/tuw_geometry/lib:/home/handsome/ros_ws/install/tuw_control/lib:/home/handsome/ros_ws/install/teb2_local_planner/lib:/home/handsome/ros_ws/install/spatio_temporal_voxel_layer/lib:/home/handsome/ros_ws/install/robot_database_bridge/lib:/home/handsome/ros_ws/install/ros_utility_tools/lib:/home/handsome/ros_ws/install/robot_localization/lib:/home/handsome/ros_ws/install/pnp_ros/lib:/home/handsome/ros_ws/install/omron_os32c_driver/lib:/home/handsome/ros_ws/install/dlux_plugins/lib:/home/handsome/ros_ws/install/dlux_global_planner/lib:/home/handsome/ros_ws/install/nav_grid_pub_sub/lib:/home/handsome/ros_ws/install/dwb_critics/lib:/home/handsome/ros_ws/install/nav_grid_iterators/lib:/home/handsome/ros_ws/install/locomotor/lib:/home/handsome/ros_ws/install/nav_core_adapter/lib:/home/handsome/ros_ws/install/dwb_plugins/lib:/home/handsome/ros_ws/install/dwb_local_planner/lib:/home/handsome/ros_ws/install/nav_2d_utils/lib:/home/handsome/ros_ws/install/global_planner_tests/lib:/home/handsome/ros_ws/install/costmap_queue/lib:/home/handsome/ros_ws/install/nav_core2/lib:/home/handsome/ros_ws/install/mongodb_store/lib:/home/handsome/ros_ws/install/libcreate/lib:/opt/ros/melodic/lib:/usr/local/lib PKG_CONFIG_PATH=/home/handsome/ros_ws_test/install/nav_core2/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_core2/lib/pkgconfig:/home/handsome/ros_ws_test/install/nav_grid/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_grid/lib/pkgconfig:/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/handsome/ros_ws_test/install/nav_core2/share:/home/handsome/ros_ws_test/install/nav_grid/share:/home/handsome/ros_ws_test/install/nav_2d_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/handsome/ros_ws_test/build/nav_2d_utils --target tests -- -j12 -l12
+[5.794s] Invoking command in '/home/handsome/ros_ws_test/build/nav_2d_utils': CMAKE_PREFIX_PATH=/home/handsome/ros_ws_test/install/nav_core2:/home/handsome/ros_ws_test/install/nav_grid:/home/handsome/ros_ws_test/install/nav_2d_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/handsome/ros_ws_test/install/nav_core2/lib:/home/handsome/ros_ws/install/yocs_cmd_vel_mux/lib:/home/handsome/ros_ws/install/tuw_multi_robot_router/lib:/home/handsome/ros_ws/install/tuw_voronoi_graph/lib:/home/handsome/ros_ws/install/tuw_vehicle_msgs/lib:/home/handsome/ros_ws/install/tuw_nav_rviz/lib:/home/handsome/ros_ws/install/tuw_multi_robot_local_behavior_controller/lib:/home/handsome/ros_ws/install/tuw_multi_robot_ctrl/lib:/home/handsome/ros_ws/install/tuw_nav_msgs/lib:/home/handsome/ros_ws/install/tuw_multi_robot_rviz/lib:/home/handsome/ros_ws/install/tuw_geometry_rviz/lib:/home/handsome/ros_ws/install/tuw_geometry_msgs/lib:/home/handsome/ros_ws/install/tuw_geometry/lib:/home/handsome/ros_ws/install/tuw_control/lib:/home/handsome/ros_ws/install/teb2_local_planner/lib:/home/handsome/ros_ws/install/spatio_temporal_voxel_layer/lib:/home/handsome/ros_ws/install/robot_database_bridge/lib:/home/handsome/ros_ws/install/ros_utility_tools/lib:/home/handsome/ros_ws/install/robot_localization/lib:/home/handsome/ros_ws/install/pnp_ros/lib:/home/handsome/ros_ws/install/omron_os32c_driver/lib:/home/handsome/ros_ws/install/dlux_plugins/lib:/home/handsome/ros_ws/install/dlux_global_planner/lib:/home/handsome/ros_ws/install/nav_grid_pub_sub/lib:/home/handsome/ros_ws/install/dwb_critics/lib:/home/handsome/ros_ws/install/nav_grid_iterators/lib:/home/handsome/ros_ws/install/locomotor/lib:/home/handsome/ros_ws/install/nav_core_adapter/lib:/home/handsome/ros_ws/install/dwb_plugins/lib:/home/handsome/ros_ws/install/dwb_local_planner/lib:/home/handsome/ros_ws/install/nav_2d_utils/lib:/home/handsome/ros_ws/install/global_planner_tests/lib:/home/handsome/ros_ws/install/costmap_queue/lib:/home/handsome/ros_ws/install/nav_core2/lib:/home/handsome/ros_ws/install/mongodb_store/lib:/home/handsome/ros_ws/install/libcreate/lib:/opt/ros/melodic/lib:/usr/local/lib PKG_CONFIG_PATH=/home/handsome/ros_ws_test/install/nav_core2/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_core2/lib/pkgconfig:/home/handsome/ros_ws_test/install/nav_grid/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_grid/lib/pkgconfig:/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/handsome/ros_ws_test/install/nav_core2/share:/home/handsome/ros_ws_test/install/nav_grid/share:/home/handsome/ros_ws_test/install/nav_2d_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/handsome/ros_ws_test/build/nav_2d_utils --target install -- -j12 -l12
+[5.949s] [  0%] Built target geometry_msgs_generate_messages_eus
+[5.952s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[5.960s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[5.962s] [  0%] Built target actionlib_msgs_generate_messages_py
+[5.975s] [  0%] Built target actionlib_generate_messages_eus
+[5.983s] [  0%] Built target nav_msgs_generate_messages_py
+[5.996s] [  0%] Built target actionlib_generate_messages_cpp
+[5.996s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[6.005s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[6.012s] [  0%] Built target roscpp_generate_messages_cpp
+[6.017s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[6.056s] [ 42%] Built target polygons
+[6.064s] [ 42%] Built target std_msgs_generate_messages_cpp
+[6.077s] [ 42%] Built target nav_2d_msgs_generate_messages_nodejs
+[6.098s] [ 42%] Built target std_msgs_generate_messages_eus
+[6.103s] [ 42%] Built target roscpp_generate_messages_py
+[6.117s] [ 42%] Built target actionlib_msgs_generate_messages_nodejs
+[6.117s] [ 42%] Built target geometry_msgs_generate_messages_py
+[6.127s] [ 42%] Built target nav_2d_msgs_generate_messages_cpp
+[6.135s] [ 42%] Built target std_msgs_generate_messages_lisp
+[6.139s] [ 42%] Built target geometry_msgs_generate_messages_nodejs
+[6.140s] [ 42%] Built target roscpp_generate_messages_lisp
+[6.147s] [ 42%] Built target roscpp_generate_messages_nodejs
+[6.158s] [ 42%] Built target nav_msgs_generate_messages_nodejs
+[6.171s] [ 42%] Built target std_msgs_generate_messages_nodejs
+[6.184s] [ 42%] Built target std_msgs_generate_messages_py
+[6.190s] [ 42%] Built target rosgraph_msgs_generate_messages_lisp
+[6.207s] [ 42%] Built target nav_2d_msgs_generate_messages_py
+[6.207s] [ 42%] Built target roscpp_generate_messages_eus
+[6.214s] [ 42%] Built target rosgraph_msgs_generate_messages_eus
+[6.215s] [ 42%] Built target actionlib_generate_messages_py
+[6.249s] [ 42%] Built target rosgraph_msgs_generate_messages_nodejs
+[6.269s] [ 42%] Built target actionlib_msgs_generate_messages_eus
+[6.271s] [ 42%] Built target tf2_msgs_generate_messages_nodejs
+[6.275s] [ 42%] Built target sensor_msgs_generate_messages_lisp
+[6.277s] [ 42%] Built target tf2_msgs_generate_messages_py
+[6.284s] [ 42%] Built target nav_msgs_generate_messages_cpp
+[6.293s] [ 42%] Built target nav_msgs_generate_messages_eus
+[6.297s] [ 42%] Built target tf2_msgs_generate_messages_eus
+[6.298s] [ 42%] Built target rosgraph_msgs_generate_messages_py
+[6.303s] [ 42%] Built target nav_2d_msgs_generate_messages_lisp
+[6.333s] [ 42%] Built target nav_msgs_generate_messages_lisp
+[6.337s] [ 42%] Built target actionlib_generate_messages_nodejs
+[6.355s] [ 42%] Built target tf_generate_messages_cpp
+[6.362s] [ 42%] Built target tf_generate_messages_lisp
+[6.362s] [ 42%] Built target sensor_msgs_generate_messages_py
+[6.363s] [ 42%] Built target tf_generate_messages_py
+[6.377s] [ 42%] Built target tf_generate_messages_eus
+[6.383s] [ 42%] Built target tf_generate_messages_nodejs
+[6.386s] [ 42%] Built target nav_2d_msgs_generate_messages_eus
+[6.386s] [ 42%] Built target sensor_msgs_generate_messages_eus
+[6.399s] [ 42%] Built target sensor_msgs_generate_messages_cpp
+[6.412s] [ 42%] Built target actionlib_msgs_generate_messages_cpp
+[6.419s] [ 42%] Built target geometry_msgs_generate_messages_cpp
+[6.427s] [ 42%] Built target tf2_msgs_generate_messages_lisp
+[6.435s] [ 42%] Built target actionlib_generate_messages_lisp
+[6.493s] [ 71%] Built target conversions
+[6.498s] [100%] Built target path_ops
+[6.549s] [36mInstall the project...[0m
+[6.570s] -- Install configuration: ""
+[6.570s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_utils/lib/pkgconfig/nav_2d_utils.pc
+[6.570s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_utils/share/nav_2d_utils/cmake/nav_2d_utilsConfig.cmake
+[6.571s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_utils/share/nav_2d_utils/cmake/nav_2d_utilsConfig-version.cmake
+[6.571s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_utils/share/nav_2d_utils/package.xml
+[6.571s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_utils/lib/libconversions.so
+[6.571s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_utils/lib/libpath_ops.so
+[6.572s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_utils/lib/libpolygons.so
+[6.572s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_utils/include/nav_2d_utils
+[6.572s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_utils/include/nav_2d_utils/polygons.h
+[6.573s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_utils/include/nav_2d_utils/footprint.h
+[6.573s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_utils/include/nav_2d_utils/parameters.h
+[6.573s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_utils/include/nav_2d_utils/odom_subscriber.h
+[6.573s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_utils/include/nav_2d_utils/geometry_help.h
+[6.573s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_utils/include/nav_2d_utils/conversions.h
+[6.573s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_utils/include/nav_2d_utils/tf_help.h
+[6.574s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_utils/include/nav_2d_utils/path_ops.h
+[6.574s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_utils/include/nav_2d_utils/plugin_mux.h
+[6.579s] Invoked command in '/home/handsome/ros_ws_test/build/nav_2d_utils' returned '0': CMAKE_PREFIX_PATH=/home/handsome/ros_ws_test/install/nav_core2:/home/handsome/ros_ws_test/install/nav_grid:/home/handsome/ros_ws_test/install/nav_2d_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/handsome/ros_ws_test/install/nav_core2/lib:/home/handsome/ros_ws/install/yocs_cmd_vel_mux/lib:/home/handsome/ros_ws/install/tuw_multi_robot_router/lib:/home/handsome/ros_ws/install/tuw_voronoi_graph/lib:/home/handsome/ros_ws/install/tuw_vehicle_msgs/lib:/home/handsome/ros_ws/install/tuw_nav_rviz/lib:/home/handsome/ros_ws/install/tuw_multi_robot_local_behavior_controller/lib:/home/handsome/ros_ws/install/tuw_multi_robot_ctrl/lib:/home/handsome/ros_ws/install/tuw_nav_msgs/lib:/home/handsome/ros_ws/install/tuw_multi_robot_rviz/lib:/home/handsome/ros_ws/install/tuw_geometry_rviz/lib:/home/handsome/ros_ws/install/tuw_geometry_msgs/lib:/home/handsome/ros_ws/install/tuw_geometry/lib:/home/handsome/ros_ws/install/tuw_control/lib:/home/handsome/ros_ws/install/teb2_local_planner/lib:/home/handsome/ros_ws/install/spatio_temporal_voxel_layer/lib:/home/handsome/ros_ws/install/robot_database_bridge/lib:/home/handsome/ros_ws/install/ros_utility_tools/lib:/home/handsome/ros_ws/install/robot_localization/lib:/home/handsome/ros_ws/install/pnp_ros/lib:/home/handsome/ros_ws/install/omron_os32c_driver/lib:/home/handsome/ros_ws/install/dlux_plugins/lib:/home/handsome/ros_ws/install/dlux_global_planner/lib:/home/handsome/ros_ws/install/nav_grid_pub_sub/lib:/home/handsome/ros_ws/install/dwb_critics/lib:/home/handsome/ros_ws/install/nav_grid_iterators/lib:/home/handsome/ros_ws/install/locomotor/lib:/home/handsome/ros_ws/install/nav_core_adapter/lib:/home/handsome/ros_ws/install/dwb_plugins/lib:/home/handsome/ros_ws/install/dwb_local_planner/lib:/home/handsome/ros_ws/install/nav_2d_utils/lib:/home/handsome/ros_ws/install/global_planner_tests/lib:/home/handsome/ros_ws/install/costmap_queue/lib:/home/handsome/ros_ws/install/nav_core2/lib:/home/handsome/ros_ws/install/mongodb_store/lib:/home/handsome/ros_ws/install/libcreate/lib:/opt/ros/melodic/lib:/usr/local/lib PKG_CONFIG_PATH=/home/handsome/ros_ws_test/install/nav_core2/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_core2/lib/pkgconfig:/home/handsome/ros_ws_test/install/nav_grid/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_grid/lib/pkgconfig:/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/handsome/ros_ws_test/install/nav_core2/share:/home/handsome/ros_ws_test/install/nav_grid/share:/home/handsome/ros_ws_test/install/nav_2d_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/handsome/ros_ws_test/build/nav_2d_utils --target install -- -j12 -l12

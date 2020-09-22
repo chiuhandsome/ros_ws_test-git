@@ -1,0 +1,8 @@
+prefix=/home/handsome/ros_ws_test/build/omron_os32c_driver/devel
+
+Name: omron_os32c_driver
+Description: Description of omron_os32c_driver
+Version: 0.1.2
+Cflags: -I/home/handsome/ros_ws_test/src/ros_base/sensor_source/omron/omron_os32c_driver/include -I/usr/include
+Libs: -L${prefix}/lib -lomron_os32c /usr/lib/x86_64-linux-gnu/libboost_system.so
+Requires: diagnostic_updater odva_ethernetip roscpp sensor_msgs

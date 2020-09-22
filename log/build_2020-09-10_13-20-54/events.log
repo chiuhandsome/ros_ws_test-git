@@ -1,0 +1,507 @@
+[0.000000] (-) TimerEvent: {}
+[0.000688] (-) JobUnselected: {'identifier': 'botcmd_msgs'}
+[0.000727] (-) JobUnselected: {'identifier': 'ca_description'}
+[0.000760] (-) JobUnselected: {'identifier': 'ca_driver'}
+[0.000791] (-) JobUnselected: {'identifier': 'ca_msgs'}
+[0.000820] (-) JobUnselected: {'identifier': 'ca_tools'}
+[0.000912] (-) JobUnselected: {'identifier': 'car_db_manager_action'}
+[0.001026] (-) JobUnselected: {'identifier': 'car_db_manager_bridge'}
+[0.001074] (-) JobUnselected: {'identifier': 'car_db_manager_msgs'}
+[0.001107] (-) JobUnselected: {'identifier': 'car_db_manager_qtgui'}
+[0.001137] (-) JobUnselected: {'identifier': 'costmap_queue'}
+[0.001166] (-) JobUnselected: {'identifier': 'create_autonomy'}
+[0.001200] (-) JobUnselected: {'identifier': 'dlux_global_planner'}
+[0.001225] (-) JobUnselected: {'identifier': 'dlux_plugins'}
+[0.001253] (-) JobUnselected: {'identifier': 'dwb_critics'}
+[0.001318] (-) JobUnselected: {'identifier': 'dwb_local_planner'}
+[0.001342] (-) JobUnselected: {'identifier': 'dwb_msgs'}
+[0.001359] (-) JobUnselected: {'identifier': 'dwb_plugins'}
+[0.001381] (-) JobUnselected: {'identifier': 'global_planner_tests'}
+[0.001398] (-) JobUnselected: {'identifier': 'i_robot_navigation'}
+[0.001415] (-) JobUnselected: {'identifier': 'i_robot_stage'}
+[0.001437] (-) JobUnselected: {'identifier': 'libcreate'}
+[0.001508] (-) JobUnselected: {'identifier': 'locomotor'}
+[0.001531] (-) JobUnselected: {'identifier': 'locomotor_msgs'}
+[0.001548] (-) JobUnselected: {'identifier': 'locomove_base'}
+[0.001565] (-) JobUnselected: {'identifier': 'mongodb_log'}
+[0.001582] (-) JobUnselected: {'identifier': 'mongodb_store'}
+[0.001600] (-) JobUnselected: {'identifier': 'mongodb_store_msgs'}
+[0.001618] (-) JobUnselected: {'identifier': 'nav_2d_msgs'}
+[0.001634] (-) JobUnselected: {'identifier': 'nav_2d_utils'}
+[0.001659] (-) JobUnselected: {'identifier': 'nav_core2'}
+[0.001684] (-) JobUnselected: {'identifier': 'nav_core_adapter'}
+[0.001712] (-) JobUnselected: {'identifier': 'nav_grid'}
+[0.001756] (-) JobUnselected: {'identifier': 'nav_grid_iterators'}
+[0.001779] (-) JobUnselected: {'identifier': 'nav_grid_pub_sub'}
+[0.001795] (-) JobUnselected: {'identifier': 'omron_os32c_driver'}
+[0.001816] (-) JobUnselected: {'identifier': 'open_auto_dock'}
+[0.001832] (-) JobUnselected: {'identifier': 'open_auto_dock_msgs'}
+[0.001848] (-) JobUnselected: {'identifier': 'pnp_msgs'}
+[0.001870] (-) JobUnselected: {'identifier': 'pnp_ros'}
+[0.001931] (-) JobUnselected: {'identifier': 'pnp_rosplan'}
+[0.001953] (-) JobUnselected: {'identifier': 'razor_imu_9dof'}
+[0.001969] (-) JobUnselected: {'identifier': 'reset_location'}
+[0.001986] (-) JobUnselected: {'identifier': 'robot_control_msgs'}
+[0.002004] (-) JobUnselected: {'identifier': 'robot_database_bridge'}
+[0.002022] (-) JobUnselected: {'identifier': 'robot_localization'}
+[0.002037] (-) JobUnselected: {'identifier': 'robot_navigation'}
+[0.002066] (-) JobUnselected: {'identifier': 'robot_scheduling_msgs'}
+[0.002108] (-) JobUnselected: {'identifier': 'robot_scheduling_server'}
+[0.002131] (-) JobUnselected: {'identifier': 'robot_udp_bridge'}
+[0.002147] (-) JobUnselected: {'identifier': 'ros_utility_tools'}
+[0.002172] (-) JobUnselected: {'identifier': 'rp_action'}
+[0.002188] (-) JobUnselected: {'identifier': 'rp_action_msgs'}
+[0.002444] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.002492] (-) JobUnselected: {'identifier': 'samsungcmd_msgs'}
+[0.002536] (-) JobUnselected: {'identifier': 'spatio_temporal_voxel_layer'}
+[0.002560] (-) JobUnselected: {'identifier': 'stated_roslaunch'}
+[0.002576] (-) JobUnselected: {'identifier': 'teb2_local_planner'}
+[0.002597] (-) JobUnselected: {'identifier': 'timed_roslaunch'}
+[0.002614] (-) JobUnselected: {'identifier': 'tug_example_actions'}
+[0.002630] (-) JobUnselected: {'identifier': 'tug_example_msgs'}
+[0.002652] (-) JobUnselected: {'identifier': 'tug_example_pnp_server'}
+[0.002776] (-) JobUnselected: {'identifier': 'turtlebot_teleop'}
+[0.002806] (-) JobUnselected: {'identifier': 'yocs_cmd_vel_mux'}
+[0.002851] (robot_scheduling_actions) JobQueued: {'identifier': 'robot_scheduling_actions', 'dependencies': OrderedDict([('botcmd_msgs', '/home/handsome/ros_ws_test/install/botcmd_msgs'), ('car_db_manager_msgs', '/home/handsome/ros_ws_test/install/car_db_manager_msgs'), ('mongodb_store_msgs', '/home/handsome/ros_ws_test/install/mongodb_store_msgs'), ('nav_2d_msgs', '/home/handsome/ros_ws_test/install/nav_2d_msgs'), ('open_auto_dock_msgs', '/home/handsome/ros_ws_test/install/open_auto_dock_msgs'), ('pnp_msgs', '/home/handsome/ros_ws_test/install/pnp_msgs'), ('reset_location', '/home/handsome/ros_ws_test/install/reset_location'), ('ros_utility_tools', '/home/handsome/ros_ws_test/install/ros_utility_tools'), ('locomotor_msgs', '/home/handsome/ros_ws_test/install/locomotor_msgs'), ('mongodb_store', '/home/handsome/ros_ws_test/install/mongodb_store'), ('pnp_ros', '/home/handsome/ros_ws_test/install/pnp_ros'), ('robot_scheduling_msgs', '/home/handsome/ros_ws_test/install/robot_scheduling_msgs')])}
+[0.002901] (robot_scheduling_actions) JobStarted: {'identifier': 'robot_scheduling_actions'}
+[0.098315] (robot_scheduling_actions) JobProgress: {'identifier': 'robot_scheduling_actions', 'progress': 'cmake'}
+[0.099489] (robot_scheduling_actions) JobProgress: {'identifier': 'robot_scheduling_actions', 'progress': 'build'}
+[0.099523] (-) TimerEvent: {}
+[0.099711] (robot_scheduling_actions) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/handsome/ros_ws_test/build/robot_scheduling_actions', '--', '-j12', '-l12'], 'cwd': '/home/handsome/ros_ws_test/build/robot_scheduling_actions', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'handsome'), ('LC_TIME', 'zh_TW.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '4924'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_PACKAGE_PATH', '/home/handsome/ros_ws_test/install/robot_scheduling_msgs/share:/home/handsome/ros_ws_test/install/pnp_ros/share:/home/handsome/ros_ws_test/install/mongodb_store/share:/home/handsome/ros_ws_test/install/locomotor_msgs/share:/home/handsome/ros_ws_test/install/ros_utility_tools/share:/home/handsome/ros_ws_test/install/reset_location/share:/home/handsome/ros_ws_test/install/pnp_msgs/share:/home/handsome/ros_ws_test/install/open_auto_dock_msgs/share:/home/handsome/ros_ws_test/install/nav_2d_msgs/share:/home/handsome/ros_ws_test/install/mongodb_store_msgs/share:/home/handsome/ros_ws_test/install/car_db_manager_msgs/share:/home/handsome/ros_ws_test/install/botcmd_msgs/share:/home/handsome/ros_ws_test/install/yocs_cmd_vel_mux/share:/home/handsome/ros_ws_test/install/turtlebot_teleop/share:/home/handsome/ros_ws_test/install/tug_example_pnp_server/share:/home/handsome/ros_ws_test/install/tug_example_actions/share:/home/handsome/ros_ws_test/install/tug_example_msgs/share:/home/handsome/ros_ws_test/install/timed_roslaunch/share:/home/handsome/ros_ws_test/install/teb2_local_planner/share:/home/handsome/ros_ws_test/install/stated_roslaunch/share:/home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/share:/home/handsome/ros_ws_test/install/robot_udp_bridge/share:/home/handsome/ros_ws_test/install/robot_database_bridge/share:/home/handsome/ros_ws_test/install/samsungcmd_msgs/share:/home/handsome/ros_ws_test/install/rplidar_ros/share:/home/handsome/ros_ws_test/install/rp_action/share:/home/handsome/ros_ws_test/install/rp_action_msgs/share:/home/handsome/ros_ws_test/install/robot_scheduling_actions/share:/home/handsome/ros_ws_test/install/cellctrl_qtgui_bridge/share:/home/handsome/ros_ws_test/install/cellctrl_database_bridge/share:/home/handsome/ros_ws_test/install/car_db_manager_qtgui/share:/home/handsome/ros_ws_test/install/car_db_manager_bridge/share:/home/handsome/ros_ws_test/install/car_db_manager_action/share:/home/handsome/ros_ws_test/install/robot_scheduling_server/share:/home/handsome/ros_ws_test/install/robot_navigation/share:/home/handsome/ros_ws_test/install/robot_localization/share:/home/handsome/ros_ws_test/install/robot_control_msgs/share:/home/handsome/ros_ws_test/install/razor_imu_9dof/share:/home/handsome/ros_ws_test/install/pnp_rosplan/share:/home/handsome/ros_ws_test/install/actionlib_modules_controller/share:/home/handsome/ros_ws_test/install/open_auto_dock/share:/home/handsome/ros_ws_test/install/omron_os32c_driver/share:/home/handsome/ros_ws_test/install/dlux_plugins/share:/home/handsome/ros_ws_test/install/dlux_global_planner/share:/home/handsome/ros_ws_test/install/nav_grid_pub_sub/share:/home/handsome/ros_ws_test/install/dwb_critics/share:/home/handsome/ros_ws_test/install/nav_grid_iterators/share:/home/handsome/ros_ws_test/install/locomove_base/share:/home/handsome/ros_ws_test/install/locomotor/share:/home/handsome/ros_ws_test/install/nav_core_adapter/share:/home/handsome/ros_ws_test/install/dwb_plugins/share:/home/handsome/ros_ws_test/install/dwb_local_planner/share:/home/handsome/ros_ws_test/install/nav_2d_utils/share:/home/handsome/ros_ws_test/install/global_planner_tests/share:/home/handsome/ros_ws_test/install/costmap_queue/share:/home/handsome/ros_ws_test/install/nav_core2/share:/home/handsome/ros_ws_test/install/nav_grid/share:/home/handsome/ros_ws_test/install/actionlib_modules_msgs/share:/home/handsome/ros_ws_test/install/dwb_msgs/share:/home/handsome/ros_ws_test/install/mongodb_log/share:/home/handsome/ros_ws_test/install/create_autonomy/share:/home/handsome/ros_ws_test/install/ca_driver/share:/home/handsome/ros_ws_test/install/i_robot_stage/share:/home/handsome/ros_ws_test/install/i_robot_navigation/share:/home/handsome/ros_ws_test/install/cellctrl_control_msgs/share:/home/handsome/ros_ws_test/install/ca_tools/share:/home/handsome/ros_ws_test/install/ca_msgs/share:/home/handsome/ros_ws_test/install/ca_description/share:/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/home/handsome/ros_ws_test/install/pnp_ros/lib:/home/handsome/ros_ws_test/install/mongodb_store/lib:/home/handsome/ros_ws_test/install/ros_utility_tools/lib:/home/handsome/ros_ws_test/install/yocs_cmd_vel_mux/lib:/home/handsome/ros_ws_test/install/teb2_local_planner/lib:/home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/lib:/home/handsome/ros_ws_test/install/robot_database_bridge/lib:/home/handsome/ros_ws_test/install/robot_localization/lib:/home/handsome/ros_ws_test/install/omron_os32c_driver/lib:/home/handsome/ros_ws_test/install/dlux_plugins/lib:/home/handsome/ros_ws_test/install/dlux_global_planner/lib:/home/handsome/ros_ws_test/install/nav_grid_pub_sub/lib:/home/handsome/ros_ws_test/install/dwb_critics/lib:/home/handsome/ros_ws_test/install/nav_grid_iterators/lib:/home/handsome/ros_ws_test/install/locomotor/lib:/home/handsome/ros_ws_test/install/nav_core_adapter/lib:/home/handsome/ros_ws_test/install/dwb_plugins/lib:/home/handsome/ros_ws_test/install/dwb_local_planner/lib:/home/handsome/ros_ws_test/install/nav_2d_utils/lib:/home/handsome/ros_ws_test/install/global_planner_tests/lib:/home/handsome/ros_ws_test/install/costmap_queue/lib:/home/handsome/ros_ws_test/install/nav_core2/lib:/home/handsome/ros_ws_test/install/libcreate/lib:/opt/ros/melodic/lib:/usr/local/lib'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '1'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/handsome'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '2'), ('LC_MONETARY', 'zh_TW.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/handsome/ros_ws_test/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'melodic'), ('LOGNAME', 'handsome'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '1'), ('PKG_CONFIG_PATH', '/home/handsome/ros_ws_test/install/robot_scheduling_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/robot_scheduling_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/pnp_ros/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/pnp_ros/lib/pkgconfig:/home/handsome/ros_ws_test/install/mongodb_store/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/mongodb_store/lib/pkgconfig:/home/handsome/ros_ws_test/install/locomotor_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/locomotor_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/ros_utility_tools/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/ros_utility_tools/lib/pkgconfig:/home/handsome/ros_ws_test/install/reset_location/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/reset_location/lib/pkgconfig:/home/handsome/ros_ws_test/install/pnp_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/pnp_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/car_db_manager_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/car_db_manager_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/botcmd_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/botcmd_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/yocs_cmd_vel_mux/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/yocs_cmd_vel_mux/lib/pkgconfig:/home/handsome/ros_ws_test/install/turtlebot_teleop/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/turtlebot_teleop/lib/pkgconfig:/home/handsome/ros_ws_test/install/tug_example_pnp_server/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/tug_example_pnp_server/lib/pkgconfig:/home/handsome/ros_ws_test/install/tug_example_actions/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/tug_example_actions/lib/pkgconfig:/home/handsome/ros_ws_test/install/tug_example_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/tug_example_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/timed_roslaunch/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/timed_roslaunch/lib/pkgconfig:/home/handsome/ros_ws_test/install/teb2_local_planner/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/teb2_local_planner/lib/pkgconfig:/home/handsome/ros_ws_test/install/stated_roslaunch/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/stated_roslaunch/lib/pkgconfig:/home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/lib/pkgconfig:/home/handsome/ros_ws_test/install/robot_udp_bridge/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/robot_udp_bridge/lib/pkgconfig:/home/handsome/ros_ws_test/install/robot_database_bridge/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/robot_database_bridge/lib/pkgconfig:/home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/rplidar_ros/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/rplidar_ros/lib/pkgconfig:/home/handsome/ros_ws_test/install/rp_action/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/rp_action/lib/pkgconfig:/home/handsome/ros_ws_test/install/rp_action_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/rp_action_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/robot_scheduling_actions/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/robot_scheduling_actions/lib/pkgconfig:/home/handsome/ros_ws_test/install/cellctrl_qtgui_bridge/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/cellctrl_qtgui_bridge/lib/pkgconfig:/home/handsome/ros_ws_test/install/cellctrl_database_bridge/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/cellctrl_database_bridge/lib/pkgconfig:/home/handsome/ros_ws_test/install/car_db_manager_qtgui/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/car_db_manager_qtgui/lib/pkgconfig:/home/handsome/ros_ws_test/install/car_db_manager_bridge/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/car_db_manager_bridge/lib/pkgconfig:/home/handsome/ros_ws_test/install/car_db_manager_action/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/car_db_manager_action/lib/pkgconfig:/home/handsome/ros_ws_test/install/robot_scheduling_server/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/robot_scheduling_server/lib/pkgconfig:/home/handsome/ros_ws_test/install/robot_navigation/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/robot_navigation/lib/pkgconfig:/home/handsome/ros_ws_test/install/robot_localization/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/robot_localization/lib/pkgconfig:/home/handsome/ros_ws_test/install/robot_control_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/robot_control_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/razor_imu_9dof/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/razor_imu_9dof/lib/pkgconfig:/home/handsome/ros_ws_test/install/pnp_rosplan/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/pnp_rosplan/lib/pkgconfig:/home/handsome/ros_ws_test/install/actionlib_modules_controller/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/actionlib_modules_controller/lib/pkgconfig:/home/handsome/ros_ws_test/install/open_auto_dock/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/open_auto_dock/lib/pkgconfig:/home/handsome/ros_ws_test/install/omron_os32c_driver/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/omron_os32c_driver/lib/pkgconfig:/home/handsome/ros_ws_test/install/dlux_plugins/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/dlux_plugins/lib/pkgconfig:/home/handsome/ros_ws_test/install/dlux_global_planner/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/dlux_global_planner/lib/pkgconfig:/home/handsome/ros_ws_test/install/nav_grid_pub_sub/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_grid_pub_sub/lib/pkgconfig:/home/handsome/ros_ws_test/install/dwb_critics/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/dwb_critics/lib/pkgconfig:/home/handsome/ros_ws_test/install/nav_grid_iterators/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_grid_iterators/lib/pkgconfig:/home/handsome/ros_ws_test/install/locomove_base/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/locomove_base/lib/pkgconfig:/home/handsome/ros_ws_test/install/locomotor/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/locomotor/lib/pkgconfig:/home/handsome/ros_ws_test/install/nav_core_adapter/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_core_adapter/lib/pkgconfig:/home/handsome/ros_ws_test/install/dwb_plugins/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/dwb_plugins/lib/pkgconfig:/home/handsome/ros_ws_test/install/dwb_local_planner/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/dwb_local_planner/lib/pkgconfig:/home/handsome/ros_ws_test/install/nav_2d_utils/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_2d_utils/lib/pkgconfig:/home/handsome/ros_ws_test/install/global_planner_tests/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/global_planner_tests/lib/pkgconfig:/home/handsome/ros_ws_test/install/costmap_queue/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/costmap_queue/lib/pkgconfig:/home/handsome/ros_ws_test/install/nav_core2/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_core2/lib/pkgconfig:/home/handsome/ros_ws_test/install/nav_grid/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_grid/lib/pkgconfig:/home/handsome/ros_ws_test/install/actionlib_modules_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/actionlib_modules_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/dwb_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/dwb_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/mongodb_log/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/mongodb_log/lib/pkgconfig:/home/handsome/ros_ws_test/install/create_autonomy/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/create_autonomy/lib/pkgconfig:/home/handsome/ros_ws_test/install/ca_driver/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/ca_driver/lib/pkgconfig:/home/handsome/ros_ws_test/install/libcreate/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/libcreate/lib/pkgconfig:/home/handsome/ros_ws_test/install/i_robot_stage/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/i_robot_stage/lib/pkgconfig:/home/handsome/ros_ws_test/install/i_robot_navigation/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/i_robot_navigation/lib/pkgconfig:/home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/ca_tools/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/ca_tools/lib/pkgconfig:/home/handsome/ros_ws_test/install/ca_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/ca_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/ca_description/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/ca_description/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig'), ('USERNAME', 'handsome'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('CATKIN_ENV_HOOK_WORKSPACE', '/home/handsome/ros_ws_test/install'), ('PAPERSIZE', 'a4'), ('SESSION_MANAGER', 'local/handsome:@/tmp/.ICE-unix/4847,unix/handsome:/tmp/.ICE-unix/4847'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/634a468c_7773_4df9_adb3_9ea707c1e0f6'), ('LC_ADDRESS', 'zh_TW.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('TURTLEBOT_STAGE_MAP_FILE', '/home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/maps/maze.yaml'), ('DISPLAY', ':0'), ('TURTLEBOT_MAP_FILE', '/home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/maps/willow-2010-02-18-0.10.yaml'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_TW.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.84'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'zh_TW.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_TW.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_TW.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/handsome/ros_ws_test/build/robot_scheduling_actions'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'zh_TW.UTF-8'), ('PYTHONPATH', '/home/handsome/ros_ws_test/install/robot_scheduling_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/mongodb_store/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/locomotor_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/reset_location/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/pnp_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/car_db_manager_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/yocs_cmd_vel_mux/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/tug_example_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/teb2_local_planner/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/rp_action_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/robot_localization/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/razor_imu_9dof/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/dwb_plugins/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/actionlib_modules_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/dwb_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/ca_msgs/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages'), ('LC_PAPER', 'zh_TW.UTF-8'), ('TURTLEBOT_STAGE_WORLD_FILE', '/home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/maps/stage/maze.world'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/handsome/ros_ws_test/install/robot_scheduling_msgs:/home/handsome/ros_ws_test/install/pnp_ros:/home/handsome/ros_ws_test/install/mongodb_store:/home/handsome/ros_ws_test/install/locomotor_msgs:/home/handsome/ros_ws_test/install/ros_utility_tools:/home/handsome/ros_ws_test/install/reset_location:/home/handsome/ros_ws_test/install/pnp_msgs:/home/handsome/ros_ws_test/install/open_auto_dock_msgs:/home/handsome/ros_ws_test/install/nav_2d_msgs:/home/handsome/ros_ws_test/install/mongodb_store_msgs:/home/handsome/ros_ws_test/install/car_db_manager_msgs:/home/handsome/ros_ws_test/install/botcmd_msgs:/home/handsome/ros_ws_test/install/yocs_cmd_vel_mux:/home/handsome/ros_ws_test/install/turtlebot_teleop:/home/handsome/ros_ws_test/install/tug_example_pnp_server:/home/handsome/ros_ws_test/install/tug_example_actions:/home/handsome/ros_ws_test/install/tug_example_msgs:/home/handsome/ros_ws_test/install/timed_roslaunch:/home/handsome/ros_ws_test/install/teb2_local_planner:/home/handsome/ros_ws_test/install/stated_roslaunch:/home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer:/home/handsome/ros_ws_test/install/robot_udp_bridge:/home/handsome/ros_ws_test/install/robot_database_bridge:/home/handsome/ros_ws_test/install/samsungcmd_msgs:/home/handsome/ros_ws_test/install/rplidar_ros:/home/handsome/ros_ws_test/install/rp_action:/home/handsome/ros_ws_test/install/rp_action_msgs:/home/handsome/ros_ws_test/install/robot_scheduling_actions:/home/handsome/ros_ws_test/install/cellctrl_qtgui_bridge:/home/handsome/ros_ws_test/install/car_db_manager_qtgui:/home/handsome/ros_ws_test/install/car_db_manager_bridge:/home/handsome/ros_ws_test/install/car_db_manager_action:/home/handsome/ros_ws_test/install/robot_scheduling_server:/home/handsome/ros_ws_test/install/robot_localization:/home/handsome/ros_ws_test/install/robot_control_msgs:/home/handsome/ros_ws_test/install/razor_imu_9dof:/home/handsome/ros_ws_test/install/pnp_rosplan:/home/handsome/ros_ws_test/install/open_auto_dock:/home/handsome/ros_ws_test/install/omron_os32c_driver:/home/handsome/ros_ws_test/install/dlux_plugins:/home/handsome/ros_ws_test/install/dlux_global_planner:/home/handsome/ros_ws_test/install/nav_grid_pub_sub:/home/handsome/ros_ws_test/install/dwb_critics:/home/handsome/ros_ws_test/install/nav_grid_iterators:/home/handsome/ros_ws_test/install/locomove_base:/home/handsome/ros_ws_test/install/locomotor:/home/handsome/ros_ws_test/install/nav_core_adapter:/home/handsome/ros_ws_test/install/dwb_plugins:/home/handsome/ros_ws_test/install/dwb_local_planner:/home/handsome/ros_ws_test/install/nav_2d_utils:/home/handsome/ros_ws_test/install/global_planner_tests:/home/handsome/ros_ws_test/install/costmap_queue:/home/handsome/ros_ws_test/install/nav_core2:/home/handsome/ros_ws_test/install/nav_grid:/home/handsome/ros_ws_test/install/actionlib_modules_msgs:/home/handsome/ros_ws_test/install/dwb_msgs:/home/handsome/ros_ws_test/install/mongodb_log:/home/handsome/ros_ws_test/install/ca_driver:/home/handsome/ros_ws_test/install/libcreate:/home/handsome/ros_ws_test/install/i_robot_stage:/home/handsome/ros_ws_test/install/i_robot_navigation:/home/handsome/ros_ws_test/install/cellctrl_control_msgs:/home/handsome/ros_ws_test/install/ca_tools:/home/handsome/ros_ws_test/install/ca_msgs:/home/handsome/ros_ws_test/install/ca_description:/opt/ros/melodic')]), 'shell': False}
+[0.174566] (robot_scheduling_actions) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target robot_scheduling_actions_node\x1b[0m\n'}
+[0.199638] (-) TimerEvent: {}
+[0.272603] (robot_scheduling_actions) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/robot_scheduling_service.cpp.o\x1b[0m\n'}
+[0.273017] (robot_scheduling_actions) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/robot_scheduling_actions.cpp.o\x1b[0m\n'}
+[0.273194] (robot_scheduling_actions) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/private_actions/robot_if_process_action.cpp.o\x1b[0m\n'}
+[0.273347] (robot_scheduling_actions) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/robot_scheduling_parameter.cpp.o\x1b[0m\n'}
+[0.274514] (robot_scheduling_actions) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/private_actions/robot_run_state_action.cpp.o\x1b[0m\n'}
+[0.274797] (robot_scheduling_actions) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/private_actions/robot_if_proc_lower_action.cpp.o\x1b[0m\n'}
+[0.274969] (robot_scheduling_actions) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/private_actions/robot_if_proc_upper_action.cpp.o\x1b[0m\n'}
+[0.276277] (robot_scheduling_actions) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/public_actions/pose_recognize_action.cpp.o\x1b[0m\n'}
+[0.276562] (robot_scheduling_actions) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/public_actions/db_process_action.cpp.o\x1b[0m\n'}
+[0.276742] (robot_scheduling_actions) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/private_actions/robot_if_params_action.cpp.o\x1b[0m\n'}
+[0.279395] (robot_scheduling_actions) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/public_actions/pose_move_to_action.cpp.o\x1b[0m\n'}
+[0.280148] (robot_scheduling_actions) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/private_actions/interrupt_info_action.cpp.o\x1b[0m\n'}
+[0.299772] (-) TimerEvent: {}
+[0.400394] (-) TimerEvent: {}
+[0.500747] (-) TimerEvent: {}
+[0.601123] (-) TimerEvent: {}
+[0.701612] (-) TimerEvent: {}
+[0.802324] (-) TimerEvent: {}
+[0.902971] (-) TimerEvent: {}
+[1.003488] (-) TimerEvent: {}
+[1.103873] (-) TimerEvent: {}
+[1.204373] (-) TimerEvent: {}
+[1.304734] (-) TimerEvent: {}
+[1.405172] (-) TimerEvent: {}
+[1.505792] (-) TimerEvent: {}
+[1.606336] (-) TimerEvent: {}
+[1.706803] (-) TimerEvent: {}
+[1.807431] (-) TimerEvent: {}
+[1.908095] (-) TimerEvent: {}
+[2.008811] (-) TimerEvent: {}
+[2.110120] (-) TimerEvent: {}
+[2.212195] (-) TimerEvent: {}
+[2.314250] (-) TimerEvent: {}
+[2.417374] (-) TimerEvent: {}
+[2.517894] (-) TimerEvent: {}
+[2.618737] (-) TimerEvent: {}
+[2.720318] (-) TimerEvent: {}
+[2.820936] (-) TimerEvent: {}
+[2.921725] (-) TimerEvent: {}
+[3.022157] (-) TimerEvent: {}
+[3.122719] (-) TimerEvent: {}
+[3.223369] (-) TimerEvent: {}
+[3.324597] (-) TimerEvent: {}
+[3.425392] (-) TimerEvent: {}
+[3.526297] (-) TimerEvent: {}
+[3.578228] (robot_scheduling_actions) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/melodic/include/ros/ros.h:40:0\x1b[m\x1b[K,\n'}
+[3.578644] (robot_scheduling_actions) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/robot_scheduling_parameter.h:3\x1b[m\x1b[K,\n'}
+[3.578863] (robot_scheduling_actions) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_parameter.cpp:1\x1b[m\x1b[K:\n'}
+[3.579040] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_parameter.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid robot_scheduling_parameter::ac_fixed_pose2d_init_set(ros::NodeHandle)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.579199] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/melodic/include/ros/console.h:348:176:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 8 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::map<std::__cxx11::basic_string<char>, std::shared_ptr<ac_locomotor_pos2d> >::size_type {aka long unsigned int}\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[3.579360] (robot_scheduling_actions) StderrLine: {'line': b'     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__\x1b[01;35m\x1b[K)\x1b[m\x1b[K\n'}
+[3.579538] (robot_scheduling_actions) StderrLine: {'line': b'                                                                                                                                                                                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.579679] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/melodic/include/ros/console.h:351:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.579888] (robot_scheduling_actions) StderrLine: {'line': b'     \x1b[01;36m\x1b[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER\x1b[m\x1b[K(NULL, __VA_ARGS__)\n'}
+[3.580067] (robot_scheduling_actions) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.580266] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/melodic/include/ros/console.h:387:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KROSCONSOLE_PRINT_AT_LOCATION\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.580537] (robot_scheduling_actions) StderrLine: {'line': b'       \x1b[01;36m\x1b[KROSCONSOLE_PRINT_AT_LOCATION\x1b[m\x1b[K(__VA_ARGS__); \\\n'}
+[3.580728] (robot_scheduling_actions) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.580892] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/melodic/include/ros/console.h:572:35:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KROS_LOG_COND\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.581940] (robot_scheduling_actions) StderrLine: {'line': b' #define ROS_LOG(level, name, ...) \x1b[01;36m\x1b[KROS_LOG_COND\x1b[m\x1b[K(true, level, name, __VA_ARGS__)\n'}
+[3.582550] (robot_scheduling_actions) StderrLine: {'line': b'                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.582901] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KROS_LOG\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.583192] (robot_scheduling_actions) StderrLine: {'line': b' #define ROS_INFO(...) \x1b[01;36m\x1b[KROS_LOG\x1b[m\x1b[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)\n'}
+[3.583935] (robot_scheduling_actions) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.584154] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_parameter.cpp:239:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KROS_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.584335] (robot_scheduling_actions) StderrLine: {'line': b'     \x1b[01;36m\x1b[KR\x1b[m\x1b[KOS_INFO("ac_locomotor_pos2d_map_ size:%d",ac_locomotor_pos2d_map_.size());\n'}
+[3.584484] (robot_scheduling_actions) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.626514] (-) TimerEvent: {}
+[3.662689] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_parameter.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::string robot_scheduling_parameter::get_sch_locomotor_pos2d(std::__cxx11::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.663238] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/melodic/include/ros/console.h:348:176:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 8 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::map<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >::size_type {aka long unsigned int}\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[3.663645] (robot_scheduling_actions) StderrLine: {'line': b'     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__\x1b[01;35m\x1b[K)\x1b[m\x1b[K\n'}
+[3.663952] (robot_scheduling_actions) StderrLine: {'line': b'                                                                                                                                                                                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.664195] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/melodic/include/ros/console.h:351:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.664447] (robot_scheduling_actions) StderrLine: {'line': b'     \x1b[01;36m\x1b[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER\x1b[m\x1b[K(NULL, __VA_ARGS__)\n'}
+[3.664627] (robot_scheduling_actions) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.664812] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/melodic/include/ros/console.h:387:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KROSCONSOLE_PRINT_AT_LOCATION\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.665029] (robot_scheduling_actions) StderrLine: {'line': b'       \x1b[01;36m\x1b[KROSCONSOLE_PRINT_AT_LOCATION\x1b[m\x1b[K(__VA_ARGS__); \\\n'}
+[3.665291] (robot_scheduling_actions) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.665571] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/melodic/include/ros/console.h:572:35:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KROS_LOG_COND\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.665845] (robot_scheduling_actions) StderrLine: {'line': b' #define ROS_LOG(level, name, ...) \x1b[01;36m\x1b[KROS_LOG_COND\x1b[m\x1b[K(true, level, name, __VA_ARGS__)\n'}
+[3.667465] (robot_scheduling_actions) StderrLine: {'line': b'                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.668256] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KROS_LOG\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.668670] (robot_scheduling_actions) StderrLine: {'line': b' #define ROS_INFO(...) \x1b[01;36m\x1b[KROS_LOG\x1b[m\x1b[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)\n'}
+[3.668992] (robot_scheduling_actions) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.669422] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_parameter.cpp:406:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KROS_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.669697] (robot_scheduling_actions) StderrLine: {'line': b'     \x1b[01;36m\x1b[KR\x1b[m\x1b[KOS_INFO("get_sch_locomotor_pos2d:%d",sch_locomotor_pos2d_map_.size());\n'}
+[3.669876] (robot_scheduling_actions) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.726652] (-) TimerEvent: {}
+[3.827147] (-) TimerEvent: {}
+[3.927622] (-) TimerEvent: {}
+[4.028398] (-) TimerEvent: {}
+[4.129469] (-) TimerEvent: {}
+[4.228914] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_parameter.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<pid_ctrl_params> robot_scheduling_parameter::get_ac_pid_ctrl_params(std::__cxx11::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.229354] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/melodic/include/ros/console.h:348:176:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 8 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::map<std::__cxx11::basic_string<char>, std::shared_ptr<pid_ctrl_params> >::size_type {aka long unsigned int}\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[4.229550] (-) TimerEvent: {}
+[4.229727] (robot_scheduling_actions) StderrLine: {'line': b'     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__\x1b[01;35m\x1b[K)\x1b[m\x1b[K\n'}
+[4.229905] (robot_scheduling_actions) StderrLine: {'line': b'                                                                                                                                                                                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.230053] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/melodic/include/ros/console.h:351:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.230177] (robot_scheduling_actions) StderrLine: {'line': b'     \x1b[01;36m\x1b[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER\x1b[m\x1b[K(NULL, __VA_ARGS__)\n'}
+[4.230299] (robot_scheduling_actions) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.230428] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/melodic/include/ros/console.h:387:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KROSCONSOLE_PRINT_AT_LOCATION\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.230543] (robot_scheduling_actions) StderrLine: {'line': b'       \x1b[01;36m\x1b[KROSCONSOLE_PRINT_AT_LOCATION\x1b[m\x1b[K(__VA_ARGS__); \\\n'}
+[4.230652] (robot_scheduling_actions) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.230768] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/melodic/include/ros/console.h:572:35:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KROS_LOG_COND\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.230879] (robot_scheduling_actions) StderrLine: {'line': b' #define ROS_LOG(level, name, ...) \x1b[01;36m\x1b[KROS_LOG_COND\x1b[m\x1b[K(true, level, name, __VA_ARGS__)\n'}
+[4.234734] (robot_scheduling_actions) StderrLine: {'line': b'                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.235319] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KROS_LOG\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.235616] (robot_scheduling_actions) StderrLine: {'line': b' #define ROS_INFO(...) \x1b[01;36m\x1b[KROS_LOG\x1b[m\x1b[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)\n'}
+[4.235790] (robot_scheduling_actions) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.235939] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_parameter.cpp:661:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KROS_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.236086] (robot_scheduling_actions) StderrLine: {'line': b'     \x1b[01;36m\x1b[KR\x1b[m\x1b[KOS_INFO("ac_pid_ctrl_params_map_ size==>%d",ac_pid_ctrl_params_map_.size());\n'}
+[4.236242] (robot_scheduling_actions) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.329715] (-) TimerEvent: {}
+[4.430210] (-) TimerEvent: {}
+[4.531249] (-) TimerEvent: {}
+[4.633276] (-) TimerEvent: {}
+[4.735475] (-) TimerEvent: {}
+[4.838149] (-) TimerEvent: {}
+[4.905187] (robot_scheduling_actions) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/melodic/include/ros/ros.h:40:0\x1b[m\x1b[K,\n'}
+[4.906861] (robot_scheduling_actions) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/private_actions/robot_run_state_action.h:4\x1b[m\x1b[K,\n'}
+[4.907099] (robot_scheduling_actions) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_run_state_action.cpp:1\x1b[m\x1b[K:\n'}
+[4.907488] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_run_state_action.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kactionlib::SimpleClientGoalState robot_run_state_action::do_db_process_ac(const db_processGoal&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.907753] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/melodic/include/ros/console.h:348:176:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat not a string literal and no format arguments [\x1b[01;35m\x1b[K-Wformat-security\x1b[m\x1b[K]\n'}
+[4.907899] (robot_scheduling_actions) StderrLine: {'line': b'     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__\x1b[01;35m\x1b[K)\x1b[m\x1b[K\n'}
+[4.908027] (robot_scheduling_actions) StderrLine: {'line': b'                                                                                                                                                                                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.908161] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/melodic/include/ros/console.h:351:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.908299] (robot_scheduling_actions) StderrLine: {'line': b'     \x1b[01;36m\x1b[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER\x1b[m\x1b[K(NULL, __VA_ARGS__)\n'}
+[4.908415] (robot_scheduling_actions) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.908529] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/melodic/include/ros/console.h:387:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KROSCONSOLE_PRINT_AT_LOCATION\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.908667] (robot_scheduling_actions) StderrLine: {'line': b'       \x1b[01;36m\x1b[KROSCONSOLE_PRINT_AT_LOCATION\x1b[m\x1b[K(__VA_ARGS__); \\\n'}
+[4.908782] (robot_scheduling_actions) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.908905] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/melodic/include/ros/console.h:572:35:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KROS_LOG_COND\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.909031] (robot_scheduling_actions) StderrLine: {'line': b' #define ROS_LOG(level, name, ...) \x1b[01;36m\x1b[KROS_LOG_COND\x1b[m\x1b[K(true, level, name, __VA_ARGS__)\n'}
+[4.909157] (robot_scheduling_actions) StderrLine: {'line': b'                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.909267] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KROS_LOG\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.909393] (robot_scheduling_actions) StderrLine: {'line': b' #define ROS_INFO(...) \x1b[01;36m\x1b[KROS_LOG\x1b[m\x1b[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)\n'}
+[4.909520] (robot_scheduling_actions) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.909639] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_run_state_action.cpp:611:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KROS_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.909791] (robot_scheduling_actions) StderrLine: {'line': b'     \x1b[01;36m\x1b[KR\x1b[m\x1b[KOS_INFO(goal.db_process_ac_name.c_str());\n'}
+[4.909900] (robot_scheduling_actions) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.910010] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/melodic/include/ros/console.h:348:176:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat not a string literal and no format arguments [\x1b[01;35m\x1b[K-Wformat-security\x1b[m\x1b[K]\n'}
+[4.910106] (robot_scheduling_actions) StderrLine: {'line': b'     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__\x1b[01;35m\x1b[K)\x1b[m\x1b[K\n'}
+[4.910216] (robot_scheduling_actions) StderrLine: {'line': b'                                                                                                                                                                                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.910339] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/melodic/include/ros/console.h:351:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.910531] (robot_scheduling_actions) StderrLine: {'line': b'     \x1b[01;36m\x1b[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER\x1b[m\x1b[K(NULL, __VA_ARGS__)\n'}
+[4.910742] (robot_scheduling_actions) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.910991] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/melodic/include/ros/console.h:387:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KROSCONSOLE_PRINT_AT_LOCATION\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.911197] (robot_scheduling_actions) StderrLine: {'line': b'       \x1b[01;36m\x1b[KROSCONSOLE_PRINT_AT_LOCATION\x1b[m\x1b[K(__VA_ARGS__); \\\n'}
+[4.911359] (robot_scheduling_actions) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.911531] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/melodic/include/ros/console.h:572:35:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KROS_LOG_COND\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.911667] (robot_scheduling_actions) StderrLine: {'line': b' #define ROS_LOG(level, name, ...) \x1b[01;36m\x1b[KROS_LOG_COND\x1b[m\x1b[K(true, level, name, __VA_ARGS__)\n'}
+[4.911818] (robot_scheduling_actions) StderrLine: {'line': b'                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.911990] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KROS_LOG\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.912210] (robot_scheduling_actions) StderrLine: {'line': b' #define ROS_INFO(...) \x1b[01;36m\x1b[KROS_LOG\x1b[m\x1b[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)\n'}
+[4.912364] (robot_scheduling_actions) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.912502] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_run_state_action.cpp:625:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KROS_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.912664] (robot_scheduling_actions) StderrLine: {'line': b'     \x1b[01;36m\x1b[KR\x1b[m\x1b[KOS_INFO(goal.cmd_data.c_str());\n'}
+[4.912815] (robot_scheduling_actions) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.938716] (-) TimerEvent: {}
+[5.039203] (-) TimerEvent: {}
+[5.139713] (-) TimerEvent: {}
+[5.240159] (-) TimerEvent: {}
+[5.344246] (-) TimerEvent: {}
+[5.457555] (-) TimerEvent: {}
+[5.558301] (-) TimerEvent: {}
+[5.658896] (-) TimerEvent: {}
+[5.759467] (-) TimerEvent: {}
+[5.860247] (-) TimerEvent: {}
+[5.926294] (robot_scheduling_actions) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/melodic/include/ros/ros.h:40:0\x1b[m\x1b[K,\n'}
+[5.926762] (robot_scheduling_actions) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/pose_move_to_action.h:4\x1b[m\x1b[K,\n'}
+[5.927058] (robot_scheduling_actions) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/pose_move_to_action.cpp:1\x1b[m\x1b[K:\n'}
+[5.927318] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/pose_move_to_action.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid pose_move_to_action::move_to_CB(const pose_move_toGoalConstPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.927581] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/melodic/include/ros/console.h:348:176:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat not a string literal and no format arguments [\x1b[01;35m\x1b[K-Wformat-security\x1b[m\x1b[K]\n'}
+[5.927838] (robot_scheduling_actions) StderrLine: {'line': b'     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__\x1b[01;35m\x1b[K)\x1b[m\x1b[K\n'}
+[5.928074] (robot_scheduling_actions) StderrLine: {'line': b'                                                                                                                                                                                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.928294] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/melodic/include/ros/console.h:351:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.928485] (robot_scheduling_actions) StderrLine: {'line': b'     \x1b[01;36m\x1b[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER\x1b[m\x1b[K(NULL, __VA_ARGS__)\n'}
+[5.928681] (robot_scheduling_actions) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.928931] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/melodic/include/ros/console.h:387:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KROSCONSOLE_PRINT_AT_LOCATION\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.929266] (robot_scheduling_actions) StderrLine: {'line': b'       \x1b[01;36m\x1b[KROSCONSOLE_PRINT_AT_LOCATION\x1b[m\x1b[K(__VA_ARGS__); \\\n'}
+[5.929611] (robot_scheduling_actions) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.929963] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/melodic/include/ros/console.h:572:35:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KROS_LOG_COND\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.930227] (robot_scheduling_actions) StderrLine: {'line': b' #define ROS_LOG(level, name, ...) \x1b[01;36m\x1b[KROS_LOG_COND\x1b[m\x1b[K(true, level, name, __VA_ARGS__)\n'}
+[5.930498] (robot_scheduling_actions) StderrLine: {'line': b'                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.930731] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KROS_LOG\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.930957] (robot_scheduling_actions) StderrLine: {'line': b' #define ROS_INFO(...) \x1b[01;36m\x1b[KROS_LOG\x1b[m\x1b[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)\n'}
+[5.931202] (robot_scheduling_actions) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.931348] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/pose_move_to_action.cpp:56:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KROS_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.931471] (robot_scheduling_actions) StderrLine: {'line': b'         \x1b[01;36m\x1b[KR\x1b[m\x1b[KOS_INFO(pose_id.c_str());\n'}
+[5.931598] (robot_scheduling_actions) StderrLine: {'line': b'         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[5.960376] (-) TimerEvent: {}
+[6.060994] (-) TimerEvent: {}
+[6.161468] (-) TimerEvent: {}
+[6.262001] (-) TimerEvent: {}
+[6.263645] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_if_proc_upper_action.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Krunmode_type robot_if_proc_upper_action::sys_runmode_type_decise()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.264069] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_if_proc_upper_action.cpp:74:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kbool\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krunmode_type\x1b[m\x1b[K\xe2\x80\x99 in assignment\n'}
+[6.264260] (robot_scheduling_actions) StderrLine: {'line': b'                    parameter_->get_manualparent_runmode_type(\x1b[01;31m\x1b[K)\x1b[m\x1b[K ;\n'}
+[6.264448] (robot_scheduling_actions) StderrLine: {'line': b'                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.362129] (-) TimerEvent: {}
+[6.462898] (-) TimerEvent: {}
+[6.563722] (-) TimerEvent: {}
+[6.664393] (-) TimerEvent: {}
+[6.765704] (-) TimerEvent: {}
+[6.866692] (-) TimerEvent: {}
+[6.967163] (-) TimerEvent: {}
+[7.067689] (-) TimerEvent: {}
+[7.168185] (-) TimerEvent: {}
+[7.247397] (robot_scheduling_actions) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/db_process_action.cpp:2:0\x1b[m\x1b[K:\n'}
+[7.247918] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::mongo_table_Insert(const boost::shared_ptr<X>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.248312] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:96:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthere are no arguments to \xe2\x80\x98\x1b[01m\x1b[Kget_Now_LocalTime\x1b[m\x1b[K\xe2\x80\x99 that depend on a template parameter, so a declaration of \xe2\x80\x98\x1b[01m\x1b[Kget_Now_LocalTime\x1b[m\x1b[K\xe2\x80\x99 must be available [\x1b[01;35m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[7.248558] (robot_scheduling_actions) StderrLine: {'line': b'    (*_data).update_time = \x1b[01;35m\x1b[Kget_Now_LocalTime\x1b[m\x1b[K();  //-- from tools\n'}
+[7.248763] (robot_scheduling_actions) StderrLine: {'line': b'                           \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.248965] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::mongo_table_modify(const boost::shared_ptr<X>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.249179] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:107:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthere are no arguments to \xe2\x80\x98\x1b[01m\x1b[Kget_Now_LocalTime\x1b[m\x1b[K\xe2\x80\x99 that depend on a template parameter, so a declaration of \xe2\x80\x98\x1b[01m\x1b[Kget_Now_LocalTime\x1b[m\x1b[K\xe2\x80\x99 must be available [\x1b[01;35m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[7.249396] (robot_scheduling_actions) StderrLine: {'line': b'    (*_data).update_time = \x1b[01;35m\x1b[Kget_Now_LocalTime\x1b[m\x1b[K();\n'}
+[7.249588] (robot_scheduling_actions) StderrLine: {'line': b'                           \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.268304] (-) TimerEvent: {}
+[7.272989] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::response_table_data_Query(std::__cxx11::string, std::__cxx11::string, std::__cxx11::string, MsgType_resp&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.273413] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:391:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthere are no arguments to \xe2\x80\x98\x1b[01m\x1b[Kstrtoint\x1b[m\x1b[K\xe2\x80\x99 that depend on a template parameter, so a declaration of \xe2\x80\x98\x1b[01m\x1b[Kstrtoint\x1b[m\x1b[K\xe2\x80\x99 must be available [\x1b[01;35m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[7.273594] (robot_scheduling_actions) StderrLine: {'line': b'    int _type = \x1b[01;35m\x1b[Kstrtoint\x1b[m\x1b[K(base_index,-1); //-- search type\n'}
+[7.273742] (robot_scheduling_actions) StderrLine: {'line': b'                \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.274649] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::srv_Eval_db_table_srv_service(MsgType_req&, MsgType_resp&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.275157] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:470:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthere are no arguments to \xe2\x80\x98\x1b[01m\x1b[Kconvert_str\x1b[m\x1b[K\xe2\x80\x99 that depend on a template parameter, so a declaration of \xe2\x80\x98\x1b[01m\x1b[Kconvert_str\x1b[m\x1b[K\xe2\x80\x99 must be available [\x1b[01;35m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[7.275361] (robot_scheduling_actions) StderrLine: {'line': b'       resp.error_code = \x1b[01;35m\x1b[Kconvert_str\x1b[m\x1b[K((int)table_srv_error_type) ;\n'}
+[7.275495] (robot_scheduling_actions) StderrLine: {'line': b'                         \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.275611] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:479:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthere are no arguments to \xe2\x80\x98\x1b[01m\x1b[Kconvert_str\x1b[m\x1b[K\xe2\x80\x99 that depend on a template parameter, so a declaration of \xe2\x80\x98\x1b[01m\x1b[Kconvert_str\x1b[m\x1b[K\xe2\x80\x99 must be available [\x1b[01;35m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[7.275728] (robot_scheduling_actions) StderrLine: {'line': b'       resp.error_code = \x1b[01;35m\x1b[Kconvert_str\x1b[m\x1b[K((int)table_srv_error_type) ;\n'}
+[7.275829] (robot_scheduling_actions) StderrLine: {'line': b'                         \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.275929] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:487:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthere are no arguments to \xe2\x80\x98\x1b[01m\x1b[Kconvert_str\x1b[m\x1b[K\xe2\x80\x99 that depend on a template parameter, so a declaration of \xe2\x80\x98\x1b[01m\x1b[Kconvert_str\x1b[m\x1b[K\xe2\x80\x99 must be available [\x1b[01;35m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[7.276056] (robot_scheduling_actions) StderrLine: {'line': b'       resp.error_code = \x1b[01;35m\x1b[Kconvert_str\x1b[m\x1b[K((int)edb_tb_err_type_none) ;\n'}
+[7.276170] (robot_scheduling_actions) StderrLine: {'line': b'                         \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.282080] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:504:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthere are no arguments to \xe2\x80\x98\x1b[01m\x1b[Kconvert_str\x1b[m\x1b[K\xe2\x80\x99 that depend on a template parameter, so a declaration of \xe2\x80\x98\x1b[01m\x1b[Kconvert_str\x1b[m\x1b[K\xe2\x80\x99 must be available [\x1b[01;35m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[7.283301] (robot_scheduling_actions) StderrLine: {'line': b'       resp.error_code = \x1b[01;35m\x1b[Kconvert_str\x1b[m\x1b[K((int)edb_tb_err_type_none) ;\n'}
+[7.283589] (robot_scheduling_actions) StderrLine: {'line': b'                         \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.283738] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:509:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthere are no arguments to \xe2\x80\x98\x1b[01m\x1b[Kconvert_str\x1b[m\x1b[K\xe2\x80\x99 that depend on a template parameter, so a declaration of \xe2\x80\x98\x1b[01m\x1b[Kconvert_str\x1b[m\x1b[K\xe2\x80\x99 must be available [\x1b[01;35m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[7.283905] (robot_scheduling_actions) StderrLine: {'line': b'       resp.error_code = \x1b[01;35m\x1b[Kconvert_str\x1b[m\x1b[K((int)table_srv_error_type) ;\n'}
+[7.284019] (robot_scheduling_actions) StderrLine: {'line': b'                         \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.284130] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:520:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthere are no arguments to \xe2\x80\x98\x1b[01m\x1b[Kconvert_str\x1b[m\x1b[K\xe2\x80\x99 that depend on a template parameter, so a declaration of \xe2\x80\x98\x1b[01m\x1b[Kconvert_str\x1b[m\x1b[K\xe2\x80\x99 must be available [\x1b[01;35m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[7.284241] (robot_scheduling_actions) StderrLine: {'line': b'       resp.error_code = \x1b[01;35m\x1b[Kconvert_str\x1b[m\x1b[K((int)edb_tb_err_type_none) ;\n'}
+[7.284335] (robot_scheduling_actions) StderrLine: {'line': b'                         \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.284428] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:525:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthere are no arguments to \xe2\x80\x98\x1b[01m\x1b[Kconvert_str\x1b[m\x1b[K\xe2\x80\x99 that depend on a template parameter, so a declaration of \xe2\x80\x98\x1b[01m\x1b[Kconvert_str\x1b[m\x1b[K\xe2\x80\x99 must be available [\x1b[01;35m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[7.284539] (robot_scheduling_actions) StderrLine: {'line': b'       resp.error_code = \x1b[01;35m\x1b[Kconvert_str\x1b[m\x1b[K((int)table_srv_error_type) ;\n'}
+[7.284638] (robot_scheduling_actions) StderrLine: {'line': b'                         \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.284732] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:533:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthere are no arguments to \xe2\x80\x98\x1b[01m\x1b[Kconvert_str\x1b[m\x1b[K\xe2\x80\x99 that depend on a template parameter, so a declaration of \xe2\x80\x98\x1b[01m\x1b[Kconvert_str\x1b[m\x1b[K\xe2\x80\x99 must be available [\x1b[01;35m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[7.284841] (robot_scheduling_actions) StderrLine: {'line': b'      resp.error_code = \x1b[01;35m\x1b[Kconvert_str\x1b[m\x1b[K((int)edb_tb_err_type_none) ;\n'}
+[7.285050] (robot_scheduling_actions) StderrLine: {'line': b'                        \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.368444] (-) TimerEvent: {}
+[7.469008] (-) TimerEvent: {}
+[7.569538] (-) TimerEvent: {}
+[7.579348] (robot_scheduling_actions) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/melodic/include/ros/ros.h:40:0\x1b[m\x1b[K,\n'}
+[7.580028] (robot_scheduling_actions) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/db_process_action.h:4\x1b[m\x1b[K,\n'}
+[7.580235] (robot_scheduling_actions) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/db_process_action.cpp:1\x1b[m\x1b[K:\n'}
+[7.580358] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/db_process_action.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid db_process_action::ac_doneCb(const actionlib::SimpleClientGoalState&, const car_db_processResultConstPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.580469] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/melodic/include/ros/console.h:348:176:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 8 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::__cxx11::basic_string<char> >::size_type {aka long unsigned int}\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[7.580602] (robot_scheduling_actions) StderrLine: {'line': b'     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__\x1b[01;35m\x1b[K)\x1b[m\x1b[K\n'}
+[7.580724] (robot_scheduling_actions) StderrLine: {'line': b'                                                                                                                                                                                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[7.580842] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/melodic/include/ros/console.h:351:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.581049] (robot_scheduling_actions) StderrLine: {'line': b'     \x1b[01;36m\x1b[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER\x1b[m\x1b[K(NULL, __VA_ARGS__)\n'}
+[7.581260] (robot_scheduling_actions) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.581499] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/melodic/include/ros/console.h:387:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KROSCONSOLE_PRINT_AT_LOCATION\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.581807] (robot_scheduling_actions) StderrLine: {'line': b'       \x1b[01;36m\x1b[KROSCONSOLE_PRINT_AT_LOCATION\x1b[m\x1b[K(__VA_ARGS__); \\\n'}
+[7.582100] (robot_scheduling_actions) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.582261] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/melodic/include/ros/console.h:572:35:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KROS_LOG_COND\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.582487] (robot_scheduling_actions) StderrLine: {'line': b' #define ROS_LOG(level, name, ...) \x1b[01;36m\x1b[KROS_LOG_COND\x1b[m\x1b[K(true, level, name, __VA_ARGS__)\n'}
+[7.582643] (robot_scheduling_actions) StderrLine: {'line': b'                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.582775] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KROS_LOG\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.582939] (robot_scheduling_actions) StderrLine: {'line': b' #define ROS_INFO(...) \x1b[01;36m\x1b[KROS_LOG\x1b[m\x1b[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)\n'}
+[7.583100] (robot_scheduling_actions) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[7.583264] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/db_process_action.cpp:272:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KROS_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.583437] (robot_scheduling_actions) StderrLine: {'line': b'         \x1b[01;36m\x1b[KR\x1b[m\x1b[KOS_INFO("counter = result_data_vector.size()==>%d",result_data_vector.size());\n'}
+[7.583609] (robot_scheduling_actions) StderrLine: {'line': b'         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[7.669875] (-) TimerEvent: {}
+[7.770595] (-) TimerEvent: {}
+[7.871347] (-) TimerEvent: {}
+[7.909303] (robot_scheduling_actions) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/public_actions/time_wait_action.cpp.o\x1b[0m\n'}
+[7.971490] (-) TimerEvent: {}
+[8.029574] (robot_scheduling_actions) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/public_actions/self_turn_action.cpp.o\x1b[0m\n'}
+[8.071666] (-) TimerEvent: {}
+[8.172205] (-) TimerEvent: {}
+[8.272689] (-) TimerEvent: {}
+[8.373124] (-) TimerEvent: {}
+[8.473566] (-) TimerEvent: {}
+[8.574129] (-) TimerEvent: {}
+[8.674921] (-) TimerEvent: {}
+[8.775357] (-) TimerEvent: {}
+[8.875876] (-) TimerEvent: {}
+[8.976363] (-) TimerEvent: {}
+[9.076858] (-) TimerEvent: {}
+[9.177391] (-) TimerEvent: {}
+[9.277970] (-) TimerEvent: {}
+[9.379015] (-) TimerEvent: {}
+[9.385683] (robot_scheduling_actions) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/public_actions/dock_to_action.cpp.o\x1b[0m\n'}
+[9.479315] (-) TimerEvent: {}
+[9.489216] (robot_scheduling_actions) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/public_actions/undock_to_action.cpp.o\x1b[0m\n'}
+[9.579594] (-) TimerEvent: {}
+[9.622897] (robot_scheduling_actions) StdoutLine: {'line': b"CMakeFiles/robot_scheduling_actions_node.dir/build.make:182: recipe for target 'CMakeFiles/robot_scheduling_actions_node.dir/src/private_actions/robot_if_proc_upper_action.cpp.o' failed\n"}
+[9.623253] (robot_scheduling_actions) StderrLine: {'line': b'make[2]: *** [CMakeFiles/robot_scheduling_actions_node.dir/src/private_actions/robot_if_proc_upper_action.cpp.o] Error 1\n'}
+[9.623417] (robot_scheduling_actions) StderrLine: {'line': b'make[2]: *** Waiting for unfinished jobs....\n'}
+[9.679924] (-) TimerEvent: {}
+[9.781390] (-) TimerEvent: {}
+[9.882026] (-) TimerEvent: {}
+[9.982782] (-) TimerEvent: {}
+[10.083358] (-) TimerEvent: {}
+[10.184016] (-) TimerEvent: {}
+[10.286116] (-) TimerEvent: {}
+[10.386668] (-) TimerEvent: {}
+[10.487231] (-) TimerEvent: {}
+[10.587797] (-) TimerEvent: {}
+[10.688385] (-) TimerEvent: {}
+[10.788991] (-) TimerEvent: {}
+[10.889443] (-) TimerEvent: {}
+[10.989807] (-) TimerEvent: {}
+[11.090287] (-) TimerEvent: {}
+[11.190632] (-) TimerEvent: {}
+[11.291039] (-) TimerEvent: {}
+[11.391638] (-) TimerEvent: {}
+[11.492232] (-) TimerEvent: {}
+[11.592919] (-) TimerEvent: {}
+[11.693711] (-) TimerEvent: {}
+[11.795003] (-) TimerEvent: {}
+[11.895407] (-) TimerEvent: {}
+[11.995878] (-) TimerEvent: {}
+[12.096513] (-) TimerEvent: {}
+[12.197333] (-) TimerEvent: {}
+[12.298459] (-) TimerEvent: {}
+[12.399020] (-) TimerEvent: {}
+[12.499551] (-) TimerEvent: {}
+[12.600138] (-) TimerEvent: {}
+[12.701289] (-) TimerEvent: {}
+[12.801826] (-) TimerEvent: {}
+[12.902305] (-) TimerEvent: {}
+[13.002708] (-) TimerEvent: {}
+[13.103148] (-) TimerEvent: {}
+[13.203709] (-) TimerEvent: {}
+[13.247838] (robot_scheduling_actions) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/melodic/include/ros/ros.h:40:0\x1b[m\x1b[K,\n'}
+[13.248260] (robot_scheduling_actions) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:4\x1b[m\x1b[K,\n'}
+[13.248534] (robot_scheduling_actions) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1\x1b[m\x1b[K:\n'}
+[13.248796] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid robot_turn_action_client::ac_feedbackCb(const self_turn_toFeedbackConstPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.248976] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/melodic/include/ros/console.h:348:176:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects a matching \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 argument [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[13.249102] (robot_scheduling_actions) StderrLine: {'line': b'     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__\x1b[01;35m\x1b[K)\x1b[m\x1b[K\n'}
+[13.249222] (robot_scheduling_actions) StderrLine: {'line': b'                                                                                                                                                                                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.249350] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/melodic/include/ros/console.h:351:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.249464] (robot_scheduling_actions) StderrLine: {'line': b'     \x1b[01;36m\x1b[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER\x1b[m\x1b[K(NULL, __VA_ARGS__)\n'}
+[13.249623] (robot_scheduling_actions) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.249809] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/melodic/include/ros/console.h:387:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KROSCONSOLE_PRINT_AT_LOCATION\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.250025] (robot_scheduling_actions) StderrLine: {'line': b'       \x1b[01;36m\x1b[KROSCONSOLE_PRINT_AT_LOCATION\x1b[m\x1b[K(__VA_ARGS__); \\\n'}
+[13.250244] (robot_scheduling_actions) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.250462] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/melodic/include/ros/console.h:572:35:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KROS_LOG_COND\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.250675] (robot_scheduling_actions) StderrLine: {'line': b' #define ROS_LOG(level, name, ...) \x1b[01;36m\x1b[KROS_LOG_COND\x1b[m\x1b[K(true, level, name, __VA_ARGS__)\n'}
+[13.250893] (robot_scheduling_actions) StderrLine: {'line': b'                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.251069] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KROS_LOG\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.251257] (robot_scheduling_actions) StderrLine: {'line': b' #define ROS_INFO(...) \x1b[01;36m\x1b[KROS_LOG\x1b[m\x1b[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)\n'}
+[13.251425] (robot_scheduling_actions) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[13.251594] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:319:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KROS_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.251785] (robot_scheduling_actions) StderrLine: {'line': b'         \x1b[01;36m\x1b[KR\x1b[m\x1b[KOS_INFO("bTimeoutFlag:%d");\n'}
+[13.251927] (robot_scheduling_actions) StderrLine: {'line': b'         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[13.271224] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid self_turn_action::self_turn_to_CB(const self_turn_toGoalConstPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.271511] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/melodic/include/ros/console.h:348:176:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%f\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99, but argument 8 has type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[13.271696] (robot_scheduling_actions) StderrLine: {'line': b'     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__\x1b[01;35m\x1b[K)\x1b[m\x1b[K\n'}
+[13.271866] (robot_scheduling_actions) StderrLine: {'line': b'                                                                                                                                                                                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.272041] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/melodic/include/ros/console.h:351:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.272197] (robot_scheduling_actions) StderrLine: {'line': b'     \x1b[01;36m\x1b[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER\x1b[m\x1b[K(NULL, __VA_ARGS__)\n'}
+[13.272369] (robot_scheduling_actions) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.272517] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/melodic/include/ros/console.h:387:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KROSCONSOLE_PRINT_AT_LOCATION\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.272671] (robot_scheduling_actions) StderrLine: {'line': b'       \x1b[01;36m\x1b[KROSCONSOLE_PRINT_AT_LOCATION\x1b[m\x1b[K(__VA_ARGS__); \\\n'}
+[13.272819] (robot_scheduling_actions) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.272968] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/melodic/include/ros/console.h:572:35:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KROS_LOG_COND\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.273121] (robot_scheduling_actions) StderrLine: {'line': b' #define ROS_LOG(level, name, ...) \x1b[01;36m\x1b[KROS_LOG_COND\x1b[m\x1b[K(true, level, name, __VA_ARGS__)\n'}
+[13.273296] (robot_scheduling_actions) StderrLine: {'line': b'                                   \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.273439] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KROS_LOG\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.273594] (robot_scheduling_actions) StderrLine: {'line': b' #define ROS_INFO(...) \x1b[01;36m\x1b[KROS_LOG\x1b[m\x1b[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)\n'}
+[13.273736] (robot_scheduling_actions) StderrLine: {'line': b'                       \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[13.273885] (robot_scheduling_actions) StderrLine: {'line': b'\x1b[01m\x1b[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:481:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KROS_INFO\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.274034] (robot_scheduling_actions) StderrLine: {'line': b'                             \x1b[01;36m\x1b[KR\x1b[m\x1b[KOS_INFO("timeout!==>%f",Period_timeout);\n'}
+[13.274184] (robot_scheduling_actions) StderrLine: {'line': b'                             \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[13.303856] (-) TimerEvent: {}
+[13.404308] (-) TimerEvent: {}
+[13.504852] (-) TimerEvent: {}
+[13.605317] (-) TimerEvent: {}
+[13.705769] (-) TimerEvent: {}
+[13.806136] (-) TimerEvent: {}
+[13.906465] (-) TimerEvent: {}
+[14.006858] (-) TimerEvent: {}
+[14.107308] (-) TimerEvent: {}
+[14.207916] (-) TimerEvent: {}
+[14.308383] (-) TimerEvent: {}
+[14.408793] (-) TimerEvent: {}
+[14.509192] (-) TimerEvent: {}
+[14.609594] (-) TimerEvent: {}
+[14.709927] (-) TimerEvent: {}
+[14.810313] (-) TimerEvent: {}
+[14.910818] (-) TimerEvent: {}
+[15.011368] (-) TimerEvent: {}
+[15.112431] (-) TimerEvent: {}
+[15.213500] (-) TimerEvent: {}
+[15.314881] (-) TimerEvent: {}
+[15.415775] (-) TimerEvent: {}
+[15.516802] (-) TimerEvent: {}
+[15.617428] (-) TimerEvent: {}
+[15.717896] (-) TimerEvent: {}
+[15.818549] (-) TimerEvent: {}
+[15.918844] (-) TimerEvent: {}
+[16.019145] (-) TimerEvent: {}
+[16.119459] (-) TimerEvent: {}
+[16.219957] (-) TimerEvent: {}
+[16.320650] (-) TimerEvent: {}
+[16.421055] (-) TimerEvent: {}
+[16.521333] (-) TimerEvent: {}
+[16.621605] (-) TimerEvent: {}
+[16.721938] (-) TimerEvent: {}
+[16.822210] (-) TimerEvent: {}
+[16.922470] (-) TimerEvent: {}
+[17.022821] (-) TimerEvent: {}
+[17.123126] (-) TimerEvent: {}
+[17.223365] (-) TimerEvent: {}
+[17.323645] (-) TimerEvent: {}
+[17.423916] (-) TimerEvent: {}
+[17.524152] (-) TimerEvent: {}
+[17.624381] (-) TimerEvent: {}
+[17.724656] (-) TimerEvent: {}
+[17.824996] (-) TimerEvent: {}
+[17.925253] (-) TimerEvent: {}
+[18.025571] (-) TimerEvent: {}
+[18.125878] (-) TimerEvent: {}
+[18.226215] (-) TimerEvent: {}
+[18.326501] (-) TimerEvent: {}
+[18.426822] (-) TimerEvent: {}
+[18.527184] (-) TimerEvent: {}
+[18.543539] (robot_scheduling_actions) StdoutLine: {'line': b"CMakeFiles/Makefile2:483: recipe for target 'CMakeFiles/robot_scheduling_actions_node.dir/all' failed\n"}
+[18.543697] (robot_scheduling_actions) StderrLine: {'line': b'make[1]: *** [CMakeFiles/robot_scheduling_actions_node.dir/all] Error 2\n'}
+[18.543976] (robot_scheduling_actions) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[18.544061] (robot_scheduling_actions) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[18.545348] (robot_scheduling_actions) CommandEnded: {'returncode': 2}
+[18.577419] (robot_scheduling_actions) JobEnded: {'identifier': 'robot_scheduling_actions', 'rc': 2}
+[18.578825] (-) EventReactorShutdown: {}

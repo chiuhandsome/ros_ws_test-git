@@ -1,0 +1,33 @@
+[ 45%] Built target global_planner_tests
+[ 63%] Built target many_map_node
+[ 81%] Built target gpt_node
+[100%] Built target heatmap_node
+Built target tests
+[ 45%] Built target global_planner_tests
+[ 63%] Built target gpt_node
+[ 81%] Built target heatmap_node
+[100%] Built target many_map_node
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Up-to-date: /home/handsome/ros_ws_test/install/global_planner_tests/lib/pkgconfig/global_planner_tests.pc
+-- Up-to-date: /home/handsome/ros_ws_test/install/global_planner_tests/share/global_planner_tests/cmake/global_planner_testsConfig.cmake
+-- Up-to-date: /home/handsome/ros_ws_test/install/global_planner_tests/share/global_planner_tests/cmake/global_planner_testsConfig-version.cmake
+-- Up-to-date: /home/handsome/ros_ws_test/install/global_planner_tests/share/global_planner_tests/package.xml
+-- Up-to-date: /home/handsome/ros_ws_test/install/global_planner_tests/include/global_planner_tests
+-- Up-to-date: /home/handsome/ros_ws_test/install/global_planner_tests/include/global_planner_tests/global_planner_tests.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/global_planner_tests/include/global_planner_tests/easy_costmap.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/global_planner_tests/include/global_planner_tests/many_map_test_suite.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/global_planner_tests/include/global_planner_tests/util.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/global_planner_tests/lib/libglobal_planner_tests.so
+-- Up-to-date: /home/handsome/ros_ws_test/install/global_planner_tests/lib/global_planner_tests/gpt_node
+-- Up-to-date: /home/handsome/ros_ws_test/install/global_planner_tests/lib/global_planner_tests/heatmap_node
+-- Up-to-date: /home/handsome/ros_ws_test/install/global_planner_tests/lib/global_planner_tests/many_map_node
+-- Up-to-date: /home/handsome/ros_ws_test/install/global_planner_tests/share/global_planner_tests/maps
+-- Up-to-date: /home/handsome/ros_ws_test/install/global_planner_tests/share/global_planner_tests/maps/empty.png
+-- Up-to-date: /home/handsome/ros_ws_test/install/global_planner_tests/share/global_planner_tests/maps/nopaths.png
+-- Up-to-date: /home/handsome/ros_ws_test/install/global_planner_tests/share/global_planner_tests/maps/smallloop.png
+-- Up-to-date: /home/handsome/ros_ws_test/install/global_planner_tests/share/global_planner_tests/maps/unknown.png
+-- Up-to-date: /home/handsome/ros_ws_test/install/global_planner_tests/share/global_planner_tests/maps/corner.png
+-- Up-to-date: /home/handsome/ros_ws_test/install/global_planner_tests/share/global_planner_tests/maps/smile.png
+-- Up-to-date: /home/handsome/ros_ws_test/install/global_planner_tests/share/global_planner_tests/maps/inflated.png
+-- Up-to-date: /home/handsome/ros_ws_test/install/global_planner_tests/share/global_planner_tests/config/standard_tests.yaml

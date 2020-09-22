@@ -1,0 +1,10 @@
+# Goal
+bool  	seq_start
+int8  	seq_functionNo
+---
+# Result
+bool  	b_result
+---
+# Feedback
+int8    io_seq_id
+string  io_seq_desc

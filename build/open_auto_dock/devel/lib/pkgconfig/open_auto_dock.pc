@@ -1,0 +1,8 @@
+prefix=/home/handsome/ros_ws_test/build/open_auto_dock/devel
+
+Name: open_auto_dock
+Description: Description of open_auto_dock
+Version: 0.1.1
+Cflags: -I/home/handsome/ros_ws_test/src/ros_base/open_auto_dock/open_auto_dock/include
+Libs: -L${prefix}/lib 
+Requires: actionlib open_auto_dock_msgs geometry_msgs nav_msgs roslib roscpp rospy sensor_msgs std_msgs tf

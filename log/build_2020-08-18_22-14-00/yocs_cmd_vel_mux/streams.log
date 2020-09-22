@@ -1,0 +1,39 @@
+[0.098s] Invoking command in '/home/handsome/ros_ws_test/build/yocs_cmd_vel_mux': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/yocs_cmd_vel_mux -- -j12 -l12
+[0.366s] [ 25%] Built target yocs_cmd_vel_mux_gencfg
+[0.559s] [100%] Built target yocs_cmd_vel_mux_nodelet
+[0.723s] Invoked command in '/home/handsome/ros_ws_test/build/yocs_cmd_vel_mux' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/yocs_cmd_vel_mux -- -j12 -l12
+[2.085s] Invoking command in '/home/handsome/ros_ws_test/build/yocs_cmd_vel_mux': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/yocs_cmd_vel_mux --target tests -- -j12 -l12
+[2.533s] Built target tests
+[2.566s] Invoked command in '/home/handsome/ros_ws_test/build/yocs_cmd_vel_mux' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/yocs_cmd_vel_mux --target tests -- -j12 -l12
+[3.193s] Invoking command in '/home/handsome/ros_ws_test/build/yocs_cmd_vel_mux': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/yocs_cmd_vel_mux --target install -- -j12 -l12
+[3.350s] [ 25%] Built target yocs_cmd_vel_mux_gencfg
+[3.416s] [100%] Built target yocs_cmd_vel_mux_nodelet
+[3.466s] [36mInstall the project...[0m
+[3.488s] -- Install configuration: ""
+[3.488s] -- Up-to-date: /home/handsome/ros_ws_test/install/yocs_cmd_vel_mux/include/yocs_cmd_vel_mux/reloadConfig.h
+[3.488s] -- Up-to-date: /home/handsome/ros_ws_test/install/yocs_cmd_vel_mux/lib/python2.7/dist-packages/yocs_cmd_vel_mux/__init__.py
+[3.541s] Listing /home/handsome/ros_ws_test/build/yocs_cmd_vel_mux/devel/lib/python2.7/dist-packages/yocs_cmd_vel_mux/cfg ...
+[3.544s] -- Up-to-date: /home/handsome/ros_ws_test/install/yocs_cmd_vel_mux/lib/python2.7/dist-packages/yocs_cmd_vel_mux/cfg
+[3.544s] -- Up-to-date: /home/handsome/ros_ws_test/install/yocs_cmd_vel_mux/lib/python2.7/dist-packages/yocs_cmd_vel_mux/cfg/__init__.py
+[3.544s] -- Up-to-date: /home/handsome/ros_ws_test/install/yocs_cmd_vel_mux/lib/python2.7/dist-packages/yocs_cmd_vel_mux/cfg/reloadConfig.py
+[3.545s] -- Up-to-date: /home/handsome/ros_ws_test/install/yocs_cmd_vel_mux/lib/python2.7/dist-packages/yocs_cmd_vel_mux/cfg/__init__.pyc
+[3.545s] -- Up-to-date: /home/handsome/ros_ws_test/install/yocs_cmd_vel_mux/lib/python2.7/dist-packages/yocs_cmd_vel_mux/cfg/reloadConfig.pyc
+[3.545s] -- Up-to-date: /home/handsome/ros_ws_test/install/yocs_cmd_vel_mux/lib/pkgconfig/yocs_cmd_vel_mux.pc
+[3.545s] -- Up-to-date: /home/handsome/ros_ws_test/install/yocs_cmd_vel_mux/share/yocs_cmd_vel_mux/cmake/yocs_cmd_vel_muxConfig.cmake
+[3.546s] -- Up-to-date: /home/handsome/ros_ws_test/install/yocs_cmd_vel_mux/share/yocs_cmd_vel_mux/cmake/yocs_cmd_vel_muxConfig-version.cmake
+[3.546s] -- Up-to-date: /home/handsome/ros_ws_test/install/yocs_cmd_vel_mux/share/yocs_cmd_vel_mux/package.xml
+[3.546s] -- Up-to-date: /home/handsome/ros_ws_test/install/yocs_cmd_vel_mux/lib/libyocs_cmd_vel_mux_nodelet.so
+[3.549s] -- Up-to-date: /home/handsome/ros_ws_test/install/yocs_cmd_vel_mux/include/yocs_cmd_vel_mux
+[3.549s] -- Up-to-date: /home/handsome/ros_ws_test/install/yocs_cmd_vel_mux/include/yocs_cmd_vel_mux/cmd_vel_subscribers.hpp
+[3.550s] -- Up-to-date: /home/handsome/ros_ws_test/install/yocs_cmd_vel_mux/include/yocs_cmd_vel_mux/cmd_vel_mux_nodelet.hpp
+[3.550s] -- Up-to-date: /home/handsome/ros_ws_test/install/yocs_cmd_vel_mux/include/yocs_cmd_vel_mux/exceptions.hpp
+[3.550s] -- Up-to-date: /home/handsome/ros_ws_test/install/yocs_cmd_vel_mux/share/yocs_cmd_vel_mux/plugins
+[3.550s] -- Up-to-date: /home/handsome/ros_ws_test/install/yocs_cmd_vel_mux/share/yocs_cmd_vel_mux/plugins/nodelets.xml
+[3.550s] -- Up-to-date: /home/handsome/ros_ws_test/install/yocs_cmd_vel_mux/share/yocs_cmd_vel_mux/launch
+[3.550s] -- Up-to-date: /home/handsome/ros_ws_test/install/yocs_cmd_vel_mux/share/yocs_cmd_vel_mux/launch/standalone.launch
+[3.550s] -- Up-to-date: /home/handsome/ros_ws_test/install/yocs_cmd_vel_mux/share/yocs_cmd_vel_mux/launch/cmd_vel_mux.launch
+[3.551s] -- Up-to-date: /home/handsome/ros_ws_test/install/yocs_cmd_vel_mux/share/yocs_cmd_vel_mux/launch/reconfigure.launch
+[3.551s] -- Up-to-date: /home/handsome/ros_ws_test/install/yocs_cmd_vel_mux/share/yocs_cmd_vel_mux/param
+[3.553s] -- Up-to-date: /home/handsome/ros_ws_test/install/yocs_cmd_vel_mux/share/yocs_cmd_vel_mux/param/example.yaml
+[3.553s] -- Up-to-date: /home/handsome/ros_ws_test/install/yocs_cmd_vel_mux/share/yocs_cmd_vel_mux/param/reconfigure.yaml
+[3.580s] Invoked command in '/home/handsome/ros_ws_test/build/yocs_cmd_vel_mux' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/yocs_cmd_vel_mux --target install -- -j12 -l12

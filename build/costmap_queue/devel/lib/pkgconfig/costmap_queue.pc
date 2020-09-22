@@ -1,0 +1,8 @@
+prefix=/home/handsome/ros_ws_test/build/costmap_queue/devel
+
+Name: costmap_queue
+Description: Description of costmap_queue
+Version: 0.2.4
+Cflags: -I/home/handsome/ros_ws_test/src/ros_base/robot_navigation/costmap_queue/include
+Libs: -L${prefix}/lib -lcostmap_queue
+Requires: nav_core2 roscpp

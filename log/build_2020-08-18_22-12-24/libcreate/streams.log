@@ -1,0 +1,40 @@
+[0.097s] Invoking command in '/home/handsome/ros_ws_test/build/libcreate': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/libcreate -- -j12 -l12
+[0.812s] [ 33%] Built target create
+[1.252s] [ 41%] Built target packets
+[1.303s] [ 50%] Built target play_song
+[1.336s] [ 58%] Built target drive_circle
+[1.347s] [ 66%] Built target cliffs
+[1.354s] [ 75%] Built target bumpers
+[1.354s] [ 83%] Built target leds
+[1.393s] [ 91%] Built target battery_level
+[1.455s] [100%] Built target wheeldrop
+[1.658s] Invoked command in '/home/handsome/ros_ws_test/build/libcreate' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/libcreate -- -j12 -l12
+[2.754s] Invoking command in '/home/handsome/ros_ws_test/build/libcreate': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/libcreate --target install -- -j12 -l12
+[2.885s] [ 33%] Built target create
+[2.959s] [ 41%] Built target battery_level
+[2.965s] [ 50%] Built target leds
+[2.966s] [ 58%] Built target packets
+[2.967s] [ 66%] Built target play_song
+[2.969s] [ 75%] Built target cliffs
+[2.974s] [ 83%] Built target drive_circle
+[2.981s] [ 91%] Built target wheeldrop
+[2.987s] [100%] Built target bumpers
+[3.037s] [36mInstall the project...[0m
+[3.048s] -- Install configuration: ""
+[3.049s] -- Up-to-date: /home/handsome/ros_ws_test/install/libcreate/lib/libcreate.so
+[3.049s] -- Up-to-date: /home/handsome/ros_ws_test/install/libcreate/include
+[3.049s] -- Up-to-date: /home/handsome/ros_ws_test/install/libcreate/include/create
+[3.049s] -- Up-to-date: /home/handsome/ros_ws_test/install/libcreate/include/create/packet.h
+[3.049s] -- Up-to-date: /home/handsome/ros_ws_test/install/libcreate/include/create/types.h
+[3.049s] -- Up-to-date: /home/handsome/ros_ws_test/install/libcreate/include/create/data.h
+[3.049s] -- Up-to-date: /home/handsome/ros_ws_test/install/libcreate/include/create/create.h
+[3.049s] -- Up-to-date: /home/handsome/ros_ws_test/install/libcreate/include/create/serial_stream.h
+[3.049s] -- Up-to-date: /home/handsome/ros_ws_test/install/libcreate/include/create/serial.h
+[3.049s] -- Up-to-date: /home/handsome/ros_ws_test/install/libcreate/include/create/util.h
+[3.050s] -- Up-to-date: /home/handsome/ros_ws_test/install/libcreate/include/create/serial_query.h
+[3.050s] -- Up-to-date: /home/handsome/ros_ws_test/install/libcreate/lib/cmake/libcreate/libcreate-config.cmake
+[3.050s] -- Up-to-date: /home/handsome/ros_ws_test/install/libcreate/lib/cmake/libcreate/libcreate-config-version.cmake
+[3.050s] -- Up-to-date: /home/handsome/ros_ws_test/install/libcreate/lib/cmake/libcreate/libcreate-targets.cmake
+[3.050s] -- Up-to-date: /home/handsome/ros_ws_test/install/libcreate/lib/cmake/libcreate/libcreate-targets-noconfig.cmake
+[3.050s] -- Up-to-date: /home/handsome/ros_ws_test/install/libcreate/share/libcreate/package.xml
+[3.085s] Invoked command in '/home/handsome/ros_ws_test/build/libcreate' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/libcreate --target install -- -j12 -l12

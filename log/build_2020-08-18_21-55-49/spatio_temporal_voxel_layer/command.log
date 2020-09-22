@@ -1,0 +1,3 @@
+Invoking command in '/home/handsome/ros_ws_test/build/spatio_temporal_voxel_layer': /usr/bin/cmake /home/handsome/ros_ws_test/src/ros_base/spatio_temporal_voxel_layer -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer
+Invoked command in '/home/handsome/ros_ws_test/build/spatio_temporal_voxel_layer' returned '0': /usr/bin/cmake /home/handsome/ros_ws_test/src/ros_base/spatio_temporal_voxel_layer -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer
+Invoking command in '/home/handsome/ros_ws_test/build/spatio_temporal_voxel_layer': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/spatio_temporal_voxel_layer -- -j12 -l12

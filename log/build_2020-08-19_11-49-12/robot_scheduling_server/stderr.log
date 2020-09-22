@@ -1,0 +1,13 @@
+CMakeFiles/robot_scheduling_server_node.dir/src/robot_scheduling_pnp_server.cpp.o: In function `robot_scheduling_pnp_server::robot_scheduling_pnp_server()':
+robot_scheduling_pnp_server.cpp:(.text+0x11cf): undefined reference to `robot_run_state_ac::robot_run_state_ac(ros::NodeHandle&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+robot_scheduling_pnp_server.cpp:(.text+0x15f0): undefined reference to `robot_run_state_ac::~robot_run_state_ac()'
+CMakeFiles/robot_scheduling_server_node.dir/src/robot_scheduling_pnp_server.cpp.o: In function `robot_scheduling_pnp_server::~robot_scheduling_pnp_server()':
+robot_scheduling_pnp_server.cpp:(.text+0x169c): undefined reference to `robot_run_state_ac::~robot_run_state_ac()'
+CMakeFiles/robot_scheduling_server_node.dir/src/robot_scheduling_pnp_server.cpp.o: In function `robot_scheduling_pnp_server::evalCondition(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)':
+robot_scheduling_pnp_server.cpp:(.text+0x1ca1): undefined reference to `robot_run_state_ac::evalCondition(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+CMakeFiles/robot_scheduling_server_node.dir/src/robot_scheduling_pnp_server.cpp.o: In function `robot_scheduling_pnp_server::dispatchRunStatus(bool*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)':
+robot_scheduling_pnp_server.cpp:(.text+0x2069): undefined reference to `robot_run_state_ac::do_robot_run_state(robot_scheduling_msgs::robot_run_stateGoal_<std::allocator<void> > const&)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [devel/lib/robot_scheduling_server/robot_scheduling_server_node] Error 1
+make[1]: *** [CMakeFiles/robot_scheduling_server_node.dir/all] Error 2
+make: *** [all] Error 2

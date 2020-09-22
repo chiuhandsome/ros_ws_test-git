@@ -1,0 +1,8 @@
+prefix=/home/handsome/ros_ws_test/build/robot_scheduling_server/devel
+
+Name: robot_scheduling_server
+Description: Description of robot_scheduling_server
+Version: 0.0.1
+Cflags: -I/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_server/include
+Libs: -L${prefix}/lib -lrobot_scheduling_server
+Requires: actionlib move_base pnp_ros roscpp rospy std_msgs tf geometry_msgs locomotor_msgs robot_scheduling_msgs

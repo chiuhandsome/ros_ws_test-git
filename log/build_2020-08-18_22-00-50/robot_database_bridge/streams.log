@@ -1,0 +1,369 @@
+[0.274s] Invoking command in '/home/handsome/ros_ws_test/build/robot_database_bridge': CMAKE_PREFIX_PATH=/home/handsome/ros_ws_test/install/mongodb_store:/home/handsome/ros_ws_test/install/samsungcmd_msgs:/home/handsome/ros_ws_test/install/ros_utility_tools:/home/handsome/ros_ws_test/install/robot_control_msgs:/home/handsome/ros_ws_test/install/mongodb_store_msgs:/home/handsome/ros_ws_test/install/botcmd_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/handsome/ros_ws_test/install/mongodb_store/lib:/home/handsome/ros_ws_test/install/ros_utility_tools/lib:/home/handsome/ros_ws/install/yocs_cmd_vel_mux/lib:/home/handsome/ros_ws/install/tuw_multi_robot_router/lib:/home/handsome/ros_ws/install/tuw_voronoi_graph/lib:/home/handsome/ros_ws/install/tuw_vehicle_msgs/lib:/home/handsome/ros_ws/install/tuw_nav_rviz/lib:/home/handsome/ros_ws/install/tuw_multi_robot_local_behavior_controller/lib:/home/handsome/ros_ws/install/tuw_multi_robot_ctrl/lib:/home/handsome/ros_ws/install/tuw_nav_msgs/lib:/home/handsome/ros_ws/install/tuw_multi_robot_rviz/lib:/home/handsome/ros_ws/install/tuw_geometry_rviz/lib:/home/handsome/ros_ws/install/tuw_geometry_msgs/lib:/home/handsome/ros_ws/install/tuw_geometry/lib:/home/handsome/ros_ws/install/tuw_control/lib:/home/handsome/ros_ws/install/teb2_local_planner/lib:/home/handsome/ros_ws/install/spatio_temporal_voxel_layer/lib:/home/handsome/ros_ws/install/robot_database_bridge/lib:/home/handsome/ros_ws/install/ros_utility_tools/lib:/home/handsome/ros_ws/install/robot_localization/lib:/home/handsome/ros_ws/install/pnp_ros/lib:/home/handsome/ros_ws/install/omron_os32c_driver/lib:/home/handsome/ros_ws/install/dlux_plugins/lib:/home/handsome/ros_ws/install/dlux_global_planner/lib:/home/handsome/ros_ws/install/nav_grid_pub_sub/lib:/home/handsome/ros_ws/install/dwb_critics/lib:/home/handsome/ros_ws/install/nav_grid_iterators/lib:/home/handsome/ros_ws/install/locomotor/lib:/home/handsome/ros_ws/install/nav_core_adapter/lib:/home/handsome/ros_ws/install/dwb_plugins/lib:/home/handsome/ros_ws/install/dwb_local_planner/lib:/home/handsome/ros_ws/install/nav_2d_utils/lib:/home/handsome/ros_ws/install/global_planner_tests/lib:/home/handsome/ros_ws/install/costmap_queue/lib:/home/handsome/ros_ws/install/nav_core2/lib:/home/handsome/ros_ws/install/mongodb_store/lib:/home/handsome/ros_ws/install/libcreate/lib:/opt/ros/melodic/lib:/usr/local/lib PKG_CONFIG_PATH=/home/handsome/ros_ws_test/install/mongodb_store/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/mongodb_store/lib/pkgconfig:/home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/ros_utility_tools/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/ros_utility_tools/lib/pkgconfig:/home/handsome/ros_ws_test/install/robot_control_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/robot_control_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/botcmd_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/botcmd_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/handsome/ros_ws_test/install/mongodb_store/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/handsome/ros_ws_test/install/mongodb_store/share:/home/handsome/ros_ws_test/install/samsungcmd_msgs/share:/home/handsome/ros_ws_test/install/ros_utility_tools/share:/home/handsome/ros_ws_test/install/robot_control_msgs/share:/home/handsome/ros_ws_test/install/mongodb_store_msgs/share:/home/handsome/ros_ws_test/install/botcmd_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/handsome/ros_ws_test/install/robot_database_bridge
+[0.395s] -- The C compiler identification is GNU 7.5.0
+[0.518s] -- The CXX compiler identification is GNU 7.5.0
+[0.528s] -- Check for working C compiler: /usr/bin/cc
+[0.681s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.682s] -- Detecting C compiler ABI info
+[0.836s] -- Detecting C compiler ABI info - done
+[0.842s] -- Detecting C compile features
+[1.301s] -- Detecting C compile features - done
+[1.303s] -- Check for working CXX compiler: /usr/bin/c++
+[1.484s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.486s] -- Detecting CXX compiler ABI info
+[1.663s] -- Detecting CXX compiler ABI info - done
+[1.670s] -- Detecting CXX compile features
+[2.415s] -- Detecting CXX compile features - done
+[2.436s] -- Using CATKIN_DEVEL_PREFIX: /home/handsome/ros_ws_test/build/robot_database_bridge/devel
+[2.437s] -- Using CMAKE_PREFIX_PATH: /home/handsome/ros_ws_test/install/mongodb_store;/home/handsome/ros_ws_test/install/samsungcmd_msgs;/home/handsome/ros_ws_test/install/ros_utility_tools;/home/handsome/ros_ws_test/install/robot_control_msgs;/home/handsome/ros_ws_test/install/mongodb_store_msgs;/home/handsome/ros_ws_test/install/botcmd_msgs;/home/handsome/ros_ws/install/yocs_cmd_vel_mux;/home/handsome/ros_ws/install/urdf_tutorial;/home/handsome/ros_ws/install/tuw_waypoint_to_spline_msgs;/home/handsome/ros_ws/install/tuw_multi_robot_router;/home/handsome/ros_ws/install/tuw_voronoi_graph;/home/handsome/ros_ws/install/tuw_vehicle_msgs;/home/handsome/ros_ws/install/tuw_order_planner;/home/handsome/ros_ws/install/tuw_object_rviz;/home/handsome/ros_ws/install/tuw_object_msgs;/home/handsome/ros_ws/install/tuw_nav_rviz;/home/handsome/ros_ws/install/tuw_multi_robot_local_behavior_controller;/home/handsome/ros_ws/install/tuw_multi_robot_ctrl;/home/handsome/ros_ws/install/tuw_nav_msgs;/home/handsome/ros_ws/install/tuw_multi_robot_rviz;/home/handsome/ros_ws/install/tuw_multi_robot_goal_generator;/home/handsome/ros_ws/install/robot_scheduling_utility;/home/handsome/ros_ws/install/robot_scheduling_actions;/home/handsome/ros_ws/install/actionlib_modules_bridge;/home/handsome/ros_ws/install/tuw_multi_robot_msgs;/home/handsome/ros_ws/install/tuw_multi_robot_demo;/home/handsome/ros_ws/install/tuw_local_controller_msgs;/home/handsome/ros_ws/install/tuw_geometry_rviz;/home/handsome/ros_ws/install/tuw_geometry_msgs;/home/handsome/ros_ws/install/tuw_geometry;/home/handsome/ros_ws/install/tuw_gazebo_msgs;/home/handsome/ros_ws/install/tuw_control;/home/handsome/ros_ws/install/tuw_airskin_msgs;/home/handsome/ros_ws/install/turtlebot_teleop;/home/handsome/ros_ws/install/tug_example_pnp_server;/home/handsome/ros_ws/install/tug_example_actions;/home/handsome/ros_ws/install/tug_example_msgs;/home/handsome/ros_ws/install/timed_roslaunch;/home/handsome/ros_ws/install/teb2_local_planner;/home/handsome/ros_ws/install/stated_roslaunch;/home/handsome/ros_ws/install/spatio_temporal_voxel_layer;/home/handsome/ros_ws/install/robot_udp_bridge;/home/handsome/ros_ws/install/robot_database_bridge;/home/handsome/ros_ws/install/samsungcmd_msgs;/home/handsome/ros_ws/install/rplidar_ros;/home/handsome/ros_ws/install/rp_action;/home/handsome/ros_ws/install/rp_action_msgs;/home/handsome/ros_ws/install/rosserial_xbee;/home/handsome/ros_ws/install/rosserial_windows;/home/handsome/ros_ws/install/rosserial_tivac;/home/handsome/ros_ws/install/rosserial_test;/home/handsome/ros_ws/install/rosserial_server;/home/handsome/ros_ws/install/rosserial_python;/home/handsome/ros_ws/install/rosserial_mbed;/home/handsome/ros_ws/install/rosserial_embeddedlinux;/home/handsome/ros_ws/install/rosserial_arduino;/home/handsome/ros_ws/install/rosserial_client;/home/handsome/ros_ws/install/rosserial_msgs;/home/handsome/ros_ws/install/cellctrl_qtgui_bridge;/home/handsome/ros_ws/install/car_db_manager_qtgui;/home/handsome/ros_ws/install/car_db_manager_bridge;/home/handsome/ros_ws/install/car_db_manager_action;/home/handsome/ros_ws/install/ros_utility_tools;/home/handsome/ros_ws/install/ros_package_test;/home/handsome/ros_ws/install/ros_package_manager;/home/handsome/ros_ws/install/robot_scheduling_server;/home/handsome/ros_ws/install/robot_scheduling_msgs;/home/handsome/ros_ws/install/robot_localization;/home/handsome/ros_ws/install/robot_control_msgs;/home/handsome/ros_ws/install/reset_location;/home/handsome/ros_ws/install/razor_imu_9dof;/home/handsome/ros_ws/install/pnp_rosplan;/home/handsome/ros_ws/install/actionlib_pnp_controller;/home/handsome/ros_ws/install/actionlib_modules_controller;/home/handsome/ros_ws/install/pnp_ros;/home/handsome/ros_ws/install/pnp_msgs;/home/handsome/ros_ws/install/open_auto_dock;/home/handsome/ros_ws/install/open_auto_dock_msgs;/home/handsome/ros_ws/install/omron_os32c_driver;/home/handsome/ros_ws/install/dlux_plugins;/home/handsome/ros_ws/install/dlux_global_planner;/home/handsome/ros_ws/install/nav_grid_pub_sub;/home/handsome/ros_ws/install/dwb_critics;/home/handsome/ros_ws/install/nav_grid_iterators;/home/handsome/ros_ws/install/locomove_base;/home/handsome/ros_ws/install/locomotor;/home/handsome/ros_ws/install/nav_core_adapter;/home/handsome/ros_ws/install/dwb_plugins;/home/handsome/ros_ws/install/dwb_local_planner;/home/handsome/ros_ws/install/nav_2d_utils;/home/handsome/ros_ws/install/global_planner_tests;/home/handsome/ros_ws/install/costmap_queue;/home/handsome/ros_ws/install/nav_core2;/home/handsome/ros_ws/install/nav_grid;/home/handsome/ros_ws/install/car_schedule_msgs;/home/handsome/ros_ws/install/actionlib_modules_msgs;/home/handsome/ros_ws/install/locomotor_msgs;/home/handsome/ros_ws/install/dwb_msgs;/home/handsome/ros_ws/install/nav_2d_msgs;/home/handsome/ros_ws/install/mongodb_log;/home/handsome/ros_ws/install/mongodb_store;/home/handsome/ros_ws/install/mongodb_store_msgs;/home/handsome/ros_ws/install/ca_driver;/home/handsome/ros_ws/install/libcreate;/home/handsome/ros_ws/install/i_robot_stage;/home/handsome/ros_ws/install/i_robot_navigation;/home/handsome/ros_ws/install/hyc_order_planner;/home/handsome/ros_ws/install/hyc_multi_robot_msgs;/home/handsome/ros_ws/install/fetch_open_auto_dock;/home/handsome/ros_ws/install/fetch_auto_dock_msgs;/home/handsome/ros_ws/install/change_teb2_max_vel_x_onfly;/home/handsome/ros_ws/install/cellctrl_control_msgs;/home/handsome/ros_ws/install/car_db_manager_msgs;/home/handsome/ros_ws/install/ca_msgs;/home/handsome/ros_ws/install/ca_description;/home/handsome/ros_ws/install/botcmd_msgs;/opt/ros/melodic
+[2.445s] -- This workspace overlays: /home/handsome/ros_ws_test/install/mongodb_store;/home/handsome/ros_ws_test/install/samsungcmd_msgs;/home/handsome/ros_ws_test/install/ros_utility_tools;/home/handsome/ros_ws_test/install/robot_control_msgs;/home/handsome/ros_ws_test/install/mongodb_store_msgs;/home/handsome/ros_ws_test/install/botcmd_msgs;/home/handsome/ros_ws/install/yocs_cmd_vel_mux;/home/handsome/ros_ws/install/urdf_tutorial;/home/handsome/ros_ws/install/tuw_waypoint_to_spline_msgs;/home/handsome/ros_ws/install/tuw_multi_robot_router;/home/handsome/ros_ws/install/tuw_voronoi_graph;/home/handsome/ros_ws/install/tuw_vehicle_msgs;/home/handsome/ros_ws/install/tuw_order_planner;/home/handsome/ros_ws/install/tuw_object_rviz;/home/handsome/ros_ws/install/tuw_object_msgs;/home/handsome/ros_ws/install/tuw_nav_rviz;/home/handsome/ros_ws/install/tuw_multi_robot_local_behavior_controller;/home/handsome/ros_ws/install/tuw_multi_robot_ctrl;/home/handsome/ros_ws/install/tuw_nav_msgs;/home/handsome/ros_ws/install/tuw_multi_robot_rviz;/home/handsome/ros_ws/install/tuw_multi_robot_goal_generator;/home/handsome/ros_ws/install/robot_scheduling_utility;/home/handsome/ros_ws/install/robot_scheduling_actions;/home/handsome/ros_ws/install/actionlib_modules_bridge;/home/handsome/ros_ws/install/tuw_multi_robot_msgs;/home/handsome/ros_ws/install/tuw_multi_robot_demo;/home/handsome/ros_ws/install/tuw_local_controller_msgs;/home/handsome/ros_ws/install/tuw_geometry_rviz;/home/handsome/ros_ws/install/tuw_geometry_msgs;/home/handsome/ros_ws/install/tuw_geometry;/home/handsome/ros_ws/install/tuw_gazebo_msgs;/home/handsome/ros_ws/install/tuw_control;/home/handsome/ros_ws/install/tuw_airskin_msgs;/home/handsome/ros_ws/install/turtlebot_teleop;/home/handsome/ros_ws/install/tug_example_pnp_server;/home/handsome/ros_ws/install/tug_example_actions;/home/handsome/ros_ws/install/tug_example_msgs;/home/handsome/ros_ws/install/timed_roslaunch;/home/handsome/ros_ws/install/teb2_local_planner;/home/handsome/ros_ws/install/stated_roslaunch;/home/handsome/ros_ws/install/spatio_temporal_voxel_layer;/home/handsome/ros_ws/install/robot_udp_bridge;/home/handsome/ros_ws/install/robot_database_bridge;/home/handsome/ros_ws/install/samsungcmd_msgs;/home/handsome/ros_ws/install/rplidar_ros;/home/handsome/ros_ws/install/rp_action;/home/handsome/ros_ws/install/rp_action_msgs;/home/handsome/ros_ws/install/rosserial_xbee;/home/handsome/ros_ws/install/rosserial_windows;/home/handsome/ros_ws/install/rosserial_tivac;/home/handsome/ros_ws/install/rosserial_test;/home/handsome/ros_ws/install/rosserial_server;/home/handsome/ros_ws/install/rosserial_python;/home/handsome/ros_ws/install/rosserial_mbed;/home/handsome/ros_ws/install/rosserial_embeddedlinux;/home/handsome/ros_ws/install/rosserial_arduino;/home/handsome/ros_ws/install/rosserial_client;/home/handsome/ros_ws/install/rosserial_msgs;/home/handsome/ros_ws/install/cellctrl_qtgui_bridge;/home/handsome/ros_ws/install/car_db_manager_qtgui;/home/handsome/ros_ws/install/car_db_manager_bridge;/home/handsome/ros_ws/install/car_db_manager_action;/home/handsome/ros_ws/install/ros_utility_tools;/home/handsome/ros_ws/install/ros_package_test;/home/handsome/ros_ws/install/ros_package_manager;/home/handsome/ros_ws/install/robot_scheduling_server;/home/handsome/ros_ws/install/robot_scheduling_msgs;/home/handsome/ros_ws/install/robot_localization;/home/handsome/ros_ws/install/robot_control_msgs;/home/handsome/ros_ws/install/reset_location;/home/handsome/ros_ws/install/razor_imu_9dof;/home/handsome/ros_ws/install/pnp_rosplan;/home/handsome/ros_ws/install/actionlib_pnp_controller;/home/handsome/ros_ws/install/actionlib_modules_controller;/home/handsome/ros_ws/install/pnp_ros;/home/handsome/ros_ws/install/pnp_msgs;/home/handsome/ros_ws/install/open_auto_dock;/home/handsome/ros_ws/install/open_auto_dock_msgs;/home/handsome/ros_ws/install/omron_os32c_driver;/home/handsome/ros_ws/install/dlux_plugins;/home/handsome/ros_ws/install/dlux_global_planner;/home/handsome/ros_ws/install/nav_grid_pub_sub;/home/handsome/ros_ws/install/dwb_critics;/home/handsome/ros_ws/install/nav_grid_iterators;/home/handsome/ros_ws/install/locomove_base;/home/handsome/ros_ws/install/locomotor;/home/handsome/ros_ws/install/nav_core_adapter;/home/handsome/ros_ws/install/dwb_plugins;/home/handsome/ros_ws/install/dwb_local_planner;/home/handsome/ros_ws/install/nav_2d_utils;/home/handsome/ros_ws/install/global_planner_tests;/home/handsome/ros_ws/install/costmap_queue;/home/handsome/ros_ws/install/nav_core2;/home/handsome/ros_ws/install/nav_grid;/home/handsome/ros_ws/install/car_schedule_msgs;/home/handsome/ros_ws/install/actionlib_modules_msgs;/home/handsome/ros_ws/install/locomotor_msgs;/home/handsome/ros_ws/install/dwb_msgs;/home/handsome/ros_ws/install/nav_2d_msgs;/home/handsome/ros_ws/install/mongodb_log;/home/handsome/ros_ws/install/mongodb_store;/home/handsome/ros_ws/install/mongodb_store_msgs;/home/handsome/ros_ws/install/ca_driver;/home/handsome/ros_ws/install/i_robot_stage;/home/handsome/ros_ws/install/i_robot_navigation;/home/handsome/ros_ws/install/hyc_order_planner;/home/handsome/ros_ws/install/hyc_multi_robot_msgs;/home/handsome/ros_ws/install/fetch_open_auto_dock;/home/handsome/ros_ws/install/fetch_auto_dock_msgs;/home/handsome/ros_ws/install/change_teb2_max_vel_x_onfly;/home/handsome/ros_ws/install/cellctrl_control_msgs;/home/handsome/ros_ws/install/car_db_manager_msgs;/home/handsome/ros_ws/install/ca_msgs;/home/handsome/ros_ws/install/ca_description;/home/handsome/ros_ws/install/botcmd_msgs;/opt/ros/melodic
+[2.497s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[2.498s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[2.498s] -- Using Debian Python package layout
+[2.501s] -- Using empy: /usr/bin/empy
+[2.798s] -- Using CATKIN_ENABLE_TESTING: ON
+[2.799s] -- Call enable_testing()
+[2.801s] -- Using CATKIN_TEST_RESULTS_DIR: /home/handsome/ros_ws_test/build/robot_database_bridge/test_results
+[2.868s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[2.868s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[2.915s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[2.917s] -- Looking for pthread.h
+[3.078s] -- Looking for pthread.h - found
+[3.080s] -- Looking for pthread_create
+[3.241s] -- Looking for pthread_create - not found
+[3.242s] -- Looking for pthread_create in pthreads
+[3.381s] -- Looking for pthread_create in pthreads - not found
+[3.382s] -- Looking for pthread_create in pthread
+[3.540s] -- Looking for pthread_create in pthread - found
+[3.547s] -- Found Threads: TRUE  
+[3.557s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[3.686s] -- catkin 0.7.28
+[3.686s] -- BUILD_SHARED_LIBS is on
+[4.413s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[5.111s] -- Boost version: 1.65.1
+[5.148s] -- Found nlohmann_json: /usr/local/lib/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found version "3.7.0") 
+[5.282s] -- Boost version: 1.65.1
+[5.283s] -- Found the following Boost libraries:
+[5.283s] --   system
+[5.283s] --   thread
+[5.283s] --   program_options
+[5.283s] --   filesystem
+[5.283s] --   chrono
+[5.283s] --   date_time
+[5.284s] --   atomic
+[5.594s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1") 
+[5.596s] -- Found MongoClient: /usr/include, /usr/lib/x86_64-linux-gnu/libmongoclient.so;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_thread.so;/usr/lib/x86_64-linux-gnu/libboost_program_options.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;/usr/lib/x86_64-linux-gnu/libpthread.so;/usr/lib/x86_64-linux-gnu/libssl.so;/usr/lib/x86_64-linux-gnu/libcrypto.so
+[5.596s] -- MongoClient using new interface: YES
+[5.606s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[5.612s] -- Checking for module 'modbus'
+[5.674s] --   No package 'modbus' found
+[6.069s] -- Configuring done
+[6.080s] WARNING: Target "ctrl_tb_alarm" requests linking to directory "/usr/include".  Targets may link only to libraries.  CMake is dropping the item.
+[6.117s] WARNING: Target "robot_database_bridge" requests linking to directory "/usr/include".  Targets may link only to libraries.  CMake is dropping the item.
+[6.156s] -- Generating done
+[6.171s] -- Build files have been written to: /home/handsome/ros_ws_test/build/robot_database_bridge
+[6.187s] Invoked command in '/home/handsome/ros_ws_test/build/robot_database_bridge' returned '0': CMAKE_PREFIX_PATH=/home/handsome/ros_ws_test/install/mongodb_store:/home/handsome/ros_ws_test/install/samsungcmd_msgs:/home/handsome/ros_ws_test/install/ros_utility_tools:/home/handsome/ros_ws_test/install/robot_control_msgs:/home/handsome/ros_ws_test/install/mongodb_store_msgs:/home/handsome/ros_ws_test/install/botcmd_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/handsome/ros_ws_test/install/mongodb_store/lib:/home/handsome/ros_ws_test/install/ros_utility_tools/lib:/home/handsome/ros_ws/install/yocs_cmd_vel_mux/lib:/home/handsome/ros_ws/install/tuw_multi_robot_router/lib:/home/handsome/ros_ws/install/tuw_voronoi_graph/lib:/home/handsome/ros_ws/install/tuw_vehicle_msgs/lib:/home/handsome/ros_ws/install/tuw_nav_rviz/lib:/home/handsome/ros_ws/install/tuw_multi_robot_local_behavior_controller/lib:/home/handsome/ros_ws/install/tuw_multi_robot_ctrl/lib:/home/handsome/ros_ws/install/tuw_nav_msgs/lib:/home/handsome/ros_ws/install/tuw_multi_robot_rviz/lib:/home/handsome/ros_ws/install/tuw_geometry_rviz/lib:/home/handsome/ros_ws/install/tuw_geometry_msgs/lib:/home/handsome/ros_ws/install/tuw_geometry/lib:/home/handsome/ros_ws/install/tuw_control/lib:/home/handsome/ros_ws/install/teb2_local_planner/lib:/home/handsome/ros_ws/install/spatio_temporal_voxel_layer/lib:/home/handsome/ros_ws/install/robot_database_bridge/lib:/home/handsome/ros_ws/install/ros_utility_tools/lib:/home/handsome/ros_ws/install/robot_localization/lib:/home/handsome/ros_ws/install/pnp_ros/lib:/home/handsome/ros_ws/install/omron_os32c_driver/lib:/home/handsome/ros_ws/install/dlux_plugins/lib:/home/handsome/ros_ws/install/dlux_global_planner/lib:/home/handsome/ros_ws/install/nav_grid_pub_sub/lib:/home/handsome/ros_ws/install/dwb_critics/lib:/home/handsome/ros_ws/install/nav_grid_iterators/lib:/home/handsome/ros_ws/install/locomotor/lib:/home/handsome/ros_ws/install/nav_core_adapter/lib:/home/handsome/ros_ws/install/dwb_plugins/lib:/home/handsome/ros_ws/install/dwb_local_planner/lib:/home/handsome/ros_ws/install/nav_2d_utils/lib:/home/handsome/ros_ws/install/global_planner_tests/lib:/home/handsome/ros_ws/install/costmap_queue/lib:/home/handsome/ros_ws/install/nav_core2/lib:/home/handsome/ros_ws/install/mongodb_store/lib:/home/handsome/ros_ws/install/libcreate/lib:/opt/ros/melodic/lib:/usr/local/lib PKG_CONFIG_PATH=/home/handsome/ros_ws_test/install/mongodb_store/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/mongodb_store/lib/pkgconfig:/home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/ros_utility_tools/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/ros_utility_tools/lib/pkgconfig:/home/handsome/ros_ws_test/install/robot_control_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/robot_control_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/botcmd_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/botcmd_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/handsome/ros_ws_test/install/mongodb_store/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/handsome/ros_ws_test/install/mongodb_store/share:/home/handsome/ros_ws_test/install/samsungcmd_msgs/share:/home/handsome/ros_ws_test/install/ros_utility_tools/share:/home/handsome/ros_ws_test/install/robot_control_msgs/share:/home/handsome/ros_ws_test/install/mongodb_store_msgs/share:/home/handsome/ros_ws_test/install/botcmd_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/handsome/ros_ws_test/install/robot_database_bridge
+[6.190s] Invoking command in '/home/handsome/ros_ws_test/build/robot_database_bridge': CMAKE_PREFIX_PATH=/home/handsome/ros_ws_test/install/mongodb_store:/home/handsome/ros_ws_test/install/samsungcmd_msgs:/home/handsome/ros_ws_test/install/ros_utility_tools:/home/handsome/ros_ws_test/install/robot_control_msgs:/home/handsome/ros_ws_test/install/mongodb_store_msgs:/home/handsome/ros_ws_test/install/botcmd_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/handsome/ros_ws_test/install/mongodb_store/lib:/home/handsome/ros_ws_test/install/ros_utility_tools/lib:/home/handsome/ros_ws/install/yocs_cmd_vel_mux/lib:/home/handsome/ros_ws/install/tuw_multi_robot_router/lib:/home/handsome/ros_ws/install/tuw_voronoi_graph/lib:/home/handsome/ros_ws/install/tuw_vehicle_msgs/lib:/home/handsome/ros_ws/install/tuw_nav_rviz/lib:/home/handsome/ros_ws/install/tuw_multi_robot_local_behavior_controller/lib:/home/handsome/ros_ws/install/tuw_multi_robot_ctrl/lib:/home/handsome/ros_ws/install/tuw_nav_msgs/lib:/home/handsome/ros_ws/install/tuw_multi_robot_rviz/lib:/home/handsome/ros_ws/install/tuw_geometry_rviz/lib:/home/handsome/ros_ws/install/tuw_geometry_msgs/lib:/home/handsome/ros_ws/install/tuw_geometry/lib:/home/handsome/ros_ws/install/tuw_control/lib:/home/handsome/ros_ws/install/teb2_local_planner/lib:/home/handsome/ros_ws/install/spatio_temporal_voxel_layer/lib:/home/handsome/ros_ws/install/robot_database_bridge/lib:/home/handsome/ros_ws/install/ros_utility_tools/lib:/home/handsome/ros_ws/install/robot_localization/lib:/home/handsome/ros_ws/install/pnp_ros/lib:/home/handsome/ros_ws/install/omron_os32c_driver/lib:/home/handsome/ros_ws/install/dlux_plugins/lib:/home/handsome/ros_ws/install/dlux_global_planner/lib:/home/handsome/ros_ws/install/nav_grid_pub_sub/lib:/home/handsome/ros_ws/install/dwb_critics/lib:/home/handsome/ros_ws/install/nav_grid_iterators/lib:/home/handsome/ros_ws/install/locomotor/lib:/home/handsome/ros_ws/install/nav_core_adapter/lib:/home/handsome/ros_ws/install/dwb_plugins/lib:/home/handsome/ros_ws/install/dwb_local_planner/lib:/home/handsome/ros_ws/install/nav_2d_utils/lib:/home/handsome/ros_ws/install/global_planner_tests/lib:/home/handsome/ros_ws/install/costmap_queue/lib:/home/handsome/ros_ws/install/nav_core2/lib:/home/handsome/ros_ws/install/mongodb_store/lib:/home/handsome/ros_ws/install/libcreate/lib:/opt/ros/melodic/lib:/usr/local/lib PKG_CONFIG_PATH=/home/handsome/ros_ws_test/install/mongodb_store/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/mongodb_store/lib/pkgconfig:/home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/ros_utility_tools/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/ros_utility_tools/lib/pkgconfig:/home/handsome/ros_ws_test/install/robot_control_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/robot_control_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/botcmd_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/botcmd_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/handsome/ros_ws_test/install/mongodb_store/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/handsome/ros_ws_test/install/mongodb_store/share:/home/handsome/ros_ws_test/install/samsungcmd_msgs/share:/home/handsome/ros_ws_test/install/ros_utility_tools/share:/home/handsome/ros_ws_test/install/robot_control_msgs/share:/home/handsome/ros_ws_test/install/mongodb_store_msgs/share:/home/handsome/ros_ws_test/install/botcmd_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/handsome/ros_ws_test/build/robot_database_bridge -- -j12 -l12
+[6.304s] [35m[1mScanning dependencies of target ctrl_tb_alarm[0m
+[6.355s] [ 16%] [32mBuilding CXX object CMakeFiles/ctrl_tb_alarm.dir/src/database/ctrl_tb_alarmcode.cpp.o[0m
+[9.475s] In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/include/crlt_messagemanager/database/ctrl_tb_alarmcode.h:4:0[m[K,
+[9.475s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/src/database/ctrl_tb_alarmcode.cpp:1[m[K:
+[9.475s] [01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/base_mongodbstore_client.h:[m[K In member function ‘[01m[Kbool base_mongodbstore_client::database_Insert(const boost::shared_ptr<X>&)[m[K’:
+[9.475s] [01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/base_mongodbstore_client.h:47:27:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kget_Now_LocalTime[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kget_Now_LocalTime[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+[9.476s]     (*_data).update_time = [01;35m[Kget_Now_LocalTime[m[K();  //-- from tools
+[9.476s]                            [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[9.476s] [01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/base_mongodbstore_client.h:[m[K In member function ‘[01m[Kbool base_mongodbstore_client::database_modify(const boost::shared_ptr<X>&)[m[K’:
+[9.476s] [01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/base_mongodbstore_client.h:59:27:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kget_Now_LocalTime[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kget_Now_LocalTime[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+[9.476s]     (*_data).update_time = [01;35m[Kget_Now_LocalTime[m[K();
+[9.476s]                            [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[9.537s] In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+[9.537s]                  from [01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/base_mongodbstore_client.h:4[m[K,
+[9.537s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/include/crlt_messagemanager/database/ctrl_tb_alarmcode.h:4[m[K,
+[9.537s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/src/database/ctrl_tb_alarmcode.cpp:1[m[K:
+[9.537s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/src/database/ctrl_tb_alarmcode.cpp:[m[K In member function ‘[01m[Kbool ctrl_tb_alarmcode::db_data_query_alarm_code(std::__cxx11::string, std::__cxx11::string)[m[K’:
+[9.537s] [01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+[9.538s]      ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;35m[K)[m[K
+[9.538s]                                                                                                                                                                                 [01;35m[K^[m[K
+[9.538s] [01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+[9.538s]      [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+[9.538s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.539s] [01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+[9.539s]        [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+[9.539s]        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.539s] [01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+[9.539s]  #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+[9.539s]                                    [01;36m[K^~~~~~~~~~~~[m[K
+[9.539s] [01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+[9.540s]  #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[9.540s]                        [01;36m[K^~~~~~~[m[K
+[9.540s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/src/database/ctrl_tb_alarmcode.cpp:204:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+[9.540s]      [01;36m[KR[m[KOS_INFO(alarm_code_low.c_str()) ;
+[9.540s]      [01;36m[K^[m[K
+[9.540s] [01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+[9.540s]      ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;35m[K)[m[K
+[9.541s]                                                                                                                                                                                 [01;35m[K^[m[K
+[9.541s] [01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+[9.541s]      [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+[9.541s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.541s] [01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+[9.541s]        [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+[9.542s]        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.542s] [01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+[9.542s]  #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+[9.542s]                                    [01;36m[K^~~~~~~~~~~~[m[K
+[9.542s] [01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+[9.542s]  #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[9.542s]                        [01;36m[K^~~~~~~[m[K
+[9.543s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/src/database/ctrl_tb_alarmcode.cpp:205:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+[9.543s]      [01;36m[KR[m[KOS_INFO(alarm_code_up.c_str()) ;
+[9.543s]      [01;36m[K^[m[K
+[9.543s] [01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+[9.543s]      ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;35m[K)[m[K
+[9.543s]                                                                                                                                                                                 [01;35m[K^[m[K
+[9.543s] [01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+[9.544s]      [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+[9.544s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.544s] [01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+[9.544s]        [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+[9.544s]        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.544s] [01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+[9.544s]  #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+[9.545s]                                    [01;36m[K^~~~~~~~~~~~[m[K
+[9.545s] [01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+[9.545s]  #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[9.545s]                        [01;36m[K^~~~~~~[m[K
+[9.546s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/src/database/ctrl_tb_alarmcode.cpp:211:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+[9.546s]          [01;36m[KR[m[KOS_INFO(convert_str(searchkey_map.size()).c_str()) ;
+[9.546s]          [01;36m[K^[m[K
+[9.546s] [01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+[9.547s]      ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;35m[K)[m[K
+[9.547s]                                                                                                                                                                                 [01;35m[K^[m[K
+[9.547s] [01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+[9.547s]      [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+[9.547s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.547s] [01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+[9.547s]        [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+[9.548s]        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.548s] [01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+[9.548s]  #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+[9.548s]                                    [01;36m[K^~~~~~~~~~~~[m[K
+[9.548s] [01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+[9.548s]  #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[9.548s]                        [01;36m[K^~~~~~~[m[K
+[9.549s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/src/database/ctrl_tb_alarmcode.cpp:227:17:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+[9.549s]                  [01;36m[KR[m[KOS_INFO((*iter)->system_id.c_str());
+[9.549s]                  [01;36m[K^[m[K
+[9.549s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/src/database/ctrl_tb_alarmcode.cpp:[m[K In member function ‘[01m[Kbool ctrl_tb_alarmcode::db_data_query_dynamic(std::__cxx11::string, std::__cxx11::string)[m[K’:
+[9.549s] [01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+[9.549s]      ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;35m[K)[m[K
+[9.550s]                                                                                                                                                                                 [01;35m[K^[m[K
+[9.550s] [01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+[9.550s]      [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+[9.550s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.550s] [01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+[9.550s]        [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+[9.550s]        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.551s] [01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+[9.551s]  #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+[9.551s]                                    [01;36m[K^~~~~~~~~~~~[m[K
+[9.551s] [01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+[9.551s]  #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[9.551s]                        [01;36m[K^~~~~~~[m[K
+[9.551s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/src/database/ctrl_tb_alarmcode.cpp:252:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+[9.551s]      [01;36m[KR[m[KOS_INFO(param_low.c_str()) ;
+[9.552s]      [01;36m[K^[m[K
+[9.552s] [01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+[9.552s]      ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;35m[K)[m[K
+[9.552s]                                                                                                                                                                                 [01;35m[K^[m[K
+[9.552s] [01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+[9.552s]      [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+[9.552s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.552s] [01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+[9.553s]        [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+[9.553s]        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.553s] [01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+[9.553s]  #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+[9.553s]                                    [01;36m[K^~~~~~~~~~~~[m[K
+[9.553s] [01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+[9.553s]  #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[9.554s]                        [01;36m[K^~~~~~~[m[K
+[9.554s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/src/database/ctrl_tb_alarmcode.cpp:253:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+[9.554s]      [01;36m[KR[m[KOS_INFO(param_up.c_str()) ;
+[9.554s]      [01;36m[K^[m[K
+[9.554s] [01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+[9.554s]      ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;35m[K)[m[K
+[9.554s]                                                                                                                                                                                 [01;35m[K^[m[K
+[9.554s] [01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+[9.555s]      [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+[9.555s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.555s] [01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+[9.555s]        [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+[9.555s]        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.555s] [01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+[9.555s]  #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+[9.556s]                                    [01;36m[K^~~~~~~~~~~~[m[K
+[9.556s] [01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+[9.556s]  #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[9.556s]                        [01;36m[K^~~~~~~[m[K
+[9.556s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/src/database/ctrl_tb_alarmcode.cpp:259:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+[9.556s]          [01;36m[KR[m[KOS_INFO(convert_str(search_dynamic_map.size()).c_str()) ;
+[9.556s]          [01;36m[K^[m[K
+[9.556s] [01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+[9.557s]      ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;35m[K)[m[K
+[9.557s]                                                                                                                                                                                 [01;35m[K^[m[K
+[9.557s] [01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+[9.557s]      [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+[9.557s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.557s] [01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+[9.557s]        [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+[9.558s]        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.558s] [01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+[9.558s]  #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+[9.558s]                                    [01;36m[K^~~~~~~~~~~~[m[K
+[9.558s] [01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+[9.558s]  #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[9.558s]                        [01;36m[K^~~~~~~[m[K
+[9.558s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/src/database/ctrl_tb_alarmcode.cpp:275:17:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+[9.559s]                  [01;36m[KR[m[KOS_INFO((*iter)->system_id.c_str());
+[9.559s]                  [01;36m[K^[m[K
+[11.579s] [ 33%] [32mBuilding CXX object CMakeFiles/ctrl_tb_alarm.dir/src/control_mongodbstore_client.cpp.o[0m
+[14.071s] In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/include/crlt_messagemanager/database/ctrl_tb_alarmcode.h:4:0[m[K,
+[14.071s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/include/crlt_messagemanager/control_mongodbstore_client.h:4[m[K,
+[14.072s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/src/control_mongodbstore_client.cpp:1[m[K:
+[14.072s] [01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/base_mongodbstore_client.h:[m[K In member function ‘[01m[Kbool base_mongodbstore_client::database_Insert(const boost::shared_ptr<X>&)[m[K’:
+[14.072s] [01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/base_mongodbstore_client.h:47:27:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kget_Now_LocalTime[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kget_Now_LocalTime[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+[14.072s]     (*_data).update_time = [01;35m[Kget_Now_LocalTime[m[K();  //-- from tools
+[14.072s]                            [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[14.072s] [01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/base_mongodbstore_client.h:[m[K In member function ‘[01m[Kbool base_mongodbstore_client::database_modify(const boost::shared_ptr<X>&)[m[K’:
+[14.072s] [01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/base_mongodbstore_client.h:59:27:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kget_Now_LocalTime[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kget_Now_LocalTime[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+[14.073s]     (*_data).update_time = [01;35m[Kget_Now_LocalTime[m[K();
+[14.073s]                            [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[14.106s] In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+[14.107s]                  from [01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/base_mongodbstore_client.h:4[m[K,
+[14.107s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/include/crlt_messagemanager/database/ctrl_tb_alarmcode.h:4[m[K,
+[14.107s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/include/crlt_messagemanager/control_mongodbstore_client.h:4[m[K,
+[14.107s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/src/control_mongodbstore_client.cpp:1[m[K:
+[14.107s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/src/control_mongodbstore_client.cpp:[m[K In constructor ‘[01m[Kcontrol_mongodbstore_client::control_mongodbstore_client(ros::NodeHandle&, std::__cxx11::string, std::__cxx11::string, std::__cxx11::string)[m[K’:
+[14.107s] [01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+[14.107s]      ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;35m[K)[m[K
+[14.108s]                                                                                                                                                                                 [01;35m[K^[m[K
+[14.108s] [01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+[14.108s]      [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+[14.108s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.108s] [01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+[14.108s]        [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+[14.108s]        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.109s] [01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+[14.109s]  #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+[14.109s]                                    [01;36m[K^~~~~~~~~~~~[m[K
+[14.109s] [01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+[14.109s]  #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[14.109s]                        [01;36m[K^~~~~~~[m[K
+[14.110s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/src/control_mongodbstore_client.cpp:24:4:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+[14.110s]     [01;36m[KR[m[KOS_INFO(convert_str(tmpmap.size()).c_str());
+[14.110s]     [01;36m[K^[m[K
+[14.112s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/src/control_mongodbstore_client.cpp:[m[K In member function ‘[01m[Kbool control_mongodbstore_client::srv_Eval_tb_srvservice_alarmcode(robot_control_msgs::robot_ctrl_alarmCode_cmd::Request&, robot_control_msgs::robot_ctrl_alarmCode_cmd::Response&)[m[K’:
+[14.112s] [01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+[14.112s]      ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;35m[K)[m[K
+[14.112s]                                                                                                                                                                                 [01;35m[K^[m[K
+[14.112s] [01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+[14.112s]      [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+[14.113s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.113s] [01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+[14.113s]        [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+[14.113s]        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.113s] [01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+[14.113s]  #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+[14.114s]                                    [01;36m[K^~~~~~~~~~~~[m[K
+[14.114s] [01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+[14.114s]  #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[14.114s]                        [01;36m[K^~~~~~~[m[K
+[14.114s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/src/control_mongodbstore_client.cpp:111:13:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+[14.114s]              [01;36m[KR[m[KOS_INFO(convert_str(tmpmap.size()).c_str());
+[14.115s]              [01;36m[K^[m[K
+[14.115s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/src/control_mongodbstore_client.cpp:[m[K In member function ‘[01m[Kbool control_mongodbstore_client::tb_dataQuery_alarmcode(std::__cxx11::string, std::__cxx11::string, robot_control_msgs::robot_ctrl_alarmCode_cmd::Response&)[m[K’:
+[14.115s] [01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+[14.116s]      ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;35m[K)[m[K
+[14.116s]                                                                                                                                                                                 [01;35m[K^[m[K
+[14.116s] [01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+[14.116s]      [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+[14.116s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.116s] [01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+[14.116s]        [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+[14.117s]        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.117s] [01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+[14.117s]  #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+[14.117s]                                    [01;36m[K^~~~~~~~~~~~[m[K
+[14.117s] [01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+[14.117s]  #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[14.117s]                        [01;36m[K^~~~~~~[m[K
+[14.118s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/src/control_mongodbstore_client.cpp:174:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+[14.118s]      [01;36m[KR[m[KOS_INFO(param_low.c_str()) ;
+[14.118s]      [01;36m[K^[m[K
+[14.118s] [01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+[14.118s]      ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;35m[K)[m[K
+[14.118s]                                                                                                                                                                                 [01;35m[K^[m[K
+[14.118s] [01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+[14.118s]      [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+[14.119s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.119s] [01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+[14.119s]        [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+[14.119s]        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.119s] [01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+[14.120s]  #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+[14.120s]                                    [01;36m[K^~~~~~~~~~~~[m[K
+[14.120s] [01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+[14.120s]  #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[14.120s]                        [01;36m[K^~~~~~~[m[K
+[14.120s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/src/control_mongodbstore_client.cpp:175:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+[14.120s]      [01;36m[KR[m[KOS_INFO(param_up.c_str()) ;
+[14.121s]      [01;36m[K^[m[K
+[14.121s] [01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+[14.121s]      ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;35m[K)[m[K
+[14.121s]                                                                                                                                                                                 [01;35m[K^[m[K
+[14.121s] [01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+[14.121s]      [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+[14.121s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.121s] [01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+[14.122s]        [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+[14.122s]        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.122s] [01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+[14.122s]  #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+[14.122s]                                    [01;36m[K^~~~~~~~~~~~[m[K
+[14.122s] [01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+[14.122s]  #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[14.123s]                        [01;36m[K^~~~~~~[m[K
+[14.123s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/src/control_mongodbstore_client.cpp:205:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+[14.123s]          [01;36m[KR[m[KOS_INFO(convert_str(_result.size()).c_str()) ;
+[14.123s]          [01;36m[K^[m[K
+[15.485s] [ 50%] [32m[1mLinking CXX shared library devel/lib/libctrl_tb_alarm.so[0m
+[15.863s] [ 50%] Built target ctrl_tb_alarm
+[15.890s] [35m[1mScanning dependencies of target robot_database_bridge[0m
+[15.938s] [ 83%] [32mBuilding CXX object CMakeFiles/robot_database_bridge.dir/src/robot_database_bridge.cpp.o[0m
+[15.938s] [ 83%] [32mBuilding CXX object CMakeFiles/robot_database_bridge.dir/src/robot_database_Interface.cpp.o[0m
+[18.958s] In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/include/crlt_messagemanager/database/ctrl_tb_alarmcode.h:4:0[m[K,
+[18.959s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/include/crlt_messagemanager/control_mongodbstore_client.h:4[m[K,
+[18.959s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/include/crlt_messagemanager/robot_database_Interface.h:4[m[K,
+[18.959s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/include/crlt_messagemanager/robot_database_bridge.h:4[m[K,
+[18.959s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/src/robot_database_bridge.cpp:1[m[K:
+[18.960s] [01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/base_mongodbstore_client.h:[m[K In member function ‘[01m[Kbool base_mongodbstore_client::database_Insert(const boost::shared_ptr<X>&)[m[K’:
+[18.960s] [01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/base_mongodbstore_client.h:47:27:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kget_Now_LocalTime[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kget_Now_LocalTime[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+[18.960s]     (*_data).update_time = [01;35m[Kget_Now_LocalTime[m[K();  //-- from tools
+[18.960s]                            [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[18.960s] [01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/base_mongodbstore_client.h:[m[K In member function ‘[01m[Kbool base_mongodbstore_client::database_modify(const boost::shared_ptr<X>&)[m[K’:
+[18.960s] [01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/base_mongodbstore_client.h:59:27:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kget_Now_LocalTime[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kget_Now_LocalTime[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+[18.961s]     (*_data).update_time = [01;35m[Kget_Now_LocalTime[m[K();
+[18.961s]                            [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[19.273s] In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/include/crlt_messagemanager/database/ctrl_tb_alarmcode.h:4:0[m[K,
+[19.273s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/include/crlt_messagemanager/control_mongodbstore_client.h:4[m[K,
+[19.273s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/include/crlt_messagemanager/robot_database_Interface.h:4[m[K,
+[19.273s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/src/robot_database_Interface.cpp:1[m[K:
+[19.273s] [01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/base_mongodbstore_client.h:[m[K In member function ‘[01m[Kbool base_mongodbstore_client::database_Insert(const boost::shared_ptr<X>&)[m[K’:
+[19.273s] [01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/base_mongodbstore_client.h:47:27:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kget_Now_LocalTime[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kget_Now_LocalTime[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+[19.273s]     (*_data).update_time = [01;35m[Kget_Now_LocalTime[m[K();  //-- from tools
+[19.274s]                            [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[19.274s] [01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/base_mongodbstore_client.h:[m[K In member function ‘[01m[Kbool base_mongodbstore_client::database_modify(const boost::shared_ptr<X>&)[m[K’:
+[19.274s] [01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/base_mongodbstore_client.h:59:27:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kget_Now_LocalTime[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kget_Now_LocalTime[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+[19.274s]     (*_data).update_time = [01;35m[Kget_Now_LocalTime[m[K();
+[19.274s]                            [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[20.461s] [100%] [32m[1mLinking CXX executable devel/lib/robot_database_bridge/robot_database_bridge[0m
+[20.955s] [100%] Built target robot_database_bridge

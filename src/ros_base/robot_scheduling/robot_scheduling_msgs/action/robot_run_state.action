@@ -1,0 +1,56 @@
+# Define the goal
+uint8 GET=1
+uint8 SET=2
+uint8 GETALL=3
+uint8 PRE_GET=4
+uint8 PRE_SET=5
+uint8 PRE_GETALL=6
+uint8 MANU_GET=7
+uint8 MANU_SET=8
+uint8 MANU_GETALL=9
+uint8 MANU_STARTCHECK=10
+uint8 MANU_MODESET=11
+uint8 ALARM_RESETCHECK=12
+uint8 ALARM_RECOVERYCHECK=13
+uint8 ALARM_RECOVERY_GETALL=14
+uint8 SYS_RESTARTCHECK=15
+uint8 REMOTE_STARTCHECK=16
+uint8 REMOTE_GETALL=17
+uint8 REMOTE_MODESET=18
+uint8 PLANTOEXEC=19
+uint8 command
+uint8 set_status
+#uint8[] set_alarmcode
+string set_status_code	#for alarm code or other's application
+---
+# Define the result
+uint8 NONE=10
+uint8 UNKNOW=11
+uint8 AWARED=12
+uint8 STANDBY=13
+uint8 MANUAL=14
+uint8 REMOTE=15
+uint8 PAUSE=16
+uint8 M_NONE=20
+uint8 M_PLANTOEXEC=21
+uint8 M_MOVEINT=22
+uint8 M_MOVE=23
+uint8 M_TURN=24
+uint8 M_WORKSHEET=25
+uint8 R_NONE=30
+uint8 R_WORKSHEET=31
+uint8 RECR_NONE=40
+uint8 RECR_PLANTOEXEC=41
+uint8 status
+uint8 OK=1
+uint8 NOT_OK=2
+uint8 TIMED_OUT=3
+uint8 OUT_OF_TIMES=4
+uint8 ALARM=5
+uint8 NOT_ALARM=6
+uint8 PASS=7
+uint8 CHANGE=8
+uint8 NOT_CHANGE=9
+uint8 result
+---
+# Define a feedback message

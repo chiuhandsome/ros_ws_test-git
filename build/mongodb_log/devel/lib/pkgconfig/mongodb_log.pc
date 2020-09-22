@@ -1,0 +1,8 @@
+prefix=/home/handsome/ros_ws_test/build/mongodb_log/devel
+
+Name: mongodb_log
+Description: Description of mongodb_log
+Version: 0.5.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

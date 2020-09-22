@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+  <!--<param name="use_sim_time" value="false" />-->
+  <arg name="robot_udp_bridge_params" default="$(find robot_udp_bridge)/config/robot_udp_bridge_params.yaml"/>
+  <node pkg="robot_udp_bridge" type="robot_udp_bridge" name="robot_udp_bridge_node" respawn="true" output="screen">
+      <rosparam file="$(arg robot_udp_bridge_params)" command="load"/>
+	  <!--<remap from="raw_vel_msg" to="raw_vel"/> -->
+  </node>
+
+  <!--<node pkg="rqt_gui" type="rqt_gui" name="rqt_gui" required="false" />-->
+</launch>

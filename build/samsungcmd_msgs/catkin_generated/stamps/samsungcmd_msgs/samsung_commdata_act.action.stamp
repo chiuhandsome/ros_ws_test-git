@@ -1,0 +1,11 @@
+# Goal
+bool  	b_cruise
+string  car_ID
+---
+# Result
+string  car_ID
+bool  	b_RSTDocked
+---
+# Feedback
+int8    status_id
+string  status_desc

@@ -1,0 +1,7 @@
+set(mongodb_store_SETUP_PY_SETUP_MODULE "distutils.core")
+set(mongodb_store_SETUP_PY_VERSION "0.5.0")
+set(mongodb_store_SETUP_PY_SCRIPTS "")
+set(mongodb_store_SETUP_PY_PACKAGES "mongodb_store")
+set(mongodb_store_SETUP_PY_PACKAGE_DIRS "src/mongodb_store")
+set(mongodb_store_SETUP_PY_MODULES "")
+set(mongodb_store_SETUP_PY_MODULE_DIRS "")

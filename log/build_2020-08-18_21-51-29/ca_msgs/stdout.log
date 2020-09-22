@@ -1,0 +1,196 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/handsome/ros_ws_test/build/ca_msgs/devel
+-- Using CMAKE_PREFIX_PATH: /home/handsome/ros_ws/install/yocs_cmd_vel_mux;/home/handsome/ros_ws/install/urdf_tutorial;/home/handsome/ros_ws/install/tuw_waypoint_to_spline_msgs;/home/handsome/ros_ws/install/tuw_multi_robot_router;/home/handsome/ros_ws/install/tuw_voronoi_graph;/home/handsome/ros_ws/install/tuw_vehicle_msgs;/home/handsome/ros_ws/install/tuw_order_planner;/home/handsome/ros_ws/install/tuw_object_rviz;/home/handsome/ros_ws/install/tuw_object_msgs;/home/handsome/ros_ws/install/tuw_nav_rviz;/home/handsome/ros_ws/install/tuw_multi_robot_local_behavior_controller;/home/handsome/ros_ws/install/tuw_multi_robot_ctrl;/home/handsome/ros_ws/install/tuw_nav_msgs;/home/handsome/ros_ws/install/tuw_multi_robot_rviz;/home/handsome/ros_ws/install/tuw_multi_robot_goal_generator;/home/handsome/ros_ws/install/robot_scheduling_utility;/home/handsome/ros_ws/install/robot_scheduling_actions;/home/handsome/ros_ws/install/actionlib_modules_bridge;/home/handsome/ros_ws/install/tuw_multi_robot_msgs;/home/handsome/ros_ws/install/tuw_multi_robot_demo;/home/handsome/ros_ws/install/tuw_local_controller_msgs;/home/handsome/ros_ws/install/tuw_geometry_rviz;/home/handsome/ros_ws/install/tuw_geometry_msgs;/home/handsome/ros_ws/install/tuw_geometry;/home/handsome/ros_ws/install/tuw_gazebo_msgs;/home/handsome/ros_ws/install/tuw_control;/home/handsome/ros_ws/install/tuw_airskin_msgs;/home/handsome/ros_ws/install/turtlebot_teleop;/home/handsome/ros_ws/install/tug_example_pnp_server;/home/handsome/ros_ws/install/tug_example_actions;/home/handsome/ros_ws/install/tug_example_msgs;/home/handsome/ros_ws/install/timed_roslaunch;/home/handsome/ros_ws/install/teb2_local_planner;/home/handsome/ros_ws/install/stated_roslaunch;/home/handsome/ros_ws/install/spatio_temporal_voxel_layer;/home/handsome/ros_ws/install/robot_udp_bridge;/home/handsome/ros_ws/install/robot_database_bridge;/home/handsome/ros_ws/install/samsungcmd_msgs;/home/handsome/ros_ws/install/rplidar_ros;/home/handsome/ros_ws/install/rp_action;/home/handsome/ros_ws/install/rp_action_msgs;/home/handsome/ros_ws/install/rosserial_xbee;/home/handsome/ros_ws/install/rosserial_windows;/home/handsome/ros_ws/install/rosserial_tivac;/home/handsome/ros_ws/install/rosserial_test;/home/handsome/ros_ws/install/rosserial_server;/home/handsome/ros_ws/install/rosserial_python;/home/handsome/ros_ws/install/rosserial_mbed;/home/handsome/ros_ws/install/rosserial_embeddedlinux;/home/handsome/ros_ws/install/rosserial_arduino;/home/handsome/ros_ws/install/rosserial_client;/home/handsome/ros_ws/install/rosserial_msgs;/home/handsome/ros_ws/install/cellctrl_qtgui_bridge;/home/handsome/ros_ws/install/car_db_manager_qtgui;/home/handsome/ros_ws/install/car_db_manager_bridge;/home/handsome/ros_ws/install/car_db_manager_action;/home/handsome/ros_ws/install/ros_utility_tools;/home/handsome/ros_ws/install/ros_package_test;/home/handsome/ros_ws/install/ros_package_manager;/home/handsome/ros_ws/install/robot_scheduling_server;/home/handsome/ros_ws/install/robot_scheduling_msgs;/home/handsome/ros_ws/install/robot_localization;/home/handsome/ros_ws/install/robot_control_msgs;/home/handsome/ros_ws/install/reset_location;/home/handsome/ros_ws/install/razor_imu_9dof;/home/handsome/ros_ws/install/pnp_rosplan;/home/handsome/ros_ws/install/actionlib_pnp_controller;/home/handsome/ros_ws/install/actionlib_modules_controller;/home/handsome/ros_ws/install/pnp_ros;/home/handsome/ros_ws/install/pnp_msgs;/home/handsome/ros_ws/install/open_auto_dock;/home/handsome/ros_ws/install/open_auto_dock_msgs;/home/handsome/ros_ws/install/omron_os32c_driver;/home/handsome/ros_ws/install/dlux_plugins;/home/handsome/ros_ws/install/dlux_global_planner;/home/handsome/ros_ws/install/nav_grid_pub_sub;/home/handsome/ros_ws/install/dwb_critics;/home/handsome/ros_ws/install/nav_grid_iterators;/home/handsome/ros_ws/install/locomove_base;/home/handsome/ros_ws/install/locomotor;/home/handsome/ros_ws/install/nav_core_adapter;/home/handsome/ros_ws/install/dwb_plugins;/home/handsome/ros_ws/install/dwb_local_planner;/home/handsome/ros_ws/install/nav_2d_utils;/home/handsome/ros_ws/install/global_planner_tests;/home/handsome/ros_ws/install/costmap_queue;/home/handsome/ros_ws/install/nav_core2;/home/handsome/ros_ws/install/nav_grid;/home/handsome/ros_ws/install/car_schedule_msgs;/home/handsome/ros_ws/install/actionlib_modules_msgs;/home/handsome/ros_ws/install/locomotor_msgs;/home/handsome/ros_ws/install/dwb_msgs;/home/handsome/ros_ws/install/nav_2d_msgs;/home/handsome/ros_ws/install/mongodb_log;/home/handsome/ros_ws/install/mongodb_store;/home/handsome/ros_ws/install/mongodb_store_msgs;/home/handsome/ros_ws/install/ca_driver;/home/handsome/ros_ws/install/libcreate;/home/handsome/ros_ws/install/i_robot_stage;/home/handsome/ros_ws/install/i_robot_navigation;/home/handsome/ros_ws/install/hyc_order_planner;/home/handsome/ros_ws/install/hyc_multi_robot_msgs;/home/handsome/ros_ws/install/fetch_open_auto_dock;/home/handsome/ros_ws/install/fetch_auto_dock_msgs;/home/handsome/ros_ws/install/change_teb2_max_vel_x_onfly;/home/handsome/ros_ws/install/cellctrl_control_msgs;/home/handsome/ros_ws/install/car_db_manager_msgs;/home/handsome/ros_ws/install/ca_msgs;/home/handsome/ros_ws/install/ca_description;/home/handsome/ros_ws/install/botcmd_msgs;/opt/ros/melodic
+-- This workspace overlays: /home/handsome/ros_ws/install/yocs_cmd_vel_mux;/home/handsome/ros_ws/install/urdf_tutorial;/home/handsome/ros_ws/install/tuw_waypoint_to_spline_msgs;/home/handsome/ros_ws/install/tuw_multi_robot_router;/home/handsome/ros_ws/install/tuw_voronoi_graph;/home/handsome/ros_ws/install/tuw_vehicle_msgs;/home/handsome/ros_ws/install/tuw_order_planner;/home/handsome/ros_ws/install/tuw_object_rviz;/home/handsome/ros_ws/install/tuw_object_msgs;/home/handsome/ros_ws/install/tuw_nav_rviz;/home/handsome/ros_ws/install/tuw_multi_robot_local_behavior_controller;/home/handsome/ros_ws/install/tuw_multi_robot_ctrl;/home/handsome/ros_ws/install/tuw_nav_msgs;/home/handsome/ros_ws/install/tuw_multi_robot_rviz;/home/handsome/ros_ws/install/tuw_multi_robot_goal_generator;/home/handsome/ros_ws/install/robot_scheduling_utility;/home/handsome/ros_ws/install/robot_scheduling_actions;/home/handsome/ros_ws/install/actionlib_modules_bridge;/home/handsome/ros_ws/install/tuw_multi_robot_msgs;/home/handsome/ros_ws/install/tuw_multi_robot_demo;/home/handsome/ros_ws/install/tuw_local_controller_msgs;/home/handsome/ros_ws/install/tuw_geometry_rviz;/home/handsome/ros_ws/install/tuw_geometry_msgs;/home/handsome/ros_ws/install/tuw_geometry;/home/handsome/ros_ws/install/tuw_gazebo_msgs;/home/handsome/ros_ws/install/tuw_control;/home/handsome/ros_ws/install/tuw_airskin_msgs;/home/handsome/ros_ws/install/turtlebot_teleop;/home/handsome/ros_ws/install/tug_example_pnp_server;/home/handsome/ros_ws/install/tug_example_actions;/home/handsome/ros_ws/install/tug_example_msgs;/home/handsome/ros_ws/install/timed_roslaunch;/home/handsome/ros_ws/install/teb2_local_planner;/home/handsome/ros_ws/install/stated_roslaunch;/home/handsome/ros_ws/install/spatio_temporal_voxel_layer;/home/handsome/ros_ws/install/robot_udp_bridge;/home/handsome/ros_ws/install/robot_database_bridge;/home/handsome/ros_ws/install/samsungcmd_msgs;/home/handsome/ros_ws/install/rplidar_ros;/home/handsome/ros_ws/install/rp_action;/home/handsome/ros_ws/install/rp_action_msgs;/home/handsome/ros_ws/install/rosserial_xbee;/home/handsome/ros_ws/install/rosserial_windows;/home/handsome/ros_ws/install/rosserial_tivac;/home/handsome/ros_ws/install/rosserial_test;/home/handsome/ros_ws/install/rosserial_server;/home/handsome/ros_ws/install/rosserial_python;/home/handsome/ros_ws/install/rosserial_mbed;/home/handsome/ros_ws/install/rosserial_embeddedlinux;/home/handsome/ros_ws/install/rosserial_arduino;/home/handsome/ros_ws/install/rosserial_client;/home/handsome/ros_ws/install/rosserial_msgs;/home/handsome/ros_ws/install/cellctrl_qtgui_bridge;/home/handsome/ros_ws/install/car_db_manager_qtgui;/home/handsome/ros_ws/install/car_db_manager_bridge;/home/handsome/ros_ws/install/car_db_manager_action;/home/handsome/ros_ws/install/ros_utility_tools;/home/handsome/ros_ws/install/ros_package_test;/home/handsome/ros_ws/install/ros_package_manager;/home/handsome/ros_ws/install/robot_scheduling_server;/home/handsome/ros_ws/install/robot_scheduling_msgs;/home/handsome/ros_ws/install/robot_localization;/home/handsome/ros_ws/install/robot_control_msgs;/home/handsome/ros_ws/install/reset_location;/home/handsome/ros_ws/install/razor_imu_9dof;/home/handsome/ros_ws/install/pnp_rosplan;/home/handsome/ros_ws/install/actionlib_pnp_controller;/home/handsome/ros_ws/install/actionlib_modules_controller;/home/handsome/ros_ws/install/pnp_ros;/home/handsome/ros_ws/install/pnp_msgs;/home/handsome/ros_ws/install/open_auto_dock;/home/handsome/ros_ws/install/open_auto_dock_msgs;/home/handsome/ros_ws/install/omron_os32c_driver;/home/handsome/ros_ws/install/dlux_plugins;/home/handsome/ros_ws/install/dlux_global_planner;/home/handsome/ros_ws/install/nav_grid_pub_sub;/home/handsome/ros_ws/install/dwb_critics;/home/handsome/ros_ws/install/nav_grid_iterators;/home/handsome/ros_ws/install/locomove_base;/home/handsome/ros_ws/install/locomotor;/home/handsome/ros_ws/install/nav_core_adapter;/home/handsome/ros_ws/install/dwb_plugins;/home/handsome/ros_ws/install/dwb_local_planner;/home/handsome/ros_ws/install/nav_2d_utils;/home/handsome/ros_ws/install/global_planner_tests;/home/handsome/ros_ws/install/costmap_queue;/home/handsome/ros_ws/install/nav_core2;/home/handsome/ros_ws/install/nav_grid;/home/handsome/ros_ws/install/car_schedule_msgs;/home/handsome/ros_ws/install/actionlib_modules_msgs;/home/handsome/ros_ws/install/locomotor_msgs;/home/handsome/ros_ws/install/dwb_msgs;/home/handsome/ros_ws/install/nav_2d_msgs;/home/handsome/ros_ws/install/mongodb_log;/home/handsome/ros_ws/install/mongodb_store;/home/handsome/ros_ws/install/mongodb_store_msgs;/home/handsome/ros_ws/install/ca_driver;/home/handsome/ros_ws/install/i_robot_stage;/home/handsome/ros_ws/install/i_robot_navigation;/home/handsome/ros_ws/install/hyc_order_planner;/home/handsome/ros_ws/install/hyc_multi_robot_msgs;/home/handsome/ros_ws/install/fetch_open_auto_dock;/home/handsome/ros_ws/install/fetch_auto_dock_msgs;/home/handsome/ros_ws/install/change_teb2_max_vel_x_onfly;/home/handsome/ros_ws/install/cellctrl_control_msgs;/home/handsome/ros_ws/install/car_db_manager_msgs;/home/handsome/ros_ws/install/ca_msgs;/home/handsome/ros_ws/install/ca_description;/home/handsome/ros_ws/install/botcmd_msgs;/opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/handsome/ros_ws_test/build/ca_msgs/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.28
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- ca_msgs: 5 messages, 0 services
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/handsome/ros_ws_test/build/ca_msgs
+[35m[1mScanning dependencies of target _ca_msgs_generate_messages_check_deps_ChargingState[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target _ca_msgs_generate_messages_check_deps_DefineSong[0m
+[35m[1mScanning dependencies of target _ca_msgs_generate_messages_check_deps_Bumper[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target _ca_msgs_generate_messages_check_deps_Mode[0m
+[35m[1mScanning dependencies of target _ca_msgs_generate_messages_check_deps_PlaySong[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _ca_msgs_generate_messages_check_deps_ChargingState
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target _ca_msgs_generate_messages_check_deps_DefineSong
+[  0%] Built target _ca_msgs_generate_messages_check_deps_PlaySong
+[  0%] Built target _ca_msgs_generate_messages_check_deps_Mode
+[  0%] Built target _ca_msgs_generate_messages_check_deps_Bumper
+[35m[1mScanning dependencies of target ca_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target ca_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target ca_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target ca_msgs_generate_messages_py[0m
+[  3%] [34m[1mGenerating Lisp code from ca_msgs/ChargingState.msg[0m
+[35m[1mScanning dependencies of target ca_msgs_generate_messages_nodejs[0m
+[  7%] [34m[1mGenerating EusLisp code from ca_msgs/ChargingState.msg[0m
+[ 11%] [34m[1mGenerating EusLisp code from ca_msgs/DefineSong.msg[0m
+[ 14%] [34m[1mGenerating C++ code from ca_msgs/ChargingState.msg[0m
+[ 18%] [34m[1mGenerating Lisp code from ca_msgs/DefineSong.msg[0m
+[ 22%] [34m[1mGenerating EusLisp code from ca_msgs/Mode.msg[0m
+[ 25%] [34m[1mGenerating EusLisp code from ca_msgs/Bumper.msg[0m
+[ 29%] [34m[1mGenerating Lisp code from ca_msgs/Bumper.msg[0m
+[ 33%] [34m[1mGenerating Lisp code from ca_msgs/PlaySong.msg[0m
+[ 37%] [34m[1mGenerating Lisp code from ca_msgs/Mode.msg[0m
+[ 40%] [34m[1mGenerating Python from MSG ca_msgs/ChargingState[0m
+[ 44%] [34m[1mGenerating Javascript code from ca_msgs/ChargingState.msg[0m
+[ 48%] [34m[1mGenerating Javascript code from ca_msgs/DefineSong.msg[0m
+[ 51%] [34m[1mGenerating C++ code from ca_msgs/DefineSong.msg[0m
+[ 55%] [34m[1mGenerating C++ code from ca_msgs/Mode.msg[0m
+[ 59%] [34m[1mGenerating Javascript code from ca_msgs/Mode.msg[0m
+[ 62%] [34m[1mGenerating EusLisp code from ca_msgs/PlaySong.msg[0m
+[ 66%] [34m[1mGenerating EusLisp manifest code for ca_msgs[0m
+[ 66%] Built target ca_msgs_generate_messages_lisp
+[ 70%] [34m[1mGenerating Javascript code from ca_msgs/Bumper.msg[0m
+[ 74%] [34m[1mGenerating C++ code from ca_msgs/Bumper.msg[0m
+[ 77%] [34m[1mGenerating C++ code from ca_msgs/PlaySong.msg[0m
+[ 81%] [34m[1mGenerating Javascript code from ca_msgs/PlaySong.msg[0m
+[ 85%] [34m[1mGenerating Python from MSG ca_msgs/DefineSong[0m
+[ 88%] [34m[1mGenerating Python from MSG ca_msgs/Mode[0m
+[ 92%] [34m[1mGenerating Python from MSG ca_msgs/Bumper[0m
+[ 96%] [34m[1mGenerating Python from MSG ca_msgs/PlaySong[0m
+[ 96%] Built target ca_msgs_generate_messages_nodejs
+[ 96%] Built target ca_msgs_generate_messages_cpp
+[100%] [34m[1mGenerating Python msg __init__.py for ca_msgs[0m
+[100%] Built target ca_msgs_generate_messages_py
+[100%] Built target ca_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target ca_msgs_generate_messages[0m
+[100%] Built target ca_msgs_generate_messages
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _ca_msgs_generate_messages_check_deps_Bumper
+[  0%] Built target _ca_msgs_generate_messages_check_deps_Mode
+[  0%] Built target _ca_msgs_generate_messages_check_deps_DefineSong
+[  0%] Built target _ca_msgs_generate_messages_check_deps_ChargingState
+[  0%] Built target _ca_msgs_generate_messages_check_deps_PlaySong
+[ 22%] Built target ca_msgs_generate_messages_eus
+[ 40%] Built target ca_msgs_generate_messages_nodejs
+[ 59%] Built target ca_msgs_generate_messages_lisp
+[ 81%] Built target ca_msgs_generate_messages_py
+[100%] Built target ca_msgs_generate_messages_cpp
+[100%] Built target ca_msgs_generate_messages
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/share/ca_msgs/msg/Bumper.msg
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/share/ca_msgs/msg/ChargingState.msg
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/share/ca_msgs/msg/DefineSong.msg
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/share/ca_msgs/msg/Mode.msg
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/share/ca_msgs/msg/PlaySong.msg
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/share/ca_msgs/cmake/ca_msgs-msg-paths.cmake
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/include/ca_msgs
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/include/ca_msgs/PlaySong.h
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/include/ca_msgs/Mode.h
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/include/ca_msgs/ChargingState.h
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/include/ca_msgs/Bumper.h
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/include/ca_msgs/DefineSong.h
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/share/roseus/ros/ca_msgs
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/share/roseus/ros/ca_msgs/msg
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/share/roseus/ros/ca_msgs/msg/ChargingState.l
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/share/roseus/ros/ca_msgs/msg/DefineSong.l
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/share/roseus/ros/ca_msgs/msg/PlaySong.l
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/share/roseus/ros/ca_msgs/msg/Mode.l
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/share/roseus/ros/ca_msgs/msg/Bumper.l
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/share/roseus/ros/ca_msgs/manifest.l
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/share/common-lisp/ros/ca_msgs
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/share/common-lisp/ros/ca_msgs/msg
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/share/common-lisp/ros/ca_msgs/msg/_package_PlaySong.lisp
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/share/common-lisp/ros/ca_msgs/msg/Mode.lisp
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/share/common-lisp/ros/ca_msgs/msg/ca_msgs-msg.asd
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/share/common-lisp/ros/ca_msgs/msg/_package_DefineSong.lisp
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/share/common-lisp/ros/ca_msgs/msg/_package_Bumper.lisp
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/share/common-lisp/ros/ca_msgs/msg/_package_Mode.lisp
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/share/common-lisp/ros/ca_msgs/msg/_package.lisp
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/share/common-lisp/ros/ca_msgs/msg/PlaySong.lisp
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/share/common-lisp/ros/ca_msgs/msg/DefineSong.lisp
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/share/common-lisp/ros/ca_msgs/msg/ChargingState.lisp
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/share/common-lisp/ros/ca_msgs/msg/Bumper.lisp
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/share/common-lisp/ros/ca_msgs/msg/_package_ChargingState.lisp
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/share/gennodejs/ros/ca_msgs
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/share/gennodejs/ros/ca_msgs/msg
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/share/gennodejs/ros/ca_msgs/msg/Mode.js
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/share/gennodejs/ros/ca_msgs/msg/PlaySong.js
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/share/gennodejs/ros/ca_msgs/msg/ChargingState.js
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/share/gennodejs/ros/ca_msgs/msg/_index.js
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/share/gennodejs/ros/ca_msgs/msg/Bumper.js
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/share/gennodejs/ros/ca_msgs/msg/DefineSong.js
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/share/gennodejs/ros/ca_msgs/_index.js
+Listing /home/handsome/ros_ws_test/build/ca_msgs/devel/lib/python2.7/dist-packages/ca_msgs ...
+Compiling /home/handsome/ros_ws_test/build/ca_msgs/devel/lib/python2.7/dist-packages/ca_msgs/__init__.py ...
+Listing /home/handsome/ros_ws_test/build/ca_msgs/devel/lib/python2.7/dist-packages/ca_msgs/msg ...
+Compiling /home/handsome/ros_ws_test/build/ca_msgs/devel/lib/python2.7/dist-packages/ca_msgs/msg/_Bumper.py ...
+Compiling /home/handsome/ros_ws_test/build/ca_msgs/devel/lib/python2.7/dist-packages/ca_msgs/msg/_ChargingState.py ...
+Compiling /home/handsome/ros_ws_test/build/ca_msgs/devel/lib/python2.7/dist-packages/ca_msgs/msg/_DefineSong.py ...
+Compiling /home/handsome/ros_ws_test/build/ca_msgs/devel/lib/python2.7/dist-packages/ca_msgs/msg/_Mode.py ...
+Compiling /home/handsome/ros_ws_test/build/ca_msgs/devel/lib/python2.7/dist-packages/ca_msgs/msg/_PlaySong.py ...
+Compiling /home/handsome/ros_ws_test/build/ca_msgs/devel/lib/python2.7/dist-packages/ca_msgs/msg/__init__.py ...
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/lib/python2.7/dist-packages/ca_msgs
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/lib/python2.7/dist-packages/ca_msgs/msg
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/lib/python2.7/dist-packages/ca_msgs/msg/_DefineSong.pyc
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/lib/python2.7/dist-packages/ca_msgs/msg/_DefineSong.py
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/lib/python2.7/dist-packages/ca_msgs/msg/_ChargingState.py
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/lib/python2.7/dist-packages/ca_msgs/msg/__init__.py
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/lib/python2.7/dist-packages/ca_msgs/msg/_Bumper.py
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/lib/python2.7/dist-packages/ca_msgs/msg/_Mode.pyc
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/lib/python2.7/dist-packages/ca_msgs/msg/_Mode.py
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/lib/python2.7/dist-packages/ca_msgs/msg/_Bumper.pyc
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/lib/python2.7/dist-packages/ca_msgs/msg/_PlaySong.py
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/lib/python2.7/dist-packages/ca_msgs/msg/_PlaySong.pyc
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/lib/python2.7/dist-packages/ca_msgs/msg/_ChargingState.pyc
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/lib/python2.7/dist-packages/ca_msgs/msg/__init__.pyc
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/lib/python2.7/dist-packages/ca_msgs/__init__.py
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/lib/python2.7/dist-packages/ca_msgs/__init__.pyc
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/lib/pkgconfig/ca_msgs.pc
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/share/ca_msgs/cmake/ca_msgs-msg-extras.cmake
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/share/ca_msgs/cmake/ca_msgsConfig.cmake
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/share/ca_msgs/cmake/ca_msgsConfig-version.cmake
+-- Installing: /home/handsome/ros_ws_test/install/ca_msgs/share/ca_msgs/package.xml

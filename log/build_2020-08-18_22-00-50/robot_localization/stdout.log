@@ -1,0 +1,118 @@
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target geographic_msgs_generate_messages_cpp
+[  4%] Built target ros_filter_utilities
+[  4%] Built target std_msgs_generate_messages_py
+[  4%] Built target geometry_msgs_generate_messages_cpp
+[  6%] Built target geographic_msgs_generate_messages_py
+[  8%] Built target test_ros_robot_localization_listener_publisher
+[  8%] Built target geometry_msgs_generate_messages_lisp
+[ 13%] Built target filter_utilities
+[ 13%] Built target std_msgs_generate_messages_lisp
+[ 13%] Built target _robot_localization_generate_messages_check_deps_SetDatum
+[ 13%] Built target _robot_localization_generate_messages_check_deps_GetState
+[ 13%] Built target geometry_msgs_generate_messages_eus
+[ 13%] Built target geographic_msgs_generate_messages_eus
+[ 13%] Built target _robot_localization_generate_messages_check_deps_SetPose
+[ 13%] Built target geographic_msgs_generate_messages_lisp
+[ 13%] Built target std_msgs_generate_messages_eus
+[ 13%] Built target geometry_msgs_generate_messages_nodejs
+[ 13%] Built target std_msgs_generate_messages_nodejs
+[ 13%] Built target geographic_msgs_generate_messages_nodejs
+[ 22%] Built target robot_localization_generate_messages_eus
+[ 28%] Built target robot_localization_generate_messages_cpp
+[ 35%] Built target robot_localization_generate_messages_lisp
+[ 44%] Built target robot_localization_generate_messages_py
+[ 44%] Built target robot_localization_gencpp
+[ 51%] Built target robot_localization_generate_messages_nodejs
+[ 55%] Built target filter_base
+[ 55%] Built target robot_localization_generate_messages
+[ 60%] Built target navsat_transform
+[ 64%] Built target ekf
+[ 68%] Built target ukf
+[ 73%] Built target navsat_transform_node
+[ 77%] Built target ros_filter
+[ 82%] Built target robot_localization_estimator
+[ 86%] Built target ukf_localization_node
+[ 91%] Built target ekf_localization_node
+[ 95%] Built target ros_robot_localization_listener
+[100%] Built target robot_localization_listener_node
+[35m[1mScanning dependencies of target gtest[0m
+[  1%] [32mBuilding CXX object gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[  3%] [32m[1mLinking CXX shared library libgtest.so[0m
+[  3%] Built target gtest
+[  7%] Built target ros_filter_utilities
+[35m[1mScanning dependencies of target test_ukf_localization_node_bag1[0m
+[  9%] [32mBuilding CXX object CMakeFiles/test_ukf_localization_node_bag1.dir/test/test_localization_node_bag_pose_tester.cpp.o[0m
+[ 11%] [32m[1mLinking CXX executable devel/lib/robot_localization/test_ukf_localization_node_bag1[0m
+[ 11%] Built target test_ukf_localization_node_bag1
+[35m[1mScanning dependencies of target test_ukf_localization_node_interfaces[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/test_ukf_localization_node_interfaces.dir/test/test_ukf_localization_node_interfaces.cpp.o[0m
+[ 15%] [32m[1mLinking CXX executable devel/lib/robot_localization/test_ukf_localization_node_interfaces[0m
+[ 15%] Built target test_ukf_localization_node_interfaces
+[35m[1mScanning dependencies of target test_ekf_localization_node_bag3[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/test_ekf_localization_node_bag3.dir/test/test_localization_node_bag_pose_tester.cpp.o[0m
+[35m[1mScanning dependencies of target test_ekf_localization_node_bag1[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/test_ekf_localization_node_bag1.dir/test/test_localization_node_bag_pose_tester.cpp.o[0m
+[ 21%] [32m[1mLinking CXX executable devel/lib/robot_localization/test_ekf_localization_node_bag3[0m
+[ 21%] Built target test_ekf_localization_node_bag3
+[ 23%] [32m[1mLinking CXX executable devel/lib/robot_localization/test_ekf_localization_node_bag1[0m
+[ 23%] Built target test_ekf_localization_node_bag1
+[35m[1mScanning dependencies of target test_ekf_localization_node_interfaces[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/test_ekf_localization_node_interfaces.dir/test/test_ekf_localization_node_interfaces.cpp.o[0m
+[ 27%] [32m[1mLinking CXX executable devel/lib/robot_localization/test_ekf_localization_node_interfaces[0m
+[ 27%] Built target test_ekf_localization_node_interfaces
+[35m[1mScanning dependencies of target test_ukf_localization_node_bag2[0m
+[35m[1mScanning dependencies of target test_ukf_localization_node_bag3[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/test_ukf_localization_node_bag2.dir/test/test_localization_node_bag_pose_tester.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/test_ukf_localization_node_bag3.dir/test/test_localization_node_bag_pose_tester.cpp.o[0m
+[ 33%] [32m[1mLinking CXX executable devel/lib/robot_localization/test_ukf_localization_node_bag2[0m
+[ 35%] [32m[1mLinking CXX executable devel/lib/robot_localization/test_ukf_localization_node_bag3[0m
+[ 35%] Built target test_ukf_localization_node_bag2
+[35m[1mScanning dependencies of target test_ekf_localization_node_bag2[0m
+[ 35%] Built target test_ukf_localization_node_bag3
+[ 37%] [32mBuilding CXX object CMakeFiles/test_ekf_localization_node_bag2.dir/test/test_localization_node_bag_pose_tester.cpp.o[0m
+[ 41%] Built target filter_utilities
+[ 41%] Built target geometry_msgs_generate_messages_cpp
+[ 41%] Built target _robot_localization_generate_messages_check_deps_SetDatum
+[ 41%] Built target geographic_msgs_generate_messages_cpp
+[ 41%] Built target _robot_localization_generate_messages_check_deps_GetState
+[ 41%] Built target std_msgs_generate_messages_cpp
+[ 41%] Built target _robot_localization_generate_messages_check_deps_SetPose
+[ 47%] Built target robot_localization_generate_messages_cpp
+[ 47%] Built target robot_localization_gencpp
+[ 50%] Built target filter_base
+[ 54%] Built target ekf
+[35m[1mScanning dependencies of target filter_base-test[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/filter_base-test.dir/test/test_filter_base.cpp.o[0m
+[ 58%] [32m[1mLinking CXX executable devel/lib/robot_localization/test_ekf_localization_node_bag2[0m
+[ 58%] Built target test_ekf_localization_node_bag2
+[ 62%] Built target ukf
+[ 66%] Built target robot_localization_estimator
+[ 70%] Built target ros_filter
+[35m[1mScanning dependencies of target test_robot_localization_estimator[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/test_robot_localization_estimator.dir/test/test_robot_localization_estimator.cpp.o[0m
+[ 74%] [32m[1mLinking CXX executable devel/lib/robot_localization/filter_base-test[0m
+[ 74%] Built target filter_base-test
+[ 78%] Built target ekf_localization_node
+[35m[1mScanning dependencies of target test_ekf[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/test_ekf.dir/test/test_ekf.cpp.o[0m
+[ 82%] [32m[1mLinking CXX executable devel/lib/robot_localization/test_robot_localization_estimator[0m
+[ 82%] Built target test_robot_localization_estimator
+[35m[1mScanning dependencies of target test_filter_base_diagnostics_timestamps[0m
+[35m[1mScanning dependencies of target test_ukf[0m
+[ 86%] Built target ros_robot_localization_listener
+[35m[1mScanning dependencies of target test_ros_robot_localization_listener[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/test_filter_base_diagnostics_timestamps.dir/test/test_filter_base_diagnostics_timestamps.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/test_ukf.dir/test/test_ukf.cpp.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/test_ros_robot_localization_listener.dir/test/test_ros_robot_localization_listener.cpp.o[0m
+[ 94%] [32m[1mLinking CXX executable devel/lib/robot_localization/test_ekf[0m
+[ 94%] Built target test_ekf
+[ 96%] [32m[1mLinking CXX executable devel/lib/robot_localization/test_filter_base_diagnostics_timestamps[0m
+[ 96%] Built target test_filter_base_diagnostics_timestamps
+[ 98%] [32m[1mLinking CXX executable devel/lib/robot_localization/test_ros_robot_localization_listener[0m
+[ 98%] Built target test_ros_robot_localization_listener
+[100%] [32m[1mLinking CXX executable devel/lib/robot_localization/test_ukf[0m
+[100%] Built target test_ukf
+[35m[1mScanning dependencies of target tests[0m
+[100%] Built target tests

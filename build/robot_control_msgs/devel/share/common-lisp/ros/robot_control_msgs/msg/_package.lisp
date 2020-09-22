@@ -1,0 +1,29 @@
+(cl:defpackage robot_control_msgs-msg
+  (:use )
+  (:export
+   "<IMU>"
+   "IMU"
+   "<PID>"
+   "PID"
+   "<VELOCITIES>"
+   "VELOCITIES"
+   "<HYC_ROBOTINFO>"
+   "HYC_ROBOTINFO"
+   "<HYC_STATION>"
+   "HYC_STATION"
+   "<HYC__ALARMHISTORY_MSG>"
+   "HYC__ALARMHISTORY_MSG"
+   "<HYC_ALARMCODE_MSG>"
+   "HYC_ALARMCODE_MSG"
+   "<HYC_HEARTBEAT>"
+   "HYC_HEARTBEAT"
+   "<HYC_ROSLOG _MSG>"
+   "HYC_ROSLOG _MSG"
+   "<ROBOT_CTRL_ALARMCODE>"
+   "ROBOT_CTRL_ALARMCODE"
+   "<ROBOT_CTRL_ALARMHISTORY>"
+   "ROBOT_CTRL_ALARMHISTORY"
+   "<ROBOT_CTRL_ROSLOG>"
+   "ROBOT_CTRL_ROSLOG"
+  ))
+

@@ -1,0 +1,8 @@
+int16 Command 
+---
+bool result
+time stamp
+int16 result_Command 
+int8 status_code
+int8 error_code
+string data

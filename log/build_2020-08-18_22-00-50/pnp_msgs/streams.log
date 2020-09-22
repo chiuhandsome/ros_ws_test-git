@@ -1,0 +1,230 @@
+[0.117s] Invoking command in '/home/handsome/ros_ws_test/build/pnp_msgs': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/pnp_msgs -- -j12 -l12
+[0.558s] [  0%] Built target _pnp_msgs_generate_messages_check_deps_PNPCondition
+[0.879s] [  0%] Built target _pnp_msgs_generate_messages_check_deps_PNPActionFeedback
+[0.894s] [  0%] Built target _pnp_msgs_generate_messages_check_deps_PNPGetVariableValue
+[0.903s] [  0%] Built target _pnp_msgs_generate_messages_check_deps_PNPReward
+[0.923s] [  0%] Built target _pnp_msgs_generate_messages_check_deps_PNPSetVariableValue
+[0.968s] [  0%] Built target _pnp_msgs_generate_messages_check_deps_ActionFinished
+[1.054s] [  0%] Built target _pnp_msgs_generate_messages_check_deps_PNPResult
+[1.133s] [  0%] Built target _pnp_msgs_generate_messages_check_deps_PNPAction
+[1.165s] [  0%] Built target _pnp_msgs_generate_messages_check_deps_PNPLastEvent
+[1.223s] [  0%] Built target _pnp_msgs_generate_messages_check_deps_PNPClearBuffer
+[1.249s] [  0%] Built target _pnp_msgs_generate_messages_check_deps_Action
+[1.411s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[1.429s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[1.492s] [  0%] Built target _pnp_msgs_generate_messages_check_deps_PNPGoal
+[1.492s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[1.521s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[1.527s] [  0%] Built target _pnp_msgs_generate_messages_check_deps_PNPActionGoal
+[1.539s] [  0%] Built target actionlib_msgs_generate_messages_py
+[1.852s] [  0%] Built target _pnp_msgs_generate_messages_check_deps_PNPFeedback
+[1.968s] [  0%] Built target _pnp_msgs_generate_messages_check_deps_PNPActionResult
+[2.251s] [ 20%] Built target pnp_msgs_generate_messages_eus
+[2.264s] [ 39%] Built target pnp_msgs_generate_messages_nodejs
+[2.282s] [ 58%] Built target pnp_msgs_generate_messages_cpp
+[2.306s] [ 80%] Built target pnp_msgs_generate_messages_py
+[2.407s] [100%] Built target pnp_msgs_generate_messages_lisp
+[2.734s] [100%] Built target pnp_msgs_generate_messages
+[2.861s] Invoked command in '/home/handsome/ros_ws_test/build/pnp_msgs' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/pnp_msgs -- -j12 -l12
+[3.507s] Invoking command in '/home/handsome/ros_ws_test/build/pnp_msgs': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/pnp_msgs --target tests -- -j12 -l12
+[3.778s] Built target tests
+[3.880s] Invoked command in '/home/handsome/ros_ws_test/build/pnp_msgs' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/pnp_msgs --target tests -- -j12 -l12
+[5.179s] Invoking command in '/home/handsome/ros_ws_test/build/pnp_msgs': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/pnp_msgs --target install -- -j12 -l12
+[5.797s] [  0%] Built target _pnp_msgs_generate_messages_check_deps_PNPLastEvent
+[5.895s] [  0%] Built target _pnp_msgs_generate_messages_check_deps_PNPActionFeedback
+[5.902s] [  0%] Built target _pnp_msgs_generate_messages_check_deps_PNPCondition
+[5.909s] [  0%] Built target _pnp_msgs_generate_messages_check_deps_PNPReward
+[5.928s] [  0%] Built target _pnp_msgs_generate_messages_check_deps_PNPClearBuffer
+[5.946s] [  0%] Built target _pnp_msgs_generate_messages_check_deps_Action
+[6.008s] [  0%] Built target _pnp_msgs_generate_messages_check_deps_ActionFinished
+[6.060s] [  0%] Built target _pnp_msgs_generate_messages_check_deps_PNPSetVariableValue
+[6.125s] [  0%] Built target _pnp_msgs_generate_messages_check_deps_PNPResult
+[6.142s] [  0%] Built target _pnp_msgs_generate_messages_check_deps_PNPGetVariableValue
+[6.170s] [  0%] Built target _pnp_msgs_generate_messages_check_deps_PNPAction
+[6.194s] [  0%] Built target _pnp_msgs_generate_messages_check_deps_PNPGoal
+[6.272s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[6.274s] [  0%] Built target actionlib_msgs_generate_messages_py
+[6.290s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[6.295s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[6.326s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[6.349s] [  0%] Built target _pnp_msgs_generate_messages_check_deps_PNPActionGoal
+[6.523s] [  0%] Built target _pnp_msgs_generate_messages_check_deps_PNPActionResult
+[6.544s] [  0%] Built target _pnp_msgs_generate_messages_check_deps_PNPFeedback
+[6.741s] [ 19%] Built target pnp_msgs_generate_messages_cpp
+[6.744s] [ 38%] Built target pnp_msgs_generate_messages_nodejs
+[6.749s] [ 60%] Built target pnp_msgs_generate_messages_py
+[6.797s] [ 79%] Built target pnp_msgs_generate_messages_lisp
+[6.857s] [100%] Built target pnp_msgs_generate_messages_eus
+[7.031s] [100%] Built target pnp_msgs_generate_messages
+[7.099s] [36mInstall the project...[0m
+[7.126s] -- Install configuration: ""
+[7.126s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/pnp_msgs/msg/Action.msg
+[7.130s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/pnp_msgs/msg/ActionFinished.msg
+[7.130s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/pnp_msgs/srv/PNPClearBuffer.srv
+[7.130s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/pnp_msgs/srv/PNPCondition.srv
+[7.130s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/pnp_msgs/srv/PNPGetVariableValue.srv
+[7.130s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/pnp_msgs/srv/PNPLastEvent.srv
+[7.130s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/pnp_msgs/srv/PNPReward.srv
+[7.131s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/pnp_msgs/srv/PNPSetVariableValue.srv
+[7.131s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/pnp_msgs/action/PNP.action
+[7.131s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/pnp_msgs/msg/PNPAction.msg
+[7.131s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/pnp_msgs/msg/PNPActionGoal.msg
+[7.131s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/pnp_msgs/msg/PNPActionResult.msg
+[7.131s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/pnp_msgs/msg/PNPActionFeedback.msg
+[7.132s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/pnp_msgs/msg/PNPGoal.msg
+[7.132s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/pnp_msgs/msg/PNPResult.msg
+[7.132s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/pnp_msgs/msg/PNPFeedback.msg
+[7.132s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/pnp_msgs/cmake/pnp_msgs-msg-paths.cmake
+[7.133s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/include/pnp_msgs
+[7.134s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/include/pnp_msgs/PNPActionGoal.h
+[7.134s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/include/pnp_msgs/Action.h
+[7.134s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/include/pnp_msgs/PNPAction.h
+[7.135s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/include/pnp_msgs/PNPRewardRequest.h
+[7.135s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/include/pnp_msgs/PNPGoal.h
+[7.135s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/include/pnp_msgs/PNPFeedback.h
+[7.136s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/include/pnp_msgs/PNPConditionResponse.h
+[7.136s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/include/pnp_msgs/PNPGetVariableValueResponse.h
+[7.136s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/include/pnp_msgs/PNPSetVariableValue.h
+[7.136s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/include/pnp_msgs/PNPGetVariableValueRequest.h
+[7.136s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/include/pnp_msgs/PNPSetVariableValueResponse.h
+[7.136s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/include/pnp_msgs/PNPLastEventRequest.h
+[7.136s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/include/pnp_msgs/PNPConditionRequest.h
+[7.136s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/include/pnp_msgs/PNPLastEventResponse.h
+[7.137s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/include/pnp_msgs/PNPActionResult.h
+[7.137s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/include/pnp_msgs/PNPRewardResponse.h
+[7.137s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/include/pnp_msgs/PNPGetVariableValue.h
+[7.137s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/include/pnp_msgs/PNPSetVariableValueRequest.h
+[7.137s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/include/pnp_msgs/PNPLastEvent.h
+[7.137s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/include/pnp_msgs/PNPCondition.h
+[7.140s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/include/pnp_msgs/PNPClearBufferResponse.h
+[7.141s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/include/pnp_msgs/PNPReward.h
+[7.141s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/include/pnp_msgs/PNPResult.h
+[7.141s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/include/pnp_msgs/PNPClearBufferRequest.h
+[7.141s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/include/pnp_msgs/PNPClearBuffer.h
+[7.141s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/include/pnp_msgs/ActionFinished.h
+[7.142s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/include/pnp_msgs/PNPActionFeedback.h
+[7.142s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/roseus/ros/pnp_msgs
+[7.142s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/roseus/ros/pnp_msgs/msg
+[7.142s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/roseus/ros/pnp_msgs/msg/Action.l
+[7.142s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/roseus/ros/pnp_msgs/msg/PNPActionGoal.l
+[7.143s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/roseus/ros/pnp_msgs/msg/PNPActionFeedback.l
+[7.143s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/roseus/ros/pnp_msgs/msg/ActionFinished.l
+[7.144s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/roseus/ros/pnp_msgs/msg/PNPActionResult.l
+[7.144s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/roseus/ros/pnp_msgs/msg/PNPAction.l
+[7.144s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/roseus/ros/pnp_msgs/msg/PNPFeedback.l
+[7.144s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/roseus/ros/pnp_msgs/msg/PNPGoal.l
+[7.145s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/roseus/ros/pnp_msgs/msg/PNPResult.l
+[7.145s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/roseus/ros/pnp_msgs/manifest.l
+[7.145s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/roseus/ros/pnp_msgs/srv
+[7.145s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/roseus/ros/pnp_msgs/srv/PNPSetVariableValue.l
+[7.145s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/roseus/ros/pnp_msgs/srv/PNPGetVariableValue.l
+[7.146s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/roseus/ros/pnp_msgs/srv/PNPLastEvent.l
+[7.149s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/roseus/ros/pnp_msgs/srv/PNPCondition.l
+[7.155s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/roseus/ros/pnp_msgs/srv/PNPClearBuffer.l
+[7.157s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/roseus/ros/pnp_msgs/srv/PNPReward.l
+[7.159s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/common-lisp/ros/pnp_msgs
+[7.160s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/common-lisp/ros/pnp_msgs/msg
+[7.160s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/common-lisp/ros/pnp_msgs/msg/Action.lisp
+[7.160s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/common-lisp/ros/pnp_msgs/msg/PNPActionGoal.lisp
+[7.161s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/common-lisp/ros/pnp_msgs/msg/PNPAction.lisp
+[7.161s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/common-lisp/ros/pnp_msgs/msg/PNPActionResult.lisp
+[7.162s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/common-lisp/ros/pnp_msgs/msg/_package_PNPFeedback.lisp
+[7.162s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/common-lisp/ros/pnp_msgs/msg/_package_Action.lisp
+[7.162s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/common-lisp/ros/pnp_msgs/msg/_package.lisp
+[7.163s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/common-lisp/ros/pnp_msgs/msg/PNPActionFeedback.lisp
+[7.163s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/common-lisp/ros/pnp_msgs/msg/PNPGoal.lisp
+[7.164s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/common-lisp/ros/pnp_msgs/msg/_package_ActionFinished.lisp
+[7.165s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/common-lisp/ros/pnp_msgs/msg/ActionFinished.lisp
+[7.165s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/common-lisp/ros/pnp_msgs/msg/PNPFeedback.lisp
+[7.165s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/common-lisp/ros/pnp_msgs/msg/_package_PNPGoal.lisp
+[7.166s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/common-lisp/ros/pnp_msgs/msg/PNPResult.lisp
+[7.166s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/common-lisp/ros/pnp_msgs/msg/_package_PNPAction.lisp
+[7.166s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/common-lisp/ros/pnp_msgs/msg/pnp_msgs-msg.asd
+[7.167s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/common-lisp/ros/pnp_msgs/msg/_package_PNPActionGoal.lisp
+[7.167s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/common-lisp/ros/pnp_msgs/msg/_package_PNPActionResult.lisp
+[7.167s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/common-lisp/ros/pnp_msgs/msg/_package_PNPResult.lisp
+[7.168s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/common-lisp/ros/pnp_msgs/msg/_package_PNPActionFeedback.lisp
+[7.168s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/common-lisp/ros/pnp_msgs/srv
+[7.168s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/common-lisp/ros/pnp_msgs/srv/pnp_msgs-srv.asd
+[7.168s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/common-lisp/ros/pnp_msgs/srv/_package_PNPLastEvent.lisp
+[7.169s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/common-lisp/ros/pnp_msgs/srv/PNPLastEvent.lisp
+[7.169s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/common-lisp/ros/pnp_msgs/srv/_package_PNPSetVariableValue.lisp
+[7.169s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/common-lisp/ros/pnp_msgs/srv/_package.lisp
+[7.170s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/common-lisp/ros/pnp_msgs/srv/_package_PNPCondition.lisp
+[7.170s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/common-lisp/ros/pnp_msgs/srv/_package_PNPGetVariableValue.lisp
+[7.170s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/common-lisp/ros/pnp_msgs/srv/_package_PNPClearBuffer.lisp
+[7.171s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/common-lisp/ros/pnp_msgs/srv/PNPGetVariableValue.lisp
+[7.171s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/common-lisp/ros/pnp_msgs/srv/_package_PNPReward.lisp
+[7.171s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/common-lisp/ros/pnp_msgs/srv/PNPClearBuffer.lisp
+[7.172s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/common-lisp/ros/pnp_msgs/srv/PNPSetVariableValue.lisp
+[7.172s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/common-lisp/ros/pnp_msgs/srv/PNPCondition.lisp
+[7.173s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/common-lisp/ros/pnp_msgs/srv/PNPReward.lisp
+[7.173s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/gennodejs/ros/pnp_msgs
+[7.176s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/gennodejs/ros/pnp_msgs/msg
+[7.177s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/gennodejs/ros/pnp_msgs/msg/PNPActionFeedback.js
+[7.177s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/gennodejs/ros/pnp_msgs/msg/PNPFeedback.js
+[7.177s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/gennodejs/ros/pnp_msgs/msg/_index.js
+[7.177s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/gennodejs/ros/pnp_msgs/msg/PNPResult.js
+[7.177s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/gennodejs/ros/pnp_msgs/msg/Action.js
+[7.177s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/gennodejs/ros/pnp_msgs/msg/PNPActionGoal.js
+[7.177s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/gennodejs/ros/pnp_msgs/msg/PNPGoal.js
+[7.177s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/gennodejs/ros/pnp_msgs/msg/PNPAction.js
+[7.177s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/gennodejs/ros/pnp_msgs/msg/ActionFinished.js
+[7.177s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/gennodejs/ros/pnp_msgs/msg/PNPActionResult.js
+[7.178s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/gennodejs/ros/pnp_msgs/_index.js
+[7.178s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/gennodejs/ros/pnp_msgs/srv
+[7.178s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/gennodejs/ros/pnp_msgs/srv/PNPLastEvent.js
+[7.178s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/gennodejs/ros/pnp_msgs/srv/PNPSetVariableValue.js
+[7.178s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/gennodejs/ros/pnp_msgs/srv/PNPReward.js
+[7.178s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/gennodejs/ros/pnp_msgs/srv/_index.js
+[7.178s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/gennodejs/ros/pnp_msgs/srv/PNPCondition.js
+[7.179s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/gennodejs/ros/pnp_msgs/srv/PNPGetVariableValue.js
+[7.179s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/gennodejs/ros/pnp_msgs/srv/PNPClearBuffer.js
+[7.299s] Listing /home/handsome/ros_ws_test/build/pnp_msgs/devel/lib/python2.7/dist-packages/pnp_msgs ...
+[7.299s] Listing /home/handsome/ros_ws_test/build/pnp_msgs/devel/lib/python2.7/dist-packages/pnp_msgs/msg ...
+[7.300s] Listing /home/handsome/ros_ws_test/build/pnp_msgs/devel/lib/python2.7/dist-packages/pnp_msgs/srv ...
+[7.303s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/lib/python2.7/dist-packages/pnp_msgs
+[7.303s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/lib/python2.7/dist-packages/pnp_msgs/msg
+[7.303s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/lib/python2.7/dist-packages/pnp_msgs/msg/_ActionFinished.pyc
+[7.304s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/lib/python2.7/dist-packages/pnp_msgs/msg/__init__.py
+[7.304s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/lib/python2.7/dist-packages/pnp_msgs/msg/_PNPActionFeedback.py
+[7.304s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/lib/python2.7/dist-packages/pnp_msgs/msg/_Action.pyc
+[7.304s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/lib/python2.7/dist-packages/pnp_msgs/msg/_PNPFeedback.py
+[7.305s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/lib/python2.7/dist-packages/pnp_msgs/msg/_PNPActionGoal.pyc
+[7.305s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/lib/python2.7/dist-packages/pnp_msgs/msg/_PNPResult.py
+[7.306s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/lib/python2.7/dist-packages/pnp_msgs/msg/_PNPGoal.py
+[7.306s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/lib/python2.7/dist-packages/pnp_msgs/msg/_ActionFinished.py
+[7.306s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/lib/python2.7/dist-packages/pnp_msgs/msg/_PNPAction.pyc
+[7.306s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/lib/python2.7/dist-packages/pnp_msgs/msg/_Action.py
+[7.307s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/lib/python2.7/dist-packages/pnp_msgs/msg/_PNPActionResult.pyc
+[7.307s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/lib/python2.7/dist-packages/pnp_msgs/msg/__init__.pyc
+[7.308s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/lib/python2.7/dist-packages/pnp_msgs/msg/_PNPResult.pyc
+[7.308s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/lib/python2.7/dist-packages/pnp_msgs/msg/_PNPActionResult.py
+[7.308s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/lib/python2.7/dist-packages/pnp_msgs/msg/_PNPActionGoal.py
+[7.309s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/lib/python2.7/dist-packages/pnp_msgs/msg/_PNPGoal.pyc
+[7.309s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/lib/python2.7/dist-packages/pnp_msgs/msg/_PNPFeedback.pyc
+[7.309s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/lib/python2.7/dist-packages/pnp_msgs/msg/_PNPActionFeedback.pyc
+[7.309s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/lib/python2.7/dist-packages/pnp_msgs/msg/_PNPAction.py
+[7.310s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/lib/python2.7/dist-packages/pnp_msgs/__init__.py
+[7.310s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/lib/python2.7/dist-packages/pnp_msgs/srv
+[7.313s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/lib/python2.7/dist-packages/pnp_msgs/srv/_PNPReward.py
+[7.318s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/lib/python2.7/dist-packages/pnp_msgs/srv/_PNPLastEvent.py
+[7.319s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/lib/python2.7/dist-packages/pnp_msgs/srv/_PNPCondition.py
+[7.319s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/lib/python2.7/dist-packages/pnp_msgs/srv/_PNPSetVariableValue.py
+[7.319s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/lib/python2.7/dist-packages/pnp_msgs/srv/__init__.py
+[7.319s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/lib/python2.7/dist-packages/pnp_msgs/srv/_PNPGetVariableValue.py
+[7.319s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/lib/python2.7/dist-packages/pnp_msgs/srv/_PNPClearBuffer.py
+[7.320s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/lib/python2.7/dist-packages/pnp_msgs/srv/_PNPReward.pyc
+[7.320s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/lib/python2.7/dist-packages/pnp_msgs/srv/_PNPCondition.pyc
+[7.320s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/lib/python2.7/dist-packages/pnp_msgs/srv/_PNPSetVariableValue.pyc
+[7.320s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/lib/python2.7/dist-packages/pnp_msgs/srv/_PNPLastEvent.pyc
+[7.321s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/lib/python2.7/dist-packages/pnp_msgs/srv/_PNPGetVariableValue.pyc
+[7.321s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/lib/python2.7/dist-packages/pnp_msgs/srv/__init__.pyc
+[7.321s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/lib/python2.7/dist-packages/pnp_msgs/srv/_PNPClearBuffer.pyc
+[7.321s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/lib/python2.7/dist-packages/pnp_msgs/__init__.pyc
+[7.321s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/lib/pkgconfig/pnp_msgs.pc
+[7.321s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/pnp_msgs/cmake/pnp_msgs-msg-extras.cmake
+[7.321s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/pnp_msgs/cmake/pnp_msgsConfig.cmake
+[7.321s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/pnp_msgs/cmake/pnp_msgsConfig-version.cmake
+[7.321s] -- Up-to-date: /home/handsome/ros_ws_test/install/pnp_msgs/share/pnp_msgs/package.xml
+[7.331s] Invoked command in '/home/handsome/ros_ws_test/build/pnp_msgs' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/pnp_msgs --target install -- -j12 -l12

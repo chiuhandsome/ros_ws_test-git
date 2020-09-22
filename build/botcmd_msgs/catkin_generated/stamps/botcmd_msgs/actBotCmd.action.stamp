@@ -1,0 +1,10 @@
+# Goal
+int8  Device_ID
+int8  Command_ID
+int16 Command_Params
+---
+# Result
+bool    success
+---
+# Feedback
+int8    status

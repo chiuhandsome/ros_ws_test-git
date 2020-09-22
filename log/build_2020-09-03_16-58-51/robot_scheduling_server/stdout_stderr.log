@@ -1,0 +1,14 @@
+[35m[1mScanning dependencies of target robot_scheduling_server_node[0m
+[  3%] [32mBuilding CXX object CMakeFiles/robot_scheduling_server_node.dir/src/robot_scheduling_server.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/robot_scheduling_server_node.dir/src/private_actions/robot_if_params_ac.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/robot_scheduling_server_node.dir/src/robot_scheduling_pnp_server.cpp.o[0m
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_server/src/robot_scheduling_pnp_server.cpp:1506:79:[m[K [01;31m[Kerror: [m[Kno ‘[01m[Kvoid robot_scheduling_pnp_server::GetTurnABSAngle(bool*, std::__cxx11::string)[m[K’ member function declared in class ‘[01m[Krobot_scheduling_pnp_server[m[K’
+ void robot_scheduling_pnp_server::GetTurnABSAngle(bool *run,std::string params[01;31m[K)[m[K
+                                                                               [01;31m[K^[m[K
+CMakeFiles/robot_scheduling_server_node.dir/build.make:86: recipe for target 'CMakeFiles/robot_scheduling_server_node.dir/src/robot_scheduling_pnp_server.cpp.o' failed
+make[2]: *** [CMakeFiles/robot_scheduling_server_node.dir/src/robot_scheduling_pnp_server.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/robot_scheduling_server_node.dir/all] Error 2
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/robot_scheduling_server_node.dir/all' failed
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

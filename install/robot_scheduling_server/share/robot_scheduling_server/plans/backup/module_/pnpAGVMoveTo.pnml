@@ -1,0 +1,2265 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<pnml>
+  <!--generator: JARP 1.2 http://jarp.sourceforge.net/-->
+  <net id="n1" type="PTNet">
+    <name>
+      <value>P/T net</value>
+    </name>
+    <place id="p1">
+      <graphics>
+        <position x="258" y="159" />
+        <size width="32" height="32" />
+      </graphics>
+      <name>
+        <value>Init</value>
+        <graphics>
+          <offset x="4" y="-26" />
+        </graphics>
+      </name>
+      <initialMarking>
+        <value>1</value>
+      </initialMarking>
+      <toolspecific tool="JARP" version="1.2">
+        <FrameColor>
+          <value>java.awt.Color[r=0,g=0,b=0]</value>
+        </FrameColor>
+        <FillColor>
+          <value>java.awt.Color[r=255,g=255,b=255]</value>
+        </FillColor>
+      </toolspecific>
+    </place>
+    <place id="p2">
+      <graphics>
+        <position x="543" y="158" />
+        <size width="32" height="32" />
+      </graphics>
+      <name>
+        <value>AGVMoveTo.exec</value>
+        <graphics>
+          <offset x="-37" y="-24" />
+        </graphics>
+      </name>
+      <initialMarking>
+        <value>0</value>
+      </initialMarking>
+      <toolspecific tool="JARP" version="1.2">
+        <FrameColor>
+          <value>java.awt.Color[r=0,g=0,b=0]</value>
+        </FrameColor>
+        <FillColor>
+          <value>java.awt.Color[r=255,g=255,b=255]</value>
+        </FillColor>
+      </toolspecific>
+    </place>
+    <place id="p3">
+      <graphics>
+        <position x="543" y="350" />
+        <size width="32" height="32" />
+      </graphics>
+      <name>
+        <value>p_1_0</value>
+        <graphics>
+          <offset x="0" y="32" />
+        </graphics>
+      </name>
+      <initialMarking>
+        <value>0</value>
+      </initialMarking>
+      <toolspecific tool="JARP" version="1.2">
+        <FrameColor>
+          <value>java.awt.Color[r=0,g=0,b=0]</value>
+        </FrameColor>
+        <FillColor>
+          <value>java.awt.Color[r=255,g=255,b=255]</value>
+        </FillColor>
+      </toolspecific>
+    </place>
+    <place id="p4">
+      <graphics>
+        <position x="826" y="351" />
+        <size width="32" height="32" />
+      </graphics>
+      <name>
+        <value>AGVMoveToRecovery.exec</value>
+        <graphics>
+          <offset x="-58" y="-24" />
+        </graphics>
+      </name>
+      <initialMarking>
+        <value>0</value>
+      </initialMarking>
+      <toolspecific tool="JARP" version="1.2">
+        <FrameColor>
+          <value>java.awt.Color[r=0,g=0,b=0]</value>
+        </FrameColor>
+        <FillColor>
+          <value>java.awt.Color[r=255,g=255,b=255]</value>
+        </FillColor>
+      </toolspecific>
+    </place>
+    <place id="p5">
+      <graphics>
+        <position x="853" y="158" />
+        <size width="32" height="32" />
+      </graphics>
+      <name>
+        <value>p_0_0</value>
+        <graphics>
+          <offset x="5" y="-24" />
+        </graphics>
+      </name>
+      <initialMarking>
+        <value>0</value>
+      </initialMarking>
+      <toolspecific tool="JARP" version="1.2">
+        <FrameColor>
+          <value>java.awt.Color[r=0,g=0,b=0]</value>
+        </FrameColor>
+        <FillColor>
+          <value>java.awt.Color[r=255,g=255,b=255]</value>
+        </FillColor>
+      </toolspecific>
+    </place>
+    <place id="p6">
+      <graphics>
+        <position x="1077" y="159" />
+        <size width="32" height="32" />
+      </graphics>
+      <name>
+        <value>setMovetoCondition.exec</value>
+        <graphics>
+          <offset x="-64" y="-23" />
+        </graphics>
+      </name>
+      <initialMarking>
+        <value>0</value>
+      </initialMarking>
+      <toolspecific tool="JARP" version="1.2">
+        <FrameColor>
+          <value>java.awt.Color[r=0,g=0,b=0]</value>
+        </FrameColor>
+        <FillColor>
+          <value>java.awt.Color[r=255,g=255,b=255]</value>
+        </FillColor>
+      </toolspecific>
+    </place>
+    <place id="p7">
+      <graphics>
+        <position x="1327" y="160" />
+        <size width="32" height="32" />
+      </graphics>
+      <name>
+        <value>pnpAGVMoveToEnd</value>
+        <graphics>
+          <offset x="-22" y="32" />
+        </graphics>
+      </name>
+      <initialMarking>
+        <value>0</value>
+      </initialMarking>
+      <toolspecific tool="JARP" version="1.2">
+        <FrameColor>
+          <value>java.awt.Color[r=0,g=0,b=0]</value>
+        </FrameColor>
+        <FillColor>
+          <value>java.awt.Color[r=255,g=255,b=255]</value>
+        </FillColor>
+      </toolspecific>
+    </place>
+    <transition id="t1">
+      <graphics>
+        <position x="430" y="151" />
+        <size width="8" height="48" />
+      </graphics>
+      <name>
+        <value>AGVMoveTo.start</value>
+        <graphics>
+          <offset x="-44" y="51" />
+        </graphics>
+      </name>
+      <toolspecific tool="JARP" version="1.2">
+        <FrameColor>
+          <value>java.awt.Color[r=0,g=0,b=0]</value>
+        </FrameColor>
+        <FillColor>
+          <value>java.awt.Color[r=128,g=128,b=128]</value>
+        </FillColor>
+      </toolspecific>
+    </transition>
+    <transition id="t2">
+      <graphics>
+        <position x="750" y="67" />
+        <size width="8" height="48" />
+      </graphics>
+      <name>
+        <value>AGVMoveTo.end[ok]</value>
+        <graphics>
+          <offset x="-53" y="51" />
+        </graphics>
+      </name>
+      <toolspecific tool="JARP" version="1.2">
+        <FrameColor>
+          <value>java.awt.Color[r=0,g=0,b=0]</value>
+        </FrameColor>
+        <FillColor>
+          <value>java.awt.Color[r=128,g=128,b=128]</value>
+        </FillColor>
+      </toolspecific>
+    </transition>
+    <transition id="t3">
+      <graphics>
+        <position x="741" y="343" />
+        <size width="8" height="48" />
+      </graphics>
+      <name>
+        <value>AGVMoveToRecovery.start</value>
+        <graphics>
+          <offset x="-72" y="51" />
+        </graphics>
+      </name>
+      <toolspecific tool="JARP" version="1.2">
+        <FrameColor>
+          <value>java.awt.Color[r=0,g=0,b=0]</value>
+        </FrameColor>
+        <FillColor>
+          <value>java.awt.Color[r=128,g=128,b=128]</value>
+        </FillColor>
+      </toolspecific>
+    </transition>
+    <transition id="t4">
+      <graphics>
+        <position x="935" y="344" />
+        <size width="8" height="48" />
+      </graphics>
+      <name>
+        <value>AGVMoveToRecovery.end</value>
+        <graphics>
+          <offset x="-69" y="51" />
+        </graphics>
+      </name>
+      <toolspecific tool="JARP" version="1.2">
+        <FrameColor>
+          <value>java.awt.Color[r=0,g=0,b=0]</value>
+        </FrameColor>
+        <FillColor>
+          <value>java.awt.Color[r=128,g=128,b=128]</value>
+        </FillColor>
+      </toolspecific>
+    </transition>
+    <transition id="t5">
+      <graphics>
+        <position x="750" y="151" />
+        <size width="8" height="48" />
+      </graphics>
+      <name>
+        <value>AGVMoveTo.end[out_time]</value>
+        <graphics>
+          <offset x="-73" y="51" />
+        </graphics>
+      </name>
+      <toolspecific tool="JARP" version="1.2">
+        <FrameColor>
+          <value>java.awt.Color[r=0,g=0,b=0]</value>
+        </FrameColor>
+        <FillColor>
+          <value>java.awt.Color[r=128,g=128,b=128]</value>
+        </FillColor>
+      </toolspecific>
+    </transition>
+    <transition id="t6">
+      <graphics>
+        <position x="536" y="280" />
+        <size width="48" height="8" />
+      </graphics>
+      <name>
+        <value>AGVMoveTo.end[timed_out]</value>
+        <graphics>
+          <offset x="-143" y="-24" />
+        </graphics>
+      </name>
+      <toolspecific tool="JARP" version="1.2">
+        <FrameColor>
+          <value>java.awt.Color[r=0,g=0,b=0]</value>
+        </FrameColor>
+        <FillColor>
+          <value>java.awt.Color[r=128,g=128,b=128]</value>
+        </FillColor>
+      </toolspecific>
+    </transition>
+    <transition id="t7">
+      <graphics>
+        <position x="693" y="276" />
+        <size width="48" height="8" />
+      </graphics>
+      <name>
+        <value>AGVMoveTo.end[not_ok]</value>
+        <graphics>
+          <offset x="14" y="-19" />
+        </graphics>
+      </name>
+      <toolspecific tool="JARP" version="1.2">
+        <FrameColor>
+          <value>java.awt.Color[r=0,g=0,b=0]</value>
+        </FrameColor>
+        <FillColor>
+          <value>java.awt.Color[r=128,g=128,b=128]</value>
+        </FillColor>
+      </toolspecific>
+    </transition>
+    <transition id="t8">
+      <graphics>
+        <position x="996" y="151" />
+        <size width="8" height="48" />
+      </graphics>
+      <name>
+        <value>setMovetoCondition.start</value>
+        <graphics>
+          <offset x="-81" y="51" />
+        </graphics>
+      </name>
+      <toolspecific tool="JARP" version="1.2">
+        <FrameColor>
+          <value>java.awt.Color[r=0,g=0,b=0]</value>
+        </FrameColor>
+        <FillColor>
+          <value>java.awt.Color[r=128,g=128,b=128]</value>
+        </FillColor>
+      </toolspecific>
+    </transition>
+    <transition id="t9">
+      <graphics>
+        <position x="1196" y="152" />
+        <size width="8" height="48" />
+      </graphics>
+      <name>
+        <value>setMovetoCondition.end</value>
+        <graphics>
+          <offset x="-73" y="51" />
+        </graphics>
+      </name>
+      <toolspecific tool="JARP" version="1.2">
+        <FrameColor>
+          <value>java.awt.Color[r=0,g=0,b=0]</value>
+        </FrameColor>
+        <FillColor>
+          <value>java.awt.Color[r=128,g=128,b=128]</value>
+        </FillColor>
+      </toolspecific>
+    </transition>
+    <arc id="a1" source="p1" target="t1">
+      <inscription>
+        <value>1</value>
+        <graphics>
+          <offset x="0" y="0" />
+        </graphics>
+      </inscription>
+      <toolspecific tool="JARP" version="1.2">
+        <FrameColor>
+          <value>java.awt.Color[r=128,g=128,b=128]</value>
+        </FrameColor>
+        <ArrowMode>
+          <value>2</value>
+        </ArrowMode>
+      </toolspecific>
+    </arc>
+    <arc id="a2" source="t1" target="p2">
+      <inscription>
+        <value>1</value>
+        <graphics>
+          <offset x="0" y="0" />
+        </graphics>
+      </inscription>
+      <toolspecific tool="JARP" version="1.2">
+        <FrameColor>
+          <value>java.awt.Color[r=128,g=128,b=128]</value>
+        </FrameColor>
+        <ArrowMode>
+          <value>2</value>
+        </ArrowMode>
+      </toolspecific>
+    </arc>
+    <arc id="a3" source="p2" target="t2">
+      <inscription>
+        <value>1</value>
+        <graphics>
+          <offset x="0" y="0" />
+        </graphics>
+      </inscription>
+      <toolspecific tool="JARP" version="1.2">
+        <FrameColor>
+          <value>java.awt.Color[r=128,g=128,b=128]</value>
+        </FrameColor>
+        <ArrowMode>
+          <value>2</value>
+        </ArrowMode>
+      </toolspecific>
+    </arc>
+    <arc id="a4" source="p2" target="t5">
+      <inscription>
+        <value>1</value>
+        <graphics>
+          <offset x="0" y="0" />
+        </graphics>
+      </inscription>
+      <toolspecific tool="JARP" version="1.2">
+        <FrameColor>
+          <value>java.awt.Color[r=128,g=128,b=128]</value>
+        </FrameColor>
+        <ArrowMode>
+          <value>2</value>
+        </ArrowMode>
+      </toolspecific>
+    </arc>
+    <arc id="a5" source="p2" target="t6">
+      <inscription>
+        <value>1</value>
+        <graphics>
+          <offset x="0" y="0" />
+        </graphics>
+      </inscription>
+      <toolspecific tool="JARP" version="1.2">
+        <FrameColor>
+          <value>java.awt.Color[r=128,g=128,b=128]</value>
+        </FrameColor>
+        <ArrowMode>
+          <value>2</value>
+        </ArrowMode>
+      </toolspecific>
+    </arc>
+    <arc id="a6" source="p2" target="t7">
+      <inscription>
+        <value>1</value>
+        <graphics>
+          <offset x="0" y="0" />
+        </graphics>
+      </inscription>
+      <toolspecific tool="JARP" version="1.2">
+        <FrameColor>
+          <value>java.awt.Color[r=128,g=128,b=128]</value>
+        </FrameColor>
+        <ArrowMode>
+          <value>2</value>
+        </ArrowMode>
+      </toolspecific>
+    </arc>
+    <arc id="a7" source="t6" target="p3">
+      <inscription>
+        <value>1</value>
+        <graphics>
+          <offset x="0" y="0" />
+        </graphics>
+      </inscription>
+      <toolspecific tool="JARP" version="1.2">
+        <FrameColor>
+          <value>java.awt.Color[r=128,g=128,b=128]</value>
+        </FrameColor>
+        <ArrowMode>
+          <value>2</value>
+        </ArrowMode>
+      </toolspecific>
+    </arc>
+    <arc id="a8" source="p3" target="t3">
+      <inscription>
+        <value>1</value>
+        <graphics>
+          <offset x="0" y="0" />
+        </graphics>
+      </inscription>
+      <toolspecific tool="JARP" version="1.2">
+        <FrameColor>
+          <value>java.awt.Color[r=128,g=128,b=128]</value>
+        </FrameColor>
+        <ArrowMode>
+          <value>2</value>
+        </ArrowMode>
+      </toolspecific>
+    </arc>
+    <arc id="a9" source="t3" target="p4">
+      <inscription>
+        <value>1</value>
+        <graphics>
+          <offset x="0" y="0" />
+        </graphics>
+      </inscription>
+      <toolspecific tool="JARP" version="1.2">
+        <FrameColor>
+          <value>java.awt.Color[r=128,g=128,b=128]</value>
+        </FrameColor>
+        <ArrowMode>
+          <value>2</value>
+        </ArrowMode>
+      </toolspecific>
+    </arc>
+    <arc id="a10" source="p4" target="t4">
+      <inscription>
+        <value>1</value>
+        <graphics>
+          <offset x="0" y="0" />
+        </graphics>
+      </inscription>
+      <toolspecific tool="JARP" version="1.2">
+        <FrameColor>
+          <value>java.awt.Color[r=128,g=128,b=128]</value>
+        </FrameColor>
+        <ArrowMode>
+          <value>2</value>
+        </ArrowMode>
+      </toolspecific>
+    </arc>
+    <arc id="a11" source="t7" target="p3">
+      <inscription>
+        <value>1</value>
+        <graphics>
+          <offset x="0" y="0" />
+        </graphics>
+      </inscription>
+      <toolspecific tool="JARP" version="1.2">
+        <FrameColor>
+          <value>java.awt.Color[r=128,g=128,b=128]</value>
+        </FrameColor>
+        <ArrowMode>
+          <value>2</value>
+        </ArrowMode>
+      </toolspecific>
+    </arc>
+    <arc id="a12" source="t4" target="p1">
+      <graphics>
+        <position x="1065" y="368" />
+        <position x="1065" y="420" />
+        <position x="449" y="420" />
+      </graphics>
+      <inscription>
+        <value>1</value>
+        <graphics>
+          <offset x="0" y="0" />
+        </graphics>
+      </inscription>
+      <toolspecific tool="JARP" version="1.2">
+        <FrameColor>
+          <value>java.awt.Color[r=128,g=128,b=128]</value>
+        </FrameColor>
+        <ArrowMode>
+          <value>2</value>
+        </ArrowMode>
+      </toolspecific>
+    </arc>
+    <arc id="a13" source="t5" target="p5">
+      <inscription>
+        <value>1</value>
+        <graphics>
+          <offset x="0" y="0" />
+        </graphics>
+      </inscription>
+      <toolspecific tool="JARP" version="1.2">
+        <FrameColor>
+          <value>java.awt.Color[r=128,g=128,b=128]</value>
+        </FrameColor>
+        <ArrowMode>
+          <value>2</value>
+        </ArrowMode>
+      </toolspecific>
+    </arc>
+    <arc id="a14" source="t2" target="p5">
+      <inscription>
+        <value>1</value>
+        <graphics>
+          <offset x="0" y="0" />
+        </graphics>
+      </inscription>
+      <toolspecific tool="JARP" version="1.2">
+        <FrameColor>
+          <value>java.awt.Color[r=128,g=128,b=128]</value>
+        </FrameColor>
+        <ArrowMode>
+          <value>2</value>
+        </ArrowMode>
+      </toolspecific>
+    </arc>
+    <arc id="a15" source="p5" target="t8">
+      <inscription>
+        <value>1</value>
+        <graphics>
+          <offset x="0" y="0" />
+        </graphics>
+      </inscription>
+      <toolspecific tool="JARP" version="1.2">
+        <FrameColor>
+          <value>java.awt.Color[r=128,g=128,b=128]</value>
+        </FrameColor>
+        <ArrowMode>
+          <value>2</value>
+        </ArrowMode>
+      </toolspecific>
+    </arc>
+    <arc id="a16" source="t8" target="p6">
+      <inscription>
+        <value>1</value>
+        <graphics>
+          <offset x="0" y="0" />
+        </graphics>
+      </inscription>
+      <toolspecific tool="JARP" version="1.2">
+        <FrameColor>
+          <value>java.awt.Color[r=128,g=128,b=128]</value>
+        </FrameColor>
+        <ArrowMode>
+          <value>2</value>
+        </ArrowMode>
+      </toolspecific>
+    </arc>
+    <arc id="a17" source="p6" target="t9">
+      <inscription>
+        <value>1</value>
+        <graphics>
+          <offset x="0" y="0" />
+        </graphics>
+      </inscription>
+      <toolspecific tool="JARP" version="1.2">
+        <FrameColor>
+          <value>java.awt.Color[r=128,g=128,b=128]</value>
+        </FrameColor>
+        <ArrowMode>
+          <value>2</value>
+        </ArrowMode>
+      </toolspecific>
+    </arc>
+    <arc id="a18" source="t9" target="p7">
+      <inscription>
+        <value>1</value>
+        <graphics>
+          <offset x="0" y="0" />
+        </graphics>
+      </inscription>
+      <toolspecific tool="JARP" version="1.2">
+        <FrameColor>
+          <value>java.awt.Color[r=128,g=128,b=128]</value>
+        </FrameColor>
+        <ArrowMode>
+          <value>2</value>
+        </ArrowMode>
+      </toolspecific>
+    </arc>
+    <comment id="c1">
+      <graphics>
+        <position x="235" y="515" />
+        <size width="286" height="13" />
+      </graphics>
+      <text>
+        <value>actionlibmsg :[read_condition_params.action]</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c2">
+      <graphics>
+        <position x="234" y="528" />
+        <size width="12" height="13" />
+      </graphics>
+      <text>
+        <value>---</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c3">
+      <graphics>
+        <position x="236" y="607" />
+        <size width="132" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 AGV_STATUS=5</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c4">
+      <graphics>
+        <position x="238" y="678" />
+        <size width="12" height="13" />
+      </graphics>
+      <text>
+        <value>---</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c5">
+      <graphics>
+        <position x="238" y="858" />
+        <size width="130" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 conditionresult</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c6">
+      <graphics>
+        <position x="237" y="689" />
+        <size width="70" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 OK=1</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c7">
+      <graphics>
+        <position x="237" y="704" />
+        <size width="101" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 NOT_OK=2</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c8">
+      <graphics>
+        <position x="236" y="720" />
+        <size width="122" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 TIMED_OUT=3</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c9">
+      <graphics>
+        <position x="236" y="735" />
+        <size width="121" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 OUT_TIMES=4</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c10">
+      <graphics>
+        <position x="237" y="871" />
+        <size width="12" height="13" />
+      </graphics>
+      <text>
+        <value>---</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c11">
+      <graphics>
+        <position x="947" y="514" />
+        <size width="259" height="13" />
+      </graphics>
+      <text>
+        <value>actionlibmsg :[read_pose_params.action]</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c12">
+      <graphics>
+        <position x="946" y="527" />
+        <size width="12" height="13" />
+      </graphics>
+      <text>
+        <value>---</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c13">
+      <graphics>
+        <position x="948" y="621" />
+        <size width="130" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 command_type</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c14">
+      <graphics>
+        <position x="948" y="558" />
+        <size width="160" height="13" />
+      </graphics>
+      <text>
+        <value>unit8 AGV_PRE_DOCK  = 2</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c15">
+      <graphics>
+        <position x="948" y="573" />
+        <size width="182" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 AGV_POST_UNDOCK = 3</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c16">
+      <graphics>
+        <position x="950" y="646" />
+        <size width="12" height="13" />
+      </graphics>
+      <text>
+        <value>---</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c17">
+      <graphics>
+        <position x="950" y="692" />
+        <size width="130" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 conditionresult</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c18">
+      <graphics>
+        <position x="949" y="657" />
+        <size width="70" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 OK=1</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c19">
+      <graphics>
+        <position x="948" y="709" />
+        <size width="222" height="13" />
+      </graphics>
+      <text>
+        <value>nav_2d_msgs/Pose2DStamped goal</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c20">
+      <graphics>
+        <position x="949" y="723" />
+        <size width="12" height="13" />
+      </graphics>
+      <text>
+        <value>---</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c21">
+      <graphics>
+        <position x="237" y="643" />
+        <size width="130" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 command_type</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c22">
+      <graphics>
+        <position x="237" y="660" />
+        <size width="136" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 command_index</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c23">
+      <graphics>
+        <position x="583" y="514" />
+        <size width="287" height="13" />
+      </graphics>
+      <text>
+        <value>actionlibmsg :[write_condition_params.action]</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c24">
+      <graphics>
+        <position x="582" y="527" />
+        <size width="12" height="13" />
+      </graphics>
+      <text>
+        <value>---</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c25">
+      <graphics>
+        <position x="581" y="830" />
+        <size width="12" height="13" />
+      </graphics>
+      <text>
+        <value>---</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c26">
+      <graphics>
+        <position x="581" y="821" />
+        <size width="91" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 set_data</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c27">
+      <graphics>
+        <position x="580" y="843" />
+        <size width="70" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 OK=1</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c28">
+      <graphics>
+        <position x="579" y="859" />
+        <size width="72" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 result</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c29">
+      <graphics>
+        <position x="580" y="874" />
+        <size width="12" height="13" />
+      </graphics>
+      <text>
+        <value>---</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c30">
+      <graphics>
+        <position x="580" y="640" />
+        <size width="130" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 command_type</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c31">
+      <graphics>
+        <position x="580" y="655" />
+        <size width="136" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 command_index</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c32">
+      <graphics>
+        <position x="949" y="676" />
+        <size width="101" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 NOT_OK=2</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c33">
+      <graphics>
+        <position x="949" y="543" />
+        <size width="124" height="13" />
+      </graphics>
+      <text>
+        <value>unit8 AGV_PARK = 1</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c34">
+      <graphics>
+        <position x="947" y="589" />
+        <size width="166" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 AGV_MOVE_INDEX= 4</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c35">
+      <graphics>
+        <position x="949" y="637" />
+        <size width="136" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 command_index</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c36">
+      <graphics>
+        <position x="1304" y="510" />
+        <size width="260" height="13" />
+      </graphics>
+      <text>
+        <value>actionlibmsg :[write_pose_params.action]</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c37">
+      <graphics>
+        <position x="1303" y="523" />
+        <size width="12" height="13" />
+      </graphics>
+      <text>
+        <value>---</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c38">
+      <graphics>
+        <position x="1305" y="618" />
+        <size width="130" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 command_type</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c39">
+      <graphics>
+        <position x="1305" y="554" />
+        <size width="160" height="13" />
+      </graphics>
+      <text>
+        <value>unit8 AGV_PRE_DOCK  = 2</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c40">
+      <graphics>
+        <position x="1305" y="569" />
+        <size width="182" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 AGV_POST_UNDOCK = 3</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c41">
+      <graphics>
+        <position x="1307" y="669" />
+        <size width="12" height="13" />
+      </graphics>
+      <text>
+        <value>---</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c42">
+      <graphics>
+        <position x="1307" y="719" />
+        <size width="72" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 result</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c43">
+      <graphics>
+        <position x="1306" y="684" />
+        <size width="70" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 OK=1</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c44">
+      <graphics>
+        <position x="1305" y="651" />
+        <size width="222" height="13" />
+      </graphics>
+      <text>
+        <value>nav_2d_msgs/Pose2DStamped goal</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c45">
+      <graphics>
+        <position x="1306" y="733" />
+        <size width="12" height="13" />
+      </graphics>
+      <text>
+        <value>---</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c46">
+      <graphics>
+        <position x="1306" y="703" />
+        <size width="101" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 NOT_OK=2</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c47">
+      <graphics>
+        <position x="1306" y="539" />
+        <size width="124" height="13" />
+      </graphics>
+      <text>
+        <value>unit8 AGV_PARK = 1</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c48">
+      <graphics>
+        <position x="1304" y="585" />
+        <size width="166" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 AGV_MOVE_INDEX= 4</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c49">
+      <graphics>
+        <position x="1306" y="634" />
+        <size width="136" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 command_index</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c50">
+      <graphics>
+        <position x="579" y="669" />
+        <size width="70" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 OK=1</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c51">
+      <graphics>
+        <position x="579" y="684" />
+        <size width="101" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 NOT_OK=2</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c52">
+      <graphics>
+        <position x="578" y="700" />
+        <size width="122" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 TIMED_OUT=3</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c53">
+      <graphics>
+        <position x="578" y="715" />
+        <size width="121" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 OUT_TIMES=4</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c54">
+      <graphics>
+        <position x="578" y="729" />
+        <size width="113" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 NOT_FIND=5</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c55">
+      <graphics>
+        <position x="238" y="766" />
+        <size width="116" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 UNKNOW=11</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c56">
+      <graphics>
+        <position x="238" y="781" />
+        <size width="117" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 INITPOSE=12</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c57">
+      <graphics>
+        <position x="237" y="813" />
+        <size width="112" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 MANUAL=14</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c58">
+      <graphics>
+        <position x="237" y="828" />
+        <size width="95" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 AUTO=15</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c59">
+      <graphics>
+        <position x="237" y="749" />
+        <size width="113" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 NOT_FIND=5</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c60">
+      <graphics>
+        <position x="238" y="843" />
+        <size width="102" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 ALARM=16</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c61">
+      <graphics>
+        <position x="238" y="797" />
+        <size width="118" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 STANDBY=13</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c62">
+      <graphics>
+        <position x="237" y="557" />
+        <size width="160" height="13" />
+      </graphics>
+      <text>
+        <value>unit8 AGV_PRE_DOCK  = 2</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c63">
+      <graphics>
+        <position x="237" y="572" />
+        <size width="182" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 AGV_POST_UNDOCK = 3</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c64">
+      <graphics>
+        <position x="238" y="542" />
+        <size width="124" height="13" />
+      </graphics>
+      <text>
+        <value>unit8 AGV_PARK = 1</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c65">
+      <graphics>
+        <position x="236" y="588" />
+        <size width="166" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 AGV_MOVE_INDEX= 4</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c66">
+      <graphics>
+        <position x="581" y="605" />
+        <size width="132" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 AGV_STATUS=5</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c67">
+      <graphics>
+        <position x="582" y="555" />
+        <size width="160" height="13" />
+      </graphics>
+      <text>
+        <value>unit8 AGV_PRE_DOCK  = 2</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c68">
+      <graphics>
+        <position x="582" y="570" />
+        <size width="182" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 AGV_POST_UNDOCK = 3</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c69">
+      <graphics>
+        <position x="583" y="540" />
+        <size width="124" height="13" />
+      </graphics>
+      <text>
+        <value>unit8 AGV_PARK = 1</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c70">
+      <graphics>
+        <position x="581" y="586" />
+        <size width="166" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 AGV_MOVE_INDEX= 4</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c71">
+      <graphics>
+        <position x="1304" y="601" />
+        <size width="199" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 AGV_POSE_RECOGNIZE= 5</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c72">
+      <graphics>
+        <position x="946" y="605" />
+        <size width="230" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 AGV_AGV_POSE_RECOGNIZE= 5</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c73">
+      <graphics>
+        <position x="581" y="744" />
+        <size width="116" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 UNKNOW=11</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c74">
+      <graphics>
+        <position x="581" y="759" />
+        <size width="117" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 INITPOSE=12</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c75">
+      <graphics>
+        <position x="580" y="775" />
+        <size width="118" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 STANDBY=13</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c76">
+      <graphics>
+        <position x="580" y="790" />
+        <size width="112" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 MANUAL=14</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c77">
+      <graphics>
+        <position x="580" y="804" />
+        <size width="102" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 ALARM=16</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c78">
+      <graphics>
+        <position x="235" y="625" />
+        <size width="195" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 AGV_POSE_RECOGNIZE=6</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c79">
+      <graphics>
+        <position x="580" y="623" />
+        <size width="195" height="13" />
+      </graphics>
+      <text>
+        <value>uint8 AGV_POSE_RECOGNIZE=6</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c80">
+      <graphics>
+        <position x="431" y="116" />
+        <size width="258" height="13" />
+      </graphics>
+      <text>
+        <value>[[public parameter : target_pose_move ]]</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+    <comment id="c81">
+      <graphics>
+        <position x="974" y="111" />
+        <size width="268" height="13" />
+      </graphics>
+      <text>
+        <value>[[public parameter : result_moveto_cond ]]</value>
+      </text>
+      <toolspecific tool="JARP" version="1.2">
+        <FontName>
+          <value>Helvetica</value>
+        </FontName>
+        <FontSize>
+          <value>12</value>
+        </FontSize>
+        <FontStyle>
+          <value>0</value>
+        </FontStyle>
+      </toolspecific>
+    </comment>
+  </net>
+</pnml>
+

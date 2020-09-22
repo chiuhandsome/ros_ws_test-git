@@ -1,0 +1,48 @@
+[35m[1mScanning dependencies of target cellctrl_qtgui_bridge_node_autogen[0m
+[  2%] [34m[1mAutomatic MOC, UIC and RCC for target cellctrl_qtgui_bridge_node[0m
+[  2%] Built target cellctrl_qtgui_bridge_node_autogen
+[  4%] [34m[1mGenerating include/cell_controller/moc_ros_controlmodel.cpp[0m
+[  6%] [34m[1mGenerating include/cell_controller/moc_testform.cpp[0m
+[  9%] [34m[1mGenerating include/cell_controller/moc_qt_app_model.cpp[0m
+[ 11%] [34m[1mGenerating include/cell_controller/utility/moc_frmShowDialog.cpp[0m
+[ 13%] [34m[1mGenerating include/cell_controller/utility/moc_qt_generaltools.cpp[0m
+[ 15%] [34m[1mGenerating include/cell_controller/app_form/moc_frmdb_basetable.cpp[0m
+[ 18%] [34m[1mGenerating include/cell_controller/app_form/moc_frm_cellcontroller.cpp[0m
+[ 20%] [34m[1mGenerating include/cell_controller/app_form/moc_frmdb_relatedtable.cpp[0m
+[ 22%] [34m[1mGenerating include/cell_controller/moc_mainwindow.cpp[0m
+[ 25%] [34m[1mGenerating include/cell_controller/moc_cellctrl_qtgui_Interface.cpp[0m
+[ 27%] [34m[1mGenerating include/cell_controller/moc_cellctrl_qtgui_bridge.cpp[0m
+[ 29%] [34m[1mGenerating ui_frmdb_relatedtable.h[0m
+[ 31%] [34m[1mGenerating ui_frmdb_basetable.h[0m
+[ 34%] [34m[1mGenerating ui_frm_cellcontroller.h[0m
+[ 36%] [34m[1mGenerating ui_frmShowDialog.h[0m
+[ 38%] [34m[1mGenerating ui_testform.h[0m
+[ 40%] [34m[1mGenerating ui_mainwindow.h[0m
+[ 43%] [34m[1mGenerating qrc_resource.cpp[0m
+[35m[1mScanning dependencies of target cellctrl_qtgui_bridge_node[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/cellctrl_qtgui_bridge_node.dir/src/cellctrl_qtgui_bridge.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/cellctrl_qtgui_bridge_node.dir/qrc_resource.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cellctrl_qtgui_bridge_node.dir/include/cell_controller/moc_cellctrl_qtgui_bridge.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/cellctrl_qtgui_bridge_node.dir/include/cell_controller/moc_cellctrl_qtgui_Interface.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/cellctrl_qtgui_bridge_node.dir/include/cell_controller/moc_mainwindow.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/cellctrl_qtgui_bridge_node.dir/include/cell_controller/moc_testform.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/cellctrl_qtgui_bridge_node.dir/src/ros_controlmodel.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/cellctrl_qtgui_bridge_node.dir/include/cell_controller/moc_qt_app_model.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/cellctrl_qtgui_bridge_node.dir/include/cell_controller/utility/moc_qt_generaltools.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/cellctrl_qtgui_bridge_node.dir/include/cell_controller/utility/moc_frmShowDialog.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/cellctrl_qtgui_bridge_node.dir/src/app_form/frmdb_relatedtable.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/cellctrl_qtgui_bridge_node.dir/src/app_form/frmdb_basetable.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/cellctrl_qtgui_bridge_node.dir/include/cell_controller/app_form/moc_frmdb_basetable.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/cellctrl_qtgui_bridge_node.dir/include/cell_controller/app_form/moc_frm_cellcontroller.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/cellctrl_qtgui_bridge_node.dir/include/cell_controller/app_form/moc_frmdb_relatedtable.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/cellctrl_qtgui_bridge_node.dir/src/app_form/frm_cellcontroller.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/cellctrl_qtgui_bridge_node.dir/include/cell_controller/moc_ros_controlmodel.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/cellctrl_qtgui_bridge_node.dir/cellctrl_qtgui_bridge_node_autogen/mocs_compilation.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/cellctrl_qtgui_bridge_node.dir/src/utility/qt_generaltools.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/cellctrl_qtgui_bridge_node.dir/src/utility/frmShowDialog.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/cellctrl_qtgui_bridge_node.dir/src/testform.cpp.o[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/cellctrl_qtgui_bridge_node.dir/src/qt_app_model.cpp.o[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/cellctrl_qtgui_bridge_node.dir/src/mainwindow.cpp.o[0m
+[ 97%] [32mBuilding CXX object CMakeFiles/cellctrl_qtgui_bridge_node.dir/src/cellctrl_qtgui_Interface.cpp.o[0m
+[100%] [32m[1mLinking CXX executable devel/lib/cellctrl_qtgui_bridge/cellctrl_qtgui_bridge_node[0m
+[100%] Built target cellctrl_qtgui_bridge_node

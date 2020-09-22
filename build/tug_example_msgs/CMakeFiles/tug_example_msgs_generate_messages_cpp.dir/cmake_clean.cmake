@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/tug_example_msgs_generate_messages_cpp"
+  "devel/include/tug_example_msgs/RecoverNotFetchingBoxActionGoal.h"
+  "devel/include/tug_example_msgs/RecoverTimedOutResult.h"
+  "devel/include/tug_example_msgs/TransportBoxActionGoal.h"
+  "devel/include/tug_example_msgs/RecoverTimedOutAction.h"
+  "devel/include/tug_example_msgs/FetchBoxAction.h"
+  "devel/include/tug_example_msgs/PutBoxActionGoal.h"
+  "devel/include/tug_example_msgs/FetchBoxGoal.h"
+  "devel/include/tug_example_msgs/TransportBoxAction.h"
+  "devel/include/tug_example_msgs/PutBoxAction.h"
+  "devel/include/tug_example_msgs/FetchBoxActionGoal.h"
+  "devel/include/tug_example_msgs/FetchBoxResult.h"
+  "devel/include/tug_example_msgs/PutBoxGoal.h"
+  "devel/include/tug_example_msgs/FetchBoxFeedback.h"
+  "devel/include/tug_example_msgs/FetchBoxActionResult.h"
+  "devel/include/tug_example_msgs/TransportBoxGoal.h"
+  "devel/include/tug_example_msgs/RecoverNotFetchingBoxActionFeedback.h"
+  "devel/include/tug_example_msgs/RecoverTimedOutGoal.h"
+  "devel/include/tug_example_msgs/TransportBoxResult.h"
+  "devel/include/tug_example_msgs/TransportBoxActionFeedback.h"
+  "devel/include/tug_example_msgs/PutBoxResult.h"
+  "devel/include/tug_example_msgs/RecoverTimedOutActionGoal.h"
+  "devel/include/tug_example_msgs/RecoverNotFetchingBoxAction.h"
+  "devel/include/tug_example_msgs/TransportBoxActionResult.h"
+  "devel/include/tug_example_msgs/PutBoxActionResult.h"
+  "devel/include/tug_example_msgs/RecoverNotFetchingBoxGoal.h"
+  "devel/include/tug_example_msgs/PutBoxActionFeedback.h"
+  "devel/include/tug_example_msgs/RecoverTimedOutActionResult.h"
+  "devel/include/tug_example_msgs/RecoverTimedOutActionFeedback.h"
+  "devel/include/tug_example_msgs/RecoverNotFetchingBoxActionResult.h"
+  "devel/include/tug_example_msgs/FetchBoxActionFeedback.h"
+  "devel/include/tug_example_msgs/TransportBoxFeedback.h"
+  "devel/include/tug_example_msgs/RecoverNotFetchingBoxResult.h"
+  "devel/include/tug_example_msgs/PutBoxFeedback.h"
+  "devel/include/tug_example_msgs/RecoverTimedOutFeedback.h"
+  "devel/include/tug_example_msgs/RecoverNotFetchingBoxFeedback.h"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/tug_example_msgs_generate_messages_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

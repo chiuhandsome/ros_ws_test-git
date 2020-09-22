@@ -1,0 +1,411 @@
+WARNING: Target "cellctrl_database_bridge" requests linking to directory "/usr/include".  Targets may link only to libraries.  CMake is dropping the item.
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:4:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller/control_mongodbstore_client.h:10[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller/cellctrl_database_Interface.h:4[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller/cellctrl_database_bridge.h:4[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cellctrl_database_bridge.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:[m[K In member function ‘[01m[Kbool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::mongo_table_Insert(const boost::shared_ptr<X>&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:96:27:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kget_Now_LocalTime[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kget_Now_LocalTime[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+    (*_data).update_time = [01;35m[Kget_Now_LocalTime[m[K();  //-- from tools
+                           [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:[m[K In member function ‘[01m[Kbool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::mongo_table_modify(const boost::shared_ptr<X>&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:107:27:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kget_Now_LocalTime[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kget_Now_LocalTime[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+    (*_data).update_time = [01;35m[Kget_Now_LocalTime[m[K();
+                           [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:[m[K In member function ‘[01m[Kbool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::response_table_data_Query(std::__cxx11::string, std::__cxx11::string, std::__cxx11::string, MsgType_resp&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:391:16:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kstrtoint[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kstrtoint[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+    int _type = [01;35m[Kstrtoint[m[K(base_index,-1); //-- search type
+                [01;35m[K^~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:[m[K In member function ‘[01m[Kbool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::srv_Eval_db_table_srv_service(MsgType_req&, MsgType_resp&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:470:25:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kconvert_str[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kconvert_str[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+       resp.error_code = [01;35m[Kconvert_str[m[K((int)table_srv_error_type) ;
+                         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:479:25:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kconvert_str[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kconvert_str[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+       resp.error_code = [01;35m[Kconvert_str[m[K((int)table_srv_error_type) ;
+                         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:487:25:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kconvert_str[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kconvert_str[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+       resp.error_code = [01;35m[Kconvert_str[m[K((int)edb_tb_err_type_none) ;
+                         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:504:25:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kconvert_str[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kconvert_str[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+       resp.error_code = [01;35m[Kconvert_str[m[K((int)edb_tb_err_type_none) ;
+                         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:509:25:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kconvert_str[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kconvert_str[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+       resp.error_code = [01;35m[Kconvert_str[m[K((int)table_srv_error_type) ;
+                         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:520:25:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kconvert_str[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kconvert_str[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+       resp.error_code = [01;35m[Kconvert_str[m[K((int)edb_tb_err_type_none) ;
+                         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:525:25:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kconvert_str[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kconvert_str[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+       resp.error_code = [01;35m[Kconvert_str[m[K((int)table_srv_error_type) ;
+                         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:533:24:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kconvert_str[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kconvert_str[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+      resp.error_code = [01;35m[Kconvert_str[m[K((int)edb_tb_err_type_none) ;
+                        [01;35m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:4:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:[m[K In member function ‘[01m[Kbool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::mongo_table_Insert(const boost::shared_ptr<X>&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:96:27:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kget_Now_LocalTime[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kget_Now_LocalTime[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+    (*_data).update_time = [01;35m[Kget_Now_LocalTime[m[K();  //-- from tools
+                           [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:[m[K In member function ‘[01m[Kbool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::mongo_table_modify(const boost::shared_ptr<X>&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:107:27:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kget_Now_LocalTime[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kget_Now_LocalTime[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+    (*_data).update_time = [01;35m[Kget_Now_LocalTime[m[K();
+                           [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:[m[K In member function ‘[01m[Kbool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::response_table_data_Query(std::__cxx11::string, std::__cxx11::string, std::__cxx11::string, MsgType_resp&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:391:16:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kstrtoint[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kstrtoint[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+    int _type = [01;35m[Kstrtoint[m[K(base_index,-1); //-- search type
+                [01;35m[K^~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:[m[K In member function ‘[01m[Kbool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::srv_Eval_db_table_srv_service(MsgType_req&, MsgType_resp&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:470:25:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kconvert_str[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kconvert_str[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+       resp.error_code = [01;35m[Kconvert_str[m[K((int)table_srv_error_type) ;
+                         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:479:25:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kconvert_str[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kconvert_str[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+       resp.error_code = [01;35m[Kconvert_str[m[K((int)table_srv_error_type) ;
+                         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:487:25:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kconvert_str[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kconvert_str[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+       resp.error_code = [01;35m[Kconvert_str[m[K((int)edb_tb_err_type_none) ;
+                         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:504:25:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kconvert_str[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kconvert_str[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+       resp.error_code = [01;35m[Kconvert_str[m[K((int)edb_tb_err_type_none) ;
+                         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:509:25:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kconvert_str[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kconvert_str[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+       resp.error_code = [01;35m[Kconvert_str[m[K((int)table_srv_error_type) ;
+                         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:520:25:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kconvert_str[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kconvert_str[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+       resp.error_code = [01;35m[Kconvert_str[m[K((int)edb_tb_err_type_none) ;
+                         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:525:25:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kconvert_str[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kconvert_str[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+       resp.error_code = [01;35m[Kconvert_str[m[K((int)table_srv_error_type) ;
+                         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:533:24:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kconvert_str[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kconvert_str[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+      resp.error_code = [01;35m[Kconvert_str[m[K((int)edb_tb_err_type_none) ;
+                        [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:[m[K In constructor ‘[01m[Kcellctrl_dbtable_process::cellctrl_dbtable_process(ros::NodeHandle&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:8:67:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kmodule_tbcell_agv_main[m[K’
+     cell_agv_main = new module_tbcell_agv_main(nh_,tbname_agv_main[01;31m[K)[m[K;
+                                                                   [01;31m[K^[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:5:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_agvapp_tables.h:33:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kmodule_tbcell_agv_main[m[K’:
+ class [01;36m[Kmodule_tbcell_agv_main[m[K : public table_mongodbstore_client<type_tbcell_agv_main,type_tbcell_agv_main_req,type_tbcell_agv_main_resp>
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:4:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:268:16:[m[K [01;36m[Knote: [m[K	bool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::v_ptr_results_vector_find_if(std::__cxx11::string, std::__cxx11::string, db_tb_search_type, int&) [with MsgType = cellctrl_control_msgs::cell_agv_main_<std::allocator<void> >; MsgType_req = cellctrl_control_msgs::cell_agv_main_cmdRequest_<std::allocator<void> >; MsgType_resp = cellctrl_control_msgs::cell_agv_main_cmdResponse_<std::allocator<void> >; std::__cxx11::string = std::__cxx11::basic_string<char>]
+   virtual bool [01;36m[Kv_ptr_results_vector_find_if[m[K(std::string _sch_keydata,std::string _sub_sch_keydata,db_tb_search_type _search_type,int &rst_distance) = 0 ;
+                [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:9:70:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kmodule_tbcell_agv_motor[m[K’
+     cell_agv_motor = new module_tbcell_agv_motor(nh_,tbname_agv_motor[01;31m[K)[m[K;
+                                                                      [01;31m[K^[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:5:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_agvapp_tables.h:73:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kmodule_tbcell_agv_motor[m[K’:
+ class [01;36m[Kmodule_tbcell_agv_motor[m[K : public table_mongodbstore_client<type_tbcell_agv_motor,type_tbcell_agv_motor_req,type_tbcell_agv_motor_resp>
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:4:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:268:16:[m[K [01;36m[Knote: [m[K	bool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::v_ptr_results_vector_find_if(std::__cxx11::string, std::__cxx11::string, db_tb_search_type, int&) [with MsgType = cellctrl_control_msgs::cell_agv_motor_<std::allocator<void> >; MsgType_req = cellctrl_control_msgs::cell_agv_motor_cmdRequest_<std::allocator<void> >; MsgType_resp = cellctrl_control_msgs::cell_agv_motor_cmdResponse_<std::allocator<void> >; std::__cxx11::string = std::__cxx11::basic_string<char>]
+   virtual bool [01;36m[Kv_ptr_results_vector_find_if[m[K(std::string _sch_keydata,std::string _sub_sch_keydata,db_tb_search_type _search_type,int &rst_distance) = 0 ;
+                [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:10:64:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kmodule_tbcell_agv_imu[m[K’
+     cell_agv_imu = new module_tbcell_agv_imu(nh_,tbname_agv_imu[01;31m[K)[m[K;
+                                                                [01;31m[K^[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:5:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_agvapp_tables.h:112:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kmodule_tbcell_agv_imu[m[K’:
+ class [01;36m[Kmodule_tbcell_agv_imu[m[K : public table_mongodbstore_client<type_tbcell_agv_imu,type_tbcell_agv_imu_req,type_tbcell_agv_imu_resp>
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:4:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:268:16:[m[K [01;36m[Knote: [m[K	bool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::v_ptr_results_vector_find_if(std::__cxx11::string, std::__cxx11::string, db_tb_search_type, int&) [with MsgType = cellctrl_control_msgs::cell_agv_imu_<std::allocator<void> >; MsgType_req = cellctrl_control_msgs::cell_agv_imu_cmdRequest_<std::allocator<void> >; MsgType_resp = cellctrl_control_msgs::cell_agv_imu_cmdResponse_<std::allocator<void> >; std::__cxx11::string = std::__cxx11::basic_string<char>]
+   virtual bool [01;36m[Kv_ptr_results_vector_find_if[m[K(std::string _sch_keydata,std::string _sub_sch_keydata,db_tb_search_type _search_type,int &rst_distance) = 0 ;
+                [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:11:73:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kmodule_tbcell_agv_camera[m[K’
+     cell_agv_camera = new module_tbcell_agv_camera(nh_,tbname_agv_camera[01;31m[K)[m[K;
+                                                                         [01;31m[K^[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:5:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_agvapp_tables.h:152:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kmodule_tbcell_agv_camera[m[K’:
+ class [01;36m[Kmodule_tbcell_agv_camera[m[K : public table_mongodbstore_client<type_tbcell_agv_camera,type_tbcell_agv_camera_req,type_tbcell_agv_camera_resp>
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:4:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:268:16:[m[K [01;36m[Knote: [m[K	bool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::v_ptr_results_vector_find_if(std::__cxx11::string, std::__cxx11::string, db_tb_search_type, int&) [with MsgType = cellctrl_control_msgs::cell_agv_camera_<std::allocator<void> >; MsgType_req = cellctrl_control_msgs::cell_agv_camera_cmdRequest_<std::allocator<void> >; MsgType_resp = cellctrl_control_msgs::cell_agv_camera_cmdResponse_<std::allocator<void> >; std::__cxx11::string = std::__cxx11::basic_string<char>]
+   virtual bool [01;36m[Kv_ptr_results_vector_find_if[m[K(std::string _sch_keydata,std::string _sub_sch_keydata,db_tb_search_type _search_type,int &rst_distance) = 0 ;
+                [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:12:70:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kmodule_tbcell_agv_lidar[m[K’
+     cell_agv_lidar = new module_tbcell_agv_lidar(nh_,tbname_agv_lidar[01;31m[K)[m[K;
+                                                                      [01;31m[K^[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:5:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_agvapp_tables.h:192:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kmodule_tbcell_agv_lidar[m[K’:
+ class [01;36m[Kmodule_tbcell_agv_lidar[m[K : public table_mongodbstore_client<type_tbcell_agv_lidar,type_tbcell_agv_lidar_req,type_tbcell_agv_lidar_resp>
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:4:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:268:16:[m[K [01;36m[Knote: [m[K	bool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::v_ptr_results_vector_find_if(std::__cxx11::string, std::__cxx11::string, db_tb_search_type, int&) [with MsgType = cellctrl_control_msgs::cell_agv_lidar_<std::allocator<void> >; MsgType_req = cellctrl_control_msgs::cell_agv_lidar_cmdRequest_<std::allocator<void> >; MsgType_resp = cellctrl_control_msgs::cell_agv_lidar_cmdResponse_<std::allocator<void> >; std::__cxx11::string = std::__cxx11::basic_string<char>]
+   virtual bool [01;36m[Kv_ptr_results_vector_find_if[m[K(std::string _sch_keydata,std::string _sub_sch_keydata,db_tb_search_type _search_type,int &rst_distance) = 0 ;
+                [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:13:76:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kmodule_tbcell_agv_battery[m[K’
+     cell_agv_battery = new module_tbcell_agv_battery(nh_,tbname_agv_battery[01;31m[K)[m[K;
+                                                                            [01;31m[K^[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:5:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_agvapp_tables.h:232:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kmodule_tbcell_agv_battery[m[K’:
+ class [01;36m[Kmodule_tbcell_agv_battery[m[K : public table_mongodbstore_client<type_tbcell_agv_battery,type_tbcell_agv_battery_req,type_tbcell_agv_battery_resp>
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:4:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:268:16:[m[K [01;36m[Knote: [m[K	bool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::v_ptr_results_vector_find_if(std::__cxx11::string, std::__cxx11::string, db_tb_search_type, int&) [with MsgType = cellctrl_control_msgs::cell_agv_battery_<std::allocator<void> >; MsgType_req = cellctrl_control_msgs::cell_agv_battery_cmdRequest_<std::allocator<void> >; MsgType_resp = cellctrl_control_msgs::cell_agv_battery_cmdResponse_<std::allocator<void> >; std::__cxx11::string = std::__cxx11::basic_string<char>]
+   virtual bool [01;36m[Kv_ptr_results_vector_find_if[m[K(std::string _sch_keydata,std::string _sub_sch_keydata,db_tb_search_type _search_type,int &rst_distance) = 0 ;
+                [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:14:79:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kmodule_tbcell_alarmhistory[m[K’
+     cell_alarmhistory = new module_tbcell_alarmhistory(nh_,tbname_alarmhistory[01;31m[K)[m[K;
+                                                                               [01;31m[K^[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:5:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_agvapp_tables.h:272:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kmodule_tbcell_alarmhistory[m[K’:
+ class [01;36m[Kmodule_tbcell_alarmhistory[m[K : public table_mongodbstore_client<type_tbcell_alarmhistory,type_tbcell_alarmhistory_req,type_tbcell_alarmhistory_resp>
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:4:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:268:16:[m[K [01;36m[Knote: [m[K	bool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::v_ptr_results_vector_find_if(std::__cxx11::string, std::__cxx11::string, db_tb_search_type, int&) [with MsgType = cellctrl_control_msgs::cell_alarmhistory_<std::allocator<void> >; MsgType_req = cellctrl_control_msgs::cell_alarmhistory_cmdRequest_<std::allocator<void> >; MsgType_resp = cellctrl_control_msgs::cell_alarmhistory_cmdResponse_<std::allocator<void> >; std::__cxx11::string = std::__cxx11::basic_string<char>]
+   virtual bool [01;36m[Kv_ptr_results_vector_find_if[m[K(std::string _sch_keydata,std::string _sub_sch_keydata,db_tb_search_type _search_type,int &rst_distance) = 0 ;
+                [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:15:88:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kmodule_tbcell_maintainhistory[m[K’
+     cell_maintainhistory = new module_tbcell_maintainhistory(nh_,tbname_maintainhistory[01;31m[K)[m[K;
+                                                                                        [01;31m[K^[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:5:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_agvapp_tables.h:312:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kmodule_tbcell_maintainhistory[m[K’:
+ class [01;36m[Kmodule_tbcell_maintainhistory[m[K : public table_mongodbstore_client<type_tbcell_maintainhistory,type_tbcell_maintainhistory_req,type_tbcell_maintainhistory_resp>
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:4:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:268:16:[m[K [01;36m[Knote: [m[K	bool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::v_ptr_results_vector_find_if(std::__cxx11::string, std::__cxx11::string, db_tb_search_type, int&) [with MsgType = cellctrl_control_msgs::cell_maintainhistory_<std::allocator<void> >; MsgType_req = cellctrl_control_msgs::cell_maintainhistory_cmdRequest_<std::allocator<void> >; MsgType_resp = cellctrl_control_msgs::cell_maintainhistory_cmdResponse_<std::allocator<void> >; std::__cxx11::string = std::__cxx11::basic_string<char>]
+   virtual bool [01;36m[Kv_ptr_results_vector_find_if[m[K(std::string _sch_keydata,std::string _sub_sch_keydata,db_tb_search_type _search_type,int &rst_distance) = 0 ;
+                [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:16:85:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kmodule_tbcell_operatehistory[m[K’
+     cell_operatehistory = new module_tbcell_operatehistory(nh_,tbname_operatehistory[01;31m[K)[m[K;
+                                                                                     [01;31m[K^[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:5:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_agvapp_tables.h:352:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kmodule_tbcell_operatehistory[m[K’:
+ class [01;36m[Kmodule_tbcell_operatehistory[m[K : public table_mongodbstore_client<type_tbcell_operatehistory,type_tbcell_operatehistory_req,type_tbcell_operatehistory_resp>
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:4:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:268:16:[m[K [01;36m[Knote: [m[K	bool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::v_ptr_results_vector_find_if(std::__cxx11::string, std::__cxx11::string, db_tb_search_type, int&) [with MsgType = cellctrl_control_msgs::cell_operatehistory_<std::allocator<void> >; MsgType_req = cellctrl_control_msgs::cell_operatehistory_cmdRequest_<std::allocator<void> >; MsgType_resp = cellctrl_control_msgs::cell_operatehistory_cmdResponse_<std::allocator<void> >; std::__cxx11::string = std::__cxx11::basic_string<char>]
+   virtual bool [01;36m[Kv_ptr_results_vector_find_if[m[K(std::string _sch_keydata,std::string _sub_sch_keydata,db_tb_search_type _search_type,int &rst_distance) = 0 ;
+                [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:18:79:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kmodule_tbcell_agv_basetype[m[K’
+     cell_agv_basetype = new module_tbcell_agv_basetype(nh_,tbname_agv_basetype[01;31m[K)[m[K;
+                                                                               [01;31m[K^[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:6:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_agvbasetype_tables.h:26:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kmodule_tbcell_agv_basetype[m[K’:
+ class [01;36m[Kmodule_tbcell_agv_basetype[m[K : public table_mongodbstore_client<type_tbcell_agv_basetype,type_tbcell_agv_basetype_req,type_tbcell_agv_basetype_resp>
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:4:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:268:16:[m[K [01;36m[Knote: [m[K	bool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::v_ptr_results_vector_find_if(std::__cxx11::string, std::__cxx11::string, db_tb_search_type, int&) [with MsgType = cellctrl_control_msgs::cell_agv_basetype_<std::allocator<void> >; MsgType_req = cellctrl_control_msgs::cell_agv_basetype_cmdRequest_<std::allocator<void> >; MsgType_resp = cellctrl_control_msgs::cell_agv_basetype_cmdResponse_<std::allocator<void> >; std::__cxx11::string = std::__cxx11::basic_string<char>]
+   virtual bool [01;36m[Kv_ptr_results_vector_find_if[m[K(std::string _sch_keydata,std::string _sub_sch_keydata,db_tb_search_type _search_type,int &rst_distance) = 0 ;
+                [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:19:94:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kmodule_tbcell_agv_basetypeitems[m[K’
+     cell_agv_basetypeitems = new module_tbcell_agv_basetypeitems(nh_,tbname_agv_basetypeitems[01;31m[K)[m[K;
+                                                                                              [01;31m[K^[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:6:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_agvbasetype_tables.h:66:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kmodule_tbcell_agv_basetypeitems[m[K’:
+ class [01;36m[Kmodule_tbcell_agv_basetypeitems[m[K : public table_mongodbstore_client<type_tbcell_agv_basetypeitems,type_tbcell_agv_basetypeitems_req,type_tbcell_agv_basetypeitems_resp>
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:4:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:268:16:[m[K [01;36m[Knote: [m[K	bool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::v_ptr_results_vector_find_if(std::__cxx11::string, std::__cxx11::string, db_tb_search_type, int&) [with MsgType = cellctrl_control_msgs::cell_agv_basetypeitems_<std::allocator<void> >; MsgType_req = cellctrl_control_msgs::cell_agv_basetypeitems_cmdRequest_<std::allocator<void> >; MsgType_resp = cellctrl_control_msgs::cell_agv_basetypeitems_cmdResponse_<std::allocator<void> >; std::__cxx11::string = std::__cxx11::basic_string<char>]
+   virtual bool [01;36m[Kv_ptr_results_vector_find_if[m[K(std::string _sch_keydata,std::string _sub_sch_keydata,db_tb_search_type _search_type,int &rst_distance) = 0 ;
+                [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:20:71:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kmodule_tbcell_device[m[K’
+     cell_base_device = new module_tbcell_device(nh_,tbname_base_device[01;31m[K)[m[K;
+                                                                       [01;31m[K^[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:6:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_agvbasetype_tables.h:104:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kmodule_tbcell_device[m[K’:
+ class [01;36m[Kmodule_tbcell_device[m[K : public table_mongodbstore_client<type_tbcell_device,type_tbcell_device_req,type_tbcell_device_resp>
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:4:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:268:16:[m[K [01;36m[Knote: [m[K	bool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::v_ptr_results_vector_find_if(std::__cxx11::string, std::__cxx11::string, db_tb_search_type, int&) [with MsgType = cellctrl_control_msgs::cell_base_device_<std::allocator<void> >; MsgType_req = cellctrl_control_msgs::cell_base_device_cmdRequest_<std::allocator<void> >; MsgType_resp = cellctrl_control_msgs::cell_base_device_cmdResponse_<std::allocator<void> >; std::__cxx11::string = std::__cxx11::basic_string<char>]
+   virtual bool [01;36m[Kv_ptr_results_vector_find_if[m[K(std::string _sch_keydata,std::string _sub_sch_keydata,db_tb_search_type _search_type,int &rst_distance) = 0 ;
+                [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:21:91:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kmodule_tbcell_battery_caculate[m[K’
+     cell_battery_caculate = new module_tbcell_battery_caculate(nh_,tbname_battery_caculate[01;31m[K)[m[K;
+                                                                                           [01;31m[K^[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:6:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_agvbasetype_tables.h:144:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kmodule_tbcell_battery_caculate[m[K’:
+ class [01;36m[Kmodule_tbcell_battery_caculate[m[K : public table_mongodbstore_client<type_tbcell_battery_caculate,type_tbcell_battery_caculate_req,type_tbcell_battery_caculate_resp>
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:4:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:268:16:[m[K [01;36m[Knote: [m[K	bool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::v_ptr_results_vector_find_if(std::__cxx11::string, std::__cxx11::string, db_tb_search_type, int&) [with MsgType = cellctrl_control_msgs::cell_battery_caculate_<std::allocator<void> >; MsgType_req = cellctrl_control_msgs::cell_battery_caculate_cmdRequest_<std::allocator<void> >; MsgType_resp = cellctrl_control_msgs::cell_battery_caculate_cmdResponse_<std::allocator<void> >; std::__cxx11::string = std::__cxx11::basic_string<char>]
+   virtual bool [01;36m[Kv_ptr_results_vector_find_if[m[K(std::string _sch_keydata,std::string _sub_sch_keydata,db_tb_search_type _search_type,int &rst_distance) = 0 ;
+                [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:22:85:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kmodule_tbcell_battery_remain[m[K’
+     cell_battery_remain = new module_tbcell_battery_remain(nh_,tbname_battery_remain[01;31m[K)[m[K;
+                                                                                     [01;31m[K^[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:6:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_agvbasetype_tables.h:184:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kmodule_tbcell_battery_remain[m[K’:
+ class [01;36m[Kmodule_tbcell_battery_remain[m[K : public table_mongodbstore_client<type_tbcell_battery_remain,type_tbcell_battery_remain_req,type_tbcell_battery_remain_resp>
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:4:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:268:16:[m[K [01;36m[Knote: [m[K	bool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::v_ptr_results_vector_find_if(std::__cxx11::string, std::__cxx11::string, db_tb_search_type, int&) [with MsgType = cellctrl_control_msgs::cell_battery_remain_<std::allocator<void> >; MsgType_req = cellctrl_control_msgs::cell_battery_remain_cmdRequest_<std::allocator<void> >; MsgType_resp = cellctrl_control_msgs::cell_battery_remain_cmdResponse_<std::allocator<void> >; std::__cxx11::string = std::__cxx11::basic_string<char>]
+   virtual bool [01;36m[Kv_ptr_results_vector_find_if[m[K(std::string _sch_keydata,std::string _sub_sch_keydata,db_tb_search_type _search_type,int &rst_distance) = 0 ;
+                [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:24:70:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kmodule_tbcell_transfer[m[K’
+     cell_tb_transfer = new module_tbcell_transfer(nh_,tbname_transfer[01;31m[K)[m[K;
+                                                                      [01;31m[K^[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:7:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_module_tables.h:31:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kmodule_tbcell_transfer[m[K’:
+ class [01;36m[Kmodule_tbcell_transfer[m[K : public table_mongodbstore_client<type_tbcell_transfer,type_tbcell_transfer_req,type_tbcell_transfer_resp>
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:4:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:268:16:[m[K [01;36m[Knote: [m[K	bool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::v_ptr_results_vector_find_if(std::__cxx11::string, std::__cxx11::string, db_tb_search_type, int&) [with MsgType = cellctrl_control_msgs::cell_base_transfer_<std::allocator<void> >; MsgType_req = cellctrl_control_msgs::cell_base_transfer_cmdRequest_<std::allocator<void> >; MsgType_resp = cellctrl_control_msgs::cell_base_transfer_cmdResponse_<std::allocator<void> >; std::__cxx11::string = std::__cxx11::basic_string<char>]
+   virtual bool [01;36m[Kv_ptr_results_vector_find_if[m[K(std::string _sch_keydata,std::string _sub_sch_keydata,db_tb_search_type _search_type,int &rst_distance) = 0 ;
+                [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:25:76:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kmodule_tbcell_mcfunction[m[K’
+     cell_tb_mcfunction = new module_tbcell_mcfunction(nh_,tbname_mcfunction[01;31m[K)[m[K;
+                                                                            [01;31m[K^[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:7:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_module_tables.h:71:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kmodule_tbcell_mcfunction[m[K’:
+ class [01;36m[Kmodule_tbcell_mcfunction[m[K : public table_mongodbstore_client<type_tbcell_mcfunction,type_tbcell_mcfunction_req,type_tbcell_mcfunction_resp>
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:4:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:268:16:[m[K [01;36m[Knote: [m[K	bool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::v_ptr_results_vector_find_if(std::__cxx11::string, std::__cxx11::string, db_tb_search_type, int&) [with MsgType = cellctrl_control_msgs::cell_base_mcfunction_<std::allocator<void> >; MsgType_req = cellctrl_control_msgs::cell_base_mcfunction_cmdRequest_<std::allocator<void> >; MsgType_resp = cellctrl_control_msgs::cell_base_mcfunction_cmdResponse_<std::allocator<void> >; std::__cxx11::string = std::__cxx11::basic_string<char>]
+   virtual bool [01;36m[Kv_ptr_results_vector_find_if[m[K(std::string _sch_keydata,std::string _sub_sch_keydata,db_tb_search_type _search_type,int &rst_distance) = 0 ;
+                [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:26:61:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kmodule_tbcell_alarm[m[K’
+     cell_tb_alarm = new module_tbcell_alarm(nh_,tbname_alarm[01;31m[K)[m[K;
+                                                             [01;31m[K^[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:7:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_module_tables.h:112:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kmodule_tbcell_alarm[m[K’:
+ class [01;36m[Kmodule_tbcell_alarm[m[K : public table_mongodbstore_client<type_tbcell_alarm,type_tbcell_alarm_req,type_tbcell_alarm_resp>
+       [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:4:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:268:16:[m[K [01;36m[Knote: [m[K	bool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::v_ptr_results_vector_find_if(std::__cxx11::string, std::__cxx11::string, db_tb_search_type, int&) [with MsgType = cellctrl_control_msgs::cell_base_alarm_<std::allocator<void> >; MsgType_req = cellctrl_control_msgs::cell_base_alarm_cmdRequest_<std::allocator<void> >; MsgType_resp = cellctrl_control_msgs::cell_base_alarm_cmdResponse_<std::allocator<void> >; std::__cxx11::string = std::__cxx11::basic_string<char>]
+   virtual bool [01;36m[Kv_ptr_results_vector_find_if[m[K(std::string _sch_keydata,std::string _sub_sch_keydata,db_tb_search_type _search_type,int &rst_distance) = 0 ;
+                [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:27:70:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kmodule_tbcell_maintain[m[K’
+     cell_tb_maintain = new module_tbcell_maintain(nh_,tbname_maintain[01;31m[K)[m[K;
+                                                                      [01;31m[K^[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:7:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_module_tables.h:151:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kmodule_tbcell_maintain[m[K’:
+ class [01;36m[Kmodule_tbcell_maintain[m[K : public table_mongodbstore_client<type_tbcell_maintain,type_tbcell_maintain_req,type_tbcell_maintain_resp>
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:4:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:268:16:[m[K [01;36m[Knote: [m[K	bool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::v_ptr_results_vector_find_if(std::__cxx11::string, std::__cxx11::string, db_tb_search_type, int&) [with MsgType = cellctrl_control_msgs::cell_base_maintain_<std::allocator<void> >; MsgType_req = cellctrl_control_msgs::cell_base_maintain_cmdRequest_<std::allocator<void> >; MsgType_resp = cellctrl_control_msgs::cell_base_maintain_cmdResponse_<std::allocator<void> >; std::__cxx11::string = std::__cxx11::basic_string<char>]
+   virtual bool [01;36m[Kv_ptr_results_vector_find_if[m[K(std::string _sch_keydata,std::string _sub_sch_keydata,db_tb_search_type _search_type,int &rst_distance) = 0 ;
+                [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:28:88:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kmodule_tbcell_basecontroller[m[K’
+     cell_tb_basecontroller = new module_tbcell_basecontroller(nh_,tbname_basecontroller[01;31m[K)[m[K;
+                                                                                        [01;31m[K^[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:7:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_module_tables.h:190:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kmodule_tbcell_basecontroller[m[K’:
+ class [01;36m[Kmodule_tbcell_basecontroller[m[K : public table_mongodbstore_client<type_tbcell_basecontroller,type_tbcell_basecontroller_req,type_tbcell_basecontroller_resp>
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:4:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:268:16:[m[K [01;36m[Knote: [m[K	bool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::v_ptr_results_vector_find_if(std::__cxx11::string, std::__cxx11::string, db_tb_search_type, int&) [with MsgType = cellctrl_control_msgs::base_cell_controller_<std::allocator<void> >; MsgType_req = cellctrl_control_msgs::base_cell_controller_cmdRequest_<std::allocator<void> >; MsgType_resp = cellctrl_control_msgs::base_cell_controller_cmdResponse_<std::allocator<void> >; std::__cxx11::string = std::__cxx11::basic_string<char>]
+   virtual bool [01;36m[Kv_ptr_results_vector_find_if[m[K(std::string _sch_keydata,std::string _sub_sch_keydata,db_tb_search_type _search_type,int &rst_distance) = 0 ;
+                [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:29:67:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kmodule_tbcell_operate[m[K’
+     cell_tb_operate = new module_tbcell_operate(nh_,tbname_operate[01;31m[K)[m[K;
+                                                                   [01;31m[K^[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:7:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_module_tables.h:229:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kmodule_tbcell_operate[m[K’:
+ class [01;36m[Kmodule_tbcell_operate[m[K : public table_mongodbstore_client<type_tbcell_operate,type_tbcell_operate_req,type_tbcell_operate_resp>
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:4:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:268:16:[m[K [01;36m[Knote: [m[K	bool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::v_ptr_results_vector_find_if(std::__cxx11::string, std::__cxx11::string, db_tb_search_type, int&) [with MsgType = cellctrl_control_msgs::cell_base_operate_<std::allocator<void> >; MsgType_req = cellctrl_control_msgs::cell_base_operate_cmdRequest_<std::allocator<void> >; MsgType_resp = cellctrl_control_msgs::cell_base_operate_cmdResponse_<std::allocator<void> >; std::__cxx11::string = std::__cxx11::basic_string<char>]
+   virtual bool [01;36m[Kv_ptr_results_vector_find_if[m[K(std::string _sch_keydata,std::string _sub_sch_keydata,db_tb_search_type _search_type,int &rst_distance) = 0 ;
+                [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:31:73:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kmodule_tbcell_work_order[m[K’
+     cell_work_order = new module_tbcell_work_order(nh_,tbname_work_order[01;31m[K)[m[K;
+                                                                         [01;31m[K^[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:8:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_orders_tables.h:27:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kmodule_tbcell_work_order[m[K’:
+ class [01;36m[Kmodule_tbcell_work_order[m[K : public table_mongodbstore_client<type_tbcell_work_order,type_tbcell_work_order_req,type_tbcell_work_order_resp>
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:4:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:268:16:[m[K [01;36m[Knote: [m[K	bool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::v_ptr_results_vector_find_if(std::__cxx11::string, std::__cxx11::string, db_tb_search_type, int&) [with MsgType = cellctrl_control_msgs::cell_work_order_<std::allocator<void> >; MsgType_req = cellctrl_control_msgs::cell_work_order_cmdRequest_<std::allocator<void> >; MsgType_resp = cellctrl_control_msgs::cell_work_order_cmdResponse_<std::allocator<void> >; std::__cxx11::string = std::__cxx11::basic_string<char>]
+   virtual bool [01;36m[Kv_ptr_results_vector_find_if[m[K(std::string _sch_keydata,std::string _sub_sch_keydata,db_tb_search_type _search_type,int &rst_distance) = 0 ;
+                [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:32:88:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kmodule_tbcell_work_orderitems[m[K’
+     cell_work_orderitems = new module_tbcell_work_orderitems(nh_,tbname_work_orderitems[01;31m[K)[m[K;
+                                                                                        [01;31m[K^[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:8:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_orders_tables.h:67:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kmodule_tbcell_work_orderitems[m[K’:
+ class [01;36m[Kmodule_tbcell_work_orderitems[m[K : public table_mongodbstore_client<type_tbcell_work_orderitems,type_tbcell_work_orderitems_req,type_tbcell_work_orderitems_resp>
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:4:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:268:16:[m[K [01;36m[Knote: [m[K	bool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::v_ptr_results_vector_find_if(std::__cxx11::string, std::__cxx11::string, db_tb_search_type, int&) [with MsgType = cellctrl_control_msgs::cell_work_orderitems_<std::allocator<void> >; MsgType_req = cellctrl_control_msgs::cell_work_orderitems_cmdRequest_<std::allocator<void> >; MsgType_resp = cellctrl_control_msgs::cell_work_orderitems_cmdResponse_<std::allocator<void> >; std::__cxx11::string = std::__cxx11::basic_string<char>]
+   virtual bool [01;36m[Kv_ptr_results_vector_find_if[m[K(std::string _sch_keydata,std::string _sub_sch_keydata,db_tb_search_type _search_type,int &rst_distance) = 0 ;
+                [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:33:88:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kmodule_tbcell_work_ordergoods[m[K’
+     cell_work_ordergoods = new module_tbcell_work_ordergoods(nh_,tbname_work_ordergoods[01;31m[K)[m[K;
+                                                                                        [01;31m[K^[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:8:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_orders_tables.h:107:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kmodule_tbcell_work_ordergoods[m[K’:
+ class [01;36m[Kmodule_tbcell_work_ordergoods[m[K : public table_mongodbstore_client<type_tbcell_work_ordergoods,type_tbcell_work_ordergoods_req,type_tbcell_work_ordergoods_resp>
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:4:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:268:16:[m[K [01;36m[Knote: [m[K	bool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::v_ptr_results_vector_find_if(std::__cxx11::string, std::__cxx11::string, db_tb_search_type, int&) [with MsgType = cellctrl_control_msgs::cell_work_ordergoods_<std::allocator<void> >; MsgType_req = cellctrl_control_msgs::cell_work_ordergoods_cmdRequest_<std::allocator<void> >; MsgType_resp = cellctrl_control_msgs::cell_work_ordergoods_cmdResponse_<std::allocator<void> >; std::__cxx11::string = std::__cxx11::basic_string<char>]
+   virtual bool [01;36m[Kv_ptr_results_vector_find_if[m[K(std::string _sch_keydata,std::string _sub_sch_keydata,db_tb_search_type _search_type,int &rst_distance) = 0 ;
+                [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:35:82:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kmodule_tbcell_work_stations[m[K’
+     cell_work_stations = new module_tbcell_work_stations(nh_,tbname_work_stations[01;31m[K)[m[K;
+                                                                                  [01;31m[K^[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:9:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_stations_tables.h:27:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kmodule_tbcell_work_stations[m[K’:
+ class [01;36m[Kmodule_tbcell_work_stations[m[K : public table_mongodbstore_client<type_tbcell_work_stations,type_tbcell_work_stations_req,type_tbcell_work_stations_resp>
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:4:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:268:16:[m[K [01;36m[Knote: [m[K	bool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::v_ptr_results_vector_find_if(std::__cxx11::string, std::__cxx11::string, db_tb_search_type, int&) [with MsgType = cellctrl_control_msgs::cell_work_stations_<std::allocator<void> >; MsgType_req = cellctrl_control_msgs::cell_work_stations_cmdRequest_<std::allocator<void> >; MsgType_resp = cellctrl_control_msgs::cell_work_stations_cmdResponse_<std::allocator<void> >; std::__cxx11::string = std::__cxx11::basic_string<char>]
+   virtual bool [01;36m[Kv_ptr_results_vector_find_if[m[K(std::string _sch_keydata,std::string _sub_sch_keydata,db_tb_search_type _search_type,int &rst_distance) = 0 ;
+                [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:36:94:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kmodule_tbcell_work_stationitems[m[K’
+     cell_work_stationitems = new module_tbcell_work_stationitems(nh_,tbname_work_stationitems[01;31m[K)[m[K;
+                                                                                              [01;31m[K^[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:9:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_stations_tables.h:67:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kmodule_tbcell_work_stationitems[m[K’:
+ class [01;36m[Kmodule_tbcell_work_stationitems[m[K : public table_mongodbstore_client<type_tbcell_work_stationitems,type_tbcell_work_stationitems_req,type_tbcell_work_stationitems_resp>
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/include/cell_controller_tables/cellctrl_dbtable_process.h:4:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/cell_controller/Model/cellctrl_database_bridge/src/cell_controller_tables/cellctrl_dbtable_process.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:268:16:[m[K [01;36m[Knote: [m[K	bool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::v_ptr_results_vector_find_if(std::__cxx11::string, std::__cxx11::string, db_tb_search_type, int&) [with MsgType = cellctrl_control_msgs::cell_work_stationitems_<std::allocator<void> >; MsgType_req = cellctrl_control_msgs::cell_work_stationitems_cmdRequest_<std::allocator<void> >; MsgType_resp = cellctrl_control_msgs::cell_work_stationitems_cmdResponse_<std::allocator<void> >; std::__cxx11::string = std::__cxx11::basic_string<char>]
+   virtual bool [01;36m[Kv_ptr_results_vector_find_if[m[K(std::string _sch_keydata,std::string _sub_sch_keydata,db_tb_search_type _search_type,int &rst_distance) = 0 ;
+                [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/cellctrl_database_bridge.dir/src/cell_controller_tables/cellctrl_dbtable_process.cpp.o] Error 1
+make[1]: *** [CMakeFiles/cellctrl_database_bridge.dir/all] Error 2
+make: *** [all] Error 2

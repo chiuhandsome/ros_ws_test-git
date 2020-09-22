@@ -1,0 +1,18 @@
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_if_proc_upper_action.cpp:1:0[m[K:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/private_actions/robot_if_proc_upper_action.h:41:32:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_info[m[K’ in namespace ‘[01m[Krobot_scheduling_msgs[m[K’ does not name a type
+         robot_scheduling_msgs::[01;31m[Krobot_info[m[K robot_info_msg ;
+                                [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_if_proc_upper_action.cpp:[m[K In member function ‘[01m[Kvoid robot_if_proc_upper_action::Process_SendTopic()[m[K’:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_if_proc_upper_action.cpp:33:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_info_msg[m[K’ was not declared in this scope
+         [01;31m[Krobot_info_msg[m[K.robot_name = "hyc_robot_1";
+         [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/robot_scheduling_actions.h:13:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_actions.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/private_actions/robot_if_proc_upper_action.h:41:32:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_info[m[K’ in namespace ‘[01m[Krobot_scheduling_msgs[m[K’ does not name a type
+         robot_scheduling_msgs::[01;31m[Krobot_info[m[K robot_info_msg ;
+                                [01;31m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/robot_scheduling_actions_node.dir/src/private_actions/robot_if_proc_upper_action.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/robot_scheduling_actions_node.dir/src/robot_scheduling_actions.cpp.o] Error 1
+make[1]: *** [CMakeFiles/robot_scheduling_actions_node.dir/all] Error 2
+make: *** [all] Error 2

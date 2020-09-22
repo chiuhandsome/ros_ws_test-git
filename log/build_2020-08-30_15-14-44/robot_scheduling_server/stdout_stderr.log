@@ -1,0 +1,17 @@
+[35m[1mScanning dependencies of target robot_scheduling_server_node[0m
+[  3%] [32mBuilding CXX object CMakeFiles/robot_scheduling_server_node.dir/src/robot_scheduling_pnp_server.cpp.o[0m
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_server/src/robot_scheduling_pnp_server.cpp:[m[K In member function ‘[01m[Kvoid robot_scheduling_pnp_server::robotTurn(bool*, std::__cxx11::string)[m[K’:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_server/src/robot_scheduling_pnp_server.cpp:892:14:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_scheduling_msgs::self_turn_toGoal {aka struct robot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kcommand_type[m[K’; did you mean ‘[01m[Kcommand_id[m[K’?
+         goal.[01;31m[Kcommand_type[m[K = v_params_[0] ;
+              [01;31m[K^~~~~~~~~~~~[m[K
+              [32m[Kcommand_id[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_server/src/robot_scheduling_pnp_server.cpp:896:14:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_scheduling_msgs::self_turn_toGoal {aka struct robot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kcommand_type[m[K’; did you mean ‘[01m[Kcommand_id[m[K’?
+         goal.[01;31m[Kcommand_type[m[K = "" ;
+              [01;31m[K^~~~~~~~~~~~[m[K
+              [32m[Kcommand_id[m[K
+make[2]: *** [CMakeFiles/robot_scheduling_server_node.dir/src/robot_scheduling_pnp_server.cpp.o] Error 1
+CMakeFiles/robot_scheduling_server_node.dir/build.make:86: recipe for target 'CMakeFiles/robot_scheduling_server_node.dir/src/robot_scheduling_pnp_server.cpp.o' failed
+make[1]: *** [CMakeFiles/robot_scheduling_server_node.dir/all] Error 2
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/robot_scheduling_server_node.dir/all' failed
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

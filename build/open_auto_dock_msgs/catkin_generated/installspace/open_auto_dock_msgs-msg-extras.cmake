@@ -1,0 +1,2 @@
+set(open_auto_dock_msgs_MESSAGE_FILES "msg/DockAction.msg;msg/DockActionGoal.msg;msg/DockActionResult.msg;msg/DockActionFeedback.msg;msg/DockGoal.msg;msg/DockResult.msg;msg/DockFeedback.msg;msg/UndockAction.msg;msg/UndockActionGoal.msg;msg/UndockActionResult.msg;msg/UndockActionFeedback.msg;msg/UndockGoal.msg;msg/UndockResult.msg;msg/UndockFeedback.msg")
+set(open_auto_dock_msgs_SERVICE_FILES "srv/Cloud.srv")

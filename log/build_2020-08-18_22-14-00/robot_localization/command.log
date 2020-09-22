@@ -1,0 +1,6 @@
+Invoking command in '/home/handsome/ros_ws_test/build/robot_localization': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/robot_localization -- -j12 -l12
+Invoked command in '/home/handsome/ros_ws_test/build/robot_localization' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/robot_localization -- -j12 -l12
+Invoking command in '/home/handsome/ros_ws_test/build/robot_localization': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/robot_localization --target tests -- -j12 -l12
+Invoked command in '/home/handsome/ros_ws_test/build/robot_localization' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/robot_localization --target tests -- -j12 -l12
+Invoking command in '/home/handsome/ros_ws_test/build/robot_localization': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/robot_localization --target install -- -j12 -l12
+Invoked command in '/home/handsome/ros_ws_test/build/robot_localization' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/robot_localization --target install -- -j12 -l12

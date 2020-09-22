@@ -1,0 +1,221 @@
+[0.065s] Invoking command in '/home/handsome/ros_ws_test/build/spatio_temporal_voxel_layer': /usr/bin/cmake /home/handsome/ros_ws_test/src/ros_base/spatio_temporal_voxel_layer -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer
+[0.612s] -- The C compiler identification is GNU 7.5.0
+[1.166s] -- The CXX compiler identification is GNU 7.5.0
+[1.207s] -- Check for working C compiler: /usr/bin/cc
+[2.087s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.089s] -- Detecting C compiler ABI info
+[2.766s] -- Detecting C compiler ABI info - done
+[2.824s] -- Detecting C compile features
+[4.953s] -- Detecting C compile features - done
+[4.959s] -- Check for working CXX compiler: /usr/bin/c++
+[5.679s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[5.680s] -- Detecting CXX compiler ABI info
+[6.427s] -- Detecting CXX compiler ABI info - done
+[6.444s] -- Detecting CXX compile features
+[8.527s] -- Detecting CXX compile features - done
+[8.548s] -- Using CATKIN_DEVEL_PREFIX: /home/handsome/ros_ws_test/build/spatio_temporal_voxel_layer/devel
+[8.549s] -- Using CMAKE_PREFIX_PATH: /home/handsome/ros_ws/install/yocs_cmd_vel_mux;/home/handsome/ros_ws/install/urdf_tutorial;/home/handsome/ros_ws/install/tuw_waypoint_to_spline_msgs;/home/handsome/ros_ws/install/tuw_multi_robot_router;/home/handsome/ros_ws/install/tuw_voronoi_graph;/home/handsome/ros_ws/install/tuw_vehicle_msgs;/home/handsome/ros_ws/install/tuw_order_planner;/home/handsome/ros_ws/install/tuw_object_rviz;/home/handsome/ros_ws/install/tuw_object_msgs;/home/handsome/ros_ws/install/tuw_nav_rviz;/home/handsome/ros_ws/install/tuw_multi_robot_local_behavior_controller;/home/handsome/ros_ws/install/tuw_multi_robot_ctrl;/home/handsome/ros_ws/install/tuw_nav_msgs;/home/handsome/ros_ws/install/tuw_multi_robot_rviz;/home/handsome/ros_ws/install/tuw_multi_robot_goal_generator;/home/handsome/ros_ws/install/robot_scheduling_utility;/home/handsome/ros_ws/install/robot_scheduling_actions;/home/handsome/ros_ws/install/actionlib_modules_bridge;/home/handsome/ros_ws/install/tuw_multi_robot_msgs;/home/handsome/ros_ws/install/tuw_multi_robot_demo;/home/handsome/ros_ws/install/tuw_local_controller_msgs;/home/handsome/ros_ws/install/tuw_geometry_rviz;/home/handsome/ros_ws/install/tuw_geometry_msgs;/home/handsome/ros_ws/install/tuw_geometry;/home/handsome/ros_ws/install/tuw_gazebo_msgs;/home/handsome/ros_ws/install/tuw_control;/home/handsome/ros_ws/install/tuw_airskin_msgs;/home/handsome/ros_ws/install/turtlebot_teleop;/home/handsome/ros_ws/install/tug_example_pnp_server;/home/handsome/ros_ws/install/tug_example_actions;/home/handsome/ros_ws/install/tug_example_msgs;/home/handsome/ros_ws/install/timed_roslaunch;/home/handsome/ros_ws/install/teb2_local_planner;/home/handsome/ros_ws/install/stated_roslaunch;/home/handsome/ros_ws/install/spatio_temporal_voxel_layer;/home/handsome/ros_ws/install/robot_udp_bridge;/home/handsome/ros_ws/install/robot_database_bridge;/home/handsome/ros_ws/install/samsungcmd_msgs;/home/handsome/ros_ws/install/rplidar_ros;/home/handsome/ros_ws/install/rp_action;/home/handsome/ros_ws/install/rp_action_msgs;/home/handsome/ros_ws/install/rosserial_xbee;/home/handsome/ros_ws/install/rosserial_windows;/home/handsome/ros_ws/install/rosserial_tivac;/home/handsome/ros_ws/install/rosserial_test;/home/handsome/ros_ws/install/rosserial_server;/home/handsome/ros_ws/install/rosserial_python;/home/handsome/ros_ws/install/rosserial_mbed;/home/handsome/ros_ws/install/rosserial_embeddedlinux;/home/handsome/ros_ws/install/rosserial_arduino;/home/handsome/ros_ws/install/rosserial_client;/home/handsome/ros_ws/install/rosserial_msgs;/home/handsome/ros_ws/install/cellctrl_qtgui_bridge;/home/handsome/ros_ws/install/car_db_manager_qtgui;/home/handsome/ros_ws/install/car_db_manager_bridge;/home/handsome/ros_ws/install/car_db_manager_action;/home/handsome/ros_ws/install/ros_utility_tools;/home/handsome/ros_ws/install/ros_package_test;/home/handsome/ros_ws/install/ros_package_manager;/home/handsome/ros_ws/install/robot_scheduling_server;/home/handsome/ros_ws/install/robot_scheduling_msgs;/home/handsome/ros_ws/install/robot_localization;/home/handsome/ros_ws/install/robot_control_msgs;/home/handsome/ros_ws/install/reset_location;/home/handsome/ros_ws/install/razor_imu_9dof;/home/handsome/ros_ws/install/pnp_rosplan;/home/handsome/ros_ws/install/actionlib_pnp_controller;/home/handsome/ros_ws/install/actionlib_modules_controller;/home/handsome/ros_ws/install/pnp_ros;/home/handsome/ros_ws/install/pnp_msgs;/home/handsome/ros_ws/install/open_auto_dock;/home/handsome/ros_ws/install/open_auto_dock_msgs;/home/handsome/ros_ws/install/omron_os32c_driver;/home/handsome/ros_ws/install/dlux_plugins;/home/handsome/ros_ws/install/dlux_global_planner;/home/handsome/ros_ws/install/nav_grid_pub_sub;/home/handsome/ros_ws/install/dwb_critics;/home/handsome/ros_ws/install/nav_grid_iterators;/home/handsome/ros_ws/install/locomove_base;/home/handsome/ros_ws/install/locomotor;/home/handsome/ros_ws/install/nav_core_adapter;/home/handsome/ros_ws/install/dwb_plugins;/home/handsome/ros_ws/install/dwb_local_planner;/home/handsome/ros_ws/install/nav_2d_utils;/home/handsome/ros_ws/install/global_planner_tests;/home/handsome/ros_ws/install/costmap_queue;/home/handsome/ros_ws/install/nav_core2;/home/handsome/ros_ws/install/nav_grid;/home/handsome/ros_ws/install/car_schedule_msgs;/home/handsome/ros_ws/install/actionlib_modules_msgs;/home/handsome/ros_ws/install/locomotor_msgs;/home/handsome/ros_ws/install/dwb_msgs;/home/handsome/ros_ws/install/nav_2d_msgs;/home/handsome/ros_ws/install/mongodb_log;/home/handsome/ros_ws/install/mongodb_store;/home/handsome/ros_ws/install/mongodb_store_msgs;/home/handsome/ros_ws/install/ca_driver;/home/handsome/ros_ws/install/libcreate;/home/handsome/ros_ws/install/i_robot_stage;/home/handsome/ros_ws/install/i_robot_navigation;/home/handsome/ros_ws/install/hyc_order_planner;/home/handsome/ros_ws/install/hyc_multi_robot_msgs;/home/handsome/ros_ws/install/fetch_open_auto_dock;/home/handsome/ros_ws/install/fetch_auto_dock_msgs;/home/handsome/ros_ws/install/change_teb2_max_vel_x_onfly;/home/handsome/ros_ws/install/cellctrl_control_msgs;/home/handsome/ros_ws/install/car_db_manager_msgs;/home/handsome/ros_ws/install/ca_msgs;/home/handsome/ros_ws/install/ca_description;/home/handsome/ros_ws/install/botcmd_msgs;/opt/ros/melodic
+[8.558s] -- This workspace overlays: /home/handsome/ros_ws/install/yocs_cmd_vel_mux;/home/handsome/ros_ws/install/urdf_tutorial;/home/handsome/ros_ws/install/tuw_waypoint_to_spline_msgs;/home/handsome/ros_ws/install/tuw_multi_robot_router;/home/handsome/ros_ws/install/tuw_voronoi_graph;/home/handsome/ros_ws/install/tuw_vehicle_msgs;/home/handsome/ros_ws/install/tuw_order_planner;/home/handsome/ros_ws/install/tuw_object_rviz;/home/handsome/ros_ws/install/tuw_object_msgs;/home/handsome/ros_ws/install/tuw_nav_rviz;/home/handsome/ros_ws/install/tuw_multi_robot_local_behavior_controller;/home/handsome/ros_ws/install/tuw_multi_robot_ctrl;/home/handsome/ros_ws/install/tuw_nav_msgs;/home/handsome/ros_ws/install/tuw_multi_robot_rviz;/home/handsome/ros_ws/install/tuw_multi_robot_goal_generator;/home/handsome/ros_ws/install/robot_scheduling_utility;/home/handsome/ros_ws/install/robot_scheduling_actions;/home/handsome/ros_ws/install/actionlib_modules_bridge;/home/handsome/ros_ws/install/tuw_multi_robot_msgs;/home/handsome/ros_ws/install/tuw_multi_robot_demo;/home/handsome/ros_ws/install/tuw_local_controller_msgs;/home/handsome/ros_ws/install/tuw_geometry_rviz;/home/handsome/ros_ws/install/tuw_geometry_msgs;/home/handsome/ros_ws/install/tuw_geometry;/home/handsome/ros_ws/install/tuw_gazebo_msgs;/home/handsome/ros_ws/install/tuw_control;/home/handsome/ros_ws/install/tuw_airskin_msgs;/home/handsome/ros_ws/install/turtlebot_teleop;/home/handsome/ros_ws/install/tug_example_pnp_server;/home/handsome/ros_ws/install/tug_example_actions;/home/handsome/ros_ws/install/tug_example_msgs;/home/handsome/ros_ws/install/timed_roslaunch;/home/handsome/ros_ws/install/teb2_local_planner;/home/handsome/ros_ws/install/stated_roslaunch;/home/handsome/ros_ws/install/spatio_temporal_voxel_layer;/home/handsome/ros_ws/install/robot_udp_bridge;/home/handsome/ros_ws/install/robot_database_bridge;/home/handsome/ros_ws/install/samsungcmd_msgs;/home/handsome/ros_ws/install/rplidar_ros;/home/handsome/ros_ws/install/rp_action;/home/handsome/ros_ws/install/rp_action_msgs;/home/handsome/ros_ws/install/rosserial_xbee;/home/handsome/ros_ws/install/rosserial_windows;/home/handsome/ros_ws/install/rosserial_tivac;/home/handsome/ros_ws/install/rosserial_test;/home/handsome/ros_ws/install/rosserial_server;/home/handsome/ros_ws/install/rosserial_python;/home/handsome/ros_ws/install/rosserial_mbed;/home/handsome/ros_ws/install/rosserial_embeddedlinux;/home/handsome/ros_ws/install/rosserial_arduino;/home/handsome/ros_ws/install/rosserial_client;/home/handsome/ros_ws/install/rosserial_msgs;/home/handsome/ros_ws/install/cellctrl_qtgui_bridge;/home/handsome/ros_ws/install/car_db_manager_qtgui;/home/handsome/ros_ws/install/car_db_manager_bridge;/home/handsome/ros_ws/install/car_db_manager_action;/home/handsome/ros_ws/install/ros_utility_tools;/home/handsome/ros_ws/install/ros_package_test;/home/handsome/ros_ws/install/ros_package_manager;/home/handsome/ros_ws/install/robot_scheduling_server;/home/handsome/ros_ws/install/robot_scheduling_msgs;/home/handsome/ros_ws/install/robot_localization;/home/handsome/ros_ws/install/robot_control_msgs;/home/handsome/ros_ws/install/reset_location;/home/handsome/ros_ws/install/razor_imu_9dof;/home/handsome/ros_ws/install/pnp_rosplan;/home/handsome/ros_ws/install/actionlib_pnp_controller;/home/handsome/ros_ws/install/actionlib_modules_controller;/home/handsome/ros_ws/install/pnp_ros;/home/handsome/ros_ws/install/pnp_msgs;/home/handsome/ros_ws/install/open_auto_dock;/home/handsome/ros_ws/install/open_auto_dock_msgs;/home/handsome/ros_ws/install/omron_os32c_driver;/home/handsome/ros_ws/install/dlux_plugins;/home/handsome/ros_ws/install/dlux_global_planner;/home/handsome/ros_ws/install/nav_grid_pub_sub;/home/handsome/ros_ws/install/dwb_critics;/home/handsome/ros_ws/install/nav_grid_iterators;/home/handsome/ros_ws/install/locomove_base;/home/handsome/ros_ws/install/locomotor;/home/handsome/ros_ws/install/nav_core_adapter;/home/handsome/ros_ws/install/dwb_plugins;/home/handsome/ros_ws/install/dwb_local_planner;/home/handsome/ros_ws/install/nav_2d_utils;/home/handsome/ros_ws/install/global_planner_tests;/home/handsome/ros_ws/install/costmap_queue;/home/handsome/ros_ws/install/nav_core2;/home/handsome/ros_ws/install/nav_grid;/home/handsome/ros_ws/install/car_schedule_msgs;/home/handsome/ros_ws/install/actionlib_modules_msgs;/home/handsome/ros_ws/install/locomotor_msgs;/home/handsome/ros_ws/install/dwb_msgs;/home/handsome/ros_ws/install/nav_2d_msgs;/home/handsome/ros_ws/install/mongodb_log;/home/handsome/ros_ws/install/mongodb_store;/home/handsome/ros_ws/install/mongodb_store_msgs;/home/handsome/ros_ws/install/ca_driver;/home/handsome/ros_ws/install/i_robot_stage;/home/handsome/ros_ws/install/i_robot_navigation;/home/handsome/ros_ws/install/hyc_order_planner;/home/handsome/ros_ws/install/hyc_multi_robot_msgs;/home/handsome/ros_ws/install/fetch_open_auto_dock;/home/handsome/ros_ws/install/fetch_auto_dock_msgs;/home/handsome/ros_ws/install/change_teb2_max_vel_x_onfly;/home/handsome/ros_ws/install/cellctrl_control_msgs;/home/handsome/ros_ws/install/car_db_manager_msgs;/home/handsome/ros_ws/install/ca_msgs;/home/handsome/ros_ws/install/ca_description;/home/handsome/ros_ws/install/botcmd_msgs;/opt/ros/melodic
+[8.670s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[8.670s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[8.671s] -- Using Debian Python package layout
+[8.674s] -- Using empy: /usr/bin/empy
+[9.173s] -- Using CATKIN_ENABLE_TESTING: ON
+[9.173s] -- Call enable_testing()
+[9.184s] -- Using CATKIN_TEST_RESULTS_DIR: /home/handsome/ros_ws_test/build/spatio_temporal_voxel_layer/test_results
+[9.260s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[9.260s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[9.323s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[9.325s] -- Looking for pthread.h
+[9.731s] -- Looking for pthread.h - found
+[9.733s] -- Looking for pthread_create
+[10.104s] -- Looking for pthread_create - not found
+[10.104s] -- Looking for pthread_create in pthreads
+[10.453s] -- Looking for pthread_create in pthreads - not found
+[10.453s] -- Looking for pthread_create in pthread
+[10.850s] -- Looking for pthread_create in pthread - found
+[10.852s] -- Found Threads: TRUE  
+[10.863s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[11.037s] -- catkin 0.7.28
+[11.037s] -- BUILD_SHARED_LIBS is on
+[12.524s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[16.362s] -- spatio_temporal_voxel_layer: 0 messages, 1 services
+[16.415s] -- Checking for module 'eigen3'
+[16.488s] --   Found eigen3, version 3.3.4
+[16.800s] -- Found eigen: /usr/include/eigen3  
+[17.402s] -- Boost version: 1.65.1
+[17.402s] -- Found the following Boost libraries:
+[17.403s] --   system
+[17.403s] --   filesystem
+[17.403s] --   thread
+[17.403s] --   date_time
+[17.403s] --   iostreams
+[17.403s] --   serialization
+[17.403s] --   chrono
+[17.404s] --   atomic
+[17.404s] --   regex
+[17.410s] -- Checking for module 'libopenni'
+[17.528s] --   Found libopenni, version 1.5.4.0
+[17.809s] -- Found openni: /usr/lib/libOpenNI.so  
+[17.811s] -- Checking for module 'libopenni2'
+[17.883s] --   Found libopenni2, version 2.2.0.3
+[18.210s] -- Found OpenNI2: /usr/lib/libOpenNI2.so  
+[18.242s] -- Could NOT find ensenso (missing: ENSENSO_LIBRARY ENSENSO_INCLUDE_DIR) 
+[18.242s] ** WARNING ** io features related to ensenso will be disabled
+[18.257s] -- Could NOT find DAVIDSDK (missing: DAVIDSDK_LIBRARY DAVIDSDK_INCLUDE_DIR) 
+[18.258s] ** WARNING ** io features related to davidSDK will be disabled
+[18.263s] -- Could NOT find DSSDK (missing: _DSSDK_LIBRARIES) 
+[18.263s] ** WARNING ** io features related to dssdk will be disabled
+[18.263s] ** WARNING ** io features related to pcap will be disabled
+[18.264s] ** WARNING ** io features related to png will be disabled
+[18.414s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[18.414s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[18.414s] but this file does not exist.  Possible reasons include:
+[18.414s] * The file was deleted, renamed, or moved to another location.
+[18.414s] * An install or uninstall procedure did not complete successfully.
+[18.414s] * The installation package was faulty and contained
+[18.414s]    "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+[18.415s] but not all the files it references.
+[18.415s] 
+[18.415s] -- The imported target "vtk" references the file
+[18.415s]    "/usr/bin/vtk"
+[18.415s] but this file does not exist.  Possible reasons include:
+[18.416s] * The file was deleted, renamed, or moved to another location.
+[18.416s] * An install or uninstall procedure did not complete successfully.
+[18.416s] * The installation package was faulty and contained
+[18.416s]    "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+[18.416s] but not all the files it references.
+[18.416s] 
+[18.716s] -- Found libusb-1.0: /usr/include  
+[18.716s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[18.718s] -- Checking for module 'flann'
+[18.836s] --   Found flann, version 1.9.1
+[19.154s] -- Found Flann: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a  
+[19.277s] -- Could NOT find ensenso (missing: ENSENSO_LIBRARY ENSENSO_INCLUDE_DIR) 
+[19.277s] ** WARNING ** visualization features related to ensenso will be disabled
+[19.291s] -- Could NOT find DAVIDSDK (missing: DAVIDSDK_LIBRARY DAVIDSDK_INCLUDE_DIR) 
+[19.292s] ** WARNING ** visualization features related to davidSDK will be disabled
+[19.296s] -- Could NOT find DSSDK (missing: _DSSDK_LIBRARIES) 
+[19.297s] ** WARNING ** visualization features related to dssdk will be disabled
+[19.302s] -- Could NOT find RSSDK (missing: _RSSDK_LIBRARIES) 
+[19.302s] ** WARNING ** visualization features related to rssdk will be disabled
+[19.428s] -- Found qhull: /usr/lib/x86_64-linux-gnu/libqhull.so  
+[19.505s] -- looking for PCL_COMMON
+[19.511s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[19.512s] -- looking for PCL_OCTREE
+[19.519s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[19.520s] -- looking for PCL_IO
+[19.525s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[19.526s] -- looking for PCL_KDTREE
+[19.530s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[19.531s] -- looking for PCL_SEARCH
+[19.535s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[19.536s] -- looking for PCL_SAMPLE_CONSENSUS
+[19.541s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[19.542s] -- looking for PCL_FILTERS
+[19.547s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[19.549s] -- looking for PCL_2D
+[19.551s] -- Found PCL_2D: /usr/include/pcl-1.8  
+[19.552s] -- looking for PCL_GEOMETRY
+[19.554s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.8  
+[19.555s] -- looking for PCL_FEATURES
+[19.558s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[19.560s] -- looking for PCL_ML
+[19.564s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[19.565s] -- looking for PCL_SEGMENTATION
+[19.569s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[19.570s] -- looking for PCL_VISUALIZATION
+[19.574s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[19.576s] -- looking for PCL_SURFACE
+[19.579s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[19.581s] -- looking for PCL_REGISTRATION
+[19.584s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[19.586s] -- looking for PCL_KEYPOINTS
+[19.590s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[19.591s] -- looking for PCL_TRACKING
+[19.595s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[19.596s] -- looking for PCL_RECOGNITION
+[19.601s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[19.604s] -- looking for PCL_STEREO
+[19.607s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[19.609s] -- looking for PCL_APPS
+[19.612s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[19.619s] -- looking for PCL_IN_HAND_SCANNER
+[19.621s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.8  
+[19.621s] -- looking for PCL_MODELER
+[19.623s] -- Found PCL_MODELER: /usr/include/pcl-1.8  
+[19.624s] -- looking for PCL_POINT_CLOUD_EDITOR
+[19.640s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.8  
+[19.643s] -- looking for PCL_OUTOFCORE
+[19.644s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[19.645s] -- looking for PCL_PEOPLE
+[19.648s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[19.714s] -- Found PCL: /usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_thread.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_serialization.so;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;/usr/lib/x86_64-linux-gnu/libpthread.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_common.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_common.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_octree.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_octree.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonDataModel;vtkCommonMath;vtkCommonCore;vtksys;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkInfovisCore;vtkFiltersExtraction;vtkCommonExecutionModel;vtkFiltersCore;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkftgl;vtkDICOMParser;vtkDomainsChemistry;vtkIOXML;vtkIOGeometry;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkFiltersAMR;vtkParallelCore;vtkIOLegacy;vtkFiltersFlowPaths;vtkFiltersGeneric;vtkFiltersHybrid;vtkImagingSources;vtkFiltersHyperTree;vtkFiltersImaging;vtkImagingGeneral;vtkFiltersModeling;vtkFiltersParallel;vtkFiltersParallelFlowPaths;vtkParallelMPI;vtkFiltersParallelGeometry;vtkFiltersParallelImaging;vtkFiltersParallelMPI;vtkFiltersParallelStatistics;vtkFiltersProgrammable;vtkFiltersPython;/usr/lib/x86_64-linux-gnu/libpython2.7.so;vtkWrappingPythonCore;vtkWrappingTools;vtkFiltersReebGraph;vtkFiltersSMP;vtkFiltersSelection;vtkFiltersTexture;vtkFiltersVerdict;verdict;vtkGUISupportQt;vtkInteractionStyle;vtkRenderingOpenGL;vtkImagingHybrid;vtkIOImage;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkGUISupportQtOpenGL;vtkGUISupportQtSQL;vtkIOSQL;sqlite3;vtkGUISupportQtWebkit;vtkViewsQt;vtkViewsInfovis;vtkInfovisLayout;vtkInfovisBoostGraphAlgorithms;vtkRenderingLabel;vtkViewsCore;vtkInteractionWidgets;vtkRenderingAnnotation;vtkImagingColor;vtkRenderingVolume;vtkGeovisCore;/usr/lib/x86_64-linux-gnu/libproj.so;vtkIOAMR;/usr/lib/x86_64-linux-gnu/hdf5/openmpi/libhdf5.so;/usr/lib/x86_64-linux-gnu/libsz.so;/usr/lib/x86_64-linux-gnu/libdl.so;/usr/lib/x86_64-linux-gnu/libm.so;/usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so;vtkIOEnSight;vtkIOExodus;vtkexoIIc;/usr/lib/x86_64-linux-gnu/libnetcdf_c++.so;/usr/lib/x86_64-linux-gnu/libnetcdf.so;vtkIOExport;vtkRenderingGL2PS;vtkRenderingContextOpenGL;/usr/lib/x86_64-linux-gnu/libgl2ps.so;vtkIOFFMPEG;vtkIOMovie;/usr/lib/x86_64-linux-gnu/libtheoraenc.so;/usr/lib/x86_64-linux-gnu/libtheoradec.so;/usr/lib/x86_64-linux-gnu/libogg.so;vtkIOGDAL;vtkIOGeoJSON;vtkIOImport;vtkIOInfovis;/usr/lib/x86_64-linux-gnu/libxml2.so;vtkIOLSDyna;vtkIOMINC;vtkIOMPIImage;vtkIOMPIParallel;vtkIOParallel;vtkIONetCDF;/usr/lib/x86_64-linux-gnu/libjsoncpp.so;vtkIOMySQL;vtkIOODBC;vtkIOPLY;vtkIOParallelExodus;vtkIOParallelLSDyna;vtkIOParallelNetCDF;vtkIOParallelXML;vtkIOPostgreSQL;vtkIOVPIC;VPIC;vtkIOVideo;vtkIOXdmf2;vtkxdmf2;vtkImagingMath;vtkImagingMorphological;vtkImagingStatistics;vtkImagingStencil;vtkInteractionImage;vtkLocalExample;vtkParallelMPI4Py;vtkPythonInterpreter;vtkRenderingExternal;vtkRenderingFreeTypeFontConfig;vtkRenderingImage;vtkRenderingLIC;vtkRenderingLOD;vtkRenderingMatplotlib;vtkRenderingParallel;vtkRenderingParallelLIC;vtkRenderingQt;vtkRenderingVolumeAMR;vtkRenderingVolumeOpenGL;vtkTestingGenericBridge;vtkTestingIOSQL;vtkTestingRendering;vtkViewsContext2D;vtkViewsGeovis;vtkWrappingJava;optimized;/usr/lib/x86_64-linux-gnu/libpcl_io.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_io.so;optimized;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;debug;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;optimized;/usr/lib/x86_64-linux-gnu/libpcl_kdtree.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_kdtree.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_search.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_search.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_filters.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_filters.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_features.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_features.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_ml.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_ml.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_segmentation.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_segmentation.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_visualization.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_visualization.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_surface.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_surface.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_registration.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_registration.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_keypoints.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_keypoints.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_tracking.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_tracking.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_recognition.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_recognition.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_stereo.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_stereo.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_apps.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_apps.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_outofcore.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_outofcore.so;optimized;/usr/lib/x86_64-linux-gnu/libpcl_people.so;debug;/usr/lib/x86_64-linux-gnu/libpcl_people.so;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_thread.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_serialization.so;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;/usr/lib/x86_64-linux-gnu/libpthread.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;optimized;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;debug;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;vtkChartsCore;vtkCommonColor;vtkCommonDataModel;vtkCommonMath;vtkCommonCore;vtksys;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkInfovisCore;vtkFiltersExtraction;vtkCommonExecutionModel;vtkFiltersCore;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkftgl;vtkDICOMParser;vtkDomainsChemistry;vtkIOXML;vtkIOGeometry;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkFiltersAMR;vtkParallelCore;vtkIOLegacy;vtkFiltersFlowPaths;vtkFiltersGeneric;vtkFiltersHybrid;vtkImagingSources;vtkFiltersHyperTree;vtkFiltersImaging;vtkImagingGeneral;vtkFiltersModeling;vtkFiltersParallel;vtkFiltersParallelFlowPaths;vtkParallelMPI;vtkFiltersParallelGeometry;vtkFiltersParallelImaging;vtkFiltersParallelMPI;vtkFiltersParallelStatistics;vtkFiltersProgrammable;vtkFiltersPython;/usr/lib/x86_64-linux-gnu/libpython2.7.so;vtkWrappingPythonCore;vtkWrappingTools;vtkFiltersReebGraph;vtkFiltersSMP;vtkFiltersSelection;vtkFiltersTexture;vtkFiltersVerdict;verdict;vtkGUISupportQt;vtkInteractionStyle;vtkRenderingOpenGL;vtkImagingHybrid;vtkIOImage;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkGUISupportQtOpenGL;vtkGUISupportQtSQL;vtkIOSQL;sqlite3;vtkGUISupportQtWebkit;vtkViewsQt;vtkViewsInfovis;vtkInfovisLayout;vtkInfovisBoostGraphAlgorithms;vtkRenderingLabel;vtkViewsCore;vtkInteractionWidgets;vtkRenderingAnnotation;vtkImagingColor;vtkRenderingVolume;vtkGeovisCore;/usr/lib/x86_64-linux-gnu/libproj.so;vtkIOAMR;/usr/lib/x86_64-linux-gnu/hdf5/openmpi/libhdf5.so;/usr/lib/x86_64-linux-gnu/libsz.so;/usr/lib/x86_64-linux-gnu/libdl.so;/usr/lib/x86_64-linux-gnu/libm.so;/usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so;vtkIOEnSight;vtkIOExodus;vtkexoIIc;/usr/lib/x86_64-linux-gnu/libnetcdf_c++.so;/usr/lib/x86_64-linux-gnu/libnetcdf.so;vtkIOExport;vtkRenderingGL2PS;vtkRenderingContextOpenGL;/usr/lib/x86_64-linux-gnu/libgl2ps.so;vtkIOFFMPEG;vtkIOMovie;/usr/lib/x86_64-linux-gnu/libtheoraenc.so;/usr/lib/x86_64-linux-gnu/libtheoradec.so;/usr/lib/x86_64-linux-gnu/libogg.so;vtkIOGDAL;vtkIOGeoJSON;vtkIOImport;vtkIOInfovis;/usr/lib/x86_64-linux-gnu/libxml2.so;vtkIOLSDyna;vtkIOMINC;vtkIOMPIImage;vtkIOMPIParallel;vtkIOParallel;vtkIONetCDF;/usr/lib/x86_64-linux-gnu/libjsoncpp.so;vtkIOMySQL;vtkIOODBC;vtkIOPLY;vtkIOParallelExodus;vtkIOParallelLSDyna;vtkIOParallelNetCDF;vtkIOParallelXML;vtkIOPostgreSQL;vtkIOVPIC;VPIC;vtkIOVideo;vtkIOXdmf2;vtkxdmf2;vtkImagingMath;vtkImagingMorphological;vtkImagingStatistics;vtkImagingStencil;vtkInteractionImage;vtkLocalExample;vtkParallelMPI4Py;vtkPythonInterpreter;vtkRenderingExternal;vtkRenderingFreeTypeFontConfig;vtkRenderingImage;vtkRenderingLIC;vtkRenderingLOD;vtkRenderingMatplotlib;vtkRenderingParallel;vtkRenderingParallelLIC;vtkRenderingQt;vtkRenderingVolumeAMR;vtkRenderingVolumeOpenGL;vtkTestingGenericBridge;vtkTestingIOSQL;vtkTestingRendering;vtkViewsContext2D;vtkViewsGeovis;vtkWrappingJava  
+[19.725s] -- Found OpenVDB: /usr/local  
+[19.882s] -- Boost version: 1.65.1
+[19.882s] -- Found the following Boost libraries:
+[19.882s] --   system
+[19.883s] --   thread
+[19.883s] --   chrono
+[19.883s] --   date_time
+[19.883s] --   atomic
+[20.816s] -- Configuring done
+[21.103s] -- Generating done
+[21.132s] -- Build files have been written to: /home/handsome/ros_ws_test/build/spatio_temporal_voxel_layer
+[21.156s] Invoked command in '/home/handsome/ros_ws_test/build/spatio_temporal_voxel_layer' returned '0': /usr/bin/cmake /home/handsome/ros_ws_test/src/ros_base/spatio_temporal_voxel_layer -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer
+[21.159s] Invoking command in '/home/handsome/ros_ws_test/build/spatio_temporal_voxel_layer': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/spatio_temporal_voxel_layer -- -j12 -l12
+[21.401s] [35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[21.479s] [  0%] Built target std_msgs_generate_messages_cpp
+[21.517s] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[21.583s] [  0%] Built target std_msgs_generate_messages_eus
+[21.685s] [35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_eus[0m
+[21.744s] [  0%] Built target dynamic_reconfigure_generate_messages_eus
+[21.795s] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[21.832s] [  0%] Built target std_msgs_generate_messages_lisp
+[21.878s] [35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_lisp[0m
+[21.922s] [  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[21.969s] [35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_nodejs[0m
+[22.001s] [  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[22.075s] [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[22.117s] [  0%] Built target std_msgs_generate_messages_nodejs
+[22.166s] [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[22.214s] [  0%] Built target std_msgs_generate_messages_py
+[22.291s] [35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_py[0m
+[22.376s] [  0%] Built target dynamic_reconfigure_generate_messages_py
+[22.425s] [35m[1mScanning dependencies of target spatio_temporal_voxel_layer_gencfg[0m
+[22.525s] [  6%] [34m[1mGenerating dynamic reconfigure files from cfg/SpatioTemporalVoxelLayer.cfg: /home/handsome/ros_ws_test/build/spatio_temporal_voxel_layer/devel/include/spatio_temporal_voxel_layer/SpatioTemporalVoxelLayerConfig.h /home/handsome/ros_ws_test/build/spatio_temporal_voxel_layer/devel/lib/python2.7/dist-packages/spatio_temporal_voxel_layer/cfg/SpatioTemporalVoxelLayerConfig.py[0m
+[22.720s] Generating reconfiguration files for SpatioTemporalVoxelLayer in spatio_temporal_voxel_layer
+[22.727s] Wrote header file in /home/handsome/ros_ws_test/build/spatio_temporal_voxel_layer/devel/include/spatio_temporal_voxel_layer/SpatioTemporalVoxelLayerConfig.h
+[22.949s] [  6%] Built target spatio_temporal_voxel_layer_gencfg
+[22.972s] [35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_cpp[0m
+[23.008s] [  6%] Built target dynamic_reconfigure_generate_messages_cpp
+[23.051s] [35m[1mScanning dependencies of target _spatio_temporal_voxel_layer_generate_messages_check_deps_SaveGrid[0m
+[23.291s] [  6%] Built target _spatio_temporal_voxel_layer_generate_messages_check_deps_SaveGrid
+[23.331s] [35m[1mScanning dependencies of target spatio_temporal_voxel_layer_generate_messages_cpp[0m
+[23.383s] [ 13%] [34m[1mGenerating C++ code from spatio_temporal_voxel_layer/SaveGrid.srv[0m
+[23.950s] [ 13%] Built target spatio_temporal_voxel_layer_generate_messages_cpp
+[23.995s] [35m[1mScanning dependencies of target spatio_temporal_voxel_layer_generate_messages_eus[0m
+[24.039s] [ 20%] [34m[1mGenerating EusLisp code from spatio_temporal_voxel_layer/SaveGrid.srv[0m
+[24.292s] [ 26%] [34m[1mGenerating EusLisp manifest code for spatio_temporal_voxel_layer[0m
+[26.590s] [ 26%] Built target spatio_temporal_voxel_layer_generate_messages_eus
+[26.647s] [35m[1mScanning dependencies of target spatio_temporal_voxel_layer[0m
+[27.081s] [ 33%] [32mBuilding CXX object CMakeFiles/spatio_temporal_voxel_layer.dir/src/spatio_temporal_voxel_layer.cpp.o[0m
+[65.082s] [ 40%] [32mBuilding CXX object CMakeFiles/spatio_temporal_voxel_layer.dir/src/vdb2pc.cpp.o[0m
+[79.852s] [ 46%] [32mBuilding CXX object CMakeFiles/spatio_temporal_voxel_layer.dir/src/frustum_models/three_dimensional_lidar_frustum.cpp.o[0m
+[84.386s] [ 53%] [32mBuilding CXX object CMakeFiles/spatio_temporal_voxel_layer.dir/src/frustum_models/depth_camera_frustum.cpp.o[0m
+[92.866s] [ 60%] [32mBuilding CXX object CMakeFiles/spatio_temporal_voxel_layer.dir/src/measurement_buffer.cpp.o[0m
+[105.445s] [ 66%] [32mBuilding CXX object CMakeFiles/spatio_temporal_voxel_layer.dir/src/spatio_temporal_voxel_grid.cpp.o[0m
+[116.814s] [ 73%] [32m[1mLinking CXX shared library devel/lib/libspatio_temporal_voxel_layer.so[0m
+[120.012s] [ 73%] Built target spatio_temporal_voxel_layer
+[120.025s] [35m[1mScanning dependencies of target spatio_temporal_voxel_layer_generate_messages_nodejs[0m
+[120.025s] [35m[1mScanning dependencies of target spatio_temporal_voxel_layer_generate_messages_py[0m
+[120.025s] [35m[1mScanning dependencies of target spatio_temporal_voxel_layer_generate_messages_lisp[0m
+[120.039s] [ 93%] [34m[1mGenerating Javascript code from spatio_temporal_voxel_layer/SaveGrid.srv[0m
+[120.039s] [ 93%] [34m[1mGenerating Python code from SRV spatio_temporal_voxel_layer/SaveGrid[0m
+[120.039s] [ 93%] [34m[1mGenerating Lisp code from spatio_temporal_voxel_layer/SaveGrid.srv[0m
+[120.099s] [ 93%] Built target spatio_temporal_voxel_layer_generate_messages_nodejs
+[120.099s] [ 93%] Built target spatio_temporal_voxel_layer_generate_messages_lisp
+[120.150s] [100%] [34m[1mGenerating Python srv __init__.py for spatio_temporal_voxel_layer[0m
+[120.256s] [100%] Built target spatio_temporal_voxel_layer_generate_messages_py
+[120.269s] [35m[1mScanning dependencies of target spatio_temporal_voxel_layer_generate_messages[0m
+[120.281s] [100%] Built target spatio_temporal_voxel_layer_generate_messages

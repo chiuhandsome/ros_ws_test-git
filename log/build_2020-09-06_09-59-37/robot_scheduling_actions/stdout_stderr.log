@@ -1,0 +1,45 @@
+[35m[1mScanning dependencies of target robot_scheduling_actions_node[0m
+[  9%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/private_actions/robot_if_proc_upper_action.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/robot_scheduling_actions.cpp.o[0m
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_if_proc_upper_action.cpp:[m[K In member function ‘[01m[Kvoid robot_if_proc_upper_action::set_robot_scheduling_parameter(robot_scheduling_parameter*)[m[K’:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_if_proc_upper_action.cpp:134:59:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_info[m[K’ is not a member of ‘[01m[Krobot_scheduling_msgs[m[K’
+     pubRobot_state = nh_.advertise<robot_scheduling_msgs::[01;31m[Krobot_info[m[K>("hyc_robot_state", 10);
+                                                           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_if_proc_upper_action.cpp:134:59:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Krobot_state[m[K’
+     pubRobot_state = nh_.advertise<robot_scheduling_msgs::[01;36m[Krobot_info[m[K>("hyc_robot_state", 10);
+                                                           [01;36m[K^~~~~~~~~~[m[K
+                                                           [32m[Krobot_state[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_if_proc_upper_action.cpp:134:59:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_info[m[K’ is not a member of ‘[01m[Krobot_scheduling_msgs[m[K’
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_if_proc_upper_action.cpp:134:59:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Krobot_state[m[K’
+     pubRobot_state = nh_.advertise<robot_scheduling_msgs::[01;36m[Krobot_info[m[K>("hyc_robot_state", 10);
+                                                           [01;36m[K^~~~~~~~~~[m[K
+                                                           [32m[Krobot_state[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_if_proc_upper_action.cpp:134:92:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::NodeHandle::advertise<<expression error> >(const char [16], int)[m[K’
+     pubRobot_state = nh_.advertise<robot_scheduling_msgs::robot_info>("hyc_robot_state", 10[01;31m[K)[m[K;
+                                                                                            [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/private_actions/robot_if_proc_upper_action.h:4[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_if_proc_upper_action.cpp:1[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:249:15:[m[K [01;36m[Knote: [m[Kcandidate: template<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, bool)
+     Publisher [01;36m[Kadvertise[m[K(const std::string& topic, uint32_t queue_size, bool latch = false)
+               [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:249:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_if_proc_upper_action.cpp:134:92:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+     pubRobot_state = nh_.advertise<robot_scheduling_msgs::robot_info>("hyc_robot_state", 10[01;31m[K)[m[K;
+                                                                                            [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/private_actions/robot_if_proc_upper_action.h:4[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_if_proc_upper_action.cpp:1[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:315:13:[m[K [01;36m[Knote: [m[Kcandidate: template<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, const SubscriberStatusCallback&, const SubscriberStatusCallback&, const VoidConstPtr&, bool)
+   Publisher [01;36m[Kadvertise[m[K(const std::string& topic, uint32_t queue_size,
+             [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:315:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_if_proc_upper_action.cpp:134:92:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+     pubRobot_state = nh_.advertise<robot_scheduling_msgs::robot_info>("hyc_robot_state", 10[01;31m[K)[m[K;
+                                                                                            [01;31m[K^[m[K
+CMakeFiles/robot_scheduling_actions_node.dir/build.make:182: recipe for target 'CMakeFiles/robot_scheduling_actions_node.dir/src/private_actions/robot_if_proc_upper_action.cpp.o' failed
+make[2]: *** [CMakeFiles/robot_scheduling_actions_node.dir/src/private_actions/robot_if_proc_upper_action.cpp.o] Error 1
+make[1]: *** [CMakeFiles/robot_scheduling_actions_node.dir/all] Error 2
+CMakeFiles/Makefile2:483: recipe for target 'CMakeFiles/robot_scheduling_actions_node.dir/all' failed
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

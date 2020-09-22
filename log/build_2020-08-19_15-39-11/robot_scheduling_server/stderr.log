@@ -1,0 +1,7 @@
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_server/src/robot_scheduling_pnp_server.cpp:[m[K In member function ‘[01m[Kvoid robot_scheduling_pnp_server::getRunStatus(bool*, std::__cxx11::string)[m[K’:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_server/src/robot_scheduling_pnp_server.cpp:303:34:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<std::__cxx11::basic_string<char> > >::value_type {aka std::__cxx11::basic_string<char>}[m[K’ to ‘[01m[Krobot_scheduling_msgs::robot_run_stateGoal_<std::allocator<void> >::_set_status_type {aka unsigned char}[m[K’ in assignment
+     goal.set_status = v_params_[0[01;31m[K][m[K ;//strtoint(v_params_[0],0);
+                                  [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/robot_scheduling_server_node.dir/src/robot_scheduling_pnp_server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/robot_scheduling_server_node.dir/all] Error 2
+make: *** [all] Error 2

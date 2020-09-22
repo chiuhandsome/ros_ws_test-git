@@ -1,0 +1,14 @@
+[35m[1mScanning dependencies of target robot_scheduling_actions_node[0m
+[  9%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/robot_scheduling_actions.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/private_actions/robot_if_params_action.cpp.o[0m
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_if_params_action.cpp:[m[K In member function ‘[01m[Kvoid robot_if_params_action::if_params_CB(const robot_interface_paramsGoalConstPtr&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_if_params_action.cpp:38:81:[m[K [01;31m[Kerror: [m[K‘[01m[KWORK_SHEET[m[K’ is not a member of ‘[01m[Krobot_scheduling_msgs::robot_interface_paramsGoal {aka robot_scheduling_msgs::robot_interface_paramsGoal_<std::allocator<void> >}[m[K’
+         else if(data_type == robot_scheduling_msgs::robot_interface_paramsGoal::[01;31m[KWORK_SHEET[m[K){
+                                                                                 [01;31m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/robot_scheduling_actions_node.dir/src/private_actions/robot_if_params_action.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+CMakeFiles/robot_scheduling_actions_node.dir/build.make:302: recipe for target 'CMakeFiles/robot_scheduling_actions_node.dir/src/private_actions/robot_if_params_action.cpp.o' failed
+CMakeFiles/Makefile2:227: recipe for target 'CMakeFiles/robot_scheduling_actions_node.dir/all' failed
+make[1]: *** [CMakeFiles/robot_scheduling_actions_node.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

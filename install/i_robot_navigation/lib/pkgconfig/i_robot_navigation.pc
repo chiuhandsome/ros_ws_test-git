@@ -1,0 +1,8 @@
+prefix=/home/handsome/ros_ws_test/install/i_robot_navigation
+
+Name: i_robot_navigation
+Description: Description of i_robot_navigation
+Version: 2.3.7
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: tf roscpp sensor_msgs

@@ -1,0 +1,37 @@
+[  2%] [34m[1mAutomatic MOC, UIC and RCC for target cellctrl_qtgui_bridge_node[0m
+[  2%] Built target cellctrl_qtgui_bridge_node_autogen
+[100%] Built target cellctrl_qtgui_bridge_node
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[  2%] [34m[1mAutomatic MOC, UIC and RCC for target cellctrl_qtgui_bridge_node[0m
+[  2%] Built target cellctrl_qtgui_bridge_node_autogen
+[100%] Built target cellctrl_qtgui_bridge_node
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/handsome/ros_ws_test/install/cellctrl_qtgui_bridge/lib/pkgconfig/cellctrl_qtgui_bridge.pc
+-- Installing: /home/handsome/ros_ws_test/install/cellctrl_qtgui_bridge/share/cellctrl_qtgui_bridge/cmake/cellctrl_qtgui_bridgeConfig.cmake
+-- Installing: /home/handsome/ros_ws_test/install/cellctrl_qtgui_bridge/share/cellctrl_qtgui_bridge/cmake/cellctrl_qtgui_bridgeConfig-version.cmake
+-- Installing: /home/handsome/ros_ws_test/install/cellctrl_qtgui_bridge/share/cellctrl_qtgui_bridge/package.xml
+-- Installing: /home/handsome/ros_ws_test/install/cellctrl_qtgui_bridge/lib/cellctrl_qtgui_bridge/cellctrl_qtgui_bridge_node
+-- Set runtime path of "/home/handsome/ros_ws_test/install/cellctrl_qtgui_bridge/lib/cellctrl_qtgui_bridge/cellctrl_qtgui_bridge_node" to ""
+-- Installing: /home/handsome/ros_ws_test/install/cellctrl_qtgui_bridge/share/cellctrl_qtgui_bridge/launch
+-- Installing: /home/handsome/ros_ws_test/install/cellctrl_qtgui_bridge/share/cellctrl_qtgui_bridge/launch/cellctrl_qtgui_bridge.launch
+-- Installing: /home/handsome/ros_ws_test/install/cellctrl_qtgui_bridge/share/cellctrl_qtgui_bridge/config
+-- Installing: /home/handsome/ros_ws_test/install/cellctrl_qtgui_bridge/share/cellctrl_qtgui_bridge/config/robot_control_manage_params.yaml
+-- Installing: /home/handsome/ros_ws_test/install/cellctrl_qtgui_bridge/include/cellctrl_qtgui_bridge
+-- Installing: /home/handsome/ros_ws_test/install/cellctrl_qtgui_bridge/include/cellctrl_qtgui_bridge/cell_controller
+-- Installing: /home/handsome/ros_ws_test/install/cellctrl_qtgui_bridge/include/cellctrl_qtgui_bridge/cell_controller/ros_controlmodel.h
+-- Installing: /home/handsome/ros_ws_test/install/cellctrl_qtgui_bridge/include/cellctrl_qtgui_bridge/cell_controller/app_form
+-- Installing: /home/handsome/ros_ws_test/install/cellctrl_qtgui_bridge/include/cellctrl_qtgui_bridge/cell_controller/app_form/frm_cellcontroller.h
+-- Installing: /home/handsome/ros_ws_test/install/cellctrl_qtgui_bridge/include/cellctrl_qtgui_bridge/cell_controller/app_form/frmdb_basetable.h
+-- Installing: /home/handsome/ros_ws_test/install/cellctrl_qtgui_bridge/include/cellctrl_qtgui_bridge/cell_controller/app_form/frmdb_relatedtable.h
+-- Installing: /home/handsome/ros_ws_test/install/cellctrl_qtgui_bridge/include/cellctrl_qtgui_bridge/cell_controller/utility
+-- Installing: /home/handsome/ros_ws_test/install/cellctrl_qtgui_bridge/include/cellctrl_qtgui_bridge/cell_controller/utility/frmShowDialog.h
+-- Installing: /home/handsome/ros_ws_test/install/cellctrl_qtgui_bridge/include/cellctrl_qtgui_bridge/cell_controller/utility/qt_generaltools.h
+-- Installing: /home/handsome/ros_ws_test/install/cellctrl_qtgui_bridge/include/cellctrl_qtgui_bridge/cell_controller/cellctrl_qtgui_Interface.h
+-- Installing: /home/handsome/ros_ws_test/install/cellctrl_qtgui_bridge/include/cellctrl_qtgui_bridge/cell_controller/testform.h
+-- Installing: /home/handsome/ros_ws_test/install/cellctrl_qtgui_bridge/include/cellctrl_qtgui_bridge/cell_controller/qt_app_model.h
+-- Installing: /home/handsome/ros_ws_test/install/cellctrl_qtgui_bridge/include/cellctrl_qtgui_bridge/cell_controller/cellctrl_qtgui_bridge.h
+-- Installing: /home/handsome/ros_ws_test/install/cellctrl_qtgui_bridge/include/cellctrl_qtgui_bridge/cell_controller/mainwindow.h
+-- Installing: /home/handsome/ros_ws_test/install/cellctrl_qtgui_bridge/include/cellctrl_qtgui_bridge/cell_controller/project
+-- Installing: /home/handsome/ros_ws_test/install/cellctrl_qtgui_bridge/include/cellctrl_qtgui_bridge/cell_controller/project/project_definition.h

@@ -1,0 +1,23 @@
+(cl:defpackage pnp_msgs-msg
+  (:use )
+  (:export
+   "<ACTION>"
+   "ACTION"
+   "<ACTIONFINISHED>"
+   "ACTIONFINISHED"
+   "<PNPACTION>"
+   "PNPACTION"
+   "<PNPACTIONFEEDBACK>"
+   "PNPACTIONFEEDBACK"
+   "<PNPACTIONGOAL>"
+   "PNPACTIONGOAL"
+   "<PNPACTIONRESULT>"
+   "PNPACTIONRESULT"
+   "<PNPFEEDBACK>"
+   "PNPFEEDBACK"
+   "<PNPGOAL>"
+   "PNPGOAL"
+   "<PNPRESULT>"
+   "PNPRESULT"
+  ))
+

@@ -1,0 +1,18 @@
+# Define the goal
+string call_aclib_name
+geometry_msgs/PoseStamped dock_pose
+string dock_id
+bool use_move_base
+float32 post_time
+bool use_timeout
+float32 timeout
+---
+# Define the result
+uint8 OK=1
+uint8 NOT_OK=2
+uint8 TIMED_OUT=3
+uint8 result
+---
+# Define a feedback message
+geometry_msgs/PoseStamped dock_pose
+geometry_msgs/Twist command

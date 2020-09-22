@@ -1,0 +1,33 @@
+
+(cl:in-package :asdf)
+
+(defsystem "robot_control_msgs-msg"
+  :depends-on (:roslisp-msg-protocol :roslisp-utils :geometry_msgs-msg
+               :std_msgs-msg
+)
+  :components ((:file "_package")
+    (:file "Imu" :depends-on ("_package_Imu"))
+    (:file "_package_Imu" :depends-on ("_package"))
+    (:file "PID" :depends-on ("_package_PID"))
+    (:file "_package_PID" :depends-on ("_package"))
+    (:file "Velocities" :depends-on ("_package_Velocities"))
+    (:file "_package_Velocities" :depends-on ("_package"))
+    (:file "hyc_RobotInfo" :depends-on ("_package_hyc_RobotInfo"))
+    (:file "_package_hyc_RobotInfo" :depends-on ("_package"))
+    (:file "hyc_Station" :depends-on ("_package_hyc_Station"))
+    (:file "_package_hyc_Station" :depends-on ("_package"))
+    (:file "hyc__alarmHistory_msg" :depends-on ("_package_hyc__alarmHistory_msg"))
+    (:file "_package_hyc__alarmHistory_msg" :depends-on ("_package"))
+    (:file "hyc_alarmCode_msg" :depends-on ("_package_hyc_alarmCode_msg"))
+    (:file "_package_hyc_alarmCode_msg" :depends-on ("_package"))
+    (:file "hyc_heartbeat" :depends-on ("_package_hyc_heartbeat"))
+    (:file "_package_hyc_heartbeat" :depends-on ("_package"))
+    (:file "hyc_roslog _msg" :depends-on ("_package_hyc_roslog _msg"))
+    (:file "_package_hyc_roslog _msg" :depends-on ("_package"))
+    (:file "robot_ctrl_alarmCode" :depends-on ("_package_robot_ctrl_alarmCode"))
+    (:file "_package_robot_ctrl_alarmCode" :depends-on ("_package"))
+    (:file "robot_ctrl_alarmHistory" :depends-on ("_package_robot_ctrl_alarmHistory"))
+    (:file "_package_robot_ctrl_alarmHistory" :depends-on ("_package"))
+    (:file "robot_ctrl_roslog" :depends-on ("_package_robot_ctrl_roslog"))
+    (:file "_package_robot_ctrl_roslog" :depends-on ("_package"))
+  ))

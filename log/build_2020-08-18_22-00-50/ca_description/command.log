@@ -1,0 +1,6 @@
+Invoking command in '/home/handsome/ros_ws_test/build/ca_description': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/ca_description -- -j12 -l12
+Invoked command in '/home/handsome/ros_ws_test/build/ca_description' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/ca_description -- -j12 -l12
+Invoking command in '/home/handsome/ros_ws_test/build/ca_description': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/ca_description --target tests -- -j12 -l12
+Invoked command in '/home/handsome/ros_ws_test/build/ca_description' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/ca_description --target tests -- -j12 -l12
+Invoking command in '/home/handsome/ros_ws_test/build/ca_description': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/ca_description --target install -- -j12 -l12
+Invoked command in '/home/handsome/ros_ws_test/build/ca_description' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/ca_description --target install -- -j12 -l12

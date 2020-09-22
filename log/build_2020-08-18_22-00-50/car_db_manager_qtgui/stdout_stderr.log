@@ -1,0 +1,38 @@
+[  2%] [34m[1mAutomatic MOC, UIC and RCC for target car_db_manager_qtgui_node[0m
+[  2%] Built target car_db_manager_qtgui_node_autogen
+[100%] Built target car_db_manager_qtgui_node
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[  2%] [34m[1mAutomatic MOC, UIC and RCC for target car_db_manager_qtgui_node[0m
+[  2%] Built target car_db_manager_qtgui_node_autogen
+[100%] Built target car_db_manager_qtgui_node
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/handsome/ros_ws_test/install/car_db_manager_qtgui/lib/pkgconfig/car_db_manager_qtgui.pc
+-- Installing: /home/handsome/ros_ws_test/install/car_db_manager_qtgui/share/car_db_manager_qtgui/cmake/car_db_manager_qtguiConfig.cmake
+-- Installing: /home/handsome/ros_ws_test/install/car_db_manager_qtgui/share/car_db_manager_qtgui/cmake/car_db_manager_qtguiConfig-version.cmake
+-- Installing: /home/handsome/ros_ws_test/install/car_db_manager_qtgui/share/car_db_manager_qtgui/package.xml
+-- Installing: /home/handsome/ros_ws_test/install/car_db_manager_qtgui/lib/car_db_manager_qtgui/car_db_manager_qtgui_node
+-- Set runtime path of "/home/handsome/ros_ws_test/install/car_db_manager_qtgui/lib/car_db_manager_qtgui/car_db_manager_qtgui_node" to ""
+-- Installing: /home/handsome/ros_ws_test/install/car_db_manager_qtgui/share/car_db_manager_qtgui/launch
+-- Installing: /home/handsome/ros_ws_test/install/car_db_manager_qtgui/share/car_db_manager_qtgui/launch/car_db_manager_qtgui.launch
+-- Installing: /home/handsome/ros_ws_test/install/car_db_manager_qtgui/share/car_db_manager_qtgui/config
+-- Installing: /home/handsome/ros_ws_test/install/car_db_manager_qtgui/share/car_db_manager_qtgui/config/robot_control_manage_params.yaml
+-- Installing: /home/handsome/ros_ws_test/install/car_db_manager_qtgui/include/car_db_manager_qtgui
+-- Installing: /home/handsome/ros_ws_test/install/car_db_manager_qtgui/include/car_db_manager_qtgui/car_db_manager
+-- Installing: /home/handsome/ros_ws_test/install/car_db_manager_qtgui/include/car_db_manager_qtgui/car_db_manager/app_form
+-- Installing: /home/handsome/ros_ws_test/install/car_db_manager_qtgui/include/car_db_manager_qtgui/car_db_manager/app_form/frm_cellcontroller.h
+-- Installing: /home/handsome/ros_ws_test/install/car_db_manager_qtgui/include/car_db_manager_qtgui/car_db_manager/app_form/frmdb_relatetable.h
+-- Installing: /home/handsome/ros_ws_test/install/car_db_manager_qtgui/include/car_db_manager_qtgui/car_db_manager/app_form/frmdb_basetable.h
+-- Installing: /home/handsome/ros_ws_test/install/car_db_manager_qtgui/include/car_db_manager_qtgui/car_db_manager/utility
+-- Installing: /home/handsome/ros_ws_test/install/car_db_manager_qtgui/include/car_db_manager_qtgui/car_db_manager/utility/frmShowDialog.h
+-- Installing: /home/handsome/ros_ws_test/install/car_db_manager_qtgui/include/car_db_manager_qtgui/car_db_manager/utility/qt_generaltools.h
+-- Installing: /home/handsome/ros_ws_test/install/car_db_manager_qtgui/include/car_db_manager_qtgui/car_db_manager/car_db_manager_qtgui_bridge.h
+-- Installing: /home/handsome/ros_ws_test/install/car_db_manager_qtgui/include/car_db_manager_qtgui/car_db_manager/qt_app_model.h
+-- Installing: /home/handsome/ros_ws_test/install/car_db_manager_qtgui/include/car_db_manager_qtgui/car_db_manager/controller
+-- Installing: /home/handsome/ros_ws_test/install/car_db_manager_qtgui/include/car_db_manager_qtgui/car_db_manager/controller/ros_controlmodel.h
+-- Installing: /home/handsome/ros_ws_test/install/car_db_manager_qtgui/include/car_db_manager_qtgui/car_db_manager/controller/ros_control_related.h
+-- Installing: /home/handsome/ros_ws_test/install/car_db_manager_qtgui/include/car_db_manager_qtgui/car_db_manager/car_db_manager_qtgui_Interface.h
+-- Installing: /home/handsome/ros_ws_test/install/car_db_manager_qtgui/include/car_db_manager_qtgui/car_db_manager/mainwindow.h
+-- Installing: /home/handsome/ros_ws_test/install/car_db_manager_qtgui/include/car_db_manager_qtgui/car_db_manager/project
+-- Installing: /home/handsome/ros_ws_test/install/car_db_manager_qtgui/include/car_db_manager_qtgui/car_db_manager/project/project_definition.h

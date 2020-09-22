@@ -1,0 +1,19 @@
+<launch>
+  <node name="auto_dock" pkg="fetch_open_auto_dock" type="auto_dock" output="screen" >
+    <!--<remap from="/base_scan" to="/scan" />-->
+    <remap from="cmd_vel" to="cmd_vel_mux/input/dock"/>
+    <rosparam file="$(find fetch_open_auto_dock)/launch/auto_dock_params.yaml" command="load" />
+    <!-- <rosparam file="$(find fetch_open_auto_dock)/launch/arm_params.yaml" command="load" /> -->
+    <!-- <rosparam file="$(find fetch_open_auto_dock)/launch/arm_params_test.yaml" command="load" /> -->
+  </node>
+
+  <!--
+  <node pkg="tf" type="static_transform_publisher" name="link1_broadcaster" args="1 0 0 0 0 0 1 odom base_footprint 100" />
+  -->
+
+
+
+  <!--<node name="dock_on_button" pkg="fetch_open_auto_dock" type="dock_on_button.py" required="true" output="screen" />
+  <node name="undock_on_button" pkg="fetch_open_auto_dock" type="undock_on_button.py" required="true" output="screen"/>-->
+
+</launch>

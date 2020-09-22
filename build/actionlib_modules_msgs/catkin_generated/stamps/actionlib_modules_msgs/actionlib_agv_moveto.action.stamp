@@ -1,0 +1,19 @@
+# Define the goal
+nav_2d_msgs/Pose2DStamped goal
+string call_aclib_name
+float32 post_time
+bool use_timeout
+float32 timeout
+---
+# Define the result
+uint8 OK=1
+uint8 NOT_OK=2
+uint8 TIMED_OUT=3
+uint8 result
+locomotor_msgs/ResultCode result_code
+---
+# Define a feedback message
+locomotor_msgs/NavigationState state
+float32 percent_complete
+float32 distance_traveled
+float32 estimated_distance_remaining

@@ -1,0 +1,6 @@
+Invoking command in '/home/handsome/ros_ws_test/build/stated_roslaunch': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/stated_roslaunch -- -j12 -l12
+Invoked command in '/home/handsome/ros_ws_test/build/stated_roslaunch' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/stated_roslaunch -- -j12 -l12
+Invoking command in '/home/handsome/ros_ws_test/build/stated_roslaunch': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/stated_roslaunch --target tests -- -j12 -l12
+Invoked command in '/home/handsome/ros_ws_test/build/stated_roslaunch' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/stated_roslaunch --target tests -- -j12 -l12
+Invoking command in '/home/handsome/ros_ws_test/build/stated_roslaunch': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/stated_roslaunch --target install -- -j12 -l12
+Invoked command in '/home/handsome/ros_ws_test/build/stated_roslaunch' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/stated_roslaunch --target install -- -j12 -l12

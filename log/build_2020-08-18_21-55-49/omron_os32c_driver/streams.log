@@ -1,0 +1,104 @@
+[0.085s] Invoking command in '/home/handsome/ros_ws_test/build/omron_os32c_driver': /usr/bin/cmake /home/handsome/ros_ws_test/src/ros_base/sensor_source/omron/omron_os32c_driver -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/handsome/ros_ws_test/install/omron_os32c_driver
+[0.433s] -- The C compiler identification is GNU 7.5.0
+[0.729s] -- The CXX compiler identification is GNU 7.5.0
+[0.769s] -- Check for working C compiler: /usr/bin/cc
+[1.038s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.039s] -- Detecting C compiler ABI info
+[1.350s] -- Detecting C compiler ABI info - done
+[1.373s] -- Detecting C compile features
+[2.106s] -- Detecting C compile features - done
+[2.111s] -- Check for working CXX compiler: /usr/bin/c++
+[2.368s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.370s] -- Detecting CXX compiler ABI info
+[2.621s] -- Detecting CXX compiler ABI info - done
+[2.638s] -- Detecting CXX compile features
+[3.680s] -- Detecting CXX compile features - done
+[3.702s] -- Using CATKIN_DEVEL_PREFIX: /home/handsome/ros_ws_test/build/omron_os32c_driver/devel
+[3.702s] -- Using CMAKE_PREFIX_PATH: /home/handsome/ros_ws/install/yocs_cmd_vel_mux;/home/handsome/ros_ws/install/urdf_tutorial;/home/handsome/ros_ws/install/tuw_waypoint_to_spline_msgs;/home/handsome/ros_ws/install/tuw_multi_robot_router;/home/handsome/ros_ws/install/tuw_voronoi_graph;/home/handsome/ros_ws/install/tuw_vehicle_msgs;/home/handsome/ros_ws/install/tuw_order_planner;/home/handsome/ros_ws/install/tuw_object_rviz;/home/handsome/ros_ws/install/tuw_object_msgs;/home/handsome/ros_ws/install/tuw_nav_rviz;/home/handsome/ros_ws/install/tuw_multi_robot_local_behavior_controller;/home/handsome/ros_ws/install/tuw_multi_robot_ctrl;/home/handsome/ros_ws/install/tuw_nav_msgs;/home/handsome/ros_ws/install/tuw_multi_robot_rviz;/home/handsome/ros_ws/install/tuw_multi_robot_goal_generator;/home/handsome/ros_ws/install/robot_scheduling_utility;/home/handsome/ros_ws/install/robot_scheduling_actions;/home/handsome/ros_ws/install/actionlib_modules_bridge;/home/handsome/ros_ws/install/tuw_multi_robot_msgs;/home/handsome/ros_ws/install/tuw_multi_robot_demo;/home/handsome/ros_ws/install/tuw_local_controller_msgs;/home/handsome/ros_ws/install/tuw_geometry_rviz;/home/handsome/ros_ws/install/tuw_geometry_msgs;/home/handsome/ros_ws/install/tuw_geometry;/home/handsome/ros_ws/install/tuw_gazebo_msgs;/home/handsome/ros_ws/install/tuw_control;/home/handsome/ros_ws/install/tuw_airskin_msgs;/home/handsome/ros_ws/install/turtlebot_teleop;/home/handsome/ros_ws/install/tug_example_pnp_server;/home/handsome/ros_ws/install/tug_example_actions;/home/handsome/ros_ws/install/tug_example_msgs;/home/handsome/ros_ws/install/timed_roslaunch;/home/handsome/ros_ws/install/teb2_local_planner;/home/handsome/ros_ws/install/stated_roslaunch;/home/handsome/ros_ws/install/spatio_temporal_voxel_layer;/home/handsome/ros_ws/install/robot_udp_bridge;/home/handsome/ros_ws/install/robot_database_bridge;/home/handsome/ros_ws/install/samsungcmd_msgs;/home/handsome/ros_ws/install/rplidar_ros;/home/handsome/ros_ws/install/rp_action;/home/handsome/ros_ws/install/rp_action_msgs;/home/handsome/ros_ws/install/rosserial_xbee;/home/handsome/ros_ws/install/rosserial_windows;/home/handsome/ros_ws/install/rosserial_tivac;/home/handsome/ros_ws/install/rosserial_test;/home/handsome/ros_ws/install/rosserial_server;/home/handsome/ros_ws/install/rosserial_python;/home/handsome/ros_ws/install/rosserial_mbed;/home/handsome/ros_ws/install/rosserial_embeddedlinux;/home/handsome/ros_ws/install/rosserial_arduino;/home/handsome/ros_ws/install/rosserial_client;/home/handsome/ros_ws/install/rosserial_msgs;/home/handsome/ros_ws/install/cellctrl_qtgui_bridge;/home/handsome/ros_ws/install/car_db_manager_qtgui;/home/handsome/ros_ws/install/car_db_manager_bridge;/home/handsome/ros_ws/install/car_db_manager_action;/home/handsome/ros_ws/install/ros_utility_tools;/home/handsome/ros_ws/install/ros_package_test;/home/handsome/ros_ws/install/ros_package_manager;/home/handsome/ros_ws/install/robot_scheduling_server;/home/handsome/ros_ws/install/robot_scheduling_msgs;/home/handsome/ros_ws/install/robot_localization;/home/handsome/ros_ws/install/robot_control_msgs;/home/handsome/ros_ws/install/reset_location;/home/handsome/ros_ws/install/razor_imu_9dof;/home/handsome/ros_ws/install/pnp_rosplan;/home/handsome/ros_ws/install/actionlib_pnp_controller;/home/handsome/ros_ws/install/actionlib_modules_controller;/home/handsome/ros_ws/install/pnp_ros;/home/handsome/ros_ws/install/pnp_msgs;/home/handsome/ros_ws/install/open_auto_dock;/home/handsome/ros_ws/install/open_auto_dock_msgs;/home/handsome/ros_ws/install/omron_os32c_driver;/home/handsome/ros_ws/install/dlux_plugins;/home/handsome/ros_ws/install/dlux_global_planner;/home/handsome/ros_ws/install/nav_grid_pub_sub;/home/handsome/ros_ws/install/dwb_critics;/home/handsome/ros_ws/install/nav_grid_iterators;/home/handsome/ros_ws/install/locomove_base;/home/handsome/ros_ws/install/locomotor;/home/handsome/ros_ws/install/nav_core_adapter;/home/handsome/ros_ws/install/dwb_plugins;/home/handsome/ros_ws/install/dwb_local_planner;/home/handsome/ros_ws/install/nav_2d_utils;/home/handsome/ros_ws/install/global_planner_tests;/home/handsome/ros_ws/install/costmap_queue;/home/handsome/ros_ws/install/nav_core2;/home/handsome/ros_ws/install/nav_grid;/home/handsome/ros_ws/install/car_schedule_msgs;/home/handsome/ros_ws/install/actionlib_modules_msgs;/home/handsome/ros_ws/install/locomotor_msgs;/home/handsome/ros_ws/install/dwb_msgs;/home/handsome/ros_ws/install/nav_2d_msgs;/home/handsome/ros_ws/install/mongodb_log;/home/handsome/ros_ws/install/mongodb_store;/home/handsome/ros_ws/install/mongodb_store_msgs;/home/handsome/ros_ws/install/ca_driver;/home/handsome/ros_ws/install/libcreate;/home/handsome/ros_ws/install/i_robot_stage;/home/handsome/ros_ws/install/i_robot_navigation;/home/handsome/ros_ws/install/hyc_order_planner;/home/handsome/ros_ws/install/hyc_multi_robot_msgs;/home/handsome/ros_ws/install/fetch_open_auto_dock;/home/handsome/ros_ws/install/fetch_auto_dock_msgs;/home/handsome/ros_ws/install/change_teb2_max_vel_x_onfly;/home/handsome/ros_ws/install/cellctrl_control_msgs;/home/handsome/ros_ws/install/car_db_manager_msgs;/home/handsome/ros_ws/install/ca_msgs;/home/handsome/ros_ws/install/ca_description;/home/handsome/ros_ws/install/botcmd_msgs;/opt/ros/melodic
+[3.713s] -- This workspace overlays: /home/handsome/ros_ws/install/yocs_cmd_vel_mux;/home/handsome/ros_ws/install/urdf_tutorial;/home/handsome/ros_ws/install/tuw_waypoint_to_spline_msgs;/home/handsome/ros_ws/install/tuw_multi_robot_router;/home/handsome/ros_ws/install/tuw_voronoi_graph;/home/handsome/ros_ws/install/tuw_vehicle_msgs;/home/handsome/ros_ws/install/tuw_order_planner;/home/handsome/ros_ws/install/tuw_object_rviz;/home/handsome/ros_ws/install/tuw_object_msgs;/home/handsome/ros_ws/install/tuw_nav_rviz;/home/handsome/ros_ws/install/tuw_multi_robot_local_behavior_controller;/home/handsome/ros_ws/install/tuw_multi_robot_ctrl;/home/handsome/ros_ws/install/tuw_nav_msgs;/home/handsome/ros_ws/install/tuw_multi_robot_rviz;/home/handsome/ros_ws/install/tuw_multi_robot_goal_generator;/home/handsome/ros_ws/install/robot_scheduling_utility;/home/handsome/ros_ws/install/robot_scheduling_actions;/home/handsome/ros_ws/install/actionlib_modules_bridge;/home/handsome/ros_ws/install/tuw_multi_robot_msgs;/home/handsome/ros_ws/install/tuw_multi_robot_demo;/home/handsome/ros_ws/install/tuw_local_controller_msgs;/home/handsome/ros_ws/install/tuw_geometry_rviz;/home/handsome/ros_ws/install/tuw_geometry_msgs;/home/handsome/ros_ws/install/tuw_geometry;/home/handsome/ros_ws/install/tuw_gazebo_msgs;/home/handsome/ros_ws/install/tuw_control;/home/handsome/ros_ws/install/tuw_airskin_msgs;/home/handsome/ros_ws/install/turtlebot_teleop;/home/handsome/ros_ws/install/tug_example_pnp_server;/home/handsome/ros_ws/install/tug_example_actions;/home/handsome/ros_ws/install/tug_example_msgs;/home/handsome/ros_ws/install/timed_roslaunch;/home/handsome/ros_ws/install/teb2_local_planner;/home/handsome/ros_ws/install/stated_roslaunch;/home/handsome/ros_ws/install/spatio_temporal_voxel_layer;/home/handsome/ros_ws/install/robot_udp_bridge;/home/handsome/ros_ws/install/robot_database_bridge;/home/handsome/ros_ws/install/samsungcmd_msgs;/home/handsome/ros_ws/install/rplidar_ros;/home/handsome/ros_ws/install/rp_action;/home/handsome/ros_ws/install/rp_action_msgs;/home/handsome/ros_ws/install/rosserial_xbee;/home/handsome/ros_ws/install/rosserial_windows;/home/handsome/ros_ws/install/rosserial_tivac;/home/handsome/ros_ws/install/rosserial_test;/home/handsome/ros_ws/install/rosserial_server;/home/handsome/ros_ws/install/rosserial_python;/home/handsome/ros_ws/install/rosserial_mbed;/home/handsome/ros_ws/install/rosserial_embeddedlinux;/home/handsome/ros_ws/install/rosserial_arduino;/home/handsome/ros_ws/install/rosserial_client;/home/handsome/ros_ws/install/rosserial_msgs;/home/handsome/ros_ws/install/cellctrl_qtgui_bridge;/home/handsome/ros_ws/install/car_db_manager_qtgui;/home/handsome/ros_ws/install/car_db_manager_bridge;/home/handsome/ros_ws/install/car_db_manager_action;/home/handsome/ros_ws/install/ros_utility_tools;/home/handsome/ros_ws/install/ros_package_test;/home/handsome/ros_ws/install/ros_package_manager;/home/handsome/ros_ws/install/robot_scheduling_server;/home/handsome/ros_ws/install/robot_scheduling_msgs;/home/handsome/ros_ws/install/robot_localization;/home/handsome/ros_ws/install/robot_control_msgs;/home/handsome/ros_ws/install/reset_location;/home/handsome/ros_ws/install/razor_imu_9dof;/home/handsome/ros_ws/install/pnp_rosplan;/home/handsome/ros_ws/install/actionlib_pnp_controller;/home/handsome/ros_ws/install/actionlib_modules_controller;/home/handsome/ros_ws/install/pnp_ros;/home/handsome/ros_ws/install/pnp_msgs;/home/handsome/ros_ws/install/open_auto_dock;/home/handsome/ros_ws/install/open_auto_dock_msgs;/home/handsome/ros_ws/install/omron_os32c_driver;/home/handsome/ros_ws/install/dlux_plugins;/home/handsome/ros_ws/install/dlux_global_planner;/home/handsome/ros_ws/install/nav_grid_pub_sub;/home/handsome/ros_ws/install/dwb_critics;/home/handsome/ros_ws/install/nav_grid_iterators;/home/handsome/ros_ws/install/locomove_base;/home/handsome/ros_ws/install/locomotor;/home/handsome/ros_ws/install/nav_core_adapter;/home/handsome/ros_ws/install/dwb_plugins;/home/handsome/ros_ws/install/dwb_local_planner;/home/handsome/ros_ws/install/nav_2d_utils;/home/handsome/ros_ws/install/global_planner_tests;/home/handsome/ros_ws/install/costmap_queue;/home/handsome/ros_ws/install/nav_core2;/home/handsome/ros_ws/install/nav_grid;/home/handsome/ros_ws/install/car_schedule_msgs;/home/handsome/ros_ws/install/actionlib_modules_msgs;/home/handsome/ros_ws/install/locomotor_msgs;/home/handsome/ros_ws/install/dwb_msgs;/home/handsome/ros_ws/install/nav_2d_msgs;/home/handsome/ros_ws/install/mongodb_log;/home/handsome/ros_ws/install/mongodb_store;/home/handsome/ros_ws/install/mongodb_store_msgs;/home/handsome/ros_ws/install/ca_driver;/home/handsome/ros_ws/install/i_robot_stage;/home/handsome/ros_ws/install/i_robot_navigation;/home/handsome/ros_ws/install/hyc_order_planner;/home/handsome/ros_ws/install/hyc_multi_robot_msgs;/home/handsome/ros_ws/install/fetch_open_auto_dock;/home/handsome/ros_ws/install/fetch_auto_dock_msgs;/home/handsome/ros_ws/install/change_teb2_max_vel_x_onfly;/home/handsome/ros_ws/install/cellctrl_control_msgs;/home/handsome/ros_ws/install/car_db_manager_msgs;/home/handsome/ros_ws/install/ca_msgs;/home/handsome/ros_ws/install/ca_description;/home/handsome/ros_ws/install/botcmd_msgs;/opt/ros/melodic
+[3.777s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[3.777s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[3.778s] -- Using Debian Python package layout
+[3.780s] -- Using empy: /usr/bin/empy
+[4.191s] -- Using CATKIN_ENABLE_TESTING: ON
+[4.191s] -- Call enable_testing()
+[4.203s] -- Using CATKIN_TEST_RESULTS_DIR: /home/handsome/ros_ws_test/build/omron_os32c_driver/test_results
+[4.277s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[4.277s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[4.336s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[4.337s] -- Looking for pthread.h
+[4.583s] -- Looking for pthread.h - found
+[4.583s] -- Looking for pthread_create
+[4.844s] -- Looking for pthread_create - not found
+[4.846s] -- Looking for pthread_create in pthreads
+[5.044s] -- Looking for pthread_create in pthreads - not found
+[5.049s] -- Looking for pthread_create in pthread
+[5.505s] -- Looking for pthread_create in pthread - found
+[5.507s] -- Found Threads: TRUE  
+[5.520s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[5.697s] -- catkin 0.7.28
+[5.697s] -- BUILD_SHARED_LIBS is on
+[8.017s] -- Boost version: 1.65.1
+[8.017s] -- Found the following Boost libraries:
+[8.017s] --   system
+[8.936s] -- Configuring done
+[9.169s] -- Generating done
+[9.208s] -- Build files have been written to: /home/handsome/ros_ws_test/build/omron_os32c_driver
+[9.279s] Invoked command in '/home/handsome/ros_ws_test/build/omron_os32c_driver' returned '0': /usr/bin/cmake /home/handsome/ros_ws_test/src/ros_base/sensor_source/omron/omron_os32c_driver -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/handsome/ros_ws_test/install/omron_os32c_driver
+[9.282s] Invoking command in '/home/handsome/ros_ws_test/build/omron_os32c_driver': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/omron_os32c_driver -- -j12 -l12
+[9.616s] [35m[1mScanning dependencies of target omron_os32c[0m
+[9.690s] [35m[1mScanning dependencies of target scanner_node[0m
+[9.733s] [ 16%] [32mBuilding CXX object CMakeFiles/omron_os32c.dir/src/os32c.cpp.o[0m
+[9.801s] [ 33%] [32mBuilding CXX object CMakeFiles/scanner_node.dir/src/scanner_node.cpp.o[0m
+[13.298s] [ 50%] [32m[1mLinking CXX executable devel/lib/omron_os32c_driver/scanner_node[0m
+[13.434s] [ 66%] [32m[1mLinking CXX shared library devel/lib/libomron_os32c.so[0m
+[13.786s] [ 66%] Built target scanner_node
+[13.894s] [ 66%] Built target omron_os32c
+[13.992s] [35m[1mScanning dependencies of target omron_os32c_node[0m
+[14.217s] [ 83%] [32mBuilding CXX object CMakeFiles/omron_os32c_node.dir/src/os32c_node.cpp.o[0m
+[24.284s] [100%] [32m[1mLinking CXX executable devel/lib/omron_os32c_driver/omron_os32c_node[0m
+[24.966s] [100%] Built target omron_os32c_node
+[25.021s] Invoked command in '/home/handsome/ros_ws_test/build/omron_os32c_driver' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/omron_os32c_driver -- -j12 -l12
+[26.394s] Invoking command in '/home/handsome/ros_ws_test/build/omron_os32c_driver': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/omron_os32c_driver --target tests -- -j12 -l12
+[26.755s] [35m[1mScanning dependencies of target gtest[0m
+[26.871s] [  9%] [32mBuilding CXX object gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[31.352s] [ 18%] [32m[1mLinking CXX shared library libgtest.so[0m
+[31.736s] [ 18%] Built target gtest
+[31.828s] [ 36%] Built target omron_os32c
+[31.867s] [35m[1mScanning dependencies of target omron_os32c_driver-test[0m
+[31.971s] [ 45%] [32mBuilding CXX object CMakeFiles/omron_os32c_driver-test.dir/test/measurement_report_config_test.cpp.o[0m
+[34.494s] [ 54%] [32mBuilding CXX object CMakeFiles/omron_os32c_driver-test.dir/test/test_main.cpp.o[0m
+[35.500s] [ 63%] [32mBuilding CXX object CMakeFiles/omron_os32c_driver-test.dir/test/os32c_test.cpp.o[0m
+[39.459s] [ 72%] [32mBuilding CXX object CMakeFiles/omron_os32c_driver-test.dir/test/range_and_reflectance_measurement_test.cpp.o[0m
+[42.266s] [ 81%] [32mBuilding CXX object CMakeFiles/omron_os32c_driver-test.dir/test/measurement_report_test.cpp.o[0m
+[44.795s] [ 90%] [32mBuilding CXX object CMakeFiles/omron_os32c_driver-test.dir/test/measurement_report_header_test.cpp.o[0m
+[47.364s] [100%] [32m[1mLinking CXX executable devel/lib/omron_os32c_driver/omron_os32c_driver-test[0m
+[47.876s] [100%] Built target omron_os32c_driver-test
+[47.916s] [35m[1mScanning dependencies of target tests[0m
+[47.978s] [100%] Built target tests
+[48.060s] Invoked command in '/home/handsome/ros_ws_test/build/omron_os32c_driver' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/omron_os32c_driver --target tests -- -j12 -l12
+[49.058s] Invoking command in '/home/handsome/ros_ws_test/build/omron_os32c_driver': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/omron_os32c_driver --target install -- -j12 -l12
+[49.344s] [ 33%] Built target scanner_node
+[49.434s] [ 66%] Built target omron_os32c
+[49.601s] [100%] Built target omron_os32c_node
+[49.662s] [36mInstall the project...[0m
+[49.685s] -- Install configuration: ""
+[49.686s] -- Installing: /home/handsome/ros_ws_test/install/omron_os32c_driver/lib/pkgconfig/omron_os32c_driver.pc
+[49.686s] -- Installing: /home/handsome/ros_ws_test/install/omron_os32c_driver/share/omron_os32c_driver/cmake/omron_os32c_driverConfig.cmake
+[49.686s] -- Installing: /home/handsome/ros_ws_test/install/omron_os32c_driver/share/omron_os32c_driver/cmake/omron_os32c_driverConfig-version.cmake
+[49.686s] -- Installing: /home/handsome/ros_ws_test/install/omron_os32c_driver/share/omron_os32c_driver/package.xml
+[49.687s] -- Installing: /home/handsome/ros_ws_test/install/omron_os32c_driver/lib/libomron_os32c.so
+[49.687s] -- Set runtime path of "/home/handsome/ros_ws_test/install/omron_os32c_driver/lib/libomron_os32c.so" to ""
+[49.688s] -- Installing: /home/handsome/ros_ws_test/install/omron_os32c_driver/lib/omron_os32c_driver/omron_os32c_node
+[49.690s] -- Set runtime path of "/home/handsome/ros_ws_test/install/omron_os32c_driver/lib/omron_os32c_driver/omron_os32c_node" to ""
+[49.690s] -- Installing: /home/handsome/ros_ws_test/install/omron_os32c_driver/lib/omron_os32c_driver/scanner_node
+[49.691s] -- Set runtime path of "/home/handsome/ros_ws_test/install/omron_os32c_driver/lib/omron_os32c_driver/scanner_node" to ""
+[49.691s] -- Installing: /home/handsome/ros_ws_test/install/omron_os32c_driver/include/omron_os32c_driver
+[49.691s] -- Installing: /home/handsome/ros_ws_test/install/omron_os32c_driver/include/omron_os32c_driver/measurement_report_header.h
+[49.692s] -- Installing: /home/handsome/ros_ws_test/install/omron_os32c_driver/include/omron_os32c_driver/measurement_report.h
+[49.692s] -- Installing: /home/handsome/ros_ws_test/install/omron_os32c_driver/include/omron_os32c_driver/measurement_report_config.h
+[49.692s] -- Installing: /home/handsome/ros_ws_test/install/omron_os32c_driver/include/omron_os32c_driver/range_and_reflectance_measurement.h
+[49.692s] -- Installing: /home/handsome/ros_ws_test/install/omron_os32c_driver/include/omron_os32c_driver/os32c.h
+[49.692s] -- Installing: /home/handsome/ros_ws_test/install/omron_os32c_driver/share/omron_os32c_driver/launch
+[49.692s] -- Installing: /home/handsome/ros_ws_test/install/omron_os32c_driver/share/omron_os32c_driver/launch/os32c.launch
+[49.700s] Invoked command in '/home/handsome/ros_ws_test/build/omron_os32c_driver' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/omron_os32c_driver --target install -- -j12 -l12

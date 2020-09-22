@@ -1,0 +1,4 @@
+Invoking command in '/home/handsome/ros_ws_test/build/libcreate': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/libcreate -- -j12 -l12
+Invoked command in '/home/handsome/ros_ws_test/build/libcreate' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/libcreate -- -j12 -l12
+Invoking command in '/home/handsome/ros_ws_test/build/libcreate': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/libcreate --target install -- -j12 -l12
+Invoked command in '/home/handsome/ros_ws_test/build/libcreate' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/libcreate --target install -- -j12 -l12

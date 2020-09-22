@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>stated_roslaunch</name>
+  <version>0.1.0</version>
+  <description>
+    Script to timed-delay and stated-control the launch of a roslaunch file
+  </description>
+
+  <maintainer email="chiuhandsome1966@gnail.com">Chiu Handsome</maintainer>
+  <license>BSD</license>
+  <author email="chiuhandsome1966@gnail.com">Chiu Handsome</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <test_depend>rospy</test_depend>
+  <test_depend>roslaunch</test_depend> <!-- this is for launch test -->
+</package>

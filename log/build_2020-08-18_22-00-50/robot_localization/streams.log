@@ -1,0 +1,121 @@
+[0.115s] Invoking command in '/home/handsome/ros_ws_test/build/robot_localization': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/robot_localization -- -j12 -l12
+[0.650s] [  0%] Built target std_msgs_generate_messages_cpp
+[0.696s] [  0%] Built target geometry_msgs_generate_messages_py
+[0.728s] [  0%] Built target geographic_msgs_generate_messages_cpp
+[0.734s] [  4%] Built target ros_filter_utilities
+[0.742s] [  4%] Built target std_msgs_generate_messages_py
+[0.751s] [  4%] Built target geometry_msgs_generate_messages_cpp
+[0.757s] [  6%] Built target geographic_msgs_generate_messages_py
+[0.757s] [  8%] Built target test_ros_robot_localization_listener_publisher
+[0.844s] [  8%] Built target geometry_msgs_generate_messages_lisp
+[0.894s] [ 13%] Built target filter_utilities
+[0.910s] [ 13%] Built target std_msgs_generate_messages_lisp
+[0.914s] [ 13%] Built target _robot_localization_generate_messages_check_deps_SetDatum
+[0.922s] [ 13%] Built target _robot_localization_generate_messages_check_deps_GetState
+[0.922s] [ 13%] Built target geometry_msgs_generate_messages_eus
+[0.934s] [ 13%] Built target geographic_msgs_generate_messages_eus
+[0.937s] [ 13%] Built target _robot_localization_generate_messages_check_deps_SetPose
+[0.949s] [ 13%] Built target geographic_msgs_generate_messages_lisp
+[1.002s] [ 13%] Built target std_msgs_generate_messages_eus
+[1.003s] [ 13%] Built target geometry_msgs_generate_messages_nodejs
+[1.016s] [ 13%] Built target std_msgs_generate_messages_nodejs
+[1.128s] [ 13%] Built target geographic_msgs_generate_messages_nodejs
+[1.139s] [ 22%] Built target robot_localization_generate_messages_eus
+[1.143s] [ 28%] Built target robot_localization_generate_messages_cpp
+[1.177s] [ 35%] Built target robot_localization_generate_messages_lisp
+[1.190s] [ 44%] Built target robot_localization_generate_messages_py
+[1.313s] [ 44%] Built target robot_localization_gencpp
+[1.315s] [ 51%] Built target robot_localization_generate_messages_nodejs
+[1.474s] [ 55%] Built target filter_base
+[1.507s] [ 55%] Built target robot_localization_generate_messages
+[1.535s] [ 60%] Built target navsat_transform
+[1.622s] [ 64%] Built target ekf
+[1.671s] [ 68%] Built target ukf
+[1.697s] [ 73%] Built target navsat_transform_node
+[1.798s] [ 77%] Built target ros_filter
+[1.847s] [ 82%] Built target robot_localization_estimator
+[1.904s] [ 86%] Built target ukf_localization_node
+[1.916s] [ 91%] Built target ekf_localization_node
+[1.955s] [ 95%] Built target ros_robot_localization_listener
+[2.119s] [100%] Built target robot_localization_listener_node
+[2.285s] Invoked command in '/home/handsome/ros_ws_test/build/robot_localization' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/robot_localization -- -j12 -l12
+[6.080s] Invoking command in '/home/handsome/ros_ws_test/build/robot_localization': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/robot_localization --target tests -- -j12 -l12
+[6.249s] [35m[1mScanning dependencies of target gtest[0m
+[6.291s] [  1%] [32mBuilding CXX object gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[10.476s] [  3%] [32m[1mLinking CXX shared library libgtest.so[0m
+[10.756s] [  3%] Built target gtest
+[10.827s] [  7%] Built target ros_filter_utilities
+[10.855s] [35m[1mScanning dependencies of target test_ukf_localization_node_bag1[0m
+[10.907s] [  9%] [32mBuilding CXX object CMakeFiles/test_ukf_localization_node_bag1.dir/test/test_localization_node_bag_pose_tester.cpp.o[0m
+[14.069s] [ 11%] [32m[1mLinking CXX executable devel/lib/robot_localization/test_ukf_localization_node_bag1[0m
+[14.459s] [ 11%] Built target test_ukf_localization_node_bag1
+[14.489s] [35m[1mScanning dependencies of target test_ukf_localization_node_interfaces[0m
+[14.555s] [ 13%] [32mBuilding CXX object CMakeFiles/test_ukf_localization_node_interfaces.dir/test/test_ukf_localization_node_interfaces.cpp.o[0m
+[18.764s] [ 15%] [32m[1mLinking CXX executable devel/lib/robot_localization/test_ukf_localization_node_interfaces[0m
+[19.046s] [ 15%] Built target test_ukf_localization_node_interfaces
+[19.073s] [35m[1mScanning dependencies of target test_ekf_localization_node_bag3[0m
+[19.113s] [ 17%] [32mBuilding CXX object CMakeFiles/test_ekf_localization_node_bag3.dir/test/test_localization_node_bag_pose_tester.cpp.o[0m
+[21.119s] [35m[1mScanning dependencies of target test_ekf_localization_node_bag1[0m
+[21.169s] [ 19%] [32mBuilding CXX object CMakeFiles/test_ekf_localization_node_bag1.dir/test/test_localization_node_bag_pose_tester.cpp.o[0m
+[21.666s] [ 21%] [32m[1mLinking CXX executable devel/lib/robot_localization/test_ekf_localization_node_bag3[0m
+[22.056s] [ 21%] Built target test_ekf_localization_node_bag3
+[23.460s] [ 23%] [32m[1mLinking CXX executable devel/lib/robot_localization/test_ekf_localization_node_bag1[0m
+[23.836s] [ 23%] Built target test_ekf_localization_node_bag1
+[23.864s] [35m[1mScanning dependencies of target test_ekf_localization_node_interfaces[0m
+[23.918s] [ 25%] [32mBuilding CXX object CMakeFiles/test_ekf_localization_node_interfaces.dir/test/test_ekf_localization_node_interfaces.cpp.o[0m
+[27.761s] [ 27%] [32m[1mLinking CXX executable devel/lib/robot_localization/test_ekf_localization_node_interfaces[0m
+[28.104s] [ 27%] Built target test_ekf_localization_node_interfaces
+[28.134s] [35m[1mScanning dependencies of target test_ukf_localization_node_bag2[0m
+[28.134s] [35m[1mScanning dependencies of target test_ukf_localization_node_bag3[0m
+[28.188s] [ 29%] [32mBuilding CXX object CMakeFiles/test_ukf_localization_node_bag2.dir/test/test_localization_node_bag_pose_tester.cpp.o[0m
+[28.195s] [ 31%] [32mBuilding CXX object CMakeFiles/test_ukf_localization_node_bag3.dir/test/test_localization_node_bag_pose_tester.cpp.o[0m
+[31.437s] [ 33%] [32m[1mLinking CXX executable devel/lib/robot_localization/test_ukf_localization_node_bag2[0m
+[31.559s] [ 35%] [32m[1mLinking CXX executable devel/lib/robot_localization/test_ukf_localization_node_bag3[0m
+[31.881s] [ 35%] Built target test_ukf_localization_node_bag2
+[31.911s] [35m[1mScanning dependencies of target test_ekf_localization_node_bag2[0m
+[31.938s] [ 35%] Built target test_ukf_localization_node_bag3
+[31.961s] [ 37%] [32mBuilding CXX object CMakeFiles/test_ekf_localization_node_bag2.dir/test/test_localization_node_bag_pose_tester.cpp.o[0m
+[32.008s] [ 41%] Built target filter_utilities
+[32.066s] [ 41%] Built target geometry_msgs_generate_messages_cpp
+[32.204s] [ 41%] Built target _robot_localization_generate_messages_check_deps_SetDatum
+[32.260s] [ 41%] Built target geographic_msgs_generate_messages_cpp
+[32.403s] [ 41%] Built target _robot_localization_generate_messages_check_deps_GetState
+[32.458s] [ 41%] Built target std_msgs_generate_messages_cpp
+[32.597s] [ 41%] Built target _robot_localization_generate_messages_check_deps_SetPose
+[32.654s] [ 47%] Built target robot_localization_generate_messages_cpp
+[32.709s] [ 47%] Built target robot_localization_gencpp
+[32.781s] [ 50%] Built target filter_base
+[32.852s] [ 54%] Built target ekf
+[32.880s] [35m[1mScanning dependencies of target filter_base-test[0m
+[32.975s] [ 56%] [32mBuilding CXX object CMakeFiles/filter_base-test.dir/test/test_filter_base.cpp.o[0m
+[34.096s] [ 58%] [32m[1mLinking CXX executable devel/lib/robot_localization/test_ekf_localization_node_bag2[0m
+[34.351s] [ 58%] Built target test_ekf_localization_node_bag2
+[34.410s] [ 62%] Built target ukf
+[34.464s] [ 66%] Built target robot_localization_estimator
+[34.527s] [ 70%] Built target ros_filter
+[34.552s] [35m[1mScanning dependencies of target test_robot_localization_estimator[0m
+[34.646s] [ 72%] [32mBuilding CXX object CMakeFiles/test_robot_localization_estimator.dir/test/test_robot_localization_estimator.cpp.o[0m
+[34.776s] [ 74%] [32m[1mLinking CXX executable devel/lib/robot_localization/filter_base-test[0m
+[34.979s] [ 74%] Built target filter_base-test
+[35.032s] [ 78%] Built target ekf_localization_node
+[35.052s] [35m[1mScanning dependencies of target test_ekf[0m
+[35.120s] [ 80%] [32mBuilding CXX object CMakeFiles/test_ekf.dir/test/test_ekf.cpp.o[0m
+[37.341s] [ 82%] [32m[1mLinking CXX executable devel/lib/robot_localization/test_robot_localization_estimator[0m
+[37.566s] [ 82%] Built target test_robot_localization_estimator
+[37.585s] [35m[1mScanning dependencies of target test_filter_base_diagnostics_timestamps[0m
+[37.590s] [35m[1mScanning dependencies of target test_ukf[0m
+[37.627s] [ 86%] Built target ros_robot_localization_listener
+[37.645s] [35m[1mScanning dependencies of target test_ros_robot_localization_listener[0m
+[37.653s] [ 88%] [32mBuilding CXX object CMakeFiles/test_filter_base_diagnostics_timestamps.dir/test/test_filter_base_diagnostics_timestamps.cpp.o[0m
+[37.688s] [ 90%] [32mBuilding CXX object CMakeFiles/test_ukf.dir/test/test_ukf.cpp.o[0m
+[37.721s] [ 92%] [32mBuilding CXX object CMakeFiles/test_ros_robot_localization_listener.dir/test/test_ros_robot_localization_listener.cpp.o[0m
+[39.607s] [ 94%] [32m[1mLinking CXX executable devel/lib/robot_localization/test_ekf[0m
+[39.945s] [ 94%] Built target test_ekf
+[40.616s] [ 96%] [32m[1mLinking CXX executable devel/lib/robot_localization/test_filter_base_diagnostics_timestamps[0m
+[40.811s] [ 96%] Built target test_filter_base_diagnostics_timestamps
+[41.537s] [ 98%] [32m[1mLinking CXX executable devel/lib/robot_localization/test_ros_robot_localization_listener[0m
+[41.774s] [ 98%] Built target test_ros_robot_localization_listener
+[41.778s] [100%] [32m[1mLinking CXX executable devel/lib/robot_localization/test_ukf[0m
+[41.991s] [100%] Built target test_ukf
+[42.004s] [35m[1mScanning dependencies of target tests[0m
+[42.017s] [100%] Built target tests

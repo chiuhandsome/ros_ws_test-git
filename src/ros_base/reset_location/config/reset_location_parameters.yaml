@@ -1,0 +1,19 @@
+scan_topic: scan
+base_link_frame:  base_link
+ref_locations_csv_path: "/home/rainlee/data/ref_locations.csv"        
+
+tag1_x: -2.7392
+tag1_y:  -2.3717
+tag2_x: -5.00419
+tag2_y: -0.04821
+tag3_x: -2.7192
+tag3_y:  2.6918
+
+lidar_shift_x: 0.225
+lidar_shift_y: 0
+lidar_theta:  -1.57
+pos_shift: 0
+compensation: 0.0
+lidar_intensity_threshold: 245.0
+lidar_group_threshold: 5
+tag1_group_points_threshold:  4

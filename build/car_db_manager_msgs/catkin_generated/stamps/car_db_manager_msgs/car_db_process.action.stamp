@@ -1,0 +1,18 @@
+# Define the goal
+string table_name 
+uint8 cmd_id         	# 1:Add , 2:modify , 3:delete , 4:requery , 5:refresh 99:interrupt	
+uint8 query_base_index 	
+uint8 query_opt_index
+string query_parameter 
+string update_data	# delimiter symbol ==> ,
+---
+# Define the result
+uint8 OK=1
+uint8 NOT_OK=2
+uint8 TIMED_OUT=3
+uint8 OUT_OF_TIMES=4
+uint8 result
+string[] result_data	# delimiter symbol ==> ,
+---
+# Define a feedback message
+

@@ -1,0 +1,76 @@
+[0.455s] Invoking command in '/home/handsome/ros_ws_test/build/open_auto_dock': CMAKE_PREFIX_PATH=/home/handsome/ros_ws_test/install/open_auto_dock_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/handsome/ros_ws_test/install/open_auto_dock_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/handsome/ros_ws_test/build/open_auto_dock -- -j12 -l12
+[0.916s] [  0%] Built target open_auto_dock_msgs_generate_messages_nodejs
+[0.973s] [  0%] Built target tf_generate_messages_eus
+[1.026s] [  0%] Built target tf_generate_messages_cpp
+[1.075s] [  0%] Built target nav_msgs_generate_messages_py
+[1.137s] [  0%] Built target nav_msgs_generate_messages_lisp
+[1.203s] [  0%] Built target nav_msgs_generate_messages_eus
+[1.261s] [  0%] Built target nav_msgs_generate_messages_cpp
+[1.329s] [  0%] Built target geometry_msgs_generate_messages_py
+[1.391s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[1.446s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[1.508s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[1.566s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[1.626s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[1.687s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[1.752s] [  0%] Built target actionlib_generate_messages_py
+[1.815s] [  0%] Built target actionlib_generate_messages_nodejs
+[1.876s] [  0%] Built target std_msgs_generate_messages_eus
+[1.940s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[2.000s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[2.074s] [  0%] Built target actionlib_generate_messages_lisp
+[2.139s] [  0%] Built target actionlib_generate_messages_eus
+[2.204s] [  0%] Built target nav_msgs_generate_messages_nodejs
+[2.272s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[2.335s] [  0%] Built target std_msgs_generate_messages_cpp
+[2.389s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[2.454s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[2.512s] [  0%] Built target roscpp_generate_messages_cpp
+[2.573s] [  0%] Built target actionlib_generate_messages_cpp
+[2.643s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[2.704s] [  0%] Built target std_msgs_generate_messages_lisp
+[2.761s] [  0%] Built target std_msgs_generate_messages_nodejs
+[2.808s] [  0%] Built target open_auto_dock_msgs_generate_messages_eus
+[2.860s] [  0%] Built target std_msgs_generate_messages_py
+[2.929s] [  0%] Built target open_auto_dock_msgs_generate_messages_lisp
+[2.986s] [  0%] Built target sensor_msgs_generate_messages_eus
+[3.041s] [  0%] Built target _catkin_empty_exported_target
+[3.094s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[3.151s] [  0%] Built target geometry_msgs_generate_messages_eus
+[3.204s] [  0%] Built target roscpp_generate_messages_nodejs
+[3.264s] [  0%] Built target roscpp_generate_messages_eus
+[3.322s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[3.381s] [  0%] Built target open_auto_dock_msgs_generate_messages_py
+[3.442s] [  0%] Built target roscpp_generate_messages_lisp
+[3.501s] [  0%] Built target roscpp_generate_messages_py
+[3.557s] [  0%] Built target open_auto_dock_msgs_generate_messages_cpp
+[3.610s] [  0%] Built target actionlib_msgs_generate_messages_py
+[3.669s] [  0%] Built target tf_generate_messages_lisp
+[3.721s] [  0%] Built target tf_generate_messages_nodejs
+[3.772s] [  0%] Built target tf_generate_messages_py
+[3.835s] [  0%] Built target sensor_msgs_generate_messages_py
+[3.894s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[3.955s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[4.018s] [  0%] Built target tf2_msgs_generate_messages_eus
+[4.071s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[4.126s] [  0%] Built target tf2_msgs_generate_messages_py
+[4.185s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[4.263s] [100%] Built target auto_dock
+[4.286s] Invoked command in '/home/handsome/ros_ws_test/build/open_auto_dock' returned '0': CMAKE_PREFIX_PATH=/home/handsome/ros_ws_test/install/open_auto_dock_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/handsome/ros_ws_test/install/open_auto_dock_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/handsome/ros_ws_test/build/open_auto_dock -- -j12 -l12
+[4.649s] Invoking command in '/home/handsome/ros_ws_test/build/open_auto_dock': CMAKE_PREFIX_PATH=/home/handsome/ros_ws_test/install/open_auto_dock_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/handsome/ros_ws_test/install/open_auto_dock_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/handsome/ros_ws_test/build/open_auto_dock --target tests -- -j12 -l12
+[4.798s] [35m[1mScanning dependencies of target gtest[0m
+[4.842s] [ 12%] [32mBuilding CXX object gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[8.796s] [ 25%] [32m[1mLinking CXX shared library libgtest.so[0m
+[9.080s] [ 25%] Built target gtest
+[9.110s] [35m[1mScanning dependencies of target test_low_pass_filter[0m
+[9.165s] [ 37%] [32mBuilding CXX object test/CMakeFiles/test_low_pass_filter.dir/test_low_pass_filter.cpp.o[0m
+[11.315s] [ 50%] [32mBuilding CXX object test/CMakeFiles/test_low_pass_filter.dir/__/src/linear_pose_filter_2d.cpp.o[0m
+[12.626s] [ 62%] [32m[1mLinking CXX executable ../devel/lib/open_auto_dock/test_low_pass_filter[0m
+[12.917s] [ 62%] Built target test_low_pass_filter
+[12.943s] [35m[1mScanning dependencies of target test_icp[0m
+[13.000s] [ 75%] [32mBuilding CXX object test/CMakeFiles/test_icp.dir/test_icp.cpp.o[0m
+[14.383s] [ 87%] [32mBuilding CXX object test/CMakeFiles/test_icp.dir/__/src/icp_2d.cpp.o[0m
+[30.087s] [100%] [32m[1mLinking CXX executable ../devel/lib/open_auto_dock/test_icp[0m
+[30.641s] [100%] Built target test_icp
+[30.660s] [35m[1mScanning dependencies of target tests[0m
+[30.677s] [100%] Built target tests

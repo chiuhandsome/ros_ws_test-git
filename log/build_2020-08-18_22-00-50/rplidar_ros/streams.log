@@ -1,0 +1,97 @@
+[0.276s] Invoking command in '/home/handsome/ros_ws_test/build/rplidar_ros': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/rplidar_ros -- -j12 -l12
+[0.819s] [ 22%] Built target rplidarNodeClient
+[0.911s] [100%] Built target rplidarNode
+[0.968s] Invoked command in '/home/handsome/ros_ws_test/build/rplidar_ros' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/rplidar_ros -- -j12 -l12
+[1.900s] Invoking command in '/home/handsome/ros_ws_test/build/rplidar_ros': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/rplidar_ros --target tests -- -j12 -l12
+[2.247s] Built target tests
+[2.358s] Invoked command in '/home/handsome/ros_ws_test/build/rplidar_ros' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/rplidar_ros --target tests -- -j12 -l12
+[3.678s] Invoking command in '/home/handsome/ros_ws_test/build/rplidar_ros': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/rplidar_ros --target install -- -j12 -l12
+[4.215s] [ 22%] Built target rplidarNodeClient
+[4.339s] [100%] Built target rplidarNode
+[4.502s] [36mInstall the project...[0m
+[4.609s] -- Install configuration: ""
+[4.609s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc
+[4.609s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[4.610s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[4.610s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/package.xml
+[4.623s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/lib/rplidar_ros/rplidarNode
+[4.623s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/lib/rplidar_ros/rplidarNodeClient
+[4.623s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/launch
+[4.624s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp.launch
+[4.624s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3.launch
+[4.625s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/launch/rplidar_urdftest.launch
+[4.625s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/launch/rplidar.launch
+[4.625s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/launch/test_rplidar.launch
+[4.625s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/launch/test_rplidar_a3.launch
+[4.625s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1.launch
+[4.625s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar.launch
+[4.625s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp.launch
+[4.626s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1.launch
+[4.627s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/launch/rplidar (copy).launch
+[4.627s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3.launch
+[4.628s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/rviz
+[4.628s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/rviz/rplidar.rviz
+[4.628s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk
+[4.628s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk/README.txt
+[4.628s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk/src
+[4.628s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk/src/rplidar_driver.cpp
+[4.628s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk/src/rplidar_driver_serial.h
+[4.628s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk/src/hal
+[4.628s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk/src/hal/socket.h
+[4.629s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk/src/hal/thread.cpp
+[4.629s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk/src/hal/types.h
+[4.629s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk/src/hal/abs_rxtx.h
+[4.629s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk/src/hal/event.h
+[4.629s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk/src/hal/byteops.h
+[4.629s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk/src/hal/thread.h
+[4.629s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk/src/hal/util.h
+[4.629s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk/src/hal/locker.h
+[4.630s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk/src/hal/assert.h
+[4.630s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk/src/arch
+[4.630s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk/src/arch/win32
+[4.631s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk/src/arch/win32/timer.h
+[4.631s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk/src/arch/win32/net_socket.cpp
+[4.631s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk/src/arch/win32/net_serial.cpp
+[4.631s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk/src/arch/win32/net_serial.h
+[4.631s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk/src/arch/win32/timer.cpp
+[4.631s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk/src/arch/win32/arch_win32.h
+[4.631s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk/src/arch/win32/winthread.hpp
+[4.631s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk/src/arch/linux
+[4.631s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk/src/arch/linux/arch_linux.h
+[4.631s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk/src/arch/linux/thread.hpp
+[4.631s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk/src/arch/linux/timer.h
+[4.632s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk/src/arch/linux/net_socket.cpp
+[4.632s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk/src/arch/linux/net_serial.cpp
+[4.632s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk/src/arch/linux/net_serial.h
+[4.632s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk/src/arch/linux/timer.cpp
+[4.632s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk/src/arch/macOS
+[4.632s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk/src/arch/macOS/thread.hpp
+[4.632s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk/src/arch/macOS/arch_macOS.h
+[4.633s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk/src/arch/macOS/timer.h
+[4.633s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk/src/arch/macOS/net_socket.cpp
+[4.634s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk/src/arch/macOS/net_serial.cpp
+[4.634s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk/src/arch/macOS/net_serial.h
+[4.649s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk/src/arch/macOS/timer.cpp
+[4.649s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk/src/rplidar_driver_TCP.h
+[4.650s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk/src/rplidar_driver_impl.h
+[4.650s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk/src/sdkcommon.h
+[4.650s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk/include
+[4.650s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk/include/rptypes.h
+[4.650s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk/include/rplidar_driver.h
+[4.650s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk/include/rplidar_protocol.h
+[4.650s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk/include/rplidar.h
+[4.650s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/sdk/include/rplidar_cmd.h
+[4.651s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/urdf
+[4.651s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/urdf/test_zr300_camera.urdf.xacro
+[4.657s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/urdf/HYC.xacro
+[4.658s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/urdf/r2-s-680.xacro
+[4.658s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/urdf/r2-s.xacro
+[4.658s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/urdf/_r200.urdf.xacro
+[4.658s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/urdf/_d435.urdf.xacro
+[4.658s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/urdf/r2-s.urdf
+[4.658s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/urdf/test_r200_camera.urdf.xacro
+[4.658s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/urdf/linorobot.urdf
+[4.658s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/urdf/_zr300.urdf.xacro
+[4.659s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/urdf/r2-s-680new.xacro
+[4.659s] -- Up-to-date: /home/handsome/ros_ws_test/install/rplidar_ros/share/rplidar_ros/urdf/Samsung.xacro
+[4.747s] Invoked command in '/home/handsome/ros_ws_test/build/rplidar_ros' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/rplidar_ros --target install -- -j12 -l12

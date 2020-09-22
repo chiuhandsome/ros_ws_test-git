@@ -1,0 +1,33 @@
+
+(cl:in-package :asdf)
+
+(defsystem "mongodb_store_msgs-msg"
+  :depends-on (:roslisp-msg-protocol :roslisp-utils :actionlib_msgs-msg
+               :std_msgs-msg
+)
+  :components ((:file "_package")
+    (:file "Insert" :depends-on ("_package_Insert"))
+    (:file "_package_Insert" :depends-on ("_package"))
+    (:file "MoveEntriesAction" :depends-on ("_package_MoveEntriesAction"))
+    (:file "_package_MoveEntriesAction" :depends-on ("_package"))
+    (:file "MoveEntriesActionFeedback" :depends-on ("_package_MoveEntriesActionFeedback"))
+    (:file "_package_MoveEntriesActionFeedback" :depends-on ("_package"))
+    (:file "MoveEntriesActionGoal" :depends-on ("_package_MoveEntriesActionGoal"))
+    (:file "_package_MoveEntriesActionGoal" :depends-on ("_package"))
+    (:file "MoveEntriesActionResult" :depends-on ("_package_MoveEntriesActionResult"))
+    (:file "_package_MoveEntriesActionResult" :depends-on ("_package"))
+    (:file "MoveEntriesFeedback" :depends-on ("_package_MoveEntriesFeedback"))
+    (:file "_package_MoveEntriesFeedback" :depends-on ("_package"))
+    (:file "MoveEntriesGoal" :depends-on ("_package_MoveEntriesGoal"))
+    (:file "_package_MoveEntriesGoal" :depends-on ("_package"))
+    (:file "MoveEntriesResult" :depends-on ("_package_MoveEntriesResult"))
+    (:file "_package_MoveEntriesResult" :depends-on ("_package"))
+    (:file "SerialisedMessage" :depends-on ("_package_SerialisedMessage"))
+    (:file "_package_SerialisedMessage" :depends-on ("_package"))
+    (:file "StringList" :depends-on ("_package_StringList"))
+    (:file "_package_StringList" :depends-on ("_package"))
+    (:file "StringPair" :depends-on ("_package_StringPair"))
+    (:file "_package_StringPair" :depends-on ("_package"))
+    (:file "StringPairList" :depends-on ("_package_StringPairList"))
+    (:file "_package_StringPairList" :depends-on ("_package"))
+  ))

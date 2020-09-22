@@ -1,0 +1,8 @@
+prefix=/home/handsome/ros_ws_test/build/nav_grid_iterators/devel
+
+Name: nav_grid_iterators
+Description: Description of nav_grid_iterators
+Version: 0.2.4
+Cflags: -I/home/handsome/ros_ws_test/src/ros_base/robot_navigation/nav_grid_iterators/include
+Libs: -L${prefix}/lib -lnav_grid_iterators
+Requires: nav_grid nav_2d_msgs nav_2d_utils nav_msgs roscpp

@@ -1,0 +1,296 @@
+WARNING: Target "ctrl_tb_alarm" requests linking to directory "/usr/include".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "robot_database_bridge" requests linking to directory "/usr/include".  Targets may link only to libraries.  CMake is dropping the item.
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/include/crlt_messagemanager/database/ctrl_tb_alarmcode.h:4:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/src/database/ctrl_tb_alarmcode.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/base_mongodbstore_client.h:[m[K In member function ‘[01m[Kbool base_mongodbstore_client::database_Insert(const boost::shared_ptr<X>&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/base_mongodbstore_client.h:47:27:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kget_Now_LocalTime[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kget_Now_LocalTime[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+    (*_data).update_time = [01;35m[Kget_Now_LocalTime[m[K();  //-- from tools
+                           [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/base_mongodbstore_client.h:[m[K In member function ‘[01m[Kbool base_mongodbstore_client::database_modify(const boost::shared_ptr<X>&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/base_mongodbstore_client.h:59:27:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kget_Now_LocalTime[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kget_Now_LocalTime[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+    (*_data).update_time = [01;35m[Kget_Now_LocalTime[m[K();
+                           [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/base_mongodbstore_client.h:4[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/include/crlt_messagemanager/database/ctrl_tb_alarmcode.h:4[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/src/database/ctrl_tb_alarmcode.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/src/database/ctrl_tb_alarmcode.cpp:[m[K In member function ‘[01m[Kbool ctrl_tb_alarmcode::db_data_query_alarm_code(std::__cxx11::string, std::__cxx11::string)[m[K’:
+[01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;35m[K)[m[K
+                                                                                                                                                                                [01;35m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/src/database/ctrl_tb_alarmcode.cpp:204:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+     [01;36m[KR[m[KOS_INFO(alarm_code_low.c_str()) ;
+     [01;36m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;35m[K)[m[K
+                                                                                                                                                                                [01;35m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/src/database/ctrl_tb_alarmcode.cpp:205:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+     [01;36m[KR[m[KOS_INFO(alarm_code_up.c_str()) ;
+     [01;36m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;35m[K)[m[K
+                                                                                                                                                                                [01;35m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/src/database/ctrl_tb_alarmcode.cpp:211:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+         [01;36m[KR[m[KOS_INFO(convert_str(searchkey_map.size()).c_str()) ;
+         [01;36m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;35m[K)[m[K
+                                                                                                                                                                                [01;35m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/src/database/ctrl_tb_alarmcode.cpp:227:17:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+                 [01;36m[KR[m[KOS_INFO((*iter)->system_id.c_str());
+                 [01;36m[K^[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/src/database/ctrl_tb_alarmcode.cpp:[m[K In member function ‘[01m[Kbool ctrl_tb_alarmcode::db_data_query_dynamic(std::__cxx11::string, std::__cxx11::string)[m[K’:
+[01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;35m[K)[m[K
+                                                                                                                                                                                [01;35m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/src/database/ctrl_tb_alarmcode.cpp:252:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+     [01;36m[KR[m[KOS_INFO(param_low.c_str()) ;
+     [01;36m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;35m[K)[m[K
+                                                                                                                                                                                [01;35m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/src/database/ctrl_tb_alarmcode.cpp:253:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+     [01;36m[KR[m[KOS_INFO(param_up.c_str()) ;
+     [01;36m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;35m[K)[m[K
+                                                                                                                                                                                [01;35m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/src/database/ctrl_tb_alarmcode.cpp:259:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+         [01;36m[KR[m[KOS_INFO(convert_str(search_dynamic_map.size()).c_str()) ;
+         [01;36m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;35m[K)[m[K
+                                                                                                                                                                                [01;35m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/src/database/ctrl_tb_alarmcode.cpp:275:17:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+                 [01;36m[KR[m[KOS_INFO((*iter)->system_id.c_str());
+                 [01;36m[K^[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/include/crlt_messagemanager/database/ctrl_tb_alarmcode.h:4:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/include/crlt_messagemanager/control_mongodbstore_client.h:4[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/src/control_mongodbstore_client.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/base_mongodbstore_client.h:[m[K In member function ‘[01m[Kbool base_mongodbstore_client::database_Insert(const boost::shared_ptr<X>&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/base_mongodbstore_client.h:47:27:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kget_Now_LocalTime[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kget_Now_LocalTime[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+    (*_data).update_time = [01;35m[Kget_Now_LocalTime[m[K();  //-- from tools
+                           [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/base_mongodbstore_client.h:[m[K In member function ‘[01m[Kbool base_mongodbstore_client::database_modify(const boost::shared_ptr<X>&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/base_mongodbstore_client.h:59:27:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kget_Now_LocalTime[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kget_Now_LocalTime[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+    (*_data).update_time = [01;35m[Kget_Now_LocalTime[m[K();
+                           [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/base_mongodbstore_client.h:4[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/include/crlt_messagemanager/database/ctrl_tb_alarmcode.h:4[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/include/crlt_messagemanager/control_mongodbstore_client.h:4[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/src/control_mongodbstore_client.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/src/control_mongodbstore_client.cpp:[m[K In constructor ‘[01m[Kcontrol_mongodbstore_client::control_mongodbstore_client(ros::NodeHandle&, std::__cxx11::string, std::__cxx11::string, std::__cxx11::string)[m[K’:
+[01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;35m[K)[m[K
+                                                                                                                                                                                [01;35m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/src/control_mongodbstore_client.cpp:24:4:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+    [01;36m[KR[m[KOS_INFO(convert_str(tmpmap.size()).c_str());
+    [01;36m[K^[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/src/control_mongodbstore_client.cpp:[m[K In member function ‘[01m[Kbool control_mongodbstore_client::srv_Eval_tb_srvservice_alarmcode(robot_control_msgs::robot_ctrl_alarmCode_cmd::Request&, robot_control_msgs::robot_ctrl_alarmCode_cmd::Response&)[m[K’:
+[01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;35m[K)[m[K
+                                                                                                                                                                                [01;35m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/src/control_mongodbstore_client.cpp:111:13:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+             [01;36m[KR[m[KOS_INFO(convert_str(tmpmap.size()).c_str());
+             [01;36m[K^[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/src/control_mongodbstore_client.cpp:[m[K In member function ‘[01m[Kbool control_mongodbstore_client::tb_dataQuery_alarmcode(std::__cxx11::string, std::__cxx11::string, robot_control_msgs::robot_ctrl_alarmCode_cmd::Response&)[m[K’:
+[01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;35m[K)[m[K
+                                                                                                                                                                                [01;35m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/src/control_mongodbstore_client.cpp:174:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+     [01;36m[KR[m[KOS_INFO(param_low.c_str()) ;
+     [01;36m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;35m[K)[m[K
+                                                                                                                                                                                [01;35m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/src/control_mongodbstore_client.cpp:175:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+     [01;36m[KR[m[KOS_INFO(param_up.c_str()) ;
+     [01;36m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;35m[K)[m[K
+                                                                                                                                                                                [01;35m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/src/control_mongodbstore_client.cpp:205:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+         [01;36m[KR[m[KOS_INFO(convert_str(_result.size()).c_str()) ;
+         [01;36m[K^[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/include/crlt_messagemanager/database/ctrl_tb_alarmcode.h:4:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/include/crlt_messagemanager/control_mongodbstore_client.h:4[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/include/crlt_messagemanager/robot_database_Interface.h:4[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/include/crlt_messagemanager/robot_database_bridge.h:4[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/src/robot_database_bridge.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/base_mongodbstore_client.h:[m[K In member function ‘[01m[Kbool base_mongodbstore_client::database_Insert(const boost::shared_ptr<X>&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/base_mongodbstore_client.h:47:27:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kget_Now_LocalTime[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kget_Now_LocalTime[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+    (*_data).update_time = [01;35m[Kget_Now_LocalTime[m[K();  //-- from tools
+                           [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/base_mongodbstore_client.h:[m[K In member function ‘[01m[Kbool base_mongodbstore_client::database_modify(const boost::shared_ptr<X>&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/base_mongodbstore_client.h:59:27:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kget_Now_LocalTime[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kget_Now_LocalTime[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+    (*_data).update_time = [01;35m[Kget_Now_LocalTime[m[K();
+                           [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/include/crlt_messagemanager/database/ctrl_tb_alarmcode.h:4:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/include/crlt_messagemanager/control_mongodbstore_client.h:4[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/include/crlt_messagemanager/robot_database_Interface.h:4[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_database_bridge/src/robot_database_Interface.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/base_mongodbstore_client.h:[m[K In member function ‘[01m[Kbool base_mongodbstore_client::database_Insert(const boost::shared_ptr<X>&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/base_mongodbstore_client.h:47:27:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kget_Now_LocalTime[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kget_Now_LocalTime[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+    (*_data).update_time = [01;35m[Kget_Now_LocalTime[m[K();  //-- from tools
+                           [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/base_mongodbstore_client.h:[m[K In member function ‘[01m[Kbool base_mongodbstore_client::database_modify(const boost::shared_ptr<X>&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/base_mongodbstore_client.h:59:27:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kget_Now_LocalTime[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kget_Now_LocalTime[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+    (*_data).update_time = [01;35m[Kget_Now_LocalTime[m[K();
+                           [01;35m[K^~~~~~~~~~~~~~~~~[m[K

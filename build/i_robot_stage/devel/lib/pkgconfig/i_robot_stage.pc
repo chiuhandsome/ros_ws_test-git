@@ -1,0 +1,8 @@
+prefix=/home/handsome/ros_ws_test/build/i_robot_stage/devel
+
+Name: i_robot_stage
+Description: Description of i_robot_stage
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

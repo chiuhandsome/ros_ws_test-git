@@ -1,0 +1,43 @@
+[35m[1mScanning dependencies of target robot_scheduling_actions_node[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/robot_scheduling_actions.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/private_actions/robot_if_proc_upper_action.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/private_actions/robot_if_proc_lower_action.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/robot_scheduling_service.cpp.o[0m
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:[m[K In member function ‘[01m[Kbool robot_scheduling_service::srv_Eval_service_for_lower(robot_scheduling_msgs::lower_if_command::Request&, robot_scheduling_msgs::lower_if_command::Response&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:116:76:[m[K [01;31m[Kerror: [m[K‘[01m[KBASE_READY[m[K’ is not a member of ‘[01m[Krobot_scheduling_msgs::lower_if_command::Request {aka robot_scheduling_msgs::lower_if_commandRequest_<std::allocator<void> >}[m[K’
+         if(req.cmd_id == robot_scheduling_msgs::lower_if_command::Request::[01;31m[KBASE_READY[m[K){
+                                                                            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:[m[K In member function ‘[01m[Kbool robot_scheduling_service::call_service_to_base_ctrl(int, int, std::__cxx11::string)[m[K’:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:185:75:[m[K [01;31m[Kerror: [m[K‘[01m[KBASE_READY[m[K’ is not a member of ‘[01m[Krobot_scheduling_msgs::lower_if_command::Request {aka robot_scheduling_msgs::lower_if_commandRequest_<std::allocator<void> >}[m[K’
+             if(call_id==robot_scheduling_msgs::lower_if_command::Request::[01;31m[KBASE_READY[m[K){
+                                                                           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:188:25:[m[K [01;31m[Kerror: [m[K‘[01m[K_status[m[K’ was not declared in this scope
+                         [01;31m[K_status[m[K = (int)base_status_standby ;
+                         [01;31m[K^~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:188:25:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kstatic[m[K’
+                         [01;36m[K_status[m[K = (int)base_status_standby ;
+                         [01;36m[K^~~~~~~[m[K
+                         [32m[Kstatic[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_if_proc_upper_action.cpp:[m[K In member function ‘[01m[Kvoid robot_if_proc_upper_action::do_proc_upper_get_function(const robot_interface_proc_upperGoalConstPtr&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_if_proc_upper_action.cpp:88:73:[m[K [01;31m[Kerror: [m[K‘[01m[KPROCESS[m[K’ is not a member of ‘[01m[Krobot_scheduling_msgs::robot_interface_proc_upperGoal {aka robot_scheduling_msgs::robot_interface_proc_upperGoal_<std::allocator<void> >}[m[K’
+     if(cmd_id == robot_scheduling_msgs::robot_interface_proc_upperGoal::[01;31m[KPROCESS[m[K){
+                                                                         [01;31m[K^~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_if_proc_lower_action.cpp:[m[K In member function ‘[01m[Kvoid robot_if_proc_lower_action::do_proc_lower_get_function(const robot_interface_proc_lowerGoalConstPtr&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_if_proc_lower_action.cpp:88:73:[m[K [01;31m[Kerror: [m[K‘[01m[KPROCESS[m[K’ is not a member of ‘[01m[Krobot_scheduling_msgs::robot_interface_proc_lowerGoal {aka robot_scheduling_msgs::robot_interface_proc_lowerGoal_<std::allocator<void> >}[m[K’
+     if(cmd_id == robot_scheduling_msgs::robot_interface_proc_lowerGoal::[01;31m[KPROCESS[m[K){
+                                                                         [01;31m[K^~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_if_proc_lower_action.cpp:[m[K In member function ‘[01m[Kvoid robot_if_proc_lower_action::do_proc_lower_set_function(const robot_interface_proc_lowerGoalConstPtr&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_if_proc_lower_action.cpp:139:73:[m[K [01;31m[Kerror: [m[K‘[01m[KPROCESS[m[K’ is not a member of ‘[01m[Krobot_scheduling_msgs::robot_interface_proc_lowerGoal {aka robot_scheduling_msgs::robot_interface_proc_lowerGoal_<std::allocator<void> >}[m[K’
+     if(cmd_id == robot_scheduling_msgs::robot_interface_proc_lowerGoal::[01;31m[KPROCESS[m[K){
+                                                                         [01;31m[K^~~~~~~[m[K
+CMakeFiles/robot_scheduling_actions_node.dir/build.make:110: recipe for target 'CMakeFiles/robot_scheduling_actions_node.dir/src/robot_scheduling_service.cpp.o' failed
+make[2]: *** [CMakeFiles/robot_scheduling_actions_node.dir/src/robot_scheduling_service.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+CMakeFiles/robot_scheduling_actions_node.dir/build.make:182: recipe for target 'CMakeFiles/robot_scheduling_actions_node.dir/src/private_actions/robot_if_proc_upper_action.cpp.o' failed
+make[2]: *** [CMakeFiles/robot_scheduling_actions_node.dir/src/private_actions/robot_if_proc_upper_action.cpp.o] Error 1
+make[2]: *** [CMakeFiles/robot_scheduling_actions_node.dir/src/private_actions/robot_if_proc_lower_action.cpp.o] Error 1
+CMakeFiles/robot_scheduling_actions_node.dir/build.make:158: recipe for target 'CMakeFiles/robot_scheduling_actions_node.dir/src/private_actions/robot_if_proc_lower_action.cpp.o' failed
+CMakeFiles/Makefile2:227: recipe for target 'CMakeFiles/robot_scheduling_actions_node.dir/all' failed
+make[1]: *** [CMakeFiles/robot_scheduling_actions_node.dir/all] Error 2
+make: *** [all] Error 2
+Makefile:140: recipe for target 'all' failed

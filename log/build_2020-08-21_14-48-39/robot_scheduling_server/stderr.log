@@ -1,0 +1,14 @@
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_server/src/private_actions/robot_if_proc_upper_ac.cpp:[m[K In member function ‘[01m[Kint robot_if_proc_upper_ac::evalCondition(std::__cxx11::string)[m[K’:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_server/src/private_actions/robot_if_proc_upper_ac.cpp:39:109:[m[K [01;31m[Kerror: [m[K‘[01m[KPASS[m[K’ is not a member of ‘[01m[Krobot_scheduling_msgs::robot_interface_proc_upperResult {aka robot_scheduling_msgs::robot_interface_proc_upperResult_<std::allocator<void> >}[m[K’
+                   (eval_state_ == static_cast<int>(robot_scheduling_msgs::robot_interface_proc_upperResult::[01;31m[KPASS[m[K));
+                                                                                                             [01;31m[K^~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_server/src/private_actions/robot_if_proc_upper_ac.cpp:[m[K In member function ‘[01m[Kvoid robot_if_proc_upper_ac::do_robot_interface_proc_upper(const robot_interface_proc_upperGoal&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_server/src/private_actions/robot_if_proc_upper_ac.cpp:74:115:[m[K [01;31m[Kerror: [m[K‘[01m[KPASS[m[K’ is not a member of ‘[01m[Krobot_scheduling_msgs::robot_interface_proc_upperResult {aka robot_scheduling_msgs::robot_interface_proc_upperResult_<std::allocator<void> >}[m[K’
+         else if(if_proc_upper_ac_.getResult()->result == robot_scheduling_msgs::robot_interface_proc_upperResult::[01;31m[KPASS[m[K){
+                                                                                                                   [01;31m[K^~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_server/src/private_actions/robot_if_proc_upper_ac.cpp:75:101:[m[K [01;31m[Kerror: [m[K‘[01m[KPASS[m[K’ is not a member of ‘[01m[Krobot_scheduling_msgs::robot_interface_proc_upperResult {aka robot_scheduling_msgs::robot_interface_proc_upperResult_<std::allocator<void> >}[m[K’
+             eval_state_ = static_cast<int>(robot_scheduling_msgs::robot_interface_proc_upperResult::[01;31m[KPASS[m[K);
+                                                                                                     [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/robot_scheduling_server_node.dir/src/private_actions/robot_if_proc_upper_ac.cpp.o] Error 1
+make[1]: *** [CMakeFiles/robot_scheduling_server_node.dir/all] Error 2
+make: *** [all] Error 2

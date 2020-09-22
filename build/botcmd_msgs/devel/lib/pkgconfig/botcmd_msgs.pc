@@ -1,0 +1,8 @@
+prefix=/home/handsome/ros_ws_test/build/botcmd_msgs/devel
+
+Name: botcmd_msgs
+Description: Description of botcmd_msgs
+Version: 0.1.0
+Cflags: -I/home/handsome/ros_ws_test/build/botcmd_msgs/devel/include
+Libs: -L${prefix}/lib 
+Requires: actionlib_msgs std_msgs geometry_msgs std_srvs message_runtime

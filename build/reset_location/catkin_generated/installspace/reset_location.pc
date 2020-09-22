@@ -1,0 +1,8 @@
+prefix=/home/handsome/ros_ws_test/install/reset_location
+
+Name: reset_location
+Description: Description of reset_location
+Version: 0.0.1
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: actionlib_msgs actionlib

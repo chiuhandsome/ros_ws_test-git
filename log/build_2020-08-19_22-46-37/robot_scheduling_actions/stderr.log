@@ -1,0 +1,10 @@
+CMakeFiles/robot_scheduling_actions_node.dir/src/robot_scheduling_actions.cpp.o: In function `robot_scheduling_actions::robot_scheduling_actions()':
+robot_scheduling_actions.cpp:(.text+0x2fb): undefined reference to `db_process_action::db_process_action(ros::NodeHandle, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)'
+robot_scheduling_actions.cpp:(.text+0x57d): undefined reference to `db_process_action::set_robot_scheduling_parameter(robot_scheduling_parameter*)'
+robot_scheduling_actions.cpp:(.text+0x7d7): undefined reference to `db_process_action::~db_process_action()'
+CMakeFiles/robot_scheduling_actions_node.dir/src/robot_scheduling_actions.cpp.o: In function `robot_scheduling_actions::~robot_scheduling_actions()':
+robot_scheduling_actions.cpp:(.text+0x898): undefined reference to `db_process_action::~db_process_action()'
+collect2: error: ld returned 1 exit status
+make[2]: *** [devel/lib/robot_scheduling_actions/robot_scheduling_actions_node] Error 1
+make[1]: *** [CMakeFiles/robot_scheduling_actions_node.dir/all] Error 2
+make: *** [all] Error 2

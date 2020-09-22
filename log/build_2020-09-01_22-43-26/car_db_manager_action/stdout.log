@@ -1,0 +1,9 @@
+[35m[1mScanning dependencies of target car_db_manager_action_node[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/car_db_manager_action_node.dir/src/car_db_control_module.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/car_db_manager_action_node.dir/src/car_db_manager_action.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/car_db_manager_action_node.dir/src/car_db_manager_action_if.cpp.o[0m
+CMakeFiles/car_db_manager_action_node.dir/build.make:110: recipe for target 'CMakeFiles/car_db_manager_action_node.dir/src/car_db_control_module.cpp.o' failed
+CMakeFiles/car_db_manager_action_node.dir/build.make:62: recipe for target 'CMakeFiles/car_db_manager_action_node.dir/src/car_db_manager_action.cpp.o' failed
+CMakeFiles/car_db_manager_action_node.dir/build.make:86: recipe for target 'CMakeFiles/car_db_manager_action_node.dir/src/car_db_manager_action_if.cpp.o' failed
+CMakeFiles/Makefile2:1923: recipe for target 'CMakeFiles/car_db_manager_action_node.dir/all' failed
+Makefile:140: recipe for target 'all' failed

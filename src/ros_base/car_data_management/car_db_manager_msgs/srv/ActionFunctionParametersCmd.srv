@@ -1,0 +1,11 @@
+int8 cmd_id         # 1:Add , 2:modify , 3:delete , 4:requery , 5:refresh	 		
+string query_base_index 	
+string query_opt_index
+string query_parameter 
+ActionFunctionParameters req_action_function_parameters
+---
+bool result
+string error_code
+string primary_id
+string update_time
+ActionFunctionParameters[] result_action_function_parameters

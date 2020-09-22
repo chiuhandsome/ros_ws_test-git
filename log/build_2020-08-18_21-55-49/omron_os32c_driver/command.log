@@ -1,0 +1,8 @@
+Invoking command in '/home/handsome/ros_ws_test/build/omron_os32c_driver': /usr/bin/cmake /home/handsome/ros_ws_test/src/ros_base/sensor_source/omron/omron_os32c_driver -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/handsome/ros_ws_test/install/omron_os32c_driver
+Invoked command in '/home/handsome/ros_ws_test/build/omron_os32c_driver' returned '0': /usr/bin/cmake /home/handsome/ros_ws_test/src/ros_base/sensor_source/omron/omron_os32c_driver -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/handsome/ros_ws_test/install/omron_os32c_driver
+Invoking command in '/home/handsome/ros_ws_test/build/omron_os32c_driver': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/omron_os32c_driver -- -j12 -l12
+Invoked command in '/home/handsome/ros_ws_test/build/omron_os32c_driver' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/omron_os32c_driver -- -j12 -l12
+Invoking command in '/home/handsome/ros_ws_test/build/omron_os32c_driver': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/omron_os32c_driver --target tests -- -j12 -l12
+Invoked command in '/home/handsome/ros_ws_test/build/omron_os32c_driver' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/omron_os32c_driver --target tests -- -j12 -l12
+Invoking command in '/home/handsome/ros_ws_test/build/omron_os32c_driver': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/omron_os32c_driver --target install -- -j12 -l12
+Invoked command in '/home/handsome/ros_ws_test/build/omron_os32c_driver' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/omron_os32c_driver --target install -- -j12 -l12

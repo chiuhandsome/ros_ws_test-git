@@ -1,0 +1,207 @@
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target std_srvs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target _robot_control_msgs_generate_messages_check_deps_Imu
+[  0%] Built target _robot_control_msgs_generate_messages_check_deps_hyc_RobotInfo
+[  0%] Built target _robot_control_msgs_generate_messages_check_deps_robot_ctrl_alarmHistory_cmd
+[  0%] Built target _robot_control_msgs_generate_messages_check_deps_robot_ctrl_alarmCode_cmd
+[  0%] Built target _robot_control_msgs_generate_messages_check_deps_robot_ctrl_roslog
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target _robot_control_msgs_generate_messages_check_deps_PID
+[  0%] Built target _robot_control_msgs_generate_messages_check_deps_Velocities
+[  0%] Built target _robot_control_msgs_generate_messages_check_deps_robot_ctrl_alarmCode
+[  0%] Built target _robot_control_msgs_generate_messages_check_deps_robot_ctrl_alarmHistory
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target _robot_control_msgs_generate_messages_check_deps_hyc_heartbeat
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target std_srvs_generate_messages_py
+[  0%] Built target std_srvs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target std_srvs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target _robot_control_msgs_generate_messages_check_deps_robot_ctrl_roslog_cmd
+[  0%] Built target std_srvs_generate_messages_cpp
+[ 31%] Built target robot_control_msgs_generate_messages_eus
+[ 53%] Built target robot_control_msgs_generate_messages_lisp
+[ 58%] Built target robot_control_msgs_generate_messages_nodejs
+[ 77%] Built target robot_control_msgs_generate_messages_cpp
+[100%] Built target robot_control_msgs_generate_messages_py
+[100%] Built target robot_control_msgs_generate_messages
+Built target tests
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target _robot_control_msgs_generate_messages_check_deps_Velocities
+[  0%] Built target _robot_control_msgs_generate_messages_check_deps_hyc_RobotInfo
+[  0%] Built target std_srvs_generate_messages_nodejs
+[  0%] Built target _robot_control_msgs_generate_messages_check_deps_Imu
+[  0%] Built target _robot_control_msgs_generate_messages_check_deps_robot_ctrl_alarmHistory_cmd
+[  0%] Built target _robot_control_msgs_generate_messages_check_deps_robot_ctrl_alarmHistory
+[  0%] Built target _robot_control_msgs_generate_messages_check_deps_robot_ctrl_roslog
+[  0%] Built target _robot_control_msgs_generate_messages_check_deps_robot_ctrl_alarmCode
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_srvs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target _robot_control_msgs_generate_messages_check_deps_hyc_heartbeat
+[  0%] Built target _robot_control_msgs_generate_messages_check_deps_PID
+[  0%] Built target _robot_control_msgs_generate_messages_check_deps_robot_ctrl_alarmCode_cmd
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target std_srvs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target std_srvs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target _robot_control_msgs_generate_messages_check_deps_robot_ctrl_roslog_cmd
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target std_srvs_generate_messages_cpp
+[ 18%] Built target robot_control_msgs_generate_messages_nodejs
+[ 41%] Built target robot_control_msgs_generate_messages_py
+[ 60%] Built target robot_control_msgs_generate_messages_lisp
+[ 81%] Built target robot_control_msgs_generate_messages_eus
+[100%] Built target robot_control_msgs_generate_messages_cpp
+[100%] Built target robot_control_msgs_generate_messages
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/robot_control_msgs/msg/robot_ctrl_alarmCode.msg
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/robot_control_msgs/msg/robot_ctrl_alarmHistory.msg
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/robot_control_msgs/msg/robot_ctrl_roslog.msg
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/robot_control_msgs/msg/Imu.msg
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/robot_control_msgs/msg/PID.msg
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/robot_control_msgs/msg/Velocities.msg
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/robot_control_msgs/msg/hyc_RobotInfo.msg
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/robot_control_msgs/msg/hyc_heartbeat.msg
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/robot_control_msgs/srv/robot_ctrl_alarmCode_cmd.srv
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/robot_control_msgs/srv/robot_ctrl_alarmHistory_cmd.srv
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/robot_control_msgs/srv/robot_ctrl_roslog_cmd.srv
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/robot_control_msgs/cmake/robot_control_msgs-msg-paths.cmake
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/include/robot_control_msgs
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/include/robot_control_msgs/hyc_RobotInfo.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/include/robot_control_msgs/robot_ctrl_alarmHistory_cmd.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/include/robot_control_msgs/robot_ctrl_roslog_cmd.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/include/robot_control_msgs/robot_ctrl_roslog_cmdResponse.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/include/robot_control_msgs/robot_ctrl_roslog.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/include/robot_control_msgs/robot_ctrl_roslog_cmdRequest.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/include/robot_control_msgs/Velocities.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/include/robot_control_msgs/hyc_heartbeat.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/include/robot_control_msgs/robot_ctrl_alarmHistory_cmdRequest.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/include/robot_control_msgs/robot_ctrl_alarmCode_cmd.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/include/robot_control_msgs/robot_ctrl_alarmCode_cmdRequest.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/include/robot_control_msgs/robot_ctrl_alarmCode_cmdResponse.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/include/robot_control_msgs/robot_ctrl_alarmHistory_cmdResponse.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/include/robot_control_msgs/PID.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/include/robot_control_msgs/Imu.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/include/robot_control_msgs/robot_ctrl_alarmCode.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/include/robot_control_msgs/robot_ctrl_alarmHistory.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/roseus/ros/robot_control_msgs
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/roseus/ros/robot_control_msgs/msg
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/roseus/ros/robot_control_msgs/msg/Velocities.l
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/roseus/ros/robot_control_msgs/msg/robot_ctrl_alarmHistory.l
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/roseus/ros/robot_control_msgs/msg/robot_ctrl_roslog.l
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/roseus/ros/robot_control_msgs/msg/hyc_RobotInfo.l
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/roseus/ros/robot_control_msgs/msg/Imu.l
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/roseus/ros/robot_control_msgs/msg/hyc_heartbeat.l
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/roseus/ros/robot_control_msgs/msg/robot_ctrl_alarmCode.l
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/roseus/ros/robot_control_msgs/msg/PID.l
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/roseus/ros/robot_control_msgs/manifest.l
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/roseus/ros/robot_control_msgs/srv
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/roseus/ros/robot_control_msgs/srv/robot_ctrl_alarmCode_cmd.l
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/roseus/ros/robot_control_msgs/srv/robot_ctrl_alarmHistory_cmd.l
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/roseus/ros/robot_control_msgs/srv/robot_ctrl_roslog_cmd.l
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/msg
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/msg/_package_hyc_heartbeat.lisp
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/msg/_package_PID.lisp
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/msg/Velocities.lisp
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/msg/_package_robot_ctrl_alarmHistory.lisp
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/msg/hyc_heartbeat.lisp
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/msg/_package_Imu.lisp
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/msg/robot_control_msgs-msg.asd
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/msg/robot_ctrl_alarmHistory.lisp
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/msg/_package_Velocities.lisp
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/msg/robot_ctrl_roslog.lisp
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/msg/_package.lisp
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/msg/_package_robot_ctrl_alarmCode.lisp
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/msg/hyc_RobotInfo.lisp
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/msg/_package_hyc_RobotInfo.lisp
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/msg/robot_ctrl_alarmCode.lisp
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/msg/_package_robot_ctrl_roslog.lisp
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/msg/PID.lisp
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/msg/Imu.lisp
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/srv
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/srv/_package_robot_ctrl_alarmCode_cmd.lisp
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/srv/robot_ctrl_roslog_cmd.lisp
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/srv/_package.lisp
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/srv/_package_robot_ctrl_alarmHistory_cmd.lisp
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/srv/robot_ctrl_alarmHistory_cmd.lisp
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/srv/robot_control_msgs-srv.asd
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/srv/_package_robot_ctrl_roslog_cmd.lisp
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/srv/robot_ctrl_alarmCode_cmd.lisp
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/gennodejs/ros/robot_control_msgs
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/gennodejs/ros/robot_control_msgs/msg
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/gennodejs/ros/robot_control_msgs/msg/hyc_RobotInfo.js
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/gennodejs/ros/robot_control_msgs/msg/PID.js
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/gennodejs/ros/robot_control_msgs/msg/_index.js
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/gennodejs/ros/robot_control_msgs/msg/robot_ctrl_alarmHistory.js
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/gennodejs/ros/robot_control_msgs/msg/Velocities.js
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/gennodejs/ros/robot_control_msgs/msg/Imu.js
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/gennodejs/ros/robot_control_msgs/msg/hyc_heartbeat.js
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/gennodejs/ros/robot_control_msgs/msg/robot_ctrl_alarmCode.js
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/gennodejs/ros/robot_control_msgs/msg/robot_ctrl_roslog.js
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/gennodejs/ros/robot_control_msgs/_index.js
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/gennodejs/ros/robot_control_msgs/srv
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/gennodejs/ros/robot_control_msgs/srv/_index.js
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/gennodejs/ros/robot_control_msgs/srv/robot_ctrl_roslog_cmd.js
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/gennodejs/ros/robot_control_msgs/srv/robot_ctrl_alarmCode_cmd.js
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/gennodejs/ros/robot_control_msgs/srv/robot_ctrl_alarmHistory_cmd.js
+Listing /home/handsome/ros_ws_test/build/robot_control_msgs/devel/lib/python2.7/dist-packages/robot_control_msgs ...
+Listing /home/handsome/ros_ws_test/build/robot_control_msgs/devel/lib/python2.7/dist-packages/robot_control_msgs/msg ...
+Listing /home/handsome/ros_ws_test/build/robot_control_msgs/devel/lib/python2.7/dist-packages/robot_control_msgs/srv ...
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/msg
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/msg/_Imu.pyc
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/msg/_PID.py
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/msg/_robot_ctrl_alarmCode.py
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/msg/_robot_ctrl_roslog.pyc
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/msg/__init__.py
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/msg/_PID.pyc
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/msg/_hyc_heartbeat.pyc
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/msg/_hyc_heartbeat.py
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/msg/_robot_ctrl_alarmHistory.py
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/msg/_Velocities.pyc
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/msg/_Imu.py
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/msg/_robot_ctrl_alarmHistory.pyc
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/msg/_robot_ctrl_alarmCode.pyc
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/msg/_robot_ctrl_roslog.py
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/msg/__init__.pyc
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/msg/_hyc_RobotInfo.pyc
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/msg/_hyc_RobotInfo.py
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/msg/_Velocities.py
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/__init__.py
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/srv
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/srv/_robot_ctrl_roslog_cmd.pyc
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/srv/__init__.py
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/srv/_robot_ctrl_alarmHistory_cmd.pyc
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/srv/_robot_ctrl_alarmHistory_cmd.py
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/srv/_robot_ctrl_alarmCode_cmd.pyc
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/srv/_robot_ctrl_roslog_cmd.py
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/srv/__init__.pyc
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/srv/_robot_ctrl_alarmCode_cmd.py
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/__init__.pyc
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/pkgconfig/robot_control_msgs.pc
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/robot_control_msgs/cmake/robot_control_msgs-msg-extras.cmake
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/robot_control_msgs/cmake/robot_control_msgsConfig.cmake
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/robot_control_msgs/cmake/robot_control_msgsConfig-version.cmake
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_control_msgs/share/robot_control_msgs/package.xml

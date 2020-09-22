@@ -1,0 +1,49 @@
+[  0%] Built target pnp_msgs_generate_messages_cpp
+[ 63%] Built target pnpros
+[ 81%] Built target pnp_node
+[100%] Built target PNPAS
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[  0%] Built target pnp_msgs_generate_messages_cpp
+[ 63%] Built target pnpros
+[ 81%] Built target pnp_node
+[100%] Built target PNPAS
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/handsome/ros_ws_test/install/pnp_ros/lib/pkgconfig/pnp_ros.pc
+-- Installing: /home/handsome/ros_ws_test/install/pnp_ros/share/pnp_ros/cmake/pnp_rosConfig.cmake
+-- Installing: /home/handsome/ros_ws_test/install/pnp_ros/share/pnp_ros/cmake/pnp_rosConfig-version.cmake
+-- Installing: /home/handsome/ros_ws_test/install/pnp_ros/share/pnp_ros/package.xml
+-- Installing: /home/handsome/ros_ws_test/install/pnp_ros/lib/pnp_ros/PNPActionServer.py
+-- Installing: /home/handsome/ros_ws_test/install/pnp_ros/share/pnp_ros/launch
+-- Installing: /home/handsome/ros_ws_test/install/pnp_ros/share/pnp_ros/launch/pnp_ros.launch
+-- Installing: /home/handsome/ros_ws_test/install/pnp_ros/share/pnp_ros/plans
+-- Installing: /home/handsome/ros_ws_test/install/pnp_ros/share/pnp_ros/plans/interrupt.pnml
+-- Installing: /home/handsome/ros_ws_test/install/pnp_ros/share/pnp_ros/plans/MultiRobot.png
+-- Installing: /home/handsome/ros_ws_test/install/pnp_ros/share/pnp_ros/plans/ending_plan.pnml
+-- Installing: /home/handsome/ros_ws_test/install/pnp_ros/share/pnp_ros/plans/run_jarp.sh
+-- Installing: /home/handsome/ros_ws_test/install/pnp_ros/share/pnp_ros/plans/sequence_loop.pnml
+-- Installing: /home/handsome/ros_ws_test/install/pnp_ros/share/pnp_ros/plans/sensing.png
+-- Installing: /home/handsome/ros_ws_test/install/pnp_ros/share/pnp_ros/plans/MultiRobot.pnml
+-- Installing: /home/handsome/ros_ws_test/install/pnp_ros/share/pnp_ros/plans/fork_join.png
+-- Installing: /home/handsome/ros_ws_test/install/pnp_ros/share/pnp_ros/plans/sensing.pnml
+-- Installing: /home/handsome/ros_ws_test/install/pnp_ros/share/pnp_ros/plans/interrupt.png
+-- Installing: /home/handsome/ros_ws_test/install/pnp_ros/share/pnp_ros/plans/fork_join.pnml
+-- Installing: /home/handsome/ros_ws_test/install/pnp_ros/share/pnp_ros/plans/sequence_loop.png
+-- Installing: /home/handsome/ros_ws_test/install/pnp_ros/lib/libPNPAS.so
+-- Set runtime path of "/home/handsome/ros_ws_test/install/pnp_ros/lib/libPNPAS.so" to ""
+-- Installing: /home/handsome/ros_ws_test/install/pnp_ros/lib/pnp_ros/pnp_node
+-- Set runtime path of "/home/handsome/ros_ws_test/install/pnp_ros/lib/pnp_ros/pnp_node" to ""
+-- Installing: /home/handsome/ros_ws_test/install/pnp_ros/lib/libpnpros.so
+-- Set runtime path of "/home/handsome/ros_ws_test/install/pnp_ros/lib/libpnpros.so" to ""
+-- Installing: /home/handsome/ros_ws_test/install/pnp_ros/include/pnp_ros
+-- Installing: /home/handsome/ros_ws_test/install/pnp_ros/include/pnp_ros/LearnPNP
+-- Installing: /home/handsome/ros_ws_test/install/pnp_ros/include/pnp_ros/LearnPNP/ROSLearnInstantiator.h
+-- Installing: /home/handsome/ros_ws_test/install/pnp_ros/include/pnp_ros/LearnPNP/ROSReward.h
+-- Installing: /home/handsome/ros_ws_test/install/pnp_ros/include/pnp_ros/LearnPNP/World
+-- Installing: /home/handsome/ros_ws_test/install/pnp_ros/include/pnp_ros/LearnPNP/World/World.h
+-- Installing: /home/handsome/ros_ws_test/install/pnp_ros/include/pnp_ros/names.h
+-- Installing: /home/handsome/ros_ws_test/install/pnp_ros/include/pnp_ros/ROSInst.h
+-- Installing: /home/handsome/ros_ws_test/install/pnp_ros/include/pnp_ros/PNPActionServer.h
+-- Installing: /home/handsome/ros_ws_test/install/pnp_ros/include/pnp_ros/ActionProxy.h
+-- Installing: /home/handsome/ros_ws_test/install/pnp_ros/include/pnp_ros/ROSConds.h

@@ -1,0 +1,18 @@
+[0.097s] Invoking command in '/home/handsome/ros_ws_test/build/ca_tools': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/ca_tools -- -j12 -l12
+[0.534s] Invoked command in '/home/handsome/ros_ws_test/build/ca_tools' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/ca_tools -- -j12 -l12
+[1.132s] Invoking command in '/home/handsome/ros_ws_test/build/ca_tools': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/ca_tools --target tests -- -j12 -l12
+[1.539s] Built target tests
+[1.671s] Invoked command in '/home/handsome/ros_ws_test/build/ca_tools' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/ca_tools --target tests -- -j12 -l12
+[2.184s] Invoking command in '/home/handsome/ros_ws_test/build/ca_tools': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/ca_tools --target install -- -j12 -l12
+[2.576s] [36mInstall the project...[0m
+[2.625s] -- Install configuration: ""
+[2.625s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_tools/lib/pkgconfig/ca_tools.pc
+[2.625s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_tools/share/ca_tools/cmake/ca_toolsConfig.cmake
+[2.625s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_tools/share/ca_tools/cmake/ca_toolsConfig-version.cmake
+[2.626s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_tools/share/ca_tools/package.xml
+[2.626s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_tools/share/ca_tools/config
+[2.626s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_tools/share/ca_tools/config/log710.yaml
+[2.626s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_tools/share/ca_tools/config/xbox360.yaml
+[2.626s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_tools/share/ca_tools/launch
+[2.626s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_tools/share/ca_tools/launch/joy_teleop.launch
+[2.637s] Invoked command in '/home/handsome/ros_ws_test/build/ca_tools' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/ca_tools --target install -- -j12 -l12

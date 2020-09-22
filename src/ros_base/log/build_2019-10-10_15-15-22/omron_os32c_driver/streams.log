@@ -1,0 +1,102 @@
+Invoking command in '/home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver': /usr/bin/cmake /home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/handsome/ros_ws/src/ros_base/install/omron_os32c_driver
+-- The C compiler identification is GNU 7.4.0
+-- The CXX compiler identification is GNU 7.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+-- This workspace overlays: /opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.15", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver/test_results
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.15") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.17
+-- BUILD_SHARED_LIBS is on
+-- Boost version: 1.65.1
+-- Found the following Boost libraries:
+--   system
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver
+Invoked command in '/home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver' returned '0': /usr/bin/cmake /home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/handsome/ros_ws/src/ros_base/install/omron_os32c_driver
+Invoking command in '/home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver': /usr/bin/cmake --build /home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver -- -j12 -l12
+[35m[1mScanning dependencies of target omron_os32c[0m
+[35m[1mScanning dependencies of target scanner_node[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/scanner_node.dir/src/scanner_node.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/omron_os32c.dir/src/os32c.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable devel/lib/omron_os32c_driver/scanner_node[0m
+[ 50%] Built target scanner_node
+[ 66%] [32m[1mLinking CXX shared library devel/lib/libomron_os32c.so[0m
+[ 66%] Built target omron_os32c
+[35m[1mScanning dependencies of target omron_os32c_node[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/omron_os32c_node.dir/src/os32c_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable devel/lib/omron_os32c_driver/omron_os32c_node[0m
+[100%] Built target omron_os32c_node
+Invoked command in '/home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver -- -j12 -l12
+Invoking command in '/home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver': /usr/bin/cmake --build /home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver --target tests -- -j12 -l12
+[35m[1mScanning dependencies of target gtest[0m
+[ 18%] Built target omron_os32c
+[ 27%] [32mBuilding CXX object gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 36%] [32m[1mLinking CXX shared library libgtest.so[0m
+[ 36%] Built target gtest
+[35m[1mScanning dependencies of target omron_os32c_driver-test[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/omron_os32c_driver-test.dir/test/measurement_report_test.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/omron_os32c_driver-test.dir/test/measurement_report_config_test.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/omron_os32c_driver-test.dir/test/range_and_reflectance_measurement_test.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/omron_os32c_driver-test.dir/test/measurement_report_header_test.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/omron_os32c_driver-test.dir/test/os32c_test.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/omron_os32c_driver-test.dir/test/test_main.cpp.o[0m
+[01m[K/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver/test/os32c_test.cpp:[m[K In member function ‘[01m[Kvirtual void omron_os32c_driver::OS32CTest_test_select_beams_Test::TestBody()[m[K’:
+[01m[K/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver/test/os32c_test.cpp:222:3:[m[K [01;31m[Kerror: [m[Knarrowing conversion of ‘[01m[K178[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kchar[m[K’ inside { } [[01;31m[K-Wnarrowing[m[K]
+   [01;31m[K}[m[K;
+   [01;31m[K^[m[K
+[01m[K/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver/test/os32c_test.cpp:222:3:[m[K [01;31m[Kerror: [m[Knarrowing conversion of ‘[01m[K144[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kchar[m[K’ inside { } [[01;31m[K-Wnarrowing[m[K]
+[01m[K/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver/test/os32c_test.cpp:[m[K In member function ‘[01m[Kvirtual void omron_os32c_driver::OS32CTest_test_receive_measurement_report_Test::TestBody()[m[K’:
+[01m[K/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver/test/os32c_test.cpp:454:3:[m[K [01;31m[Kerror: [m[Knarrowing conversion of ‘[01m[K128[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kchar[m[K’ inside { } [[01;31m[K-Wnarrowing[m[K]
+   [01;31m[K}[m[K;
+   [01;31m[K^[m[K
+[01m[K/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver/test/os32c_test.cpp:454:3:[m[K [01;31m[Kerror: [m[Knarrowing conversion of ‘[01m[K177[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kchar[m[K’ inside { } [[01;31m[K-Wnarrowing[m[K]
+[01m[K/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver/test/os32c_test.cpp:454:3:[m[K [01;31m[Kerror: [m[Knarrowing conversion of ‘[01m[K161[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kchar[m[K’ inside { } [[01;31m[K-Wnarrowing[m[K]
+[01m[K/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver/test/os32c_test.cpp:454:3:[m[K [01;31m[Kerror: [m[Knarrowing conversion of ‘[01m[K150[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kchar[m[K’ inside { } [[01;31m[K-Wnarrowing[m[K]
+[01m[K/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver/test/os32c_test.cpp:454:3:[m[K [01;31m[Kerror: [m[Knarrowing conversion of ‘[01m[K190[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kchar[m[K’ inside { } [[01;31m[K-Wnarrowing[m[K]
+[01m[K/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver/test/os32c_test.cpp:454:3:[m[K [01;31m[Kerror: [m[Knarrowing conversion of ‘[01m[K151[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kchar[m[K’ inside { } [[01;31m[K-Wnarrowing[m[K]
+[01m[K/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver/test/os32c_test.cpp:454:3:[m[K [01;31m[Kerror: [m[Knarrowing conversion of ‘[01m[K138[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kchar[m[K’ inside { } [[01;31m[K-Wnarrowing[m[K]
+[01m[K/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver/test/os32c_test.cpp:454:3:[m[K [01;31m[Kerror: [m[Knarrowing conversion of ‘[01m[K167[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kchar[m[K’ inside { } [[01;31m[K-Wnarrowing[m[K]
+[01m[K/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver/test/os32c_test.cpp:454:3:[m[K [01;31m[Kerror: [m[Knarrowing conversion of ‘[01m[K136[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kchar[m[K’ inside { } [[01;31m[K-Wnarrowing[m[K]
+[01m[K/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver/test/os32c_test.cpp:454:3:[m[K [01;31m[Kerror: [m[Knarrowing conversion of ‘[01m[K174[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kchar[m[K’ inside { } [[01;31m[K-Wnarrowing[m[K]
+make[3]: *** [CMakeFiles/omron_os32c_driver-test.dir/test/os32c_test.cpp.o] Error 1
+make[3]: *** Waiting for unfinished jobs....
+CMakeFiles/omron_os32c_driver-test.dir/build.make:158: recipe for target 'CMakeFiles/omron_os32c_driver-test.dir/test/os32c_test.cpp.o' failed
+make[2]: *** [CMakeFiles/omron_os32c_driver-test.dir/all] Error 2
+CMakeFiles/Makefile2:68: recipe for target 'CMakeFiles/omron_os32c_driver-test.dir/all' failed
+CMakeFiles/Makefile2:274: recipe for target 'CMakeFiles/tests.dir/rule' failed
+make[1]: *** [CMakeFiles/tests.dir/rule] Error 2
+Makefile:253: recipe for target 'tests' failed
+make: *** [tests] Error 2
+Invoked command in '/home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver' returned '2': /usr/bin/cmake --build /home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver --target tests -- -j12 -l12

@@ -1,0 +1,16 @@
+[35m[1mScanning dependencies of target robot_scheduling_server_node[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/robot_scheduling_server_node.dir/src/robot_scheduling_server.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/robot_scheduling_server_node.dir/src/private_actions/robot_if_process_ac.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/robot_scheduling_server_node.dir/src/robot_scheduling_pnp_server.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/robot_scheduling_server_node.dir/src/private_actions/robot_if_params_ac.cpp.o[0m
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_server/src/private_actions/robot_if_process_ac.cpp:[m[K In constructor ‘[01m[Krobot_if_process_ac::robot_if_process_ac(ros::NodeHandle&, std::__cxx11::string)[m[K’:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_server/src/private_actions/robot_if_process_ac.cpp:3:84:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Krobot_if_process_ac[m[K’ does not have any field named ‘[01m[Knh_[m[K’
+ robot_if_process_ac::robot_if_process_ac(ros::NodeHandle& nh,std::string ac_name) :[01;31m[Knh_[m[K(nh),
+                                                                                    [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/robot_scheduling_server_node.dir/src/private_actions/robot_if_process_ac.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+CMakeFiles/robot_scheduling_server_node.dir/build.make:110: recipe for target 'CMakeFiles/robot_scheduling_server_node.dir/src/private_actions/robot_if_process_ac.cpp.o' failed
+make[1]: *** [CMakeFiles/robot_scheduling_server_node.dir/all] Error 2
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/robot_scheduling_server_node.dir/all' failed
+make: *** [all] Error 2
+Makefile:140: recipe for target 'all' failed

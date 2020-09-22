@@ -1,0 +1,10 @@
+# CMake generated Testfile for 
+# Source directory: /home/handsome/ros_ws_test/src/ros_base/robot_navigation/nav_grid_iterators
+# Build directory: /home/handsome/ros_ws_test/build/nav_grid_iterators
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(_ctest_nav_grid_iterators_roslint_package "/home/handsome/ros_ws_test/build/nav_grid_iterators/catkin_generated/env_cached.sh" "/usr/bin/python2" "/opt/ros/melodic/share/catkin/cmake/test/run_tests.py" "/home/handsome/ros_ws_test/build/nav_grid_iterators/test_results/nav_grid_iterators/roslint-nav_grid_iterators.xml" "--working-dir" "/home/handsome/ros_ws_test/build/nav_grid_iterators" "--return-code" "/opt/ros/melodic/share/roslint/cmake/../../../lib/roslint/test_wrapper /home/handsome/ros_ws_test/build/nav_grid_iterators/test_results/nav_grid_iterators/roslint-nav_grid_iterators.xml make roslint_nav_grid_iterators")
+add_test(_ctest_nav_grid_iterators_gtest_line_tests "/home/handsome/ros_ws_test/build/nav_grid_iterators/catkin_generated/env_cached.sh" "/usr/bin/python2" "/opt/ros/melodic/share/catkin/cmake/test/run_tests.py" "/home/handsome/ros_ws_test/build/nav_grid_iterators/test_results/nav_grid_iterators/gtest-line_tests.xml" "--return-code" "/home/handsome/ros_ws_test/build/nav_grid_iterators/devel/lib/nav_grid_iterators/line_tests --gtest_output=xml:/home/handsome/ros_ws_test/build/nav_grid_iterators/test_results/nav_grid_iterators/gtest-line_tests.xml")
+add_test(_ctest_nav_grid_iterators_gtest_utest "/home/handsome/ros_ws_test/build/nav_grid_iterators/catkin_generated/env_cached.sh" "/usr/bin/python2" "/opt/ros/melodic/share/catkin/cmake/test/run_tests.py" "/home/handsome/ros_ws_test/build/nav_grid_iterators/test_results/nav_grid_iterators/gtest-utest.xml" "--return-code" "/home/handsome/ros_ws_test/build/nav_grid_iterators/devel/lib/nav_grid_iterators/utest --gtest_output=xml:/home/handsome/ros_ws_test/build/nav_grid_iterators/test_results/nav_grid_iterators/gtest-utest.xml")
+subdirs("gtest")

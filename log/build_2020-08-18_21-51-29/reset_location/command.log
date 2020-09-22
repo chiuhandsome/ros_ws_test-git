@@ -1,0 +1,4 @@
+Invoking command in '/home/handsome/ros_ws_test/build/reset_location': /usr/bin/cmake /home/handsome/ros_ws_test/src/ros_base/reset_location -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/handsome/ros_ws_test/install/reset_location
+Invoked command in '/home/handsome/ros_ws_test/build/reset_location' returned '0': /usr/bin/cmake /home/handsome/ros_ws_test/src/ros_base/reset_location -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/handsome/ros_ws_test/install/reset_location
+Invoking command in '/home/handsome/ros_ws_test/build/reset_location': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/reset_location -- -j12 -l12
+Invoked command in '/home/handsome/ros_ws_test/build/reset_location' returned '2': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/reset_location -- -j12 -l12

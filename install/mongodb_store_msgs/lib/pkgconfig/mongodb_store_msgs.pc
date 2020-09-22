@@ -1,0 +1,8 @@
+prefix=/home/handsome/ros_ws_test/install/mongodb_store_msgs
+
+Name: mongodb_store_msgs
+Description: Description of mongodb_store_msgs
+Version: 0.5.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: message_generation

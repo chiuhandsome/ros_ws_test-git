@@ -1,0 +1,21 @@
+[0.137s] Invoking command in '/home/handsome/ros_ws_test/build/nav_grid': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/nav_grid -- -j12 -l12
+[0.587s] Invoked command in '/home/handsome/ros_ws_test/build/nav_grid' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/nav_grid -- -j12 -l12
+[1.956s] Invoking command in '/home/handsome/ros_ws_test/build/nav_grid': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/nav_grid --target tests -- -j12 -l12
+[2.722s] [ 50%] Built target gtest
+[2.808s] [100%] Built target utest
+[2.867s] [100%] Built target tests
+[2.894s] Invoked command in '/home/handsome/ros_ws_test/build/nav_grid' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/nav_grid --target tests -- -j12 -l12
+[3.130s] Invoking command in '/home/handsome/ros_ws_test/build/nav_grid': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/nav_grid --target install -- -j12 -l12
+[3.243s] [36mInstall the project...[0m
+[3.292s] -- Install configuration: ""
+[3.294s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_grid/lib/pkgconfig/nav_grid.pc
+[3.294s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_grid/share/nav_grid/cmake/nav_gridConfig.cmake
+[3.294s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_grid/share/nav_grid/cmake/nav_gridConfig-version.cmake
+[3.295s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_grid/share/nav_grid/package.xml
+[3.295s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_grid/include/nav_grid
+[3.295s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_grid/include/nav_grid/index.h
+[3.295s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_grid/include/nav_grid/nav_grid.h
+[3.296s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_grid/include/nav_grid/nav_grid_info.h
+[3.296s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_grid/include/nav_grid/vector_nav_grid.h
+[3.296s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_grid/include/nav_grid/coordinate_conversion.h
+[3.348s] Invoked command in '/home/handsome/ros_ws_test/build/nav_grid' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/nav_grid --target install -- -j12 -l12

@@ -1,0 +1,178 @@
+[  0%] Built target nav_2d_msgs_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target visualization_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target _catkin_empty_exported_target
+[ 18%] Built target trajectory_utils
+[ 18%] Built target sensor_msgs_generate_messages_eus
+[ 18%] Built target std_msgs_generate_messages_py
+[ 18%] Built target dwb_msgs_generate_messages_nodejs
+[ 18%] Built target dwb_msgs_generate_messages_py
+[ 18%] Built target roscpp_generate_messages_lisp
+[ 18%] Built target std_msgs_generate_messages_nodejs
+[ 18%] Built target actionlib_msgs_generate_messages_nodejs
+[ 18%] Built target dwb_msgs_generate_messages_cpp
+[ 18%] Built target nav_msgs_generate_messages_nodejs
+[ 18%] Built target geometry_msgs_generate_messages_lisp
+[ 18%] Built target nav_2d_msgs_generate_messages_cpp
+[ 18%] Built target nav_2d_msgs_generate_messages_nodejs
+[ 18%] Built target nav_msgs_generate_messages_cpp
+[ 18%] Built target sensor_msgs_generate_messages_lisp
+[ 18%] Built target tf2_msgs_generate_messages_cpp
+[ 18%] Built target dwb_msgs_generate_messages_lisp
+[ 18%] Built target tf_generate_messages_lisp
+[ 18%] Built target nav_msgs_generate_messages_lisp
+[ 18%] Built target nav_2d_msgs_generate_messages_lisp
+[ 18%] Built target std_msgs_generate_messages_cpp
+[ 18%] Built target std_msgs_generate_messages_eus
+[ 18%] Built target dwb_msgs_generate_messages_eus
+[ 18%] Built target visualization_msgs_generate_messages_lisp
+[ 18%] Built target visualization_msgs_generate_messages_nodejs
+[ 18%] Built target roscpp_generate_messages_nodejs
+[ 18%] Built target geometry_msgs_generate_messages_py
+[ 18%] Built target geometry_msgs_generate_messages_eus
+[ 18%] Built target geometry_msgs_generate_messages_nodejs
+[ 18%] Built target std_msgs_generate_messages_lisp
+[ 18%] Built target actionlib_generate_messages_eus
+[ 18%] Built target actionlib_generate_messages_lisp
+[ 18%] Built target geometry_msgs_generate_messages_cpp
+[ 18%] Built target nav_2d_msgs_generate_messages_py
+[ 18%] Built target rosgraph_msgs_generate_messages_eus
+[ 18%] Built target rosgraph_msgs_generate_messages_lisp
+[ 18%] Built target roscpp_generate_messages_py
+[ 18%] Built target rosgraph_msgs_generate_messages_py
+[ 18%] Built target rosgraph_msgs_generate_messages_cpp
+[ 18%] Built target rosgraph_msgs_generate_messages_nodejs
+[ 18%] Built target actionlib_msgs_generate_messages_eus
+[ 18%] Built target tf2_msgs_generate_messages_lisp
+[ 18%] Built target nav_msgs_generate_messages_py
+[ 18%] Built target actionlib_generate_messages_py
+[ 18%] Built target tf2_msgs_generate_messages_py
+[ 18%] Built target actionlib_generate_messages_nodejs
+[ 18%] Built target actionlib_msgs_generate_messages_cpp
+[ 18%] Built target tf2_msgs_generate_messages_nodejs
+[ 18%] Built target tf_generate_messages_nodejs
+[ 18%] Built target tf_generate_messages_eus
+[ 18%] Built target tf_generate_messages_cpp
+[ 18%] Built target sensor_msgs_generate_messages_py
+[ 18%] Built target sensor_msgs_generate_messages_cpp
+[ 18%] Built target tf_generate_messages_py
+[ 18%] Built target tf2_msgs_generate_messages_eus
+[ 18%] Built target nav_msgs_generate_messages_eus
+[ 18%] Built target visualization_msgs_generate_messages_eus
+[ 18%] Built target visualization_msgs_generate_messages_cpp
+[ 18%] Built target roscpp_generate_messages_eus
+[ 63%] Built target dwb_local_planner
+[ 81%] Built target debug_dwb_local_planner
+[100%] Built target planner_node
+[35m[1mScanning dependencies of target gtest[0m
+[ 16%] [32mBuilding CXX object gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 50%] Built target trajectory_utils
+[ 66%] [32m[1mLinking CXX shared library libgtest.so[0m
+[ 66%] Built target gtest
+[35m[1mScanning dependencies of target utils_test[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/utils_test.dir/test/utils_test.cpp.o[0m
+[100%] [32m[1mLinking CXX executable devel/lib/dwb_local_planner/utils_test[0m
+[100%] Built target utils_test
+[35m[1mScanning dependencies of target tests[0m
+[100%] Built target tests
+[  0%] Built target _catkin_empty_exported_target
+[ 18%] Built target trajectory_utils
+[ 18%] Built target visualization_msgs_generate_messages_py
+[ 18%] Built target std_msgs_generate_messages_nodejs
+[ 18%] Built target std_msgs_generate_messages_py
+[ 18%] Built target actionlib_msgs_generate_messages_nodejs
+[ 18%] Built target dwb_msgs_generate_messages_cpp
+[ 18%] Built target roscpp_generate_messages_lisp
+[ 18%] Built target dwb_msgs_generate_messages_nodejs
+[ 18%] Built target nav_msgs_generate_messages_nodejs
+[ 18%] Built target dwb_msgs_generate_messages_py
+[ 18%] Built target geometry_msgs_generate_messages_lisp
+[ 18%] Built target nav_2d_msgs_generate_messages_nodejs
+[ 18%] Built target nav_msgs_generate_messages_cpp
+[ 18%] Built target nav_2d_msgs_generate_messages_cpp
+[ 18%] Built target nav_2d_msgs_generate_messages_lisp
+[ 18%] Built target tf2_msgs_generate_messages_cpp
+[ 18%] Built target sensor_msgs_generate_messages_lisp
+[ 18%] Built target nav_msgs_generate_messages_lisp
+[ 18%] Built target tf_generate_messages_lisp
+[ 18%] Built target dwb_msgs_generate_messages_lisp
+[ 18%] Built target dwb_msgs_generate_messages_eus
+[ 18%] Built target rosgraph_msgs_generate_messages_cpp
+[ 18%] Built target std_msgs_generate_messages_cpp
+[ 18%] Built target std_msgs_generate_messages_eus
+[ 18%] Built target visualization_msgs_generate_messages_lisp
+[ 18%] Built target geometry_msgs_generate_messages_eus
+[ 18%] Built target visualization_msgs_generate_messages_nodejs
+[ 18%] Built target std_msgs_generate_messages_lisp
+[ 18%] Built target roscpp_generate_messages_nodejs
+[ 18%] Built target geometry_msgs_generate_messages_py
+[ 18%] Built target geometry_msgs_generate_messages_nodejs
+[ 18%] Built target actionlib_generate_messages_eus
+[ 18%] Built target geometry_msgs_generate_messages_cpp
+[ 18%] Built target actionlib_generate_messages_lisp
+[ 18%] Built target nav_2d_msgs_generate_messages_py
+[ 18%] Built target roscpp_generate_messages_py
+[ 18%] Built target rosgraph_msgs_generate_messages_lisp
+[ 18%] Built target rosgraph_msgs_generate_messages_eus
+[ 18%] Built target rosgraph_msgs_generate_messages_nodejs
+[ 18%] Built target nav_msgs_generate_messages_py
+[ 18%] Built target tf2_msgs_generate_messages_lisp
+[ 18%] Built target actionlib_generate_messages_py
+[ 18%] Built target tf2_msgs_generate_messages_py
+[ 18%] Built target tf2_msgs_generate_messages_nodejs
+[ 18%] Built target actionlib_generate_messages_nodejs
+[ 18%] Built target tf_generate_messages_cpp
+[ 18%] Built target actionlib_msgs_generate_messages_cpp
+[ 18%] Built target tf_generate_messages_eus
+[ 18%] Built target tf_generate_messages_nodejs
+[ 18%] Built target tf_generate_messages_py
+[ 18%] Built target sensor_msgs_generate_messages_py
+[ 18%] Built target sensor_msgs_generate_messages_cpp
+[ 18%] Built target nav_msgs_generate_messages_eus
+[ 18%] Built target tf2_msgs_generate_messages_eus
+[ 18%] Built target visualization_msgs_generate_messages_cpp
+[ 18%] Built target visualization_msgs_generate_messages_eus
+[ 18%] Built target rosgraph_msgs_generate_messages_py
+[ 18%] Built target roscpp_generate_messages_eus
+[ 18%] Built target actionlib_msgs_generate_messages_eus
+[ 18%] Built target nav_2d_msgs_generate_messages_eus
+[ 18%] Built target sensor_msgs_generate_messages_nodejs
+[ 18%] Built target roscpp_generate_messages_cpp
+[ 18%] Built target actionlib_generate_messages_cpp
+[ 18%] Built target actionlib_msgs_generate_messages_lisp
+[ 18%] Built target actionlib_msgs_generate_messages_py
+[ 18%] Built target sensor_msgs_generate_messages_eus
+[ 63%] Built target dwb_local_planner
+[ 81%] Built target debug_dwb_local_planner
+[100%] Built target planner_node
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/handsome/ros_ws_test/install/dwb_local_planner/lib/pkgconfig/dwb_local_planner.pc
+-- Installing: /home/handsome/ros_ws_test/install/dwb_local_planner/share/dwb_local_planner/cmake/dwb_local_plannerConfig.cmake
+-- Installing: /home/handsome/ros_ws_test/install/dwb_local_planner/share/dwb_local_planner/cmake/dwb_local_plannerConfig-version.cmake
+-- Installing: /home/handsome/ros_ws_test/install/dwb_local_planner/share/dwb_local_planner/package.xml
+-- Installing: /home/handsome/ros_ws_test/install/dwb_local_planner/lib/dwb_local_planner/planner_node
+-- Set runtime path of "/home/handsome/ros_ws_test/install/dwb_local_planner/lib/dwb_local_planner/planner_node" to ""
+-- Installing: /home/handsome/ros_ws_test/install/dwb_local_planner/lib/libdwb_local_planner.so
+-- Set runtime path of "/home/handsome/ros_ws_test/install/dwb_local_planner/lib/libdwb_local_planner.so" to ""
+-- Installing: /home/handsome/ros_ws_test/install/dwb_local_planner/lib/libdebug_dwb_local_planner.so
+-- Set runtime path of "/home/handsome/ros_ws_test/install/dwb_local_planner/lib/libdebug_dwb_local_planner.so" to ""
+-- Installing: /home/handsome/ros_ws_test/install/dwb_local_planner/lib/libtrajectory_utils.so
+-- Set runtime path of "/home/handsome/ros_ws_test/install/dwb_local_planner/lib/libtrajectory_utils.so" to ""
+-- Installing: /home/handsome/ros_ws_test/install/dwb_local_planner/include/dwb_local_planner
+-- Installing: /home/handsome/ros_ws_test/install/dwb_local_planner/include/dwb_local_planner/goal_checker.h
+-- Installing: /home/handsome/ros_ws_test/install/dwb_local_planner/include/dwb_local_planner/trajectory_utils.h
+-- Installing: /home/handsome/ros_ws_test/install/dwb_local_planner/include/dwb_local_planner/backwards_compatibility.h
+-- Installing: /home/handsome/ros_ws_test/install/dwb_local_planner/include/dwb_local_planner/trajectory_critic.h
+-- Installing: /home/handsome/ros_ws_test/install/dwb_local_planner/include/dwb_local_planner/dwb_local_planner.h
+-- Installing: /home/handsome/ros_ws_test/install/dwb_local_planner/include/dwb_local_planner/trajectory_generator.h
+-- Installing: /home/handsome/ros_ws_test/install/dwb_local_planner/include/dwb_local_planner/illegal_trajectory_tracker.h
+-- Installing: /home/handsome/ros_ws_test/install/dwb_local_planner/include/dwb_local_planner/publisher.h
+-- Installing: /home/handsome/ros_ws_test/install/dwb_local_planner/include/dwb_local_planner/debug_dwb_local_planner.h
+-- Installing: /home/handsome/ros_ws_test/install/dwb_local_planner/share/dwb_local_planner/plugins.xml
+-- Installing: /home/handsome/ros_ws_test/install/dwb_local_planner/share/dwb_local_planner/launch
+-- Installing: /home/handsome/ros_ws_test/install/dwb_local_planner/share/dwb_local_planner/launch/plan_node.launch

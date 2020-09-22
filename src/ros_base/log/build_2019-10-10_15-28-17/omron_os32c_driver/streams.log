@@ -1,0 +1,56 @@
+Invoking command in '/home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver': /usr/bin/cmake --build /home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver -- -j12 -l12
+-- Using CATKIN_DEVEL_PREFIX: /home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+-- This workspace overlays: /opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.15", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver/test_results
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.15") 
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.17
+-- BUILD_SHARED_LIBS is on
+-- Boost version: 1.65.1
+-- Found the following Boost libraries:
+--   system
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver
+[ 66%] Built target scanner_node
+[ 66%] Built target omron_os32c
+[100%] Built target omron_os32c_node
+Invoked command in '/home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver -- -j12 -l12
+Invoking command in '/home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver': /usr/bin/cmake --build /home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver --target tests -- -j12 -l12
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+Invoked command in '/home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver --target tests -- -j12 -l12
+Invoking command in '/home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver': /usr/bin/cmake --build /home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver --target install
+[ 33%] Built target scanner_node
+[ 66%] Built target omron_os32c
+[100%] Built target omron_os32c_node
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/handsome/ros_ws/src/ros_base/install/omron_os32c_driver/lib/pkgconfig/omron_os32c_driver.pc
+-- Installing: /home/handsome/ros_ws/src/ros_base/install/omron_os32c_driver/share/omron_os32c_driver/cmake/omron_os32c_driverConfig.cmake
+-- Installing: /home/handsome/ros_ws/src/ros_base/install/omron_os32c_driver/share/omron_os32c_driver/cmake/omron_os32c_driverConfig-version.cmake
+-- Installing: /home/handsome/ros_ws/src/ros_base/install/omron_os32c_driver/share/omron_os32c_driver/package.xml
+-- Installing: /home/handsome/ros_ws/src/ros_base/install/omron_os32c_driver/lib/libomron_os32c.so
+-- Set runtime path of "/home/handsome/ros_ws/src/ros_base/install/omron_os32c_driver/lib/libomron_os32c.so" to ""
+-- Installing: /home/handsome/ros_ws/src/ros_base/install/omron_os32c_driver/lib/omron_os32c_driver/omron_os32c_node
+-- Set runtime path of "/home/handsome/ros_ws/src/ros_base/install/omron_os32c_driver/lib/omron_os32c_driver/omron_os32c_node" to ""
+-- Installing: /home/handsome/ros_ws/src/ros_base/install/omron_os32c_driver/lib/omron_os32c_driver/scanner_node
+-- Set runtime path of "/home/handsome/ros_ws/src/ros_base/install/omron_os32c_driver/lib/omron_os32c_driver/scanner_node" to ""
+-- Installing: /home/handsome/ros_ws/src/ros_base/install/omron_os32c_driver/include/omron_os32c_driver
+-- Installing: /home/handsome/ros_ws/src/ros_base/install/omron_os32c_driver/include/omron_os32c_driver/measurement_report_header.h
+-- Installing: /home/handsome/ros_ws/src/ros_base/install/omron_os32c_driver/include/omron_os32c_driver/measurement_report.h
+-- Installing: /home/handsome/ros_ws/src/ros_base/install/omron_os32c_driver/include/omron_os32c_driver/measurement_report_config.h
+-- Installing: /home/handsome/ros_ws/src/ros_base/install/omron_os32c_driver/include/omron_os32c_driver/range_and_reflectance_measurement.h
+-- Installing: /home/handsome/ros_ws/src/ros_base/install/omron_os32c_driver/include/omron_os32c_driver/os32c.h
+-- Installing: /home/handsome/ros_ws/src/ros_base/install/omron_os32c_driver/share/omron_os32c_driver/launch
+-- Installing: /home/handsome/ros_ws/src/ros_base/install/omron_os32c_driver/share/omron_os32c_driver/launch/os32c.launch
+Invoked command in '/home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver --target install

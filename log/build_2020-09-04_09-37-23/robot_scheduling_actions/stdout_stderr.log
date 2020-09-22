@@ -1,0 +1,210 @@
+[35m[1mScanning dependencies of target robot_scheduling_actions_node[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/robot_scheduling_actions.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/private_actions/robot_if_proc_lower_action.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/private_actions/robot_run_state_action.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/robot_scheduling_service.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/private_actions/robot_if_proc_upper_action.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/private_actions/robot_power_charge_action.cpp.o[0m
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:[m[K In member function ‘[01m[Kvoid robot_scheduling_service::set_operate_mode_change(robot_scheduling_msgs::upper_if_command::Request&, robot_scheduling_msgs::upper_if_command::Response&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:51:24:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_scheduling_msgs::upper_if_command::Request {aka struct robot_scheduling_msgs::upper_if_commandRequest_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kupper_cmd[m[K’
+     int cmd_type = req.[01;31m[Kupper_cmd[m[K.cmd_type ;
+                        [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:52:22:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_scheduling_msgs::upper_if_command::Request {aka struct robot_scheduling_msgs::upper_if_commandRequest_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kupper_cmd[m[K’
+     int cmd_id = req.[01;31m[Kupper_cmd[m[K.cmd_id ;
+                      [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:60:49:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_scheduling_msgs::robot_command[m[K’ has not been declared
+             if(cmd_id == robot_scheduling_msgs::[01;31m[Krobot_command[m[K::MODE_STANDBY){ //   ::upper_if_command::Request::MODE_STANDBY){
+                                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:64:54:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_scheduling_msgs::robot_command[m[K’ has not been declared
+             else if(cmd_id == robot_scheduling_msgs::[01;31m[Krobot_command[m[K::MODE_MANUAL){ // ::upper_if_command::Request::MODE_MANUAL){
+                                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:68:54:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_scheduling_msgs::robot_command[m[K’ has not been declared
+             else if(cmd_id == robot_scheduling_msgs::[01;31m[Krobot_command[m[K::MODE_REMOTE){// ::upper_if_command::Request::MODE_REMOTE){
+                                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:[m[K In member function ‘[01m[Kvoid robot_scheduling_service::set_manual_mode_change(robot_scheduling_msgs::upper_if_command::Request&, robot_scheduling_msgs::upper_if_command::Response&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:86:24:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_scheduling_msgs::upper_if_command::Request {aka struct robot_scheduling_msgs::upper_if_commandRequest_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kupper_cmd[m[K’
+     int cmd_type = req.[01;31m[Kupper_cmd[m[K.cmd_type ;
+                        [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:87:22:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_scheduling_msgs::upper_if_command::Request {aka struct robot_scheduling_msgs::upper_if_commandRequest_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kupper_cmd[m[K’
+     int cmd_id = req.[01;31m[Kupper_cmd[m[K.cmd_id ;
+                      [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:93:49:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_scheduling_msgs::robot_command[m[K’ has not been declared
+             if(cmd_id == robot_scheduling_msgs::[01;31m[Krobot_command[m[K::MODE_MANU_NONE){
+                                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:96:54:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_scheduling_msgs::robot_command[m[K’ has not been declared
+             else if(cmd_id == robot_scheduling_msgs::[01;31m[Krobot_command[m[K::MODE_MANU_PLANTOEXEC){
+                                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:99:54:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_scheduling_msgs::robot_command[m[K’ has not been declared
+             else if(cmd_id == robot_scheduling_msgs::[01;31m[Krobot_command[m[K::MODE_MANU_MOVEIT){
+                                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:102:54:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_scheduling_msgs::robot_command[m[K’ has not been declared
+             else if(cmd_id == robot_scheduling_msgs::[01;31m[Krobot_command[m[K::MODE_MANU_MOVE){
+                                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:105:54:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_scheduling_msgs::robot_command[m[K’ has not been declared
+             else if(cmd_id == robot_scheduling_msgs::[01;31m[Krobot_command[m[K::MODE_MANU_TURN){
+                                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:108:54:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_scheduling_msgs::robot_command[m[K’ has not been declared
+             else if(cmd_id == robot_scheduling_msgs::[01;31m[Krobot_command[m[K::MODE_MANU_WORKSHEET){
+                                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:111:54:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_scheduling_msgs::robot_command[m[K’ has not been declared
+             else if(cmd_id == robot_scheduling_msgs::[01;31m[Krobot_command[m[K::MODE_MANU_SAVE){
+                                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:[m[K In member function ‘[01m[Kvoid robot_scheduling_service::set_remote_process(robot_scheduling_msgs::upper_if_command::Request&, robot_scheduling_msgs::upper_if_command::Response&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:145:26:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_scheduling_msgs::upper_if_command::Request {aka struct robot_scheduling_msgs::upper_if_commandRequest_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kupper_cmd[m[K’
+         int cmd_id = req.[01;31m[Kupper_cmd[m[K.cmd_id ;
+                          [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:146:36:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_scheduling_msgs::upper_if_command::Request {aka struct robot_scheduling_msgs::upper_if_commandRequest_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kupper_cmd[m[K’
+         std::string cmd_data = req.[01;31m[Kupper_cmd[m[K.cmd_data ;
+                                    [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:147:45:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_scheduling_msgs::robot_command[m[K’ has not been declared
+         if(cmd_id == robot_scheduling_msgs::[01;31m[Krobot_command[m[K::MODE_REMOTE_WORKSHEET_ACT){
+                                             [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:151:50:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_scheduling_msgs::robot_command[m[K’ has not been declared
+         else if(cmd_id == robot_scheduling_msgs::[01;31m[Krobot_command[m[K::MODE_REMOTE_WORKSHEET_NO){
+                                                  [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:[m[K In member function ‘[01m[Kbool robot_scheduling_service::srv_Eval_service_for_upper(robot_scheduling_msgs::upper_if_command::Request&, robot_scheduling_msgs::upper_if_command::Response&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:165:24:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_scheduling_msgs::upper_if_command::Request {aka struct robot_scheduling_msgs::upper_if_commandRequest_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kupper_cmd[m[K’
+     int cmd_type = req.[01;31m[Kupper_cmd[m[K.cmd_type ;
+                        [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:166:22:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_scheduling_msgs::upper_if_command::Request {aka struct robot_scheduling_msgs::upper_if_commandRequest_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kupper_cmd[m[K’
+     int cmd_id = req.[01;31m[Kupper_cmd[m[K.cmd_id ;
+                      [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:167:32:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_scheduling_msgs::upper_if_command::Request {aka struct robot_scheduling_msgs::upper_if_commandRequest_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kupper_cmd[m[K’
+     std::string cmd_data = req.[01;31m[Kupper_cmd[m[K.cmd_data ;
+                                [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:168:43:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_scheduling_msgs::robot_command[m[K’ has not been declared
+     if(cmd_type == robot_scheduling_msgs::[01;31m[Krobot_command[m[K::SET_COMMAND){
+                                           [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:169:46:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_scheduling_msgs::robot_command[m[K’ has not been declared
+         if((cmd_id == robot_scheduling_msgs::[01;31m[Krobot_command[m[K::MODE_STANDBY) ||
+                                              [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:170:46:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_scheduling_msgs::robot_command[m[K’ has not been declared
+            (cmd_id == robot_scheduling_msgs::[01;31m[Krobot_command[m[K::MODE_MANUAL) ||
+                                              [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:171:46:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_scheduling_msgs::robot_command[m[K’ has not been declared
+            (cmd_id == robot_scheduling_msgs::[01;31m[Krobot_command[m[K::MODE_REMOTE)){
+                                              [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:174:50:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_scheduling_msgs::robot_command[m[K’ has not been declared
+         else if(cmd_id == robot_scheduling_msgs::[01;31m[Krobot_command[m[K::MODE_MANU_NONE ||
+                                                  [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:175:50:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_scheduling_msgs::robot_command[m[K’ has not been declared
+                 cmd_id == robot_scheduling_msgs::[01;31m[Krobot_command[m[K::MODE_MANU_PLANTOEXEC ||
+                                                  [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:176:50:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_scheduling_msgs::robot_command[m[K’ has not been declared
+                 cmd_id == robot_scheduling_msgs::[01;31m[Krobot_command[m[K::MODE_MANU_MOVEIT ||
+                                                  [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:177:50:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_scheduling_msgs::robot_command[m[K’ has not been declared
+                 cmd_id == robot_scheduling_msgs::[01;31m[Krobot_command[m[K::MODE_MANU_MOVE ||
+                                                  [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:178:50:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_scheduling_msgs::robot_command[m[K’ has not been declared
+                 cmd_id == robot_scheduling_msgs::[01;31m[Krobot_command[m[K::MODE_MANU_TURN ||
+                                                  [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:179:50:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_scheduling_msgs::robot_command[m[K’ has not been declared
+                 cmd_id == robot_scheduling_msgs::[01;31m[Krobot_command[m[K::MODE_MANU_WORKSHEET ||
+                                                  [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:180:50:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_scheduling_msgs::robot_command[m[K’ has not been declared
+                 cmd_id == robot_scheduling_msgs::[01;31m[Krobot_command[m[K::MODE_MANU_SAVE){
+                                                  [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:183:50:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_scheduling_msgs::robot_command[m[K’ has not been declared
+         else if(cmd_id == robot_scheduling_msgs::[01;31m[Krobot_command[m[K::MODE_MANU_PLANTOEXEC_RUN){
+                                                  [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:186:50:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_scheduling_msgs::robot_command[m[K’ has not been declared
+         else if(cmd_id == robot_scheduling_msgs::[01;31m[Krobot_command[m[K::MODE_MANU_PLANTOEXEC_END){
+                                                  [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:189:51:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_scheduling_msgs::robot_command[m[K’ has not been declared
+         else if((cmd_id == robot_scheduling_msgs::[01;31m[Krobot_command[m[K::MODE_REMOTE_WORKSHEET_ACT) ||
+                                                   [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:190:51:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_scheduling_msgs::robot_command[m[K’ has not been declared
+                 (cmd_id == robot_scheduling_msgs::[01;31m[Krobot_command[m[K::MODE_REMOTE_WORKSHEET_NO)){
+                                                   [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:194:48:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_scheduling_msgs::robot_command[m[K’ has not been declared
+     else if(cmd_type == robot_scheduling_msgs::[01;31m[Krobot_command[m[K::GET_STATUS){
+                                                [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:195:45:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_scheduling_msgs::robot_command[m[K’ has not been declared
+         if(cmd_id == robot_scheduling_msgs::[01;31m[Krobot_command[m[K::STATUS){
+                                             [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_if_proc_upper_action.cpp:1:0[m[K:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/private_actions/robot_if_proc_upper_action.h:54:57:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_command[m[K’ in namespace ‘[01m[Krobot_scheduling_msgs[m[K’ does not name a type
+   void subRobot_command_CB(const robot_scheduling_msgs::[01;31m[Krobot_command[m[K& cmd_msg);
+                                                         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_if_proc_upper_action.cpp:31:83:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_command[m[K’ in namespace ‘[01m[Krobot_scheduling_msgs[m[K’ does not name a type
+ void robot_if_proc_upper_action::subRobot_command_CB(const robot_scheduling_msgs::[01;31m[Krobot_command[m[K& cmd_msg)
+                                                                                   [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/private_actions/robot_run_state_action.h:4[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_run_state_action.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_run_state_action.cpp:[m[K In member function ‘[01m[Kactionlib::SimpleClientGoalState robot_run_state_action::do_db_process_ac(const db_processGoal&)[m[K’:
+[01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;35m[K)[m[K
+                                                                                                                                                                                [01;35m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_run_state_action.cpp:502:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+     [01;36m[KR[m[KOS_INFO(goal.db_process_ac_name.c_str());
+     [01;36m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;35m[K)[m[K
+                                                                                                                                                                                [01;35m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_run_state_action.cpp:516:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+     [01;36m[KR[m[KOS_INFO(goal.cmd_data.c_str());
+     [01;36m[K^[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/robot_scheduling_actions.h:13:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_actions.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/private_actions/robot_if_proc_upper_action.h:54:57:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_command[m[K’ in namespace ‘[01m[Krobot_scheduling_msgs[m[K’ does not name a type
+   void subRobot_command_CB(const robot_scheduling_msgs::[01;31m[Krobot_command[m[K& cmd_msg);
+                                                         [01;31m[K^~~~~~~~~~~~~[m[K
+CMakeFiles/robot_scheduling_actions_node.dir/build.make:110: recipe for target 'CMakeFiles/robot_scheduling_actions_node.dir/src/robot_scheduling_service.cpp.o' failed
+make[2]: *** [CMakeFiles/robot_scheduling_actions_node.dir/src/robot_scheduling_service.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/opt/ros/melodic/include/ros/serialization.h:37:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/publisher.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/private_actions/robot_if_proc_upper_action.h:4[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_if_proc_upper_action.cpp:1[m[K:
+/opt/ros/melodic/include/ros/message_traits.h: In instantiation of ‘[01m[Kstatic const char* ros::message_traits::MD5Sum<M>::value() [with M = int][m[K’:
+[01m[K/opt/ros/melodic/include/ros/message_traits.h:227:102:[m[K   required from ‘[01m[Kconst char* ros::message_traits::md5sum() [with M = int][m[K’
+[01m[K/opt/ros/melodic/include/ros/subscribe_options.h:89:49:[m[K   required from ‘[01m[Kvoid ros::SubscribeOptions::initByFullCallbackType(const string&, uint32_t, const boost::function<void(P)>&, const boost::function<boost::shared_ptr<typename ros::ParameterAdapter<P>::Message>()>&) [with P = const int&; std::__cxx11::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int; typename ros::ParameterAdapter<P>::Message = int][m[K’
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:406:5:[m[K   required from ‘[01m[Kros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M), T*, const ros::TransportHints&) [with M = const int&; T = robot_if_proc_upper_action; std::__cxx11::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int][m[K’
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_if_proc_upper_action.cpp:15:116:[m[K   required from here
+[01m[K/opt/ros/melodic/include/ros/message_traits.h:120:28:[m[K [01;31m[Kerror: [m[K‘[01m[K__s_getMD5Sum[m[K’ is not a member of ‘[01m[Kint[m[K’
+     return [01;31m[KM::__s_getMD5Sum()[m[K.c_str();
+            [01;31m[K~~~~~~~~~~~~~~~~^~[m[K
+/opt/ros/melodic/include/ros/message_traits.h: In instantiation of ‘[01m[Kstatic const char* ros::message_traits::DataType<M>::value() [with M = int][m[K’:
+[01m[K/opt/ros/melodic/include/ros/message_traits.h:236:104:[m[K   required from ‘[01m[Kconst char* ros::message_traits::datatype() [with M = int][m[K’
+[01m[K/opt/ros/melodic/include/ros/subscribe_options.h:90:53:[m[K   required from ‘[01m[Kvoid ros::SubscribeOptions::initByFullCallbackType(const string&, uint32_t, const boost::function<void(P)>&, const boost::function<boost::shared_ptr<typename ros::ParameterAdapter<P>::Message>()>&) [with P = const int&; std::__cxx11::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int; typename ros::ParameterAdapter<P>::Message = int][m[K’
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:406:5:[m[K   required from ‘[01m[Kros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M), T*, const ros::TransportHints&) [with M = const int&; T = robot_if_proc_upper_action; std::__cxx11::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int][m[K’
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_if_proc_upper_action.cpp:15:116:[m[K   required from here
+[01m[K/opt/ros/melodic/include/ros/message_traits.h:137:30:[m[K [01;31m[Kerror: [m[K‘[01m[K__s_getDataType[m[K’ is not a member of ‘[01m[Kint[m[K’
+     return [01;31m[KM::__s_getDataType()[m[K.c_str();
+            [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+make[2]: *** [CMakeFiles/robot_scheduling_actions_node.dir/src/private_actions/robot_if_proc_upper_action.cpp.o] Error 1
+CMakeFiles/robot_scheduling_actions_node.dir/build.make:182: recipe for target 'CMakeFiles/robot_scheduling_actions_node.dir/src/private_actions/robot_if_proc_upper_action.cpp.o' failed
+make[2]: *** [CMakeFiles/robot_scheduling_actions_node.dir/src/robot_scheduling_actions.cpp.o] Error 1
+CMakeFiles/robot_scheduling_actions_node.dir/build.make:62: recipe for target 'CMakeFiles/robot_scheduling_actions_node.dir/src/robot_scheduling_actions.cpp.o' failed
+CMakeFiles/Makefile2:483: recipe for target 'CMakeFiles/robot_scheduling_actions_node.dir/all' failed
+Makefile:140: recipe for target 'all' failed
+make[1]: *** [CMakeFiles/robot_scheduling_actions_node.dir/all] Error 2
+make: *** [all] Error 2

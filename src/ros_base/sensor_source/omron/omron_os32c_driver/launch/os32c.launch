@@ -1,0 +1,24 @@
+<launch>
+
+
+ <node pkg="omron_os32c_driver" type="omron_os32c_node" name="laser">
+    <param name="host" value="192.168.123.124" />
+	<param name="local_ip" value="192.168.123.123" />
+    <param name="frame_id" value="laser" />
+    <param name="start_angle" value="2.2899" />
+    <param name="end_angle" value="-2.2899" />
+    <param name="topic" value="scan" />
+  </node>
+
+
+<!--
+ <node pkg="omron_os32c_driver" type="omron_os32c_node" name="laser1">
+    <param name="host" value="192.168.12.101" />
+	<param name="local_ip" value="192.168.12.66" />
+    <param name="frame_id" value="laser1" />
+    <param name="start_angle" value="2.2899" />
+    <param name="end_angle" value="-2.2899" />
+    <param name="topic" value="scan1" />
+  </node>-->
+
+</launch>

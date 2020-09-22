@@ -1,0 +1,8 @@
+prefix=/home/handsome/ros_ws_test/install/open_auto_dock_msgs
+
+Name: open_auto_dock_msgs
+Description: Description of open_auto_dock_msgs
+Version: 1.1.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: actionlib actionlib_msgs geometry_msgs message_runtime

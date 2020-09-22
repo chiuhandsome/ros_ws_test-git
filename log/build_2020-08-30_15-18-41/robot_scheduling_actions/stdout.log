@@ -1,0 +1,8 @@
+[35m[1mScanning dependencies of target robot_scheduling_actions_node[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/public_actions/pose_recognize_action.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/robot_scheduling_actions.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/public_actions/self_turn_action.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/public_actions/function_run_action.cpp.o[0m
+CMakeFiles/robot_scheduling_actions_node.dir/build.make:374: recipe for target 'CMakeFiles/robot_scheduling_actions_node.dir/src/public_actions/self_turn_action.cpp.o' failed
+CMakeFiles/Makefile2:227: recipe for target 'CMakeFiles/robot_scheduling_actions_node.dir/all' failed
+Makefile:140: recipe for target 'all' failed

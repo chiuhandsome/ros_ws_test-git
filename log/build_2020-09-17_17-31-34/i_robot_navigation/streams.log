@@ -1,0 +1,129 @@
+[0.017s] Invoking command in '/home/handsome/ros_ws_test/build/i_robot_navigation': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/i_robot_navigation -- -j12 -l12
+[0.051s] -- Using CATKIN_DEVEL_PREFIX: /home/handsome/ros_ws_test/build/i_robot_navigation/devel
+[0.051s] -- Using CMAKE_PREFIX_PATH: /home/handsome/ros_ws_test/install/yocs_cmd_vel_mux;/home/handsome/ros_ws_test/install/turtlebot_teleop;/home/handsome/ros_ws_test/install/tug_example_pnp_server;/home/handsome/ros_ws_test/install/tug_example_actions;/home/handsome/ros_ws_test/install/tug_example_msgs;/home/handsome/ros_ws_test/install/timed_roslaunch;/home/handsome/ros_ws_test/install/teb2_local_planner;/home/handsome/ros_ws_test/install/stated_roslaunch;/home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer;/home/handsome/ros_ws_test/install/robot_udp_bridge;/home/handsome/ros_ws_test/install/robot_database_bridge;/home/handsome/ros_ws_test/install/samsungcmd_msgs;/home/handsome/ros_ws_test/install/rplidar_ros;/home/handsome/ros_ws_test/install/rp_action;/home/handsome/ros_ws_test/install/rp_action_msgs;/home/handsome/ros_ws_test/install/robot_scheduling_actions;/home/handsome/ros_ws_test/install/cellctrl_qtgui_bridge;/home/handsome/ros_ws_test/install/car_db_manager_qtgui;/home/handsome/ros_ws_test/install/car_db_manager_bridge;/home/handsome/ros_ws_test/install/car_db_manager_action;/home/handsome/ros_ws_test/install/ros_utility_tools;/home/handsome/ros_ws_test/install/robot_scheduling_server;/home/handsome/ros_ws_test/install/robot_scheduling_msgs;/home/handsome/ros_ws_test/install/robot_localization;/home/handsome/ros_ws_test/install/robot_control_msgs;/home/handsome/ros_ws_test/install/reset_location;/home/handsome/ros_ws_test/install/razor_imu_9dof;/home/handsome/ros_ws_test/install/pnp_rosplan;/home/handsome/ros_ws_test/install/pnp_ros;/home/handsome/ros_ws_test/install/pnp_msgs;/home/handsome/ros_ws_test/install/open_auto_dock;/home/handsome/ros_ws_test/install/open_auto_dock_msgs;/home/handsome/ros_ws_test/install/omron_os32c_driver;/home/handsome/ros_ws_test/install/dlux_plugins;/home/handsome/ros_ws_test/install/dlux_global_planner;/home/handsome/ros_ws_test/install/nav_grid_pub_sub;/home/handsome/ros_ws_test/install/dwb_critics;/home/handsome/ros_ws_test/install/nav_grid_iterators;/home/handsome/ros_ws_test/install/locomove_base;/home/handsome/ros_ws_test/install/locomotor;/home/handsome/ros_ws_test/install/nav_core_adapter;/home/handsome/ros_ws_test/install/dwb_plugins;/home/handsome/ros_ws_test/install/dwb_local_planner;/home/handsome/ros_ws_test/install/nav_2d_utils;/home/handsome/ros_ws_test/install/global_planner_tests;/home/handsome/ros_ws_test/install/costmap_queue;/home/handsome/ros_ws_test/install/nav_core2;/home/handsome/ros_ws_test/install/nav_grid;/home/handsome/ros_ws_test/install/actionlib_modules_msgs;/home/handsome/ros_ws_test/install/locomotor_msgs;/home/handsome/ros_ws_test/install/dwb_msgs;/home/handsome/ros_ws_test/install/nav_2d_msgs;/home/handsome/ros_ws_test/install/mongodb_log;/home/handsome/ros_ws_test/install/mongodb_store;/home/handsome/ros_ws_test/install/mongodb_store_msgs;/home/handsome/ros_ws_test/install/ca_driver;/home/handsome/ros_ws_test/install/libcreate;/home/handsome/ros_ws_test/install/i_robot_stage;/home/handsome/ros_ws_test/install/i_robot_navigation;/home/handsome/ros_ws_test/install/cellctrl_control_msgs;/home/handsome/ros_ws_test/install/car_db_manager_msgs;/home/handsome/ros_ws_test/install/ca_tools;/home/handsome/ros_ws_test/install/ca_msgs;/home/handsome/ros_ws_test/install/ca_description;/home/handsome/ros_ws_test/install/botcmd_msgs;/opt/ros/melodic
+[0.053s] -- This workspace overlays: /home/handsome/ros_ws_test/install/yocs_cmd_vel_mux;/home/handsome/ros_ws_test/install/turtlebot_teleop;/home/handsome/ros_ws_test/install/tug_example_pnp_server;/home/handsome/ros_ws_test/install/tug_example_actions;/home/handsome/ros_ws_test/install/tug_example_msgs;/home/handsome/ros_ws_test/install/timed_roslaunch;/home/handsome/ros_ws_test/install/teb2_local_planner;/home/handsome/ros_ws_test/install/stated_roslaunch;/home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer;/home/handsome/ros_ws_test/install/robot_udp_bridge;/home/handsome/ros_ws_test/install/robot_database_bridge;/home/handsome/ros_ws_test/install/samsungcmd_msgs;/home/handsome/ros_ws_test/install/rplidar_ros;/home/handsome/ros_ws_test/install/rp_action;/home/handsome/ros_ws_test/install/rp_action_msgs;/home/handsome/ros_ws_test/install/robot_scheduling_actions;/home/handsome/ros_ws_test/install/cellctrl_qtgui_bridge;/home/handsome/ros_ws_test/install/car_db_manager_qtgui;/home/handsome/ros_ws_test/install/car_db_manager_bridge;/home/handsome/ros_ws_test/install/car_db_manager_action;/home/handsome/ros_ws_test/install/ros_utility_tools;/home/handsome/ros_ws_test/install/robot_scheduling_server;/home/handsome/ros_ws_test/install/robot_scheduling_msgs;/home/handsome/ros_ws_test/install/robot_localization;/home/handsome/ros_ws_test/install/robot_control_msgs;/home/handsome/ros_ws_test/install/reset_location;/home/handsome/ros_ws_test/install/razor_imu_9dof;/home/handsome/ros_ws_test/install/pnp_rosplan;/home/handsome/ros_ws_test/install/pnp_ros;/home/handsome/ros_ws_test/install/pnp_msgs;/home/handsome/ros_ws_test/install/open_auto_dock;/home/handsome/ros_ws_test/install/open_auto_dock_msgs;/home/handsome/ros_ws_test/install/omron_os32c_driver;/home/handsome/ros_ws_test/install/dlux_plugins;/home/handsome/ros_ws_test/install/dlux_global_planner;/home/handsome/ros_ws_test/install/nav_grid_pub_sub;/home/handsome/ros_ws_test/install/dwb_critics;/home/handsome/ros_ws_test/install/nav_grid_iterators;/home/handsome/ros_ws_test/install/locomove_base;/home/handsome/ros_ws_test/install/locomotor;/home/handsome/ros_ws_test/install/nav_core_adapter;/home/handsome/ros_ws_test/install/dwb_plugins;/home/handsome/ros_ws_test/install/dwb_local_planner;/home/handsome/ros_ws_test/install/nav_2d_utils;/home/handsome/ros_ws_test/install/global_planner_tests;/home/handsome/ros_ws_test/install/costmap_queue;/home/handsome/ros_ws_test/install/nav_core2;/home/handsome/ros_ws_test/install/nav_grid;/home/handsome/ros_ws_test/install/actionlib_modules_msgs;/home/handsome/ros_ws_test/install/locomotor_msgs;/home/handsome/ros_ws_test/install/dwb_msgs;/home/handsome/ros_ws_test/install/nav_2d_msgs;/home/handsome/ros_ws_test/install/mongodb_log;/home/handsome/ros_ws_test/install/mongodb_store;/home/handsome/ros_ws_test/install/mongodb_store_msgs;/home/handsome/ros_ws_test/install/ca_driver;/home/handsome/ros_ws_test/install/i_robot_stage;/home/handsome/ros_ws_test/install/i_robot_navigation;/home/handsome/ros_ws_test/install/cellctrl_control_msgs;/home/handsome/ros_ws_test/install/car_db_manager_msgs;/home/handsome/ros_ws_test/install/ca_tools;/home/handsome/ros_ws_test/install/ca_msgs;/home/handsome/ros_ws_test/install/ca_description;/home/handsome/ros_ws_test/install/botcmd_msgs;/opt/ros/melodic
+[0.070s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[0.070s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[0.070s] -- Using Debian Python package layout
+[0.070s] -- Using empy: /usr/bin/empy
+[0.193s] -- Using CATKIN_ENABLE_TESTING: ON
+[0.193s] -- Call enable_testing()
+[0.194s] -- Using CATKIN_TEST_RESULTS_DIR: /home/handsome/ros_ws_test/build/i_robot_navigation/test_results
+[0.217s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[0.217s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[0.233s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[0.237s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[0.278s] -- catkin 0.7.28
+[0.278s] -- BUILD_SHARED_LIBS is on
+[0.465s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[0.881s] -- Configuring done
+[0.921s] -- Generating done
+[0.927s] -- Build files have been written to: /home/handsome/ros_ws_test/build/i_robot_navigation
+[0.954s] [35m[1mScanning dependencies of target laser_footprint_filter[0m
+[0.972s] [ 50%] [32mBuilding CXX object CMakeFiles/laser_footprint_filter.dir/src/laser_footprint_filter.cpp.o[0m
+[3.318s] [100%] [32m[1mLinking CXX executable devel/lib/i_robot_navigation/laser_footprint_filter[0m
+[3.450s] [100%] Built target laser_footprint_filter
+[3.461s] Invoked command in '/home/handsome/ros_ws_test/build/i_robot_navigation' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/i_robot_navigation -- -j12 -l12
+[3.610s] Invoking command in '/home/handsome/ros_ws_test/build/i_robot_navigation': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/i_robot_navigation --target tests -- -j12 -l12
+[3.717s] Built target tests
+[3.729s] Invoked command in '/home/handsome/ros_ws_test/build/i_robot_navigation' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/i_robot_navigation --target tests -- -j12 -l12
+[3.923s] Invoking command in '/home/handsome/ros_ws_test/build/i_robot_navigation': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/i_robot_navigation --target install -- -j12 -l12
+[3.998s] [100%] Built target laser_footprint_filter
+[4.030s] [36mInstall the project...[0m
+[4.045s] -- Install configuration: ""
+[4.045s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/lib/pkgconfig/i_robot_navigation.pc
+[4.045s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/cmake/i_robot_navigationConfig.cmake
+[4.045s] -- Up-to-date: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/cmake/i_robot_navigationConfig-version.cmake
+[4.045s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/package.xml
+[4.045s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/etc/catkin/profile.d/25.i-robot-navigation.sh
+[4.046s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/catkin_env_hook/25.i-robot-navigation.sh
+[4.047s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/lib/i_robot_navigation/laser_footprint_filter
+[4.048s] -- Set runtime path of "/home/handsome/ros_ws_test/install/i_robot_navigation/lib/i_robot_navigation/laser_footprint_filter" to ""
+[4.048s] -- Up-to-date: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/laser
+[4.049s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/laser/move_base_laser.launch
+[4.049s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/laser/laser_amcl_demo.launch
+[4.049s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/laser/costmap_common_params.yaml
+[4.049s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/laser/laser_gmapping_demo.launch
+[4.049s] -- Up-to-date: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/launch
+[4.050s] -- Up-to-date: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/launch/includes
+[4.050s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/launch/includes/safety_controller.launch.xml
+[4.050s] -- Up-to-date: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/launch/includes/amcl
+[4.050s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/launch/includes/amcl/astra_amcl.launch.xml
+[4.050s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/launch/includes/amcl/asus_xtion_pro_offset_amcl.launch.xml
+[4.050s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/launch/includes/amcl/asus_xtion_pro_amcl.launch.xml
+[4.050s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/launch/includes/amcl/amcl.launch.xml
+[4.050s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/launch/includes/amcl/r200_amcl.launch.xml
+[4.051s] -- Up-to-date: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/launch/includes/amcl/kinect_amcl.launch.xml
+[4.051s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/launch/includes/locomotor_teb.launch.xml
+[4.051s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/launch/includes/move_base_teb.launch.xml
+[4.051s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/launch/includes/move_base.launch.xml
+[4.051s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/launch/includes/velocity_smoother.launch.xml
+[4.051s] -- Up-to-date: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/launch/includes/gmapping
+[4.051s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/launch/includes/gmapping/asus_xtion_pro_offset_gmapping.launch.xml
+[4.052s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/launch/includes/gmapping/kinect_gmapping.launch.xml
+[4.052s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/launch/includes/gmapping/astra_gmapping.launch.xml
+[4.052s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/launch/includes/gmapping/r200_gmapping.launch.xml
+[4.052s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/launch/includes/gmapping/gmapping.launch.xml
+[4.052s] -- Up-to-date: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/launch/includes/gmapping/asus_xtion_pro_gmapping.launch.xml
+[4.052s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/launch/gmapping_demo.launch
+[4.052s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/launch/amcl_demo.launch
+[4.053s] -- Up-to-date: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/launch/graveyard
+[4.053s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/launch/graveyard/graveyard_bump_navi_demo.launch
+[4.053s] -- Up-to-date: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param
+[4.053s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/astra_costmap_params.yaml
+[4.053s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/local_costmap_params.yaml
+[4.053s] -- Up-to-date: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/locomotor
+[4.053s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/locomotor/costmap_converter_params.yaml
+[4.053s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/locomotor/local_costmap_params.yaml
+[4.054s] -- Up-to-date: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/locomotor/locomotor
+[4.054s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/locomotor/locomotor/local_costmap_params.yaml
+[4.054s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/locomotor/locomotor/dlux_global_planner_params.yaml
+[4.054s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/locomotor/locomotor/teb_local_planner_params_hyc.yaml
+[4.054s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/locomotor/locomotor/teb_local_planner_params_teb.yaml
+[4.054s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/locomotor/locomotor/global_costmap_params.yaml
+[4.054s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/locomotor/locomotor/dwb_local_planner_params.yaml
+[4.054s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/locomotor/locomotor/costmap_common_params.yaml
+[4.055s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/locomotor/locomotor/global_costmap_params_teb.yaml
+[4.055s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/locomotor/locomotor/costmap_common_params0.yaml
+[4.055s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/locomotor/locomotor/local_costmap_params_teb.yaml
+[4.055s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/locomotor/locomotor/teb_local_planner_params_hyc0.yaml
+[4.055s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/locomotor/locomotor/costmap_common_params_teb.yaml
+[4.055s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/locomotor/locomotor/dwa_local_planner_params.yaml
+[4.055s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/locomotor/teb_local_planner_params.yaml
+[4.055s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/locomotor/dwa_local_planner.yaml
+[4.056s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/locomotor/teb_local_planner_params_hyc.yaml
+[4.056s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/locomotor/global_costmap_params.yaml
+[4.056s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/locomotor/local_costmap_params (copy).yaml
+[4.056s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/locomotor/gmapping_params.yaml
+[4.056s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/locomotor/adlink_ekf_laser_params.yaml
+[4.056s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/locomotor/global_costmap_params (copy).yaml
+[4.056s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/locomotor/costmap_common_params.yaml
+[4.056s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/locomotor/base_local_planner_params.yaml
+[4.056s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/locomotor/adlink_ekf_encoder_params.yaml
+[4.056s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/locomotor/move_base_params.yaml
+[4.057s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/locomotor/dwa_local_planner_params.yaml
+[4.057s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/locomotor/teb_local_planner_params_680.yaml
+[4.057s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/r200_costmap_params.yaml
+[4.057s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/global_costmap_params.yaml
+[4.057s] -- Up-to-date: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/teb
+[4.057s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/teb/costmap_converter_params.yaml
+[4.057s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/teb/local_costmap_params.yaml
+[4.057s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/teb/teb_local_planner_params.yaml
+[4.057s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/teb/global_costmap_params.yaml
+[4.057s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/teb/global_planner_params.yaml
+[4.057s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/teb/costmap_common_params.yaml
+[4.058s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/teb/navfn_global_planner_params.yaml
+[4.058s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/teb/move_base_params.yaml
+[4.058s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/global_planner_params.yaml
+[4.058s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/costmap_common_params.yaml
+[4.058s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/navfn_global_planner_params.yaml
+[4.058s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/dummy.yaml
+[4.058s] -- Up-to-date: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/asus_xtion_pro_costmap_params.yaml
+[4.058s] -- Up-to-date: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/kinect_costmap_params.yaml
+[4.058s] -- Up-to-date: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/asus_xtion_pro_offset_costmap_params.yaml
+[4.058s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/move_base_params.yaml
+[4.058s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/param/dwa_local_planner_params.yaml
+[4.059s] -- Up-to-date: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/maps
+[4.059s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/maps/willow-2010-02-18-0.10.yaml
+[4.059s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_navigation/share/i_robot_navigation/maps/willow-2010-02-18-0.10.pgm
+[4.061s] Invoked command in '/home/handsome/ros_ws_test/build/i_robot_navigation' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/i_robot_navigation --target install -- -j12 -l12

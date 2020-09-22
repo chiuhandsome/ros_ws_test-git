@@ -1,0 +1,6 @@
+[35m[1mScanning dependencies of target robot_scheduling_actions_node[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/robot_scheduling_actions.cpp.o[0m
+[ 33%] [32m[1mLinking CXX executable devel/lib/robot_scheduling_actions/robot_scheduling_actions_node[0m
+CMakeFiles/robot_scheduling_actions_node.dir/build.make:228: recipe for target 'devel/lib/robot_scheduling_actions/robot_scheduling_actions_node' failed
+CMakeFiles/Makefile2:227: recipe for target 'CMakeFiles/robot_scheduling_actions_node.dir/all' failed
+Makefile:140: recipe for target 'all' failed

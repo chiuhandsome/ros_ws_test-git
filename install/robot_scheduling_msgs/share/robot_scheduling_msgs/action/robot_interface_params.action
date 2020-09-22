@@ -1,0 +1,24 @@
+# Define the goal
+uint8 GET=1
+uint8 SET=2
+uint8 cmd_type
+uint8 TARGET_POSE=1
+uint8 STATUS_CODE=2
+uint8 FUNCTION_ID=3
+uint8 PARAMETER=4
+uint8 dtat_type
+string[] set_data
+---
+# Define the result
+uint8 OK=1
+uint8 NOT_OK=2
+uint8 PASS=3
+uint8 STATUS=4
+uint8 ALARM=5
+uint8 FUNCTION_WAIT=11
+uint8 FUNCTION_TURN=12
+uint8 FUNCTION_DOCK=13
+uint8 FUNCTION_UNDOCK=14
+uint8 result
+---
+# Define a feedback message

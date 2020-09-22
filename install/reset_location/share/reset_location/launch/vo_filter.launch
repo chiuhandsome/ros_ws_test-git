@@ -1,0 +1,6 @@
+<launch>
+  <arg name="vof_config_file" default="$(find visual_obstacle_filter)/config/vof_parameters.yaml"/>
+  <node pkg="visual_obstacle_filter" type="visual_obstacle_filter_node" name="visual_obstacle_filter_node" output="screen" respawn="true">
+    <rosparam file="$(arg vof_config_file)" command="load"/>
+  </node>
+</launch>

@@ -1,0 +1,890 @@
+[0.084s] Invoking command in '/home/handsome/ros_ws_test/build/robot_scheduling_actions': CMAKE_PREFIX_PATH=/home/handsome/ros_ws_test/install/robot_scheduling_msgs:/home/handsome/ros_ws_test/install/pnp_ros:/home/handsome/ros_ws_test/install/locomotor_msgs:/home/handsome/ros_ws_test/install/ros_utility_tools:/home/handsome/ros_ws_test/install/reset_location:/home/handsome/ros_ws_test/install/pnp_msgs:/home/handsome/ros_ws_test/install/open_auto_dock_msgs:/home/handsome/ros_ws_test/install/nav_2d_msgs:/home/handsome/ros_ws_test/install/car_db_manager_msgs:/home/handsome/ros_ws_test/install/botcmd_msgs:/home/handsome/ros_ws_test/install/yocs_cmd_vel_mux:/home/handsome/ros_ws_test/install/turtlebot_teleop:/home/handsome/ros_ws_test/install/tug_example_pnp_server:/home/handsome/ros_ws_test/install/tug_example_actions:/home/handsome/ros_ws_test/install/tug_example_msgs:/home/handsome/ros_ws_test/install/timed_roslaunch:/home/handsome/ros_ws_test/install/teb2_local_planner:/home/handsome/ros_ws_test/install/stated_roslaunch:/home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer:/home/handsome/ros_ws_test/install/robot_udp_bridge:/home/handsome/ros_ws_test/install/robot_database_bridge:/home/handsome/ros_ws_test/install/samsungcmd_msgs:/home/handsome/ros_ws_test/install/rplidar_ros:/home/handsome/ros_ws_test/install/rp_action:/home/handsome/ros_ws_test/install/rp_action_msgs:/home/handsome/ros_ws_test/install/robot_scheduling_actions:/home/handsome/ros_ws_test/install/cellctrl_qtgui_bridge:/home/handsome/ros_ws_test/install/car_db_manager_qtgui:/home/handsome/ros_ws_test/install/car_db_manager_bridge:/home/handsome/ros_ws_test/install/car_db_manager_action:/home/handsome/ros_ws_test/install/robot_scheduling_server:/home/handsome/ros_ws_test/install/robot_localization:/home/handsome/ros_ws_test/install/robot_control_msgs:/home/handsome/ros_ws_test/install/razor_imu_9dof:/home/handsome/ros_ws_test/install/pnp_rosplan:/home/handsome/ros_ws_test/install/open_auto_dock:/home/handsome/ros_ws_test/install/omron_os32c_driver:/home/handsome/ros_ws_test/install/dlux_plugins:/home/handsome/ros_ws_test/install/dlux_global_planner:/home/handsome/ros_ws_test/install/nav_grid_pub_sub:/home/handsome/ros_ws_test/install/dwb_critics:/home/handsome/ros_ws_test/install/nav_grid_iterators:/home/handsome/ros_ws_test/install/locomove_base:/home/handsome/ros_ws_test/install/locomotor:/home/handsome/ros_ws_test/install/nav_core_adapter:/home/handsome/ros_ws_test/install/dwb_plugins:/home/handsome/ros_ws_test/install/dwb_local_planner:/home/handsome/ros_ws_test/install/nav_2d_utils:/home/handsome/ros_ws_test/install/global_planner_tests:/home/handsome/ros_ws_test/install/costmap_queue:/home/handsome/ros_ws_test/install/nav_core2:/home/handsome/ros_ws_test/install/nav_grid:/home/handsome/ros_ws_test/install/actionlib_modules_msgs:/home/handsome/ros_ws_test/install/dwb_msgs:/home/handsome/ros_ws_test/install/mongodb_log:/home/handsome/ros_ws_test/install/mongodb_store:/home/handsome/ros_ws_test/install/mongodb_store_msgs:/home/handsome/ros_ws_test/install/ca_driver:/home/handsome/ros_ws_test/install/libcreate:/home/handsome/ros_ws_test/install/i_robot_stage:/home/handsome/ros_ws_test/install/i_robot_navigation:/home/handsome/ros_ws_test/install/cellctrl_control_msgs:/home/handsome/ros_ws_test/install/ca_tools:/home/handsome/ros_ws_test/install/ca_msgs:/home/handsome/ros_ws_test/install/ca_description:/opt/ros/melodic LD_LIBRARY_PATH=/home/handsome/ros_ws_test/install/pnp_ros/lib:/home/handsome/ros_ws_test/install/ros_utility_tools/lib:/home/handsome/ros_ws_test/install/yocs_cmd_vel_mux/lib:/home/handsome/ros_ws_test/install/teb2_local_planner/lib:/home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/lib:/home/handsome/ros_ws_test/install/robot_database_bridge/lib:/home/handsome/ros_ws_test/install/robot_localization/lib:/home/handsome/ros_ws_test/install/omron_os32c_driver/lib:/home/handsome/ros_ws_test/install/dlux_plugins/lib:/home/handsome/ros_ws_test/install/dlux_global_planner/lib:/home/handsome/ros_ws_test/install/nav_grid_pub_sub/lib:/home/handsome/ros_ws_test/install/dwb_critics/lib:/home/handsome/ros_ws_test/install/nav_grid_iterators/lib:/home/handsome/ros_ws_test/install/locomotor/lib:/home/handsome/ros_ws_test/install/nav_core_adapter/lib:/home/handsome/ros_ws_test/install/dwb_plugins/lib:/home/handsome/ros_ws_test/install/dwb_local_planner/lib:/home/handsome/ros_ws_test/install/nav_2d_utils/lib:/home/handsome/ros_ws_test/install/global_planner_tests/lib:/home/handsome/ros_ws_test/install/costmap_queue/lib:/home/handsome/ros_ws_test/install/nav_core2/lib:/home/handsome/ros_ws_test/install/mongodb_store/lib:/home/handsome/ros_ws_test/install/libcreate/lib:/opt/ros/melodic/lib:/usr/local/lib PKG_CONFIG_PATH=/home/handsome/ros_ws_test/install/robot_scheduling_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/robot_scheduling_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/pnp_ros/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/pnp_ros/lib/pkgconfig:/home/handsome/ros_ws_test/install/locomotor_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/locomotor_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/ros_utility_tools/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/ros_utility_tools/lib/pkgconfig:/home/handsome/ros_ws_test/install/reset_location/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/reset_location/lib/pkgconfig:/home/handsome/ros_ws_test/install/pnp_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/pnp_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/car_db_manager_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/car_db_manager_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/botcmd_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/botcmd_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/yocs_cmd_vel_mux/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/yocs_cmd_vel_mux/lib/pkgconfig:/home/handsome/ros_ws_test/install/turtlebot_teleop/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/turtlebot_teleop/lib/pkgconfig:/home/handsome/ros_ws_test/install/tug_example_pnp_server/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/tug_example_pnp_server/lib/pkgconfig:/home/handsome/ros_ws_test/install/tug_example_actions/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/tug_example_actions/lib/pkgconfig:/home/handsome/ros_ws_test/install/tug_example_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/tug_example_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/timed_roslaunch/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/timed_roslaunch/lib/pkgconfig:/home/handsome/ros_ws_test/install/teb2_local_planner/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/teb2_local_planner/lib/pkgconfig:/home/handsome/ros_ws_test/install/stated_roslaunch/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/stated_roslaunch/lib/pkgconfig:/home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/lib/pkgconfig:/home/handsome/ros_ws_test/install/robot_udp_bridge/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/robot_udp_bridge/lib/pkgconfig:/home/handsome/ros_ws_test/install/robot_database_bridge/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/robot_database_bridge/lib/pkgconfig:/home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/rplidar_ros/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/rplidar_ros/lib/pkgconfig:/home/handsome/ros_ws_test/install/rp_action/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/rp_action/lib/pkgconfig:/home/handsome/ros_ws_test/install/rp_action_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/rp_action_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/robot_scheduling_actions/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/robot_scheduling_actions/lib/pkgconfig:/home/handsome/ros_ws_test/install/cellctrl_qtgui_bridge/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/cellctrl_qtgui_bridge/lib/pkgconfig:/home/handsome/ros_ws_test/install/cellctrl_database_bridge/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/cellctrl_database_bridge/lib/pkgconfig:/home/handsome/ros_ws_test/install/car_db_manager_qtgui/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/car_db_manager_qtgui/lib/pkgconfig:/home/handsome/ros_ws_test/install/car_db_manager_bridge/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/car_db_manager_bridge/lib/pkgconfig:/home/handsome/ros_ws_test/install/car_db_manager_action/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/car_db_manager_action/lib/pkgconfig:/home/handsome/ros_ws_test/install/robot_scheduling_server/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/robot_scheduling_server/lib/pkgconfig:/home/handsome/ros_ws_test/install/robot_navigation/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/robot_navigation/lib/pkgconfig:/home/handsome/ros_ws_test/install/robot_localization/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/robot_localization/lib/pkgconfig:/home/handsome/ros_ws_test/install/robot_control_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/robot_control_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/razor_imu_9dof/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/razor_imu_9dof/lib/pkgconfig:/home/handsome/ros_ws_test/install/pnp_rosplan/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/pnp_rosplan/lib/pkgconfig:/home/handsome/ros_ws_test/install/actionlib_modules_controller/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/actionlib_modules_controller/lib/pkgconfig:/home/handsome/ros_ws_test/install/open_auto_dock/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/open_auto_dock/lib/pkgconfig:/home/handsome/ros_ws_test/install/omron_os32c_driver/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/omron_os32c_driver/lib/pkgconfig:/home/handsome/ros_ws_test/install/dlux_plugins/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/dlux_plugins/lib/pkgconfig:/home/handsome/ros_ws_test/install/dlux_global_planner/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/dlux_global_planner/lib/pkgconfig:/home/handsome/ros_ws_test/install/nav_grid_pub_sub/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_grid_pub_sub/lib/pkgconfig:/home/handsome/ros_ws_test/install/dwb_critics/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/dwb_critics/lib/pkgconfig:/home/handsome/ros_ws_test/install/nav_grid_iterators/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_grid_iterators/lib/pkgconfig:/home/handsome/ros_ws_test/install/locomove_base/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/locomove_base/lib/pkgconfig:/home/handsome/ros_ws_test/install/locomotor/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/locomotor/lib/pkgconfig:/home/handsome/ros_ws_test/install/nav_core_adapter/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_core_adapter/lib/pkgconfig:/home/handsome/ros_ws_test/install/dwb_plugins/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/dwb_plugins/lib/pkgconfig:/home/handsome/ros_ws_test/install/dwb_local_planner/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/dwb_local_planner/lib/pkgconfig:/home/handsome/ros_ws_test/install/nav_2d_utils/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_2d_utils/lib/pkgconfig:/home/handsome/ros_ws_test/install/global_planner_tests/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/global_planner_tests/lib/pkgconfig:/home/handsome/ros_ws_test/install/costmap_queue/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/costmap_queue/lib/pkgconfig:/home/handsome/ros_ws_test/install/nav_core2/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_core2/lib/pkgconfig:/home/handsome/ros_ws_test/install/nav_grid/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_grid/lib/pkgconfig:/home/handsome/ros_ws_test/install/actionlib_modules_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/actionlib_modules_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/dwb_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/dwb_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/mongodb_log/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/mongodb_log/lib/pkgconfig:/home/handsome/ros_ws_test/install/mongodb_store/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/mongodb_store/lib/pkgconfig:/home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/create_autonomy/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/create_autonomy/lib/pkgconfig:/home/handsome/ros_ws_test/install/ca_driver/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/ca_driver/lib/pkgconfig:/home/handsome/ros_ws_test/install/libcreate/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/libcreate/lib/pkgconfig:/home/handsome/ros_ws_test/install/i_robot_stage/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/i_robot_stage/lib/pkgconfig:/home/handsome/ros_ws_test/install/i_robot_navigation/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/i_robot_navigation/lib/pkgconfig:/home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/ca_tools/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/ca_tools/lib/pkgconfig:/home/handsome/ros_ws_test/install/ca_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/ca_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/ca_description/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/ca_description/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig PYTHONPATH=/home/handsome/ros_ws_test/install/robot_scheduling_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/locomotor_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/reset_location/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/pnp_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/car_db_manager_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/yocs_cmd_vel_mux/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/tug_example_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/teb2_local_planner/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/rp_action_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/robot_localization/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/razor_imu_9dof/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/dwb_plugins/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/actionlib_modules_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/dwb_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/mongodb_store/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/ca_msgs/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages ROS_PACKAGE_PATH=/home/handsome/ros_ws_test/install/robot_scheduling_msgs/share:/home/handsome/ros_ws_test/install/pnp_ros/share:/home/handsome/ros_ws_test/install/locomotor_msgs/share:/home/handsome/ros_ws_test/install/ros_utility_tools/share:/home/handsome/ros_ws_test/install/reset_location/share:/home/handsome/ros_ws_test/install/pnp_msgs/share:/home/handsome/ros_ws_test/install/open_auto_dock_msgs/share:/home/handsome/ros_ws_test/install/nav_2d_msgs/share:/home/handsome/ros_ws_test/install/car_db_manager_msgs/share:/home/handsome/ros_ws_test/install/botcmd_msgs/share:/home/handsome/ros_ws_test/install/yocs_cmd_vel_mux/share:/home/handsome/ros_ws_test/install/turtlebot_teleop/share:/home/handsome/ros_ws_test/install/tug_example_pnp_server/share:/home/handsome/ros_ws_test/install/tug_example_actions/share:/home/handsome/ros_ws_test/install/tug_example_msgs/share:/home/handsome/ros_ws_test/install/timed_roslaunch/share:/home/handsome/ros_ws_test/install/teb2_local_planner/share:/home/handsome/ros_ws_test/install/stated_roslaunch/share:/home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/share:/home/handsome/ros_ws_test/install/robot_udp_bridge/share:/home/handsome/ros_ws_test/install/robot_database_bridge/share:/home/handsome/ros_ws_test/install/samsungcmd_msgs/share:/home/handsome/ros_ws_test/install/rplidar_ros/share:/home/handsome/ros_ws_test/install/rp_action/share:/home/handsome/ros_ws_test/install/rp_action_msgs/share:/home/handsome/ros_ws_test/install/robot_scheduling_actions/share:/home/handsome/ros_ws_test/install/cellctrl_qtgui_bridge/share:/home/handsome/ros_ws_test/install/cellctrl_database_bridge/share:/home/handsome/ros_ws_test/install/car_db_manager_qtgui/share:/home/handsome/ros_ws_test/install/car_db_manager_bridge/share:/home/handsome/ros_ws_test/install/car_db_manager_action/share:/home/handsome/ros_ws_test/install/robot_scheduling_server/share:/home/handsome/ros_ws_test/install/robot_navigation/share:/home/handsome/ros_ws_test/install/robot_localization/share:/home/handsome/ros_ws_test/install/robot_control_msgs/share:/home/handsome/ros_ws_test/install/razor_imu_9dof/share:/home/handsome/ros_ws_test/install/pnp_rosplan/share:/home/handsome/ros_ws_test/install/actionlib_modules_controller/share:/home/handsome/ros_ws_test/install/open_auto_dock/share:/home/handsome/ros_ws_test/install/omron_os32c_driver/share:/home/handsome/ros_ws_test/install/dlux_plugins/share:/home/handsome/ros_ws_test/install/dlux_global_planner/share:/home/handsome/ros_ws_test/install/nav_grid_pub_sub/share:/home/handsome/ros_ws_test/install/dwb_critics/share:/home/handsome/ros_ws_test/install/nav_grid_iterators/share:/home/handsome/ros_ws_test/install/locomove_base/share:/home/handsome/ros_ws_test/install/locomotor/share:/home/handsome/ros_ws_test/install/nav_core_adapter/share:/home/handsome/ros_ws_test/install/dwb_plugins/share:/home/handsome/ros_ws_test/install/dwb_local_planner/share:/home/handsome/ros_ws_test/install/nav_2d_utils/share:/home/handsome/ros_ws_test/install/global_planner_tests/share:/home/handsome/ros_ws_test/install/costmap_queue/share:/home/handsome/ros_ws_test/install/nav_core2/share:/home/handsome/ros_ws_test/install/nav_grid/share:/home/handsome/ros_ws_test/install/actionlib_modules_msgs/share:/home/handsome/ros_ws_test/install/dwb_msgs/share:/home/handsome/ros_ws_test/install/mongodb_log/share:/home/handsome/ros_ws_test/install/mongodb_store/share:/home/handsome/ros_ws_test/install/mongodb_store_msgs/share:/home/handsome/ros_ws_test/install/create_autonomy/share:/home/handsome/ros_ws_test/install/ca_driver/share:/home/handsome/ros_ws_test/install/i_robot_stage/share:/home/handsome/ros_ws_test/install/i_robot_navigation/share:/home/handsome/ros_ws_test/install/cellctrl_control_msgs/share:/home/handsome/ros_ws_test/install/ca_tools/share:/home/handsome/ros_ws_test/install/ca_msgs/share:/home/handsome/ros_ws_test/install/ca_description/share:/opt/ros/melodic/share /usr/bin/cmake --build /home/handsome/ros_ws_test/build/robot_scheduling_actions -- -j12 -l12
+[0.154s] [35m[1mScanning dependencies of target robot_scheduling_actions_node[0m
+[0.241s] [ 14%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/public_actions/pose_recognize_action.cpp.o[0m
+[0.241s] [ 14%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/robot_scheduling_actions.cpp.o[0m
+[0.241s] [ 19%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/public_actions/self_turn_action.cpp.o[0m
+[0.241s] [ 19%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/public_actions/function_run_action.cpp.o[0m
+[2.593s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:[m[K In member function ‘[01m[Kactionlib::SimpleClientGoalState robot_turn_action_client::do_robot_turn_ac(std::__cxx11::string, std::shared_ptr<robot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> > >)[m[K’:
+[2.593s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:27:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator==[m[K’ (operand types are ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ and ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::<unnamed enum>[m[K’)
+[2.594s]      if([01;31m[Kgoal->command_type == robot_scheduling_msgs[m[K::self_turn_toGoal::TURN_INTERRUPE){
+[2.595s]         [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.596s] In file included from [01m[K/usr/include/c++/7/deque:64:0[m[K,
+[2.597s]                  from [01m[K/usr/include/boost/detail/container_fwd.hpp:91[m[K,
+[2.598s]                  from [01m[K/usr/include/boost/functional/hash/extensions.hpp:22[m[K,
+[2.599s]                  from [01m[K/usr/include/boost/functional/hash/hash.hpp:594[m[K,
+[2.599s]                  from [01m[K/usr/include/boost/functional/hash.hpp:6[m[K,
+[2.599s]                  from [01m[K/usr/include/boost/thread/detail/thread.hpp:38[m[K,
+[2.599s]                  from [01m[K/usr/include/boost/thread/thread_only.hpp:22[m[K,
+[2.599s]                  from [01m[K/usr/include/boost/thread/thread.hpp:12[m[K,
+[2.600s]                  from [01m[K/usr/include/boost/thread.hpp:13[m[K,
+[2.600s]                  from [01m[K/opt/ros/melodic/include/actionlib/server/action_server.h:41[m[K,
+[2.600s]                  from [01m[K/opt/ros/melodic/include/actionlib/server/simple_action_server.h:42[m[K,
+[2.600s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:6[m[K,
+[2.600s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.600s] [01m[K/usr/include/c++/7/bits/stl_deque.h:2258:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class _Alloc> bool std::operator==(const std::deque<_Tp, _Alloc>&, const std::deque<_Tp, _Alloc>&)
+[2.600s]      [01;36m[Koperator[m[K==(const deque<_Tp, _Alloc>& __x,
+[2.600s]      [01;36m[K^~~~~~~~[m[K
+[2.601s] [01m[K/usr/include/c++/7/bits/stl_deque.h:2258:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.601s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ is not derived from ‘[01m[Kconst std::deque<_Tp, _Alloc>[m[K’
+[2.601s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.601s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.601s] In file included from [01m[K/usr/include/c++/7/deque:64:0[m[K,
+[2.601s]                  from [01m[K/usr/include/boost/detail/container_fwd.hpp:91[m[K,
+[2.602s]                  from [01m[K/usr/include/boost/functional/hash/extensions.hpp:22[m[K,
+[2.602s]                  from [01m[K/usr/include/boost/functional/hash/hash.hpp:594[m[K,
+[2.602s]                  from [01m[K/usr/include/boost/functional/hash.hpp:6[m[K,
+[2.602s]                  from [01m[K/usr/include/boost/thread/detail/thread.hpp:38[m[K,
+[2.602s]                  from [01m[K/usr/include/boost/thread/thread_only.hpp:22[m[K,
+[2.602s]                  from [01m[K/usr/include/boost/thread/thread.hpp:12[m[K,
+[2.602s]                  from [01m[K/usr/include/boost/thread.hpp:13[m[K,
+[2.603s]                  from [01m[K/opt/ros/melodic/include/actionlib/server/action_server.h:41[m[K,
+[2.603s]                  from [01m[K/opt/ros/melodic/include/actionlib/server/simple_action_server.h:42[m[K,
+[2.603s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:6[m[K,
+[2.603s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.603s] [01m[K/usr/include/c++/7/bits/stl_deque.h:274:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class _RefL, class _PtrL, class _RefR, class _PtrR> bool std::operator==(const std::_Deque_iterator<_Tp, _Ref, _Ptr>&, const std::_Deque_iterator<_Tp, _RefR, _PtrR>&)
+[2.603s]      [01;36m[Koperator[m[K==(const _Deque_iterator<_Tp, _RefL, _PtrL>& __x,
+[2.604s]      [01;36m[K^~~~~~~~[m[K
+[2.604s] [01m[K/usr/include/c++/7/bits/stl_deque.h:274:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.604s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ is not derived from ‘[01m[Kconst std::_Deque_iterator<_Tp, _Ref, _Ptr>[m[K’
+[2.604s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.604s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.604s] In file included from [01m[K/usr/include/c++/7/deque:64:0[m[K,
+[2.604s]                  from [01m[K/usr/include/boost/detail/container_fwd.hpp:91[m[K,
+[2.604s]                  from [01m[K/usr/include/boost/functional/hash/extensions.hpp:22[m[K,
+[2.605s]                  from [01m[K/usr/include/boost/functional/hash/hash.hpp:594[m[K,
+[2.605s]                  from [01m[K/usr/include/boost/functional/hash.hpp:6[m[K,
+[2.605s]                  from [01m[K/usr/include/boost/thread/detail/thread.hpp:38[m[K,
+[2.605s]                  from [01m[K/usr/include/boost/thread/thread_only.hpp:22[m[K,
+[2.605s]                  from [01m[K/usr/include/boost/thread/thread.hpp:12[m[K,
+[2.605s]                  from [01m[K/usr/include/boost/thread.hpp:13[m[K,
+[2.605s]                  from [01m[K/opt/ros/melodic/include/actionlib/server/action_server.h:41[m[K,
+[2.605s]                  from [01m[K/opt/ros/melodic/include/actionlib/server/simple_action_server.h:42[m[K,
+[2.605s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:6[m[K,
+[2.605s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.605s] [01m[K/usr/include/c++/7/bits/stl_deque.h:267:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class _Ref, class _Ptr> bool std::operator==(const std::_Deque_iterator<_Tp, _Ref, _Ptr>&, const std::_Deque_iterator<_Tp, _Ref, _Ptr>&)
+[2.605s]      [01;36m[Koperator[m[K==(const _Deque_iterator<_Tp, _Ref, _Ptr>& __x,
+[2.605s]      [01;36m[K^~~~~~~~[m[K
+[2.606s] [01m[K/usr/include/c++/7/bits/stl_deque.h:267:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.606s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ is not derived from ‘[01m[Kconst std::_Deque_iterator<_Tp, _Ref, _Ptr>[m[K’
+[2.606s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.606s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.606s] In file included from [01m[K/usr/include/c++/7/iterator:66:0[m[K,
+[2.606s]                  from [01m[K/usr/include/boost/detail/iterator.hpp:11[m[K,
+[2.606s]                  from [01m[K/usr/include/boost/array.hpp:50[m[K,
+[2.606s]                  from [01m[K/opt/ros/melodic/include/ros/message.h:38[m[K,
+[2.606s]                  from [01m[K/opt/ros/melodic/include/ros/publisher.h:33[m[K,
+[2.607s]                  from [01m[K/opt/ros/melodic/include/ros/node_handle.h:32[m[K,
+[2.607s]                  from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+[2.607s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:4[m[K,
+[2.607s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.607s] [01m[K/usr/include/c++/7/bits/stream_iterator.h:130:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class _CharT, class _Traits, class _Dist> bool std::operator==(const std::istream_iterator<_Tp, _CharT, _Traits, _Dist>&, const std::istream_iterator<_Tp, _CharT, _Traits, _Dist>&)
+[2.607s]      [01;36m[Koperator[m[K==(const istream_iterator<_Tp, _CharT, _Traits, _Dist>& __x,
+[2.607s]      [01;36m[K^~~~~~~~[m[K
+[2.607s] [01m[K/usr/include/c++/7/bits/stream_iterator.h:130:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.607s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ is not derived from ‘[01m[Kconst std::istream_iterator<_Tp, _CharT, _Traits, _Dist>[m[K’
+[2.607s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.607s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.607s] In file included from [01m[K/usr/include/c++/7/functional:58:0[m[K,
+[2.607s]                  from [01m[K/usr/include/boost/smart_ptr/detail/shared_count.hpp:38[m[K,
+[2.607s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:28[m[K,
+[2.607s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[2.608s]                  from [01m[K/opt/ros/melodic/include/ros/forwards.h:37[m[K,
+[2.608s]                  from [01m[K/opt/ros/melodic/include/ros/common.h:37[m[K,
+[2.608s]                  from [01m[K/opt/ros/melodic/include/ros/ros.h:43[m[K,
+[2.608s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:4[m[K,
+[2.608s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.608s] [01m[K/usr/include/c++/7/bits/std_function.h:770:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Res, class ... _Args> bool std::operator==(std::nullptr_t, const std::function<_Res(_ArgTypes ...)>&)
+[2.608s]      [01;36m[Koperator[m[K==(nullptr_t, const function<_Res(_Args...)>& __f) noexcept
+[2.608s]      [01;36m[K^~~~~~~~[m[K
+[2.608s] [01m[K/usr/include/c++/7/bits/std_function.h:770:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.608s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::function<_Res(_ArgTypes ...)>[m[K’ and ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::<unnamed enum>[m[K’
+[2.608s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.608s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.608s] In file included from [01m[K/usr/include/c++/7/functional:58:0[m[K,
+[2.609s]                  from [01m[K/usr/include/boost/smart_ptr/detail/shared_count.hpp:38[m[K,
+[2.609s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:28[m[K,
+[2.609s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[2.609s]                  from [01m[K/opt/ros/melodic/include/ros/forwards.h:37[m[K,
+[2.609s]                  from [01m[K/opt/ros/melodic/include/ros/common.h:37[m[K,
+[2.609s]                  from [01m[K/opt/ros/melodic/include/ros/ros.h:43[m[K,
+[2.609s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:4[m[K,
+[2.609s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.609s] [01m[K/usr/include/c++/7/bits/std_function.h:764:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Res, class ... _Args> bool std::operator==(const std::function<_Res(_ArgTypes ...)>&, std::nullptr_t)
+[2.609s]      [01;36m[Koperator[m[K==(const function<_Res(_Args...)>& __f, nullptr_t) noexcept
+[2.609s]      [01;36m[K^~~~~~~~[m[K
+[2.609s] [01m[K/usr/include/c++/7/bits/std_function.h:764:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.609s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ is not derived from ‘[01m[Kconst std::function<_Res(_ArgTypes ...)>[m[K’
+[2.610s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.610s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.610s] In file included from [01m[K/usr/include/c++/7/memory:81:0[m[K,
+[2.610s]                  from [01m[K/usr/include/boost/config/no_tr1/memory.hpp:21[m[K,
+[2.610s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:23[m[K,
+[2.610s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[2.610s]                  from [01m[K/opt/ros/melodic/include/ros/forwards.h:37[m[K,
+[2.610s]                  from [01m[K/opt/ros/melodic/include/ros/common.h:37[m[K,
+[2.610s]                  from [01m[K/opt/ros/melodic/include/ros/ros.h:43[m[K,
+[2.610s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:4[m[K,
+[2.610s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.610s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:378:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp> bool std::operator==(std::nullptr_t, const std::shared_ptr<_Tp>&)
+[2.610s]      [01;36m[Koperator[m[K==(nullptr_t, const shared_ptr<_Tp>& __a) noexcept
+[2.610s]      [01;36m[K^~~~~~~~[m[K
+[2.610s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:378:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.610s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’ and ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::<unnamed enum>[m[K’
+[2.610s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.610s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.611s] In file included from [01m[K/usr/include/c++/7/memory:81:0[m[K,
+[2.611s]                  from [01m[K/usr/include/boost/config/no_tr1/memory.hpp:21[m[K,
+[2.611s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:23[m[K,
+[2.611s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[2.611s]                  from [01m[K/opt/ros/melodic/include/ros/forwards.h:37[m[K,
+[2.611s]                  from [01m[K/opt/ros/melodic/include/ros/common.h:37[m[K,
+[2.611s]                  from [01m[K/opt/ros/melodic/include/ros/ros.h:43[m[K,
+[2.611s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:4[m[K,
+[2.611s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.611s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:373:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp> bool std::operator==(const std::shared_ptr<_Tp>&, std::nullptr_t)
+[2.612s]      [01;36m[Koperator[m[K==(const shared_ptr<_Tp>& __a, nullptr_t) noexcept
+[2.612s]      [01;36m[K^~~~~~~~[m[K
+[2.612s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:373:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.612s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ is not derived from ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’
+[2.612s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.612s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.612s] In file included from [01m[K/usr/include/c++/7/memory:81:0[m[K,
+[2.612s]                  from [01m[K/usr/include/boost/config/no_tr1/memory.hpp:21[m[K,
+[2.612s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:23[m[K,
+[2.612s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[2.612s]                  from [01m[K/opt/ros/melodic/include/ros/forwards.h:37[m[K,
+[2.612s]                  from [01m[K/opt/ros/melodic/include/ros/common.h:37[m[K,
+[2.612s]                  from [01m[K/opt/ros/melodic/include/ros/ros.h:43[m[K,
+[2.612s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:4[m[K,
+[2.613s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.613s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:368:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class _Up> bool std::operator==(const std::shared_ptr<_Tp>&, const std::shared_ptr<_Up>&)
+[2.613s]      [01;36m[Koperator[m[K==(const shared_ptr<_Tp>& __a, const shared_ptr<_Up>& __b) noexcept
+[2.613s]      [01;36m[K^~~~~~~~[m[K
+[2.613s] [01m[K/usr/include/c++/7/bits/shared_ptr.h:368:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.613s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ is not derived from ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’
+[2.613s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.613s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.613s] In file included from [01m[K/usr/include/c++/7/bits/shared_ptr.h:52:0[m[K,
+[2.613s]                  from [01m[K/usr/include/c++/7/memory:81[m[K,
+[2.613s]                  from [01m[K/usr/include/boost/config/no_tr1/memory.hpp:21[m[K,
+[2.613s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:23[m[K,
+[2.613s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[2.613s]                  from [01m[K/opt/ros/melodic/include/ros/forwards.h:37[m[K,
+[2.613s]                  from [01m[K/opt/ros/melodic/include/ros/common.h:37[m[K,
+[2.613s]                  from [01m[K/opt/ros/melodic/include/ros/ros.h:43[m[K,
+[2.613s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:4[m[K,
+[2.614s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.614s] [01m[K/usr/include/c++/7/bits/shared_ptr_base.h:1420:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator==(std::nullptr_t, const std::__shared_ptr<_Tp, _Lp>&)
+[2.614s]      [01;36m[Koperator[m[K==(nullptr_t, const __shared_ptr<_Tp, _Lp>& __a) noexcept
+[2.614s]      [01;36m[K^~~~~~~~[m[K
+[2.614s] [01m[K/usr/include/c++/7/bits/shared_ptr_base.h:1420:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.614s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__shared_ptr<_Tp, _Lp>[m[K’ and ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::<unnamed enum>[m[K’
+[2.614s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.614s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.614s] In file included from [01m[K/usr/include/c++/7/bits/shared_ptr.h:52:0[m[K,
+[2.614s]                  from [01m[K/usr/include/c++/7/memory:81[m[K,
+[2.614s]                  from [01m[K/usr/include/boost/config/no_tr1/memory.hpp:21[m[K,
+[2.614s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:23[m[K,
+[2.614s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[2.614s]                  from [01m[K/opt/ros/melodic/include/ros/forwards.h:37[m[K,
+[2.614s]                  from [01m[K/opt/ros/melodic/include/ros/common.h:37[m[K,
+[2.614s]                  from [01m[K/opt/ros/melodic/include/ros/ros.h:43[m[K,
+[2.614s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:4[m[K,
+[2.615s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.615s] [01m[K/usr/include/c++/7/bits/shared_ptr_base.h:1415:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator==(const std::__shared_ptr<_Tp, _Lp>&, std::nullptr_t)
+[2.615s]      [01;36m[Koperator[m[K==(const __shared_ptr<_Tp, _Lp>& __a, nullptr_t) noexcept
+[2.615s]      [01;36m[K^~~~~~~~[m[K
+[2.615s] [01m[K/usr/include/c++/7/bits/shared_ptr_base.h:1415:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.615s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ is not derived from ‘[01m[Kconst std::__shared_ptr<_Tp, _Lp>[m[K’
+[2.615s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.615s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.615s] In file included from [01m[K/usr/include/c++/7/bits/shared_ptr.h:52:0[m[K,
+[2.615s]                  from [01m[K/usr/include/c++/7/memory:81[m[K,
+[2.615s]                  from [01m[K/usr/include/boost/config/no_tr1/memory.hpp:21[m[K,
+[2.615s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:23[m[K,
+[2.615s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[2.615s]                  from [01m[K/opt/ros/melodic/include/ros/forwards.h:37[m[K,
+[2.615s]                  from [01m[K/opt/ros/melodic/include/ros/common.h:37[m[K,
+[2.616s]                  from [01m[K/opt/ros/melodic/include/ros/ros.h:43[m[K,
+[2.616s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:4[m[K,
+[2.616s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.616s] [01m[K/usr/include/c++/7/bits/shared_ptr_base.h:1409:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp1, class _Tp2, __gnu_cxx::_Lock_policy _Lp> bool std::operator==(const std::__shared_ptr<_Tp1, _Lp>&, const std::__shared_ptr<_Tp2, _Lp>&)
+[2.616s]      [01;36m[Koperator[m[K==(const __shared_ptr<_Tp1, _Lp>& __a,
+[2.616s]      [01;36m[K^~~~~~~~[m[K
+[2.616s] [01m[K/usr/include/c++/7/bits/shared_ptr_base.h:1409:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.616s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ is not derived from ‘[01m[Kconst std::__shared_ptr<_Tp1, _Lp>[m[K’
+[2.616s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.616s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.616s] In file included from [01m[K/usr/include/c++/7/list:63:0[m[K,
+[2.617s]                  from [01m[K/opt/ros/melodic/include/ros/forwards.h:35[m[K,
+[2.617s]                  from [01m[K/opt/ros/melodic/include/ros/common.h:37[m[K,
+[2.617s]                  from [01m[K/opt/ros/melodic/include/ros/ros.h:43[m[K,
+[2.617s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:4[m[K,
+[2.617s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.617s] [01m[K/usr/include/c++/7/bits/stl_list.h:1884:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class _Alloc> bool std::operator==(const std::__cxx11::list<_Tp, _Alloc>&, const std::__cxx11::list<_Tp, _Alloc>&)
+[2.617s]      [01;36m[Koperator[m[K==(const list<_Tp, _Alloc>& __x, const list<_Tp, _Alloc>& __y)
+[2.617s]      [01;36m[K^~~~~~~~[m[K
+[2.617s] [01m[K/usr/include/c++/7/bits/stl_list.h:1884:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.617s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::list<_Tp, _Alloc>[m[K’
+[2.617s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.617s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.617s] In file included from [01m[K/usr/include/c++/7/list:63:0[m[K,
+[2.617s]                  from [01m[K/opt/ros/melodic/include/ros/forwards.h:35[m[K,
+[2.617s]                  from [01m[K/opt/ros/melodic/include/ros/common.h:37[m[K,
+[2.617s]                  from [01m[K/opt/ros/melodic/include/ros/ros.h:43[m[K,
+[2.617s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:4[m[K,
+[2.618s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.618s] [01m[K/usr/include/c++/7/bits/stl_list.h:287:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Val> bool std::operator==(const std::_List_iterator<_Tp>&, const std::_List_const_iterator<_Tp>&)
+[2.618s]      [01;36m[Koperator[m[K==(const _List_iterator<_Val>& __x,
+[2.618s]      [01;36m[K^~~~~~~~[m[K
+[2.618s] [01m[K/usr/include/c++/7/bits/stl_list.h:287:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.618s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ is not derived from ‘[01m[Kconst std::_List_iterator<_Tp>[m[K’
+[2.618s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.618s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.618s] In file included from [01m[K/usr/include/c++/7/set:62:0[m[K,
+[2.618s]                  from [01m[K/opt/ros/melodic/include/ros/forwards.h:34[m[K,
+[2.618s]                  from [01m[K/opt/ros/melodic/include/ros/common.h:37[m[K,
+[2.618s]                  from [01m[K/opt/ros/melodic/include/ros/ros.h:43[m[K,
+[2.618s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:4[m[K,
+[2.618s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.618s] [01m[K/usr/include/c++/7/bits/stl_multiset.h:896:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Key, class _Compare, class _Alloc> bool std::operator==(const std::multiset<_Key, _Compare, _Alloc>&, const std::multiset<_Key, _Compare, _Alloc>&)
+[2.618s]      [01;36m[Koperator[m[K==(const multiset<_Key, _Compare, _Alloc>& __x,
+[2.618s]      [01;36m[K^~~~~~~~[m[K
+[2.619s] [01m[K/usr/include/c++/7/bits/stl_multiset.h:896:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.619s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ is not derived from ‘[01m[Kconst std::multiset<_Key, _Compare, _Alloc>[m[K’
+[2.619s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.619s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.619s] In file included from [01m[K/usr/include/c++/7/set:61:0[m[K,
+[2.619s]                  from [01m[K/opt/ros/melodic/include/ros/forwards.h:34[m[K,
+[2.619s]                  from [01m[K/opt/ros/melodic/include/ros/common.h:37[m[K,
+[2.619s]                  from [01m[K/opt/ros/melodic/include/ros/ros.h:43[m[K,
+[2.619s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:4[m[K,
+[2.619s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.619s] [01m[K/usr/include/c++/7/bits/stl_set.h:913:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Key, class _Compare, class _Alloc> bool std::operator==(const std::set<_Key, _Compare, _Alloc>&, const std::set<_Key, _Compare, _Alloc>&)
+[2.619s]      [01;36m[Koperator[m[K==(const set<_Key, _Compare, _Alloc>& __x,
+[2.619s]      [01;36m[K^~~~~~~~[m[K
+[2.619s] [01m[K/usr/include/c++/7/bits/stl_set.h:913:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.619s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ is not derived from ‘[01m[Kconst std::set<_Key, _Compare, _Alloc>[m[K’
+[2.619s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.620s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.620s] In file included from [01m[K/usr/include/c++/7/map:62:0[m[K,
+[2.620s]                  from [01m[K/opt/ros/melodic/include/ros/console.h:42[m[K,
+[2.620s]                  from [01m[K/opt/ros/melodic/include/ros/ros.h:40[m[K,
+[2.620s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:4[m[K,
+[2.620s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.620s] [01m[K/usr/include/c++/7/bits/stl_multimap.h:1059:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator==(const std::multimap<_Key, _Tp, _Compare, _Alloc>&, const std::multimap<_Key, _Tp, _Compare, _Alloc>&)
+[2.620s]      [01;36m[Koperator[m[K==(const multimap<_Key, _Tp, _Compare, _Alloc>& __x,
+[2.620s]      [01;36m[K^~~~~~~~[m[K
+[2.620s] [01m[K/usr/include/c++/7/bits/stl_multimap.h:1059:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.620s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ is not derived from ‘[01m[Kconst std::multimap<_Key, _Tp, _Compare, _Alloc>[m[K’
+[2.620s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.620s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.620s] In file included from [01m[K/usr/include/c++/7/map:61:0[m[K,
+[2.620s]                  from [01m[K/opt/ros/melodic/include/ros/console.h:42[m[K,
+[2.620s]                  from [01m[K/opt/ros/melodic/include/ros/ros.h:40[m[K,
+[2.621s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:4[m[K,
+[2.621s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.621s] [01m[K/usr/include/c++/7/bits/stl_map.h:1394:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator==(const std::map<_Key, _Tp, _Compare, _Alloc>&, const std::map<_Key, _Tp, _Compare, _Alloc>&)
+[2.621s]      [01;36m[Koperator[m[K==(const map<_Key, _Tp, _Compare, _Alloc>& __x,
+[2.621s]      [01;36m[K^~~~~~~~[m[K
+[2.621s] [01m[K/usr/include/c++/7/bits/stl_map.h:1394:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.621s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ is not derived from ‘[01m[Kconst std::map<_Key, _Tp, _Compare, _Alloc>[m[K’
+[2.621s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.621s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.621s] In file included from [01m[K/usr/include/c++/7/map:60:0[m[K,
+[2.621s]                  from [01m[K/opt/ros/melodic/include/ros/console.h:42[m[K,
+[2.621s]                  from [01m[K/opt/ros/melodic/include/ros/ros.h:40[m[K,
+[2.621s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:4[m[K,
+[2.621s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.621s] [01m[K/usr/include/c++/7/bits/stl_tree.h:1533:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Key, class _Val, class _KeyOfValue, class _Compare, class _Alloc> bool std::operator==(const std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>&, const std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>&)
+[2.621s]      [01;36m[Koperator[m[K==(const _Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>& __x,
+[2.622s]      [01;36m[K^~~~~~~~[m[K
+[2.622s] [01m[K/usr/include/c++/7/bits/stl_tree.h:1533:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.622s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ is not derived from ‘[01m[Kconst std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>[m[K’
+[2.622s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.622s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.622s] In file included from [01m[K/usr/include/c++/7/map:60:0[m[K,
+[2.622s]                  from [01m[K/opt/ros/melodic/include/ros/console.h:42[m[K,
+[2.622s]                  from [01m[K/opt/ros/melodic/include/ros/ros.h:40[m[K,
+[2.622s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:4[m[K,
+[2.622s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.622s] [01m[K/usr/include/c++/7/bits/stl_tree.h:406:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Val> bool std::operator==(const std::_Rb_tree_iterator<_Tp>&, const std::_Rb_tree_const_iterator<_Val>&)
+[2.622s]      [01;36m[Koperator[m[K==(const _Rb_tree_iterator<_Val>& __x,
+[2.622s]      [01;36m[K^~~~~~~~[m[K
+[2.622s] [01m[K/usr/include/c++/7/bits/stl_tree.h:406:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.623s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ is not derived from ‘[01m[Kconst std::_Rb_tree_iterator<_Tp>[m[K’
+[2.623s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.623s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.623s] In file included from [01m[K/usr/include/c++/7/vector:64:0[m[K,
+[2.623s]                  from [01m[K/usr/include/boost/math/special_functions/math_fwd.hpp:26[m[K,
+[2.623s]                  from [01m[K/usr/include/boost/math/special_functions/round.hpp:15[m[K,
+[2.623s]                  from [01m[K/opt/ros/melodic/include/ros/time.h:58[m[K,
+[2.623s]                  from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+[2.623s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:4[m[K,
+[2.623s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.623s] [01m[K/usr/include/c++/7/bits/stl_vector.h:1601:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class _Alloc> bool std::operator==(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)
+[2.623s]      [01;36m[Koperator[m[K==(const vector<_Tp, _Alloc>& __x, const vector<_Tp, _Alloc>& __y)
+[2.623s]      [01;36m[K^~~~~~~~[m[K
+[2.623s] [01m[K/usr/include/c++/7/bits/stl_vector.h:1601:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.623s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ is not derived from ‘[01m[Kconst std::vector<_Tp, _Alloc>[m[K’
+[2.623s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.624s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.624s] In file included from [01m[K/usr/include/boost/config/no_tr1/complex.hpp:21:0[m[K,
+[2.624s]                  from [01m[K/usr/include/boost/math/policies/error_handling.hpp:17[m[K,
+[2.624s]                  from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+[2.624s]                  from [01m[K/opt/ros/melodic/include/ros/time.h:58[m[K,
+[2.624s]                  from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+[2.624s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:4[m[K,
+[2.624s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.624s] [01m[K/usr/include/c++/7/complex:468:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp> constexpr bool std::operator==(const _Tp&, const std::complex<_Tp>&)
+[2.624s]      [01;36m[Koperator[m[K==(const _Tp& __x, const complex<_Tp>& __y)
+[2.624s]      [01;36m[K^~~~~~~~[m[K
+[2.624s] [01m[K/usr/include/c++/7/complex:468:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.624s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::complex<_Tp>[m[K’ and ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::<unnamed enum>[m[K’
+[2.624s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.625s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.625s] In file included from [01m[K/usr/include/boost/config/no_tr1/complex.hpp:21:0[m[K,
+[2.625s]                  from [01m[K/usr/include/boost/math/policies/error_handling.hpp:17[m[K,
+[2.625s]                  from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+[2.625s]                  from [01m[K/opt/ros/melodic/include/ros/time.h:58[m[K,
+[2.625s]                  from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+[2.625s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:4[m[K,
+[2.625s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.625s] [01m[K/usr/include/c++/7/complex:463:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp> constexpr bool std::operator==(const std::complex<_Tp>&, const _Tp&)
+[2.625s]      [01;36m[Koperator[m[K==(const complex<_Tp>& __x, const _Tp& __y)
+[2.625s]      [01;36m[K^~~~~~~~[m[K
+[2.625s] [01m[K/usr/include/c++/7/complex:463:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.625s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+[2.625s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.625s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.625s] In file included from [01m[K/usr/include/boost/config/no_tr1/complex.hpp:21:0[m[K,
+[2.625s]                  from [01m[K/usr/include/boost/math/policies/error_handling.hpp:17[m[K,
+[2.626s]                  from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+[2.626s]                  from [01m[K/opt/ros/melodic/include/ros/time.h:58[m[K,
+[2.626s]                  from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+[2.626s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:4[m[K,
+[2.626s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.626s] [01m[K/usr/include/c++/7/complex:458:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp> constexpr bool std::operator==(const std::complex<_Tp>&, const std::complex<_Tp>&)
+[2.626s]      [01;36m[Koperator[m[K==(const complex<_Tp>& __x, const complex<_Tp>& __y)
+[2.626s]      [01;36m[K^~~~~~~~[m[K
+[2.626s] [01m[K/usr/include/c++/7/complex:458:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.626s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+[2.626s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.626s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.626s] In file included from [01m[K/usr/include/c++/7/bits/locale_conv.h:41:0[m[K,
+[2.626s]                  from [01m[K/usr/include/c++/7/locale:43[m[K,
+[2.626s]                  from [01m[K/usr/include/c++/7/iomanip:43[m[K,
+[2.626s]                  from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+[2.627s]                  from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+[2.627s]                  from [01m[K/opt/ros/melodic/include/ros/time.h:58[m[K,
+[2.627s]                  from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+[2.627s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:4[m[K,
+[2.627s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.627s] [01m[K/usr/include/c++/7/bits/unique_ptr.h:690:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class _Dp> bool std::operator==(std::nullptr_t, const std::unique_ptr<_Tp, _Dp>&)
+[2.627s]      [01;36m[Koperator[m[K==(nullptr_t, const unique_ptr<_Tp, _Dp>& __x) noexcept
+[2.627s]      [01;36m[K^~~~~~~~[m[K
+[2.627s] [01m[K/usr/include/c++/7/bits/unique_ptr.h:690:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.627s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::unique_ptr<_Tp, _Dp>[m[K’ and ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::<unnamed enum>[m[K’
+[2.627s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.627s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.627s] In file included from [01m[K/usr/include/c++/7/bits/locale_conv.h:41:0[m[K,
+[2.627s]                  from [01m[K/usr/include/c++/7/locale:43[m[K,
+[2.627s]                  from [01m[K/usr/include/c++/7/iomanip:43[m[K,
+[2.627s]                  from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+[2.627s]                  from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+[2.628s]                  from [01m[K/opt/ros/melodic/include/ros/time.h:58[m[K,
+[2.628s]                  from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+[2.628s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:4[m[K,
+[2.628s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.628s] [01m[K/usr/include/c++/7/bits/unique_ptr.h:685:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class _Dp> bool std::operator==(const std::unique_ptr<_Tp, _Dp>&, std::nullptr_t)
+[2.628s]      [01;36m[Koperator[m[K==(const unique_ptr<_Tp, _Dp>& __x, nullptr_t) noexcept
+[2.628s]      [01;36m[K^~~~~~~~[m[K
+[2.628s] [01m[K/usr/include/c++/7/bits/unique_ptr.h:685:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.628s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ is not derived from ‘[01m[Kconst std::unique_ptr<_Tp, _Dp>[m[K’
+[2.628s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.628s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.628s] In file included from [01m[K/usr/include/c++/7/bits/locale_conv.h:41:0[m[K,
+[2.628s]                  from [01m[K/usr/include/c++/7/locale:43[m[K,
+[2.628s]                  from [01m[K/usr/include/c++/7/iomanip:43[m[K,
+[2.628s]                  from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+[2.628s]                  from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+[2.628s]                  from [01m[K/opt/ros/melodic/include/ros/time.h:58[m[K,
+[2.629s]                  from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+[2.629s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:4[m[K,
+[2.629s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.629s] [01m[K/usr/include/c++/7/bits/unique_ptr.h:679:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class _Dp, class _Up, class _Ep> bool std::operator==(const std::unique_ptr<_Tp, _Dp>&, const std::unique_ptr<_Up, _Ep>&)
+[2.629s]      [01;36m[Koperator[m[K==(const unique_ptr<_Tp, _Dp>& __x,
+[2.629s]      [01;36m[K^~~~~~~~[m[K
+[2.629s] [01m[K/usr/include/c++/7/bits/unique_ptr.h:679:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.629s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ is not derived from ‘[01m[Kconst std::unique_ptr<_Tp, _Dp>[m[K’
+[2.629s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.629s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.629s] In file included from [01m[K/usr/include/c++/7/bits/unique_ptr.h:37:0[m[K,
+[2.629s]                  from [01m[K/usr/include/c++/7/bits/locale_conv.h:41[m[K,
+[2.629s]                  from [01m[K/usr/include/c++/7/locale:43[m[K,
+[2.629s]                  from [01m[K/usr/include/c++/7/iomanip:43[m[K,
+[2.630s]                  from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+[2.630s]                  from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+[2.630s]                  from [01m[K/opt/ros/melodic/include/ros/time.h:58[m[K,
+[2.630s]                  from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+[2.630s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:4[m[K,
+[2.630s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.630s] [01m[K/usr/include/c++/7/tuple:1397:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class ... _TElements, class ... _UElements> constexpr bool std::operator==(const std::tuple<_Tps ...>&, const std::tuple<_Elements ...>&)
+[2.630s]      [01;36m[Koperator[m[K==(const tuple<_TElements...>& __t,
+[2.630s]      [01;36m[K^~~~~~~~[m[K
+[2.630s] [01m[K/usr/include/c++/7/tuple:1397:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.631s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ is not derived from ‘[01m[Kconst std::tuple<_Tps ...>[m[K’
+[2.631s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.631s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.631s] In file included from [01m[K/usr/include/c++/7/tuple:39:0[m[K,
+[2.631s]                  from [01m[K/usr/include/c++/7/bits/unique_ptr.h:37[m[K,
+[2.631s]                  from [01m[K/usr/include/c++/7/bits/locale_conv.h:41[m[K,
+[2.631s]                  from [01m[K/usr/include/c++/7/locale:43[m[K,
+[2.631s]                  from [01m[K/usr/include/c++/7/iomanip:43[m[K,
+[2.631s]                  from [01m[K/usr/include/boost/math/policies/error_handling.hpp:12[m[K,
+[2.631s]                  from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+[2.631s]                  from [01m[K/opt/ros/melodic/include/ros/time.h:58[m[K,
+[2.631s]                  from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+[2.632s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:4[m[K,
+[2.632s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.632s] [01m[K/usr/include/c++/7/array:252:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, long unsigned int _Nm> bool std::operator==(const std::array<_Tp, _Nm>&, const std::array<_Tp, _Nm>&)
+[2.632s]      [01;36m[Koperator[m[K==(const array<_Tp, _Nm>& __one, const array<_Tp, _Nm>& __two)
+[2.632s]      [01;36m[K^~~~~~~~[m[K
+[2.632s] [01m[K/usr/include/c++/7/array:252:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.632s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ is not derived from ‘[01m[Kconst std::array<_Tp, _Nm>[m[K’
+[2.632s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.632s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.632s] In file included from [01m[K/usr/include/c++/7/bits/locale_facets.h:48:0[m[K,
+[2.632s]                  from [01m[K/usr/include/c++/7/bits/basic_ios.h:37[m[K,
+[2.632s]                  from [01m[K/usr/include/c++/7/ios:44[m[K,
+[2.632s]                  from [01m[K/usr/include/c++/7/ostream:38[m[K,
+[2.633s]                  from [01m[K/usr/include/c++/7/iostream:39[m[K,
+[2.633s]                  from [01m[K/opt/ros/melodic/include/ros/time.h:54[m[K,
+[2.633s]                  from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+[2.633s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:4[m[K,
+[2.633s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.633s] [01m[K/usr/include/c++/7/bits/streambuf_iterator.h:204:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)
+[2.633s]      [01;36m[Koperator[m[K==(const istreambuf_iterator<_CharT, _Traits>& __a,
+[2.633s]      [01;36m[K^~~~~~~~[m[K
+[2.633s] [01m[K/usr/include/c++/7/bits/streambuf_iterator.h:204:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.633s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ is not derived from ‘[01m[Kconst std::istreambuf_iterator<_CharT, _Traits>[m[K’
+[2.633s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.633s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.634s] In file included from [01m[K/usr/include/c++/7/bits/ios_base.h:46:0[m[K,
+[2.634s]                  from [01m[K/usr/include/c++/7/ios:42[m[K,
+[2.634s]                  from [01m[K/usr/include/c++/7/ostream:38[m[K,
+[2.634s]                  from [01m[K/usr/include/c++/7/iostream:39[m[K,
+[2.634s]                  from [01m[K/opt/ros/melodic/include/ros/time.h:54[m[K,
+[2.634s]                  from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+[2.634s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:4[m[K,
+[2.634s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.634s] [01m[K/usr/include/c++/7/system_error:311:3:[m[K [01;36m[Knote: [m[Kcandidate: bool std::operator==(const std::error_condition&, const std::error_condition&)
+[2.634s]    [01;36m[Koperator[m[K==(const error_condition& __lhs,
+[2.634s]    [01;36m[K^~~~~~~~[m[K
+[2.634s] [01m[K/usr/include/c++/7/system_error:311:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ to ‘[01m[Kconst std::error_condition&[m[K’
+[2.634s] [01m[K/usr/include/c++/7/system_error:304:3:[m[K [01;36m[Knote: [m[Kcandidate: bool std::operator==(const std::error_condition&, const std::error_code&)
+[2.634s]    [01;36m[Koperator[m[K==(const error_condition& __lhs, const error_code& __rhs) noexcept
+[2.634s]    [01;36m[K^~~~~~~~[m[K
+[2.635s] [01m[K/usr/include/c++/7/system_error:304:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ to ‘[01m[Kconst std::error_condition&[m[K’
+[2.635s] [01m[K/usr/include/c++/7/system_error:297:3:[m[K [01;36m[Knote: [m[Kcandidate: bool std::operator==(const std::error_code&, const std::error_condition&)
+[2.635s]    [01;36m[Koperator[m[K==(const error_code& __lhs, const error_condition& __rhs) noexcept
+[2.635s]    [01;36m[K^~~~~~~~[m[K
+[2.635s] [01m[K/usr/include/c++/7/system_error:297:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ to ‘[01m[Kconst std::error_code&[m[K’
+[2.635s] [01m[K/usr/include/c++/7/system_error:292:3:[m[K [01;36m[Knote: [m[Kcandidate: bool std::operator==(const std::error_code&, const std::error_code&)
+[2.635s]    [01;36m[Koperator[m[K==(const error_code& __lhs, const error_code& __rhs) noexcept
+[2.635s]    [01;36m[K^~~~~~~~[m[K
+[2.635s] [01m[K/usr/include/c++/7/system_error:292:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ to ‘[01m[Kconst std::error_code&[m[K’
+[2.635s] In file included from [01m[K/usr/include/c++/7/string:52:0[m[K,
+[2.635s]                  from [01m[K/opt/ros/melodic/include/ros/platform.h:38[m[K,
+[2.635s]                  from [01m[K/opt/ros/melodic/include/ros/time.h:53[m[K,
+[2.635s]                  from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+[2.635s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:4[m[K,
+[2.635s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.636s] [01m[K/usr/include/c++/7/bits/basic_string.h:6043:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+[2.636s]      [01;36m[Koperator[m[K==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+[2.636s]      [01;36m[K^~~~~~~~[m[K
+[2.636s] [01m[K/usr/include/c++/7/bits/basic_string.h:6043:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.636s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::<unnamed enum>[m[K’
+[2.636s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.636s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.636s] In file included from [01m[K/usr/include/c++/7/string:52:0[m[K,
+[2.636s]                  from [01m[K/opt/ros/melodic/include/ros/platform.h:38[m[K,
+[2.636s]                  from [01m[K/opt/ros/melodic/include/ros/time.h:53[m[K,
+[2.636s]                  from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+[2.636s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:4[m[K,
+[2.637s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.637s] [01m[K/usr/include/c++/7/bits/basic_string.h:6031:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+[2.637s]      [01;36m[Koperator[m[K==(const _CharT* __lhs,
+[2.637s]      [01;36m[K^~~~~~~~[m[K
+[2.637s] [01m[K/usr/include/c++/7/bits/basic_string.h:6031:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.637s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’
+[2.637s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.637s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.637s] In file included from [01m[K/usr/include/c++/7/string:52:0[m[K,
+[2.637s]                  from [01m[K/opt/ros/melodic/include/ros/platform.h:38[m[K,
+[2.637s]                  from [01m[K/opt/ros/melodic/include/ros/time.h:53[m[K,
+[2.637s]                  from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+[2.637s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:4[m[K,
+[2.638s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.638s] [01m[K/usr/include/c++/7/bits/basic_string.h:6017:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::__cxx11::basic_string<_CharT>&, const std::__cxx11::basic_string<_CharT>&)
+[2.638s]      [01;36m[Koperator[m[K==(const basic_string<_CharT>& __lhs,
+[2.638s]      [01;36m[K^~~~~~~~[m[K
+[2.638s] [01m[K/usr/include/c++/7/bits/basic_string.h:6017:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.638s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__cxx11::basic_string<_CharT>[m[K’ and ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::<unnamed enum>[m[K’
+[2.638s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.638s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.638s] In file included from [01m[K/usr/include/c++/7/string:52:0[m[K,
+[2.638s]                  from [01m[K/opt/ros/melodic/include/ros/platform.h:38[m[K,
+[2.638s]                  from [01m[K/opt/ros/melodic/include/ros/time.h:53[m[K,
+[2.638s]                  from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+[2.638s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:4[m[K,
+[2.639s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.639s] [01m[K/usr/include/c++/7/bits/basic_string.h:6009:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+[2.639s]      [01;36m[Koperator[m[K==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+[2.639s]      [01;36m[K^~~~~~~~[m[K
+[2.639s] [01m[K/usr/include/c++/7/bits/basic_string.h:6009:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.639s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Alloc>[m[K’ and ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::<unnamed enum>[m[K’
+[2.639s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.639s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.639s] In file included from [01m[K/usr/include/c++/7/string:41:0[m[K,
+[2.639s]                  from [01m[K/opt/ros/melodic/include/ros/platform.h:38[m[K,
+[2.639s]                  from [01m[K/opt/ros/melodic/include/ros/time.h:53[m[K,
+[2.639s]                  from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+[2.639s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:4[m[K,
+[2.640s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.640s] [01m[K/usr/include/c++/7/bits/allocator.h:152:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp> bool std::operator==(const std::allocator<_CharT>&, const std::allocator<_CharT>&)
+[2.640s]      [01;36m[Koperator[m[K==(const allocator<_Tp>&, const allocator<_Tp>&)
+[2.640s]      [01;36m[K^~~~~~~~[m[K
+[2.640s] [01m[K/usr/include/c++/7/bits/allocator.h:152:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.640s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ is not derived from ‘[01m[Kconst std::allocator<_CharT>[m[K’
+[2.640s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.640s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.640s] In file included from [01m[K/usr/include/c++/7/string:41:0[m[K,
+[2.640s]                  from [01m[K/opt/ros/melodic/include/ros/platform.h:38[m[K,
+[2.640s]                  from [01m[K/opt/ros/melodic/include/ros/time.h:53[m[K,
+[2.640s]                  from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+[2.640s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:4[m[K,
+[2.640s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.640s] [01m[K/usr/include/c++/7/bits/allocator.h:146:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _T1, class _T2> bool std::operator==(const std::allocator<_CharT>&, const std::allocator<_T2>&)
+[2.641s]      [01;36m[Koperator[m[K==(const allocator<_T1>&, const allocator<_T2>&)
+[2.641s]      [01;36m[K^~~~~~~~[m[K
+[2.641s] [01m[K/usr/include/c++/7/bits/allocator.h:146:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.641s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ is not derived from ‘[01m[Kconst std::allocator<_CharT>[m[K’
+[2.641s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.641s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.641s] In file included from [01m[K/usr/include/c++/7/bits/char_traits.h:40:0[m[K,
+[2.641s]                  from [01m[K/usr/include/c++/7/string:40[m[K,
+[2.641s]                  from [01m[K/opt/ros/melodic/include/ros/platform.h:38[m[K,
+[2.641s]                  from [01m[K/opt/ros/melodic/include/ros/time.h:53[m[K,
+[2.641s]                  from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+[2.641s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:4[m[K,
+[2.641s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.641s] [01m[K/usr/include/c++/7/bits/postypes.h:216:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)
+[2.641s]      [01;36m[Koperator[m[K==(const fpos<_StateT>& __lhs, const fpos<_StateT>& __rhs)
+[2.641s]      [01;36m[K^~~~~~~~[m[K
+[2.642s] [01m[K/usr/include/c++/7/bits/postypes.h:216:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.642s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ is not derived from ‘[01m[Kconst std::fpos<_StateT>[m[K’
+[2.642s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.642s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.642s] In file included from [01m[K/usr/include/c++/7/bits/stl_algobase.h:67:0[m[K,
+[2.642s]                  from [01m[K/usr/include/c++/7/bits/char_traits.h:39[m[K,
+[2.642s]                  from [01m[K/usr/include/c++/7/string:40[m[K,
+[2.642s]                  from [01m[K/opt/ros/melodic/include/ros/platform.h:38[m[K,
+[2.642s]                  from [01m[K/opt/ros/melodic/include/ros/time.h:53[m[K,
+[2.642s]                  from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+[2.642s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:4[m[K,
+[2.642s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.642s] [01m[K/usr/include/c++/7/bits/stl_iterator.h:1127:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Iterator> bool std::operator==(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorL>&)
+[2.642s]      [01;36m[Koperator[m[K==(const move_iterator<_Iterator>& __x,
+[2.642s]      [01;36m[K^~~~~~~~[m[K
+[2.642s] [01m[K/usr/include/c++/7/bits/stl_iterator.h:1127:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.643s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+[2.643s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.643s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.643s] In file included from [01m[K/usr/include/c++/7/bits/stl_algobase.h:67:0[m[K,
+[2.643s]                  from [01m[K/usr/include/c++/7/bits/char_traits.h:39[m[K,
+[2.643s]                  from [01m[K/usr/include/c++/7/string:40[m[K,
+[2.643s]                  from [01m[K/opt/ros/melodic/include/ros/platform.h:38[m[K,
+[2.643s]                  from [01m[K/opt/ros/melodic/include/ros/time.h:53[m[K,
+[2.643s]                  from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+[2.643s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:4[m[K,
+[2.643s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.643s] [01m[K/usr/include/c++/7/bits/stl_iterator.h:1121:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _IteratorL, class _IteratorR> bool std::operator==(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)
+[2.643s]      [01;36m[Koperator[m[K==(const move_iterator<_IteratorL>& __x,
+[2.643s]      [01;36m[K^~~~~~~~[m[K
+[2.643s] [01m[K/usr/include/c++/7/bits/stl_iterator.h:1121:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.643s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+[2.643s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.644s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.644s] In file included from [01m[K/usr/include/c++/7/bits/stl_algobase.h:67:0[m[K,
+[2.644s]                  from [01m[K/usr/include/c++/7/bits/char_traits.h:39[m[K,
+[2.644s]                  from [01m[K/usr/include/c++/7/string:40[m[K,
+[2.644s]                  from [01m[K/opt/ros/melodic/include/ros/platform.h:38[m[K,
+[2.644s]                  from [01m[K/opt/ros/melodic/include/ros/time.h:53[m[K,
+[2.644s]                  from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+[2.644s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:4[m[K,
+[2.644s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.644s] [01m[K/usr/include/c++/7/bits/stl_iterator.h:340:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _IteratorL, class _IteratorR> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)
+[2.644s]      [01;36m[Koperator[m[K==(const reverse_iterator<_IteratorL>& __x,
+[2.644s]      [01;36m[K^~~~~~~~[m[K
+[2.644s] [01m[K/usr/include/c++/7/bits/stl_iterator.h:340:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.644s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+[2.644s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.644s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.644s] In file included from [01m[K/usr/include/c++/7/bits/stl_algobase.h:67:0[m[K,
+[2.644s]                  from [01m[K/usr/include/c++/7/bits/char_traits.h:39[m[K,
+[2.645s]                  from [01m[K/usr/include/c++/7/string:40[m[K,
+[2.645s]                  from [01m[K/opt/ros/melodic/include/ros/platform.h:38[m[K,
+[2.645s]                  from [01m[K/opt/ros/melodic/include/ros/time.h:53[m[K,
+[2.645s]                  from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+[2.645s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:4[m[K,
+[2.645s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.645s] [01m[K/usr/include/c++/7/bits/stl_iterator.h:302:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Iterator> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+[2.645s]      [01;36m[Koperator[m[K==(const reverse_iterator<_Iterator>& __x,
+[2.645s]      [01;36m[K^~~~~~~~[m[K
+[2.645s] [01m[K/usr/include/c++/7/bits/stl_iterator.h:302:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.645s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+[2.645s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.645s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.645s] In file included from [01m[K/usr/include/c++/7/bits/stl_algobase.h:64:0[m[K,
+[2.645s]                  from [01m[K/usr/include/c++/7/bits/char_traits.h:39[m[K,
+[2.645s]                  from [01m[K/usr/include/c++/7/string:40[m[K,
+[2.645s]                  from [01m[K/opt/ros/melodic/include/ros/platform.h:38[m[K,
+[2.646s]                  from [01m[K/opt/ros/melodic/include/ros/time.h:53[m[K,
+[2.646s]                  from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+[2.646s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:4[m[K,
+[2.646s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.646s] [01m[K/usr/include/c++/7/bits/stl_pair.h:448:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _T1, class _T2> constexpr bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+[2.646s]      [01;36m[Koperator[m[K==(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
+[2.646s]      [01;36m[K^~~~~~~~[m[K
+[2.646s] [01m[K/usr/include/c++/7/bits/stl_pair.h:448:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.646s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ is not derived from ‘[01m[Kconst std::pair<_T1, _T2>[m[K’
+[2.646s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.646s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.646s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/7/bits/c++allocator.h:33:0[m[K,
+[2.646s]                  from [01m[K/usr/include/c++/7/bits/allocator.h:46[m[K,
+[2.646s]                  from [01m[K/usr/include/c++/7/string:41[m[K,
+[2.646s]                  from [01m[K/opt/ros/melodic/include/ros/platform.h:38[m[K,
+[2.646s]                  from [01m[K/opt/ros/melodic/include/ros/time.h:53[m[K,
+[2.646s]                  from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+[2.647s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:4[m[K,
+[2.647s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.647s] [01m[K/usr/include/c++/7/ext/new_allocator.h:155:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp> bool __gnu_cxx::operator==(const __gnu_cxx::new_allocator<_Tp>&, const __gnu_cxx::new_allocator<_Tp>&)
+[2.647s]      [01;36m[Koperator[m[K==(const new_allocator<_Tp>&, const new_allocator<_Tp>&)
+[2.647s]      [01;36m[K^~~~~~~~[m[K
+[2.647s] [01m[K/usr/include/c++/7/ext/new_allocator.h:155:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.647s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ is not derived from ‘[01m[Kconst __gnu_cxx::new_allocator<_Tp>[m[K’
+[2.647s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.647s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.647s] In file included from [01m[K/usr/include/c++/7/bits/stl_algobase.h:67:0[m[K,
+[2.647s]                  from [01m[K/usr/include/c++/7/bits/char_traits.h:39[m[K,
+[2.647s]                  from [01m[K/usr/include/c++/7/string:40[m[K,
+[2.647s]                  from [01m[K/opt/ros/melodic/include/ros/platform.h:38[m[K,
+[2.647s]                  from [01m[K/opt/ros/melodic/include/ros/time.h:53[m[K,
+[2.647s]                  from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+[2.647s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:4[m[K,
+[2.647s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.648s] [01m[K/usr/include/c++/7/bits/stl_iterator.h:869:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+[2.648s]      [01;36m[Koperator[m[K==(const __normal_iterator<_Iterator, _Container>& __lhs,
+[2.648s]      [01;36m[K^~~~~~~~[m[K
+[2.648s] [01m[K/usr/include/c++/7/bits/stl_iterator.h:869:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.648s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ is not derived from ‘[01m[Kconst __gnu_cxx::__normal_iterator<_Iterator, _Container>[m[K’
+[2.648s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.648s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.648s] In file included from [01m[K/usr/include/c++/7/bits/stl_algobase.h:67:0[m[K,
+[2.648s]                  from [01m[K/usr/include/c++/7/bits/char_traits.h:39[m[K,
+[2.648s]                  from [01m[K/usr/include/c++/7/string:40[m[K,
+[2.648s]                  from [01m[K/opt/ros/melodic/include/ros/platform.h:38[m[K,
+[2.648s]                  from [01m[K/opt/ros/melodic/include/ros/time.h:53[m[K,
+[2.648s]                  from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+[2.648s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:4[m[K,
+[2.648s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.648s] [01m[K/usr/include/c++/7/bits/stl_iterator.h:862:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)
+[2.648s]      [01;36m[Koperator[m[K==(const __normal_iterator<_IteratorL, _Container>& __lhs,
+[2.649s]      [01;36m[K^~~~~~~~[m[K
+[2.649s] [01m[K/usr/include/c++/7/bits/stl_iterator.h:862:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.649s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ is not derived from ‘[01m[Kconst __gnu_cxx::__normal_iterator<_IteratorL, _Container>[m[K’
+[2.649s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.649s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.649s] In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:19:0[m[K,
+[2.649s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.649s] [01m[K/home/handsome/ros_ws_test/install/robot_scheduling_msgs/include/robot_scheduling_msgs/self_turn_to_recoveryAction.h:79:6:[m[K [01;36m[Knote: [m[Kcandidate: template<class ContainerAllocator1, class ContainerAllocator2> bool robot_scheduling_msgs::operator==(const robot_scheduling_msgs::self_turn_to_recoveryAction_<ContainerAllocator>&, const robot_scheduling_msgs::self_turn_to_recoveryAction_<ContainerAllocator2>&)
+[2.649s]  bool [01;36m[Koperator[m[K==(const ::robot_scheduling_msgs::self_turn_to_recoveryAction_<ContainerAllocator1> & lhs, const ::robot_scheduling_msgs::self_turn_to_recoveryAction_<ContainerAllocator2> & rhs)
+[2.649s]       [01;36m[K^~~~~~~~[m[K
+[2.649s] [01m[K/home/handsome/ros_ws_test/install/robot_scheduling_msgs/include/robot_scheduling_msgs/self_turn_to_recoveryAction.h:79:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.649s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ is not derived from ‘[01m[Kconst robot_scheduling_msgs::self_turn_to_recoveryAction_<ContainerAllocator>[m[K’
+[2.649s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.649s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.649s] In file included from [01m[K/home/handsome/ros_ws_test/install/robot_scheduling_msgs/include/robot_scheduling_msgs/self_turn_to_recoveryAction.h:20:0[m[K,
+[2.649s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:19[m[K,
+[2.649s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.650s] [01m[K/home/handsome/ros_ws_test/install/robot_scheduling_msgs/include/robot_scheduling_msgs/self_turn_to_recoveryActionFeedback.h:79:6:[m[K [01;36m[Knote: [m[Kcandidate: template<class ContainerAllocator1, class ContainerAllocator2> bool robot_scheduling_msgs::operator==(const robot_scheduling_msgs::self_turn_to_recoveryActionFeedback_<ContainerAllocator>&, const robot_scheduling_msgs::self_turn_to_recoveryActionFeedback_<ContainerAllocator2>&)
+[2.650s]  bool [01;36m[Koperator[m[K==(const ::robot_scheduling_msgs::self_turn_to_recoveryActionFeedback_<ContainerAllocator1> & lhs, const ::robot_scheduling_msgs::self_turn_to_recoveryActionFeedback_<ContainerAllocator2> & rhs)
+[2.650s]       [01;36m[K^~~~~~~~[m[K
+[2.650s] [01m[K/home/handsome/ros_ws_test/install/robot_scheduling_msgs/include/robot_scheduling_msgs/self_turn_to_recoveryActionFeedback.h:79:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.650s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ is not derived from ‘[01m[Kconst robot_scheduling_msgs::self_turn_to_recoveryActionFeedback_<ContainerAllocator>[m[K’
+[2.650s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.650s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.650s] In file included from [01m[K/home/handsome/ros_ws_test/install/robot_scheduling_msgs/include/robot_scheduling_msgs/self_turn_to_recoveryAction.h:19:0[m[K,
+[2.650s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:19[m[K,
+[2.650s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.650s] [01m[K/home/handsome/ros_ws_test/install/robot_scheduling_msgs/include/robot_scheduling_msgs/self_turn_to_recoveryActionResult.h:79:6:[m[K [01;36m[Knote: [m[Kcandidate: template<class ContainerAllocator1, class ContainerAllocator2> bool robot_scheduling_msgs::operator==(const robot_scheduling_msgs::self_turn_to_recoveryActionResult_<ContainerAllocator>&, const robot_scheduling_msgs::self_turn_to_recoveryActionResult_<ContainerAllocator2>&)
+[2.650s]  bool [01;36m[Koperator[m[K==(const ::robot_scheduling_msgs::self_turn_to_recoveryActionResult_<ContainerAllocator1> & lhs, const ::robot_scheduling_msgs::self_turn_to_recoveryActionResult_<ContainerAllocator2> & rhs)
+[2.650s]       [01;36m[K^~~~~~~~[m[K
+[2.650s] [01m[K/home/handsome/ros_ws_test/install/robot_scheduling_msgs/include/robot_scheduling_msgs/self_turn_to_recoveryActionResult.h:79:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.650s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ is not derived from ‘[01m[Kconst robot_scheduling_msgs::self_turn_to_recoveryActionResult_<ContainerAllocator>[m[K’
+[2.650s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.650s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.651s] In file included from [01m[K/home/handsome/ros_ws_test/install/robot_scheduling_msgs/include/robot_scheduling_msgs/self_turn_to_recoveryActionResult.h:20:0[m[K,
+[2.651s]                  from [01m[K/home/handsome/ros_ws_test/install/robot_scheduling_msgs/include/robot_scheduling_msgs/self_turn_to_recoveryAction.h:19[m[K,
+[2.651s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:19[m[K,
+[2.651s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.651s] [01m[K/home/handsome/ros_ws_test/install/robot_scheduling_msgs/include/robot_scheduling_msgs/self_turn_to_recoveryResult.h:76:6:[m[K [01;36m[Knote: [m[Kcandidate: template<class ContainerAllocator1, class ContainerAllocator2> bool robot_scheduling_msgs::operator==(const robot_scheduling_msgs::self_turn_to_recoveryResult_<ContainerAllocator>&, const robot_scheduling_msgs::self_turn_to_recoveryResult_<ContainerAllocator2>&)
+[2.651s]  bool [01;36m[Koperator[m[K==(const ::robot_scheduling_msgs::self_turn_to_recoveryResult_<ContainerAllocator1> & lhs, const ::robot_scheduling_msgs::self_turn_to_recoveryResult_<ContainerAllocator2> & rhs)
+[2.651s]       [01;36m[K^~~~~~~~[m[K
+[2.651s] [01m[K/home/handsome/ros_ws_test/install/robot_scheduling_msgs/include/robot_scheduling_msgs/self_turn_to_recoveryResult.h:76:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.651s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ is not derived from ‘[01m[Kconst robot_scheduling_msgs::self_turn_to_recoveryResult_<ContainerAllocator>[m[K’
+[2.651s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.651s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.651s] In file included from [01m[K/home/handsome/ros_ws_test/install/robot_scheduling_msgs/include/robot_scheduling_msgs/self_turn_to_recoveryAction.h:18:0[m[K,
+[2.651s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:19[m[K,
+[2.651s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.651s] [01m[K/home/handsome/ros_ws_test/install/robot_scheduling_msgs/include/robot_scheduling_msgs/self_turn_to_recoveryActionGoal.h:79:6:[m[K [01;36m[Knote: [m[Kcandidate: template<class ContainerAllocator1, class ContainerAllocator2> bool robot_scheduling_msgs::operator==(const robot_scheduling_msgs::self_turn_to_recoveryActionGoal_<ContainerAllocator>&, const robot_scheduling_msgs::self_turn_to_recoveryActionGoal_<ContainerAllocator2>&)
+[2.652s]  bool [01;36m[Koperator[m[K==(const ::robot_scheduling_msgs::self_turn_to_recoveryActionGoal_<ContainerAllocator1> & lhs, const ::robot_scheduling_msgs::self_turn_to_recoveryActionGoal_<ContainerAllocator2> & rhs)
+[2.652s]       [01;36m[K^~~~~~~~[m[K
+[2.652s] [01m[K/home/handsome/ros_ws_test/install/robot_scheduling_msgs/include/robot_scheduling_msgs/self_turn_to_recoveryActionGoal.h:79:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.652s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ is not derived from ‘[01m[Kconst robot_scheduling_msgs::self_turn_to_recoveryActionGoal_<ContainerAllocator>[m[K’
+[2.652s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.652s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.652s] In file included from [01m[K/home/handsome/ros_ws_test/install/robot_scheduling_msgs/include/robot_scheduling_msgs/self_turn_to_recoveryActionGoal.h:20:0[m[K,
+[2.652s]                  from [01m[K/home/handsome/ros_ws_test/install/robot_scheduling_msgs/include/robot_scheduling_msgs/self_turn_to_recoveryAction.h:18[m[K,
+[2.652s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:19[m[K,
+[2.652s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.652s] [01m[K/home/handsome/ros_ws_test/install/robot_scheduling_msgs/include/robot_scheduling_msgs/self_turn_to_recoveryGoal.h:66:6:[m[K [01;36m[Knote: [m[Kcandidate: template<class ContainerAllocator1, class ContainerAllocator2> bool robot_scheduling_msgs::operator==(const robot_scheduling_msgs::self_turn_to_recoveryGoal_<ContainerAllocator>&, const robot_scheduling_msgs::self_turn_to_recoveryGoal_<ContainerAllocator2>&)
+[2.652s]  bool [01;36m[Koperator[m[K==(const ::robot_scheduling_msgs::self_turn_to_recoveryGoal_<ContainerAllocator1> & lhs, const ::robot_scheduling_msgs::self_turn_to_recoveryGoal_<ContainerAllocator2> & rhs)
+[2.652s]       [01;36m[K^~~~~~~~[m[K
+[2.652s] [01m[K/home/handsome/ros_ws_test/install/robot_scheduling_msgs/include/robot_scheduling_msgs/self_turn_to_recoveryGoal.h:66:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.653s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ is not derived from ‘[01m[Kconst robot_scheduling_msgs::self_turn_to_recoveryGoal_<ContainerAllocator>[m[K’
+[2.653s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.653s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.653s] In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:9:0[m[K,
+[2.653s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.653s] [01m[K/home/handsome/ros_ws_test/install/robot_scheduling_msgs/include/robot_scheduling_msgs/self_turn_toAction.h:79:6:[m[K [01;36m[Knote: [m[Kcandidate: template<class ContainerAllocator1, class ContainerAllocator2> bool robot_scheduling_msgs::operator==(const robot_scheduling_msgs::self_turn_toAction_<ContainerAllocator>&, const robot_scheduling_msgs::self_turn_toAction_<ContainerAllocator2>&)
+[2.653s]  bool [01;36m[Koperator[m[K==(const ::robot_scheduling_msgs::self_turn_toAction_<ContainerAllocator1> & lhs, const ::robot_scheduling_msgs::self_turn_toAction_<ContainerAllocator2> & rhs)
+[2.653s]       [01;36m[K^~~~~~~~[m[K
+[2.653s] [01m[K/home/handsome/ros_ws_test/install/robot_scheduling_msgs/include/robot_scheduling_msgs/self_turn_toAction.h:79:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.653s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ is not derived from ‘[01m[Kconst robot_scheduling_msgs::self_turn_toAction_<ContainerAllocator>[m[K’
+[2.654s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.654s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.654s] In file included from [01m[K/home/handsome/ros_ws_test/install/robot_scheduling_msgs/include/robot_scheduling_msgs/self_turn_toAction.h:20:0[m[K,
+[2.654s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:9[m[K,
+[2.654s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.654s] [01m[K/home/handsome/ros_ws_test/install/robot_scheduling_msgs/include/robot_scheduling_msgs/self_turn_toActionFeedback.h:79:6:[m[K [01;36m[Knote: [m[Kcandidate: template<class ContainerAllocator1, class ContainerAllocator2> bool robot_scheduling_msgs::operator==(const robot_scheduling_msgs::self_turn_toActionFeedback_<ContainerAllocator>&, const robot_scheduling_msgs::self_turn_toActionFeedback_<ContainerAllocator2>&)
+[2.654s]  bool [01;36m[Koperator[m[K==(const ::robot_scheduling_msgs::self_turn_toActionFeedback_<ContainerAllocator1> & lhs, const ::robot_scheduling_msgs::self_turn_toActionFeedback_<ContainerAllocator2> & rhs)
+[2.654s]       [01;36m[K^~~~~~~~[m[K
+[2.654s] [01m[K/home/handsome/ros_ws_test/install/robot_scheduling_msgs/include/robot_scheduling_msgs/self_turn_toActionFeedback.h:79:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.654s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ is not derived from ‘[01m[Kconst robot_scheduling_msgs::self_turn_toActionFeedback_<ContainerAllocator>[m[K’
+[2.654s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.654s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.654s] In file included from [01m[K/home/handsome/ros_ws_test/install/robot_scheduling_msgs/include/robot_scheduling_msgs/self_turn_toActionFeedback.h:20:0[m[K,
+[2.654s]                  from [01m[K/home/handsome/ros_ws_test/install/robot_scheduling_msgs/include/robot_scheduling_msgs/self_turn_toAction.h:20[m[K,
+[2.655s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:9[m[K,
+[2.655s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.655s] [01m[K/home/handsome/ros_ws_test/install/robot_scheduling_msgs/include/robot_scheduling_msgs/self_turn_toFeedback.h:71:6:[m[K [01;36m[Knote: [m[Kcandidate: template<class ContainerAllocator1, class ContainerAllocator2> bool robot_scheduling_msgs::operator==(const robot_scheduling_msgs::self_turn_toFeedback_<ContainerAllocator>&, const robot_scheduling_msgs::self_turn_toFeedback_<ContainerAllocator2>&)
+[2.655s]  bool [01;36m[Koperator[m[K==(const ::robot_scheduling_msgs::self_turn_toFeedback_<ContainerAllocator1> & lhs, const ::robot_scheduling_msgs::self_turn_toFeedback_<ContainerAllocator2> & rhs)
+[2.655s]       [01;36m[K^~~~~~~~[m[K
+[2.655s] [01m[K/home/handsome/ros_ws_test/install/robot_scheduling_msgs/include/robot_scheduling_msgs/self_turn_toFeedback.h:71:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.655s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ is not derived from ‘[01m[Kconst robot_scheduling_msgs::self_turn_toFeedback_<ContainerAllocator>[m[K’
+[2.655s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.655s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.655s] In file included from [01m[K/home/handsome/ros_ws_test/install/robot_scheduling_msgs/include/robot_scheduling_msgs/self_turn_toAction.h:19:0[m[K,
+[2.655s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:9[m[K,
+[2.655s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.655s] [01m[K/home/handsome/ros_ws_test/install/robot_scheduling_msgs/include/robot_scheduling_msgs/self_turn_toActionResult.h:79:6:[m[K [01;36m[Knote: [m[Kcandidate: template<class ContainerAllocator1, class ContainerAllocator2> bool robot_scheduling_msgs::operator==(const robot_scheduling_msgs::self_turn_toActionResult_<ContainerAllocator>&, const robot_scheduling_msgs::self_turn_toActionResult_<ContainerAllocator2>&)
+[2.655s]  bool [01;36m[Koperator[m[K==(const ::robot_scheduling_msgs::self_turn_toActionResult_<ContainerAllocator1> & lhs, const ::robot_scheduling_msgs::self_turn_toActionResult_<ContainerAllocator2> & rhs)
+[2.655s]       [01;36m[K^~~~~~~~[m[K
+[2.655s] [01m[K/home/handsome/ros_ws_test/install/robot_scheduling_msgs/include/robot_scheduling_msgs/self_turn_toActionResult.h:79:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.655s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ is not derived from ‘[01m[Kconst robot_scheduling_msgs::self_turn_toActionResult_<ContainerAllocator>[m[K’
+[2.656s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.656s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.656s] In file included from [01m[K/home/handsome/ros_ws_test/install/robot_scheduling_msgs/include/robot_scheduling_msgs/self_turn_toActionResult.h:20:0[m[K,
+[2.656s]                  from [01m[K/home/handsome/ros_ws_test/install/robot_scheduling_msgs/include/robot_scheduling_msgs/self_turn_toAction.h:19[m[K,
+[2.656s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:9[m[K,
+[2.656s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.656s] [01m[K/home/handsome/ros_ws_test/install/robot_scheduling_msgs/include/robot_scheduling_msgs/self_turn_toResult.h:112:6:[m[K [01;36m[Knote: [m[Kcandidate: template<class ContainerAllocator1, class ContainerAllocator2> bool robot_scheduling_msgs::operator==(const robot_scheduling_msgs::self_turn_toResult_<ContainerAllocator>&, const robot_scheduling_msgs::self_turn_toResult_<ContainerAllocator2>&)
+[2.656s]  bool [01;36m[Koperator[m[K==(const ::robot_scheduling_msgs::self_turn_toResult_<ContainerAllocator1> & lhs, const ::robot_scheduling_msgs::self_turn_toResult_<ContainerAllocator2> & rhs)
+[2.656s]       [01;36m[K^~~~~~~~[m[K
+[2.656s] [01m[K/home/handsome/ros_ws_test/install/robot_scheduling_msgs/include/robot_scheduling_msgs/self_turn_toResult.h:112:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.656s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ is not derived from ‘[01m[Kconst robot_scheduling_msgs::self_turn_toResult_<ContainerAllocator>[m[K’
+[2.656s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.656s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.656s] In file included from [01m[K/home/handsome/ros_ws_test/install/robot_scheduling_msgs/include/robot_scheduling_msgs/self_turn_toAction.h:18:0[m[K,
+[2.656s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:9[m[K,
+[2.656s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.657s] [01m[K/home/handsome/ros_ws_test/install/robot_scheduling_msgs/include/robot_scheduling_msgs/self_turn_toActionGoal.h:79:6:[m[K [01;36m[Knote: [m[Kcandidate: template<class ContainerAllocator1, class ContainerAllocator2> bool robot_scheduling_msgs::operator==(const robot_scheduling_msgs::self_turn_toActionGoal_<ContainerAllocator>&, const robot_scheduling_msgs::self_turn_toActionGoal_<ContainerAllocator2>&)
+[2.657s]  bool [01;36m[Koperator[m[K==(const ::robot_scheduling_msgs::self_turn_toActionGoal_<ContainerAllocator1> & lhs, const ::robot_scheduling_msgs::self_turn_toActionGoal_<ContainerAllocator2> & rhs)
+[2.657s]       [01;36m[K^~~~~~~~[m[K
+[2.657s] [01m[K/home/handsome/ros_ws_test/install/robot_scheduling_msgs/include/robot_scheduling_msgs/self_turn_toActionGoal.h:79:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.657s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ is not derived from ‘[01m[Kconst robot_scheduling_msgs::self_turn_toActionGoal_<ContainerAllocator>[m[K’
+[2.657s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.657s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.657s] In file included from [01m[K/home/handsome/ros_ws_test/install/robot_scheduling_msgs/include/robot_scheduling_msgs/self_turn_toActionGoal.h:20:0[m[K,
+[2.657s]                  from [01m[K/home/handsome/ros_ws_test/install/robot_scheduling_msgs/include/robot_scheduling_msgs/self_turn_toAction.h:18[m[K,
+[2.657s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:9[m[K,
+[2.657s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.657s] [01m[K/home/handsome/ros_ws_test/install/robot_scheduling_msgs/include/robot_scheduling_msgs/self_turn_toGoal.h:118:6:[m[K [01;36m[Knote: [m[Kcandidate: template<class ContainerAllocator1, class ContainerAllocator2> bool robot_scheduling_msgs::operator==(const robot_scheduling_msgs::self_turn_toGoal_<ContainerAllocator>&, const robot_scheduling_msgs::self_turn_toGoal_<ContainerAllocator2>&)
+[2.657s]  bool [01;36m[Koperator[m[K==(const ::robot_scheduling_msgs::self_turn_toGoal_<ContainerAllocator1> & lhs, const ::robot_scheduling_msgs::self_turn_toGoal_<ContainerAllocator2> & rhs)
+[2.657s]       [01;36m[K^~~~~~~~[m[K
+[2.657s] [01m[K/home/handsome/ros_ws_test/install/robot_scheduling_msgs/include/robot_scheduling_msgs/self_turn_toGoal.h:118:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.657s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:71:[m[K [01;36m[Knote: [m[K  ‘[01m[Krobot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >::_command_type_type {aka std::__cxx11::basic_string<char>}[m[K’ is not derived from ‘[01m[Kconst robot_scheduling_msgs::self_turn_toGoal_<ContainerAllocator>[m[K’
+[2.658s]      if(goal->command_type == robot_scheduling_msgs::self_turn_toGoal::[01;36m[KTURN_INTERRUPE[m[K){
+[2.658s]                                                                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.658s] In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+[2.658s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:4[m[K,
+[2.658s]                  from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[2.658s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:[m[K In member function ‘[01m[Kvoid robot_turn_action_client::ac_feedbackCb(const self_turn_toFeedbackConstPtr&)[m[K’:
+[2.658s] [01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects a matching ‘[01m[Kint[m[K’ argument [[01;35m[K-Wformat=[m[K]
+[2.658s]      ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;35m[K)[m[K
+[2.658s]                                                                                                                                                                                 [01;35m[K^[m[K
+[2.658s] [01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+[2.658s]      [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+[2.658s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.658s] [01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+[2.658s]        [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+[2.658s]        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.658s] [01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+[2.659s]  #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+[2.659s]                                    [01;36m[K^~~~~~~~~~~~[m[K
+[2.659s] [01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+[2.659s]  #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[2.659s]                        [01;36m[K^~~~~~~[m[K
+[2.659s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:296:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+[2.659s]          [01;36m[KR[m[KOS_INFO("bTimeoutFlag:%d");
+[2.659s]          [01;36m[K^[m[K
+[2.659s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:[m[K In member function ‘[01m[Kvoid self_turn_action::self_turn_to_CB(const self_turn_toGoalConstPtr&)[m[K’:
+[2.659s] [01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 8 has type ‘[01m[Kint[m[K’ [[01;35m[K-Wformat=[m[K]
+[2.659s]      ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;35m[K)[m[K
+[2.659s]                                                                                                                                                                                 [01;35m[K^[m[K
+[2.659s] [01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+[2.659s]      [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+[2.659s]      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.659s] [01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+[2.659s]        [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+[2.660s]        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.660s] [01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+[2.660s]  #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+[2.660s]                                    [01;36m[K^~~~~~~~~~~~[m[K
+[2.660s] [01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+[2.660s]  #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[2.660s]                        [01;36m[K^~~~~~~[m[K
+[2.660s] [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:457:29:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+[2.660s]                              [01;36m[KR[m[KOS_INFO("timeout!==>%f",Period_timeout);
+[2.660s]                              [01;36m[K^[m[K
+[4.293s] make[2]: *** [CMakeFiles/robot_scheduling_actions_node.dir/src/public_actions/self_turn_action.cpp.o] Error 1
+[4.293s] make[2]: *** Waiting for unfinished jobs....
+[4.293s] CMakeFiles/robot_scheduling_actions_node.dir/build.make:374: recipe for target 'CMakeFiles/robot_scheduling_actions_node.dir/src/public_actions/self_turn_action.cpp.o' failed
+[6.963s] CMakeFiles/Makefile2:227: recipe for target 'CMakeFiles/robot_scheduling_actions_node.dir/all' failed
+[6.964s] make[1]: *** [CMakeFiles/robot_scheduling_actions_node.dir/all] Error 2
+[6.964s] make: *** [all] Error 2
+[6.964s] Makefile:140: recipe for target 'all' failed
+[6.967s] Invoked command in '/home/handsome/ros_ws_test/build/robot_scheduling_actions' returned '2': CMAKE_PREFIX_PATH=/home/handsome/ros_ws_test/install/robot_scheduling_msgs:/home/handsome/ros_ws_test/install/pnp_ros:/home/handsome/ros_ws_test/install/locomotor_msgs:/home/handsome/ros_ws_test/install/ros_utility_tools:/home/handsome/ros_ws_test/install/reset_location:/home/handsome/ros_ws_test/install/pnp_msgs:/home/handsome/ros_ws_test/install/open_auto_dock_msgs:/home/handsome/ros_ws_test/install/nav_2d_msgs:/home/handsome/ros_ws_test/install/car_db_manager_msgs:/home/handsome/ros_ws_test/install/botcmd_msgs:/home/handsome/ros_ws_test/install/yocs_cmd_vel_mux:/home/handsome/ros_ws_test/install/turtlebot_teleop:/home/handsome/ros_ws_test/install/tug_example_pnp_server:/home/handsome/ros_ws_test/install/tug_example_actions:/home/handsome/ros_ws_test/install/tug_example_msgs:/home/handsome/ros_ws_test/install/timed_roslaunch:/home/handsome/ros_ws_test/install/teb2_local_planner:/home/handsome/ros_ws_test/install/stated_roslaunch:/home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer:/home/handsome/ros_ws_test/install/robot_udp_bridge:/home/handsome/ros_ws_test/install/robot_database_bridge:/home/handsome/ros_ws_test/install/samsungcmd_msgs:/home/handsome/ros_ws_test/install/rplidar_ros:/home/handsome/ros_ws_test/install/rp_action:/home/handsome/ros_ws_test/install/rp_action_msgs:/home/handsome/ros_ws_test/install/robot_scheduling_actions:/home/handsome/ros_ws_test/install/cellctrl_qtgui_bridge:/home/handsome/ros_ws_test/install/car_db_manager_qtgui:/home/handsome/ros_ws_test/install/car_db_manager_bridge:/home/handsome/ros_ws_test/install/car_db_manager_action:/home/handsome/ros_ws_test/install/robot_scheduling_server:/home/handsome/ros_ws_test/install/robot_localization:/home/handsome/ros_ws_test/install/robot_control_msgs:/home/handsome/ros_ws_test/install/razor_imu_9dof:/home/handsome/ros_ws_test/install/pnp_rosplan:/home/handsome/ros_ws_test/install/open_auto_dock:/home/handsome/ros_ws_test/install/omron_os32c_driver:/home/handsome/ros_ws_test/install/dlux_plugins:/home/handsome/ros_ws_test/install/dlux_global_planner:/home/handsome/ros_ws_test/install/nav_grid_pub_sub:/home/handsome/ros_ws_test/install/dwb_critics:/home/handsome/ros_ws_test/install/nav_grid_iterators:/home/handsome/ros_ws_test/install/locomove_base:/home/handsome/ros_ws_test/install/locomotor:/home/handsome/ros_ws_test/install/nav_core_adapter:/home/handsome/ros_ws_test/install/dwb_plugins:/home/handsome/ros_ws_test/install/dwb_local_planner:/home/handsome/ros_ws_test/install/nav_2d_utils:/home/handsome/ros_ws_test/install/global_planner_tests:/home/handsome/ros_ws_test/install/costmap_queue:/home/handsome/ros_ws_test/install/nav_core2:/home/handsome/ros_ws_test/install/nav_grid:/home/handsome/ros_ws_test/install/actionlib_modules_msgs:/home/handsome/ros_ws_test/install/dwb_msgs:/home/handsome/ros_ws_test/install/mongodb_log:/home/handsome/ros_ws_test/install/mongodb_store:/home/handsome/ros_ws_test/install/mongodb_store_msgs:/home/handsome/ros_ws_test/install/ca_driver:/home/handsome/ros_ws_test/install/libcreate:/home/handsome/ros_ws_test/install/i_robot_stage:/home/handsome/ros_ws_test/install/i_robot_navigation:/home/handsome/ros_ws_test/install/cellctrl_control_msgs:/home/handsome/ros_ws_test/install/ca_tools:/home/handsome/ros_ws_test/install/ca_msgs:/home/handsome/ros_ws_test/install/ca_description:/opt/ros/melodic LD_LIBRARY_PATH=/home/handsome/ros_ws_test/install/pnp_ros/lib:/home/handsome/ros_ws_test/install/ros_utility_tools/lib:/home/handsome/ros_ws_test/install/yocs_cmd_vel_mux/lib:/home/handsome/ros_ws_test/install/teb2_local_planner/lib:/home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/lib:/home/handsome/ros_ws_test/install/robot_database_bridge/lib:/home/handsome/ros_ws_test/install/robot_localization/lib:/home/handsome/ros_ws_test/install/omron_os32c_driver/lib:/home/handsome/ros_ws_test/install/dlux_plugins/lib:/home/handsome/ros_ws_test/install/dlux_global_planner/lib:/home/handsome/ros_ws_test/install/nav_grid_pub_sub/lib:/home/handsome/ros_ws_test/install/dwb_critics/lib:/home/handsome/ros_ws_test/install/nav_grid_iterators/lib:/home/handsome/ros_ws_test/install/locomotor/lib:/home/handsome/ros_ws_test/install/nav_core_adapter/lib:/home/handsome/ros_ws_test/install/dwb_plugins/lib:/home/handsome/ros_ws_test/install/dwb_local_planner/lib:/home/handsome/ros_ws_test/install/nav_2d_utils/lib:/home/handsome/ros_ws_test/install/global_planner_tests/lib:/home/handsome/ros_ws_test/install/costmap_queue/lib:/home/handsome/ros_ws_test/install/nav_core2/lib:/home/handsome/ros_ws_test/install/mongodb_store/lib:/home/handsome/ros_ws_test/install/libcreate/lib:/opt/ros/melodic/lib:/usr/local/lib PKG_CONFIG_PATH=/home/handsome/ros_ws_test/install/robot_scheduling_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/robot_scheduling_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/pnp_ros/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/pnp_ros/lib/pkgconfig:/home/handsome/ros_ws_test/install/locomotor_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/locomotor_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/ros_utility_tools/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/ros_utility_tools/lib/pkgconfig:/home/handsome/ros_ws_test/install/reset_location/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/reset_location/lib/pkgconfig:/home/handsome/ros_ws_test/install/pnp_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/pnp_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/car_db_manager_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/car_db_manager_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/botcmd_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/botcmd_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/yocs_cmd_vel_mux/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/yocs_cmd_vel_mux/lib/pkgconfig:/home/handsome/ros_ws_test/install/turtlebot_teleop/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/turtlebot_teleop/lib/pkgconfig:/home/handsome/ros_ws_test/install/tug_example_pnp_server/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/tug_example_pnp_server/lib/pkgconfig:/home/handsome/ros_ws_test/install/tug_example_actions/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/tug_example_actions/lib/pkgconfig:/home/handsome/ros_ws_test/install/tug_example_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/tug_example_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/timed_roslaunch/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/timed_roslaunch/lib/pkgconfig:/home/handsome/ros_ws_test/install/teb2_local_planner/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/teb2_local_planner/lib/pkgconfig:/home/handsome/ros_ws_test/install/stated_roslaunch/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/stated_roslaunch/lib/pkgconfig:/home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/lib/pkgconfig:/home/handsome/ros_ws_test/install/robot_udp_bridge/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/robot_udp_bridge/lib/pkgconfig:/home/handsome/ros_ws_test/install/robot_database_bridge/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/robot_database_bridge/lib/pkgconfig:/home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/rplidar_ros/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/rplidar_ros/lib/pkgconfig:/home/handsome/ros_ws_test/install/rp_action/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/rp_action/lib/pkgconfig:/home/handsome/ros_ws_test/install/rp_action_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/rp_action_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/robot_scheduling_actions/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/robot_scheduling_actions/lib/pkgconfig:/home/handsome/ros_ws_test/install/cellctrl_qtgui_bridge/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/cellctrl_qtgui_bridge/lib/pkgconfig:/home/handsome/ros_ws_test/install/cellctrl_database_bridge/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/cellctrl_database_bridge/lib/pkgconfig:/home/handsome/ros_ws_test/install/car_db_manager_qtgui/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/car_db_manager_qtgui/lib/pkgconfig:/home/handsome/ros_ws_test/install/car_db_manager_bridge/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/car_db_manager_bridge/lib/pkgconfig:/home/handsome/ros_ws_test/install/car_db_manager_action/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/car_db_manager_action/lib/pkgconfig:/home/handsome/ros_ws_test/install/robot_scheduling_server/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/robot_scheduling_server/lib/pkgconfig:/home/handsome/ros_ws_test/install/robot_navigation/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/robot_navigation/lib/pkgconfig:/home/handsome/ros_ws_test/install/robot_localization/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/robot_localization/lib/pkgconfig:/home/handsome/ros_ws_test/install/robot_control_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/robot_control_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/razor_imu_9dof/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/razor_imu_9dof/lib/pkgconfig:/home/handsome/ros_ws_test/install/pnp_rosplan/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/pnp_rosplan/lib/pkgconfig:/home/handsome/ros_ws_test/install/actionlib_modules_controller/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/actionlib_modules_controller/lib/pkgconfig:/home/handsome/ros_ws_test/install/open_auto_dock/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/open_auto_dock/lib/pkgconfig:/home/handsome/ros_ws_test/install/omron_os32c_driver/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/omron_os32c_driver/lib/pkgconfig:/home/handsome/ros_ws_test/install/dlux_plugins/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/dlux_plugins/lib/pkgconfig:/home/handsome/ros_ws_test/install/dlux_global_planner/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/dlux_global_planner/lib/pkgconfig:/home/handsome/ros_ws_test/install/nav_grid_pub_sub/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_grid_pub_sub/lib/pkgconfig:/home/handsome/ros_ws_test/install/dwb_critics/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/dwb_critics/lib/pkgconfig:/home/handsome/ros_ws_test/install/nav_grid_iterators/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_grid_iterators/lib/pkgconfig:/home/handsome/ros_ws_test/install/locomove_base/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/locomove_base/lib/pkgconfig:/home/handsome/ros_ws_test/install/locomotor/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/locomotor/lib/pkgconfig:/home/handsome/ros_ws_test/install/nav_core_adapter/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_core_adapter/lib/pkgconfig:/home/handsome/ros_ws_test/install/dwb_plugins/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/dwb_plugins/lib/pkgconfig:/home/handsome/ros_ws_test/install/dwb_local_planner/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/dwb_local_planner/lib/pkgconfig:/home/handsome/ros_ws_test/install/nav_2d_utils/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_2d_utils/lib/pkgconfig:/home/handsome/ros_ws_test/install/global_planner_tests/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/global_planner_tests/lib/pkgconfig:/home/handsome/ros_ws_test/install/costmap_queue/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/costmap_queue/lib/pkgconfig:/home/handsome/ros_ws_test/install/nav_core2/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_core2/lib/pkgconfig:/home/handsome/ros_ws_test/install/nav_grid/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/nav_grid/lib/pkgconfig:/home/handsome/ros_ws_test/install/actionlib_modules_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/actionlib_modules_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/dwb_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/dwb_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/mongodb_log/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/mongodb_log/lib/pkgconfig:/home/handsome/ros_ws_test/install/mongodb_store/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/mongodb_store/lib/pkgconfig:/home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/create_autonomy/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/create_autonomy/lib/pkgconfig:/home/handsome/ros_ws_test/install/ca_driver/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/ca_driver/lib/pkgconfig:/home/handsome/ros_ws_test/install/libcreate/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/libcreate/lib/pkgconfig:/home/handsome/ros_ws_test/install/i_robot_stage/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/i_robot_stage/lib/pkgconfig:/home/handsome/ros_ws_test/install/i_robot_navigation/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/i_robot_navigation/lib/pkgconfig:/home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/ca_tools/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/ca_tools/lib/pkgconfig:/home/handsome/ros_ws_test/install/ca_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/ca_msgs/lib/pkgconfig:/home/handsome/ros_ws_test/install/ca_description/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/ca_description/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig PYTHONPATH=/home/handsome/ros_ws_test/install/robot_scheduling_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/locomotor_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/reset_location/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/pnp_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/car_db_manager_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/yocs_cmd_vel_mux/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/tug_example_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/teb2_local_planner/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/rp_action_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/robot_localization/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/razor_imu_9dof/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/dwb_plugins/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/actionlib_modules_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/dwb_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/mongodb_store/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/cellctrl_control_msgs/lib/python2.7/dist-packages:/home/handsome/ros_ws_test/install/ca_msgs/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages ROS_PACKAGE_PATH=/home/handsome/ros_ws_test/install/robot_scheduling_msgs/share:/home/handsome/ros_ws_test/install/pnp_ros/share:/home/handsome/ros_ws_test/install/locomotor_msgs/share:/home/handsome/ros_ws_test/install/ros_utility_tools/share:/home/handsome/ros_ws_test/install/reset_location/share:/home/handsome/ros_ws_test/install/pnp_msgs/share:/home/handsome/ros_ws_test/install/open_auto_dock_msgs/share:/home/handsome/ros_ws_test/install/nav_2d_msgs/share:/home/handsome/ros_ws_test/install/car_db_manager_msgs/share:/home/handsome/ros_ws_test/install/botcmd_msgs/share:/home/handsome/ros_ws_test/install/yocs_cmd_vel_mux/share:/home/handsome/ros_ws_test/install/turtlebot_teleop/share:/home/handsome/ros_ws_test/install/tug_example_pnp_server/share:/home/handsome/ros_ws_test/install/tug_example_actions/share:/home/handsome/ros_ws_test/install/tug_example_msgs/share:/home/handsome/ros_ws_test/install/timed_roslaunch/share:/home/handsome/ros_ws_test/install/teb2_local_planner/share:/home/handsome/ros_ws_test/install/stated_roslaunch/share:/home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/share:/home/handsome/ros_ws_test/install/robot_udp_bridge/share:/home/handsome/ros_ws_test/install/robot_database_bridge/share:/home/handsome/ros_ws_test/install/samsungcmd_msgs/share:/home/handsome/ros_ws_test/install/rplidar_ros/share:/home/handsome/ros_ws_test/install/rp_action/share:/home/handsome/ros_ws_test/install/rp_action_msgs/share:/home/handsome/ros_ws_test/install/robot_scheduling_actions/share:/home/handsome/ros_ws_test/install/cellctrl_qtgui_bridge/share:/home/handsome/ros_ws_test/install/cellctrl_database_bridge/share:/home/handsome/ros_ws_test/install/car_db_manager_qtgui/share:/home/handsome/ros_ws_test/install/car_db_manager_bridge/share:/home/handsome/ros_ws_test/install/car_db_manager_action/share:/home/handsome/ros_ws_test/install/robot_scheduling_server/share:/home/handsome/ros_ws_test/install/robot_navigation/share:/home/handsome/ros_ws_test/install/robot_localization/share:/home/handsome/ros_ws_test/install/robot_control_msgs/share:/home/handsome/ros_ws_test/install/razor_imu_9dof/share:/home/handsome/ros_ws_test/install/pnp_rosplan/share:/home/handsome/ros_ws_test/install/actionlib_modules_controller/share:/home/handsome/ros_ws_test/install/open_auto_dock/share:/home/handsome/ros_ws_test/install/omron_os32c_driver/share:/home/handsome/ros_ws_test/install/dlux_plugins/share:/home/handsome/ros_ws_test/install/dlux_global_planner/share:/home/handsome/ros_ws_test/install/nav_grid_pub_sub/share:/home/handsome/ros_ws_test/install/dwb_critics/share:/home/handsome/ros_ws_test/install/nav_grid_iterators/share:/home/handsome/ros_ws_test/install/locomove_base/share:/home/handsome/ros_ws_test/install/locomotor/share:/home/handsome/ros_ws_test/install/nav_core_adapter/share:/home/handsome/ros_ws_test/install/dwb_plugins/share:/home/handsome/ros_ws_test/install/dwb_local_planner/share:/home/handsome/ros_ws_test/install/nav_2d_utils/share:/home/handsome/ros_ws_test/install/global_planner_tests/share:/home/handsome/ros_ws_test/install/costmap_queue/share:/home/handsome/ros_ws_test/install/nav_core2/share:/home/handsome/ros_ws_test/install/nav_grid/share:/home/handsome/ros_ws_test/install/actionlib_modules_msgs/share:/home/handsome/ros_ws_test/install/dwb_msgs/share:/home/handsome/ros_ws_test/install/mongodb_log/share:/home/handsome/ros_ws_test/install/mongodb_store/share:/home/handsome/ros_ws_test/install/mongodb_store_msgs/share:/home/handsome/ros_ws_test/install/create_autonomy/share:/home/handsome/ros_ws_test/install/ca_driver/share:/home/handsome/ros_ws_test/install/i_robot_stage/share:/home/handsome/ros_ws_test/install/i_robot_navigation/share:/home/handsome/ros_ws_test/install/cellctrl_control_msgs/share:/home/handsome/ros_ws_test/install/ca_tools/share:/home/handsome/ros_ws_test/install/ca_msgs/share:/home/handsome/ros_ws_test/install/ca_description/share:/opt/ros/melodic/share /usr/bin/cmake --build /home/handsome/ros_ws_test/build/robot_scheduling_actions -- -j12 -l12

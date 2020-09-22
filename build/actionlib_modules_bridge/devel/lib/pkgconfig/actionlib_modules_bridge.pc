@@ -1,0 +1,8 @@
+prefix=/home/handsome/ros_ws_test/build/actionlib_modules_bridge/devel
+
+Name: actionlib_modules_bridge
+Description: Description of actionlib_modules_bridge
+Version: 0.0.1
+Cflags: -I/home/handsome/ros_ws_test/src/ros_base/actionlib_controller/actionlib_modules_bridge/include
+Libs: -L${prefix}/lib -lactionlib_modules_bridge
+Requires: actionlib move_base pnp_ros roscpp rospy std_msgs tf geometry_msgs tuw_multi_robot_msgs locomotor_msgs fetch_auto_dock_msgs botcmd_msgs actionlib_modules_msgs

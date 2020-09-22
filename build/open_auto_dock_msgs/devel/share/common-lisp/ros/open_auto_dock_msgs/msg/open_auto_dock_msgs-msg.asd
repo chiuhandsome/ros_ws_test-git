@@ -1,0 +1,38 @@
+
+(cl:in-package :asdf)
+
+(defsystem "open_auto_dock_msgs-msg"
+  :depends-on (:roslisp-msg-protocol :roslisp-utils :actionlib_msgs-msg
+               :geometry_msgs-msg
+               :std_msgs-msg
+)
+  :components ((:file "_package")
+    (:file "DockAction" :depends-on ("_package_DockAction"))
+    (:file "_package_DockAction" :depends-on ("_package"))
+    (:file "DockActionFeedback" :depends-on ("_package_DockActionFeedback"))
+    (:file "_package_DockActionFeedback" :depends-on ("_package"))
+    (:file "DockActionGoal" :depends-on ("_package_DockActionGoal"))
+    (:file "_package_DockActionGoal" :depends-on ("_package"))
+    (:file "DockActionResult" :depends-on ("_package_DockActionResult"))
+    (:file "_package_DockActionResult" :depends-on ("_package"))
+    (:file "DockFeedback" :depends-on ("_package_DockFeedback"))
+    (:file "_package_DockFeedback" :depends-on ("_package"))
+    (:file "DockGoal" :depends-on ("_package_DockGoal"))
+    (:file "_package_DockGoal" :depends-on ("_package"))
+    (:file "DockResult" :depends-on ("_package_DockResult"))
+    (:file "_package_DockResult" :depends-on ("_package"))
+    (:file "UndockAction" :depends-on ("_package_UndockAction"))
+    (:file "_package_UndockAction" :depends-on ("_package"))
+    (:file "UndockActionFeedback" :depends-on ("_package_UndockActionFeedback"))
+    (:file "_package_UndockActionFeedback" :depends-on ("_package"))
+    (:file "UndockActionGoal" :depends-on ("_package_UndockActionGoal"))
+    (:file "_package_UndockActionGoal" :depends-on ("_package"))
+    (:file "UndockActionResult" :depends-on ("_package_UndockActionResult"))
+    (:file "_package_UndockActionResult" :depends-on ("_package"))
+    (:file "UndockFeedback" :depends-on ("_package_UndockFeedback"))
+    (:file "_package_UndockFeedback" :depends-on ("_package"))
+    (:file "UndockGoal" :depends-on ("_package_UndockGoal"))
+    (:file "_package_UndockGoal" :depends-on ("_package"))
+    (:file "UndockResult" :depends-on ("_package_UndockResult"))
+    (:file "_package_UndockResult" :depends-on ("_package"))
+  ))

@@ -1,0 +1,72 @@
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target nav_2d_msgs_generate_messages_eus
+[  0%] Built target nav_2d_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_py
+[ 84%] Built target nav_grid_iterators
+[ 84%] Built target tf2_msgs_generate_messages_py
+[ 84%] Built target tf2_msgs_generate_messages_nodejs
+[ 84%] Built target sensor_msgs_generate_messages_nodejs
+[ 84%] Built target std_msgs_generate_messages_py
+[ 84%] Built target std_msgs_generate_messages_nodejs
+[ 84%] Built target roscpp_generate_messages_nodejs
+[ 84%] Built target std_msgs_generate_messages_lisp
+[ 84%] Built target actionlib_msgs_generate_messages_nodejs
+[ 84%] Built target std_msgs_generate_messages_eus
+[ 84%] Built target roscpp_generate_messages_lisp
+[ 84%] Built target nav_2d_msgs_generate_messages_lisp
+[ 84%] Built target sensor_msgs_generate_messages_lisp
+[ 84%] Built target nav_msgs_generate_messages_cpp
+[ 84%] Built target tf2_msgs_generate_messages_eus
+[ 84%] Built target nav_msgs_generate_messages_eus
+[ 84%] Built target nav_msgs_generate_messages_lisp
+[ 84%] Built target tf2_msgs_generate_messages_lisp
+[ 84%] Built target nav_msgs_generate_messages_py
+[ 84%] Built target actionlib_generate_messages_nodejs
+[ 84%] Built target tf_generate_messages_cpp
+[ 84%] Built target actionlib_msgs_generate_messages_cpp
+[ 84%] Built target tf_generate_messages_eus
+[ 84%] Built target tf_generate_messages_lisp
+[ 84%] Built target tf_generate_messages_nodejs
+[ 84%] Built target tf_generate_messages_py
+[ 84%] Built target sensor_msgs_generate_messages_py
+[ 84%] Built target sensor_msgs_generate_messages_eus
+[ 84%] Built target sensor_msgs_generate_messages_cpp
+[ 84%] Built target nav_msgs_generate_messages_nodejs
+[ 84%] Built target std_msgs_generate_messages_cpp
+[ 84%] Built target nav_2d_msgs_generate_messages_cpp
+[ 84%] Built target nav_2d_msgs_generate_messages_nodejs
+[ 84%] Built target actionlib_msgs_generate_messages_lisp
+[ 84%] Built target geometry_msgs_generate_messages_eus
+[ 84%] Built target rosgraph_msgs_generate_messages_cpp
+[ 84%] Built target roscpp_generate_messages_cpp
+[ 84%] Built target actionlib_generate_messages_cpp
+[ 84%] Built target actionlib_generate_messages_eus
+[100%] Built target demo
+[35m[1mScanning dependencies of target gtest[0m
+[  5%] [32mBuilding CXX object gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 11%] [32m[1mLinking CXX shared library libgtest.so[0m
+[ 11%] Built target gtest
+[ 76%] Built target nav_grid_iterators
+[35m[1mScanning dependencies of target utest[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/utest.dir/test/utest.cpp.o[0m
+[ 88%] [32m[1mLinking CXX executable devel/lib/nav_grid_iterators/utest[0m
+[ 88%] Built target utest
+[35m[1mScanning dependencies of target line_tests[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/line_tests.dir/test/line_tests.cpp.o[0m
+[100%] [32m[1mLinking CXX executable devel/lib/nav_grid_iterators/line_tests[0m
+[100%] Built target line_tests
+[35m[1mScanning dependencies of target tests[0m
+[100%] Built target tests

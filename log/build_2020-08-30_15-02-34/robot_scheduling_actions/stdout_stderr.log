@@ -1,0 +1,79 @@
+[ 14%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/public_actions/self_turn_action.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/public_actions/function_run_action.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/public_actions/pose_recognize_action.cpp.o[0m
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/pose_recognize_action.cpp:[m[K In member function ‘[01m[Kvoid pose_recognize_action::recognize_rcvr_CB(const pose_recognize_recoveryGoalConstPtr&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/pose_recognize_action.cpp:169:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct robot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> > {aka struct robot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kcommand_type[m[K’; did you mean ‘[01m[Kcommand_id[m[K’?
+                 goal_ac_ptr->[01;31m[Kcommand_type[m[K = robot_scheduling_msgs::self_turn_toGoal::TURN_REL ;
+                              [01;31m[K^~~~~~~~~~~~[m[K
+                              [32m[Kcommand_id[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:[m[K In member function ‘[01m[Kvoid robot_turn_action::turn_to_CB(const self_turn_toGoalConstPtr&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:62:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct robot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> > {aka struct robot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kcommand_type[m[K’; did you mean ‘[01m[Kcommand_id[m[K’?
+                     goal_ac_ptr->[01;31m[Kcommand_type[m[K = goal->command_type ;
+                                  [01;31m[K^~~~~~~~~~~~[m[K
+                                  [32m[Kcommand_id[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:62:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct robot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kcommand_type[m[K’; did you mean ‘[01m[Kcommand_id[m[K’?
+                     goal_ac_ptr->command_type = goal->[01;31m[Kcommand_type[m[K ;
+                                                       [01;31m[K^~~~~~~~~~~~[m[K
+                                                       [32m[Kcommand_id[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:[m[K In member function ‘[01m[Kactionlib::SimpleClientGoalState robot_turn_action_client::do_robot_turn_ac(std::__cxx11::string, std::shared_ptr<robot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> > >)[m[K’:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:260:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct robot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> > {aka struct robot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kcommand_type[m[K’; did you mean ‘[01m[Kcommand_id[m[K’?
+     if(goal->[01;31m[Kcommand_type[m[K == robot_scheduling_msgs::self_turn_toGoal::TURN_INTERRUPE){
+              [01;31m[K^~~~~~~~~~~~[m[K
+              [32m[Kcommand_id[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:4[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:[m[K In member function ‘[01m[Kvoid robot_turn_action_client::ac_feedbackCb(const self_turn_toFeedbackConstPtr&)[m[K’:
+[01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects a matching ‘[01m[Kint[m[K’ argument [[01;35m[K-Wformat=[m[K]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;35m[K)[m[K
+                                                                                                                                                                                [01;35m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:296:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+         [01;36m[KR[m[KOS_INFO("bTimeoutFlag:%d");
+         [01;36m[K^[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:[m[K In member function ‘[01m[Kvoid self_turn_action::self_turn_to_CB(const self_turn_toGoalConstPtr&)[m[K’:
+[01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 8 has type ‘[01m[Kint[m[K’ [[01;35m[K-Wformat=[m[K]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;35m[K)[m[K
+                                                                                                                                                                                [01;35m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:457:29:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+                             [01;36m[KR[m[KOS_INFO("timeout!==>%f",Period_timeout);
+                             [01;36m[K^[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/function_run_action.cpp:[m[K In member function ‘[01m[Kactionlib::SimpleClientGoalState function_run_action::function_run_ac_handler(std::__cxx11::string, std::__cxx11::string, std::__cxx11::string)[m[K’:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/function_run_action.cpp:134:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct robot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> > {aka struct robot_scheduling_msgs::self_turn_toGoal_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kcommand_type[m[K’; did you mean ‘[01m[Kcommand_id[m[K’?
+         goal_ac_ptr->[01;31m[Kcommand_type[m[K = robot_scheduling_msgs::self_turn_toGoal::TURN_REL ;
+                      [01;31m[K^~~~~~~~~~~~[m[K
+                      [32m[Kcommand_id[m[K
+CMakeFiles/robot_scheduling_actions_node.dir/build.make:254: recipe for target 'CMakeFiles/robot_scheduling_actions_node.dir/src/public_actions/pose_recognize_action.cpp.o' failed
+make[2]: *** [CMakeFiles/robot_scheduling_actions_node.dir/src/public_actions/pose_recognize_action.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+CMakeFiles/robot_scheduling_actions_node.dir/build.make:518: recipe for target 'CMakeFiles/robot_scheduling_actions_node.dir/src/public_actions/function_run_action.cpp.o' failed
+make[2]: *** [CMakeFiles/robot_scheduling_actions_node.dir/src/public_actions/function_run_action.cpp.o] Error 1
+CMakeFiles/robot_scheduling_actions_node.dir/build.make:374: recipe for target 'CMakeFiles/robot_scheduling_actions_node.dir/src/public_actions/self_turn_action.cpp.o' failed
+make[2]: *** [CMakeFiles/robot_scheduling_actions_node.dir/src/public_actions/self_turn_action.cpp.o] Error 1
+make[1]: *** [CMakeFiles/robot_scheduling_actions_node.dir/all] Error 2
+CMakeFiles/Makefile2:227: recipe for target 'CMakeFiles/robot_scheduling_actions_node.dir/all' failed
+make: *** [all] Error 2
+Makefile:140: recipe for target 'all' failed

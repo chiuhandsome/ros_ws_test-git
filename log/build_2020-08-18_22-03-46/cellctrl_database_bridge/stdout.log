@@ -1,0 +1,10 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/cellctrl_database_bridge.dir/src/cell_controller_tables/cellctrl_agvapp_tables.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cellctrl_database_bridge.dir/src/cell_controller_tables/cellctrl_stations_tables.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cellctrl_database_bridge.dir/src/cell_controller_tables/cellctrl_dbtable_process.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cellctrl_database_bridge.dir/src/cell_controller_tables/cellctrl_module_tables.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cellctrl_database_bridge.dir/src/cell_controller_tables/cellctrl_agvbasetype_tables.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/cellctrl_database_bridge.dir/src/control_mongodbstore_client.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/cellctrl_database_bridge.dir/src/cell_controller_tables/cellctrl_orders_tables.cpp.o[0m
+CMakeFiles/cellctrl_database_bridge.dir/build.make:254: recipe for target 'CMakeFiles/cellctrl_database_bridge.dir/src/cell_controller_tables/cellctrl_dbtable_process.cpp.o' failed
+CMakeFiles/Makefile2:899: recipe for target 'CMakeFiles/cellctrl_database_bridge.dir/all' failed
+Makefile:140: recipe for target 'all' failed

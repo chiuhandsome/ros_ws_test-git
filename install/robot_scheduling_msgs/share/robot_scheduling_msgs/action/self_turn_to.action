@@ -1,0 +1,26 @@
+# Define the goal
+string command_type
+uint8 TURN_ABS=1
+uint8 TURN_REL=2
+uint8 TURN_INTERRUPE=99
+uint8 command_id
+string turn_id
+string pid_id
+float64 target_angle
+float32 time_out
+string turn_ac_name
+---
+# Define the result
+uint8 OK=1
+uint8 NOT_OK=2
+uint8 TIMED_OUT=3
+uint8 OUT_OF_TIMES=4
+uint8 NOT_PID_ID=5
+uint8 NOT_PARAMSCHK_ID=6
+#uint8 NOT_POSE_ID=6
+uint8 NOT_POSE_MAP=7
+uint8 result
+---
+# Define a feedback message
+float64 delta_angle
+bool tuened

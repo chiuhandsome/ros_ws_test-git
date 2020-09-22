@@ -1,0 +1,8 @@
+prefix=/home/handsome/ros_ws_test/install/actionlib_pnp_controller
+
+Name: actionlib_pnp_controller
+Description: Description of actionlib_pnp_controller
+Version: 0.0.1
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lactionlib_pnp_controller
+Requires: actionlib move_base pnp_ros roscpp rospy std_msgs tf geometry_msgs locomotor_msgs fetch_auto_dock_msgs actionlib_modules_msgs

@@ -1,0 +1,16 @@
+[100%] Built target robot_udp_bridge
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[100%] Built target robot_udp_bridge
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/handsome/ros_ws_test/install/robot_udp_bridge/lib/pkgconfig/robot_udp_bridge.pc
+-- Installing: /home/handsome/ros_ws_test/install/robot_udp_bridge/share/robot_udp_bridge/cmake/robot_udp_bridgeConfig.cmake
+-- Installing: /home/handsome/ros_ws_test/install/robot_udp_bridge/share/robot_udp_bridge/cmake/robot_udp_bridgeConfig-version.cmake
+-- Installing: /home/handsome/ros_ws_test/install/robot_udp_bridge/share/robot_udp_bridge/package.xml
+-- Installing: /home/handsome/ros_ws_test/install/robot_udp_bridge/lib/robot_udp_bridge/robot_udp_bridge
+-- Set runtime path of "/home/handsome/ros_ws_test/install/robot_udp_bridge/lib/robot_udp_bridge/robot_udp_bridge" to ""
+-- Installing: /home/handsome/ros_ws_test/install/robot_udp_bridge/share/robot_udp_bridge/launch
+-- Installing: /home/handsome/ros_ws_test/install/robot_udp_bridge/share/robot_udp_bridge/launch/robot_udp_bridge.launch
+-- Installing: /home/handsome/ros_ws_test/install/robot_udp_bridge/share/robot_udp_bridge/config
+-- Installing: /home/handsome/ros_ws_test/install/robot_udp_bridge/share/robot_udp_bridge/config/robot_udp_bridge_params.yaml

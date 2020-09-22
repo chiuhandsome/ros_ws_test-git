@@ -1,0 +1,212 @@
+[0.181s] Invoking command in '/home/handsome/ros_ws_test/build/robot_localization': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/robot_localization -- -j12 -l12
+[0.559s] [  0%] Built target std_msgs_generate_messages_py
+[0.613s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[0.619s] [  4%] Built target test_ros_robot_localization_listener_publisher
+[0.627s] [  4%] Built target geometry_msgs_generate_messages_py
+[0.628s] [  4%] Built target geographic_msgs_generate_messages_cpp
+[0.645s] [  4%] Built target geographic_msgs_generate_messages_py
+[0.678s] [  4%] Built target std_msgs_generate_messages_cpp
+[0.682s] [  8%] Built target filter_utilities
+[0.705s] [ 13%] Built target ros_filter_utilities
+[0.751s] [ 13%] Built target _robot_localization_generate_messages_check_deps_SetDatum
+[0.760s] [ 13%] Built target std_msgs_generate_messages_lisp
+[0.771s] [ 13%] Built target geographic_msgs_generate_messages_lisp
+[0.800s] [ 13%] Built target geometry_msgs_generate_messages_eus
+[0.801s] [ 13%] Built target _robot_localization_generate_messages_check_deps_SetPose
+[0.807s] [ 13%] Built target geographic_msgs_generate_messages_eus
+[0.825s] [ 13%] Built target _robot_localization_generate_messages_check_deps_GetState
+[0.839s] [ 13%] Built target geometry_msgs_generate_messages_lisp
+[0.864s] [ 13%] Built target std_msgs_generate_messages_eus
+[0.876s] [ 13%] Built target geometry_msgs_generate_messages_nodejs
+[0.880s] [ 13%] Built target std_msgs_generate_messages_nodejs
+[0.888s] [ 13%] Built target geographic_msgs_generate_messages_nodejs
+[0.924s] [ 22%] Built target robot_localization_generate_messages_py
+[0.961s] [ 28%] Built target robot_localization_generate_messages_lisp
+[0.999s] [ 35%] Built target robot_localization_generate_messages_cpp
+[1.055s] [ 44%] Built target robot_localization_generate_messages_eus
+[1.055s] [ 51%] Built target robot_localization_generate_messages_nodejs
+[1.124s] [ 51%] Built target robot_localization_gencpp
+[1.187s] [ 51%] Built target robot_localization_generate_messages
+[1.295s] [ 55%] Built target navsat_transform
+[1.295s] [ 60%] Built target filter_base
+[1.372s] [ 64%] Built target ukf
+[1.374s] [ 68%] Built target navsat_transform_node
+[1.381s] [ 73%] Built target ekf
+[1.459s] [ 77%] Built target ros_filter
+[1.464s] [ 82%] Built target robot_localization_estimator
+[1.586s] [ 86%] Built target ekf_localization_node
+[1.742s] [ 91%] Built target ukf_localization_node
+[1.775s] [ 95%] Built target ros_robot_localization_listener
+[2.078s] [100%] Built target robot_localization_listener_node
+[2.146s] Invoked command in '/home/handsome/ros_ws_test/build/robot_localization' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/robot_localization -- -j12 -l12
+[5.112s] Invoking command in '/home/handsome/ros_ws_test/build/robot_localization': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/robot_localization --target tests -- -j12 -l12
+[5.650s] [  3%] Built target ros_filter_utilities
+[5.668s] [  3%] Built target geometry_msgs_generate_messages_cpp
+[5.678s] [  7%] Built target gtest
+[5.730s] [ 11%] Built target filter_utilities
+[5.746s] [ 11%] Built target geographic_msgs_generate_messages_cpp
+[5.774s] [ 11%] Built target std_msgs_generate_messages_cpp
+[5.806s] [ 11%] Built target _robot_localization_generate_messages_check_deps_GetState
+[5.817s] [ 15%] Built target test_ukf_localization_node_bag1
+[5.831s] [ 19%] Built target test_ukf_localization_node_bag2
+[5.850s] [ 19%] Built target _robot_localization_generate_messages_check_deps_SetPose
+[5.852s] [ 19%] Built target _robot_localization_generate_messages_check_deps_SetDatum
+[5.863s] [ 23%] Built target test_ukf_localization_node_interfaces
+[5.877s] [ 27%] Built target test_ekf_localization_node_bag1
+[5.898s] [ 31%] Built target test_ekf_localization_node_bag3
+[5.908s] [ 35%] Built target test_ukf_localization_node_bag3
+[5.929s] [ 39%] Built target test_ekf_localization_node_bag2
+[5.937s] [ 43%] Built target test_ekf_localization_node_interfaces
+[5.985s] [ 49%] Built target robot_localization_generate_messages_cpp
+[6.100s] [ 49%] Built target robot_localization_gencpp
+[6.233s] [ 52%] Built target filter_base
+[6.350s] [ 56%] Built target filter_base-test
+[6.366s] [ 60%] Built target ekf
+[6.418s] [ 64%] Built target ukf
+[6.523s] [ 68%] Built target robot_localization_estimator
+[6.533s] [ 72%] Built target ros_filter
+[6.616s] [ 76%] Built target test_robot_localization_estimator
+[6.617s] [ 80%] Built target test_ekf
+[6.619s] [ 84%] Built target ros_robot_localization_listener
+[6.620s] [ 88%] Built target test_ukf
+[6.633s] [ 92%] Built target ekf_localization_node
+[6.689s] [ 96%] Built target test_ros_robot_localization_listener
+[6.702s] [100%] Built target test_filter_base_diagnostics_timestamps
+[6.766s] [100%] Built target tests
+[6.796s] Invoked command in '/home/handsome/ros_ws_test/build/robot_localization' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/robot_localization --target tests -- -j12 -l12
+[7.957s] Invoking command in '/home/handsome/ros_ws_test/build/robot_localization': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/robot_localization --target install -- -j12 -l12
+[8.277s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[8.278s] [  0%] Built target geographic_msgs_generate_messages_py
+[8.278s] [  0%] Built target geometry_msgs_generate_messages_py
+[8.301s] [  4%] Built target filter_utilities
+[8.309s] [  4%] Built target geographic_msgs_generate_messages_cpp
+[8.310s] [  4%] Built target std_msgs_generate_messages_cpp
+[8.313s] [  8%] Built target test_ros_robot_localization_listener_publisher
+[8.325s] [ 13%] Built target ros_filter_utilities
+[8.325s] [ 13%] Built target std_msgs_generate_messages_py
+[8.370s] [ 13%] Built target _robot_localization_generate_messages_check_deps_SetPose
+[8.394s] [ 13%] Built target _robot_localization_generate_messages_check_deps_SetDatum
+[8.411s] [ 13%] Built target _robot_localization_generate_messages_check_deps_GetState
+[8.464s] [ 13%] Built target geographic_msgs_generate_messages_nodejs
+[8.502s] [ 13%] Built target geometry_msgs_generate_messages_nodejs
+[8.515s] [ 13%] Built target std_msgs_generate_messages_nodejs
+[8.549s] [ 22%] Built target robot_localization_generate_messages_py
+[8.593s] [ 28%] Built target robot_localization_generate_messages_cpp
+[8.612s] [ 28%] Built target std_msgs_generate_messages_eus
+[8.621s] [ 35%] Built target robot_localization_generate_messages_nodejs
+[8.658s] [ 35%] Built target geometry_msgs_generate_messages_eus
+[8.680s] [ 35%] Built target robot_localization_gencpp
+[8.695s] [ 35%] Built target geographic_msgs_generate_messages_eus
+[8.723s] [ 35%] Built target geographic_msgs_generate_messages_lisp
+[8.751s] [ 35%] Built target geometry_msgs_generate_messages_lisp
+[8.790s] [ 40%] Built target navsat_transform
+[8.791s] [ 48%] Built target robot_localization_generate_messages_eus
+[8.856s] [ 53%] Built target filter_base
+[8.886s] [ 57%] Built target navsat_transform_node
+[8.895s] [ 57%] Built target std_msgs_generate_messages_lisp
+[8.957s] [ 62%] Built target ekf
+[8.961s] [ 66%] Built target ukf
+[8.972s] [ 73%] Built target robot_localization_generate_messages_lisp
+[9.048s] [ 77%] Built target robot_localization_estimator
+[9.050s] [ 82%] Built target ros_filter
+[9.063s] [ 82%] Built target robot_localization_generate_messages
+[9.132s] [ 86%] Built target ros_robot_localization_listener
+[9.145s] [ 91%] Built target ukf_localization_node
+[9.170s] [ 95%] Built target ekf_localization_node
+[9.212s] [100%] Built target robot_localization_listener_node
+[9.273s] [36mInstall the project...[0m
+[9.293s] -- Install configuration: ""
+[9.294s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/share/robot_localization/srv/GetState.srv
+[9.294s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/share/robot_localization/srv/SetDatum.srv
+[9.295s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/share/robot_localization/srv/SetPose.srv
+[9.295s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/share/robot_localization/cmake/robot_localization-msg-paths.cmake
+[9.295s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/include/robot_localization
+[9.295s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/include/robot_localization/SetDatumRequest.h
+[9.296s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/include/robot_localization/GetStateRequest.h
+[9.296s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/include/robot_localization/GetStateResponse.h
+[9.296s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/include/robot_localization/SetPoseResponse.h
+[9.296s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/include/robot_localization/SetDatumResponse.h
+[9.296s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/include/robot_localization/SetPoseRequest.h
+[9.297s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/include/robot_localization/SetDatum.h
+[9.297s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/include/robot_localization/SetPose.h
+[9.297s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/include/robot_localization/GetState.h
+[9.297s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/share/roseus/ros/robot_localization
+[9.297s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/share/roseus/ros/robot_localization/manifest.l
+[9.297s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/share/roseus/ros/robot_localization/srv
+[9.297s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/share/roseus/ros/robot_localization/srv/SetDatum.l
+[9.297s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/share/roseus/ros/robot_localization/srv/SetPose.l
+[9.297s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/share/roseus/ros/robot_localization/srv/GetState.l
+[9.297s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/share/common-lisp/ros/robot_localization
+[9.297s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/share/common-lisp/ros/robot_localization/srv
+[9.297s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/share/common-lisp/ros/robot_localization/srv/SetDatum.lisp
+[9.297s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/share/common-lisp/ros/robot_localization/srv/robot_localization-srv.asd
+[9.297s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/share/common-lisp/ros/robot_localization/srv/_package_SetDatum.lisp
+[9.298s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/share/common-lisp/ros/robot_localization/srv/_package_GetState.lisp
+[9.298s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/share/common-lisp/ros/robot_localization/srv/_package.lisp
+[9.298s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/share/common-lisp/ros/robot_localization/srv/SetPose.lisp
+[9.298s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/share/common-lisp/ros/robot_localization/srv/_package_SetPose.lisp
+[9.298s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/share/common-lisp/ros/robot_localization/srv/GetState.lisp
+[9.298s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/share/gennodejs/ros/robot_localization
+[9.298s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/share/gennodejs/ros/robot_localization/_index.js
+[9.298s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/share/gennodejs/ros/robot_localization/srv
+[9.298s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/share/gennodejs/ros/robot_localization/srv/_index.js
+[9.298s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/share/gennodejs/ros/robot_localization/srv/SetPose.js
+[9.298s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/share/gennodejs/ros/robot_localization/srv/SetDatum.js
+[9.298s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/share/gennodejs/ros/robot_localization/srv/GetState.js
+[9.345s] Listing /home/handsome/ros_ws_test/build/robot_localization/devel/lib/python2.7/dist-packages/robot_localization ...
+[9.346s] Listing /home/handsome/ros_ws_test/build/robot_localization/devel/lib/python2.7/dist-packages/robot_localization/srv ...
+[9.349s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/lib/python2.7/dist-packages/robot_localization
+[9.349s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/lib/python2.7/dist-packages/robot_localization/__init__.py
+[9.349s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/lib/python2.7/dist-packages/robot_localization/srv
+[9.349s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/lib/python2.7/dist-packages/robot_localization/srv/__init__.py
+[9.349s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/lib/python2.7/dist-packages/robot_localization/srv/_SetPose.py
+[9.349s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/lib/python2.7/dist-packages/robot_localization/srv/_GetState.py
+[9.350s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/lib/python2.7/dist-packages/robot_localization/srv/__init__.pyc
+[9.350s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/lib/python2.7/dist-packages/robot_localization/srv/_SetDatum.pyc
+[9.350s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/lib/python2.7/dist-packages/robot_localization/srv/_SetDatum.py
+[9.350s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/lib/python2.7/dist-packages/robot_localization/srv/_GetState.pyc
+[9.351s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/lib/python2.7/dist-packages/robot_localization/srv/_SetPose.pyc
+[9.351s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/lib/python2.7/dist-packages/robot_localization/__init__.pyc
+[9.351s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/lib/pkgconfig/robot_localization.pc
+[9.351s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/share/robot_localization/cmake/robot_localization-msg-extras.cmake
+[9.352s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/share/robot_localization/cmake/robot_localizationConfig.cmake
+[9.352s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/share/robot_localization/cmake/robot_localizationConfig-version.cmake
+[9.352s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/share/robot_localization/package.xml
+[9.352s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/lib/libekf.so
+[9.353s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/lib/robot_localization/ekf_localization_node
+[9.353s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/lib/libfilter_base.so
+[9.353s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/lib/libfilter_utilities.so
+[9.353s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/lib/libnavsat_transform.so
+[9.353s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/lib/robot_localization/navsat_transform_node
+[9.354s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/lib/libros_filter.so
+[9.354s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/lib/libros_filter_utilities.so
+[9.355s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/lib/librobot_localization_estimator.so
+[9.355s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/lib/libros_robot_localization_listener.so
+[9.356s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/lib/robot_localization/robot_localization_listener_node
+[9.357s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/lib/libukf.so
+[9.357s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/lib/robot_localization/ukf_localization_node
+[9.357s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/include/robot_localization
+[9.358s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/include/robot_localization/robot_localization_estimator.h
+[9.358s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/include/robot_localization/ros_robot_localization_listener.h
+[9.358s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/include/robot_localization/filter_base.h
+[9.359s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/include/robot_localization/ros_filter_utilities.h
+[9.359s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/include/robot_localization/filter_common.h
+[9.359s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/include/robot_localization/filter_utilities.h
+[9.359s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/include/robot_localization/ekf.h
+[9.359s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/include/robot_localization/ros_filter.h
+[9.360s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/include/robot_localization/navsat_conversions.h
+[9.360s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/include/robot_localization/ros_filter_types.h
+[9.360s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/include/robot_localization/navsat_transform.h
+[9.360s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/include/robot_localization/ukf.h
+[9.360s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/share/robot_localization/launch
+[9.360s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/share/robot_localization/launch/dual_ekf_navsat_example.launch
+[9.361s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/share/robot_localization/launch/navsat_transform_template.launch
+[9.361s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/share/robot_localization/launch/ukf_template.launch
+[9.361s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/share/robot_localization/launch/ekf_template.launch
+[9.361s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/share/robot_localization/params
+[9.361s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/share/robot_localization/params/navsat_transform_template.yaml
+[9.361s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/share/robot_localization/params/ukf_template.yaml
+[9.361s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/share/robot_localization/params/ekf_template.yaml
+[9.362s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/share/robot_localization/params/dual_ekf_navsat_example.yaml
+[9.362s] -- Up-to-date: /home/handsome/ros_ws_test/install/robot_localization/share/robot_localization/LICENSE
+[9.366s] Invoked command in '/home/handsome/ros_ws_test/build/robot_localization' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/robot_localization --target install -- -j12 -l12

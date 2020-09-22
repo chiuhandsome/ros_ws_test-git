@@ -1,0 +1,77 @@
+#*** set control parameters for auto_dock ***
+#pre dock position
+predock_threshold: 0.15 #0.15
+shift_x: 0.43 #0.57 pre dock at (shift_x + predock_threshold)
+shift_y: -0.24 #laser_y -0.23
+#pre dock finish check
+abort_threshold_: 0.02 #0.035 y
+abort_angle_: 0.087
+#real dock position
+DOCKED_DISTANCE_THRESHOLD_: 0.45 #>0.62
+#undock
+DOCK_CONNECTOR_CLEARANCE_DISTANCE_: 0.5 #undock distance 0.3
+undock_rotate: 3.14 #if undock goal.rotate_in_place == 1
+auto_dock_timeout: 3000.0 #120.0  #unit:second if no response re-pub goal
+rate: 12.0 #control rate
+#auto_undock_timeout: 5.0  #unit:second
+auto_backup_dist_factor: 0.9 #not use
+abort_distance_: 0.40 #not use
+NUM_OF_RETRIES_: 5 #not use
+#*** set control parameters for controller ***
+ratio_r_theta: 1.0 #1.0 #k1
+ratio_speed_slowsystem: 1.0 #0.5  #k2
+min_velocity_: 0.1 #0.04
+max_velocity_: 0.3 #0.4
+max_angular_velocity_: 0.5 #0.4
+ratio_velocity_drop: 0.0 #0.2
+lambda_: 1.0
+track_dist: 0.3 #0.4 #0.4  section from car
+distance_speed: 1.0
+distance_closing: 1.5
+distance_closed: 0.01 #0.8 #1.1 #######
+#bSimulationRun: false
+min_backup_rot_error: 0.034 #0.18 #4 #0.05
+auto_backup_dist_factor: 0.9 #0.9
+#*** set control parameters for Perception ***
+front_lidar_angel_min: 180 #180
+front_lidar_angel_max: 360 #360
+fitfail_retry: 5
+para_getpos_timeout: 0.35
+para_criteria_dist: 0.05
+para_criteria_width: 0.1
+tracking_frame_: base_link #laser #odom
+actshape_type: 0
+dock_left: .065 #.33
+dock_middle: .20
+dock_right: .33 #.065
+dock_bottom: .08
+dock_depth: .04
+#dock_front_length_Y: 8
+#left_side_length_X: 4
+#left_side_angle_X: 32
+#right_side_length_X: 4
+#right_side_angle_X: 32
+filter_b_arr_0: 0.20657
+filter_b_arr_1: 0.41314
+filter_b_arr_2: 0.20657
+filter_a_arr_0: 1.00000
+filter_a_arr_1: -0.36953
+filter_a_arr_2: 0.19582
+lidar_scan_name: scan #scan/scan1
+reverse: 1 #forward:1/backward:-1
+#--- set control parameters for pointcloud Show ---
+debug_: false
+#--- set control parameters for dock_candidate (struct) ---
+para_width_min: 0.50 #target - split_th
+para_width_max: 0.65 #target + split_th
+para_dist_min: 0.4 #0.4 mark jump
+para_dist_max: 2.0 #2.0
+#--- set control parameters for laser_procewss (namespace) ---
+para_split_threshold: 0.035 #rp>0.07 sick>0.035 2m*tan(min_scan_angle*2)
+para_remove_minpoints: 5
+para_mask_threshold: 0.03
+max_alignment_error_: 0.012 #  0.015
+#--- set control parameters for laser_procewss (namespace) ---
+icp_max_iterations: 10
+icp_min_delta_rmsd: 0.000001 #0.000001 fabs(prev_rmsd - rmsd) < min_delta_rmsd), getRMSD(target, source_t) reverse
+icp_corr_max_dist_check: 1.0

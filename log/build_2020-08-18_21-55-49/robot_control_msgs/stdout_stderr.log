@@ -1,0 +1,222 @@
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target std_srvs_generate_messages_nodejs
+[  0%] Built target _robot_control_msgs_generate_messages_check_deps_robot_ctrl_alarmHistory
+[  0%] Built target _robot_control_msgs_generate_messages_check_deps_Imu
+[  0%] Built target _robot_control_msgs_generate_messages_check_deps_robot_ctrl_alarmCode
+[  0%] Built target _robot_control_msgs_generate_messages_check_deps_hyc_heartbeat
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target _robot_control_msgs_generate_messages_check_deps_Velocities
+[  0%] Built target _robot_control_msgs_generate_messages_check_deps_robot_ctrl_alarmCode_cmd
+[  0%] Built target _robot_control_msgs_generate_messages_check_deps_hyc_RobotInfo
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target _robot_control_msgs_generate_messages_check_deps_PID
+[  0%] Built target _robot_control_msgs_generate_messages_check_deps_robot_ctrl_alarmHistory_cmd
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target _robot_control_msgs_generate_messages_check_deps_robot_ctrl_roslog
+[  0%] Built target std_srvs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_srvs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target std_srvs_generate_messages_lisp
+[  0%] Built target _robot_control_msgs_generate_messages_check_deps_robot_ctrl_roslog_cmd
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target std_srvs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[ 18%] Built target robot_control_msgs_generate_messages_nodejs
+[ 41%] Built target robot_control_msgs_generate_messages_py
+[ 63%] Built target robot_control_msgs_generate_messages_eus
+[ 82%] Built target robot_control_msgs_generate_messages_cpp
+[100%] Built target robot_control_msgs_generate_messages_lisp
+[100%] Built target robot_control_msgs_generate_messages
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target std_srvs_generate_messages_nodejs
+[  0%] Built target _robot_control_msgs_generate_messages_check_deps_robot_ctrl_alarmCode_cmd
+[  0%] Built target _robot_control_msgs_generate_messages_check_deps_Imu
+[  0%] Built target _robot_control_msgs_generate_messages_check_deps_robot_ctrl_alarmHistory
+[  0%] Built target _robot_control_msgs_generate_messages_check_deps_robot_ctrl_alarmHistory_cmd
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target _robot_control_msgs_generate_messages_check_deps_robot_ctrl_alarmCode
+[  0%] Built target _robot_control_msgs_generate_messages_check_deps_hyc_RobotInfo
+[  0%] Built target _robot_control_msgs_generate_messages_check_deps_hyc_heartbeat
+[  0%] Built target _robot_control_msgs_generate_messages_check_deps_robot_ctrl_roslog
+[  0%] Built target _robot_control_msgs_generate_messages_check_deps_Velocities
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target _robot_control_msgs_generate_messages_check_deps_PID
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_srvs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target std_srvs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target _robot_control_msgs_generate_messages_check_deps_robot_ctrl_roslog_cmd
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_srvs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target std_srvs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[ 22%] Built target robot_control_msgs_generate_messages_py
+[ 22%] Built target std_msgs_generate_messages_cpp
+[ 41%] Built target robot_control_msgs_generate_messages_nodejs
+[ 62%] Built target robot_control_msgs_generate_messages_eus
+[ 81%] Built target robot_control_msgs_generate_messages_lisp
+[100%] Built target robot_control_msgs_generate_messages_cpp
+[100%] Built target robot_control_msgs_generate_messages
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/robot_control_msgs/msg/robot_ctrl_alarmCode.msg
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/robot_control_msgs/msg/robot_ctrl_alarmHistory.msg
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/robot_control_msgs/msg/robot_ctrl_roslog.msg
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/robot_control_msgs/msg/Imu.msg
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/robot_control_msgs/msg/PID.msg
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/robot_control_msgs/msg/Velocities.msg
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/robot_control_msgs/msg/hyc_RobotInfo.msg
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/robot_control_msgs/msg/hyc_heartbeat.msg
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/robot_control_msgs/srv/robot_ctrl_alarmCode_cmd.srv
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/robot_control_msgs/srv/robot_ctrl_alarmHistory_cmd.srv
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/robot_control_msgs/srv/robot_ctrl_roslog_cmd.srv
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/robot_control_msgs/cmake/robot_control_msgs-msg-paths.cmake
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/include/robot_control_msgs
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/include/robot_control_msgs/hyc_RobotInfo.h
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/include/robot_control_msgs/robot_ctrl_alarmHistory_cmd.h
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/include/robot_control_msgs/robot_ctrl_roslog_cmd.h
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/include/robot_control_msgs/robot_ctrl_roslog_cmdResponse.h
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/include/robot_control_msgs/robot_ctrl_roslog.h
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/include/robot_control_msgs/robot_ctrl_roslog_cmdRequest.h
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/include/robot_control_msgs/Velocities.h
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/include/robot_control_msgs/hyc_heartbeat.h
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/include/robot_control_msgs/robot_ctrl_alarmHistory_cmdRequest.h
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/include/robot_control_msgs/robot_ctrl_alarmCode_cmd.h
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/include/robot_control_msgs/robot_ctrl_alarmCode_cmdRequest.h
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/include/robot_control_msgs/robot_ctrl_alarmCode_cmdResponse.h
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/include/robot_control_msgs/robot_ctrl_alarmHistory_cmdResponse.h
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/include/robot_control_msgs/PID.h
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/include/robot_control_msgs/Imu.h
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/include/robot_control_msgs/robot_ctrl_alarmCode.h
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/include/robot_control_msgs/robot_ctrl_alarmHistory.h
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/roseus/ros/robot_control_msgs
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/roseus/ros/robot_control_msgs/msg
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/roseus/ros/robot_control_msgs/msg/Velocities.l
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/roseus/ros/robot_control_msgs/msg/robot_ctrl_alarmHistory.l
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/roseus/ros/robot_control_msgs/msg/robot_ctrl_roslog.l
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/roseus/ros/robot_control_msgs/msg/hyc_RobotInfo.l
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/roseus/ros/robot_control_msgs/msg/Imu.l
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/roseus/ros/robot_control_msgs/msg/hyc_heartbeat.l
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/roseus/ros/robot_control_msgs/msg/robot_ctrl_alarmCode.l
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/roseus/ros/robot_control_msgs/msg/PID.l
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/roseus/ros/robot_control_msgs/manifest.l
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/roseus/ros/robot_control_msgs/srv
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/roseus/ros/robot_control_msgs/srv/robot_ctrl_alarmCode_cmd.l
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/roseus/ros/robot_control_msgs/srv/robot_ctrl_alarmHistory_cmd.l
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/roseus/ros/robot_control_msgs/srv/robot_ctrl_roslog_cmd.l
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/msg
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/msg/_package_hyc_heartbeat.lisp
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/msg/_package_PID.lisp
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/msg/Velocities.lisp
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/msg/_package_robot_ctrl_alarmHistory.lisp
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/msg/hyc_heartbeat.lisp
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/msg/_package_Imu.lisp
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/msg/robot_control_msgs-msg.asd
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/msg/robot_ctrl_alarmHistory.lisp
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/msg/_package_Velocities.lisp
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/msg/robot_ctrl_roslog.lisp
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/msg/_package.lisp
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/msg/_package_robot_ctrl_alarmCode.lisp
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/msg/hyc_RobotInfo.lisp
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/msg/_package_hyc_RobotInfo.lisp
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/msg/robot_ctrl_alarmCode.lisp
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/msg/_package_robot_ctrl_roslog.lisp
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/msg/PID.lisp
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/msg/Imu.lisp
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/srv
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/srv/_package_robot_ctrl_alarmCode_cmd.lisp
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/srv/robot_ctrl_roslog_cmd.lisp
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/srv/_package.lisp
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/srv/_package_robot_ctrl_alarmHistory_cmd.lisp
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/srv/robot_ctrl_alarmHistory_cmd.lisp
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/srv/robot_control_msgs-srv.asd
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/srv/_package_robot_ctrl_roslog_cmd.lisp
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/common-lisp/ros/robot_control_msgs/srv/robot_ctrl_alarmCode_cmd.lisp
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/gennodejs/ros/robot_control_msgs
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/gennodejs/ros/robot_control_msgs/msg
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/gennodejs/ros/robot_control_msgs/msg/hyc_RobotInfo.js
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/gennodejs/ros/robot_control_msgs/msg/PID.js
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/gennodejs/ros/robot_control_msgs/msg/_index.js
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/gennodejs/ros/robot_control_msgs/msg/robot_ctrl_alarmHistory.js
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/gennodejs/ros/robot_control_msgs/msg/Velocities.js
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/gennodejs/ros/robot_control_msgs/msg/Imu.js
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/gennodejs/ros/robot_control_msgs/msg/hyc_heartbeat.js
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/gennodejs/ros/robot_control_msgs/msg/robot_ctrl_alarmCode.js
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/gennodejs/ros/robot_control_msgs/msg/robot_ctrl_roslog.js
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/gennodejs/ros/robot_control_msgs/_index.js
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/gennodejs/ros/robot_control_msgs/srv
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/gennodejs/ros/robot_control_msgs/srv/_index.js
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/gennodejs/ros/robot_control_msgs/srv/robot_ctrl_roslog_cmd.js
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/gennodejs/ros/robot_control_msgs/srv/robot_ctrl_alarmCode_cmd.js
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/gennodejs/ros/robot_control_msgs/srv/robot_ctrl_alarmHistory_cmd.js
+Listing /home/handsome/ros_ws_test/build/robot_control_msgs/devel/lib/python2.7/dist-packages/robot_control_msgs ...
+Compiling /home/handsome/ros_ws_test/build/robot_control_msgs/devel/lib/python2.7/dist-packages/robot_control_msgs/__init__.py ...
+Listing /home/handsome/ros_ws_test/build/robot_control_msgs/devel/lib/python2.7/dist-packages/robot_control_msgs/msg ...
+Compiling /home/handsome/ros_ws_test/build/robot_control_msgs/devel/lib/python2.7/dist-packages/robot_control_msgs/msg/_Imu.py ...
+Compiling /home/handsome/ros_ws_test/build/robot_control_msgs/devel/lib/python2.7/dist-packages/robot_control_msgs/msg/_PID.py ...
+Compiling /home/handsome/ros_ws_test/build/robot_control_msgs/devel/lib/python2.7/dist-packages/robot_control_msgs/msg/_Velocities.py ...
+Compiling /home/handsome/ros_ws_test/build/robot_control_msgs/devel/lib/python2.7/dist-packages/robot_control_msgs/msg/__init__.py ...
+Compiling /home/handsome/ros_ws_test/build/robot_control_msgs/devel/lib/python2.7/dist-packages/robot_control_msgs/msg/_hyc_RobotInfo.py ...
+Compiling /home/handsome/ros_ws_test/build/robot_control_msgs/devel/lib/python2.7/dist-packages/robot_control_msgs/msg/_hyc_heartbeat.py ...
+Compiling /home/handsome/ros_ws_test/build/robot_control_msgs/devel/lib/python2.7/dist-packages/robot_control_msgs/msg/_robot_ctrl_alarmCode.py ...
+Compiling /home/handsome/ros_ws_test/build/robot_control_msgs/devel/lib/python2.7/dist-packages/robot_control_msgs/msg/_robot_ctrl_alarmHistory.py ...
+Compiling /home/handsome/ros_ws_test/build/robot_control_msgs/devel/lib/python2.7/dist-packages/robot_control_msgs/msg/_robot_ctrl_roslog.py ...
+Listing /home/handsome/ros_ws_test/build/robot_control_msgs/devel/lib/python2.7/dist-packages/robot_control_msgs/srv ...
+Compiling /home/handsome/ros_ws_test/build/robot_control_msgs/devel/lib/python2.7/dist-packages/robot_control_msgs/srv/__init__.py ...
+Compiling /home/handsome/ros_ws_test/build/robot_control_msgs/devel/lib/python2.7/dist-packages/robot_control_msgs/srv/_robot_ctrl_alarmCode_cmd.py ...
+Compiling /home/handsome/ros_ws_test/build/robot_control_msgs/devel/lib/python2.7/dist-packages/robot_control_msgs/srv/_robot_ctrl_alarmHistory_cmd.py ...
+Compiling /home/handsome/ros_ws_test/build/robot_control_msgs/devel/lib/python2.7/dist-packages/robot_control_msgs/srv/_robot_ctrl_roslog_cmd.py ...
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/msg
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/msg/_Imu.pyc
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/msg/_PID.py
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/msg/_robot_ctrl_alarmCode.py
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/msg/_robot_ctrl_roslog.pyc
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/msg/__init__.py
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/msg/_PID.pyc
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/msg/_hyc_heartbeat.pyc
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/msg/_hyc_heartbeat.py
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/msg/_robot_ctrl_alarmHistory.py
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/msg/_Velocities.pyc
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/msg/_Imu.py
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/msg/_robot_ctrl_alarmHistory.pyc
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/msg/_robot_ctrl_alarmCode.pyc
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/msg/_robot_ctrl_roslog.py
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/msg/__init__.pyc
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/msg/_hyc_RobotInfo.pyc
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/msg/_hyc_RobotInfo.py
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/msg/_Velocities.py
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/__init__.py
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/srv
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/srv/_robot_ctrl_roslog_cmd.pyc
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/srv/__init__.py
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/srv/_robot_ctrl_alarmHistory_cmd.pyc
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/srv/_robot_ctrl_alarmHistory_cmd.py
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/srv/_robot_ctrl_alarmCode_cmd.pyc
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/srv/_robot_ctrl_roslog_cmd.py
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/srv/__init__.pyc
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/srv/_robot_ctrl_alarmCode_cmd.py
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/python2.7/dist-packages/robot_control_msgs/__init__.pyc
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/lib/pkgconfig/robot_control_msgs.pc
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/robot_control_msgs/cmake/robot_control_msgs-msg-extras.cmake
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/robot_control_msgs/cmake/robot_control_msgsConfig.cmake
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/robot_control_msgs/cmake/robot_control_msgsConfig-version.cmake
+-- Installing: /home/handsome/ros_ws_test/install/robot_control_msgs/share/robot_control_msgs/package.xml

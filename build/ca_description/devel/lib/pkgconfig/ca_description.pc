@@ -1,0 +1,8 @@
+prefix=/home/handsome/ros_ws_test/build/ca_description/devel
+
+Name: ca_description
+Description: Description of ca_description
+Version: 1.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

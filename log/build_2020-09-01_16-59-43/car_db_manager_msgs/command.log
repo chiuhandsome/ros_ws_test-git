@@ -1,0 +1,8 @@
+Invoking command in '/home/handsome/ros_ws_test/build/car_db_manager_msgs': /usr/bin/cmake /home/handsome/ros_ws_test/src/ros_base/car_data_management/car_db_manager_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/handsome/ros_ws_test/install/car_db_manager_msgs
+Invoked command in '/home/handsome/ros_ws_test/build/car_db_manager_msgs' returned '0': /usr/bin/cmake /home/handsome/ros_ws_test/src/ros_base/car_data_management/car_db_manager_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/handsome/ros_ws_test/install/car_db_manager_msgs
+Invoking command in '/home/handsome/ros_ws_test/build/car_db_manager_msgs': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/car_db_manager_msgs -- -j12 -l12
+Invoked command in '/home/handsome/ros_ws_test/build/car_db_manager_msgs' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/car_db_manager_msgs -- -j12 -l12
+Invoking command in '/home/handsome/ros_ws_test/build/car_db_manager_msgs': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/car_db_manager_msgs --target tests -- -j12 -l12
+Invoked command in '/home/handsome/ros_ws_test/build/car_db_manager_msgs' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/car_db_manager_msgs --target tests -- -j12 -l12
+Invoking command in '/home/handsome/ros_ws_test/build/car_db_manager_msgs': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/car_db_manager_msgs --target install -- -j12 -l12
+Invoked command in '/home/handsome/ros_ws_test/build/car_db_manager_msgs' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/car_db_manager_msgs --target install -- -j12 -l12

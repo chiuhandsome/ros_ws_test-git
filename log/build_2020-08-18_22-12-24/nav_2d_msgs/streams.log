@@ -1,0 +1,239 @@
+[0.142s] Invoking command in '/home/handsome/ros_ws_test/build/nav_2d_msgs': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/nav_2d_msgs -- -j12 -l12
+[0.505s] [  0%] Built target std_msgs_generate_messages_cpp
+[0.608s] [  0%] Built target _nav_2d_msgs_generate_messages_check_deps_Pose2DStamped
+[0.616s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[0.620s] [  0%] Built target _nav_2d_msgs_generate_messages_check_deps_Point2D
+[0.784s] [  0%] Built target _nav_2d_msgs_generate_messages_check_deps_NavGridInfo
+[0.863s] [  0%] Built target _nav_2d_msgs_generate_messages_check_deps_SwitchPlugin
+[0.915s] [  0%] Built target _nav_2d_msgs_generate_messages_check_deps_NavGridOfChars
+[0.951s] [  0%] Built target _nav_2d_msgs_generate_messages_check_deps_NavGridOfDoubles
+[1.079s] [  0%] Built target _nav_2d_msgs_generate_messages_check_deps_NavGridOfDoublesUpdate
+[1.170s] [  0%] Built target _nav_2d_msgs_generate_messages_check_deps_UIntBounds
+[1.255s] [  0%] Built target _nav_2d_msgs_generate_messages_check_deps_Polygon2DStamped
+[1.346s] [  0%] Built target std_msgs_generate_messages_py
+[1.378s] [  0%] Built target _nav_2d_msgs_generate_messages_check_deps_Path2D
+[1.380s] [  0%] Built target geometry_msgs_generate_messages_py
+[1.449s] [  0%] Built target _nav_2d_msgs_generate_messages_check_deps_Pose2D32
+[1.477s] [  0%] Built target std_msgs_generate_messages_nodejs
+[1.502s] [  0%] Built target _nav_2d_msgs_generate_messages_check_deps_Twist2D
+[1.627s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[1.628s] [  0%] Built target std_msgs_generate_messages_lisp
+[1.654s] [  0%] Built target _nav_2d_msgs_generate_messages_check_deps_NavGridOfCharsUpdate
+[1.703s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[1.756s] [  0%] Built target _nav_2d_msgs_generate_messages_check_deps_Twist2DStamped
+[1.795s] [  0%] Built target geometry_msgs_generate_messages_eus
+[1.802s] [  0%] Built target std_msgs_generate_messages_eus
+[1.849s] [  0%] Built target _nav_2d_msgs_generate_messages_check_deps_Twist2D32
+[1.878s] [  0%] Built target _nav_2d_msgs_generate_messages_check_deps_Polygon2D
+[2.120s] [ 19%] Built target nav_2d_msgs_generate_messages_nodejs
+[2.133s] [ 39%] Built target nav_2d_msgs_generate_messages_eus
+[2.145s] [ 61%] Built target nav_2d_msgs_generate_messages_py
+[2.224s] [ 80%] Built target nav_2d_msgs_generate_messages_cpp
+[2.269s] [100%] Built target nav_2d_msgs_generate_messages_lisp
+[2.547s] [100%] Built target nav_2d_msgs_generate_messages
+[2.663s] Invoked command in '/home/handsome/ros_ws_test/build/nav_2d_msgs' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/nav_2d_msgs -- -j12 -l12
+[2.946s] Invoking command in '/home/handsome/ros_ws_test/build/nav_2d_msgs': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/nav_2d_msgs --target tests -- -j12 -l12
+[3.115s] Built target tests
+[3.178s] Invoked command in '/home/handsome/ros_ws_test/build/nav_2d_msgs' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/nav_2d_msgs --target tests -- -j12 -l12
+[3.977s] Invoking command in '/home/handsome/ros_ws_test/build/nav_2d_msgs': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/nav_2d_msgs --target install -- -j12 -l12
+[4.467s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[4.497s] [  0%] Built target std_msgs_generate_messages_cpp
+[4.524s] [  0%] Built target _nav_2d_msgs_generate_messages_check_deps_NavGridOfDoublesUpdate
+[4.530s] [  0%] Built target _nav_2d_msgs_generate_messages_check_deps_NavGridOfChars
+[4.571s] [  0%] Built target _nav_2d_msgs_generate_messages_check_deps_NavGridInfo
+[4.573s] [  0%] Built target _nav_2d_msgs_generate_messages_check_deps_Path2D
+[4.595s] [  0%] Built target _nav_2d_msgs_generate_messages_check_deps_Point2D
+[4.617s] [  0%] Built target _nav_2d_msgs_generate_messages_check_deps_SwitchPlugin
+[4.634s] [  0%] Built target _nav_2d_msgs_generate_messages_check_deps_Pose2DStamped
+[4.700s] [  0%] Built target _nav_2d_msgs_generate_messages_check_deps_NavGridOfDoubles
+[4.720s] [  0%] Built target _nav_2d_msgs_generate_messages_check_deps_Polygon2DStamped
+[4.790s] [  0%] Built target _nav_2d_msgs_generate_messages_check_deps_UIntBounds
+[4.803s] [  0%] Built target geometry_msgs_generate_messages_py
+[4.820s] [  0%] Built target std_msgs_generate_messages_py
+[4.824s] [  0%] Built target _nav_2d_msgs_generate_messages_check_deps_NavGridOfCharsUpdate
+[4.832s] [  0%] Built target std_msgs_generate_messages_nodejs
+[4.856s] [  0%] Built target _nav_2d_msgs_generate_messages_check_deps_Twist2DStamped
+[4.930s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[4.992s] [  0%] Built target geometry_msgs_generate_messages_eus
+[5.013s] [  0%] Built target std_msgs_generate_messages_lisp
+[5.036s] [  0%] Built target _nav_2d_msgs_generate_messages_check_deps_Pose2D32
+[5.042s] [  0%] Built target _nav_2d_msgs_generate_messages_check_deps_Twist2D32
+[5.042s] [  0%] Built target std_msgs_generate_messages_eus
+[5.043s] [  0%] Built target _nav_2d_msgs_generate_messages_check_deps_Twist2D
+[5.043s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[5.074s] [  0%] Built target _nav_2d_msgs_generate_messages_check_deps_Polygon2D
+[5.209s] [ 19%] Built target nav_2d_msgs_generate_messages_nodejs
+[5.275s] [ 38%] Built target nav_2d_msgs_generate_messages_cpp
+[5.358s] [ 60%] Built target nav_2d_msgs_generate_messages_py
+[5.416s] [ 79%] Built target nav_2d_msgs_generate_messages_lisp
+[5.447s] [100%] Built target nav_2d_msgs_generate_messages_eus
+[5.633s] [100%] Built target nav_2d_msgs_generate_messages
+[5.820s] [36mInstall the project...[0m
+[5.886s] -- Install configuration: ""
+[5.886s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/nav_2d_msgs/msg/NavGridInfo.msg
+[5.886s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/nav_2d_msgs/msg/NavGridOfChars.msg
+[5.886s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/nav_2d_msgs/msg/NavGridOfCharsUpdate.msg
+[5.887s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/nav_2d_msgs/msg/NavGridOfDoubles.msg
+[5.887s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/nav_2d_msgs/msg/NavGridOfDoublesUpdate.msg
+[5.888s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/nav_2d_msgs/msg/Path2D.msg
+[5.888s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/nav_2d_msgs/msg/Point2D.msg
+[5.888s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/nav_2d_msgs/msg/Polygon2D.msg
+[5.889s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/nav_2d_msgs/msg/Polygon2DStamped.msg
+[5.889s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2D32.msg
+[5.889s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2DStamped.msg
+[5.890s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D.msg
+[5.890s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D32.msg
+[5.890s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2DStamped.msg
+[5.890s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/nav_2d_msgs/msg/UIntBounds.msg
+[5.890s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/nav_2d_msgs/srv/SwitchPlugin.srv
+[5.890s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs-msg-paths.cmake
+[5.895s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/include/nav_2d_msgs
+[5.895s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/include/nav_2d_msgs/Polygon2D.h
+[5.896s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/include/nav_2d_msgs/NavGridInfo.h
+[5.896s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/include/nav_2d_msgs/NavGridOfChars.h
+[5.896s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/include/nav_2d_msgs/Pose2DStamped.h
+[5.896s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/include/nav_2d_msgs/NavGridOfDoublesUpdate.h
+[5.896s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/include/nav_2d_msgs/SwitchPlugin.h
+[5.896s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/include/nav_2d_msgs/NavGridOfCharsUpdate.h
+[5.896s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/include/nav_2d_msgs/Pose2D32.h
+[5.896s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/include/nav_2d_msgs/Twist2D32.h
+[5.905s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/include/nav_2d_msgs/SwitchPluginRequest.h
+[5.906s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/include/nav_2d_msgs/Point2D.h
+[5.907s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/include/nav_2d_msgs/Polygon2DStamped.h
+[5.907s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/include/nav_2d_msgs/SwitchPluginResponse.h
+[5.907s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/include/nav_2d_msgs/Twist2D.h
+[5.907s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/include/nav_2d_msgs/UIntBounds.h
+[5.907s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/include/nav_2d_msgs/NavGridOfDoubles.h
+[5.907s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/include/nav_2d_msgs/Path2D.h
+[5.908s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/include/nav_2d_msgs/Twist2DStamped.h
+[5.908s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/roseus/ros/nav_2d_msgs
+[5.908s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/roseus/ros/nav_2d_msgs/msg
+[5.908s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/roseus/ros/nav_2d_msgs/msg/Pose2DStamped.l
+[5.908s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/roseus/ros/nav_2d_msgs/msg/NavGridOfDoubles.l
+[5.908s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/roseus/ros/nav_2d_msgs/msg/NavGridInfo.l
+[5.908s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/roseus/ros/nav_2d_msgs/msg/Twist2DStamped.l
+[5.908s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/roseus/ros/nav_2d_msgs/msg/NavGridOfChars.l
+[5.908s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/roseus/ros/nav_2d_msgs/msg/Pose2D32.l
+[5.909s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/roseus/ros/nav_2d_msgs/msg/Polygon2DStamped.l
+[5.909s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/roseus/ros/nav_2d_msgs/msg/Twist2D32.l
+[5.909s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/roseus/ros/nav_2d_msgs/msg/UIntBounds.l
+[5.910s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/roseus/ros/nav_2d_msgs/msg/NavGridOfCharsUpdate.l
+[5.910s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/roseus/ros/nav_2d_msgs/msg/Polygon2D.l
+[5.910s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/roseus/ros/nav_2d_msgs/msg/Twist2D.l
+[5.910s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/roseus/ros/nav_2d_msgs/msg/NavGridOfDoublesUpdate.l
+[5.910s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/roseus/ros/nav_2d_msgs/msg/Path2D.l
+[5.910s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/roseus/ros/nav_2d_msgs/msg/Point2D.l
+[5.910s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/roseus/ros/nav_2d_msgs/manifest.l
+[5.910s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/roseus/ros/nav_2d_msgs/srv
+[5.911s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/roseus/ros/nav_2d_msgs/srv/SwitchPlugin.l
+[5.911s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/common-lisp/ros/nav_2d_msgs
+[5.911s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/common-lisp/ros/nav_2d_msgs/msg
+[5.911s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/common-lisp/ros/nav_2d_msgs/msg/Pose2D32.lisp
+[5.912s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/common-lisp/ros/nav_2d_msgs/msg/Point2D.lisp
+[5.912s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/common-lisp/ros/nav_2d_msgs/msg/NavGridOfDoublesUpdate.lisp
+[5.913s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/common-lisp/ros/nav_2d_msgs/msg/Polygon2D.lisp
+[5.913s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/common-lisp/ros/nav_2d_msgs/msg/_package_NavGridOfCharsUpdate.lisp
+[5.913s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/common-lisp/ros/nav_2d_msgs/msg/Twist2D32.lisp
+[5.913s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/common-lisp/ros/nav_2d_msgs/msg/Pose2DStamped.lisp
+[5.913s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/common-lisp/ros/nav_2d_msgs/msg/_package_NavGridOfDoublesUpdate.lisp
+[5.913s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/common-lisp/ros/nav_2d_msgs/msg/_package_Twist2DStamped.lisp
+[5.913s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/common-lisp/ros/nav_2d_msgs/msg/_package_Point2D.lisp
+[5.913s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/common-lisp/ros/nav_2d_msgs/msg/_package_NavGridInfo.lisp
+[5.914s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/common-lisp/ros/nav_2d_msgs/msg/_package.lisp
+[5.914s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/common-lisp/ros/nav_2d_msgs/msg/Twist2DStamped.lisp
+[5.914s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/common-lisp/ros/nav_2d_msgs/msg/Polygon2DStamped.lisp
+[5.914s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/common-lisp/ros/nav_2d_msgs/msg/nav_2d_msgs-msg.asd
+[5.914s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/common-lisp/ros/nav_2d_msgs/msg/NavGridOfChars.lisp
+[5.914s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/common-lisp/ros/nav_2d_msgs/msg/_package_UIntBounds.lisp
+[5.914s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/common-lisp/ros/nav_2d_msgs/msg/NavGridInfo.lisp
+[5.914s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/common-lisp/ros/nav_2d_msgs/msg/_package_Polygon2DStamped.lisp
+[5.914s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/common-lisp/ros/nav_2d_msgs/msg/NavGridOfCharsUpdate.lisp
+[5.915s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/common-lisp/ros/nav_2d_msgs/msg/_package_Twist2D.lisp
+[5.915s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/common-lisp/ros/nav_2d_msgs/msg/Path2D.lisp
+[5.915s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/common-lisp/ros/nav_2d_msgs/msg/Twist2D.lisp
+[5.915s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/common-lisp/ros/nav_2d_msgs/msg/_package_Pose2DStamped.lisp
+[5.916s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/common-lisp/ros/nav_2d_msgs/msg/UIntBounds.lisp
+[5.916s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/common-lisp/ros/nav_2d_msgs/msg/NavGridOfDoubles.lisp
+[5.916s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/common-lisp/ros/nav_2d_msgs/msg/_package_NavGridOfChars.lisp
+[5.916s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/common-lisp/ros/nav_2d_msgs/msg/_package_NavGridOfDoubles.lisp
+[5.916s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/common-lisp/ros/nav_2d_msgs/msg/_package_Polygon2D.lisp
+[5.916s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/common-lisp/ros/nav_2d_msgs/msg/_package_Path2D.lisp
+[5.916s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/common-lisp/ros/nav_2d_msgs/msg/_package_Pose2D32.lisp
+[5.916s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/common-lisp/ros/nav_2d_msgs/msg/_package_Twist2D32.lisp
+[5.916s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/common-lisp/ros/nav_2d_msgs/srv
+[5.916s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/common-lisp/ros/nav_2d_msgs/srv/_package.lisp
+[5.917s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/common-lisp/ros/nav_2d_msgs/srv/nav_2d_msgs-srv.asd
+[5.917s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/common-lisp/ros/nav_2d_msgs/srv/_package_SwitchPlugin.lisp
+[5.917s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/common-lisp/ros/nav_2d_msgs/srv/SwitchPlugin.lisp
+[5.917s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/gennodejs/ros/nav_2d_msgs
+[5.917s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/gennodejs/ros/nav_2d_msgs/msg
+[5.917s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/gennodejs/ros/nav_2d_msgs/msg/NavGridOfCharsUpdate.js
+[5.917s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/gennodejs/ros/nav_2d_msgs/msg/Polygon2D.js
+[5.917s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/gennodejs/ros/nav_2d_msgs/msg/Twist2D.js
+[5.917s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/gennodejs/ros/nav_2d_msgs/msg/NavGridInfo.js
+[5.918s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/gennodejs/ros/nav_2d_msgs/msg/_index.js
+[5.918s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/gennodejs/ros/nav_2d_msgs/msg/Path2D.js
+[5.919s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/gennodejs/ros/nav_2d_msgs/msg/Pose2DStamped.js
+[5.919s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/gennodejs/ros/nav_2d_msgs/msg/NavGridOfDoubles.js
+[5.919s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/gennodejs/ros/nav_2d_msgs/msg/Twist2DStamped.js
+[5.919s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/gennodejs/ros/nav_2d_msgs/msg/Polygon2DStamped.js
+[5.919s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/gennodejs/ros/nav_2d_msgs/msg/NavGridOfDoublesUpdate.js
+[5.919s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/gennodejs/ros/nav_2d_msgs/msg/UIntBounds.js
+[5.919s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/gennodejs/ros/nav_2d_msgs/msg/NavGridOfChars.js
+[5.919s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/gennodejs/ros/nav_2d_msgs/msg/Point2D.js
+[5.919s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/gennodejs/ros/nav_2d_msgs/msg/Twist2D32.js
+[5.920s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/gennodejs/ros/nav_2d_msgs/msg/Pose2D32.js
+[5.920s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/gennodejs/ros/nav_2d_msgs/_index.js
+[5.920s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/gennodejs/ros/nav_2d_msgs/srv
+[5.920s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/gennodejs/ros/nav_2d_msgs/srv/_index.js
+[5.920s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/gennodejs/ros/nav_2d_msgs/srv/SwitchPlugin.js
+[6.117s] Listing /home/handsome/ros_ws_test/build/nav_2d_msgs/devel/lib/python2.7/dist-packages/nav_2d_msgs ...
+[6.118s] Listing /home/handsome/ros_ws_test/build/nav_2d_msgs/devel/lib/python2.7/dist-packages/nav_2d_msgs/msg ...
+[6.118s] Listing /home/handsome/ros_ws_test/build/nav_2d_msgs/devel/lib/python2.7/dist-packages/nav_2d_msgs/srv ...
+[6.124s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages/nav_2d_msgs
+[6.124s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages/nav_2d_msgs/msg
+[6.125s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages/nav_2d_msgs/msg/_NavGridInfo.pyc
+[6.125s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages/nav_2d_msgs/msg/_Twist2DStamped.pyc
+[6.125s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages/nav_2d_msgs/msg/_UIntBounds.pyc
+[6.125s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages/nav_2d_msgs/msg/_Pose2DStamped.py
+[6.125s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages/nav_2d_msgs/msg/_Twist2D32.py
+[6.125s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages/nav_2d_msgs/msg/_Polygon2D.pyc
+[6.125s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages/nav_2d_msgs/msg/__init__.py
+[6.126s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages/nav_2d_msgs/msg/_NavGridOfChars.pyc
+[6.126s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages/nav_2d_msgs/msg/_Twist2D32.pyc
+[6.126s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages/nav_2d_msgs/msg/_NavGridOfCharsUpdate.pyc
+[6.126s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages/nav_2d_msgs/msg/_NavGridOfDoubles.pyc
+[6.126s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages/nav_2d_msgs/msg/_Polygon2D.py
+[6.126s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages/nav_2d_msgs/msg/_Twist2DStamped.py
+[6.126s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages/nav_2d_msgs/msg/_Twist2D.py
+[6.127s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages/nav_2d_msgs/msg/_UIntBounds.py
+[6.127s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages/nav_2d_msgs/msg/_NavGridOfDoubles.py
+[6.127s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages/nav_2d_msgs/msg/_NavGridOfDoublesUpdate.pyc
+[6.127s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages/nav_2d_msgs/msg/_Path2D.pyc
+[6.127s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages/nav_2d_msgs/msg/_Twist2D.pyc
+[6.128s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages/nav_2d_msgs/msg/_Pose2D32.pyc
+[6.128s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages/nav_2d_msgs/msg/_NavGridOfDoublesUpdate.py
+[6.128s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages/nav_2d_msgs/msg/_NavGridInfo.py
+[6.129s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages/nav_2d_msgs/msg/_Pose2DStamped.pyc
+[6.129s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages/nav_2d_msgs/msg/_Point2D.py
+[6.129s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages/nav_2d_msgs/msg/_Pose2D32.py
+[6.129s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages/nav_2d_msgs/msg/__init__.pyc
+[6.129s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages/nav_2d_msgs/msg/_NavGridOfCharsUpdate.py
+[6.129s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages/nav_2d_msgs/msg/_Path2D.py
+[6.129s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages/nav_2d_msgs/msg/_NavGridOfChars.py
+[6.130s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages/nav_2d_msgs/msg/_Point2D.pyc
+[6.130s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages/nav_2d_msgs/msg/_Polygon2DStamped.pyc
+[6.130s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages/nav_2d_msgs/msg/_Polygon2DStamped.py
+[6.130s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages/nav_2d_msgs/__init__.py
+[6.130s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages/nav_2d_msgs/srv
+[6.130s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages/nav_2d_msgs/srv/__init__.py
+[6.130s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages/nav_2d_msgs/srv/_SwitchPlugin.py
+[6.131s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages/nav_2d_msgs/srv/__init__.pyc
+[6.131s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages/nav_2d_msgs/srv/_SwitchPlugin.pyc
+[6.131s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/lib/python2.7/dist-packages/nav_2d_msgs/__init__.pyc
+[6.131s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/lib/pkgconfig/nav_2d_msgs.pc
+[6.131s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs-msg-extras.cmake
+[6.131s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgsConfig.cmake
+[6.131s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgsConfig-version.cmake
+[6.131s] -- Up-to-date: /home/handsome/ros_ws_test/install/nav_2d_msgs/share/nav_2d_msgs/package.xml
+[6.226s] Invoked command in '/home/handsome/ros_ws_test/build/nav_2d_msgs' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/nav_2d_msgs --target install -- -j12 -l12

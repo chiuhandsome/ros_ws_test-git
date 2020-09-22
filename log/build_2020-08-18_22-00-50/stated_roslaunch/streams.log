@@ -1,0 +1,23 @@
+[0.121s] Invoking command in '/home/handsome/ros_ws_test/build/stated_roslaunch': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/stated_roslaunch -- -j12 -l12
+[0.496s] Invoked command in '/home/handsome/ros_ws_test/build/stated_roslaunch' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/stated_roslaunch -- -j12 -l12
+[0.987s] Invoking command in '/home/handsome/ros_ws_test/build/stated_roslaunch': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/stated_roslaunch --target tests -- -j12 -l12
+[1.513s] Built target tests
+[1.591s] Invoked command in '/home/handsome/ros_ws_test/build/stated_roslaunch' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/stated_roslaunch --target tests -- -j12 -l12
+[2.182s] Invoking command in '/home/handsome/ros_ws_test/build/stated_roslaunch': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/stated_roslaunch --target install -- -j12 -l12
+[2.754s] [36mInstall the project...[0m
+[2.794s] -- Install configuration: ""
+[2.795s] -- Up-to-date: /home/handsome/ros_ws_test/install/stated_roslaunch/lib/pkgconfig/stated_roslaunch.pc
+[2.795s] -- Up-to-date: /home/handsome/ros_ws_test/install/stated_roslaunch/share/stated_roslaunch/cmake/stated_roslaunchConfig.cmake
+[2.795s] -- Up-to-date: /home/handsome/ros_ws_test/install/stated_roslaunch/share/stated_roslaunch/cmake/stated_roslaunchConfig-version.cmake
+[2.795s] -- Up-to-date: /home/handsome/ros_ws_test/install/stated_roslaunch/share/stated_roslaunch/package.xml
+[2.795s] -- Up-to-date: /home/handsome/ros_ws_test/install/stated_roslaunch/lib/stated_roslaunch/stated_roslaunch.sh
+[2.795s] -- Up-to-date: /home/handsome/ros_ws_test/install/stated_roslaunch/lib/stated_roslaunch/timed_roslaunch.sh
+[2.796s] -- Up-to-date: /home/handsome/ros_ws_test/install/stated_roslaunch/share/stated_roslaunch/launch
+[2.796s] -- Up-to-date: /home/handsome/ros_ws_test/install/stated_roslaunch/share/stated_roslaunch/launch/timed_roslaunch.launch
+[2.796s] -- Up-to-date: /home/handsome/ros_ws_test/install/stated_roslaunch/share/stated_roslaunch/launch/example.launch.sample
+[2.798s] -- Up-to-date: /home/handsome/ros_ws_test/install/stated_roslaunch/share/stated_roslaunch/launch/timed_roslaunch_test.launch
+[2.799s] -- Up-to-date: /home/handsome/ros_ws_test/install/stated_roslaunch/share/stated_roslaunch/test
+[2.799s] -- Up-to-date: /home/handsome/ros_ws_test/install/stated_roslaunch/share/stated_roslaunch/test/timed_roslaunch.test.xml
+[2.799s] -- Up-to-date: /home/handsome/ros_ws_test/install/stated_roslaunch/share/stated_roslaunch/test/test.py
+[2.799s] -- Up-to-date: /home/handsome/ros_ws_test/install/stated_roslaunch/share/stated_roslaunch/test/runtest.launch
+[3.012s] Invoked command in '/home/handsome/ros_ws_test/build/stated_roslaunch' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/stated_roslaunch --target install -- -j12 -l12

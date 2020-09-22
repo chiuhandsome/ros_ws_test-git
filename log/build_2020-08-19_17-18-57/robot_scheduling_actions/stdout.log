@@ -1,0 +1,46 @@
+[35m[1mScanning dependencies of target robot_scheduling_actions_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/private_actions/robot_if_process_action.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/private_actions/robot_run_state_action.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/robot_scheduling_service.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/robot_scheduling_actions.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/robot_scheduling_parameter.cpp.o[0m
+[100%] [32m[1mLinking CXX executable devel/lib/robot_scheduling_actions/robot_scheduling_actions_node[0m
+[100%] Built target robot_scheduling_actions_node
+Built target tests
+[100%] Built target robot_scheduling_actions_node
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/lib/pkgconfig/robot_scheduling_actions.pc
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/share/robot_scheduling_actions/cmake/robot_scheduling_actionsConfig.cmake
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/share/robot_scheduling_actions/cmake/robot_scheduling_actionsConfig-version.cmake
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/share/robot_scheduling_actions/package.xml
+-- Installing: /home/handsome/ros_ws_test/install/robot_scheduling_actions/lib/robot_scheduling_actions/robot_scheduling_actions_node
+-- Set runtime path of "/home/handsome/ros_ws_test/install/robot_scheduling_actions/lib/robot_scheduling_actions/robot_scheduling_actions_node" to ""
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/share/robot_scheduling_actions/launch
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/share/robot_scheduling_actions/launch/robot_scheduling_action.launch
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/share/robot_scheduling_actions/config
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/share/robot_scheduling_actions/config/scheduling_params.yaml
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/public_actions
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/public_actions/db_process_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/public_actions/function_run_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/public_actions/worksheetrun_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/public_actions/pose_move_to_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/public_actions/undock_to_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/public_actions/self_turn_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/public_actions/time_wait_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/public_actions/turn_pid.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/public_actions/pose_recognize_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/public_actions/dock_to_action.h
+-- Installing: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/robot_scheduling_parameter.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/private_actions
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/private_actions/robot_if_params_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/private_actions/robot_if_process_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/private_actions/robot_power_charge_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/private_actions/robot_command_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/private_actions/interrupt_info_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/private_actions/robot_run_state_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/robot_scheduling_actions.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/robot_scheduling_service.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/scheduling_params.yaml

@@ -1,0 +1,39 @@
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_power_charge_action.cpp:[m[K In member function ‘[01m[Kvoid robot_power_charge_action::power_charge_CB(const power_chargeGoalConstPtr&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_power_charge_action.cpp:62:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kaction_command_cmd[m[K’ is not a member of ‘[01m[Krobot_scheduling_msgs[m[K’
+         robot_scheduling_msgs::[01;31m[Kaction_command_cmd[m[K _cmd ;
+                                [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_power_charge_action.cpp:63:9:[m[K [01;31m[Kerror: [m[K‘[01m[K_cmd[m[K’ was not declared in this scope
+         [01;31m[K_cmd[m[K.request.cmd_id = (int)command_id_set ;
+         [01;31m[K^~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_power_charge_action.cpp:63:9:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kbcmp[m[K’
+         [01;36m[K_cmd[m[K.request.cmd_id = (int)command_id_set ;
+         [01;36m[K^~~~[m[K
+         [32m[Kbcmp[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_power_charge_action.cpp:70:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass robot_scheduling_service[m[K’ has no member named ‘[01m[Kcall_service_to_controller[m[K’; did you mean ‘[01m[Kcall_service_to_host[m[K’?
+         bool bRet = scheduling_service_->[01;31m[Kcall_service_to_controller[m[K(_cmd.request,_cmd.response);
+                                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+                                          [32m[Kcall_service_to_host[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_power_charge_action.cpp:85:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass robot_scheduling_service[m[K’ has no member named ‘[01m[Kcall_service_to_controller[m[K’; did you mean ‘[01m[Kcall_service_to_host[m[K’?
+         bRet = scheduling_service_->[01;31m[Kcall_service_to_controller[m[K(_cmd.request,_cmd.response);
+                                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+                                     [32m[Kcall_service_to_host[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_power_charge_action.cpp:99:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass robot_scheduling_service[m[K’ has no member named ‘[01m[Kcall_service_to_controller[m[K’; did you mean ‘[01m[Kcall_service_to_host[m[K’?
+         bRet = scheduling_service_->[01;31m[Kcall_service_to_controller[m[K(_cmd.request,_cmd.response);
+                                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+                                     [32m[Kcall_service_to_host[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_power_charge_action.cpp:118:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass robot_scheduling_service[m[K’ has no member named ‘[01m[Kcall_service_to_controller[m[K’; did you mean ‘[01m[Kcall_service_to_host[m[K’?
+         bRet = scheduling_service_->[01;31m[Kcall_service_to_controller[m[K(_cmd.request,_cmd.response);
+                                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+                                     [32m[Kcall_service_to_host[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_power_charge_action.cpp:148:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass robot_scheduling_service[m[K’ has no member named ‘[01m[Kcall_service_to_controller[m[K’; did you mean ‘[01m[Kcall_service_to_host[m[K’?
+                             bRet = scheduling_service_->[01;31m[Kcall_service_to_controller[m[K(_cmd.request,_cmd.response);
+                                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+                                                         [32m[Kcall_service_to_host[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_power_charge_action.cpp:174:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass robot_scheduling_service[m[K’ has no member named ‘[01m[Kcall_service_to_controller[m[K’; did you mean ‘[01m[Kcall_service_to_host[m[K’?
+         bRet = scheduling_service_->[01;31m[Kcall_service_to_controller[m[K(_cmd.request,_cmd.response);
+                                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+                                     [32m[Kcall_service_to_host[m[K
+make[2]: *** [CMakeFiles/robot_scheduling_actions_node.dir/src/private_actions/robot_power_charge_action.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/robot_scheduling_actions_node.dir/all] Error 2
+make: *** [all] Error 2

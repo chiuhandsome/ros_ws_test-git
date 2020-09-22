@@ -1,0 +1,6 @@
+Invoking command in '/home/handsome/ros_ws_test/build/yocs_cmd_vel_mux': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/yocs_cmd_vel_mux -- -j12 -l12
+Invoked command in '/home/handsome/ros_ws_test/build/yocs_cmd_vel_mux' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/yocs_cmd_vel_mux -- -j12 -l12
+Invoking command in '/home/handsome/ros_ws_test/build/yocs_cmd_vel_mux': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/yocs_cmd_vel_mux --target tests -- -j12 -l12
+Invoked command in '/home/handsome/ros_ws_test/build/yocs_cmd_vel_mux' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/yocs_cmd_vel_mux --target tests -- -j12 -l12
+Invoking command in '/home/handsome/ros_ws_test/build/yocs_cmd_vel_mux': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/yocs_cmd_vel_mux --target install -- -j12 -l12
+Invoked command in '/home/handsome/ros_ws_test/build/yocs_cmd_vel_mux' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/yocs_cmd_vel_mux --target install -- -j12 -l12

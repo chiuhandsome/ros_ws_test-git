@@ -1,0 +1,9 @@
+<launch>
+  <arg name="reset_location_config_file" default="$(find reset_location)/config/reset_location_parameters.yaml"/>
+  
+  <node pkg="tf" type="static_transform_publisher" name="baselink_broadcaster_lidar" args="0.225 0 0.12  0 0 3.1415 /base_link /laser 100" />
+  
+  <node pkg="reset_location" type="reset_location_as_node" name="reset_position_as_node" output="screen" respawn="false">
+    <rosparam file="$(arg reset_location_config_file)" command="load"/>
+  </node>
+</launch>

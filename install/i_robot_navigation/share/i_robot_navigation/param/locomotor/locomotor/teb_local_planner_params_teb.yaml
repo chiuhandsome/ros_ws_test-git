@@ -1,0 +1,104 @@
+#base_local_planner: nav_core_adapter::LocalPlannerAdapter
+#LocalPlannerAdapter:
+#  planner_name: teb2_local_planner::Teb2LocalPlanner
+#Teb2LocalPlannerROS:
+
+
+TebLocalPlannerROS:
+ # Trajectory
+ min_samples: 3
+ teb_autosize: True
+ dt_ref: 0.5 #to max
+ dt_hysteresis: 0.05
+ global_plan_overwrite_orientation: True
+ allow_init_with_backwards_motion: True
+ max_global_plan_lookahead_dist: 3.0
+ feasibility_check_no_poses: 1 #default 4 12/14
+ force_reinit_new_goal_dist: 1.0 #1.0
+ # Robot
+
+ max_vel_x: 0.5 #0.5 control by change_teb2_speed_onfly
+ max_vel_x_backwards: 0.3 #0.2
+ max_vel_y: 0 #0.2
+ max_vel_theta: 0.4 #0.8
+ acc_lim_x: 0.1  #0.2
+ acc_lim_y: 0  #0.2
+ acc_lim_theta: 0.2 #0.4
+ min_turning_radius: 0.0 # omni-drive robot (can turn on place!)
+
+ footprint_model:
+#   type: "point"
+#  type: "polygon"
+#   type: "two_circles"
+#   type: "circular"
+   type: "circular"
+   radius: 0.32 #0.75 for type "circular"
+   line_start: [0.225, 0] # for type "line"
+   line_end: [-0.225, 0] # for type "line"
+   front_offset: 0.34 # for type "two_circles"
+   front_radius: 0.4
+   rear_offset: -0.34
+   rear_radius: 0.4
+#  vertices: [ [0.60, 0.61], [0.60, -0.61], [-0.6 , -0.61], [-0.6, 0.61]]
+ # GoalTolerance
+
+ xy_goal_tolerance: 0.2 #0.1
+ yaw_goal_tolerance: 0.35 #0.035
+ free_goal_vel: False
+
+ # Obstacles
+
+ min_obstacle_dist: 0.3 #0.35 This value must also include our robot radius, since footprint_model is set to "point".
+ include_costmap_obstacles: True
+ costmap_obstacles_behind_robot_dist: 1.0 #1.0
+ obstacle_poses_affected: 30 #30
+## Costmap converter plugin
+#costmap_converter_plugin: "costmap_converter::CostmapToPolygonsDBSMCCH"
+# costmap_converter_plugin: "costmap_converter::CostmapToLinesDBSRANSAC"
+#costmap_converter_plugin: "costmap_converter::CostmapToLinesDBSMCCH"
+#costmap_converter_plugin: "costmap_converter::CostmapToPolygonsDBSConcaveHull"
+# obstacle_association_cutoff_factor: 5 (default) 12/18 wait for test
+ costmap_converter_plugin: ""
+ costmap_converter_spin_thread: True
+ costmap_converter_rate: 10 #5
+ inflation_dist: 5.0  #12/14 add
+ include_dynamic_obstacles: False
+ # Optimization
+
+ no_inner_iterations: 5  #to min
+ no_outer_iterations: 4   #to min
+ optimization_activate: True
+ optimization_verbose: False
+ penalty_epsilon: 0.1 #0.1 12/14
+ weight_max_vel_x: 5 #2
+ weight_max_vel_y: 0 #5
+ weight_max_vel_theta: 20 #1
+ weight_acc_lim_x: 30 #5
+ weight_acc_lim_y: 0 #1
+ weight_acc_lim_theta: 20 #1
+# weight_kinematics_nh: 99 # WE HAVE A HOLONOMIC ROBOT, JUST ADD A SMALL PENALTY  20 50
+ weight_kinematics_forward_drive: 50 #1
+ weight_kinematics_turning_radius: 5 #1
+ weight_optimaltime: 1 #1 12/14
+ weight_obstacle: 10 #50
+ weight_viapoint: 10
+ global_plan_viapoint_sep: -0.1
+ selection_viapoint_cost_scale: 1 #1
+
+ # Homotopy Class Planner
+
+ enable_homotopy_class_planning: True
+ enable_multithreading: True
+ simple_exploration: False
+ max_number_classes: 4 #(limits computational effort) wait for test
+ selection_cost_hysteresis: 1.0
+ selection_obst_cost_scale: 1.0
+ selection_alternative_time_cost: False
+
+ roadmap_graph_no_samples: 15
+ roadmap_graph_area_width: 5
+ h_signature_prescaler: 0.5
+ h_signature_threshold: 0.09
+ obstacle_keypoint_offset: 0.1
+ obstacle_heading_threshold: 0.45 #0.45
+ visualize_hc_graph: False

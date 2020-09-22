@@ -1,0 +1,101 @@
+[  0%] Built target dynamic_reconfigure_generate_messages_py
+[  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[  0%] Built target dynamic_reconfigure_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+[  6%] Built target spatio_temporal_voxel_layer_gencfg
+[  6%] Built target std_msgs_generate_messages_cpp
+[  6%] Built target _spatio_temporal_voxel_layer_generate_messages_check_deps_SaveGrid
+[ 20%] Built target spatio_temporal_voxel_layer_generate_messages_eus
+[ 26%] Built target spatio_temporal_voxel_layer_generate_messages_cpp
+[ 33%] Built target spatio_temporal_voxel_layer_generate_messages_nodejs
+[ 46%] Built target spatio_temporal_voxel_layer_generate_messages_py
+[ 53%] Built target spatio_temporal_voxel_layer_generate_messages_lisp
+[100%] Built target spatio_temporal_voxel_layer
+[100%] Built target spatio_temporal_voxel_layer_generate_messages
+Built target tests
+[  6%] Built target spatio_temporal_voxel_layer_gencfg
+[  6%] Built target dynamic_reconfigure_generate_messages_nodejs
+[  6%] Built target std_msgs_generate_messages_py
+[  6%] Built target dynamic_reconfigure_generate_messages_py
+[  6%] Built target dynamic_reconfigure_generate_messages_eus
+[  6%] Built target std_msgs_generate_messages_lisp
+[  6%] Built target std_msgs_generate_messages_eus
+[  6%] Built target std_msgs_generate_messages_cpp
+[  6%] Built target std_msgs_generate_messages_nodejs
+[  6%] Built target dynamic_reconfigure_generate_messages_lisp
+[  6%] Built target dynamic_reconfigure_generate_messages_cpp
+[  6%] Built target _spatio_temporal_voxel_layer_generate_messages_check_deps_SaveGrid
+[ 13%] Built target spatio_temporal_voxel_layer_generate_messages_lisp
+[ 20%] Built target spatio_temporal_voxel_layer_generate_messages_nodejs
+[ 33%] Built target spatio_temporal_voxel_layer_generate_messages_eus
+[ 40%] Built target spatio_temporal_voxel_layer_generate_messages_cpp
+[ 53%] Built target spatio_temporal_voxel_layer_generate_messages_py
+[ 53%] Built target spatio_temporal_voxel_layer_generate_messages
+[100%] Built target spatio_temporal_voxel_layer
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/share/spatio_temporal_voxel_layer/msgs/SaveGrid.srv
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/include/spatio_temporal_voxel_layer/SpatioTemporalVoxelLayerConfig.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/lib/python2.7/dist-packages/spatio_temporal_voxel_layer/__init__.py
+Listing /home/handsome/ros_ws_test/build/spatio_temporal_voxel_layer/devel/lib/python2.7/dist-packages/spatio_temporal_voxel_layer/cfg ...
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/lib/python2.7/dist-packages/spatio_temporal_voxel_layer/cfg
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/lib/python2.7/dist-packages/spatio_temporal_voxel_layer/cfg/SpatioTemporalVoxelLayerConfig.py
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/lib/python2.7/dist-packages/spatio_temporal_voxel_layer/cfg/SpatioTemporalVoxelLayerConfig.pyc
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/lib/python2.7/dist-packages/spatio_temporal_voxel_layer/cfg/__init__.py
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/lib/python2.7/dist-packages/spatio_temporal_voxel_layer/cfg/__init__.pyc
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/share/spatio_temporal_voxel_layer/cmake/spatio_temporal_voxel_layer-msg-paths.cmake
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/include/spatio_temporal_voxel_layer
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/include/spatio_temporal_voxel_layer/SaveGridResponse.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/include/spatio_temporal_voxel_layer/SaveGridRequest.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/include/spatio_temporal_voxel_layer/SpatioTemporalVoxelLayerConfig.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/include/spatio_temporal_voxel_layer/SaveGrid.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/share/roseus/ros/spatio_temporal_voxel_layer
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/share/roseus/ros/spatio_temporal_voxel_layer/manifest.l
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/share/roseus/ros/spatio_temporal_voxel_layer/srv
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/share/roseus/ros/spatio_temporal_voxel_layer/srv/SaveGrid.l
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/share/common-lisp/ros/spatio_temporal_voxel_layer
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/share/common-lisp/ros/spatio_temporal_voxel_layer/srv
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/share/common-lisp/ros/spatio_temporal_voxel_layer/srv/_package_SaveGrid.lisp
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/share/common-lisp/ros/spatio_temporal_voxel_layer/srv/_package.lisp
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/share/common-lisp/ros/spatio_temporal_voxel_layer/srv/SaveGrid.lisp
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/share/common-lisp/ros/spatio_temporal_voxel_layer/srv/spatio_temporal_voxel_layer-srv.asd
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/share/gennodejs/ros/spatio_temporal_voxel_layer
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/share/gennodejs/ros/spatio_temporal_voxel_layer/_index.js
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/share/gennodejs/ros/spatio_temporal_voxel_layer/srv
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/share/gennodejs/ros/spatio_temporal_voxel_layer/srv/_index.js
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/share/gennodejs/ros/spatio_temporal_voxel_layer/srv/SaveGrid.js
+Listing /home/handsome/ros_ws_test/build/spatio_temporal_voxel_layer/devel/lib/python2.7/dist-packages/spatio_temporal_voxel_layer ...
+Listing /home/handsome/ros_ws_test/build/spatio_temporal_voxel_layer/devel/lib/python2.7/dist-packages/spatio_temporal_voxel_layer/cfg ...
+Listing /home/handsome/ros_ws_test/build/spatio_temporal_voxel_layer/devel/lib/python2.7/dist-packages/spatio_temporal_voxel_layer/srv ...
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/lib/python2.7/dist-packages/spatio_temporal_voxel_layer
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/lib/python2.7/dist-packages/spatio_temporal_voxel_layer/__init__.py
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/lib/python2.7/dist-packages/spatio_temporal_voxel_layer/srv
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/lib/python2.7/dist-packages/spatio_temporal_voxel_layer/srv/__init__.py
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/lib/python2.7/dist-packages/spatio_temporal_voxel_layer/srv/_SaveGrid.pyc
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/lib/python2.7/dist-packages/spatio_temporal_voxel_layer/srv/__init__.pyc
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/lib/python2.7/dist-packages/spatio_temporal_voxel_layer/srv/_SaveGrid.py
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/lib/python2.7/dist-packages/spatio_temporal_voxel_layer/__init__.pyc
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/lib/python2.7/dist-packages/spatio_temporal_voxel_layer/cfg
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/lib/python2.7/dist-packages/spatio_temporal_voxel_layer/cfg/SpatioTemporalVoxelLayerConfig.py
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/lib/python2.7/dist-packages/spatio_temporal_voxel_layer/cfg/SpatioTemporalVoxelLayerConfig.pyc
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/lib/python2.7/dist-packages/spatio_temporal_voxel_layer/cfg/__init__.py
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/lib/python2.7/dist-packages/spatio_temporal_voxel_layer/cfg/__init__.pyc
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/lib/pkgconfig/spatio_temporal_voxel_layer.pc
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/share/spatio_temporal_voxel_layer/cmake/spatio_temporal_voxel_layer-msg-extras.cmake
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/share/spatio_temporal_voxel_layer/cmake/spatio_temporal_voxel_layerConfig.cmake
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/share/spatio_temporal_voxel_layer/cmake/spatio_temporal_voxel_layerConfig-version.cmake
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/share/spatio_temporal_voxel_layer/package.xml
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/lib/libspatio_temporal_voxel_layer.so
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/share/spatio_temporal_voxel_layer/costmap_plugins.xml
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/share/spatio_temporal_voxel_layer/minimal_test.launch
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/share/spatio_temporal_voxel_layer/example
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/share/spatio_temporal_voxel_layer/example/global_costmap_params.yaml
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/share/spatio_temporal_voxel_layer/example/vlp16_config.yaml
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/share/spatio_temporal_voxel_layer/example/standard_indoor_environment_config.yaml
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/share/spatio_temporal_voxel_layer/example/constrained_indoor_environment_config.yaml
+-- Up-to-date: /home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer/share/spatio_temporal_voxel_layer/example/outdoor_environment_config.yaml

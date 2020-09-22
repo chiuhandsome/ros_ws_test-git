@@ -1,0 +1,3 @@
+Invoking command in '/home/handsome/ros_ws_test/build/cellctrl_control_msgs': /usr/bin/cmake /home/handsome/ros_ws_test/src/ros_base/cell_controller/cellctrl_control_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/handsome/ros_ws_test/install/cellctrl_control_msgs
+Invoked command in '/home/handsome/ros_ws_test/build/cellctrl_control_msgs' returned '0': /usr/bin/cmake /home/handsome/ros_ws_test/src/ros_base/cell_controller/cellctrl_control_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/handsome/ros_ws_test/install/cellctrl_control_msgs
+Invoking command in '/home/handsome/ros_ws_test/build/cellctrl_control_msgs': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/cellctrl_control_msgs -- -j12 -l12

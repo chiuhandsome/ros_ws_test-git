@@ -1,0 +1,8 @@
+prefix=/home/handsome/ros_ws_test/install/robot_database_bridge
+
+Name: robot_database_bridge
+Description: Description of robot_database_bridge
+Version: 1.2.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lrobot_database_bridge
+Requires: tf roscpp roslib actionlib rospy std_msgs samsungcmd_msgs botcmd_msgs mongodb_store_msgs mongodb_store robot_control_msgs ros_utility_tools

@@ -1,0 +1,53 @@
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_if_proc_upper_action.cpp:1:0[m[K:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/private_actions/robot_if_proc_upper_action.h:54:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2_ros[m[K’ was not declared in this scope
+         std::shared_ptr<[01;31m[Ktf2_ros[m[K::TransformListener> trans_pose ;
+                         [01;31m[K^~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/private_actions/robot_if_proc_upper_action.h:54:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+         std::shared_ptr<tf2_ros::TransformListener[01;31m[K>[m[K trans_pose ;
+                                                   [01;31m[K^[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/private_actions/robot_if_proc_upper_action.h:55:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2_ros[m[K’ does not name a type
+         [01;31m[Ktf2_ros[m[K::Buffer tf2_buffer;
+         [01;31m[K^~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/private_actions/robot_if_proc_upper_action.h:56:24:[m[K [01;31m[Kerror: [m[K‘[01m[KTransformStamped[m[K’ in namespace ‘[01m[Kgeometry_msgs[m[K’ does not name a type
+         geometry_msgs::[01;31m[KTransformStamped[m[K tf_geometry ;
+                        [01;31m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/robot_scheduling_actions.h:13:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_actions.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/private_actions/robot_if_proc_upper_action.h:54:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2_ros[m[K’ was not declared in this scope
+         std::shared_ptr<[01;31m[Ktf2_ros[m[K::TransformListener> trans_pose ;
+                         [01;31m[K^~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/private_actions/robot_if_proc_upper_action.h:54:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+         std::shared_ptr<tf2_ros::TransformListener[01;31m[K>[m[K trans_pose ;
+                                                   [01;31m[K^[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/private_actions/robot_if_proc_upper_action.h:55:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2_ros[m[K’ does not name a type
+         [01;31m[Ktf2_ros[m[K::Buffer tf2_buffer;
+         [01;31m[K^~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/private_actions/robot_if_proc_upper_action.h:56:24:[m[K [01;31m[Kerror: [m[K‘[01m[KTransformStamped[m[K’ in namespace ‘[01m[Kgeometry_msgs[m[K’ does not name a type
+         geometry_msgs::[01;31m[KTransformStamped[m[K tf_geometry ;
+                        [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_if_proc_upper_action.cpp:[m[K In member function ‘[01m[Kbool robot_if_proc_upper_action::getRobot_map_PoseTransfer(double&, double&, double&, std::__cxx11::string)[m[K’:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_if_proc_upper_action.cpp:84:19:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kint[m[K’ and ‘[01m[Kstd::nullptr_t[m[K’ to binary ‘[01m[Koperator==[m[K’
+     if([01;31m[Ktrans_pose == nullptr[m[K)
+        [01;31m[K~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_if_proc_upper_action.cpp:85:67:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2_buffer[m[K’ was not declared in this scope
+         trans_pose = std::make_shared<tf2_ros::TransformListener>([01;31m[Ktf2_buffer[m[K,nh_);
+                                                                   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_if_proc_upper_action.cpp:85:67:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ksetbuffer[m[K’
+         trans_pose = std::make_shared<tf2_ros::TransformListener>([01;36m[Ktf2_buffer[m[K,nh_);
+                                                                   [01;36m[K^~~~~~~~~~[m[K
+                                                                   [32m[Ksetbuffer[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_if_proc_upper_action.cpp:87:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_geometry[m[K’ was not declared in this scope
+         [01;31m[Ktf_geometry[m[K = tf2_buffer.lookupTransform("map" ,frame_name, ros::Time(0), ros::Duration(3));
+         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_if_proc_upper_action.cpp:87:23:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2_buffer[m[K’ was not declared in this scope
+         tf_geometry = [01;31m[Ktf2_buffer[m[K.lookupTransform("map" ,frame_name, ros::Time(0), ros::Duration(3));
+                       [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_if_proc_upper_action.cpp:87:23:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Ksetbuffer[m[K’
+         tf_geometry = [01;36m[Ktf2_buffer[m[K.lookupTransform("map" ,frame_name, ros::Time(0), ros::Duration(3));
+                       [01;36m[K^~~~~~~~~~[m[K
+                       [32m[Ksetbuffer[m[K
+make[2]: *** [CMakeFiles/robot_scheduling_actions_node.dir/src/robot_scheduling_actions.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/robot_scheduling_actions_node.dir/src/private_actions/robot_if_proc_upper_action.cpp.o] Error 1
+make[1]: *** [CMakeFiles/robot_scheduling_actions_node.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,7 @@
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_server/src/robot_scheduling_pnp_server.cpp:[m[K In constructor ‘[01m[Krobot_scheduling_pnp_server::robot_scheduling_pnp_server()[m[K’:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_server/src/robot_scheduling_pnp_server.cpp:39:30:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Krobot_scheduling_pnp_server[m[K’ does not have any field named ‘[01m[Krobot_if_params_ac_[m[K’
+                              [01;31m[Krobot_if_params_ac_[m[K(nh_,"robot_interface_parames"),
+                              [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/robot_scheduling_server_node.dir/src/robot_scheduling_pnp_server.cpp.o] Error 1
+make[1]: *** [CMakeFiles/robot_scheduling_server_node.dir/all] Error 2
+make: *** [all] Error 2

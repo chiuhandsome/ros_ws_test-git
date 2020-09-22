@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package>
+  <name>ros_utility_tools</name>
+  <version>0.1.1</version>
+  <description>
+    ros_utility_tools
+  </description>
+
+  <author>Handsome Chiu</author>
+  <maintainer email="chiuhandsome1966@gmail.com">Handsome Chiu</maintainer>
+
+  <license>LGPLv3</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>cmake_modules</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>roslib</build_depend>
+  <build_depend>actionlib</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>async_comm</build_depend>
+
+  <run_depend>roscpp</run_depend>
+  <run_depend>roslib</run_depend>
+  <run_depend>actionlib</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>std_msgs</run_depend>
+   <run_depend>async_comm</run_depend>
+</package>

@@ -1,0 +1,8 @@
+Invoking command in '/home/handsome/ros_ws_test/build/ca_description': /usr/bin/cmake /home/handsome/ros_ws_test/src/ros_base/i_robot/create_autonomy/ca_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/handsome/ros_ws_test/install/ca_description
+Invoked command in '/home/handsome/ros_ws_test/build/ca_description' returned '0': /usr/bin/cmake /home/handsome/ros_ws_test/src/ros_base/i_robot/create_autonomy/ca_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/handsome/ros_ws_test/install/ca_description
+Invoking command in '/home/handsome/ros_ws_test/build/ca_description': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/ca_description -- -j12 -l12
+Invoked command in '/home/handsome/ros_ws_test/build/ca_description' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/ca_description -- -j12 -l12
+Invoking command in '/home/handsome/ros_ws_test/build/ca_description': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/ca_description --target tests -- -j12 -l12
+Invoked command in '/home/handsome/ros_ws_test/build/ca_description' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/ca_description --target tests -- -j12 -l12
+Invoking command in '/home/handsome/ros_ws_test/build/ca_description': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/ca_description --target install -- -j12 -l12
+Invoked command in '/home/handsome/ros_ws_test/build/ca_description' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/ca_description --target install -- -j12 -l12

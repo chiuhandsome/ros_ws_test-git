@@ -1,0 +1,8 @@
+prefix=/home/handsome/ros_ws_test/build/tug_example_msgs/devel
+
+Name: tug_example_msgs
+Description: Description of tug_example_msgs
+Version: 0.0.11
+Cflags: -I/home/handsome/ros_ws_test/build/tug_example_msgs/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

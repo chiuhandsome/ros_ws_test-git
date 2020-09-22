@@ -1,0 +1,55 @@
+#******************************************************************************
+#** parameters for UDP connection                                            **
+#******************************************************************************
+sever_bind_host: "192.168.99.62"
+sever_bind_port: 14620
+sever_remote_host: "192.168.99.177"
+sever_remote_port: 14625
+
+client_bind_host: "192.168.99.62"
+client_bind_port: 14425
+client_remote_host: "192.168.99.177"
+client_remote_port: 14420
+
+udp_PORT_OPEN_RETRY: 5
+#******************************************************************************
+#** parameters for names of topic & service                                  **
+#******************************************************************************
+sub_cmd_vel_name: cmd_vel
+sub_cmd_vel_queue: 10
+sub_pid_name: cmd_pid
+sub_pid_queue: 10
+
+pub_raw_velocity_name: raw_vel_msg
+pub_raw_velocity_queue: 10
+pub_raw_megguider_name: raw_megguider_msg
+pub_raw_megguider_queue: 10
+pub_raw_magnav_name: raw_magnav_msg
+pub_raw_magnav_queue: 10
+pub_raw_reader_name: raw_reader_msg
+pub_raw_reader_queue: 10
+pub_stmudp_heartbeat_name: raw_heartbeat_msg
+pub_stmudp_heartbeat_queue: 10
+
+bot_ledbar_srvService_name: bot_ledbar_cmdsrv
+bot_music_srvService_name: bot_music_cmdsrv
+bot_download_srvService_name: bot_download_cmdsrv
+bot_ultrasonic_srvService_name: bot_ultrasonic_cmdsrv
+bot_battery_srvService_name: bot_battery_cmdsrv
+bot_reader_status_srvService_name: bot_reader_status_cmdsrv
+bot_ssr_srvService_name: bot_ssr_cmdsrv
+bot_imu_srvService_name: bot_imu_cmdsrv
+bot_SetFunction_srvService_name: bot_SetFunction_cmdsrv
+bot_motor1_srvService_name: bot_motor1_status_cmdsrv
+bot_motor2_srvService_name: bot_motor2_status_cmdsrv
+bot_motor3_srvService_name: bot_motor3_status_cmdsrv
+bot_motor4_srvService_name: bot_motor4_status_cmdsrv
+
+bot_Upload_cltService_name: bot_upload_sendsrv
+bot_sysstatus_cltService_name: bot_sysstatus_sendsrv
+#******************************************************************************
+#** parameters for timer of topic & service                                  **
+#******************************************************************************
+call_service_timeout: 2.0 # unit: sec 
+
+#--------------------------- end of line --------------------------------------

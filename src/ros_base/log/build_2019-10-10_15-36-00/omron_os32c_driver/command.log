@@ -1,0 +1,6 @@
+Invoking command in '/home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver': /usr/bin/cmake --build /home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver -- -j12 -l12
+Invoked command in '/home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver -- -j12 -l12
+Invoking command in '/home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver': /usr/bin/cmake --build /home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver --target tests -- -j12 -l12
+Invoked command in '/home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver --target tests -- -j12 -l12
+Invoking command in '/home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver': /usr/bin/cmake --build /home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver --target install
+Invoked command in '/home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver --target install

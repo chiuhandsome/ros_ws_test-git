@@ -1,0 +1,18 @@
+# Define the goal
+string dock_id
+string pre_dock_id
+string frame_id
+uint8 command
+string dock_ac_name
+bool use_move_base
+---
+# Define the result
+uint8 OK=1
+uint8 NOT_OK=2
+uint8 TIMED_OUT=3
+uint8 OUT_OF_TIMES=4
+uint8 NOT_PREDOCK_ID=5
+uint8 result
+---
+# Define a feedback message
+bool docked

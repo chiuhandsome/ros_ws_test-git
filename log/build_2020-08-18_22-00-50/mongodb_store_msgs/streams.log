@@ -1,0 +1,248 @@
+[0.120s] Invoking command in '/home/handsome/ros_ws_test/build/mongodb_store_msgs': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/mongodb_store_msgs -- -j12 -l12
+[0.512s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[0.763s] [  0%] Built target _mongodb_store_msgs_generate_messages_check_deps_MoveEntriesGoal
+[0.855s] [  0%] Built target _mongodb_store_msgs_generate_messages_check_deps_StringPairList
+[0.858s] [  0%] Built target _mongodb_store_msgs_generate_messages_check_deps_MongoUpdateMsg
+[0.860s] [  0%] Built target _mongodb_store_msgs_generate_messages_check_deps_MongoQueryMsg
+[0.883s] [  0%] Built target _mongodb_store_msgs_generate_messages_check_deps_MoveEntriesFeedback
+[0.888s] [  0%] Built target _mongodb_store_msgs_generate_messages_check_deps_MongoInsertMsg
+[0.949s] [  0%] Built target _mongodb_store_msgs_generate_messages_check_deps_SerialisedMessage
+[0.957s] [  0%] Built target _mongodb_store_msgs_generate_messages_check_deps_MoveEntriesResult
+[0.973s] [  0%] Built target _mongodb_store_msgs_generate_messages_check_deps_MoveEntriesAction
+[1.048s] [  0%] Built target _mongodb_store_msgs_generate_messages_check_deps_MongoDeleteMsg
+[1.410s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[1.467s] [  0%] Built target actionlib_msgs_generate_messages_py
+[1.488s] [  0%] Built target _mongodb_store_msgs_generate_messages_check_deps_MoveEntriesActionFeedback
+[1.554s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[1.556s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[1.695s] [  0%] Built target _mongodb_store_msgs_generate_messages_check_deps_Insert
+[1.705s] [  0%] Built target _mongodb_store_msgs_generate_messages_check_deps_StringList
+[1.811s] [  0%] Built target _mongodb_store_msgs_generate_messages_check_deps_MoveEntriesActionResult
+[1.895s] [  0%] Built target _mongodb_store_msgs_generate_messages_check_deps_MoveEntriesActionGoal
+[2.026s] [  0%] Built target _mongodb_store_msgs_generate_messages_check_deps_MongoQuerywithProjectionMsg
+[2.035s] [  0%] Built target _mongodb_store_msgs_generate_messages_check_deps_StringPair
+[2.394s] [ 20%] Built target mongodb_store_msgs_generate_messages_eus
+[2.405s] [ 39%] Built target mongodb_store_msgs_generate_messages_cpp
+[2.416s] [ 59%] Built target mongodb_store_msgs_generate_messages_nodejs
+[2.471s] [ 78%] Built target mongodb_store_msgs_generate_messages_lisp
+[2.513s] [100%] Built target mongodb_store_msgs_generate_messages_py
+[2.777s] [100%] Built target mongodb_store_msgs_generate_messages
+[2.812s] Invoked command in '/home/handsome/ros_ws_test/build/mongodb_store_msgs' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/mongodb_store_msgs -- -j12 -l12
+[3.537s] Invoking command in '/home/handsome/ros_ws_test/build/mongodb_store_msgs': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/mongodb_store_msgs --target tests -- -j12 -l12
+[3.820s] Built target tests
+[3.917s] Invoked command in '/home/handsome/ros_ws_test/build/mongodb_store_msgs' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/mongodb_store_msgs --target tests -- -j12 -l12
+[5.239s] Invoking command in '/home/handsome/ros_ws_test/build/mongodb_store_msgs': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/mongodb_store_msgs --target install -- -j12 -l12
+[5.880s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[5.905s] [  0%] Built target _mongodb_store_msgs_generate_messages_check_deps_MoveEntriesResult
+[5.926s] [  0%] Built target _mongodb_store_msgs_generate_messages_check_deps_MoveEntriesAction
+[6.018s] [  0%] Built target _mongodb_store_msgs_generate_messages_check_deps_StringPairList
+[6.070s] [  0%] Built target _mongodb_store_msgs_generate_messages_check_deps_MongoUpdateMsg
+[6.111s] [  0%] Built target _mongodb_store_msgs_generate_messages_check_deps_MoveEntriesFeedback
+[6.137s] [  0%] Built target _mongodb_store_msgs_generate_messages_check_deps_MongoInsertMsg
+[6.138s] [  0%] Built target _mongodb_store_msgs_generate_messages_check_deps_MongoQueryMsg
+[6.152s] [  0%] Built target _mongodb_store_msgs_generate_messages_check_deps_MongoDeleteMsg
+[6.169s] [  0%] Built target _mongodb_store_msgs_generate_messages_check_deps_Insert
+[6.281s] [  0%] Built target _mongodb_store_msgs_generate_messages_check_deps_MoveEntriesGoal
+[6.292s] [  0%] Built target _mongodb_store_msgs_generate_messages_check_deps_SerialisedMessage
+[6.358s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[6.368s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[6.470s] [  0%] Built target _mongodb_store_msgs_generate_messages_check_deps_MoveEntriesActionResult
+[6.504s] [  0%] Built target actionlib_msgs_generate_messages_py
+[6.506s] [  0%] Built target _mongodb_store_msgs_generate_messages_check_deps_MoveEntriesActionFeedback
+[6.506s] [  0%] Built target _mongodb_store_msgs_generate_messages_check_deps_MongoQuerywithProjectionMsg
+[6.514s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[6.529s] [  0%] Built target _mongodb_store_msgs_generate_messages_check_deps_StringPair
+[6.548s] [  0%] Built target _mongodb_store_msgs_generate_messages_check_deps_MoveEntriesActionGoal
+[6.575s] [  0%] Built target _mongodb_store_msgs_generate_messages_check_deps_StringList
+[6.743s] [ 21%] Built target mongodb_store_msgs_generate_messages_py
+[6.774s] [ 40%] Built target mongodb_store_msgs_generate_messages_lisp
+[6.795s] [ 61%] Built target mongodb_store_msgs_generate_messages_eus
+[6.816s] [ 80%] Built target mongodb_store_msgs_generate_messages_nodejs
+[6.867s] [100%] Built target mongodb_store_msgs_generate_messages_cpp
+[7.040s] [100%] Built target mongodb_store_msgs_generate_messages
+[7.137s] [36mInstall the project...[0m
+[7.192s] -- Install configuration: ""
+[7.194s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/mongodb_store_msgs/msg/StringList.msg
+[7.197s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/mongodb_store_msgs/msg/StringPair.msg
+[7.198s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/mongodb_store_msgs/msg/StringPairList.msg
+[7.198s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/mongodb_store_msgs/msg/SerialisedMessage.msg
+[7.198s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/mongodb_store_msgs/msg/Insert.msg
+[7.199s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/mongodb_store_msgs/srv/MongoInsertMsg.srv
+[7.200s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/mongodb_store_msgs/srv/MongoUpdateMsg.srv
+[7.200s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/mongodb_store_msgs/srv/MongoQueryMsg.srv
+[7.205s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/mongodb_store_msgs/srv/MongoQuerywithProjectionMsg.srv
+[7.206s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/mongodb_store_msgs/srv/MongoDeleteMsg.srv
+[7.209s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/mongodb_store_msgs/action/MoveEntries.action
+[7.209s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/mongodb_store_msgs/msg/MoveEntriesAction.msg
+[7.210s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/mongodb_store_msgs/msg/MoveEntriesActionGoal.msg
+[7.210s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/mongodb_store_msgs/msg/MoveEntriesActionResult.msg
+[7.210s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/mongodb_store_msgs/msg/MoveEntriesActionFeedback.msg
+[7.211s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/mongodb_store_msgs/msg/MoveEntriesGoal.msg
+[7.211s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/mongodb_store_msgs/msg/MoveEntriesResult.msg
+[7.211s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/mongodb_store_msgs/msg/MoveEntriesFeedback.msg
+[7.211s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/mongodb_store_msgs/cmake/mongodb_store_msgs-msg-paths.cmake
+[7.211s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/include/mongodb_store_msgs
+[7.212s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/include/mongodb_store_msgs/MoveEntriesActionResult.h
+[7.212s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/include/mongodb_store_msgs/MongoQueryMsgRequest.h
+[7.216s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/include/mongodb_store_msgs/MongoUpdateMsgRequest.h
+[7.217s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/include/mongodb_store_msgs/MongoInsertMsgResponse.h
+[7.217s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/include/mongodb_store_msgs/MongoDeleteMsgRequest.h
+[7.217s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/include/mongodb_store_msgs/StringPair.h
+[7.218s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/include/mongodb_store_msgs/MoveEntriesGoal.h
+[7.218s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/include/mongodb_store_msgs/SerialisedMessage.h
+[7.218s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/include/mongodb_store_msgs/MoveEntriesFeedback.h
+[7.218s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/include/mongodb_store_msgs/MongoQuerywithProjectionMsgResponse.h
+[7.218s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/include/mongodb_store_msgs/StringPairList.h
+[7.218s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/include/mongodb_store_msgs/MongoInsertMsg.h
+[7.218s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/include/mongodb_store_msgs/MongoInsertMsgRequest.h
+[7.218s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/include/mongodb_store_msgs/MongoQueryMsg.h
+[7.219s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/include/mongodb_store_msgs/MongoQuerywithProjectionMsgRequest.h
+[7.219s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/include/mongodb_store_msgs/MongoDeleteMsg.h
+[7.219s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/include/mongodb_store_msgs/MoveEntriesAction.h
+[7.220s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/include/mongodb_store_msgs/MongoUpdateMsgResponse.h
+[7.220s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/include/mongodb_store_msgs/MongoQueryMsgResponse.h
+[7.220s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/include/mongodb_store_msgs/MongoUpdateMsg.h
+[7.220s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/include/mongodb_store_msgs/MongoQuerywithProjectionMsg.h
+[7.220s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/include/mongodb_store_msgs/MoveEntriesActionGoal.h
+[7.220s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/include/mongodb_store_msgs/MoveEntriesActionFeedback.h
+[7.220s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/include/mongodb_store_msgs/Insert.h
+[7.221s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/include/mongodb_store_msgs/MoveEntriesResult.h
+[7.221s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/include/mongodb_store_msgs/MongoDeleteMsgResponse.h
+[7.221s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/include/mongodb_store_msgs/StringList.h
+[7.221s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/roseus/ros/mongodb_store_msgs
+[7.227s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/roseus/ros/mongodb_store_msgs/msg
+[7.227s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/roseus/ros/mongodb_store_msgs/msg/MoveEntriesResult.l
+[7.231s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/roseus/ros/mongodb_store_msgs/msg/StringPair.l
+[7.232s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/roseus/ros/mongodb_store_msgs/msg/StringList.l
+[7.232s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/roseus/ros/mongodb_store_msgs/msg/MoveEntriesActionGoal.l
+[7.232s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/roseus/ros/mongodb_store_msgs/msg/Insert.l
+[7.232s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/roseus/ros/mongodb_store_msgs/msg/SerialisedMessage.l
+[7.232s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/roseus/ros/mongodb_store_msgs/msg/StringPairList.l
+[7.232s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/roseus/ros/mongodb_store_msgs/msg/MoveEntriesGoal.l
+[7.232s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/roseus/ros/mongodb_store_msgs/msg/MoveEntriesFeedback.l
+[7.232s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/roseus/ros/mongodb_store_msgs/msg/MoveEntriesActionResult.l
+[7.232s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/roseus/ros/mongodb_store_msgs/msg/MoveEntriesAction.l
+[7.233s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/roseus/ros/mongodb_store_msgs/msg/MoveEntriesActionFeedback.l
+[7.233s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/roseus/ros/mongodb_store_msgs/manifest.l
+[7.234s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/roseus/ros/mongodb_store_msgs/srv
+[7.235s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/roseus/ros/mongodb_store_msgs/srv/MongoInsertMsg.l
+[7.235s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/roseus/ros/mongodb_store_msgs/srv/MongoDeleteMsg.l
+[7.236s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/roseus/ros/mongodb_store_msgs/srv/MongoQuerywithProjectionMsg.l
+[7.236s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/roseus/ros/mongodb_store_msgs/srv/MongoUpdateMsg.l
+[7.236s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/roseus/ros/mongodb_store_msgs/srv/MongoQueryMsg.l
+[7.236s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/common-lisp/ros/mongodb_store_msgs
+[7.237s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/common-lisp/ros/mongodb_store_msgs/msg
+[7.239s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/common-lisp/ros/mongodb_store_msgs/msg/_package_SerialisedMessage.lisp
+[7.239s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/common-lisp/ros/mongodb_store_msgs/msg/MoveEntriesResult.lisp
+[7.240s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/common-lisp/ros/mongodb_store_msgs/msg/MoveEntriesActionGoal.lisp
+[7.240s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/common-lisp/ros/mongodb_store_msgs/msg/StringPairList.lisp
+[7.242s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/common-lisp/ros/mongodb_store_msgs/msg/_package_StringPairList.lisp
+[7.243s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/common-lisp/ros/mongodb_store_msgs/msg/_package_StringList.lisp
+[7.243s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/common-lisp/ros/mongodb_store_msgs/msg/MoveEntriesActionFeedback.lisp
+[7.243s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/common-lisp/ros/mongodb_store_msgs/msg/MoveEntriesAction.lisp
+[7.243s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/common-lisp/ros/mongodb_store_msgs/msg/MoveEntriesGoal.lisp
+[7.243s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/common-lisp/ros/mongodb_store_msgs/msg/_package_MoveEntriesAction.lisp
+[7.243s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/common-lisp/ros/mongodb_store_msgs/msg/_package_MoveEntriesActionFeedback.lisp
+[7.243s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/common-lisp/ros/mongodb_store_msgs/msg/MoveEntriesFeedback.lisp
+[7.244s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/common-lisp/ros/mongodb_store_msgs/msg/Insert.lisp
+[7.244s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/common-lisp/ros/mongodb_store_msgs/msg/StringPair.lisp
+[7.244s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/common-lisp/ros/mongodb_store_msgs/msg/_package.lisp
+[7.244s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/common-lisp/ros/mongodb_store_msgs/msg/_package_StringPair.lisp
+[7.244s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/common-lisp/ros/mongodb_store_msgs/msg/_package_MoveEntriesActionResult.lisp
+[7.244s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/common-lisp/ros/mongodb_store_msgs/msg/_package_Insert.lisp
+[7.244s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/common-lisp/ros/mongodb_store_msgs/msg/_package_MoveEntriesResult.lisp
+[7.244s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/common-lisp/ros/mongodb_store_msgs/msg/MoveEntriesActionResult.lisp
+[7.244s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/common-lisp/ros/mongodb_store_msgs/msg/SerialisedMessage.lisp
+[7.245s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/common-lisp/ros/mongodb_store_msgs/msg/StringList.lisp
+[7.245s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/common-lisp/ros/mongodb_store_msgs/msg/_package_MoveEntriesFeedback.lisp
+[7.245s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/common-lisp/ros/mongodb_store_msgs/msg/_package_MoveEntriesGoal.lisp
+[7.245s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/common-lisp/ros/mongodb_store_msgs/msg/mongodb_store_msgs-msg.asd
+[7.245s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/common-lisp/ros/mongodb_store_msgs/msg/_package_MoveEntriesActionGoal.lisp
+[7.245s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/common-lisp/ros/mongodb_store_msgs/srv
+[7.245s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/common-lisp/ros/mongodb_store_msgs/srv/_package_MongoDeleteMsg.lisp
+[7.245s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/common-lisp/ros/mongodb_store_msgs/srv/_package_MongoUpdateMsg.lisp
+[7.245s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/common-lisp/ros/mongodb_store_msgs/srv/_package_MongoQueryMsg.lisp
+[7.246s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/common-lisp/ros/mongodb_store_msgs/srv/_package.lisp
+[7.246s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/common-lisp/ros/mongodb_store_msgs/srv/mongodb_store_msgs-srv.asd
+[7.246s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/common-lisp/ros/mongodb_store_msgs/srv/MongoUpdateMsg.lisp
+[7.246s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/common-lisp/ros/mongodb_store_msgs/srv/_package_MongoQuerywithProjectionMsg.lisp
+[7.246s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/common-lisp/ros/mongodb_store_msgs/srv/MongoQueryMsg.lisp
+[7.246s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/common-lisp/ros/mongodb_store_msgs/srv/MongoDeleteMsg.lisp
+[7.249s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/common-lisp/ros/mongodb_store_msgs/srv/_package_MongoInsertMsg.lisp
+[7.250s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/common-lisp/ros/mongodb_store_msgs/srv/MongoInsertMsg.lisp
+[7.251s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/common-lisp/ros/mongodb_store_msgs/srv/MongoQuerywithProjectionMsg.lisp
+[7.251s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/gennodejs/ros/mongodb_store_msgs
+[7.252s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/gennodejs/ros/mongodb_store_msgs/msg
+[7.252s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/gennodejs/ros/mongodb_store_msgs/msg/MoveEntriesActionGoal.js
+[7.252s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/gennodejs/ros/mongodb_store_msgs/msg/MoveEntriesActionFeedback.js
+[7.253s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/gennodejs/ros/mongodb_store_msgs/msg/StringList.js
+[7.253s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/gennodejs/ros/mongodb_store_msgs/msg/_index.js
+[7.254s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/gennodejs/ros/mongodb_store_msgs/msg/StringPair.js
+[7.254s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/gennodejs/ros/mongodb_store_msgs/msg/StringPairList.js
+[7.254s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/gennodejs/ros/mongodb_store_msgs/msg/MoveEntriesFeedback.js
+[7.255s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/gennodejs/ros/mongodb_store_msgs/msg/Insert.js
+[7.256s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/gennodejs/ros/mongodb_store_msgs/msg/MoveEntriesGoal.js
+[7.257s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/gennodejs/ros/mongodb_store_msgs/msg/MoveEntriesResult.js
+[7.257s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/gennodejs/ros/mongodb_store_msgs/msg/MoveEntriesActionResult.js
+[7.258s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/gennodejs/ros/mongodb_store_msgs/msg/SerialisedMessage.js
+[7.258s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/gennodejs/ros/mongodb_store_msgs/msg/MoveEntriesAction.js
+[7.258s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/gennodejs/ros/mongodb_store_msgs/_index.js
+[7.258s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/gennodejs/ros/mongodb_store_msgs/srv
+[7.258s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/gennodejs/ros/mongodb_store_msgs/srv/MongoInsertMsg.js
+[7.258s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/gennodejs/ros/mongodb_store_msgs/srv/MongoUpdateMsg.js
+[7.259s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/gennodejs/ros/mongodb_store_msgs/srv/_index.js
+[7.259s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/gennodejs/ros/mongodb_store_msgs/srv/MongoQuerywithProjectionMsg.js
+[7.259s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/gennodejs/ros/mongodb_store_msgs/srv/MongoQueryMsg.js
+[7.260s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/gennodejs/ros/mongodb_store_msgs/srv/MongoDeleteMsg.js
+[7.335s] Listing /home/handsome/ros_ws_test/build/mongodb_store_msgs/devel/lib/python2.7/dist-packages/mongodb_store_msgs ...
+[7.335s] Listing /home/handsome/ros_ws_test/build/mongodb_store_msgs/devel/lib/python2.7/dist-packages/mongodb_store_msgs/msg ...
+[7.335s] Listing /home/handsome/ros_ws_test/build/mongodb_store_msgs/devel/lib/python2.7/dist-packages/mongodb_store_msgs/srv ...
+[7.335s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages/mongodb_store_msgs
+[7.335s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages/mongodb_store_msgs/msg
+[7.335s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages/mongodb_store_msgs/msg/_MoveEntriesActionGoal.py
+[7.335s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages/mongodb_store_msgs/msg/_MoveEntriesGoal.pyc
+[7.335s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages/mongodb_store_msgs/msg/_StringPairList.py
+[7.335s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages/mongodb_store_msgs/msg/_MoveEntriesFeedback.py
+[7.336s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages/mongodb_store_msgs/msg/_MoveEntriesFeedback.pyc
+[7.336s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages/mongodb_store_msgs/msg/__init__.py
+[7.336s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages/mongodb_store_msgs/msg/_SerialisedMessage.py
+[7.336s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages/mongodb_store_msgs/msg/_MoveEntriesActionGoal.pyc
+[7.336s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages/mongodb_store_msgs/msg/_Insert.pyc
+[7.336s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages/mongodb_store_msgs/msg/_MoveEntriesActionResult.pyc
+[7.336s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages/mongodb_store_msgs/msg/_MoveEntriesAction.py
+[7.336s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages/mongodb_store_msgs/msg/_StringPair.pyc
+[7.337s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages/mongodb_store_msgs/msg/_MoveEntriesResult.py
+[7.337s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages/mongodb_store_msgs/msg/_MoveEntriesActionResult.py
+[7.337s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages/mongodb_store_msgs/msg/_MoveEntriesActionFeedback.py
+[7.337s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages/mongodb_store_msgs/msg/_MoveEntriesActionFeedback.pyc
+[7.337s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages/mongodb_store_msgs/msg/_Insert.py
+[7.337s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages/mongodb_store_msgs/msg/_StringPairList.pyc
+[7.337s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages/mongodb_store_msgs/msg/_SerialisedMessage.pyc
+[7.337s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages/mongodb_store_msgs/msg/_MoveEntriesResult.pyc
+[7.337s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages/mongodb_store_msgs/msg/__init__.pyc
+[7.337s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages/mongodb_store_msgs/msg/_MoveEntriesAction.pyc
+[7.337s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages/mongodb_store_msgs/msg/_StringPair.py
+[7.337s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages/mongodb_store_msgs/msg/_StringList.py
+[7.337s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages/mongodb_store_msgs/msg/_StringList.pyc
+[7.337s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages/mongodb_store_msgs/msg/_MoveEntriesGoal.py
+[7.338s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages/mongodb_store_msgs/__init__.py
+[7.338s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages/mongodb_store_msgs/srv
+[7.338s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages/mongodb_store_msgs/srv/_MongoUpdateMsg.py
+[7.338s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages/mongodb_store_msgs/srv/_MongoQueryMsg.pyc
+[7.338s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages/mongodb_store_msgs/srv/_MongoInsertMsg.pyc
+[7.338s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages/mongodb_store_msgs/srv/__init__.py
+[7.338s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages/mongodb_store_msgs/srv/_MongoQuerywithProjectionMsg.pyc
+[7.338s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages/mongodb_store_msgs/srv/_MongoDeleteMsg.py
+[7.338s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages/mongodb_store_msgs/srv/_MongoQueryMsg.py
+[7.338s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages/mongodb_store_msgs/srv/_MongoQuerywithProjectionMsg.py
+[7.340s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages/mongodb_store_msgs/srv/_MongoInsertMsg.py
+[7.340s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages/mongodb_store_msgs/srv/_MongoDeleteMsg.pyc
+[7.340s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages/mongodb_store_msgs/srv/__init__.pyc
+[7.340s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages/mongodb_store_msgs/srv/_MongoUpdateMsg.pyc
+[7.340s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/python2.7/dist-packages/mongodb_store_msgs/__init__.pyc
+[7.340s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/lib/pkgconfig/mongodb_store_msgs.pc
+[7.340s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/mongodb_store_msgs/cmake/mongodb_store_msgs-msg-extras.cmake
+[7.340s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/mongodb_store_msgs/cmake/mongodb_store_msgsConfig.cmake
+[7.340s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/mongodb_store_msgs/cmake/mongodb_store_msgsConfig-version.cmake
+[7.341s] -- Up-to-date: /home/handsome/ros_ws_test/install/mongodb_store_msgs/share/mongodb_store_msgs/package.xml
+[7.402s] Invoked command in '/home/handsome/ros_ws_test/build/mongodb_store_msgs' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/mongodb_store_msgs --target install -- -j12 -l12

@@ -1,0 +1,460 @@
+<?xml version="1.0"?>
+   <robot name="HYC" xmlns:xacro="http://ros.org/wiki/xacro">
+    <!--<xacro:include filename="$(find rplidar_ros)/urdf/_d435.urdf.xacro"/>-->
+
+    <link name="base_link">
+      <visual>
+        <geometry>
+          <box size="0.82 0.53 0.01"/>
+        </geometry>
+        <origin rpy="0 0 0" xyz="0.0 0.00 0.06"/>
+        <material name="blue">
+          <color rgba="0 0 .8 1"/>
+        </material>
+      </visual>
+    </link>
+
+    <link name="base_footprint">
+      <visual>
+        <geometry>
+          <box size="0.82 0.53 0.01"/>
+        </geometry>
+        <origin rpy="0 0 0" xyz="0.0 0.0 0.0"/>
+        <material name="blue">
+          <color rgba="0 0 .8 1"/>
+        </material>
+      </visual>
+    </link>
+
+    <joint name="base_to_footprint" type="fixed">
+      <parent link="base_footprint"/>
+       <child link="base_link"/>
+      <origin xyz="0 0 0.01"/>
+    </joint>
+	
+    <sensor_d435 parent="base_link">
+       <origin xyz="0.4 0.02 0.3" rpy="3.14 0 0"/>
+    </sensor_d435>
+
+
+    <link name="wheel_left_front">
+      <visual>
+        <geometry>
+          <cylinder length="0.03" radius="0.062"/>
+        </geometry>
+        <origin rpy="1.57 0 0" xyz="0.274 0.22 0.062"/>
+        <material name="red">
+          <color rgba="255 0 0 1"/>
+        </material>
+      </visual>
+    </link>
+
+    <link name="wheel_left_rear">
+      <visual>
+        <geometry>
+          <cylinder length="0.03" radius="0.062"/>
+        </geometry>
+        <origin rpy="1.57 0 0" xyz="-0.35 0.22 0.062"/>
+        <material name="red">
+          <color rgba="255 0 0 1"/>
+        </material>
+      </visual>
+    </link>
+
+    <link name="wheel_right_front">
+      <visual>
+        <geometry>
+          <cylinder length="0.03" radius="0.062"/>
+        </geometry>
+        <origin rpy="1.57 0 0" xyz="0.274 -0.22 0.062"/>
+        <material name="red">
+          <color rgba="255 0 0 1"/>
+        </material>
+      </visual>
+    </link>
+
+    <link name="wheel_right_rear">
+      <visual>
+        <geometry>
+          <cylinder length="0.03" radius="0.062"/>
+        </geometry>
+        <origin rpy="1.57 0 0" xyz="-0.35 -0.22 0.062"/>
+        <material name="red">
+          <color rgba="255 0 0 1"/>
+        </material>
+      </visual>
+    </link>
+
+    <link name="wheel_right_center">
+      <visual>
+        <geometry>
+          <cylinder length="0.03" radius="0.062"/>
+        </geometry>
+        <origin rpy="1.57 0 0" xyz="-0.03 -0.24 0.062"/>
+        <material name="yellow">
+          <color rgba="255 255 0 1"/>
+        </material>
+      </visual>
+    </link>
+
+    <link name="wheel_left_center">
+      <visual>
+        <geometry>
+          <cylinder length="0.03" radius="0.062"/>
+        </geometry>
+        <origin rpy="1.57 0 0" xyz="-0.03 0.24 0.062"/>
+        <material name="yellow">
+          <color rgba="255 255 0 1"/>
+        </material>
+      </visual>
+    </link>
+
+<!-- 
+	<link name="cam_r">
+      <visual>
+        <geometry>
+          <box size="0.02 0.07 0.03"/>
+        </geometry>
+        <material name="green">
+          <color rgba="0 255 0 1"/>
+        </material>
+      </visual>
+    </link>
+
+	<link name="cam_l">
+      <visual>
+        <geometry>
+          <box size="0.02 0.07 0.03"/>
+        </geometry>
+        <material name="green">
+          <color rgba="0 255 0 1"/>
+        </material>
+      </visual>
+    </link>
+
+	<link name="cam_f">
+      <visual>
+        <geometry>
+          <box size="0.02 0.07 0.03"/>
+        </geometry>
+        <material name="green">
+          <color rgba="0 255 0 1"/>
+        </material>
+      </visual>
+    </link>
+-->
+	<link name="imu_link">
+      <visual>
+        <geometry>
+          <box size="0.018 0.05 0.025"/>
+        </geometry>
+        <material name="green">
+          <color rgba="0 255 0 1"/>
+        </material>
+      </visual>
+    </link>
+
+    <link name="laser">
+      <visual>
+        <geometry>
+          <cylinder length="0.04" radius="0.04"/>
+        </geometry>
+        <material name="green">
+          <color rgba="0 255 0 1"/>
+        </material>
+      </visual>
+    </link>
+
+	 <link name="laser1">
+      <visual>
+        <geometry>
+          <cylinder length="0.04" radius="0.04"/>
+        </geometry>
+        <material name="green">
+          <color rgba="0 255 0 1"/>
+        </material>
+      </visual>
+    </link>
+
+
+    <link name="us1">
+      <visual>
+        <geometry>
+          <box size="0.018 0.05 0.025"/>
+        </geometry>
+        <material name="green">
+          <color rgba="0 255 0 1"/>
+        </material>
+      </visual>
+    </link>
+
+    <link name="us2">
+      <visual>
+        <geometry>
+          <box size="0.018 0.05 0.025"/>
+        </geometry>
+        <material name="green">
+          <color rgba="0 255 0 1"/>
+        </material>
+      </visual>
+    </link>
+
+    <link name="us3">
+      <visual>
+        <geometry>
+          <box size="0.018 0.05 0.025"/>
+        </geometry>
+        <material name="green">
+          <color rgba="0 255 0 1"/>
+        </material>
+      </visual>
+    </link>
+
+    <link name="us4">
+      <visual>
+        <geometry>
+          <box size="0.018 0.05 0.025"/>
+        </geometry>
+        <material name="green">
+          <color rgba="0 255 0 1"/>
+        </material>
+      </visual>
+    </link>
+<!--
+    <link name="us5">
+      <visual>
+        <geometry>
+          <box size="0.018 0.05 0.025"/>
+        </geometry>
+        <material name="green">
+          <color rgba="0 255 0 1"/>
+        </material>
+      </visual>
+    </link>
+
+    <link name="us6">
+      <visual>
+        <geometry>
+          <box size="0.018 0.05 0.025"/>
+        </geometry>
+        <material name="green">
+          <color rgba="0 255 0 1"/>
+        </material>
+      </visual>
+    </link>
+
+    <link name="us7">
+      <visual>
+        <geometry>
+          <box size="0.018 0.05 0.025"/>
+        </geometry>
+        <material name="green">
+          <color rgba="0 255 0 1"/>
+        </material>
+      </visual>
+    </link>
+
+    <link name="us8">
+      <visual>
+        <geometry>
+          <box size="0.018 0.05 0.025"/>
+        </geometry>
+        <material name="green">
+          <color rgba="0 255 0 1"/>
+        </material>
+      </visual>
+    </link>
+
+    <link name="us9">
+      <visual>
+        <geometry>
+          <box size="0.018 0.05 0.025"/>
+        </geometry>
+        <material name="green">
+          <color rgba="0 255 0 1"/>
+        </material>
+      </visual>
+    </link>
+
+    <link name="us10">
+      <visual>
+        <geometry>
+          <box size="0.018 0.05 0.025"/>
+        </geometry>
+        <material name="green">
+          <color rgba="0 255 0 1"/>
+        </material>
+      </visual>
+    </link>
+
+    <link name="us11">
+      <visual>
+        <geometry>
+          <box size="0.018 0.05 0.025"/>
+        </geometry>
+        <material name="green">
+          <color rgba="0 255 0 1"/>
+        </material>
+      </visual>
+    </link>
+
+    <link name="us12">
+      <visual>
+        <geometry>
+          <box size="0.018 0.05 0.025"/>
+        </geometry>
+        <material name="green">
+          <color rgba="0 255 0 1"/>
+        </material>
+      </visual>
+    </link>
+-->
+    <joint name="base_to_wheel_left_front" type="fixed">
+      <parent link="base_link"/>
+       <child link="wheel_left_front"/>
+      <origin xyz="0 0 0"/>
+    </joint>
+
+    <joint name="base_to_wheel_left_rear" type="fixed">
+      <parent link="base_link"/>
+       <child link="wheel_left_rear"/>
+      <origin xyz="0 0 0"/>
+    </joint>
+
+    <joint name="base_to_wheel_right_front" type="fixed">
+      <parent link="base_link"/>
+       <child link="wheel_right_front"/>
+      <origin xyz="0 0 0"/>
+    </joint>
+
+    <joint name="base_to_wheel_right_rear" type="fixed">
+      <parent link="base_link"/>
+       <child link="wheel_right_rear"/>
+      <origin xyz="0 0 0"/>
+    </joint>
+
+    <joint name="base_to_wheel_left_center" type="fixed">
+      <parent link="base_link"/>
+       <child link="wheel_left_center"/>
+      <origin xyz="0 0 0"/>
+    </joint>
+
+    <joint name="base_to_wheel_right_center" type="fixed">
+      <parent link="base_link"/>
+       <child link="wheel_right_center"/>
+      <origin xyz="0 0 0"/>
+    </joint>
+
+ 
+    <joint name="base_to_laser" type="fixed">
+      <parent link="base_link"/>
+       <child link="laser"/>
+      <origin xyz="0.35 -0.205 0.25" rpy="3.14 0 -0.785"/>
+    </joint>
+
+	<joint name="base_to_laser1" type="fixed">
+      <parent link="base_link"/>
+       <child link="laser1"/>
+      <origin xyz="-0.35 0.205 0.25" rpy="3.14 0 2.365"/>
+    </joint>
+
+	
+
+<!--
+	<joint name="base_to_cam_r" type="fixed">
+      <parent link="base_link"/>
+      <child link="cam_r"/>
+      <origin xyz="0.0 -0.50 0.086" rpy="0 0 -1.570"/>
+    </joint>
+
+	<joint name="base_to_cam_l" type="fixed">
+      <parent link="base_link"/>
+      <child link="cam_l"/>
+      <origin xyz="0.0 0.50 0.086" rpy="0 0 1.570"/>
+    </joint>
+
+	<joint name="base_to_cam_f" type="fixed">
+      <parent link="base_link"/>
+      <child link="cam_f"/>
+      <origin xyz="0.58 0.0 0.086" rpy="0 0 0"/>
+    </joint>-->
+
+	<joint name="base_to_imu_link" type="fixed">
+      <parent link="base_footprint"/>
+       <child link="imu_link"/>
+      <origin xyz="0 0.0 0.28" rpy="-0.03 0 3.14"/>
+    </joint>
+
+    <joint name="base_to_us1" type="fixed">
+      <parent link="base_link"/>
+       <child link="us1"/>
+      <origin xyz="0.35 0.19 0.17" rpy="0 0 0"/>
+    </joint>
+
+    <joint name="base_to_us2" type="fixed">
+      <parent link="base_link"/>
+       <child link="us2"/>
+      <origin xyz="0.35 -0.19 0.17" rpy="0 0 0"/>
+    </joint>
+
+    <joint name="base_to_us3" type="fixed">
+      <parent link="base_link"/>
+       <child link="us3"/>
+      <origin xyz="0.35 0.09 0.062" rpy="1.57 0 0"/>
+    </joint>
+
+    <joint name="base_to_us4" type="fixed">
+      <parent link="base_link"/>
+       <child link="us4"/>
+      <origin xyz="0.35 -0.09 0.062" rpy="1.57 0 0"/>
+    </joint>
+<!--
+    <joint name="base_to_us5" type="fixed">
+      <parent link="base_link"/>
+       <child link="us5"/>
+      <origin xyz="-0.15 -0.33 0.09" rpy="0 0 -1.570"/>
+    </joint>
+
+    <joint name="base_to_us6" type="fixed">
+      <parent link="base_link"/>
+       <child link="us6"/>
+      <origin xyz="-0.33 -0.33 0.09" rpy="0 0 -2.355"/>
+    </joint>
+
+    <joint name="base_to_us7" type="fixed">
+      <parent link="base_link"/>
+       <child link="us7"/>
+      <origin xyz="-0.33 -0.10 0.09" rpy="0 0 -3.14159"/>
+    </joint>
+
+    <joint name="base_to_us8" type="fixed">
+      <parent link="base_link"/>
+       <child link="us8"/>
+      <origin xyz="-0.33 0.10 0.09" rpy="0 0 -3.14159"/>
+    </joint>
+
+    <joint name="base_to_us9" type="fixed">
+      <parent link="base_link"/>
+       <child link="us9"/>
+      <origin xyz="-0.33 0.33 0.09" rpy="0 0 2.355"/>
+    </joint>
+
+    <joint name="base_to_us10" type="fixed">
+      <parent link="base_link"/>
+       <child link="us10"/>
+      <origin xyz="-0.15 0.33 0.09" rpy="0 0 1.570"/>
+    </joint>
+
+    <joint name="base_to_us11" type="fixed">
+      <parent link="base_link"/>
+       <child link="us11"/>
+      <origin xyz="0.15 0.33 0.09" rpy="0 0 1.570"/>
+    </joint>
+
+	<joint name="base_to_us12" type="fixed">
+      <parent link="base_link"/>
+      <child link="us12"/>
+      <origin xyz="0.33 0.33 0.09" rpy="0 0 0.785"/>
+    </joint>
+-->
+</robot>

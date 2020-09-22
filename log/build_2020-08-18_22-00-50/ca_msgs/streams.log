@@ -1,0 +1,107 @@
+[0.101s] Invoking command in '/home/handsome/ros_ws_test/build/ca_msgs': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/ca_msgs -- -j12 -l12
+[1.007s] [  0%] Built target std_msgs_generate_messages_nodejs
+[1.165s] [  0%] Built target std_msgs_generate_messages_eus
+[1.165s] [  0%] Built target std_msgs_generate_messages_cpp
+[1.217s] [  0%] Built target std_msgs_generate_messages_py
+[1.217s] [  0%] Built target std_msgs_generate_messages_lisp
+[1.472s] [  0%] Built target _ca_msgs_generate_messages_check_deps_ChargingState
+[1.498s] [  0%] Built target _ca_msgs_generate_messages_check_deps_Bumper
+[1.576s] [  0%] Built target _ca_msgs_generate_messages_check_deps_Mode
+[1.684s] [  0%] Built target _ca_msgs_generate_messages_check_deps_PlaySong
+[1.790s] [  0%] Built target _ca_msgs_generate_messages_check_deps_DefineSong
+[2.051s] [ 22%] Built target ca_msgs_generate_messages_eus
+[2.079s] [ 44%] Built target ca_msgs_generate_messages_py
+[2.169s] [ 62%] Built target ca_msgs_generate_messages_cpp
+[2.252s] [ 81%] Built target ca_msgs_generate_messages_lisp
+[2.292s] [100%] Built target ca_msgs_generate_messages_nodejs
+[2.576s] [100%] Built target ca_msgs_generate_messages
+[2.730s] Invoked command in '/home/handsome/ros_ws_test/build/ca_msgs' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/ca_msgs -- -j12 -l12
+[3.388s] Invoking command in '/home/handsome/ros_ws_test/build/ca_msgs': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/ca_msgs --target tests -- -j12 -l12
+[3.618s] Built target tests
+[3.685s] Invoked command in '/home/handsome/ros_ws_test/build/ca_msgs' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/ca_msgs --target tests -- -j12 -l12
+[4.257s] Invoking command in '/home/handsome/ros_ws_test/build/ca_msgs': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/ca_msgs --target install -- -j12 -l12
+[4.575s] [  0%] Built target std_msgs_generate_messages_nodejs
+[4.679s] [  0%] Built target std_msgs_generate_messages_eus
+[4.680s] [  0%] Built target std_msgs_generate_messages_cpp
+[4.692s] [  0%] Built target std_msgs_generate_messages_lisp
+[4.710s] [  0%] Built target std_msgs_generate_messages_py
+[4.817s] [  0%] Built target _ca_msgs_generate_messages_check_deps_DefineSong
+[4.843s] [  0%] Built target _ca_msgs_generate_messages_check_deps_Bumper
+[4.847s] [  0%] Built target _ca_msgs_generate_messages_check_deps_PlaySong
+[4.854s] [  0%] Built target _ca_msgs_generate_messages_check_deps_Mode
+[4.914s] [  0%] Built target _ca_msgs_generate_messages_check_deps_ChargingState
+[5.083s] [ 22%] Built target ca_msgs_generate_messages_py
+[5.084s] [ 44%] Built target ca_msgs_generate_messages_eus
+[5.084s] [ 62%] Built target ca_msgs_generate_messages_lisp
+[5.164s] [ 81%] Built target ca_msgs_generate_messages_cpp
+[5.173s] [100%] Built target ca_msgs_generate_messages_nodejs
+[5.320s] [100%] Built target ca_msgs_generate_messages
+[5.550s] [36mInstall the project...[0m
+[5.757s] -- Install configuration: ""
+[5.757s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/share/ca_msgs/msg/Bumper.msg
+[5.757s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/share/ca_msgs/msg/ChargingState.msg
+[5.758s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/share/ca_msgs/msg/DefineSong.msg
+[5.758s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/share/ca_msgs/msg/Mode.msg
+[5.758s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/share/ca_msgs/msg/PlaySong.msg
+[5.758s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/share/ca_msgs/cmake/ca_msgs-msg-paths.cmake
+[5.759s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/include/ca_msgs
+[5.759s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/include/ca_msgs/PlaySong.h
+[5.759s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/include/ca_msgs/Mode.h
+[5.759s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/include/ca_msgs/ChargingState.h
+[5.759s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/include/ca_msgs/Bumper.h
+[5.760s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/include/ca_msgs/DefineSong.h
+[5.760s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/share/roseus/ros/ca_msgs
+[5.760s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/share/roseus/ros/ca_msgs/msg
+[5.760s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/share/roseus/ros/ca_msgs/msg/ChargingState.l
+[5.760s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/share/roseus/ros/ca_msgs/msg/DefineSong.l
+[5.761s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/share/roseus/ros/ca_msgs/msg/PlaySong.l
+[5.761s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/share/roseus/ros/ca_msgs/msg/Mode.l
+[5.761s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/share/roseus/ros/ca_msgs/msg/Bumper.l
+[5.761s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/share/roseus/ros/ca_msgs/manifest.l
+[5.761s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/share/common-lisp/ros/ca_msgs
+[5.761s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/share/common-lisp/ros/ca_msgs/msg
+[5.761s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/share/common-lisp/ros/ca_msgs/msg/_package_PlaySong.lisp
+[5.761s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/share/common-lisp/ros/ca_msgs/msg/Mode.lisp
+[5.761s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/share/common-lisp/ros/ca_msgs/msg/ca_msgs-msg.asd
+[5.762s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/share/common-lisp/ros/ca_msgs/msg/_package_DefineSong.lisp
+[5.764s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/share/common-lisp/ros/ca_msgs/msg/_package_Bumper.lisp
+[5.764s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/share/common-lisp/ros/ca_msgs/msg/_package_Mode.lisp
+[5.764s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/share/common-lisp/ros/ca_msgs/msg/_package.lisp
+[5.765s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/share/common-lisp/ros/ca_msgs/msg/PlaySong.lisp
+[5.765s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/share/common-lisp/ros/ca_msgs/msg/DefineSong.lisp
+[5.765s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/share/common-lisp/ros/ca_msgs/msg/ChargingState.lisp
+[5.765s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/share/common-lisp/ros/ca_msgs/msg/Bumper.lisp
+[5.765s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/share/common-lisp/ros/ca_msgs/msg/_package_ChargingState.lisp
+[5.766s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/share/gennodejs/ros/ca_msgs
+[5.766s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/share/gennodejs/ros/ca_msgs/msg
+[5.766s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/share/gennodejs/ros/ca_msgs/msg/Mode.js
+[5.766s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/share/gennodejs/ros/ca_msgs/msg/PlaySong.js
+[5.766s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/share/gennodejs/ros/ca_msgs/msg/ChargingState.js
+[5.766s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/share/gennodejs/ros/ca_msgs/msg/_index.js
+[5.767s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/share/gennodejs/ros/ca_msgs/msg/Bumper.js
+[5.767s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/share/gennodejs/ros/ca_msgs/msg/DefineSong.js
+[5.767s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/share/gennodejs/ros/ca_msgs/_index.js
+[5.889s] Listing /home/handsome/ros_ws_test/build/ca_msgs/devel/lib/python2.7/dist-packages/ca_msgs ...
+[5.889s] Listing /home/handsome/ros_ws_test/build/ca_msgs/devel/lib/python2.7/dist-packages/ca_msgs/msg ...
+[5.898s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/lib/python2.7/dist-packages/ca_msgs
+[5.898s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/lib/python2.7/dist-packages/ca_msgs/msg
+[5.898s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/lib/python2.7/dist-packages/ca_msgs/msg/_DefineSong.pyc
+[5.898s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/lib/python2.7/dist-packages/ca_msgs/msg/_DefineSong.py
+[5.898s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/lib/python2.7/dist-packages/ca_msgs/msg/_ChargingState.py
+[5.899s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/lib/python2.7/dist-packages/ca_msgs/msg/__init__.py
+[5.899s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/lib/python2.7/dist-packages/ca_msgs/msg/_Bumper.py
+[5.899s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/lib/python2.7/dist-packages/ca_msgs/msg/_Mode.pyc
+[5.899s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/lib/python2.7/dist-packages/ca_msgs/msg/_Mode.py
+[5.899s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/lib/python2.7/dist-packages/ca_msgs/msg/_Bumper.pyc
+[5.899s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/lib/python2.7/dist-packages/ca_msgs/msg/_PlaySong.py
+[5.899s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/lib/python2.7/dist-packages/ca_msgs/msg/_PlaySong.pyc
+[5.899s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/lib/python2.7/dist-packages/ca_msgs/msg/_ChargingState.pyc
+[5.899s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/lib/python2.7/dist-packages/ca_msgs/msg/__init__.pyc
+[5.900s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/lib/python2.7/dist-packages/ca_msgs/__init__.py
+[5.902s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/lib/python2.7/dist-packages/ca_msgs/__init__.pyc
+[5.902s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/lib/pkgconfig/ca_msgs.pc
+[5.902s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/share/ca_msgs/cmake/ca_msgs-msg-extras.cmake
+[5.902s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/share/ca_msgs/cmake/ca_msgsConfig.cmake
+[5.902s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/share/ca_msgs/cmake/ca_msgsConfig-version.cmake
+[5.902s] -- Up-to-date: /home/handsome/ros_ws_test/install/ca_msgs/share/ca_msgs/package.xml
+[5.918s] Invoked command in '/home/handsome/ros_ws_test/build/ca_msgs' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/ca_msgs --target install -- -j12 -l12

@@ -1,0 +1,30 @@
+In file included from [01m[K/usr/include/boost/range/concepts.hpp:24:0[m[K,
+                 from [01m[K/usr/include/boost/range/size_type.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/range/size.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/range/functions.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/range/iterator_range_core.hpp:38[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:30[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/robot_scheduling_service.h:3[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:1[m[K:
+/usr/include/boost/range/value_type.hpp: In instantiation of ‘[01m[Kstruct boost::range_value<char>[m[K’:
+[01m[K/usr/include/boost/algorithm/string/classification.hpp:203:9:[m[K   required by substitution of ‘[01m[Ktemplate<class RangeT> boost::algorithm::detail::is_any_ofF<typename boost::range_value<T>::type> boost::algorithm::is_any_of(const RangeT&) [with RangeT = char][m[K’
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:98:66:[m[K   required from here
+[01m[K/usr/include/boost/range/value_type.hpp:26:12:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct boost::range_iterator<char, void>[m[K’
+     struct [01;31m[Krange_value[m[K : iterator_value< typename range_iterator<T>::type >
+            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:[m[K In member function ‘[01m[Kbool robot_scheduling_service::split_condition(std::__cxx11::string)[m[K’:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:98:66:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kis_any_of(char&)[m[K’
+     boost::split(splitted_condition, cond, boost::is_any_of(delim[01;31m[K)[m[K);
+                                                                  [01;31m[K^[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:5:0[m[K:
+[01m[K/usr/include/boost/algorithm/string/classification.hpp:203:9:[m[K [01;36m[Knote: [m[Kcandidate: template<class RangeT> boost::algorithm::detail::is_any_ofF<typename boost::range_value<T>::type> boost::algorithm::is_any_of(const RangeT&)
+         [01;36m[Kis_any_of[m[K( const RangeT& Set )
+         [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/boost/algorithm/string/classification.hpp:203:9:[m[K [01;36m[Knote: [m[K  substitution of deduced template arguments resulted in errors seen above
+make[2]: *** [CMakeFiles/robot_scheduling_actions_node.dir/src/robot_scheduling_service.cpp.o] Error 1
+make[1]: *** [CMakeFiles/robot_scheduling_actions_node.dir/all] Error 2
+make: *** [all] Error 2

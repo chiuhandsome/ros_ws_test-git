@@ -1,0 +1,27 @@
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/PNPros/ROS_bridge/pnp_ros/include/pnp_ros/LearnPNP/ROSLearnInstantiator.h:4:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/PNPros/ROS_bridge/pnp_ros/src/LearnPNP/ROSLearnInstantiator.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/PNPros/ROS_bridge/pnp_ros/include/pnp_ros/ROSInst.h:23:84:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ iNetPlans::PnpExecutable* createExecutable(const std::string& name) [01;35m[Kthrow[m[K(std::runtime_error);
+                                                                     [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/PNPros/ROS_bridge/pnp_ros/src/LearnPNP/ROSLearnInstantiator.cpp:1:0[m[K:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/PNPros/ROS_bridge/pnp_ros/include/pnp_ros/LearnPNP/ROSLearnInstantiator.h:30:85:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ iNetPlans::PnpExecutable* createExecutable(const std::string& name) [01;35m[Kthrow[m[K(std::runtime_error);
+                                                                     [01;35m[K^~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/PNPros/ROS_bridge/pnp_ros/src/LearnPNP/ROSLearnInstantiator.cpp:63:77:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ cutable* ROSLearnInstantiator::createExecutable(const string& name) [01;35m[Kthrow[m[K(runtime_error)
+                                                                     [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/PNPros/ROS_bridge/pnp_ros/src/ROSInst.cpp:1:0[m[K:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/PNPros/ROS_bridge/pnp_ros/include/pnp_ros/ROSInst.h:23:84:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ iNetPlans::PnpExecutable* createExecutable(const std::string& name) [01;35m[Kthrow[m[K(std::runtime_error);
+                                                                     [01;35m[K^~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/PNPros/ROS_bridge/pnp_ros/src/ROSInst.cpp:17:63:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+  PnpExecutable* ROSInst::createExecutable(const string& name) [01;35m[Kthrow[m[K (runtime_error)
+                                                               [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/PNPros/ROS_bridge/pnp_ros/src/main.cpp:14:0[m[K:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/PNPros/ROS_bridge/pnp_ros/include/pnp_ros/ROSInst.h:23:84:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ iNetPlans::PnpExecutable* createExecutable(const std::string& name) [01;35m[Kthrow[m[K(std::runtime_error);
+                                                                     [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/PNPros/ROS_bridge/pnp_ros/src/main.cpp:15:0[m[K:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/PNPros/ROS_bridge/pnp_ros/include/pnp_ros/LearnPNP/ROSLearnInstantiator.h:30:85:[m[K [01;35m[Kwarning: [m[Kdynamic exception specifications are deprecated in C++11 [[01;35m[K-Wdeprecated[m[K]
+ iNetPlans::PnpExecutable* createExecutable(const std::string& name) [01;35m[Kthrow[m[K(std::runtime_error);
+                                                                     [01;35m[K^~~~~[m[K

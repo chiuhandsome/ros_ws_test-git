@@ -1,0 +1,8 @@
+prefix=/home/handsome/ros_ws_test/build/pnp_ros/devel
+
+Name: pnp_ros
+Description: Description of pnp_ros
+Version: 0.0.11
+Cflags: -I/home/handsome/ros_ws_test/src/ros_base/PNPros/ROS_bridge/pnp_ros/include
+Libs: -L${prefix}/lib -lPNPAS
+Requires: actionlib pnp_msgs

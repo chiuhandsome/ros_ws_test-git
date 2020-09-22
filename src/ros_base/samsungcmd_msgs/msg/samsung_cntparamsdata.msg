@@ -1,0 +1,11 @@
+float32 Mag_center_analog
+int32 	Mag_center_digital
+int8 	car_roller_status 
+float32 car_velrpm_left
+float32 car_velrpm_right
+int8 	car_control_code 
+int8 	car_Status_code 
+int8 	car_Command_code
+int16 	car_Error_code 
+int32 	car_SetCommand 
+int32 	roller_SetCommand

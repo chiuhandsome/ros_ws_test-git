@@ -1,0 +1,5 @@
+The dependencies of the message/service 'robot_scheduling_msgs/robot_info' have changed. Please rerun cmake.
+make[2]: *** [CMakeFiles/_robot_scheduling_msgs_generate_messages_check_deps_robot_info] Error 1
+make[1]: *** [CMakeFiles/_robot_scheduling_msgs_generate_messages_check_deps_robot_info.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2

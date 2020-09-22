@@ -1,0 +1,22 @@
+[0.095s] Invoking command in '/home/handsome/ros_ws_test/build/timed_roslaunch': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/timed_roslaunch -- -j12 -l12
+[0.453s] Invoked command in '/home/handsome/ros_ws_test/build/timed_roslaunch' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/timed_roslaunch -- -j12 -l12
+[1.080s] Invoking command in '/home/handsome/ros_ws_test/build/timed_roslaunch': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/timed_roslaunch --target tests -- -j12 -l12
+[1.714s] Built target tests
+[1.814s] Invoked command in '/home/handsome/ros_ws_test/build/timed_roslaunch' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/timed_roslaunch --target tests -- -j12 -l12
+[2.571s] Invoking command in '/home/handsome/ros_ws_test/build/timed_roslaunch': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/timed_roslaunch --target install -- -j12 -l12
+[3.220s] [36mInstall the project...[0m
+[3.260s] -- Install configuration: ""
+[3.260s] -- Up-to-date: /home/handsome/ros_ws_test/install/timed_roslaunch/lib/pkgconfig/timed_roslaunch.pc
+[3.260s] -- Up-to-date: /home/handsome/ros_ws_test/install/timed_roslaunch/share/timed_roslaunch/cmake/timed_roslaunchConfig.cmake
+[3.260s] -- Up-to-date: /home/handsome/ros_ws_test/install/timed_roslaunch/share/timed_roslaunch/cmake/timed_roslaunchConfig-version.cmake
+[3.260s] -- Up-to-date: /home/handsome/ros_ws_test/install/timed_roslaunch/share/timed_roslaunch/package.xml
+[3.261s] -- Up-to-date: /home/handsome/ros_ws_test/install/timed_roslaunch/lib/timed_roslaunch/timed_roslaunch.sh
+[3.261s] -- Up-to-date: /home/handsome/ros_ws_test/install/timed_roslaunch/share/timed_roslaunch/launch
+[3.262s] -- Up-to-date: /home/handsome/ros_ws_test/install/timed_roslaunch/share/timed_roslaunch/launch/timed_roslaunch.launch
+[3.262s] -- Up-to-date: /home/handsome/ros_ws_test/install/timed_roslaunch/share/timed_roslaunch/launch/example.launch.sample
+[3.263s] -- Up-to-date: /home/handsome/ros_ws_test/install/timed_roslaunch/share/timed_roslaunch/launch/timed_roslaunch_test.launch
+[3.263s] -- Up-to-date: /home/handsome/ros_ws_test/install/timed_roslaunch/share/timed_roslaunch/test
+[3.264s] -- Up-to-date: /home/handsome/ros_ws_test/install/timed_roslaunch/share/timed_roslaunch/test/timed_roslaunch.test.xml
+[3.264s] -- Up-to-date: /home/handsome/ros_ws_test/install/timed_roslaunch/share/timed_roslaunch/test/test.py
+[3.265s] -- Up-to-date: /home/handsome/ros_ws_test/install/timed_roslaunch/share/timed_roslaunch/test/runtest.launch
+[3.274s] Invoked command in '/home/handsome/ros_ws_test/build/timed_roslaunch' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/timed_roslaunch --target install -- -j12 -l12

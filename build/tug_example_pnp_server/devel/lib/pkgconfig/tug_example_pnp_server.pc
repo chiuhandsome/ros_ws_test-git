@@ -1,0 +1,8 @@
+prefix=/home/handsome/ros_ws_test/build/tug_example_pnp_server/devel
+
+Name: tug_example_pnp_server
+Description: Description of tug_example_pnp_server
+Version: 0.0.11
+Cflags: -I/home/handsome/ros_ws_test/src/ros_base/PNPros/example/tug_example_pnp_server/include
+Libs: -L${prefix}/lib 
+Requires: actionlib roscpp pnp_ros tug_example_msgs

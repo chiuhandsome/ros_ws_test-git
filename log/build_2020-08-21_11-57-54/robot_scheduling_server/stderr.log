@@ -1,0 +1,11 @@
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_server/src/private_actions/robot_if_proc_lower_ac.cpp:[m[K In member function ‘[01m[Kvoid robot_if_proc_lower_ac::do_robot_interface_proc_lower(const robot_interface_proc_lowerGoal&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_server/src/private_actions/robot_if_proc_lower_ac.cpp:48:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kif_process_ac_[m[K’ was not declared in this scope
+     while(![01;31m[Kif_process_ac_[m[K.waitForServer(ros::Duration(2.0))){
+            [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_server/src/private_actions/robot_if_proc_lower_ac.cpp:48:12:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kif_proc_lower_ac_[m[K’
+     while(![01;36m[Kif_process_ac_[m[K.waitForServer(ros::Duration(2.0))){
+            [01;36m[K^~~~~~~~~~~~~~[m[K
+            [32m[Kif_proc_lower_ac_[m[K
+make[2]: *** [CMakeFiles/robot_scheduling_server_node.dir/src/private_actions/robot_if_proc_lower_ac.cpp.o] Error 1
+make[1]: *** [CMakeFiles/robot_scheduling_server_node.dir/all] Error 2
+make: *** [all] Error 2

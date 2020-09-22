@@ -1,0 +1,5 @@
+The dependencies of the message/service 'robot_scheduling_msgs/upper_if_command' have changed. Please rerun cmake.
+make[2]: *** [CMakeFiles/_robot_scheduling_msgs_generate_messages_check_deps_upper_if_command] Error 1
+make[1]: *** [CMakeFiles/_robot_scheduling_msgs_generate_messages_check_deps_upper_if_command.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2

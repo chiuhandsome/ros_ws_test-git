@@ -1,0 +1,27 @@
+<launch>
+  <!--<arg name="cmd_vel_topic" default="cmd_vel_mux/input/navi" />-->
+  <node pkg="locomotor" type="locomotor2" respawn="false" name="locomotor" output="screen" clear_params="true">
+   <!--<node pkg="locomove_base" type="locomove_base" respawn="false" name="locomotor" output="screen" clear_params="true">-->
+    <rosparam file="$(find linorobot_mecanum)/param/locomotor/costmap_common_params_teb.yaml" command="load" ns="global_costmap" />
+    <rosparam file="$(find linorobot_mecanum)/param/locomotor/costmap_common_params_teb.yaml" command="load" ns="local_costmap" />
+    <rosparam file="$(find linorobot_mecanum)/param/locomotor/local_costmap_params_teb.yaml" command="load" />
+    <rosparam file="$(find linorobot_mecanum)/param/locomotor/global_costmap_params_teb.yaml" command="load" />
+    <!--<rosparam file="$(find linorobot_mecanum)/param/locomotor/dwb_local_planner_params.yaml" command="load" />-->
+    <rosparam file="$(find linorobot_mecanum)/param/locomotor/teb_local_planner_params_hyc.yaml" command="load" />
+    <!--<rosparam file="$(find linorobot_mecanum)/param/locomotor/dlux_global_planner_params.yaml" command="load" />-->
+    <!--<param name="base_global_planner" value="dlux_global_planner::DluxGlobalPlanner" />
+    <param name="base_global_planner" value="global_planner/GlobalPlanner" />-->
+
+    <param name="planner_frequency" value="12.0" /> <!--10-->
+    <param name="planner_patience" value="5.0" /> <!--5.0-->
+    <!--<param name="base_local_planner" value="dwb_local_planner/LocalPlannerAdapter" />-->
+    <param name="controller_frequency" value="10.0" />  <!--10-->
+    <param name="controller_patience" value="8.0" /><!--15-->
+    <!--<param name="twist_topic" value="cmd_vel_mux/input/navi" />-->
+    <remap from="cmd_vel" to="cmd_vel_mux/input/navi"/>
+    <remap from="odom" to="odometry/filtered"/>
+    <!--<remap from="odom" to="raw_odom"/>-->
+    <remap from="/planToExec" to="/pnp_agv/planToExec"/>
+  </node>
+
+</launch>

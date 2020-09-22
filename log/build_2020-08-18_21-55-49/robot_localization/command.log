@@ -1,0 +1,3 @@
+Invoking command in '/home/handsome/ros_ws_test/build/robot_localization': /usr/bin/cmake /home/handsome/ros_ws_test/src/ros_base/robot_localization -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/handsome/ros_ws_test/install/robot_localization
+Invoked command in '/home/handsome/ros_ws_test/build/robot_localization' returned '0': /usr/bin/cmake /home/handsome/ros_ws_test/src/ros_base/robot_localization -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/handsome/ros_ws_test/install/robot_localization
+Invoking command in '/home/handsome/ros_ws_test/build/robot_localization': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/robot_localization -- -j12 -l12

@@ -1,0 +1,117 @@
+In file included from [01m[K/home/handsome/ros_ws_test/build/reset_location/devel/include/reset_location/TrilaterationActionResult.h:20:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/build/reset_location/devel/include/reset_location/TrilaterationAction.h:19[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/reset_location/src/reset_location_ac_node.cpp:4[m[K:
+[01m[K/home/handsome/ros_ws_test/build/reset_location/devel/include/reset_location/TrilaterationResult.h:5:0:[m[K [01;31m[Kerror: [m[Kunterminated #ifndef
+ #ifndef RESET_LOCATION_MESSAGE_TRILATERATIONRESULT_H
+ 
+In file included from [01m[K/home/handsome/ros_ws_test/build/reset_location/devel/include/reset_location/TrilaterationActionResult.h:20:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/build/reset_location/devel/include/reset_location/TrilaterationAction.h:19[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/reset_location/src/reset_location_ac_node.cpp:4[m[K:
+[01m[K/home/handsome/ros_ws_test/build/reset_location/devel/include/reset_location/TrilaterationResult.h:159:73:[m[K [01;31m[Kerror: [m[K‘[01m[KContainerAllo[m[K’ was not declared in this scope
+   static const char* value(const ::reset_location::TrilaterationResult_<[01;31m[KContainerAllo[m[K
+                                                                         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/build/reset_location/devel/include/reset_location/TrilaterationResult.h:159:73:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KContainerAllocator[m[K’
+   static const char* value(const ::reset_location::TrilaterationResult_<[01;36m[KContainerAllo[m[K
+                                                                         [01;36m[K^~~~~~~~~~~~~[m[K
+                                                                         [32m[KContainerAllocator[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/build/reset_location/devel/include/reset_location/TrilaterationAction.h:19:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/reset_location/src/reset_location_ac_node.cpp:4[m[K:
+[01m[K/home/handsome/ros_ws_test/build/reset_location/devel/include/reset_location/TrilaterationActionResult.h:22:11:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+ namespace [01;31m[Kreset_location[m[K
+           [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/build/reset_location/devel/include/reset_location/TrilaterationActionResult.h:20:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/build/reset_location/devel/include/reset_location/TrilaterationAction.h:19[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/reset_location/src/reset_location_ac_node.cpp:4[m[K:
+[01m[K/home/handsome/ros_ws_test/build/reset_location/devel/include/reset_location/TrilaterationResult.h:159:73:[m[K [01;31m[Kerror: [m[K‘[01m[KContainerAllo[m[K’ was not declared in this scope
+   static const char* value(const ::reset_location::TrilaterationResult_<[01;31m[KContainerAllo[m[K
+                                                                         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/build/reset_location/devel/include/reset_location/TrilaterationResult.h:159:73:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KContainerAllocator[m[K’
+   static const char* value(const ::reset_location::TrilaterationResult_<[01;36m[KContainerAllo[m[K
+                                                                         [01;36m[K^~~~~~~~~~~~~[m[K
+                                                                         [32m[KContainerAllocator[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/build/reset_location/devel/include/reset_location/TrilaterationAction.h:19:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/reset_location/src/reset_location_ac_node.cpp:4[m[K:
+[01m[K/home/handsome/ros_ws_test/build/reset_location/devel/include/reset_location/TrilaterationActionResult.h:22:11:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+ namespace [01;31m[Kreset_location[m[K
+           [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/build/reset_location/devel/include/reset_location/TrilaterationActionResult.h:20:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/build/reset_location/devel/include/reset_location/TrilaterationAction.h:19[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/reset_location/src/reset_location_ac_node.cpp:4[m[K:
+[01m[K/home/handsome/ros_ws_test/build/reset_location/devel/include/reset_location/TrilaterationResult.h:159:73:[m[K [01;31m[Kerror: [m[K‘[01m[KContainerAllo[m[K’ was not declared in this scope
+   static const char* value(const ::reset_location::TrilaterationResult_<[01;31m[KContainerAllo[m[K
+                                                                         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/build/reset_location/devel/include/reset_location/TrilaterationResult.h:159:73:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KContainerAllocator[m[K’
+   static const char* value(const ::reset_location::TrilaterationResult_<[01;36m[KContainerAllo[m[K
+                                                                         [01;36m[K^~~~~~~~~~~~~[m[K
+                                                                         [32m[KContainerAllocator[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/build/reset_location/devel/include/reset_location/TrilaterationAction.h:19:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/reset_location/src/reset_location_ac_node.cpp:4[m[K:
+[01m[K/home/handsome/ros_ws_test/build/reset_location/devel/include/reset_location/TrilaterationActionResult.h:22:11:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+ namespace [01;31m[Kreset_location[m[K
+           [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/build/reset_location/devel/include/reset_location/TrilaterationActionResult.h:20:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/build/reset_location/devel/include/reset_location/TrilaterationAction.h:19[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/reset_location/src/reset_location_ac_node.cpp:4[m[K:
+[01m[K/home/handsome/ros_ws_test/build/reset_location/devel/include/reset_location/TrilaterationResult.h:159:73:[m[K [01;31m[Kerror: [m[K‘[01m[KContainerAllo[m[K’ was not declared in this scope
+   static const char* value(const ::reset_location::TrilaterationResult_<[01;31m[KContainerAllo[m[K
+                                                                         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/build/reset_location/devel/include/reset_location/TrilaterationResult.h:159:73:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KContainerAllocator[m[K’
+   static const char* value(const ::reset_location::TrilaterationResult_<[01;36m[KContainerAllo[m[K
+                                                                         [01;36m[K^~~~~~~~~~~~~[m[K
+                                                                         [32m[KContainerAllocator[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/build/reset_location/devel/include/reset_location/TrilaterationAction.h:19:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/reset_location/src/reset_location_ac_node.cpp:4[m[K:
+[01m[K/home/handsome/ros_ws_test/build/reset_location/devel/include/reset_location/TrilaterationActionResult.h:22:11:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+ namespace [01;31m[Kreset_location[m[K
+           [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/build/reset_location/devel/include/reset_location/TrilaterationActionResult.h:20:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/build/reset_location/devel/include/reset_location/TrilaterationAction.h:19[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/reset_location/src/reset_location_ac_node.cpp:4[m[K:
+[01m[K/home/handsome/ros_ws_test/build/reset_location/devel/include/reset_location/TrilaterationResult.h:159:73:[m[K [01;31m[Kerror: [m[K‘[01m[KContainerAllo[m[K’ was not declared in this scope
+   static const char* value(const ::reset_location::TrilaterationResult_<[01;31m[KContainerAllo[m[K
+                                                                         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/build/reset_location/devel/include/reset_location/TrilaterationResult.h:159:73:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KContainerAllocator[m[K’
+   static const char* value(const ::reset_location::TrilaterationResult_<[01;36m[KContainerAllo[m[K
+                                                                         [01;36m[K^~~~~~~~~~~~~[m[K
+                                                                         [32m[KContainerAllocator[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/build/reset_location/devel/include/reset_location/TrilaterationAction.h:19:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/reset_location/src/reset_location_ac_node.cpp:4[m[K:
+[01m[K/home/handsome/ros_ws_test/build/reset_location/devel/include/reset_location/TrilaterationActionResult.h:22:11:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+ namespace [01;31m[Kreset_location[m[K
+           [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/build/reset_location/devel/include/reset_location/TrilaterationActionResult.h:20:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/build/reset_location/devel/include/reset_location/TrilaterationAction.h:19[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/reset_location/src/reset_location_ac_node.cpp:4[m[K:
+[01m[K/home/handsome/ros_ws_test/build/reset_location/devel/include/reset_location/TrilaterationResult.h:159:34:[m[K [01;31m[Kerror: [m[Kinvalid use of template-name ‘[01m[Kreset_location::TrilaterationResult_[m[K’ without an argument list
+   static const char* value(const [01;31m[K::[m[Kreset_location::TrilaterationResult_<ContainerAllo
+                                  [01;31m[K^~[m[K
+[01m[K/home/handsome/ros_ws_test/build/reset_location/devel/include/reset_location/TrilaterationResult.h:159:34:[m[K [01;36m[Knote: [m[Kclass template argument deduction is only available with -std=c++1z or -std=gnu++1z
+In file included from [01m[K/home/handsome/ros_ws_test/build/reset_location/devel/include/reset_location/TrilaterationActionResult.h:20:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/build/reset_location/devel/include/reset_location/TrilaterationAction.h:19[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/reset_location/src/reset_location_ac_node.cpp:4[m[K:
+[01m[K/home/handsome/ros_ws_test/build/reset_location/devel/include/reset_location/TrilaterationResult.h:22:8:[m[K [01;36m[Knote: [m[K‘[01m[Ktemplate<class ContainerAllocator> struct reset_location::TrilaterationResult_[m[K’ declared here
+ struct [01;36m[KTrilaterationResult_[m[K
+        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/build/reset_location/devel/include/reset_location/TrilaterationActionResult.h:20:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/build/reset_location/devel/include/reset_location/TrilaterationAction.h:19[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/reset_location/src/reset_location_ac_node.cpp:4[m[K:
+[01m[K/home/handsome/ros_ws_test/build/reset_location/devel/include/reset_location/TrilaterationResult.h:159:72:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K<[m[K’ token
+   static const char* value(const ::reset_location::TrilaterationResult_[01;31m[K<[m[KContainerAllo
+                                                                        [01;31m[K^[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/reset_location/src/reset_location_ac_node.cpp:43:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ at end of input
+ [01;31m[K}[m[K
+ [01;31m[K^[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/reset_location/src/reset_location_ac_node.cpp:43:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[01m[K/home/handsome/ros_ws_test/src/ros_base/reset_location/src/reset_location_ac_node.cpp:43:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+In file included from [01m[K/home/handsome/ros_ws_test/build/reset_location/devel/include/reset_location/TrilaterationActionResult.h:20:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/build/reset_location/devel/include/reset_location/TrilaterationAction.h:19[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/reset_location/src/reset_location_ac_node.cpp:4[m[K:
+[01m[K/home/handsome/ros_ws_test/build/reset_location/devel/include/reset_location/TrilaterationResult.h:157:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of input
+   [01;31m[K}[m[K
+   [01;31m[K^[m[K
+[01m[K/home/handsome/ros_ws_test/build/reset_location/devel/include/reset_location/TrilaterationResult.h:157:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[01m[K/home/handsome/ros_ws_test/build/reset_location/devel/include/reset_location/TrilaterationResult.h:157:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+make[2]: *** [CMakeFiles/reset_location_ac_node.dir/src/reset_location_ac_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/reset_location_ac_node.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2

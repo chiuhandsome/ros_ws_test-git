@@ -1,0 +1,388 @@
+[0.113s] Invoking command in '/home/handsome/ros_ws_test/build/botcmd_msgs': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/botcmd_msgs -- -j12 -l12
+[0.556s] [  0%] Built target std_msgs_generate_messages_py
+[0.897s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_actBotCmdAction
+[0.899s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_bot_ultrasonic_cmd
+[0.968s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_bot_pubstatus
+[0.992s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_bot_ultrasonic
+[1.070s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_bot_getenabledi_cmd
+[1.103s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_bot_mqtt_cmd
+[1.153s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_bot_mqtt_rawdata
+[1.174s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_bot_battery_info_cmd
+[1.286s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_bot_transbattery
+[1.474s] [  0%] Built target actionlib_msgs_generate_messages_py
+[1.481s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_actBotCmdActionGoal
+[1.497s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_bot_device_cmd
+[1.686s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_bot_di_cmd
+[1.793s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_bot_battery
+[1.835s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_bot_transferdata
+[1.853s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_actBotCmdActionResult
+[1.857s] [  0%] Built target geometry_msgs_generate_messages_py
+[1.904s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_bot_status_cmd
+[1.915s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_bot_do_cmd
+[1.915s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_bot_devicestatus
+[2.012s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_actBotCmdFeedback
+[2.198s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_bot_Infodata_cmd
+[2.232s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_bot_transfer_cmd
+[2.292s] [  0%] Built target std_srvs_generate_messages_py
+[2.295s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_bot_battery_info
+[2.312s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[2.315s] [  0%] Built target std_msgs_generate_messages_nodejs
+[2.319s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[2.388s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_bot_Infodata
+[2.455s] [  0%] Built target std_srvs_generate_messages_nodejs
+[2.476s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_actBotCmdGoal
+[2.489s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_actBotCmdResult
+[2.491s] [  0%] Built target std_msgs_generate_messages_eus
+[2.528s] [  0%] Built target geometry_msgs_generate_messages_eus
+[2.536s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_bot_battery_cmd
+[2.543s] [  0%] Built target std_msgs_generate_messages_cpp
+[2.552s] [  0%] Built target std_srvs_generate_messages_eus
+[2.563s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[2.607s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_actBotCmdActionFeedback
+[2.622s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[2.647s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[2.704s] [  0%] Built target std_srvs_generate_messages_lisp
+[2.738s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[2.745s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[2.751s] [  0%] Built target std_srvs_generate_messages_cpp
+[2.761s] [ 20%] Built target botcmd_msgs_generate_messages_py
+[2.810s] [ 20%] Built target std_msgs_generate_messages_lisp
+[2.843s] [ 40%] Built target botcmd_msgs_generate_messages_nodejs
+[2.852s] [ 59%] Built target botcmd_msgs_generate_messages_eus
+[2.921s] [ 79%] Built target botcmd_msgs_generate_messages_cpp
+[3.010s] [100%] Built target botcmd_msgs_generate_messages_lisp
+[3.109s] [100%] Built target botcmd_msgs_generate_messages
+[3.245s] Invoked command in '/home/handsome/ros_ws_test/build/botcmd_msgs' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/botcmd_msgs -- -j12 -l12
+[3.638s] Invoking command in '/home/handsome/ros_ws_test/build/botcmd_msgs': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/botcmd_msgs --target tests -- -j12 -l12
+[4.058s] Built target tests
+[4.188s] Invoked command in '/home/handsome/ros_ws_test/build/botcmd_msgs' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/botcmd_msgs --target tests -- -j12 -l12
+[5.905s] Invoking command in '/home/handsome/ros_ws_test/build/botcmd_msgs': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/botcmd_msgs --target install -- -j12 -l12
+[6.343s] [  0%] Built target std_msgs_generate_messages_py
+[6.406s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_bot_battery_info_cmd
+[6.466s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_bot_pubstatus
+[6.485s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_bot_ultrasonic_cmd
+[6.503s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_bot_device_cmd
+[6.520s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_actBotCmdAction
+[6.558s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_bot_transbattery
+[6.569s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_bot_mqtt_cmd
+[6.580s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_bot_getenabledi_cmd
+[6.591s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_actBotCmdActionGoal
+[6.619s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_bot_mqtt_rawdata
+[6.659s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_bot_ultrasonic
+[6.678s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_bot_di_cmd
+[6.782s] [  0%] Built target actionlib_msgs_generate_messages_py
+[6.803s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_actBotCmdActionResult
+[6.859s] [  0%] Built target geometry_msgs_generate_messages_py
+[6.887s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_bot_battery
+[6.896s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_bot_status_cmd
+[6.965s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_bot_Infodata_cmd
+[6.966s] [  0%] Built target std_srvs_generate_messages_py
+[6.974s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_bot_transferdata
+[6.985s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_bot_do_cmd
+[7.004s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_bot_devicestatus
+[7.051s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_bot_battery_info
+[7.083s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_actBotCmdFeedback
+[7.088s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_bot_transfer_cmd
+[7.090s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[7.150s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[7.166s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_bot_battery_cmd
+[7.171s] [  0%] Built target std_srvs_generate_messages_nodejs
+[7.181s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_actBotCmdResult
+[7.195s] [  0%] Built target std_srvs_generate_messages_eus
+[7.208s] [  0%] Built target std_msgs_generate_messages_nodejs
+[7.218s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_actBotCmdGoal
+[7.254s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[7.277s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_bot_Infodata
+[7.281s] [  0%] Built target geometry_msgs_generate_messages_eus
+[7.298s] [  0%] Built target std_msgs_generate_messages_eus
+[7.324s] [  0%] Built target std_msgs_generate_messages_cpp
+[7.325s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[7.364s] [  0%] Built target _botcmd_msgs_generate_messages_check_deps_actBotCmdActionFeedback
+[7.371s] [  0%] Built target std_srvs_generate_messages_lisp
+[7.376s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[7.396s] [  0%] Built target std_srvs_generate_messages_cpp
+[7.425s] [  0%] Built target std_msgs_generate_messages_lisp
+[7.433s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[7.469s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[7.545s] [ 19%] Built target botcmd_msgs_generate_messages_cpp
+[7.570s] [ 39%] Built target botcmd_msgs_generate_messages_nodejs
+[7.570s] [ 59%] Built target botcmd_msgs_generate_messages_py
+[7.619s] [ 79%] Built target botcmd_msgs_generate_messages_eus
+[7.708s] [100%] Built target botcmd_msgs_generate_messages_lisp
+[8.005s] [100%] Built target botcmd_msgs_generate_messages
+[8.172s] [36mInstall the project...[0m
+[8.211s] -- Install configuration: ""
+[8.212s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/botcmd_msgs/msg/bot_ultrasonic.msg
+[8.212s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/botcmd_msgs/msg/bot_pubstatus.msg
+[8.213s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/botcmd_msgs/msg/bot_battery.msg
+[8.213s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/botcmd_msgs/msg/bot_mqtt_cmd.msg
+[8.213s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/botcmd_msgs/msg/bot_mqtt_rawdata.msg
+[8.213s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/botcmd_msgs/msg/bot_devicestatus.msg
+[8.213s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/botcmd_msgs/msg/bot_Infodata.msg
+[8.214s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/botcmd_msgs/msg/bot_transferdata.msg
+[8.214s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/botcmd_msgs/msg/bot_transbattery.msg
+[8.214s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/botcmd_msgs/msg/bot_battery_info.msg
+[8.214s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/botcmd_msgs/srv/bot_device_cmd.srv
+[8.215s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/botcmd_msgs/srv/bot_status_cmd.srv
+[8.215s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/botcmd_msgs/srv/bot_di_cmd.srv
+[8.215s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/botcmd_msgs/srv/bot_do_cmd.srv
+[8.216s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/botcmd_msgs/srv/bot_battery_cmd.srv
+[8.216s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/botcmd_msgs/srv/bot_ultrasonic_cmd.srv
+[8.216s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/botcmd_msgs/srv/bot_Infodata_cmd.srv
+[8.216s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/botcmd_msgs/srv/bot_getenabledi_cmd.srv
+[8.216s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/botcmd_msgs/srv/bot_transfer_cmd.srv
+[8.216s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/botcmd_msgs/srv/bot_battery_info_cmd.srv
+[8.216s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/botcmd_msgs/action/actBotCmd.action
+[8.217s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/botcmd_msgs/msg/actBotCmdAction.msg
+[8.217s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/botcmd_msgs/msg/actBotCmdActionGoal.msg
+[8.217s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/botcmd_msgs/msg/actBotCmdActionResult.msg
+[8.217s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/botcmd_msgs/msg/actBotCmdActionFeedback.msg
+[8.217s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/botcmd_msgs/msg/actBotCmdGoal.msg
+[8.217s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/botcmd_msgs/msg/actBotCmdResult.msg
+[8.217s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/botcmd_msgs/msg/actBotCmdFeedback.msg
+[8.217s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/botcmd_msgs/cmake/botcmd_msgs-msg-paths.cmake
+[8.217s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/include/botcmd_msgs
+[8.217s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/include/botcmd_msgs/bot_mqtt_cmd.h
+[8.218s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/include/botcmd_msgs/bot_transbattery.h
+[8.218s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/include/botcmd_msgs/actBotCmdActionResult.h
+[8.218s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/include/botcmd_msgs/actBotCmdActionFeedback.h
+[8.219s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/include/botcmd_msgs/bot_do_cmd.h
+[8.219s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/include/botcmd_msgs/bot_battery_info_cmdRequest.h
+[8.219s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/include/botcmd_msgs/bot_ultrasonic_cmdResponse.h
+[8.220s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/include/botcmd_msgs/bot_do_cmdRequest.h
+[8.220s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/include/botcmd_msgs/bot_mqtt_rawdata.h
+[8.221s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/include/botcmd_msgs/actBotCmdGoal.h
+[8.222s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/include/botcmd_msgs/bot_di_cmdRequest.h
+[8.222s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/include/botcmd_msgs/bot_battery_cmdResponse.h
+[8.222s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/include/botcmd_msgs/bot_do_cmdResponse.h
+[8.222s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/include/botcmd_msgs/bot_status_cmd.h
+[8.222s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/include/botcmd_msgs/bot_battery_cmd.h
+[8.222s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/include/botcmd_msgs/bot_getenabledi_cmd.h
+[8.222s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/include/botcmd_msgs/bot_transfer_cmdResponse.h
+[8.223s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/include/botcmd_msgs/bot_Infodata_cmd.h
+[8.223s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/include/botcmd_msgs/bot_ultrasonic.h
+[8.223s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/include/botcmd_msgs/bot_battery_info_cmdResponse.h
+[8.223s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/include/botcmd_msgs/bot_battery_cmdRequest.h
+[8.223s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/include/botcmd_msgs/actBotCmdResult.h
+[8.223s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/include/botcmd_msgs/bot_status_cmdResponse.h
+[8.223s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/include/botcmd_msgs/bot_transfer_cmd.h
+[8.223s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/include/botcmd_msgs/actBotCmdActionGoal.h
+[8.223s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/include/botcmd_msgs/bot_ultrasonic_cmd.h
+[8.223s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/include/botcmd_msgs/bot_device_cmdRequest.h
+[8.224s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/include/botcmd_msgs/bot_battery_info.h
+[8.224s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/include/botcmd_msgs/bot_devicestatus.h
+[8.224s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/include/botcmd_msgs/bot_di_cmdResponse.h
+[8.224s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/include/botcmd_msgs/bot_status_cmdRequest.h
+[8.225s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/include/botcmd_msgs/bot_getenabledi_cmdResponse.h
+[8.225s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/include/botcmd_msgs/actBotCmdFeedback.h
+[8.225s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/include/botcmd_msgs/bot_getenabledi_cmdRequest.h
+[8.225s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/include/botcmd_msgs/bot_pubstatus.h
+[8.225s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/include/botcmd_msgs/bot_Infodata_cmdResponse.h
+[8.226s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/include/botcmd_msgs/bot_battery_info_cmd.h
+[8.226s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/include/botcmd_msgs/bot_device_cmdResponse.h
+[8.226s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/include/botcmd_msgs/bot_Infodata.h
+[8.226s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/include/botcmd_msgs/bot_di_cmd.h
+[8.226s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/include/botcmd_msgs/bot_ultrasonic_cmdRequest.h
+[8.226s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/include/botcmd_msgs/bot_device_cmd.h
+[8.226s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/include/botcmd_msgs/bot_transfer_cmdRequest.h
+[8.226s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/include/botcmd_msgs/bot_battery.h
+[8.227s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/include/botcmd_msgs/bot_Infodata_cmdRequest.h
+[8.227s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/include/botcmd_msgs/actBotCmdAction.h
+[8.228s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/include/botcmd_msgs/bot_transferdata.h
+[8.228s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/roseus/ros/botcmd_msgs
+[8.228s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/roseus/ros/botcmd_msgs/msg
+[8.228s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/roseus/ros/botcmd_msgs/msg/bot_Infodata.l
+[8.228s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/roseus/ros/botcmd_msgs/msg/bot_mqtt_rawdata.l
+[8.228s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/roseus/ros/botcmd_msgs/msg/actBotCmdAction.l
+[8.228s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/roseus/ros/botcmd_msgs/msg/bot_pubstatus.l
+[8.228s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/roseus/ros/botcmd_msgs/msg/actBotCmdActionFeedback.l
+[8.229s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/roseus/ros/botcmd_msgs/msg/actBotCmdActionResult.l
+[8.229s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/roseus/ros/botcmd_msgs/msg/actBotCmdActionGoal.l
+[8.229s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/roseus/ros/botcmd_msgs/msg/bot_mqtt_cmd.l
+[8.229s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/roseus/ros/botcmd_msgs/msg/bot_battery_info.l
+[8.229s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/roseus/ros/botcmd_msgs/msg/bot_ultrasonic.l
+[8.229s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/roseus/ros/botcmd_msgs/msg/bot_transferdata.l
+[8.229s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/roseus/ros/botcmd_msgs/msg/bot_devicestatus.l
+[8.229s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/roseus/ros/botcmd_msgs/msg/actBotCmdResult.l
+[8.229s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/roseus/ros/botcmd_msgs/msg/bot_transbattery.l
+[8.229s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/roseus/ros/botcmd_msgs/msg/actBotCmdGoal.l
+[8.229s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/roseus/ros/botcmd_msgs/msg/actBotCmdFeedback.l
+[8.230s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/roseus/ros/botcmd_msgs/msg/bot_battery.l
+[8.230s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/roseus/ros/botcmd_msgs/manifest.l
+[8.230s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/roseus/ros/botcmd_msgs/srv
+[8.230s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/roseus/ros/botcmd_msgs/srv/bot_transfer_cmd.l
+[8.231s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/roseus/ros/botcmd_msgs/srv/bot_getenabledi_cmd.l
+[8.231s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/roseus/ros/botcmd_msgs/srv/bot_battery_cmd.l
+[8.231s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/roseus/ros/botcmd_msgs/srv/bot_Infodata_cmd.l
+[8.231s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/roseus/ros/botcmd_msgs/srv/bot_status_cmd.l
+[8.231s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/roseus/ros/botcmd_msgs/srv/bot_battery_info_cmd.l
+[8.231s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/roseus/ros/botcmd_msgs/srv/bot_do_cmd.l
+[8.231s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/roseus/ros/botcmd_msgs/srv/bot_ultrasonic_cmd.l
+[8.232s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/roseus/ros/botcmd_msgs/srv/bot_di_cmd.l
+[8.232s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/roseus/ros/botcmd_msgs/srv/bot_device_cmd.l
+[8.232s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs
+[8.232s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/msg
+[8.232s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/msg/bot_transbattery.lisp
+[8.232s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/msg/_package_actBotCmdFeedback.lisp
+[8.232s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/msg/_package_bot_transbattery.lisp
+[8.232s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/msg/bot_devicestatus.lisp
+[8.232s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/msg/actBotCmdActionGoal.lisp
+[8.232s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/msg/_package_bot_transferdata.lisp
+[8.233s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/msg/bot_ultrasonic.lisp
+[8.233s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/msg/actBotCmdActionResult.lisp
+[8.233s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/msg/_package_actBotCmdGoal.lisp
+[8.233s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/msg/actBotCmdFeedback.lisp
+[8.234s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/msg/_package_bot_pubstatus.lisp
+[8.234s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/msg/bot_mqtt_cmd.lisp
+[8.234s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/msg/actBotCmdActionFeedback.lisp
+[8.234s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/msg/bot_mqtt_rawdata.lisp
+[8.234s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/msg/_package.lisp
+[8.234s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/msg/bot_battery_info.lisp
+[8.234s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/msg/_package_bot_mqtt_cmd.lisp
+[8.235s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/msg/_package_bot_battery.lisp
+[8.235s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/msg/_package_bot_battery_info.lisp
+[8.235s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/msg/botcmd_msgs-msg.asd
+[8.235s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/msg/_package_actBotCmdResult.lisp
+[8.244s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/msg/_package_bot_Infodata.lisp
+[8.244s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/msg/_package_bot_mqtt_rawdata.lisp
+[8.244s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/msg/_package_actBotCmdAction.lisp
+[8.244s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/msg/bot_pubstatus.lisp
+[8.244s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/msg/actBotCmdResult.lisp
+[8.244s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/msg/bot_transferdata.lisp
+[8.244s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/msg/_package_actBotCmdActionFeedback.lisp
+[8.244s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/msg/actBotCmdGoal.lisp
+[8.245s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/msg/_package_bot_ultrasonic.lisp
+[8.245s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/msg/bot_Infodata.lisp
+[8.253s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/msg/_package_actBotCmdActionGoal.lisp
+[8.254s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/msg/bot_battery.lisp
+[8.254s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/msg/_package_actBotCmdActionResult.lisp
+[8.254s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/msg/_package_bot_devicestatus.lisp
+[8.254s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/msg/actBotCmdAction.lisp
+[8.255s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/srv
+[8.255s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/srv/bot_battery_cmd.lisp
+[8.255s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/srv/bot_battery_info_cmd.lisp
+[8.255s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/srv/botcmd_msgs-srv.asd
+[8.255s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/srv/_package_bot_battery_info_cmd.lisp
+[8.255s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/srv/bot_transfer_cmd.lisp
+[8.255s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/srv/bot_Infodata_cmd.lisp
+[8.255s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/srv/bot_ultrasonic_cmd.lisp
+[8.255s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/srv/_package_bot_battery_cmd.lisp
+[8.256s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/srv/_package_bot_do_cmd.lisp
+[8.256s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/srv/_package.lisp
+[8.256s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/srv/_package_bot_device_cmd.lisp
+[8.256s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/srv/_package_bot_transfer_cmd.lisp
+[8.256s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/srv/_package_bot_status_cmd.lisp
+[8.256s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/srv/_package_bot_di_cmd.lisp
+[8.256s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/srv/_package_bot_Infodata_cmd.lisp
+[8.256s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/srv/_package_bot_ultrasonic_cmd.lisp
+[8.256s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/srv/bot_di_cmd.lisp
+[8.256s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/srv/bot_do_cmd.lisp
+[8.257s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/srv/bot_device_cmd.lisp
+[8.257s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/srv/bot_getenabledi_cmd.lisp
+[8.257s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/srv/bot_status_cmd.lisp
+[8.258s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/common-lisp/ros/botcmd_msgs/srv/_package_bot_getenabledi_cmd.lisp
+[8.258s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/gennodejs/ros/botcmd_msgs
+[8.258s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/gennodejs/ros/botcmd_msgs/msg
+[8.258s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/gennodejs/ros/botcmd_msgs/msg/bot_transferdata.js
+[8.258s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/gennodejs/ros/botcmd_msgs/msg/_index.js
+[8.258s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/gennodejs/ros/botcmd_msgs/msg/bot_transbattery.js
+[8.258s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/gennodejs/ros/botcmd_msgs/msg/actBotCmdAction.js
+[8.259s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/gennodejs/ros/botcmd_msgs/msg/bot_devicestatus.js
+[8.259s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/gennodejs/ros/botcmd_msgs/msg/bot_mqtt_cmd.js
+[8.259s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/gennodejs/ros/botcmd_msgs/msg/bot_battery.js
+[8.259s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/gennodejs/ros/botcmd_msgs/msg/bot_Infodata.js
+[8.259s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/gennodejs/ros/botcmd_msgs/msg/actBotCmdGoal.js
+[8.259s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/gennodejs/ros/botcmd_msgs/msg/bot_pubstatus.js
+[8.259s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/gennodejs/ros/botcmd_msgs/msg/bot_battery_info.js
+[8.270s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/gennodejs/ros/botcmd_msgs/msg/actBotCmdActionGoal.js
+[8.271s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/gennodejs/ros/botcmd_msgs/msg/bot_ultrasonic.js
+[8.271s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/gennodejs/ros/botcmd_msgs/msg/actBotCmdActionResult.js
+[8.271s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/gennodejs/ros/botcmd_msgs/msg/actBotCmdFeedback.js
+[8.271s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/gennodejs/ros/botcmd_msgs/msg/actBotCmdResult.js
+[8.271s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/gennodejs/ros/botcmd_msgs/msg/bot_mqtt_rawdata.js
+[8.272s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/gennodejs/ros/botcmd_msgs/msg/actBotCmdActionFeedback.js
+[8.272s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/gennodejs/ros/botcmd_msgs/_index.js
+[8.272s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/gennodejs/ros/botcmd_msgs/srv
+[8.272s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/gennodejs/ros/botcmd_msgs/srv/bot_status_cmd.js
+[8.273s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/gennodejs/ros/botcmd_msgs/srv/_index.js
+[8.273s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/gennodejs/ros/botcmd_msgs/srv/bot_getenabledi_cmd.js
+[8.273s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/gennodejs/ros/botcmd_msgs/srv/bot_device_cmd.js
+[8.273s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/gennodejs/ros/botcmd_msgs/srv/bot_battery_info_cmd.js
+[8.273s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/gennodejs/ros/botcmd_msgs/srv/bot_Infodata_cmd.js
+[8.273s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/gennodejs/ros/botcmd_msgs/srv/bot_ultrasonic_cmd.js
+[8.273s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/gennodejs/ros/botcmd_msgs/srv/bot_battery_cmd.js
+[8.274s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/gennodejs/ros/botcmd_msgs/srv/bot_do_cmd.js
+[8.274s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/gennodejs/ros/botcmd_msgs/srv/bot_di_cmd.js
+[8.274s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/gennodejs/ros/botcmd_msgs/srv/bot_transfer_cmd.js
+[8.323s] Listing /home/handsome/ros_ws_test/build/botcmd_msgs/devel/lib/python2.7/dist-packages/botcmd_msgs ...
+[8.324s] Listing /home/handsome/ros_ws_test/build/botcmd_msgs/devel/lib/python2.7/dist-packages/botcmd_msgs/msg ...
+[8.324s] Listing /home/handsome/ros_ws_test/build/botcmd_msgs/devel/lib/python2.7/dist-packages/botcmd_msgs/srv ...
+[8.329s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs
+[8.329s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/msg
+[8.329s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/msg/_actBotCmdActionGoal.py
+[8.330s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/msg/_actBotCmdAction.pyc
+[8.330s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/msg/_bot_battery_info.pyc
+[8.330s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/msg/_bot_transbattery.pyc
+[8.330s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/msg/_bot_mqtt_cmd.pyc
+[8.330s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/msg/__init__.py
+[8.330s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/msg/_bot_devicestatus.py
+[8.331s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/msg/_bot_ultrasonic.pyc
+[8.331s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/msg/_bot_devicestatus.pyc
+[8.331s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/msg/_bot_Infodata.py
+[8.331s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/msg/_bot_mqtt_rawdata.py
+[8.331s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/msg/_bot_battery.pyc
+[8.331s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/msg/_actBotCmdActionFeedback.py
+[8.331s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/msg/_actBotCmdGoal.py
+[8.332s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/msg/_actBotCmdActionFeedback.pyc
+[8.332s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/msg/_bot_ultrasonic.py
+[8.332s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/msg/_actBotCmdAction.py
+[8.332s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/msg/_bot_battery_info.py
+[8.332s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/msg/_actBotCmdActionResult.py
+[8.333s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/msg/_actBotCmdResult.pyc
+[8.333s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/msg/_bot_mqtt_cmd.py
+[8.333s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/msg/_bot_transferdata.py
+[8.333s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/msg/_bot_mqtt_rawdata.pyc
+[8.333s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/msg/_actBotCmdActionGoal.pyc
+[8.333s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/msg/_actBotCmdFeedback.py
+[8.333s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/msg/__init__.pyc
+[8.333s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/msg/_bot_battery.py
+[8.334s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/msg/_bot_pubstatus.pyc
+[8.334s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/msg/_bot_Infodata.pyc
+[8.334s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/msg/_actBotCmdGoal.pyc
+[8.334s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/msg/_actBotCmdFeedback.pyc
+[8.334s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/msg/_bot_transbattery.py
+[8.334s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/msg/_actBotCmdResult.py
+[8.334s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/msg/_bot_transferdata.pyc
+[8.335s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/msg/_actBotCmdActionResult.pyc
+[8.335s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/msg/_bot_pubstatus.py
+[8.335s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/__init__.py
+[8.335s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/srv
+[8.336s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/srv/_bot_battery_cmd.py
+[8.336s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/srv/_bot_status_cmd.pyc
+[8.336s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/srv/_bot_battery_info_cmd.pyc
+[8.336s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/srv/_bot_di_cmd.py
+[8.336s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/srv/_bot_Infodata_cmd.pyc
+[8.336s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/srv/__init__.py
+[8.336s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/srv/_bot_transfer_cmd.pyc
+[8.337s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/srv/_bot_device_cmd.pyc
+[8.337s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/srv/_bot_battery_info_cmd.py
+[8.338s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/srv/_bot_di_cmd.pyc
+[8.341s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/srv/_bot_ultrasonic_cmd.py
+[8.342s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/srv/_bot_getenabledi_cmd.pyc
+[8.343s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/srv/_bot_device_cmd.py
+[8.343s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/srv/_bot_transfer_cmd.py
+[8.344s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/srv/_bot_do_cmd.py
+[8.344s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/srv/_bot_getenabledi_cmd.py
+[8.345s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/srv/_bot_ultrasonic_cmd.pyc
+[8.345s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/srv/_bot_battery_cmd.pyc
+[8.346s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/srv/__init__.pyc
+[8.346s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/srv/_bot_do_cmd.pyc
+[8.346s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/srv/_bot_status_cmd.py
+[8.349s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/srv/_bot_Infodata_cmd.py
+[8.350s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/python2.7/dist-packages/botcmd_msgs/__init__.pyc
+[8.351s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/lib/pkgconfig/botcmd_msgs.pc
+[8.351s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/botcmd_msgs/cmake/botcmd_msgs-msg-extras.cmake
+[8.352s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/botcmd_msgs/cmake/botcmd_msgsConfig.cmake
+[8.352s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/botcmd_msgs/cmake/botcmd_msgsConfig-version.cmake
+[8.352s] -- Up-to-date: /home/handsome/ros_ws_test/install/botcmd_msgs/share/botcmd_msgs/package.xml
+[8.354s] Invoked command in '/home/handsome/ros_ws_test/build/botcmd_msgs' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/botcmd_msgs --target install -- -j12 -l12

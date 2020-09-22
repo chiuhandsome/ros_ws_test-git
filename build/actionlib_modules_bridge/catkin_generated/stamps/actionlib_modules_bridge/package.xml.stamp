@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<package>
+  <name>actionlib_modules_bridge</name>
+  <version>0.0.1</version>
+  <description>
+     pnp_controller for calibration of robot's behave .
+  </description>
+
+  <maintainer email="chiuhandsome1966@gmail.com">HYC Robot</maintainer>
+
+  <license>LGPLv3</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>message_generation</build_depend>
+
+	<build_depend>cmake_modules</build_depend>  
+	<build_depend>actionlib</build_depend>
+  <build_depend>move_base</build_depend>
+  <build_depend>pnp_ros</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>locomotor_msgs</build_depend>
+  <build_depend>fetch_auto_dock_msgs</build_depend>
+  <build_depend>botcmd_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <!--<build_depend>experiment</build_depend>-->
+  <build_depend>tuw_multi_robot_msgs</build_depend>
+  <!--<build_depend>robot_database_bridge</build_depend>-->
+  <build_depend>actionlib_modules_msgs</build_depend>
+	
+	<run_depend>message_runtime</run_depend>
+	<run_depend>actionlib</run_depend>
+  <run_depend>move_base</run_depend>
+  <run_depend>pnp_ros</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>tf</run_depend>
+  <run_depend>locomotor_msgs</run_depend>
+  <run_depend>fetch_auto_dock_msgs</run_depend>
+  <run_depend>botcmd_msgs</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <!--<run_depend>experiment</run_depend>-->
+  <run_depend>tuw_multi_robot_msgs</run_depend>
+  <!--<run_depend>robot_database_bridge</run_depend>-->
+  <run_depend>actionlib_modules_msgs</run_depend>
+</package>
+
+

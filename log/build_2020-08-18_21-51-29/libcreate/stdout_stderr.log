@@ -1,0 +1,77 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Boost version: 1.65.1
+-- Found the following Boost libraries:
+--   system
+--   thread
+--   chrono
+--   date_time
+--   atomic
+-- Could NOT find GTest (missing: GTEST_LIBRARY GTEST_MAIN_LIBRARY) 
+No GTest installation found. Skipping tests.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/handsome/ros_ws_test/build/libcreate
+[35m[1mScanning dependencies of target create[0m
+[  4%] [32mBuilding CXX object CMakeFiles/create.dir/src/types.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/create.dir/src/create.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/create.dir/src/data.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/create.dir/src/serial.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/create.dir/src/serial_query.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/create.dir/src/serial_stream.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/create.dir/src/packet.cpp.o[0m
+[ 33%] [32m[1mLinking CXX shared library libcreate.so[0m
+[ 33%] Built target create
+[35m[1mScanning dependencies of target wheeldrop[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/wheeldrop.dir/examples/wheeldrop.cpp.o[0m
+[ 41%] [32m[1mLinking CXX executable wheeldrop[0m
+[ 41%] Built target wheeldrop
+[35m[1mScanning dependencies of target cliffs[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/cliffs.dir/examples/cliffs.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable cliffs[0m
+[ 50%] Built target cliffs
+[35m[1mScanning dependencies of target bumpers[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/bumpers.dir/examples/bumpers.cpp.o[0m
+[ 58%] [32m[1mLinking CXX executable bumpers[0m
+[ 58%] Built target bumpers
+[35m[1mScanning dependencies of target leds[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/leds.dir/examples/leds.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable leds[0m
+[ 66%] Built target leds
+[35m[1mScanning dependencies of target drive_circle[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/drive_circle.dir/examples/drive_circle.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable drive_circle[0m
+[ 75%] Built target drive_circle
+[35m[1mScanning dependencies of target battery_level[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/battery_level.dir/examples/battery_level.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable battery_level[0m
+[ 83%] Built target battery_level
+[35m[1mScanning dependencies of target packets[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/packets.dir/examples/packets.cpp.o[0m
+[ 91%] [32m[1mLinking CXX executable packets[0m
+[ 91%] Built target packets
+[35m[1mScanning dependencies of target play_song[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/play_song.dir/examples/play_song.cpp.o[0m
+[100%] [32m[1mLinking CXX executable play_song[0m
+[100%] Built target play_song

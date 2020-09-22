@@ -1,0 +1,18 @@
+# Define the goal
+string  cmd_id		#function code
+string  cmd_data
+string cmd_ac_name
+---
+# Define the result
+uint8 OK=1
+uint8 NOT_OK=2
+uint8 TIMED_OUT=3
+uint8 OUT_OF_TIMES=4
+uint8 NOT_FUNCTION_ID=5
+uint8 FUNCTION_DELAY=11
+uint8 FUNCTION_TURN=12
+uint8 FUNCTION_DOCK=13
+uint8 FUNCTION_UNDOCK=14
+uint8 result
+---
+# Define a feedback message

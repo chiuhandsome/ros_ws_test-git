@@ -1,0 +1,106 @@
+-- Using CATKIN_DEVEL_PREFIX: /home/handsome/ros_ws_test/build/robot_scheduling_actions/devel
+-- Using CMAKE_PREFIX_PATH: /home/handsome/ros_ws_test/install/robot_scheduling_msgs;/home/handsome/ros_ws_test/install/pnp_ros;/home/handsome/ros_ws_test/install/mongodb_store;/home/handsome/ros_ws_test/install/locomotor_msgs;/home/handsome/ros_ws_test/install/ros_utility_tools;/home/handsome/ros_ws_test/install/reset_location;/home/handsome/ros_ws_test/install/pnp_msgs;/home/handsome/ros_ws_test/install/open_auto_dock_msgs;/home/handsome/ros_ws_test/install/nav_2d_msgs;/home/handsome/ros_ws_test/install/mongodb_store_msgs;/home/handsome/ros_ws_test/install/car_db_manager_msgs;/home/handsome/ros_ws_test/install/botcmd_msgs;/home/handsome/i_robot_nax/install/yocs_waypoints_navi;/home/handsome/i_robot_nax/install/yocs_waypoint_provider;/home/handsome/i_robot_nax/install/i_robot_stage;/home/handsome/i_robot_nax/install/yocs_virtual_sensor;/home/handsome/i_robot_nax/install/yocs_rapps;/home/handsome/i_robot_nax/install/yocs_velocity_smoother;/home/handsome/i_robot_nax/install/yocs_safety_controller;/home/handsome/i_robot_nax/install/yocs_navigator;/home/handsome/i_robot_nax/install/yocs_navi_toolkit;/home/handsome/i_robot_nax/install/yocs_localization_manager;/home/handsome/i_robot_nax/install/yocs_joyop;/home/handsome/i_robot_nax/install/yocs_ar_pair_tracking;/home/handsome/i_robot_nax/install/yocs_msgs;/home/handsome/i_robot_nax/install/yocs_diff_drive_pose_controller;/home/handsome/i_robot_nax/install/yocs_ar_marker_tracking;/home/handsome/i_robot_nax/install/yocs_math_toolkit;/home/handsome/i_robot_nax/install/yocs_keyop;/home/handsome/i_robot_nax/install/yocs_controllers;/home/handsome/i_robot_nax/install/yocs_cmd_vel_mux;/home/handsome/i_robot_nax/install/yocs_ar_pair_approach;/home/handsome/i_robot_nax/install/tug_example_pnp_server;/home/handsome/i_robot_nax/install/tug_example_actions;/home/handsome/i_robot_nax/install/tug_example_msgs;/home/handsome/i_robot_nax/install/teb2_local_planner;/home/handsome/i_robot_nax/install/spatio_temporal_voxel_layer;/home/handsome/i_robot_nax/install/rplidar_ros;/home/handsome/i_robot_nax/install/rp_action;/home/handsome/i_robot_nax/install/rp_action_msgs;/home/handsome/i_robot_nax/install/robot_scheduling_server;/home/handsome/i_robot_nax/install/robot_scheduling_actions;/home/handsome/i_robot_nax/install/robot_scheduling_msgs;/home/handsome/i_robot_nax/install/robot_pose_publisher;/home/handsome/i_robot_nax/install/robot_localization;/home/handsome/i_robot_nax/install/pnp_rosplan;/home/handsome/i_robot_nax/install/pnp_ros;/home/handsome/i_robot_nax/install/pnp_msgs;/home/handsome/i_robot_nax/install/openslam_gmapping;/home/handsome/i_robot_nax/install/dlux_plugins;/home/handsome/i_robot_nax/install/dlux_global_planner;/home/handsome/i_robot_nax/install/nav_grid_pub_sub;/home/handsome/i_robot_nax/install/dwb_critics;/home/handsome/i_robot_nax/install/nav_grid_iterators;/home/handsome/i_robot_nax/install/locomove_base;/home/handsome/i_robot_nax/install/locomotor;/home/handsome/i_robot_nax/install/nav_core_adapter;/home/handsome/i_robot_nax/install/dwb_plugins;/home/handsome/i_robot_nax/install/dwb_local_planner;/home/handsome/i_robot_nax/install/nav_2d_utils;/home/handsome/i_robot_nax/install/global_planner_tests;/home/handsome/i_robot_nax/install/costmap_queue;/home/handsome/i_robot_nax/install/nav_core2;/home/handsome/i_robot_nax/install/nav_grid;/home/handsome/i_robot_nax/install/locomotor_msgs;/home/handsome/i_robot_nax/install/dwb_msgs;/home/handsome/i_robot_nax/install/nav_2d_msgs;/home/handsome/i_robot_nax/install/ca_driver;/home/handsome/i_robot_nax/install/libcreate;/home/handsome/i_robot_nax/install/i_robot_navigation;/home/handsome/i_robot_nax/install/ca_tools;/home/handsome/i_robot_nax/install/ca_msgs;/home/handsome/i_robot_nax/install/ca_description;/opt/ros/melodic
+-- This workspace overlays: /home/handsome/ros_ws_test/install/robot_scheduling_msgs;/home/handsome/ros_ws_test/install/pnp_ros;/home/handsome/ros_ws_test/install/mongodb_store;/home/handsome/ros_ws_test/install/locomotor_msgs;/home/handsome/ros_ws_test/install/ros_utility_tools;/home/handsome/ros_ws_test/install/reset_location;/home/handsome/ros_ws_test/install/pnp_msgs;/home/handsome/ros_ws_test/install/open_auto_dock_msgs;/home/handsome/ros_ws_test/install/nav_2d_msgs;/home/handsome/ros_ws_test/install/mongodb_store_msgs;/home/handsome/ros_ws_test/install/car_db_manager_msgs;/home/handsome/ros_ws_test/install/botcmd_msgs;/home/handsome/i_robot_nax/install/yocs_waypoints_navi;/home/handsome/i_robot_nax/install/yocs_waypoint_provider;/home/handsome/i_robot_nax/install/i_robot_stage;/home/handsome/i_robot_nax/install/yocs_virtual_sensor;/home/handsome/i_robot_nax/install/yocs_rapps;/home/handsome/i_robot_nax/install/yocs_velocity_smoother;/home/handsome/i_robot_nax/install/yocs_safety_controller;/home/handsome/i_robot_nax/install/yocs_navigator;/home/handsome/i_robot_nax/install/yocs_navi_toolkit;/home/handsome/i_robot_nax/install/yocs_localization_manager;/home/handsome/i_robot_nax/install/yocs_joyop;/home/handsome/i_robot_nax/install/yocs_ar_pair_tracking;/home/handsome/i_robot_nax/install/yocs_msgs;/home/handsome/i_robot_nax/install/yocs_diff_drive_pose_controller;/home/handsome/i_robot_nax/install/yocs_ar_marker_tracking;/home/handsome/i_robot_nax/install/yocs_math_toolkit;/home/handsome/i_robot_nax/install/yocs_keyop;/home/handsome/i_robot_nax/install/yocs_controllers;/home/handsome/i_robot_nax/install/yocs_cmd_vel_mux;/home/handsome/i_robot_nax/install/yocs_ar_pair_approach;/home/handsome/i_robot_nax/install/tug_example_pnp_server;/home/handsome/i_robot_nax/install/tug_example_actions;/home/handsome/i_robot_nax/install/tug_example_msgs;/home/handsome/i_robot_nax/install/teb2_local_planner;/home/handsome/i_robot_nax/install/spatio_temporal_voxel_layer;/home/handsome/i_robot_nax/install/rplidar_ros;/home/handsome/i_robot_nax/install/rp_action;/home/handsome/i_robot_nax/install/rp_action_msgs;/home/handsome/i_robot_nax/install/robot_scheduling_server;/home/handsome/i_robot_nax/install/robot_scheduling_actions;/home/handsome/i_robot_nax/install/robot_scheduling_msgs;/home/handsome/i_robot_nax/install/robot_pose_publisher;/home/handsome/i_robot_nax/install/robot_localization;/home/handsome/i_robot_nax/install/pnp_rosplan;/home/handsome/i_robot_nax/install/pnp_ros;/home/handsome/i_robot_nax/install/pnp_msgs;/home/handsome/i_robot_nax/install/openslam_gmapping;/home/handsome/i_robot_nax/install/dlux_plugins;/home/handsome/i_robot_nax/install/dlux_global_planner;/home/handsome/i_robot_nax/install/nav_grid_pub_sub;/home/handsome/i_robot_nax/install/dwb_critics;/home/handsome/i_robot_nax/install/nav_grid_iterators;/home/handsome/i_robot_nax/install/locomove_base;/home/handsome/i_robot_nax/install/locomotor;/home/handsome/i_robot_nax/install/nav_core_adapter;/home/handsome/i_robot_nax/install/dwb_plugins;/home/handsome/i_robot_nax/install/dwb_local_planner;/home/handsome/i_robot_nax/install/nav_2d_utils;/home/handsome/i_robot_nax/install/global_planner_tests;/home/handsome/i_robot_nax/install/costmap_queue;/home/handsome/i_robot_nax/install/nav_core2;/home/handsome/i_robot_nax/install/nav_grid;/home/handsome/i_robot_nax/install/locomotor_msgs;/home/handsome/i_robot_nax/install/dwb_msgs;/home/handsome/i_robot_nax/install/nav_2d_msgs;/home/handsome/i_robot_nax/install/ca_driver;/home/handsome/i_robot_nax/install/i_robot_navigation;/home/handsome/i_robot_nax/install/ca_tools;/home/handsome/i_robot_nax/install/ca_msgs;/home/handsome/i_robot_nax/install/ca_description;/opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/handsome/ros_ws_test/build/robot_scheduling_actions/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.28
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Configuring done
+WARNING: Target "robot_scheduling_actions_node" requests linking to directory "/usr/include".  Targets may link only to libraries.  CMake is dropping the item.
+-- Generating done
+-- Build files have been written to: /home/handsome/ros_ws_test/build/robot_scheduling_actions
+[35m[1mScanning dependencies of target robot_scheduling_actions_node[0m
+[  9%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/private_actions/robot_run_state_action.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/robot_scheduling_actions.cpp.o[0m
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/private_actions/robot_run_state_action.h:4[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_run_state_action.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_run_state_action.cpp:[m[K In member function ‘[01m[Kactionlib::SimpleClientGoalState robot_run_state_action::do_db_process_ac(const db_processGoal&)[m[K’:
+[01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;35m[K)[m[K
+                                                                                                                                                                                [01;35m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_run_state_action.cpp:521:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+     [01;36m[KR[m[KOS_INFO(goal.db_process_ac_name.c_str());
+     [01;36m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;35m[K)[m[K
+                                                                                                                                                                                [01;35m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_run_state_action.cpp:535:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+     [01;36m[KR[m[KOS_INFO(goal.cmd_data.c_str());
+     [01;36m[K^[m[K
+[ 14%] [32m[1mLinking CXX executable devel/lib/robot_scheduling_actions/robot_scheduling_actions_node[0m
+[100%] Built target robot_scheduling_actions_node
+Built target tests
+[100%] Built target robot_scheduling_actions_node
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/handsome/ros_ws_test/install/robot_scheduling_actions/lib/pkgconfig/robot_scheduling_actions.pc
+-- Installing: /home/handsome/ros_ws_test/install/robot_scheduling_actions/share/robot_scheduling_actions/cmake/robot_scheduling_actionsConfig.cmake
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/share/robot_scheduling_actions/cmake/robot_scheduling_actionsConfig-version.cmake
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/share/robot_scheduling_actions/package.xml
+-- Installing: /home/handsome/ros_ws_test/install/robot_scheduling_actions/lib/robot_scheduling_actions/robot_scheduling_actions_node
+-- Set runtime path of "/home/handsome/ros_ws_test/install/robot_scheduling_actions/lib/robot_scheduling_actions/robot_scheduling_actions_node" to ""
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/share/robot_scheduling_actions/launch
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/share/robot_scheduling_actions/launch/robot_scheduling_action.launch
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/share/robot_scheduling_actions/config
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/share/robot_scheduling_actions/config/scheduling_params.yaml
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/public_actions
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/public_actions/db_process_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/public_actions/function_run_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/public_actions/worksheetrun_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/public_actions/pose_move_to_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/public_actions/undock_to_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/public_actions/self_turn_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/public_actions/time_wait_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/public_actions/turn_pid.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/public_actions/pose_recognize_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/public_actions/dock_to_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/robot_scheduling_parameter.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/private_actions
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/private_actions/robot_if_params_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/private_actions/robot_if_process_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/private_actions/robot_power_charge_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/private_actions/robot_if_proc_lower_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/private_actions/robot_command_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/private_actions/interrupt_info_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/private_actions/robot_if_proc_upper_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/private_actions/robot_run_state_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/robot_scheduling_actions.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/robot_scheduling_service.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/scheduling_params.yaml

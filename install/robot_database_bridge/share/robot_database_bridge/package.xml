@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<package>
+  <name>robot_database_bridge</name>
+  <version>1.2.0</version>
+  <description>
+     bot_ctrlMessageManager for crltMessageInterface,transferData and udpbridge .
+  </description>
+
+  <maintainer email="chiuhandsome1966@gmail.com">HYC Robot</maintainer>
+
+  <license>LGPLv3</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>cmake_modules</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>roslib</build_depend>
+  <build_depend>actionlib</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>samsungcmd_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>cpprestsdk</build_depend>
+  <build_depend>message_generation</build_depend>  
+  <build_depend>async_comm</build_depend>
+  <build_depend>nlohmann_json</build_depend>
+  <build_depend>ros_utility_tools</build_depend>
+  
+  <!--<build_depend>lino_msgs</build_depend>-->
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>modbus</build_depend>
+  <build_depend>mongodb_store_msgs</build_depend>
+  <build_depend>mongodb_store</build_depend>
+  <build_depend>mongodb</build_depend>
+  <build_depend>libmongoclient-dev</build_depend>
+  <build_depend>botcmd_msgs</build_depend>
+  <build_depend>ros_utility_tools</build_depend>
+  <build_depend>robot_control_msgs</build_depend>    
+
+  <run_depend>message_runtime</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>roslib</run_depend>
+  <run_depend>actionlib</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>samsungcmd_msgs</run_depend>
+  <run_depend>sensor_msgs</run_depend>	
+  <run_depend>roscpp</run_depend>
+  <run_depend>tf</run_depend>
+  <!--<run_depend>lino_msgs</run_depend>-->
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>async_comm</run_depend>    
+  <run_depend>nlohmann_json</run_depend> 
+  <run_depend>modbus</run_depend> 
+  <run_depend>python-pymongo</run_depend>
+  <run_depend>mongodb</run_depend>
+  <run_depend>mongodb_store_msgs</run_depend>
+  <run_depend>mongodb_store</run_depend>
+  <run_depend>ros_utility_tools</run_depend>
+  <run_depend>libmongoclient-dev</run_depend>
+  <run_depend>botcmd_msgs</run_depend>
+  <run_depend>ros_utility_tools</run_depend>
+  <run_depend>robot_control_msgs</run_depend>
+</package>
+
+

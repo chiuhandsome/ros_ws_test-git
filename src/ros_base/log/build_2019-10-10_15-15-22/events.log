@@ -1,0 +1,216 @@
+[0.000000] (-) TimerEvent: {}
+[0.000134] (omron_os32c_driver) JobQueued: {'identifier': 'omron_os32c_driver', 'dependencies': OrderedDict()}
+[0.000818] (omron_os32c_driver) JobStarted: {'identifier': 'omron_os32c_driver'}
+[0.008004] (omron_os32c_driver) JobProgress: {'identifier': 'omron_os32c_driver', 'progress': 'cmake'}
+[0.008186] (omron_os32c_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/handsome/ros_ws/src/ros_base/install/omron_os32c_driver'], 'cwd': '/home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'handsome'), ('LC_TIME', 'zh_TW.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2169'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_PACKAGE_PATH', '/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/opt/ros/melodic/lib'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '1'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/handsome'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '2'), ('LC_MONETARY', 'zh_TW.UTF-8'), ('MANAGERPID', '2059'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=552fc3e36033fccc5ceab8825d9d2b86'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'melodic'), ('LOGNAME', 'handsome'), ('GTK_IM_MODULE', 'ibus'), ('JOURNAL_STREAM', '9:36473'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '1'), ('PKG_CONFIG_PATH', '/opt/ros/melodic/lib/pkgconfig'), ('USERNAME', 'handsome'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', '21cd579a8d084bbebf7adccc621c5a24'), ('PAPERSIZE', 'a4'), ('SESSION_MANAGER', 'local/handsome:@/tmp/.ICE-unix/2088,unix/handsome:/tmp/.ICE-unix/2088'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4a3da943_893f_49e4_91d6_378932dee423'), ('LC_ADDRESS', 'zh_TW.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('ZEITGEIST_DATA_PATH', '/home/handsome/.local/share/zeitgeist'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_TW.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.434'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'zh_TW.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_TW.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_TW.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=552fc3e36033fccc5ceab8825d9d2b86'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'zh_TW.UTF-8'), ('PYTHONPATH', '/opt/ros/melodic/lib/python2.7/dist-packages'), ('LC_PAPER', 'zh_TW.UTF-8'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/opt/ros/melodic')]), 'shell': False}
+[0.058966] (omron_os32c_driver) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.4.0\n'}
+[0.099034] (-) TimerEvent: {}
+[0.103694] (omron_os32c_driver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.4.0\n'}
+[0.107193] (omron_os32c_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.158648] (omron_os32c_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.159068] (omron_os32c_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199164] (-) TimerEvent: {}
+[0.212628] (omron_os32c_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.220135] (omron_os32c_driver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.299287] (-) TimerEvent: {}
+[0.378288] (omron_os32c_driver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.380686] (omron_os32c_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.399411] (-) TimerEvent: {}
+[0.439132] (omron_os32c_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.439619] (omron_os32c_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.498896] (omron_os32c_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.499509] (-) TimerEvent: {}
+[0.505880] (omron_os32c_driver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.599645] (-) TimerEvent: {}
+[0.699914] (-) TimerEvent: {}
+[0.775155] (omron_os32c_driver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.776560] (omron_os32c_driver) StdoutLine: {'line': b'-- Using CATKIN_DEVEL_PREFIX: /home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver/devel\n'}
+[0.776719] (omron_os32c_driver) StdoutLine: {'line': b'-- Using CMAKE_PREFIX_PATH: /opt/ros/melodic\n'}
+[0.776795] (omron_os32c_driver) StdoutLine: {'line': b'-- This workspace overlays: /opt/ros/melodic\n'}
+[0.786972] (omron_os32c_driver) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.15", minimum required is "2") \n'}
+[0.787193] (omron_os32c_driver) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python2\n'}
+[0.787257] (omron_os32c_driver) StdoutLine: {'line': b'-- Using Debian Python package layout\n'}
+[0.787389] (omron_os32c_driver) StdoutLine: {'line': b'-- Using empy: /usr/bin/empy\n'}
+[0.800020] (-) TimerEvent: {}
+[0.898902] (omron_os32c_driver) StdoutLine: {'line': b'-- Using CATKIN_ENABLE_TESTING: ON\n'}
+[0.899026] (omron_os32c_driver) StdoutLine: {'line': b'-- Call enable_testing()\n'}
+[0.900118] (-) TimerEvent: {}
+[0.900373] (omron_os32c_driver) StdoutLine: {'line': b'-- Using CATKIN_TEST_RESULTS_DIR: /home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver/test_results\n'}
+[0.915023] (omron_os32c_driver) StdoutLine: {'line': b"-- Found gmock sources under '/usr/src/googletest': gmock will be built\n"}
+[0.924552] (omron_os32c_driver) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python2 (found version "2.7.15") \n'}
+[0.925339] (omron_os32c_driver) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.980677] (omron_os32c_driver) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.981028] (omron_os32c_driver) StdoutLine: {'line': b'-- Looking for pthread_create\n'}
+[1.000249] (-) TimerEvent: {}
+[1.035145] (omron_os32c_driver) StdoutLine: {'line': b'-- Looking for pthread_create - not found\n'}
+[1.035400] (omron_os32c_driver) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.082151] (omron_os32c_driver) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.082362] (omron_os32c_driver) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.100375] (-) TimerEvent: {}
+[1.136623] (omron_os32c_driver) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.137641] (omron_os32c_driver) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.140634] (omron_os32c_driver) StdoutLine: {'line': b"-- Found gtest sources under '/usr/src/googletest': gtests will be built\n"}
+[1.141172] (omron_os32c_driver) StdoutLine: {'line': b'-- Using Python nosetests: /usr/bin/nosetests-2.7\n'}
+[1.173903] (omron_os32c_driver) StdoutLine: {'line': b'-- catkin 0.7.17\n'}
+[1.174040] (omron_os32c_driver) StdoutLine: {'line': b'-- BUILD_SHARED_LIBS is on\n'}
+[1.200523] (-) TimerEvent: {}
+[1.300818] (-) TimerEvent: {}
+[1.373453] (omron_os32c_driver) StdoutLine: {'line': b'-- Boost version: 1.65.1\n'}
+[1.373619] (omron_os32c_driver) StdoutLine: {'line': b'-- Found the following Boost libraries:\n'}
+[1.373673] (omron_os32c_driver) StdoutLine: {'line': b'--   system\n'}
+[1.400915] (-) TimerEvent: {}
+[1.470860] (omron_os32c_driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.501042] (-) TimerEvent: {}
+[1.501422] (omron_os32c_driver) StdoutLine: {'line': b'-- Generating done\n'}
+[1.505985] (omron_os32c_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver\n'}
+[1.509414] (omron_os32c_driver) CommandEnded: {'returncode': 0}
+[1.511666] (omron_os32c_driver) JobProgress: {'identifier': 'omron_os32c_driver', 'progress': 'build'}
+[1.511774] (omron_os32c_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver', '--', '-j12', '-l12'], 'cwd': '/home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'handsome'), ('LC_TIME', 'zh_TW.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2169'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_PACKAGE_PATH', '/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/opt/ros/melodic/lib'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '1'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/handsome'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '2'), ('LC_MONETARY', 'zh_TW.UTF-8'), ('MANAGERPID', '2059'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=552fc3e36033fccc5ceab8825d9d2b86'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'melodic'), ('LOGNAME', 'handsome'), ('GTK_IM_MODULE', 'ibus'), ('JOURNAL_STREAM', '9:36473'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '1'), ('PKG_CONFIG_PATH', '/opt/ros/melodic/lib/pkgconfig'), ('USERNAME', 'handsome'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', '21cd579a8d084bbebf7adccc621c5a24'), ('PAPERSIZE', 'a4'), ('SESSION_MANAGER', 'local/handsome:@/tmp/.ICE-unix/2088,unix/handsome:/tmp/.ICE-unix/2088'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4a3da943_893f_49e4_91d6_378932dee423'), ('LC_ADDRESS', 'zh_TW.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('ZEITGEIST_DATA_PATH', '/home/handsome/.local/share/zeitgeist'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_TW.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.434'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'zh_TW.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_TW.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_TW.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=552fc3e36033fccc5ceab8825d9d2b86'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'zh_TW.UTF-8'), ('PYTHONPATH', '/opt/ros/melodic/lib/python2.7/dist-packages'), ('LC_PAPER', 'zh_TW.UTF-8'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/opt/ros/melodic')]), 'shell': False}
+[1.543210] (omron_os32c_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target omron_os32c\x1b[0m\n'}
+[1.543352] (omron_os32c_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target scanner_node\x1b[0m\n'}
+[1.556411] (omron_os32c_driver) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/scanner_node.dir/src/scanner_node.cpp.o\x1b[0m\n'}
+[1.559223] (omron_os32c_driver) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/omron_os32c.dir/src/os32c.cpp.o\x1b[0m\n'}
+[1.601211] (-) TimerEvent: {}
+[1.701588] (-) TimerEvent: {}
+[1.801907] (-) TimerEvent: {}
+[1.902206] (-) TimerEvent: {}
+[2.002507] (-) TimerEvent: {}
+[2.102789] (-) TimerEvent: {}
+[2.203063] (-) TimerEvent: {}
+[2.303354] (-) TimerEvent: {}
+[2.403690] (-) TimerEvent: {}
+[2.503982] (-) TimerEvent: {}
+[2.604279] (-) TimerEvent: {}
+[2.704579] (-) TimerEvent: {}
+[2.804875] (-) TimerEvent: {}
+[2.905166] (-) TimerEvent: {}
+[3.005772] (-) TimerEvent: {}
+[3.106447] (-) TimerEvent: {}
+[3.119205] (omron_os32c_driver) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable devel/lib/omron_os32c_driver/scanner_node\x1b[0m\n'}
+[3.192783] (omron_os32c_driver) StdoutLine: {'line': b'[ 50%] Built target scanner_node\n'}
+[3.206573] (-) TimerEvent: {}
+[3.306851] (-) TimerEvent: {}
+[3.407116] (-) TimerEvent: {}
+[3.501434] (omron_os32c_driver) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library devel/lib/libomron_os32c.so\x1b[0m\n'}
+[3.507220] (-) TimerEvent: {}
+[3.565458] (omron_os32c_driver) StdoutLine: {'line': b'[ 66%] Built target omron_os32c\n'}
+[3.573160] (omron_os32c_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target omron_os32c_node\x1b[0m\n'}
+[3.588887] (omron_os32c_driver) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/omron_os32c_node.dir/src/os32c_node.cpp.o\x1b[0m\n'}
+[3.607354] (-) TimerEvent: {}
+[3.707638] (-) TimerEvent: {}
+[3.807937] (-) TimerEvent: {}
+[3.908262] (-) TimerEvent: {}
+[4.008535] (-) TimerEvent: {}
+[4.108829] (-) TimerEvent: {}
+[4.209122] (-) TimerEvent: {}
+[4.309433] (-) TimerEvent: {}
+[4.409764] (-) TimerEvent: {}
+[4.510060] (-) TimerEvent: {}
+[4.610354] (-) TimerEvent: {}
+[4.710651] (-) TimerEvent: {}
+[4.810946] (-) TimerEvent: {}
+[4.911241] (-) TimerEvent: {}
+[5.011556] (-) TimerEvent: {}
+[5.111844] (-) TimerEvent: {}
+[5.212140] (-) TimerEvent: {}
+[5.312436] (-) TimerEvent: {}
+[5.412714] (-) TimerEvent: {}
+[5.513007] (-) TimerEvent: {}
+[5.613284] (-) TimerEvent: {}
+[5.713636] (-) TimerEvent: {}
+[5.813935] (-) TimerEvent: {}
+[5.914252] (-) TimerEvent: {}
+[6.014597] (-) TimerEvent: {}
+[6.114887] (-) TimerEvent: {}
+[6.215169] (-) TimerEvent: {}
+[6.315447] (-) TimerEvent: {}
+[6.415750] (-) TimerEvent: {}
+[6.516027] (-) TimerEvent: {}
+[6.616315] (-) TimerEvent: {}
+[6.716594] (-) TimerEvent: {}
+[6.785949] (omron_os32c_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable devel/lib/omron_os32c_driver/omron_os32c_node\x1b[0m\n'}
+[6.816736] (-) TimerEvent: {}
+[6.917010] (-) TimerEvent: {}
+[6.961713] (omron_os32c_driver) StdoutLine: {'line': b'[100%] Built target omron_os32c_node\n'}
+[6.970117] (omron_os32c_driver) CommandEnded: {'returncode': 0}
+[7.017133] (-) TimerEvent: {}
+[7.021007] (omron_os32c_driver) JobProgress: {'identifier': 'omron_os32c_driver', 'progress': "build target 'tests'"}
+[7.021056] (omron_os32c_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver', '--target', 'tests', '--', '-j12', '-l12'], 'cwd': '/home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'handsome'), ('LC_TIME', 'zh_TW.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '2169'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_PACKAGE_PATH', '/opt/ros/melodic/share'), ('LD_LIBRARY_PATH', '/opt/ros/melodic/lib'), ('ROS_ETC_DIR', '/opt/ros/melodic/etc/ros'), ('SHLVL', '1'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/handsome'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '2'), ('LC_MONETARY', 'zh_TW.UTF-8'), ('MANAGERPID', '2059'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=552fc3e36033fccc5ceab8825d9d2b86'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'melodic'), ('LOGNAME', 'handsome'), ('GTK_IM_MODULE', 'ibus'), ('JOURNAL_STREAM', '9:36473'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '1'), ('PKG_CONFIG_PATH', '/opt/ros/melodic/lib/pkgconfig'), ('USERNAME', 'handsome'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', '21cd579a8d084bbebf7adccc621c5a24'), ('PAPERSIZE', 'a4'), ('SESSION_MANAGER', 'local/handsome:@/tmp/.ICE-unix/2088,unix/handsome:/tmp/.ICE-unix/2088'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4a3da943_893f_49e4_91d6_378932dee423'), ('LC_ADDRESS', 'zh_TW.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('ZEITGEIST_DATA_PATH', '/home/handsome/.local/share/zeitgeist'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_TW.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('ROS_ROOT', '/opt/ros/melodic/share/ros'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.434'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'zh_TW.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_TW.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_TW.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=552fc3e36033fccc5ceab8825d9d2b86'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'zh_TW.UTF-8'), ('PYTHONPATH', '/opt/ros/melodic/lib/python2.7/dist-packages'), ('LC_PAPER', 'zh_TW.UTF-8'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/opt/ros/melodic')]), 'shell': False}
+[7.063155] (omron_os32c_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gtest\x1b[0m\n'}
+[7.075014] (omron_os32c_driver) StdoutLine: {'line': b'[ 18%] Built target omron_os32c\n'}
+[7.076498] (omron_os32c_driver) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[7.117254] (-) TimerEvent: {}
+[7.217573] (-) TimerEvent: {}
+[7.317827] (-) TimerEvent: {}
+[7.418106] (-) TimerEvent: {}
+[7.518391] (-) TimerEvent: {}
+[7.618654] (-) TimerEvent: {}
+[7.718946] (-) TimerEvent: {}
+[7.819272] (-) TimerEvent: {}
+[7.919566] (-) TimerEvent: {}
+[8.019857] (-) TimerEvent: {}
+[8.120203] (-) TimerEvent: {}
+[8.220537] (-) TimerEvent: {}
+[8.320841] (-) TimerEvent: {}
+[8.421127] (-) TimerEvent: {}
+[8.521410] (-) TimerEvent: {}
+[8.621712] (-) TimerEvent: {}
+[8.722004] (-) TimerEvent: {}
+[8.822300] (-) TimerEvent: {}
+[8.922579] (-) TimerEvent: {}
+[8.963799] (omron_os32c_driver) StdoutLine: {'line': b'[ 36%] \x1b[32m\x1b[1mLinking CXX shared library libgtest.so\x1b[0m\n'}
+[9.022707] (-) TimerEvent: {}
+[9.062476] (omron_os32c_driver) StdoutLine: {'line': b'[ 36%] Built target gtest\n'}
+[9.070913] (omron_os32c_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target omron_os32c_driver-test\x1b[0m\n'}
+[9.090288] (omron_os32c_driver) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/omron_os32c_driver-test.dir/test/measurement_report_test.cpp.o\x1b[0m\n'}
+[9.090574] (omron_os32c_driver) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/omron_os32c_driver-test.dir/test/measurement_report_config_test.cpp.o\x1b[0m\n'}
+[9.090678] (omron_os32c_driver) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/omron_os32c_driver-test.dir/test/range_and_reflectance_measurement_test.cpp.o\x1b[0m\n'}
+[9.090764] (omron_os32c_driver) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/omron_os32c_driver-test.dir/test/measurement_report_header_test.cpp.o\x1b[0m\n'}
+[9.090854] (omron_os32c_driver) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/omron_os32c_driver-test.dir/test/os32c_test.cpp.o\x1b[0m\n'}
+[9.093665] (omron_os32c_driver) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/omron_os32c_driver-test.dir/test/test_main.cpp.o\x1b[0m\n'}
+[9.122810] (-) TimerEvent: {}
+[9.223131] (-) TimerEvent: {}
+[9.323466] (-) TimerEvent: {}
+[9.423845] (-) TimerEvent: {}
+[9.524257] (-) TimerEvent: {}
+[9.624599] (-) TimerEvent: {}
+[9.724957] (-) TimerEvent: {}
+[9.825313] (-) TimerEvent: {}
+[9.925692] (-) TimerEvent: {}
+[10.026020] (-) TimerEvent: {}
+[10.126368] (-) TimerEvent: {}
+[10.226713] (-) TimerEvent: {}
+[10.327032] (-) TimerEvent: {}
+[10.360819] (omron_os32c_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver/test/os32c_test.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void omron_os32c_driver::OS32CTest_test_select_beams_Test::TestBody()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.361007] (omron_os32c_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver/test/os32c_test.cpp:222:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K178\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kchar\x1b[m\x1b[K\xe2\x80\x99 inside { } [\x1b[01;31m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[10.361086] (omron_os32c_driver) StderrLine: {'line': b'   \x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[10.361144] (omron_os32c_driver) StderrLine: {'line': b'   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.361196] (omron_os32c_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver/test/os32c_test.cpp:222:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K144\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kchar\x1b[m\x1b[K\xe2\x80\x99 inside { } [\x1b[01;31m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[10.386671] (omron_os32c_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver/test/os32c_test.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void omron_os32c_driver::OS32CTest_test_receive_measurement_report_Test::TestBody()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.386998] (omron_os32c_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver/test/os32c_test.cpp:454:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K128\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kchar\x1b[m\x1b[K\xe2\x80\x99 inside { } [\x1b[01;31m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[10.387126] (omron_os32c_driver) StderrLine: {'line': b'   \x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[10.387212] (omron_os32c_driver) StderrLine: {'line': b'   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.387291] (omron_os32c_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver/test/os32c_test.cpp:454:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K177\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kchar\x1b[m\x1b[K\xe2\x80\x99 inside { } [\x1b[01;31m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[10.387377] (omron_os32c_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver/test/os32c_test.cpp:454:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K161\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kchar\x1b[m\x1b[K\xe2\x80\x99 inside { } [\x1b[01;31m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[10.387461] (omron_os32c_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver/test/os32c_test.cpp:454:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K150\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kchar\x1b[m\x1b[K\xe2\x80\x99 inside { } [\x1b[01;31m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[10.387544] (omron_os32c_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver/test/os32c_test.cpp:454:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K190\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kchar\x1b[m\x1b[K\xe2\x80\x99 inside { } [\x1b[01;31m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[10.387623] (omron_os32c_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver/test/os32c_test.cpp:454:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K151\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kchar\x1b[m\x1b[K\xe2\x80\x99 inside { } [\x1b[01;31m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[10.387703] (omron_os32c_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver/test/os32c_test.cpp:454:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K138\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kchar\x1b[m\x1b[K\xe2\x80\x99 inside { } [\x1b[01;31m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[10.387785] (omron_os32c_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver/test/os32c_test.cpp:454:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K167\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kchar\x1b[m\x1b[K\xe2\x80\x99 inside { } [\x1b[01;31m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[10.387857] (omron_os32c_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver/test/os32c_test.cpp:454:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K136\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kchar\x1b[m\x1b[K\xe2\x80\x99 inside { } [\x1b[01;31m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[10.387935] (omron_os32c_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver/test/os32c_test.cpp:454:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K174\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kchar\x1b[m\x1b[K\xe2\x80\x99 inside { } [\x1b[01;31m\x1b[K-Wnarrowing\x1b[m\x1b[K]\n'}
+[10.427146] (-) TimerEvent: {}
+[10.527434] (-) TimerEvent: {}
+[10.621225] (omron_os32c_driver) StderrLine: {'line': b'make[3]: *** [CMakeFiles/omron_os32c_driver-test.dir/test/os32c_test.cpp.o] Error 1\n'}
+[10.621352] (omron_os32c_driver) StderrLine: {'line': b'make[3]: *** Waiting for unfinished jobs....\n'}
+[10.621448] (omron_os32c_driver) StdoutLine: {'line': b"CMakeFiles/omron_os32c_driver-test.dir/build.make:158: recipe for target 'CMakeFiles/omron_os32c_driver-test.dir/test/os32c_test.cpp.o' failed\n"}
+[10.627531] (-) TimerEvent: {}
+[10.637554] (omron_os32c_driver) StderrLine: {'line': b'make[2]: *** [CMakeFiles/omron_os32c_driver-test.dir/all] Error 2\n'}
+[10.637814] (omron_os32c_driver) StdoutLine: {'line': b"CMakeFiles/Makefile2:68: recipe for target 'CMakeFiles/omron_os32c_driver-test.dir/all' failed\n"}
+[10.638031] (omron_os32c_driver) StdoutLine: {'line': b"CMakeFiles/Makefile2:274: recipe for target 'CMakeFiles/tests.dir/rule' failed\n"}
+[10.638097] (omron_os32c_driver) StderrLine: {'line': b'make[1]: *** [CMakeFiles/tests.dir/rule] Error 2\n'}
+[10.638148] (omron_os32c_driver) StdoutLine: {'line': b"Makefile:253: recipe for target 'tests' failed\n"}
+[10.638198] (omron_os32c_driver) StderrLine: {'line': b'make: *** [tests] Error 2\n'}
+[10.639422] (omron_os32c_driver) CommandEnded: {'returncode': 2}
+[10.654750] (omron_os32c_driver) JobEnded: {'identifier': 'omron_os32c_driver', 'rc': 2}
+[10.655960] (-) EventReactorShutdown: {}

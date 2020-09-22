@@ -1,0 +1,8 @@
+Invoking command in '/home/handsome/ros_ws_test/build/razor_imu_9dof': /usr/bin/cmake /home/handsome/ros_ws_test/src/ros_base/razor_imu_9dof -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/handsome/ros_ws_test/install/razor_imu_9dof
+Invoked command in '/home/handsome/ros_ws_test/build/razor_imu_9dof' returned '0': /usr/bin/cmake /home/handsome/ros_ws_test/src/ros_base/razor_imu_9dof -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/handsome/ros_ws_test/install/razor_imu_9dof
+Invoking command in '/home/handsome/ros_ws_test/build/razor_imu_9dof': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/razor_imu_9dof -- -j12 -l12
+Invoked command in '/home/handsome/ros_ws_test/build/razor_imu_9dof' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/razor_imu_9dof -- -j12 -l12
+Invoking command in '/home/handsome/ros_ws_test/build/razor_imu_9dof': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/razor_imu_9dof --target tests -- -j12 -l12
+Invoked command in '/home/handsome/ros_ws_test/build/razor_imu_9dof' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/razor_imu_9dof --target tests -- -j12 -l12
+Invoking command in '/home/handsome/ros_ws_test/build/razor_imu_9dof': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/razor_imu_9dof --target install -- -j12 -l12
+Invoked command in '/home/handsome/ros_ws_test/build/razor_imu_9dof' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/razor_imu_9dof --target install -- -j12 -l12

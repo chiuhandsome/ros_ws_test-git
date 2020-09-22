@@ -1,0 +1,25 @@
+# Define the goal
+uint8 WS_DETAILCHECK=1
+uint8 WS_RUNCHECK=2
+uint8 WS_RUN=3
+uint8 WS_RUNFINISh=4
+uint8 WS_RUNNEXT=5
+uint8 WS_ASSIGNINDEX=6
+uint8 WS_POSERUNCHECK=7
+uint8 WS_POSTTURNCHECK=8
+uint8 cmd_id
+string cmd_data
+#string db_process_ac_name
+---
+# Define the result
+uint8 OK=1
+uint8 NOT_OK=2
+uint8 TIMED_OUT=3
+uint8 OUT_OF_TIMES=4
+uint8 PASS=5
+uint8 NOT_FINISH=6
+uint8 result
+---
+# Define a feedback message
+uint8 current_index
+uint8 current_function

@@ -1,0 +1,8 @@
+prefix=/home/handsome/ros_ws_test/build/car_db_manager_bridge/devel
+
+Name: car_db_manager_bridge
+Description: Description of car_db_manager_bridge
+Version: 1.2.0
+Cflags: -I/home/handsome/ros_ws_test/src/ros_base/car_data_management/car_db_manager_bridge/include
+Libs: -L${prefix}/lib -lcar_db_manager_bridge
+Requires: tf roscpp roslib actionlib rospy std_msgs mongodb_store_msgs mongodb_store ros_utility_tools car_db_manager_msgs

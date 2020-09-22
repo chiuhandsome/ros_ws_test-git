@@ -1,0 +1,12 @@
+string 	req_comm_ID			#4 byte :A001[To ACS] 001A[To AGV,001]
+string  req_func_code		#1 byte :C,T,R
+string 	req_comm_data		#2 byte
+string 	req_comm_data_1		#2 byte
+string 	req_comm_data_2		#2 byte
+---
+time 	stamp
+string 	comm_ID			#4 byte :A001[To ACS] 001A[To AGV,001]
+string 	func_code		#1 byte :C,T,R
+string 	comm_data		#2 byte
+string 	comm_data_1		#2 byte
+string 	comm_data_2		#2 byte

@@ -1,0 +1,24 @@
+(cl:in-package samsungcmd_msgs-msg)
+(cl:export '(MAG_CENTER_ANALOG-VAL
+          MAG_CENTER_ANALOG
+          MAG_CENTER_DIGITAL-VAL
+          MAG_CENTER_DIGITAL
+          CAR_ROLLER_STATUS-VAL
+          CAR_ROLLER_STATUS
+          CAR_VELRPM_LEFT-VAL
+          CAR_VELRPM_LEFT
+          CAR_VELRPM_RIGHT-VAL
+          CAR_VELRPM_RIGHT
+          CAR_CONTROL_CODE-VAL
+          CAR_CONTROL_CODE
+          CAR_STATUS_CODE-VAL
+          CAR_STATUS_CODE
+          CAR_COMMAND_CODE-VAL
+          CAR_COMMAND_CODE
+          CAR_ERROR_CODE-VAL
+          CAR_ERROR_CODE
+          CAR_SETCOMMAND-VAL
+          CAR_SETCOMMAND
+          ROLLER_SETCOMMAND-VAL
+          ROLLER_SETCOMMAND
+))

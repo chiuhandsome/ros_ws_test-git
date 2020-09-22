@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+  <include file="$(find mongodb_store)/launch/mongodb_store.launch"/>
+  <!--<param name="use_sim_time" value="false" />-->
+  <!--<arg name="robot_control_manager_params" default="$(find robot_control_manager)/config/robot_control_manage_params.yaml"/>-->
+  <node pkg="car_db_manager_bridge" type="car_db_manager_bridge" name="car_db_manager_bridge_node" respawn="false" output="screen">
+      <!--<rosparam file="$(arg robot_control_manager_params)" command="load"/>-->
+  </node>
+
+  <!--<node pkg="rqt_gui" type="rqt_gui" name="rqt_gui" required="false" />-->
+</launch>

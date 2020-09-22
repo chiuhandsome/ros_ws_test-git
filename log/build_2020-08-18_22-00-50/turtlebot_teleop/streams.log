@@ -1,0 +1,24 @@
+[0.122s] Invoking command in '/home/handsome/ros_ws_test/build/turtlebot_teleop': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/turtlebot_teleop -- -j12 -l12
+[0.694s] [100%] Built target turtlebot_teleop_joy
+[1.017s] Invoked command in '/home/handsome/ros_ws_test/build/turtlebot_teleop' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/turtlebot_teleop -- -j12 -l12
+[2.012s] Invoking command in '/home/handsome/ros_ws_test/build/turtlebot_teleop': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/turtlebot_teleop --target tests -- -j12 -l12
+[2.164s] Built target tests
+[2.193s] Invoked command in '/home/handsome/ros_ws_test/build/turtlebot_teleop' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/turtlebot_teleop --target tests -- -j12 -l12
+[2.374s] Invoking command in '/home/handsome/ros_ws_test/build/turtlebot_teleop': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/turtlebot_teleop --target install -- -j12 -l12
+[2.530s] [100%] Built target turtlebot_teleop_joy
+[2.591s] [36mInstall the project...[0m
+[2.614s] -- Install configuration: ""
+[2.614s] -- Up-to-date: /home/handsome/ros_ws_test/install/turtlebot_teleop/lib/pkgconfig/turtlebot_teleop.pc
+[2.614s] -- Up-to-date: /home/handsome/ros_ws_test/install/turtlebot_teleop/share/turtlebot_teleop/cmake/turtlebot_teleopConfig.cmake
+[2.615s] -- Up-to-date: /home/handsome/ros_ws_test/install/turtlebot_teleop/share/turtlebot_teleop/cmake/turtlebot_teleopConfig-version.cmake
+[2.615s] -- Up-to-date: /home/handsome/ros_ws_test/install/turtlebot_teleop/share/turtlebot_teleop/package.xml
+[2.615s] -- Up-to-date: /home/handsome/ros_ws_test/install/turtlebot_teleop/lib/turtlebot_teleop/turtlebot_teleop_key
+[2.615s] -- Up-to-date: /home/handsome/ros_ws_test/install/turtlebot_teleop/lib/turtlebot_teleop/turtlebot_teleop_joy
+[2.615s] -- Up-to-date: /home/handsome/ros_ws_test/install/turtlebot_teleop/share/turtlebot_teleop/launch
+[2.615s] -- Up-to-date: /home/handsome/ros_ws_test/install/turtlebot_teleop/share/turtlebot_teleop/launch/ps3_teleop.launch
+[2.615s] -- Up-to-date: /home/handsome/ros_ws_test/install/turtlebot_teleop/share/turtlebot_teleop/launch/includes
+[2.616s] -- Up-to-date: /home/handsome/ros_ws_test/install/turtlebot_teleop/share/turtlebot_teleop/launch/includes/velocity_smoother.launch.xml
+[2.616s] -- Up-to-date: /home/handsome/ros_ws_test/install/turtlebot_teleop/share/turtlebot_teleop/launch/keyboard_teleop.launch
+[2.616s] -- Up-to-date: /home/handsome/ros_ws_test/install/turtlebot_teleop/share/turtlebot_teleop/launch/logitech.launch
+[2.616s] -- Up-to-date: /home/handsome/ros_ws_test/install/turtlebot_teleop/share/turtlebot_teleop/launch/xbox360_teleop.launch
+[2.624s] Invoked command in '/home/handsome/ros_ws_test/build/turtlebot_teleop' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/turtlebot_teleop --target install -- -j12 -l12

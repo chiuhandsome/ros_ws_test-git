@@ -1,0 +1,52 @@
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:[m[K In member function ‘[01m[Kbool robot_scheduling_service::srv_Eval_service_for_upper(robot_scheduling_msgs::action_command_cmd::Request&, robot_scheduling_msgs::action_command_cmd::Response&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:45:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass robot_scheduling_parameter[m[K’ has no member named ‘[01m[Kget_upper_precommand[m[K’; did you mean ‘[01m[Kget_pose_recognize[m[K’?
+                 resp.result_state = (int)scheduling_parameter_->[01;31m[Kget_upper_precommand[m[K() ;
+                                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+                                                                 [32m[Kget_pose_recognize[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:47:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass robot_scheduling_parameter[m[K’ has no member named ‘[01m[Kget_upper_command[m[K’
+                 resp.result_state = (int)scheduling_parameter_->[01;31m[Kget_upper_command[m[K();
+                                                                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:48:78:[m[K [01;35m[Kwarning: [m[Kcomparison between ‘[01m[Kenum command_set_type[m[K’ and ‘[01m[Kenum runstatus_type[m[K’ [[01;35m[K-Wenum-compare[m[K]
+             else if(cmd_set_type == scheduling_parameter_->get_system_status([01;35m[K)[m[K){
+                                                                              [01;35m[K^[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:58:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass robot_scheduling_parameter[m[K’ has no member named ‘[01m[Kset_upper_precommand[m[K’; did you mean ‘[01m[Kset_pose_recognize[m[K’?
+                 scheduling_parameter_->[01;31m[Kset_upper_precommand[m[K((command_type)cmd_type);
+                                        [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+                                        [32m[Kset_pose_recognize[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:61:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass robot_scheduling_parameter[m[K’ has no member named ‘[01m[Kset_upper_command[m[K’
+                 scheduling_parameter_->[01;31m[Kset_upper_command[m[K((command_type)cmd_type);
+                                        [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:63:78:[m[K [01;35m[Kwarning: [m[Kcomparison between ‘[01m[Kenum command_set_type[m[K’ and ‘[01m[Kenum runstatus_type[m[K’ [[01;35m[K-Wenum-compare[m[K]
+             else if(cmd_set_type == scheduling_parameter_->get_system_status([01;35m[K)[m[K){
+                                                                              [01;35m[K^[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:[m[K In member function ‘[01m[Kbool robot_scheduling_service::srv_Eval_service_for_lower(robot_scheduling_msgs::action_command_cmd::Request&, robot_scheduling_msgs::action_command_cmd::Response&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:87:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass robot_scheduling_parameter[m[K’ has no member named ‘[01m[Kset_lower_command[m[K’; did you mean ‘[01m[Kset_pose_recognize[m[K’?
+         scheduling_parameter_->[01;31m[Kset_lower_command[m[K(_cmd_id);
+                                [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+                                [32m[Kset_pose_recognize[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/robot_scheduling_parameter.h:3[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_parameter.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_parameter.cpp:[m[K In member function ‘[01m[Kvoid robot_scheduling_parameter::ac_fixed_pose2d_init_set(ros::NodeHandle)[m[K’:
+[01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kstd::map<std::__cxx11::basic_string<char>, std::shared_ptr<ac_locomotor_pos2d> >::size_type {aka long unsigned int}[m[K’ [[01;35m[K-Wformat=[m[K]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;35m[K)[m[K
+                                                                                                                                                                                [01;35m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_parameter.cpp:215:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+     [01;36m[KR[m[KOS_INFO("ac_locomotor_pos2d_map_ size:%d",ac_locomotor_pos2d_map_.size());
+     [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/robot_scheduling_actions_node.dir/src/robot_scheduling_service.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/robot_scheduling_actions_node.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,8 @@
+Invoking command in '/home/handsome/ros_ws_test/build/ros_utility_tools': /usr/bin/cmake /home/handsome/ros_ws_test/src/ros_base/ros_utility_tools -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/handsome/ros_ws_test/install/ros_utility_tools
+Invoked command in '/home/handsome/ros_ws_test/build/ros_utility_tools' returned '0': /usr/bin/cmake /home/handsome/ros_ws_test/src/ros_base/ros_utility_tools -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/handsome/ros_ws_test/install/ros_utility_tools
+Invoking command in '/home/handsome/ros_ws_test/build/ros_utility_tools': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/ros_utility_tools -- -j12 -l12
+Invoked command in '/home/handsome/ros_ws_test/build/ros_utility_tools' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/ros_utility_tools -- -j12 -l12
+Invoking command in '/home/handsome/ros_ws_test/build/ros_utility_tools': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/ros_utility_tools --target tests -- -j12 -l12
+Invoked command in '/home/handsome/ros_ws_test/build/ros_utility_tools' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/ros_utility_tools --target tests -- -j12 -l12
+Invoking command in '/home/handsome/ros_ws_test/build/ros_utility_tools': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/ros_utility_tools --target install -- -j12 -l12
+Invoked command in '/home/handsome/ros_ws_test/build/ros_utility_tools' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/ros_utility_tools --target install -- -j12 -l12

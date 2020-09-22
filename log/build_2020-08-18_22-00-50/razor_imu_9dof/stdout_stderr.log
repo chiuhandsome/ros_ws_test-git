@@ -1,0 +1,59 @@
+[ 33%] Built target razor_imu_9dof_gencfg
+[100%] Built target razor_imu_9dof_node
+Built target tests
+[ 33%] Built target razor_imu_9dof_gencfg
+[100%] Built target razor_imu_9dof_node
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/include/razor_imu_9dof/imuConfig.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/lib/python2.7/dist-packages/razor_imu_9dof/__init__.py
+Listing /home/handsome/ros_ws_test/build/razor_imu_9dof/devel/lib/python2.7/dist-packages/razor_imu_9dof/cfg ...
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/lib/python2.7/dist-packages/razor_imu_9dof/cfg
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/lib/python2.7/dist-packages/razor_imu_9dof/cfg/imuConfig.pyc
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/lib/python2.7/dist-packages/razor_imu_9dof/cfg/__init__.py
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/lib/python2.7/dist-packages/razor_imu_9dof/cfg/imuConfig.py
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/lib/python2.7/dist-packages/razor_imu_9dof/cfg/__init__.pyc
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/lib/pkgconfig/razor_imu_9dof.pc
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/cmake/razor_imu_9dofConfig.cmake
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/cmake/razor_imu_9dofConfig-version.cmake
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/package.xml
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/lib/razor_imu_9dof/razor_imu_9dof_node
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/launch
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/launch/razor-pub-diags.launch
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/launch/razor-cpp-pub.launch
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/launch/razor-cpp-pub-and-display.launch
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/launch/razor-pub.launch
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/launch/razor-pub-and-display.launch
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/launch/razor-display.launch
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/launch/razor-cpp-pub-diags.launch
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/config
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/config/my_razor_default.yaml
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/config/razor_diags.yaml
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/config/imu.py
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/config/my_razor.yaml
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/config/razor.yaml
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/cfg
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/cfg/imu.cfg
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/src
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/src/razor_imu_9dof_node.cpp
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/src/Razor_AHRS
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/src/Razor_AHRS/Razor_AHRS.ino
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/src/Razor_AHRS/Sensors.ino
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/src/Razor_AHRS/Compass.ino
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/src/Razor_AHRS/DCM.ino
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/src/Razor_AHRS/Math.ino
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/src/Razor_AHRS/Output.ino
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/src/razor_imu_9dof_node_old.cpp
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/magnetometer_calibration
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/magnetometer_calibration/Matlab
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/magnetometer_calibration/Matlab/magnetometer_calibration
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/magnetometer_calibration/Matlab/magnetometer_calibration/ellipsoid_fit.m
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/magnetometer_calibration/Matlab/magnetometer_calibration/magnetometer_calibration.m
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/magnetometer_calibration/Matlab/magnetometer_calibration/ellipsoid_fit_license.txt
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/magnetometer_calibration/Processing
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/magnetometer_calibration/Processing/Magnetometer_calibration
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/magnetometer_calibration/Processing/Magnetometer_calibration/Magnetometer_calibration.pde
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/magnetometer_calibration/Processing/Magnetometer_calibration/data
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/magnetometer_calibration/Processing/Magnetometer_calibration/data/Univers-66.vlw
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/nodes/imu_node.py
+-- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/nodes/display_3D_visualization.py

@@ -1,0 +1,8 @@
+prefix=/home/handsome/ros_ws_test/build/dwb_msgs/devel
+
+Name: dwb_msgs
+Description: Description of dwb_msgs
+Version: 0.2.4
+Cflags: -I/home/handsome/ros_ws_test/build/dwb_msgs/devel/include
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs message_runtime nav_2d_msgs nav_msgs

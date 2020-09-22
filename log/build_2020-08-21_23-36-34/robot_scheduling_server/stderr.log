@@ -1,0 +1,8 @@
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_server/src/robot_scheduling_pnp_server.cpp:[m[K In member function ‘[01m[Kvoid robot_scheduling_pnp_server::interfaceLower(bool*, std::__cxx11::string)[m[K’:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_server/src/robot_scheduling_pnp_server.cpp:307:78:[m[K [01;31m[Kerror: [m[K‘[01m[KPROCESS[m[K’ is not a member of ‘[01m[Krobot_scheduling_msgs::robot_interface_proc_lowerGoal {aka robot_scheduling_msgs::robot_interface_proc_lowerGoal_<std::allocator<void> >}[m[K’
+         goal.cmd_id = robot_scheduling_msgs::robot_interface_proc_lowerGoal::[01;31m[KPROCESS[m[K ;
+                                                                              [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/robot_scheduling_server_node.dir/src/robot_scheduling_pnp_server.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/robot_scheduling_server_node.dir/all] Error 2
+make: *** [all] Error 2

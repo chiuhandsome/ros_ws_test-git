@@ -1,0 +1,36 @@
+[ 33%] Built target create
+[ 41%] Built target battery_level
+[ 50%] Built target drive_circle
+[ 58%] Built target packets
+[ 66%] Built target play_song
+[ 75%] Built target cliffs
+[ 83%] Built target bumpers
+[ 91%] Built target wheeldrop
+[100%] Built target leds
+[ 33%] Built target create
+[ 45%] Built target battery_level
+[ 50%] Built target drive_circle
+[ 66%] Built target wheeldrop
+[ 66%] Built target packets
+[ 83%] Built target leds
+[ 83%] Built target play_song
+[ 91%] Built target bumpers
+[100%] Built target cliffs
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/handsome/ros_ws_test/install/libcreate/lib/libcreate.so
+-- Installing: /home/handsome/ros_ws_test/install/libcreate/include
+-- Installing: /home/handsome/ros_ws_test/install/libcreate/include/create
+-- Installing: /home/handsome/ros_ws_test/install/libcreate/include/create/packet.h
+-- Installing: /home/handsome/ros_ws_test/install/libcreate/include/create/types.h
+-- Installing: /home/handsome/ros_ws_test/install/libcreate/include/create/data.h
+-- Installing: /home/handsome/ros_ws_test/install/libcreate/include/create/create.h
+-- Installing: /home/handsome/ros_ws_test/install/libcreate/include/create/serial_stream.h
+-- Installing: /home/handsome/ros_ws_test/install/libcreate/include/create/serial.h
+-- Installing: /home/handsome/ros_ws_test/install/libcreate/include/create/util.h
+-- Installing: /home/handsome/ros_ws_test/install/libcreate/include/create/serial_query.h
+-- Installing: /home/handsome/ros_ws_test/install/libcreate/lib/cmake/libcreate/libcreate-config.cmake
+-- Installing: /home/handsome/ros_ws_test/install/libcreate/lib/cmake/libcreate/libcreate-config-version.cmake
+-- Installing: /home/handsome/ros_ws_test/install/libcreate/lib/cmake/libcreate/libcreate-targets.cmake
+-- Installing: /home/handsome/ros_ws_test/install/libcreate/lib/cmake/libcreate/libcreate-targets-noconfig.cmake
+-- Installing: /home/handsome/ros_ws_test/install/libcreate/share/libcreate/package.xml

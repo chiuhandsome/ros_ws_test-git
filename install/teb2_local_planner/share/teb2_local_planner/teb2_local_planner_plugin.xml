@@ -1,0 +1,9 @@
+<library path="lib/libteb2_local_planner">
+	<class  name="teb2_local_planner::Teb2LocalPlannerROS" type="teb2_local_planner::Teb2LocalPlannerROS" base_class_type="nav_core2::LocalPlanner">
+		<description>
+			The teb2_local_planner package implements a plugin
+			to the nav_core2_local_planner of the 2D navigation stack.
+		</description>
+	</class>
+</library>
+

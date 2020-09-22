@@ -1,0 +1,8 @@
+prefix=/home/handsome/ros_ws_test/install/dwb_critics
+
+Name: dwb_critics
+Description: Description of dwb_critics
+Version: 0.2.4
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -ldwb_critics
+Requires: angles costmap_queue dwb_local_planner geometry_msgs nav_2d_msgs nav_2d_utils nav_core2 nav_grid_iterators pluginlib roscpp sensor_msgs

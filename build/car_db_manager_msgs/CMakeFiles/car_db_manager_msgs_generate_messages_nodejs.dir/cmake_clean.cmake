@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/car_db_manager_msgs_generate_messages_nodejs"
+  "devel/share/gennodejs/ros/car_db_manager_msgs/msg/car_db_process_recoveryActionResult.js"
+  "devel/share/gennodejs/ros/car_db_manager_msgs/msg/car_db_process_recoveryActionFeedback.js"
+  "devel/share/gennodejs/ros/car_db_manager_msgs/msg/WorkSheetItems.js"
+  "devel/share/gennodejs/ros/car_db_manager_msgs/msg/OperatecodeParameters.js"
+  "devel/share/gennodejs/ros/car_db_manager_msgs/msg/WorkSheetMain.js"
+  "devel/share/gennodejs/ros/car_db_manager_msgs/msg/car_db_processResult.js"
+  "devel/share/gennodejs/ros/car_db_manager_msgs/msg/car_db_processGoal.js"
+  "devel/share/gennodejs/ros/car_db_manager_msgs/msg/car_db_processActionFeedback.js"
+  "devel/share/gennodejs/ros/car_db_manager_msgs/msg/CarAlarmHistory.js"
+  "devel/share/gennodejs/ros/car_db_manager_msgs/msg/CheckParameters.js"
+  "devel/share/gennodejs/ros/car_db_manager_msgs/msg/car_db_processFeedback.js"
+  "devel/share/gennodejs/ros/car_db_manager_msgs/msg/car_db_process_recoveryActionGoal.js"
+  "devel/share/gennodejs/ros/car_db_manager_msgs/msg/AlarmcodeParameters.js"
+  "devel/share/gennodejs/ros/car_db_manager_msgs/msg/car_db_processActionResult.js"
+  "devel/share/gennodejs/ros/car_db_manager_msgs/msg/car_db_processAction.js"
+  "devel/share/gennodejs/ros/car_db_manager_msgs/msg/car_db_processActionGoal.js"
+  "devel/share/gennodejs/ros/car_db_manager_msgs/msg/CarOperateHistory.js"
+  "devel/share/gennodejs/ros/car_db_manager_msgs/msg/car_db_process_recoveryResult.js"
+  "devel/share/gennodejs/ros/car_db_manager_msgs/msg/car_db_process_recoveryFeedback.js"
+  "devel/share/gennodejs/ros/car_db_manager_msgs/msg/PidCtrlParameters.js"
+  "devel/share/gennodejs/ros/car_db_manager_msgs/msg/car_db_process_recoveryAction.js"
+  "devel/share/gennodejs/ros/car_db_manager_msgs/msg/car_db_process_recoveryGoal.js"
+  "devel/share/gennodejs/ros/car_db_manager_msgs/msg/ActionFunctionParameters.js"
+  "devel/share/gennodejs/ros/car_db_manager_msgs/msg/TargerPos2dParameters.js"
+  "devel/share/gennodejs/ros/car_db_manager_msgs/srv/CarAlarmHistoryCmd.js"
+  "devel/share/gennodejs/ros/car_db_manager_msgs/srv/TargerPos2dParametersCmd.js"
+  "devel/share/gennodejs/ros/car_db_manager_msgs/srv/CarOperateHistoryCmd.js"
+  "devel/share/gennodejs/ros/car_db_manager_msgs/srv/ActionFunctionParametersCmd.js"
+  "devel/share/gennodejs/ros/car_db_manager_msgs/srv/PidCtrlParametersCmd.js"
+  "devel/share/gennodejs/ros/car_db_manager_msgs/srv/WorkSheetItemsCmd.js"
+  "devel/share/gennodejs/ros/car_db_manager_msgs/srv/WorkSheetMainCmd.js"
+  "devel/share/gennodejs/ros/car_db_manager_msgs/srv/AlarmcodeParametersCmd.js"
+  "devel/share/gennodejs/ros/car_db_manager_msgs/srv/OperatecodeParametersCmd.js"
+  "devel/share/gennodejs/ros/car_db_manager_msgs/srv/CheckParametersCmd.js"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/car_db_manager_msgs_generate_messages_nodejs.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

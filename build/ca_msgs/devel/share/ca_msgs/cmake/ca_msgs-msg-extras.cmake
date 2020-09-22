@@ -1,0 +1,2 @@
+set(ca_msgs_MESSAGE_FILES "/home/handsome/ros_ws_test/src/ros_base/i_robot/create_autonomy/ca_msgs/msg/Bumper.msg;/home/handsome/ros_ws_test/src/ros_base/i_robot/create_autonomy/ca_msgs/msg/ChargingState.msg;/home/handsome/ros_ws_test/src/ros_base/i_robot/create_autonomy/ca_msgs/msg/DefineSong.msg;/home/handsome/ros_ws_test/src/ros_base/i_robot/create_autonomy/ca_msgs/msg/Mode.msg;/home/handsome/ros_ws_test/src/ros_base/i_robot/create_autonomy/ca_msgs/msg/PlaySong.msg")
+set(ca_msgs_SERVICE_FILES "")

@@ -1,0 +1,15 @@
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:[m[K In member function ‘[01m[Kvoid robot_scheduling_service::sub_upper_topic_command_CB(const robot_topic_command&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:62:75:[m[K [01;31m[Kerror: [m[K‘[01m[KMODE_MANU_MOVEINT[m[K’ is not a member of ‘[01m[Krobot_scheduling_msgs::robot_topic_command {aka robot_scheduling_msgs::robot_topic_command_<std::allocator<void> >}[m[K’
+               cmd_id == robot_scheduling_msgs::robot_topic_command::[01;31m[KMODE_MANU_MOVEINT[m[K ||
+                                                                     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:[m[K In member function ‘[01m[Kbool robot_scheduling_service::manual_change_decise(int)[m[K’:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:185:75:[m[K [01;31m[Kerror: [m[K‘[01m[KMODE_MANU_MOVEINT[m[K’ is not a member of ‘[01m[Krobot_scheduling_msgs::robot_topic_command {aka robot_scheduling_msgs::robot_topic_command_<std::allocator<void> >}[m[K’
+       else if(cmd_id == robot_scheduling_msgs::robot_topic_command::[01;31m[KMODE_MANU_MOVEINT[m[K){
+                                                                     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:[m[K In member function ‘[01m[Kbool robot_scheduling_service::srv_Eval_service_for_upper(robot_scheduling_msgs::upper_if_command::Request&, robot_scheduling_msgs::upper_if_command::Response&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:339:71:[m[K [01;31m[Kerror: [m[K‘[01m[KMODE_MANU_MOVEINT[m[K’ is not a member of ‘[01m[Krobot_scheduling_msgs::robot_topic_command {aka robot_scheduling_msgs::robot_topic_command_<std::allocator<void> >}[m[K’
+               cmd_id == robot_scheduling_msgs::robot_topic_command::[01;31m[KMODE_MANU_MOVEINT[m[K ||
+                                                                     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/robot_scheduling_actions_node.dir/src/robot_scheduling_service.cpp.o] Error 1
+make[1]: *** [CMakeFiles/robot_scheduling_actions_node.dir/all] Error 2
+make: *** [all] Error 2

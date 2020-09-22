@@ -1,0 +1,8 @@
+prefix=/home/handsome/ros_ws_test/build/global_planner_tests/devel
+
+Name: global_planner_tests
+Description: Description of global_planner_tests
+Version: 0.2.4
+Cflags: -I/home/handsome/ros_ws_test/src/ros_base/robot_navigation/global_planner_tests/include
+Libs: -L${prefix}/lib -lglobal_planner_tests
+Requires: map_server nav_core2 roscpp nav_msgs pluginlib

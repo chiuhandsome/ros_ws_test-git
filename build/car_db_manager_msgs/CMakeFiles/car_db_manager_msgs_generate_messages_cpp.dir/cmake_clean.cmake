@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/car_db_manager_msgs_generate_messages_cpp"
+  "devel/include/car_db_manager_msgs/car_db_process_recoveryActionResult.h"
+  "devel/include/car_db_manager_msgs/car_db_process_recoveryActionFeedback.h"
+  "devel/include/car_db_manager_msgs/WorkSheetItems.h"
+  "devel/include/car_db_manager_msgs/OperatecodeParameters.h"
+  "devel/include/car_db_manager_msgs/WorkSheetMain.h"
+  "devel/include/car_db_manager_msgs/car_db_processResult.h"
+  "devel/include/car_db_manager_msgs/car_db_processGoal.h"
+  "devel/include/car_db_manager_msgs/car_db_processActionFeedback.h"
+  "devel/include/car_db_manager_msgs/CarAlarmHistory.h"
+  "devel/include/car_db_manager_msgs/CheckParameters.h"
+  "devel/include/car_db_manager_msgs/car_db_processFeedback.h"
+  "devel/include/car_db_manager_msgs/car_db_process_recoveryActionGoal.h"
+  "devel/include/car_db_manager_msgs/AlarmcodeParameters.h"
+  "devel/include/car_db_manager_msgs/car_db_processActionResult.h"
+  "devel/include/car_db_manager_msgs/car_db_processAction.h"
+  "devel/include/car_db_manager_msgs/car_db_processActionGoal.h"
+  "devel/include/car_db_manager_msgs/CarOperateHistory.h"
+  "devel/include/car_db_manager_msgs/car_db_process_recoveryResult.h"
+  "devel/include/car_db_manager_msgs/car_db_process_recoveryFeedback.h"
+  "devel/include/car_db_manager_msgs/PidCtrlParameters.h"
+  "devel/include/car_db_manager_msgs/car_db_process_recoveryAction.h"
+  "devel/include/car_db_manager_msgs/car_db_process_recoveryGoal.h"
+  "devel/include/car_db_manager_msgs/ActionFunctionParameters.h"
+  "devel/include/car_db_manager_msgs/TargerPos2dParameters.h"
+  "devel/include/car_db_manager_msgs/CarAlarmHistoryCmd.h"
+  "devel/include/car_db_manager_msgs/TargerPos2dParametersCmd.h"
+  "devel/include/car_db_manager_msgs/CarOperateHistoryCmd.h"
+  "devel/include/car_db_manager_msgs/ActionFunctionParametersCmd.h"
+  "devel/include/car_db_manager_msgs/PidCtrlParametersCmd.h"
+  "devel/include/car_db_manager_msgs/WorkSheetItemsCmd.h"
+  "devel/include/car_db_manager_msgs/WorkSheetMainCmd.h"
+  "devel/include/car_db_manager_msgs/AlarmcodeParametersCmd.h"
+  "devel/include/car_db_manager_msgs/OperatecodeParametersCmd.h"
+  "devel/include/car_db_manager_msgs/CheckParametersCmd.h"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/car_db_manager_msgs_generate_messages_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

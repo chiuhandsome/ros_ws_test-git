@@ -1,0 +1,55 @@
+[0.156s] Invoking command in '/home/handsome/ros_ws_test/build/pnp_ros': CMAKE_PREFIX_PATH=/home/handsome/ros_ws_test/install/pnp_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/handsome/ros_ws_test/install/pnp_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/pnp_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/handsome/ros_ws_test/install/pnp_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/handsome/ros_ws_test/install/pnp_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/handsome/ros_ws_test/build/pnp_ros -- -j12 -l12
+[0.590s] [  0%] Built target pnp_msgs_generate_messages_cpp
+[0.740s] [ 63%] Built target pnpros
+[0.927s] [ 81%] Built target pnp_node
+[1.049s] [100%] Built target PNPAS
+[1.182s] Invoked command in '/home/handsome/ros_ws_test/build/pnp_ros' returned '0': CMAKE_PREFIX_PATH=/home/handsome/ros_ws_test/install/pnp_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/handsome/ros_ws_test/install/pnp_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/pnp_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/handsome/ros_ws_test/install/pnp_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/handsome/ros_ws_test/install/pnp_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/handsome/ros_ws_test/build/pnp_ros -- -j12 -l12
+[3.292s] Invoking command in '/home/handsome/ros_ws_test/build/pnp_ros': CMAKE_PREFIX_PATH=/home/handsome/ros_ws_test/install/pnp_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/handsome/ros_ws_test/install/pnp_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/pnp_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/handsome/ros_ws_test/install/pnp_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/handsome/ros_ws_test/install/pnp_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/handsome/ros_ws_test/build/pnp_ros --target tests -- -j12 -l12
+[3.806s] [35m[1mScanning dependencies of target tests[0m
+[3.901s] Built target tests
+[3.984s] Invoked command in '/home/handsome/ros_ws_test/build/pnp_ros' returned '0': CMAKE_PREFIX_PATH=/home/handsome/ros_ws_test/install/pnp_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/handsome/ros_ws_test/install/pnp_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/pnp_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/handsome/ros_ws_test/install/pnp_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/handsome/ros_ws_test/install/pnp_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/handsome/ros_ws_test/build/pnp_ros --target tests -- -j12 -l12
+[5.908s] Invoking command in '/home/handsome/ros_ws_test/build/pnp_ros': CMAKE_PREFIX_PATH=/home/handsome/ros_ws_test/install/pnp_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/handsome/ros_ws_test/install/pnp_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/pnp_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/handsome/ros_ws_test/install/pnp_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/handsome/ros_ws_test/install/pnp_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/handsome/ros_ws_test/build/pnp_ros --target install -- -j12 -l12
+[6.181s] [  0%] Built target pnp_msgs_generate_messages_cpp
+[6.292s] [ 63%] Built target pnpros
+[6.391s] [ 81%] Built target pnp_node
+[6.405s] [100%] Built target PNPAS
+[6.474s] [36mInstall the project...[0m
+[6.503s] -- Install configuration: ""
+[6.503s] -- Installing: /home/handsome/ros_ws_test/install/pnp_ros/lib/pkgconfig/pnp_ros.pc
+[6.503s] -- Installing: /home/handsome/ros_ws_test/install/pnp_ros/share/pnp_ros/cmake/pnp_rosConfig.cmake
+[6.504s] -- Installing: /home/handsome/ros_ws_test/install/pnp_ros/share/pnp_ros/cmake/pnp_rosConfig-version.cmake
+[6.504s] -- Installing: /home/handsome/ros_ws_test/install/pnp_ros/share/pnp_ros/package.xml
+[6.504s] -- Installing: /home/handsome/ros_ws_test/install/pnp_ros/lib/pnp_ros/PNPActionServer.py
+[6.505s] -- Installing: /home/handsome/ros_ws_test/install/pnp_ros/share/pnp_ros/launch
+[6.505s] -- Installing: /home/handsome/ros_ws_test/install/pnp_ros/share/pnp_ros/launch/pnp_ros.launch
+[6.505s] -- Installing: /home/handsome/ros_ws_test/install/pnp_ros/share/pnp_ros/plans
+[6.505s] -- Installing: /home/handsome/ros_ws_test/install/pnp_ros/share/pnp_ros/plans/interrupt.pnml
+[6.505s] -- Installing: /home/handsome/ros_ws_test/install/pnp_ros/share/pnp_ros/plans/MultiRobot.png
+[6.506s] -- Installing: /home/handsome/ros_ws_test/install/pnp_ros/share/pnp_ros/plans/ending_plan.pnml
+[6.506s] -- Installing: /home/handsome/ros_ws_test/install/pnp_ros/share/pnp_ros/plans/run_jarp.sh
+[6.506s] -- Installing: /home/handsome/ros_ws_test/install/pnp_ros/share/pnp_ros/plans/sequence_loop.pnml
+[6.506s] -- Installing: /home/handsome/ros_ws_test/install/pnp_ros/share/pnp_ros/plans/sensing.png
+[6.506s] -- Installing: /home/handsome/ros_ws_test/install/pnp_ros/share/pnp_ros/plans/MultiRobot.pnml
+[6.506s] -- Installing: /home/handsome/ros_ws_test/install/pnp_ros/share/pnp_ros/plans/fork_join.png
+[6.507s] -- Installing: /home/handsome/ros_ws_test/install/pnp_ros/share/pnp_ros/plans/sensing.pnml
+[6.507s] -- Installing: /home/handsome/ros_ws_test/install/pnp_ros/share/pnp_ros/plans/interrupt.png
+[6.507s] -- Installing: /home/handsome/ros_ws_test/install/pnp_ros/share/pnp_ros/plans/fork_join.pnml
+[6.507s] -- Installing: /home/handsome/ros_ws_test/install/pnp_ros/share/pnp_ros/plans/sequence_loop.png
+[6.507s] -- Installing: /home/handsome/ros_ws_test/install/pnp_ros/lib/libPNPAS.so
+[6.512s] -- Set runtime path of "/home/handsome/ros_ws_test/install/pnp_ros/lib/libPNPAS.so" to ""
+[6.512s] -- Installing: /home/handsome/ros_ws_test/install/pnp_ros/lib/pnp_ros/pnp_node
+[6.515s] -- Set runtime path of "/home/handsome/ros_ws_test/install/pnp_ros/lib/pnp_ros/pnp_node" to ""
+[6.515s] -- Installing: /home/handsome/ros_ws_test/install/pnp_ros/lib/libpnpros.so
+[6.520s] -- Set runtime path of "/home/handsome/ros_ws_test/install/pnp_ros/lib/libpnpros.so" to ""
+[6.520s] -- Installing: /home/handsome/ros_ws_test/install/pnp_ros/include/pnp_ros
+[6.520s] -- Installing: /home/handsome/ros_ws_test/install/pnp_ros/include/pnp_ros/LearnPNP
+[6.520s] -- Installing: /home/handsome/ros_ws_test/install/pnp_ros/include/pnp_ros/LearnPNP/ROSLearnInstantiator.h
+[6.521s] -- Installing: /home/handsome/ros_ws_test/install/pnp_ros/include/pnp_ros/LearnPNP/ROSReward.h
+[6.521s] -- Installing: /home/handsome/ros_ws_test/install/pnp_ros/include/pnp_ros/LearnPNP/World
+[6.521s] -- Installing: /home/handsome/ros_ws_test/install/pnp_ros/include/pnp_ros/LearnPNP/World/World.h
+[6.521s] -- Installing: /home/handsome/ros_ws_test/install/pnp_ros/include/pnp_ros/names.h
+[6.521s] -- Installing: /home/handsome/ros_ws_test/install/pnp_ros/include/pnp_ros/ROSInst.h
+[6.521s] -- Installing: /home/handsome/ros_ws_test/install/pnp_ros/include/pnp_ros/PNPActionServer.h
+[6.522s] -- Installing: /home/handsome/ros_ws_test/install/pnp_ros/include/pnp_ros/ActionProxy.h
+[6.522s] -- Installing: /home/handsome/ros_ws_test/install/pnp_ros/include/pnp_ros/ROSConds.h
+[6.568s] Invoked command in '/home/handsome/ros_ws_test/build/pnp_ros' returned '0': CMAKE_PREFIX_PATH=/home/handsome/ros_ws_test/install/pnp_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/handsome/ros_ws_test/install/pnp_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/pnp_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/handsome/ros_ws_test/install/pnp_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/handsome/ros_ws_test/install/pnp_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/handsome/ros_ws_test/build/pnp_ros --target install -- -j12 -l12

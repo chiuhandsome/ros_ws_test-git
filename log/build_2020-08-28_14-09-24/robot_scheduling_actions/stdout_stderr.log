@@ -1,0 +1,16 @@
+[35m[1mScanning dependencies of target robot_scheduling_actions_node[0m
+[  4%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/private_actions/robot_if_proc_upper_action.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/robot_scheduling_actions.cpp.o[0m
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_if_proc_upper_action.cpp:31:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kvoid robot_if_proc_upper_action::Process_SendTopic()[m[K’
+ void [01;31m[Krobot_if_proc_upper_action[m[K::Process_SendTopic()
+      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/private_actions/robot_if_proc_upper_action.cpp:27:6:[m[K [01;36m[Knote: [m[K‘[01m[Kvoid robot_if_proc_upper_action::Process_SendTopic()[m[K’ previously defined here
+ void [01;36m[Krobot_if_proc_upper_action[m[K::Process_SendTopic()
+      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+CMakeFiles/robot_scheduling_actions_node.dir/build.make:182: recipe for target 'CMakeFiles/robot_scheduling_actions_node.dir/src/private_actions/robot_if_proc_upper_action.cpp.o' failed
+make[2]: *** [CMakeFiles/robot_scheduling_actions_node.dir/src/private_actions/robot_if_proc_upper_action.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/robot_scheduling_actions_node.dir/all] Error 2
+make: *** [all] Error 2
+CMakeFiles/Makefile2:227: recipe for target 'CMakeFiles/robot_scheduling_actions_node.dir/all' failed
+Makefile:140: recipe for target 'all' failed

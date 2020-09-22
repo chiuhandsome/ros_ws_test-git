@@ -1,0 +1,133 @@
+[35m[1mScanning dependencies of target robot_scheduling_actions_node[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/robot_scheduling_actions.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/robot_scheduling_service.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/robot_scheduling_parameter.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/private_actions/robot_if_proc_lower_action.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/private_actions/robot_if_process_action.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/private_actions/robot_if_proc_upper_action.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/private_actions/robot_run_state_action.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/public_actions/db_process_action.cpp.o[0m
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/robot_scheduling_parameter.h:3[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_parameter.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_parameter.cpp:[m[K In member function ‘[01m[Kvoid robot_scheduling_parameter::ac_fixed_pose2d_init_set(ros::NodeHandle)[m[K’:
+[01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kstd::map<std::__cxx11::basic_string<char>, std::shared_ptr<ac_locomotor_pos2d> >::size_type {aka long unsigned int}[m[K’ [[01;35m[K-Wformat=[m[K]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;35m[K)[m[K
+                                                                                                                                                                                [01;35m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_parameter.cpp:217:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+     [01;36m[KR[m[KOS_INFO("ac_locomotor_pos2d_map_ size:%d",ac_locomotor_pos2d_map_.size());
+     [01;36m[K^[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/db_process_action.cpp:2:0[m[K:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:[m[K In member function ‘[01m[Kbool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::mongo_table_Insert(const boost::shared_ptr<X>&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:96:27:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kget_Now_LocalTime[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kget_Now_LocalTime[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+    (*_data).update_time = [01;35m[Kget_Now_LocalTime[m[K();  //-- from tools
+                           [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:[m[K In member function ‘[01m[Kbool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::mongo_table_modify(const boost::shared_ptr<X>&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:107:27:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kget_Now_LocalTime[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kget_Now_LocalTime[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+    (*_data).update_time = [01;35m[Kget_Now_LocalTime[m[K();
+                           [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:[m[K In member function ‘[01m[Kbool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::response_table_data_Query(std::__cxx11::string, std::__cxx11::string, std::__cxx11::string, MsgType_resp&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:391:16:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kstrtoint[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kstrtoint[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+    int _type = [01;35m[Kstrtoint[m[K(base_index,-1); //-- search type
+                [01;35m[K^~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:[m[K In member function ‘[01m[Kbool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::srv_Eval_db_table_srv_service(MsgType_req&, MsgType_resp&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:470:25:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kconvert_str[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kconvert_str[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+       resp.error_code = [01;35m[Kconvert_str[m[K((int)table_srv_error_type) ;
+                         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:479:25:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kconvert_str[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kconvert_str[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+       resp.error_code = [01;35m[Kconvert_str[m[K((int)table_srv_error_type) ;
+                         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:487:25:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kconvert_str[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kconvert_str[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+       resp.error_code = [01;35m[Kconvert_str[m[K((int)edb_tb_err_type_none) ;
+                         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:504:25:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kconvert_str[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kconvert_str[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+       resp.error_code = [01;35m[Kconvert_str[m[K((int)edb_tb_err_type_none) ;
+                         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:509:25:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kconvert_str[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kconvert_str[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+       resp.error_code = [01;35m[Kconvert_str[m[K((int)table_srv_error_type) ;
+                         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:520:25:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kconvert_str[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kconvert_str[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+       resp.error_code = [01;35m[Kconvert_str[m[K((int)edb_tb_err_type_none) ;
+                         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:525:25:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kconvert_str[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kconvert_str[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+       resp.error_code = [01;35m[Kconvert_str[m[K((int)table_srv_error_type) ;
+                         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:533:24:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kconvert_str[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kconvert_str[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+      resp.error_code = [01;35m[Kconvert_str[m[K((int)edb_tb_err_type_none) ;
+                        [01;35m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/db_process_action.h:4[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/db_process_action.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/db_process_action.cpp:[m[K In member function ‘[01m[Kvoid db_process_action::ac_doneCb(const actionlib::SimpleClientGoalState&, const car_db_processResultConstPtr&)[m[K’:
+[01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type {aka long unsigned int}[m[K’ [[01;35m[K-Wformat=[m[K]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;35m[K)[m[K
+                                                                                                                                                                                [01;35m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/db_process_action.cpp:269:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+         [01;36m[KR[m[KOS_INFO("counter = result_data_vector.size()==>%d",result_data_vector.size());
+         [01;36m[K^[m[K
+[100%] [32m[1mLinking CXX executable devel/lib/robot_scheduling_actions/robot_scheduling_actions_node[0m
+[100%] Built target robot_scheduling_actions_node
+Built target tests
+[100%] Built target robot_scheduling_actions_node
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/lib/pkgconfig/robot_scheduling_actions.pc
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/share/robot_scheduling_actions/cmake/robot_scheduling_actionsConfig.cmake
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/share/robot_scheduling_actions/cmake/robot_scheduling_actionsConfig-version.cmake
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/share/robot_scheduling_actions/package.xml
+-- Installing: /home/handsome/ros_ws_test/install/robot_scheduling_actions/lib/robot_scheduling_actions/robot_scheduling_actions_node
+-- Set runtime path of "/home/handsome/ros_ws_test/install/robot_scheduling_actions/lib/robot_scheduling_actions/robot_scheduling_actions_node" to ""
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/share/robot_scheduling_actions/launch
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/share/robot_scheduling_actions/launch/robot_scheduling_action.launch
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/share/robot_scheduling_actions/config
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/share/robot_scheduling_actions/config/scheduling_params.yaml
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/public_actions
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/public_actions/db_process_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/public_actions/function_run_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/public_actions/worksheetrun_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/public_actions/pose_move_to_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/public_actions/undock_to_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/public_actions/self_turn_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/public_actions/time_wait_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/public_actions/turn_pid.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/public_actions/pose_recognize_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/public_actions/dock_to_action.h
+-- Installing: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/robot_scheduling_parameter.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/private_actions
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/private_actions/robot_if_params_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/private_actions/robot_if_process_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/private_actions/robot_power_charge_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/private_actions/robot_if_proc_lower_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/private_actions/robot_command_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/private_actions/interrupt_info_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/private_actions/robot_if_proc_upper_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/private_actions/robot_run_state_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/robot_scheduling_actions.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/robot_scheduling_service.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/scheduling_params.yaml

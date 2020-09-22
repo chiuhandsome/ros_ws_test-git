@@ -1,0 +1,10 @@
+CMake Warning at /opt/ros/melodic/share/catkin/cmake/catkin_package.cmake:418 (message):
+  catkin_package() include dir
+  '/home/handsome/ros_ws_test/build/cellctrl_qtgui_bridge' should be placed
+  in the devel space instead of the build space
+Call Stack (most recent call first):
+  /opt/ros/melodic/share/catkin/cmake/catkin_package.cmake:102 (_catkin_package)
+  CMakeLists.txt:121 (catkin_package)
+
+
+WARNING: Target "cellctrl_qtgui_bridge_node" requests linking to directory "/usr/include".  Targets may link only to libraries.  CMake is dropping the item.

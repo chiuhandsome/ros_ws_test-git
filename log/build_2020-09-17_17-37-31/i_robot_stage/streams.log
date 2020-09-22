@@ -1,0 +1,35 @@
+[0.015s] Invoking command in '/home/handsome/ros_ws_test/build/i_robot_stage': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/i_robot_stage -- -j12 -l12
+[0.061s] Invoked command in '/home/handsome/ros_ws_test/build/i_robot_stage' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/i_robot_stage -- -j12 -l12
+[0.094s] Invoking command in '/home/handsome/ros_ws_test/build/i_robot_stage': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/i_robot_stage --target tests -- -j12 -l12
+[0.164s] Built target tests
+[0.177s] Invoked command in '/home/handsome/ros_ws_test/build/i_robot_stage' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/i_robot_stage --target tests -- -j12 -l12
+[0.236s] Invoking command in '/home/handsome/ros_ws_test/build/i_robot_stage': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/i_robot_stage --target install -- -j12 -l12
+[0.303s] [36mInstall the project...[0m
+[0.314s] -- Install configuration: ""
+[0.314s] -- Up-to-date: /home/handsome/ros_ws_test/install/i_robot_stage/lib/pkgconfig/i_robot_stage.pc
+[0.314s] -- Up-to-date: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/cmake/i_robot_stageConfig.cmake
+[0.314s] -- Up-to-date: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/cmake/i_robot_stageConfig-version.cmake
+[0.315s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/package.xml
+[0.315s] -- Up-to-date: /home/handsome/ros_ws_test/install/i_robot_stage/etc/catkin/profile.d/25.i-robot-stage.sh
+[0.315s] -- Up-to-date: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/catkin_env_hook/25.i-robot-stage.sh
+[0.315s] -- Up-to-date: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/launch
+[0.315s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/launch/i_robot_teb_in_stage.launch
+[0.315s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/launch/i_robot_in_stage.launch
+[0.315s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/launch/i_robot_locomotor_teb_in_stage.launch
+[0.315s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/launch/i_robot_real_teb.launch
+[0.315s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/launch/locomotor.launch
+[0.315s] -- Up-to-date: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/param
+[0.315s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/param/mux.yaml
+[0.315s] -- Up-to-date: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/maps
+[0.316s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/maps/maze.yaml
+[0.316s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/maps/robopark_plan.yaml
+[0.316s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/maps/robopark2.bmp
+[0.318s] -- Up-to-date: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/maps/stage
+[0.318s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/maps/stage/robopark_plan.world
+[0.318s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/maps/stage/turtlebot.inc
+[0.319s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/maps/stage/maze.world
+[0.319s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/maps/maze.png
+[0.319s] -- Up-to-date: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/rviz
+[0.319s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/rviz/robot_teb_navigation.rviz
+[0.319s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/rviz/robot_navigation.rviz
+[0.324s] Invoked command in '/home/handsome/ros_ws_test/build/i_robot_stage' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/i_robot_stage --target install -- -j12 -l12

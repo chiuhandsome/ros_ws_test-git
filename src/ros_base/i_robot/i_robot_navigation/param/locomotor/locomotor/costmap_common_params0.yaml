@@ -1,0 +1,29 @@
+costmap_adapter: nav_core_adapter::CostmapAdapter
+#---standard pioneer footprint---
+#---(in meters)---
+#robot_radius: 0.17
+footprint_padding: 0.0
+footprint: [ [0.47, 0.34], [0.47, -0.34], [-0.47 , -0.34], [-0.47, 0.34]] #0.265
+transform_tolerance: 0.2
+map_type: costmap
+
+obstacle_layer:
+ enabled: true
+ obstacle_range: 1.0 #5.0
+ raytrace_range: 3.0 #10.0
+ inflation_radius: 0.01 #0.3
+ track_unknown_space: true
+ combination_method: 1
+
+ observation_sources: laser_scan_sensor #laser_scan_sensor1
+ laser_scan_sensor: {data_type: LaserScan, topic: scan, marking: true, clearing: true, inf_is_vaild: true}
+ laser_scan_sensor1: {data_type: LaserScan, topic: scan1, marking: true, clearing: true, inf_is_vaild: true}
+
+inflation_layer:
+  enabled:              true
+  cost_scaling_factor:  10.0  # exponential rate at which the obstacle cost drops off (default: 10)
+  inflation_radius:     0.01  # 0.3 max. distance from an obstacle at which costs are incurred for planning paths.
+
+static_layer:
+  enabled:              true
+  map_topic:            "map"

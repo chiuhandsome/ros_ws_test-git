@@ -1,0 +1,22 @@
+[ 50%] Built target ctrl_tb_alarm
+[100%] Built target robot_database_bridge
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[ 50%] Built target ctrl_tb_alarm
+[100%] Built target robot_database_bridge
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/handsome/ros_ws_test/install/robot_database_bridge/lib/pkgconfig/robot_database_bridge.pc
+-- Installing: /home/handsome/ros_ws_test/install/robot_database_bridge/share/robot_database_bridge/cmake/robot_database_bridgeConfig.cmake
+-- Installing: /home/handsome/ros_ws_test/install/robot_database_bridge/share/robot_database_bridge/cmake/robot_database_bridgeConfig-version.cmake
+-- Installing: /home/handsome/ros_ws_test/install/robot_database_bridge/share/robot_database_bridge/package.xml
+-- Installing: /home/handsome/ros_ws_test/install/robot_database_bridge/lib/robot_database_bridge/robot_database_bridge
+-- Set runtime path of "/home/handsome/ros_ws_test/install/robot_database_bridge/lib/robot_database_bridge/robot_database_bridge" to ""
+-- Installing: /home/handsome/ros_ws_test/install/robot_database_bridge/lib/libctrl_tb_alarm.so
+-- Set runtime path of "/home/handsome/ros_ws_test/install/robot_database_bridge/lib/libctrl_tb_alarm.so" to ""
+-- Installing: /home/handsome/ros_ws_test/install/robot_database_bridge/share/robot_database_bridge/launch
+-- Installing: /home/handsome/ros_ws_test/install/robot_database_bridge/share/robot_database_bridge/launch/robot_database_bridge_123.launch
+-- Installing: /home/handsome/ros_ws_test/install/robot_database_bridge/share/robot_database_bridge/launch/ctrlMessage_manager.launch
+-- Installing: /home/handsome/ros_ws_test/install/robot_database_bridge/share/robot_database_bridge/launch/robot_database_bridge.launch
+-- Installing: /home/handsome/ros_ws_test/install/robot_database_bridge/share/robot_database_bridge/config
+-- Installing: /home/handsome/ros_ws_test/install/robot_database_bridge/share/robot_database_bridge/config/robot_control_manage_params.yaml

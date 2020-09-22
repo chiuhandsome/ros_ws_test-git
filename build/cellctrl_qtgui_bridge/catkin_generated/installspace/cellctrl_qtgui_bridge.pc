@@ -1,0 +1,8 @@
+prefix=/home/handsome/ros_ws_test/install/cellctrl_qtgui_bridge
+
+Name: cellctrl_qtgui_bridge
+Description: Description of cellctrl_qtgui_bridge
+Version: 1.2.0
+Cflags: -I${prefix}/include -I/usr/include/x86_64-linux-gnu/qt5/ -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5//mkspecs/linux-g++ -I/usr/include
+Libs: -L${prefix}/lib -lcellctrl_qtgui_bridge
+Requires: tf roscpp roslib actionlib rospy std_msgs mongodb_store_msgs mongodb_store ros_utility_tools cellctrl_control_msgs rqt_gui rqt_gui_cpp

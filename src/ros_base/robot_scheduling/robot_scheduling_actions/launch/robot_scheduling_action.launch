@@ -1,0 +1,7 @@
+<launch>
+        <!-- Action servers -->
+        <node name="robot_scheduling_actions_node" pkg="robot_scheduling_actions" type="robot_scheduling_actions_node" args="" output="screen">
+                <rosparam file="$(find robot_scheduling_actions)/config/scheduling_params.yaml" command="load" />
+        </node>
+
+</launch>

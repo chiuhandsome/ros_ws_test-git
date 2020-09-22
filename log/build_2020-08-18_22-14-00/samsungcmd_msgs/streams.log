@@ -1,0 +1,311 @@
+[0.073s] Invoking command in '/home/handsome/ros_ws_test/build/samsungcmd_msgs': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/samsungcmd_msgs -- -j12 -l12
+[0.332s] [  0%] Built target _samsungcmd_msgs_generate_messages_check_deps_samsung_station_id
+[0.352s] [  0%] Built target _samsungcmd_msgs_generate_messages_check_deps_samsung_iosequence_actActionFeedback
+[0.356s] [  0%] Built target _samsungcmd_msgs_generate_messages_check_deps_samsung_commdata
+[0.356s] [  0%] Built target _samsungcmd_msgs_generate_messages_check_deps_samsung_commdata_actResult
+[0.356s] [  0%] Built target _samsungcmd_msgs_generate_messages_check_deps_samsung_iosequence_actResult
+[0.367s] [  0%] Built target _samsungcmd_msgs_generate_messages_check_deps_samsung_alarmCode
+[0.387s] [  0%] Built target _samsungcmd_msgs_generate_messages_check_deps_samsung_commdata_actActionResult
+[0.404s] [  0%] Built target _samsungcmd_msgs_generate_messages_check_deps_samsung_work_id
+[0.404s] [  0%] Built target _samsungcmd_msgs_generate_messages_check_deps_samsung_alarmHistory
+[0.431s] [  0%] Built target _samsungcmd_msgs_generate_messages_check_deps_samsung_commdata_actActionFeedback
+[0.470s] [  0%] Built target _samsungcmd_msgs_generate_messages_check_deps_samsung_iosequence_actActionResult
+[0.479s] [  0%] Built target _samsungcmd_msgs_generate_messages_check_deps_samsung_commdata_actGoal
+[0.483s] [  0%] Built target std_msgs_generate_messages_eus
+[0.651s] [  0%] Built target _samsungcmd_msgs_generate_messages_check_deps_samsung_commdata_cmd
+[0.658s] [  0%] Built target _samsungcmd_msgs_generate_messages_check_deps_samsung_commdata_actAction
+[0.659s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[0.706s] [  0%] Built target _samsungcmd_msgs_generate_messages_check_deps_samsung_iosequence_actActionGoal
+[0.715s] [  0%] Built target geometry_msgs_generate_messages_eus
+[0.760s] [  0%] Built target _samsungcmd_msgs_generate_messages_check_deps_samsung_cntparamsdata
+[0.913s] [  0%] Built target std_srvs_generate_messages_eus
+[0.925s] [  0%] Built target _samsungcmd_msgs_generate_messages_check_deps_samsung_commdata_actActionGoal
+[0.937s] [  0%] Built target _samsungcmd_msgs_generate_messages_check_deps_samsung_iosequence_actGoal
+[0.946s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[0.947s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[0.952s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.952s] [  0%] Built target _samsungcmd_msgs_generate_messages_check_deps_samsung_commdata_actFeedback
+[0.954s] [  0%] Built target std_srvs_generate_messages_nodejs
+[0.964s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[0.980s] [  0%] Built target _samsungcmd_msgs_generate_messages_check_deps_samsung_iosequence_actFeedback
+[1.029s] [  0%] Built target _samsungcmd_msgs_generate_messages_check_deps_samsung_iosequence_actAction
+[1.031s] [  0%] Built target std_srvs_generate_messages_cpp
+[1.085s] [  0%] Built target std_msgs_generate_messages_cpp
+[1.138s] [  0%] Built target std_msgs_generate_messages_lisp
+[1.172s] [ 20%] Built target samsungcmd_msgs_generate_messages_eus
+[1.178s] [ 20%] Built target std_msgs_generate_messages_py
+[1.187s] [ 20%] Built target geometry_msgs_generate_messages_cpp
+[1.223s] [ 20%] Built target actionlib_msgs_generate_messages_py
+[1.223s] [ 20%] Built target std_srvs_generate_messages_py
+[1.266s] [ 39%] Built target samsungcmd_msgs_generate_messages_nodejs
+[1.270s] [ 39%] Built target actionlib_msgs_generate_messages_lisp
+[1.309s] [ 39%] Built target geometry_msgs_generate_messages_lisp
+[1.337s] [ 39%] Built target geometry_msgs_generate_messages_py
+[1.379s] [ 39%] Built target std_srvs_generate_messages_lisp
+[1.481s] [ 58%] Built target samsungcmd_msgs_generate_messages_cpp
+[1.569s] [ 80%] Built target samsungcmd_msgs_generate_messages_py
+[1.574s] [100%] Built target samsungcmd_msgs_generate_messages_lisp
+[1.732s] [100%] Built target samsungcmd_msgs_generate_messages
+[1.781s] Invoked command in '/home/handsome/ros_ws_test/build/samsungcmd_msgs' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/samsungcmd_msgs -- -j12 -l12
+[3.336s] Invoking command in '/home/handsome/ros_ws_test/build/samsungcmd_msgs': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/samsungcmd_msgs --target tests -- -j12 -l12
+[3.908s] Built target tests
+[4.041s] Invoked command in '/home/handsome/ros_ws_test/build/samsungcmd_msgs' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/samsungcmd_msgs --target tests -- -j12 -l12
+[5.464s] Invoking command in '/home/handsome/ros_ws_test/build/samsungcmd_msgs': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/samsungcmd_msgs --target install -- -j12 -l12
+[5.806s] [  0%] Built target _samsungcmd_msgs_generate_messages_check_deps_samsung_commdata_actActionResult
+[5.832s] [  0%] Built target _samsungcmd_msgs_generate_messages_check_deps_samsung_work_id
+[5.862s] [  0%] Built target _samsungcmd_msgs_generate_messages_check_deps_samsung_iosequence_actActionResult
+[5.864s] [  0%] Built target _samsungcmd_msgs_generate_messages_check_deps_samsung_alarmCode
+[5.864s] [  0%] Built target _samsungcmd_msgs_generate_messages_check_deps_samsung_station_id
+[5.868s] [  0%] Built target _samsungcmd_msgs_generate_messages_check_deps_samsung_iosequence_actResult
+[5.879s] [  0%] Built target _samsungcmd_msgs_generate_messages_check_deps_samsung_iosequence_actActionFeedback
+[5.891s] [  0%] Built target _samsungcmd_msgs_generate_messages_check_deps_samsung_alarmHistory
+[5.895s] [  0%] Built target _samsungcmd_msgs_generate_messages_check_deps_samsung_commdata_actActionFeedback
+[5.918s] [  0%] Built target _samsungcmd_msgs_generate_messages_check_deps_samsung_commdata_actGoal
+[5.934s] [  0%] Built target _samsungcmd_msgs_generate_messages_check_deps_samsung_commdata
+[5.949s] [  0%] Built target _samsungcmd_msgs_generate_messages_check_deps_samsung_commdata_actResult
+[5.969s] [  0%] Built target std_msgs_generate_messages_eus
+[6.022s] [  0%] Built target _samsungcmd_msgs_generate_messages_check_deps_samsung_commdata_actActionGoal
+[6.047s] [  0%] Built target geometry_msgs_generate_messages_eus
+[6.093s] [  0%] Built target _samsungcmd_msgs_generate_messages_check_deps_samsung_commdata_cmd
+[6.115s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[6.127s] [  0%] Built target std_srvs_generate_messages_eus
+[6.130s] [  0%] Built target _samsungcmd_msgs_generate_messages_check_deps_samsung_cntparamsdata
+[6.142s] [  0%] Built target _samsungcmd_msgs_generate_messages_check_deps_samsung_iosequence_actActionGoal
+[6.155s] [  0%] Built target _samsungcmd_msgs_generate_messages_check_deps_samsung_iosequence_actAction
+[6.156s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[6.163s] [  0%] Built target _samsungcmd_msgs_generate_messages_check_deps_samsung_commdata_actAction
+[6.168s] [  0%] Built target _samsungcmd_msgs_generate_messages_check_deps_samsung_iosequence_actGoal
+[6.175s] [  0%] Built target _samsungcmd_msgs_generate_messages_check_deps_samsung_iosequence_actFeedback
+[6.183s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[6.192s] [  0%] Built target std_msgs_generate_messages_nodejs
+[6.211s] [  0%] Built target _samsungcmd_msgs_generate_messages_check_deps_samsung_commdata_actFeedback
+[6.225s] [  0%] Built target std_msgs_generate_messages_py
+[6.229s] [  0%] Built target std_msgs_generate_messages_cpp
+[6.234s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[6.238s] [  0%] Built target std_srvs_generate_messages_py
+[6.247s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[6.259s] [  0%] Built target std_srvs_generate_messages_cpp
+[6.261s] [  0%] Built target actionlib_msgs_generate_messages_py
+[6.273s] [  0%] Built target std_srvs_generate_messages_lisp
+[6.288s] [  0%] Built target geometry_msgs_generate_messages_py
+[6.297s] [  0%] Built target std_srvs_generate_messages_nodejs
+[6.297s] [  0%] Built target std_msgs_generate_messages_lisp
+[6.306s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[6.307s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[6.330s] [ 20%] Built target samsungcmd_msgs_generate_messages_eus
+[6.358s] [ 39%] Built target samsungcmd_msgs_generate_messages_cpp
+[6.359s] [ 78%] Built target samsungcmd_msgs_generate_messages_nodejs
+[6.359s] [ 80%] Built target samsungcmd_msgs_generate_messages_py
+[6.379s] [100%] Built target samsungcmd_msgs_generate_messages_lisp
+[6.433s] [100%] Built target samsungcmd_msgs_generate_messages
+[6.507s] [36mInstall the project...[0m
+[6.588s] -- Install configuration: ""
+[6.588s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/samsungcmd_msgs/msg/samsung_commdata.msg
+[6.588s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/samsungcmd_msgs/msg/samsung_cntparamsdata.msg
+[6.589s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/samsungcmd_msgs/msg/samsung_station_id.msg
+[6.589s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/samsungcmd_msgs/msg/samsung_work_id.msg
+[6.589s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/samsungcmd_msgs/msg/samsung_alarmCode.msg
+[6.589s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/samsungcmd_msgs/msg/samsung_alarmHistory.msg
+[6.589s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/samsungcmd_msgs/srv/samsung_commdata_cmd.srv
+[6.589s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/samsungcmd_msgs/action/samsung_commdata_act.action
+[6.590s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/samsungcmd_msgs/action/samsung_iosequence_act.action
+[6.590s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/samsungcmd_msgs/msg/samsung_commdata_actAction.msg
+[6.590s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/samsungcmd_msgs/msg/samsung_commdata_actActionGoal.msg
+[6.591s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/samsungcmd_msgs/msg/samsung_commdata_actActionResult.msg
+[6.591s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/samsungcmd_msgs/msg/samsung_commdata_actActionFeedback.msg
+[6.591s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/samsungcmd_msgs/msg/samsung_commdata_actGoal.msg
+[6.591s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/samsungcmd_msgs/msg/samsung_commdata_actResult.msg
+[6.591s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/samsungcmd_msgs/msg/samsung_commdata_actFeedback.msg
+[6.592s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/samsungcmd_msgs/msg/samsung_iosequence_actAction.msg
+[6.592s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/samsungcmd_msgs/msg/samsung_iosequence_actActionGoal.msg
+[6.592s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/samsungcmd_msgs/msg/samsung_iosequence_actActionResult.msg
+[6.592s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/samsungcmd_msgs/msg/samsung_iosequence_actActionFeedback.msg
+[6.592s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/samsungcmd_msgs/msg/samsung_iosequence_actGoal.msg
+[6.592s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/samsungcmd_msgs/msg/samsung_iosequence_actResult.msg
+[6.592s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/samsungcmd_msgs/msg/samsung_iosequence_actFeedback.msg
+[6.593s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/samsungcmd_msgs/cmake/samsungcmd_msgs-msg-paths.cmake
+[6.593s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/include/samsungcmd_msgs
+[6.594s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/include/samsungcmd_msgs/samsung_iosequence_actResult.h
+[6.594s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/include/samsungcmd_msgs/samsung_alarmCode.h
+[6.594s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/include/samsungcmd_msgs/samsung_commdata.h
+[6.595s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/include/samsungcmd_msgs/samsung_commdata_actResult.h
+[6.595s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/include/samsungcmd_msgs/samsung_commdata_cmdResponse.h
+[6.595s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/include/samsungcmd_msgs/samsung_commdata_cmdRequest.h
+[6.595s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/include/samsungcmd_msgs/samsung_commdata_actActionResult.h
+[6.596s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/include/samsungcmd_msgs/samsung_commdata_actGoal.h
+[6.597s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/include/samsungcmd_msgs/samsung_iosequence_actActionResult.h
+[6.597s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/include/samsungcmd_msgs/samsung_iosequence_actAction.h
+[6.598s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/include/samsungcmd_msgs/samsung_cntparamsdata.h
+[6.598s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/include/samsungcmd_msgs/samsung_iosequence_actGoal.h
+[6.598s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/include/samsungcmd_msgs/samsung_alarmHistory.h
+[6.598s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/include/samsungcmd_msgs/samsung_iosequence_actActionGoal.h
+[6.599s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/include/samsungcmd_msgs/samsung_commdata_actActionFeedback.h
+[6.599s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/include/samsungcmd_msgs/samsung_commdata_cmd.h
+[6.601s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/include/samsungcmd_msgs/samsung_iosequence_actFeedback.h
+[6.601s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/include/samsungcmd_msgs/samsung_station_id.h
+[6.601s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/include/samsungcmd_msgs/samsung_iosequence_actActionFeedback.h
+[6.601s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/include/samsungcmd_msgs/samsung_commdata_actActionGoal.h
+[6.602s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/include/samsungcmd_msgs/samsung_work_id.h
+[6.603s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/include/samsungcmd_msgs/samsung_commdata_actFeedback.h
+[6.608s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/include/samsungcmd_msgs/samsung_commdata_actAction.h
+[6.609s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/roseus/ros/samsungcmd_msgs
+[6.609s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/roseus/ros/samsungcmd_msgs/msg
+[6.609s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/roseus/ros/samsungcmd_msgs/msg/samsung_commdata_actActionResult.l
+[6.609s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/roseus/ros/samsungcmd_msgs/msg/samsung_commdata_actAction.l
+[6.609s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/roseus/ros/samsungcmd_msgs/msg/samsung_alarmCode.l
+[6.610s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/roseus/ros/samsungcmd_msgs/msg/samsung_station_id.l
+[6.610s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/roseus/ros/samsungcmd_msgs/msg/samsung_work_id.l
+[6.610s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/roseus/ros/samsungcmd_msgs/msg/samsung_iosequence_actAction.l
+[6.610s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/roseus/ros/samsungcmd_msgs/msg/samsung_iosequence_actActionResult.l
+[6.610s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/roseus/ros/samsungcmd_msgs/msg/samsung_iosequence_actActionGoal.l
+[6.611s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/roseus/ros/samsungcmd_msgs/msg/samsung_iosequence_actActionFeedback.l
+[6.611s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/roseus/ros/samsungcmd_msgs/msg/samsung_iosequence_actGoal.l
+[6.612s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/roseus/ros/samsungcmd_msgs/msg/samsung_commdata_actActionGoal.l
+[6.612s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/roseus/ros/samsungcmd_msgs/msg/samsung_alarmHistory.l
+[6.612s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/roseus/ros/samsungcmd_msgs/msg/samsung_commdata_actResult.l
+[6.612s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/roseus/ros/samsungcmd_msgs/msg/samsung_commdata_actGoal.l
+[6.612s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/roseus/ros/samsungcmd_msgs/msg/samsung_commdata.l
+[6.613s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/roseus/ros/samsungcmd_msgs/msg/samsung_iosequence_actResult.l
+[6.613s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/roseus/ros/samsungcmd_msgs/msg/samsung_commdata_actActionFeedback.l
+[6.613s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/roseus/ros/samsungcmd_msgs/msg/samsung_commdata_actFeedback.l
+[6.613s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/roseus/ros/samsungcmd_msgs/msg/samsung_iosequence_actFeedback.l
+[6.613s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/roseus/ros/samsungcmd_msgs/msg/samsung_cntparamsdata.l
+[6.613s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/roseus/ros/samsungcmd_msgs/manifest.l
+[6.613s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/roseus/ros/samsungcmd_msgs/srv
+[6.614s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/roseus/ros/samsungcmd_msgs/srv/samsung_commdata_cmd.l
+[6.614s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/common-lisp/ros/samsungcmd_msgs
+[6.614s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/common-lisp/ros/samsungcmd_msgs/msg
+[6.615s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/common-lisp/ros/samsungcmd_msgs/msg/samsung_iosequence_actAction.lisp
+[6.615s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/common-lisp/ros/samsungcmd_msgs/msg/samsung_commdata_actActionFeedback.lisp
+[6.615s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/common-lisp/ros/samsungcmd_msgs/msg/samsung_iosequence_actResult.lisp
+[6.615s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/common-lisp/ros/samsungcmd_msgs/msg/samsung_alarmCode.lisp
+[6.615s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/common-lisp/ros/samsungcmd_msgs/msg/_package_samsung_iosequence_actActionGoal.lisp
+[6.616s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/common-lisp/ros/samsungcmd_msgs/msg/samsung_alarmHistory.lisp
+[6.616s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/common-lisp/ros/samsungcmd_msgs/msg/_package_samsung_commdata_actFeedback.lisp
+[6.616s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/common-lisp/ros/samsungcmd_msgs/msg/samsung_cntparamsdata.lisp
+[6.616s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/common-lisp/ros/samsungcmd_msgs/msg/_package_samsung_iosequence_actResult.lisp
+[6.616s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/common-lisp/ros/samsungcmd_msgs/msg/_package_samsung_iosequence_actActionFeedback.lisp
+[6.616s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/common-lisp/ros/samsungcmd_msgs/msg/_package_samsung_station_id.lisp
+[6.616s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/common-lisp/ros/samsungcmd_msgs/msg/_package_samsung_alarmHistory.lisp
+[6.616s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/common-lisp/ros/samsungcmd_msgs/msg/samsung_station_id.lisp
+[6.616s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/common-lisp/ros/samsungcmd_msgs/msg/_package_samsung_cntparamsdata.lisp
+[6.617s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/common-lisp/ros/samsungcmd_msgs/msg/_package_samsung_work_id.lisp
+[6.617s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/common-lisp/ros/samsungcmd_msgs/msg/samsung_commdata_actFeedback.lisp
+[6.617s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/common-lisp/ros/samsungcmd_msgs/msg/_package_samsung_iosequence_actFeedback.lisp
+[6.617s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/common-lisp/ros/samsungcmd_msgs/msg/samsung_commdata_actAction.lisp
+[6.618s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/common-lisp/ros/samsungcmd_msgs/msg/samsung_iosequence_actActionResult.lisp
+[6.618s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/common-lisp/ros/samsungcmd_msgs/msg/_package.lisp
+[6.618s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/common-lisp/ros/samsungcmd_msgs/msg/_package_samsung_commdata_actAction.lisp
+[6.618s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/common-lisp/ros/samsungcmd_msgs/msg/_package_samsung_commdata_actActionGoal.lisp
+[6.618s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/common-lisp/ros/samsungcmd_msgs/msg/samsungcmd_msgs-msg.asd
+[6.618s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/common-lisp/ros/samsungcmd_msgs/msg/_package_samsung_commdata_actActionFeedback.lisp
+[6.619s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/common-lisp/ros/samsungcmd_msgs/msg/samsung_iosequence_actActionFeedback.lisp
+[6.619s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/common-lisp/ros/samsungcmd_msgs/msg/_package_samsung_commdata_actGoal.lisp
+[6.619s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/common-lisp/ros/samsungcmd_msgs/msg/samsung_iosequence_actGoal.lisp
+[6.619s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/common-lisp/ros/samsungcmd_msgs/msg/samsung_commdata.lisp
+[6.619s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/common-lisp/ros/samsungcmd_msgs/msg/samsung_commdata_actGoal.lisp
+[6.619s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/common-lisp/ros/samsungcmd_msgs/msg/samsung_commdata_actResult.lisp
+[6.620s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/common-lisp/ros/samsungcmd_msgs/msg/_package_samsung_commdata_actActionResult.lisp
+[6.620s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/common-lisp/ros/samsungcmd_msgs/msg/_package_samsung_commdata_actResult.lisp
+[6.620s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/common-lisp/ros/samsungcmd_msgs/msg/_package_samsung_iosequence_actAction.lisp
+[6.620s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/common-lisp/ros/samsungcmd_msgs/msg/samsung_iosequence_actActionGoal.lisp
+[6.621s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/common-lisp/ros/samsungcmd_msgs/msg/_package_samsung_alarmCode.lisp
+[6.621s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/common-lisp/ros/samsungcmd_msgs/msg/samsung_iosequence_actFeedback.lisp
+[6.621s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/common-lisp/ros/samsungcmd_msgs/msg/_package_samsung_iosequence_actActionResult.lisp
+[6.621s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/common-lisp/ros/samsungcmd_msgs/msg/samsung_commdata_actActionResult.lisp
+[6.621s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/common-lisp/ros/samsungcmd_msgs/msg/_package_samsung_iosequence_actGoal.lisp
+[6.621s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/common-lisp/ros/samsungcmd_msgs/msg/samsung_commdata_actActionGoal.lisp
+[6.622s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/common-lisp/ros/samsungcmd_msgs/msg/_package_samsung_commdata.lisp
+[6.622s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/common-lisp/ros/samsungcmd_msgs/msg/samsung_work_id.lisp
+[6.622s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/common-lisp/ros/samsungcmd_msgs/srv
+[6.622s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/common-lisp/ros/samsungcmd_msgs/srv/samsung_commdata_cmd.lisp
+[6.622s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/common-lisp/ros/samsungcmd_msgs/srv/_package.lisp
+[6.622s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/common-lisp/ros/samsungcmd_msgs/srv/_package_samsung_commdata_cmd.lisp
+[6.622s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/common-lisp/ros/samsungcmd_msgs/srv/samsungcmd_msgs-srv.asd
+[6.622s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/gennodejs/ros/samsungcmd_msgs
+[6.622s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/gennodejs/ros/samsungcmd_msgs/msg
+[6.623s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/gennodejs/ros/samsungcmd_msgs/msg/samsung_commdata_actActionGoal.js
+[6.623s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/gennodejs/ros/samsungcmd_msgs/msg/samsung_work_id.js
+[6.623s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/gennodejs/ros/samsungcmd_msgs/msg/samsung_iosequence_actAction.js
+[6.623s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/gennodejs/ros/samsungcmd_msgs/msg/samsung_station_id.js
+[6.623s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/gennodejs/ros/samsungcmd_msgs/msg/samsung_iosequence_actActionFeedback.js
+[6.624s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/gennodejs/ros/samsungcmd_msgs/msg/samsung_iosequence_actActionResult.js
+[6.624s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/gennodejs/ros/samsungcmd_msgs/msg/_index.js
+[6.624s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/gennodejs/ros/samsungcmd_msgs/msg/samsung_commdata_actActionResult.js
+[6.625s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/gennodejs/ros/samsungcmd_msgs/msg/samsung_cntparamsdata.js
+[6.625s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/gennodejs/ros/samsungcmd_msgs/msg/samsung_alarmHistory.js
+[6.625s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/gennodejs/ros/samsungcmd_msgs/msg/samsung_iosequence_actFeedback.js
+[6.625s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/gennodejs/ros/samsungcmd_msgs/msg/samsung_commdata_actGoal.js
+[6.625s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/gennodejs/ros/samsungcmd_msgs/msg/samsung_iosequence_actResult.js
+[6.625s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/gennodejs/ros/samsungcmd_msgs/msg/samsung_commdata.js
+[6.625s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/gennodejs/ros/samsungcmd_msgs/msg/samsung_commdata_actAction.js
+[6.625s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/gennodejs/ros/samsungcmd_msgs/msg/samsung_iosequence_actGoal.js
+[6.625s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/gennodejs/ros/samsungcmd_msgs/msg/samsung_commdata_actFeedback.js
+[6.626s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/gennodejs/ros/samsungcmd_msgs/msg/samsung_commdata_actActionFeedback.js
+[6.626s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/gennodejs/ros/samsungcmd_msgs/msg/samsung_alarmCode.js
+[6.626s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/gennodejs/ros/samsungcmd_msgs/msg/samsung_iosequence_actActionGoal.js
+[6.627s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/gennodejs/ros/samsungcmd_msgs/msg/samsung_commdata_actResult.js
+[6.627s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/gennodejs/ros/samsungcmd_msgs/_index.js
+[6.627s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/gennodejs/ros/samsungcmd_msgs/srv
+[6.627s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/gennodejs/ros/samsungcmd_msgs/srv/_index.js
+[6.627s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/gennodejs/ros/samsungcmd_msgs/srv/samsung_commdata_cmd.js
+[6.703s] Listing /home/handsome/ros_ws_test/build/samsungcmd_msgs/devel/lib/python2.7/dist-packages/samsungcmd_msgs ...
+[6.704s] Listing /home/handsome/ros_ws_test/build/samsungcmd_msgs/devel/lib/python2.7/dist-packages/samsungcmd_msgs/msg ...
+[6.704s] Listing /home/handsome/ros_ws_test/build/samsungcmd_msgs/devel/lib/python2.7/dist-packages/samsungcmd_msgs/srv ...
+[6.708s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs
+[6.709s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/msg
+[6.709s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/msg/_samsung_commdata_actActionResult.pyc
+[6.709s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/msg/_samsung_commdata_actActionResult.py
+[6.709s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/msg/_samsung_commdata_actActionGoal.py
+[6.710s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/msg/_samsung_station_id.py
+[6.710s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/msg/_samsung_commdata_actFeedback.py
+[6.710s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/msg/_samsung_iosequence_actFeedback.py
+[6.710s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/msg/_samsung_station_id.pyc
+[6.710s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/msg/_samsung_commdata_actResult.pyc
+[6.711s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/msg/_samsung_iosequence_actActionFeedback.py
+[6.711s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/msg/__init__.py
+[6.711s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/msg/_samsung_commdata.pyc
+[6.711s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/msg/_samsung_iosequence_actActionGoal.py
+[6.712s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/msg/_samsung_commdata_actActionFeedback.py
+[6.712s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/msg/_samsung_iosequence_actActionGoal.pyc
+[6.712s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/msg/_samsung_iosequence_actGoal.pyc
+[6.712s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/msg/_samsung_commdata_actActionGoal.pyc
+[6.712s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/msg/_samsung_iosequence_actResult.py
+[6.712s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/msg/_samsung_iosequence_actActionResult.pyc
+[6.713s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/msg/_samsung_work_id.pyc
+[6.713s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/msg/_samsung_iosequence_actResult.pyc
+[6.713s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/msg/_samsung_commdata_actFeedback.pyc
+[6.713s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/msg/_samsung_iosequence_actFeedback.pyc
+[6.713s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/msg/_samsung_iosequence_actAction.pyc
+[6.713s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/msg/_samsung_alarmCode.pyc
+[6.713s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/msg/_samsung_commdata_actResult.py
+[6.714s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/msg/_samsung_cntparamsdata.py
+[6.714s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/msg/_samsung_commdata_actActionFeedback.pyc
+[6.714s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/msg/_samsung_alarmHistory.pyc
+[6.714s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/msg/_samsung_commdata.py
+[6.714s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/msg/_samsung_iosequence_actGoal.py
+[6.714s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/msg/_samsung_cntparamsdata.pyc
+[6.714s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/msg/_samsung_iosequence_actActionFeedback.pyc
+[6.715s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/msg/_samsung_commdata_actAction.py
+[6.715s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/msg/_samsung_commdata_actGoal.py
+[6.715s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/msg/_samsung_iosequence_actAction.py
+[6.715s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/msg/_samsung_alarmCode.py
+[6.715s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/msg/__init__.pyc
+[6.715s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/msg/_samsung_commdata_actGoal.pyc
+[6.715s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/msg/_samsung_commdata_actAction.pyc
+[6.715s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/msg/_samsung_iosequence_actActionResult.py
+[6.716s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/msg/_samsung_work_id.py
+[6.716s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/msg/_samsung_alarmHistory.py
+[6.716s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/__init__.py
+[6.716s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/srv
+[6.718s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/srv/__init__.py
+[6.720s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/srv/_samsung_commdata_cmd.pyc
+[6.721s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/srv/_samsung_commdata_cmd.py
+[6.721s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/srv/__init__.pyc
+[6.722s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/python2.7/dist-packages/samsungcmd_msgs/__init__.pyc
+[6.722s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/lib/pkgconfig/samsungcmd_msgs.pc
+[6.723s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/samsungcmd_msgs/cmake/samsungcmd_msgs-msg-extras.cmake
+[6.723s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/samsungcmd_msgs/cmake/samsungcmd_msgsConfig.cmake
+[6.724s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/samsungcmd_msgs/cmake/samsungcmd_msgsConfig-version.cmake
+[6.725s] -- Up-to-date: /home/handsome/ros_ws_test/install/samsungcmd_msgs/share/samsungcmd_msgs/package.xml
+[6.727s] Invoked command in '/home/handsome/ros_ws_test/build/samsungcmd_msgs' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/samsungcmd_msgs --target install -- -j12 -l12

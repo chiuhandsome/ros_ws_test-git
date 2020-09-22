@@ -1,0 +1,8 @@
+prefix=/home/handsome/ros_ws_test/build/ros_utility_tools/devel
+
+Name: ros_utility_tools
+Description: Description of ros_utility_tools
+Version: 0.1.1
+Cflags: -I/home/handsome/ros_ws_test/src/ros_base/ros_utility_tools/include
+Libs: -L${prefix}/lib -lros_utility_tools
+Requires: roscpp roslib actionlib rospy std_msgs

@@ -1,0 +1,19 @@
+(cl:defpackage rp_action_msgs-msg
+  (:use )
+  (:export
+   "<TURNACTION>"
+   "TURNACTION"
+   "<TURNACTIONFEEDBACK>"
+   "TURNACTIONFEEDBACK"
+   "<TURNACTIONGOAL>"
+   "TURNACTIONGOAL"
+   "<TURNACTIONRESULT>"
+   "TURNACTIONRESULT"
+   "<TURNFEEDBACK>"
+   "TURNFEEDBACK"
+   "<TURNGOAL>"
+   "TURNGOAL"
+   "<TURNRESULT>"
+   "TURNRESULT"
+  ))
+

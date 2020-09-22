@@ -1,0 +1,10 @@
+(cl:defpackage samsungcmd_msgs-srv
+  (:use )
+  (:export
+   "SAMSUNG_COMMDATA_CMD"
+   "<SAMSUNG_COMMDATA_CMD-REQUEST>"
+   "SAMSUNG_COMMDATA_CMD-REQUEST"
+   "<SAMSUNG_COMMDATA_CMD-RESPONSE>"
+   "SAMSUNG_COMMDATA_CMD-RESPONSE"
+  ))
+

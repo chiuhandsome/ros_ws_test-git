@@ -1,0 +1,56 @@
+base_local_planner: nav_core_adapter::LocalPlannerAdapter
+LocalPlannerAdapter:
+  planner_name: dwb_local_planner::DWBLocalPlanner
+DWBLocalPlanner:
+  use_dwa: false
+  holonomic_robot: false
+  min_turning_radius: 0.0
+  acc_lim_th: 0.25 #5.0
+  acc_lim_x: 0.3 #0.3
+  acc_lim_y: 0.0
+  max_speed_xy: 0.4
+  min_speed_xy: 0.0
+  max_vel_x: 0.8
+  min_vel_x: -0.2
+  max_vel_y: 0.0
+  min_vel_y: 0.0
+  max_vel_theta: 0.6 #1
+  min_speed_theta: -0.6 #-1
+#  max_rot_vel: 0.1
+#  min_rot_vel: -0.1
+  # These are guessed tolerance values. Yaw tolerance should be about
+  # 45 degree and xy tolerance within a foot.
+  yaw_goal_tolerance: 0.4  # radians
+  xy_goal_tolerance: 0.2  # meters We increase the stop_time_buffer  0.2
+  # because we have a pretty high latency on the controller. A small
+  # stop_time_buffer would cause the robot to crash into obstacles
+  # more often.
+  stop_time_buffer: 0.2 #0.2
+  # Lower the path_distance_bias to make the robot not follow the path
+  # too strictly and avoid spinning in place when gmapping causes
+  # jumsp in the robot's pose.
+#path_distance_bias: 10.0
+  vx_samples: 10
+  vy_samples: 1 #1
+  vtheta_samples: 30
+  occdist_scale: 0.01 #0.01
+#robot_radius: 0.17
+  forward_point_distance: 0.5  #0.325
+  latch_xy_goal_tolerance: true #true
+#footprint: [[x0, y0], [x1, y1], ... [xn, yn]]
+  footprint: [ [0.47, 0.34], [0.47, -0.34], [-0.47 , -0.34], [-0.47, 0.34]]  
+  critics: ["RotateToGoal","Oscillation","ObstacleFootprint","GoalAlign","PathAlign","PathDist","GoalDist"]
+  PathAlign/scale: 40.0 #32.0
+  GoalAlign/scale: 30.0 #24.0
+  PathDist/scale: 10.0 #10.0
+  GoalDist/scale: 30.0 #8.0
+  ObstacleFootprint/scale: 0.08
+  ObstacleFootprint/max_scaling_factor: 0.1
+  ObstacleFootprint/scaling_speed: 0.25
+  Oscillation/oscillation_reset_dist: 0.1 #0.05
+  Oscillation/oscillation_reset_angle: 0.1 #0.2
+  Oscillation/oscillation_reset_time: -1.0 #-1.0
+  RotateToGoal/xy_goal_tolerance: 0.1 #0.2
+  RotateToGoal/lookahead_time: -1.0
+  RotateToGoal/slowing_factor: 0.01 #5.0
+  RotateToGoal/trans_stopped_velocity: 0.5

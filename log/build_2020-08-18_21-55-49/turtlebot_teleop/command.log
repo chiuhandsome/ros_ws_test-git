@@ -1,0 +1,8 @@
+Invoking command in '/home/handsome/ros_ws_test/build/turtlebot_teleop': /usr/bin/cmake /home/handsome/ros_ws_test/src/ros_base/turtlebot_teleop -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/handsome/ros_ws_test/install/turtlebot_teleop
+Invoked command in '/home/handsome/ros_ws_test/build/turtlebot_teleop' returned '0': /usr/bin/cmake /home/handsome/ros_ws_test/src/ros_base/turtlebot_teleop -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/handsome/ros_ws_test/install/turtlebot_teleop
+Invoking command in '/home/handsome/ros_ws_test/build/turtlebot_teleop': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/turtlebot_teleop -- -j12 -l12
+Invoked command in '/home/handsome/ros_ws_test/build/turtlebot_teleop' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/turtlebot_teleop -- -j12 -l12
+Invoking command in '/home/handsome/ros_ws_test/build/turtlebot_teleop': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/turtlebot_teleop --target tests -- -j12 -l12
+Invoked command in '/home/handsome/ros_ws_test/build/turtlebot_teleop' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/turtlebot_teleop --target tests -- -j12 -l12
+Invoking command in '/home/handsome/ros_ws_test/build/turtlebot_teleop': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/turtlebot_teleop --target install -- -j12 -l12
+Invoked command in '/home/handsome/ros_ws_test/build/turtlebot_teleop' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/turtlebot_teleop --target install -- -j12 -l12

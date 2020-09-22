@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/tug_example_msgs_generate_messages_nodejs"
+  "devel/share/gennodejs/ros/tug_example_msgs/msg/RecoverNotFetchingBoxActionGoal.js"
+  "devel/share/gennodejs/ros/tug_example_msgs/msg/RecoverTimedOutResult.js"
+  "devel/share/gennodejs/ros/tug_example_msgs/msg/TransportBoxActionGoal.js"
+  "devel/share/gennodejs/ros/tug_example_msgs/msg/RecoverTimedOutAction.js"
+  "devel/share/gennodejs/ros/tug_example_msgs/msg/FetchBoxAction.js"
+  "devel/share/gennodejs/ros/tug_example_msgs/msg/PutBoxActionGoal.js"
+  "devel/share/gennodejs/ros/tug_example_msgs/msg/FetchBoxGoal.js"
+  "devel/share/gennodejs/ros/tug_example_msgs/msg/TransportBoxAction.js"
+  "devel/share/gennodejs/ros/tug_example_msgs/msg/PutBoxAction.js"
+  "devel/share/gennodejs/ros/tug_example_msgs/msg/FetchBoxActionGoal.js"
+  "devel/share/gennodejs/ros/tug_example_msgs/msg/FetchBoxResult.js"
+  "devel/share/gennodejs/ros/tug_example_msgs/msg/PutBoxGoal.js"
+  "devel/share/gennodejs/ros/tug_example_msgs/msg/FetchBoxFeedback.js"
+  "devel/share/gennodejs/ros/tug_example_msgs/msg/FetchBoxActionResult.js"
+  "devel/share/gennodejs/ros/tug_example_msgs/msg/TransportBoxGoal.js"
+  "devel/share/gennodejs/ros/tug_example_msgs/msg/RecoverNotFetchingBoxActionFeedback.js"
+  "devel/share/gennodejs/ros/tug_example_msgs/msg/RecoverTimedOutGoal.js"
+  "devel/share/gennodejs/ros/tug_example_msgs/msg/TransportBoxResult.js"
+  "devel/share/gennodejs/ros/tug_example_msgs/msg/TransportBoxActionFeedback.js"
+  "devel/share/gennodejs/ros/tug_example_msgs/msg/PutBoxResult.js"
+  "devel/share/gennodejs/ros/tug_example_msgs/msg/RecoverTimedOutActionGoal.js"
+  "devel/share/gennodejs/ros/tug_example_msgs/msg/RecoverNotFetchingBoxAction.js"
+  "devel/share/gennodejs/ros/tug_example_msgs/msg/TransportBoxActionResult.js"
+  "devel/share/gennodejs/ros/tug_example_msgs/msg/PutBoxActionResult.js"
+  "devel/share/gennodejs/ros/tug_example_msgs/msg/RecoverNotFetchingBoxGoal.js"
+  "devel/share/gennodejs/ros/tug_example_msgs/msg/PutBoxActionFeedback.js"
+  "devel/share/gennodejs/ros/tug_example_msgs/msg/RecoverTimedOutActionResult.js"
+  "devel/share/gennodejs/ros/tug_example_msgs/msg/RecoverTimedOutActionFeedback.js"
+  "devel/share/gennodejs/ros/tug_example_msgs/msg/RecoverNotFetchingBoxActionResult.js"
+  "devel/share/gennodejs/ros/tug_example_msgs/msg/FetchBoxActionFeedback.js"
+  "devel/share/gennodejs/ros/tug_example_msgs/msg/TransportBoxFeedback.js"
+  "devel/share/gennodejs/ros/tug_example_msgs/msg/RecoverNotFetchingBoxResult.js"
+  "devel/share/gennodejs/ros/tug_example_msgs/msg/PutBoxFeedback.js"
+  "devel/share/gennodejs/ros/tug_example_msgs/msg/RecoverTimedOutFeedback.js"
+  "devel/share/gennodejs/ros/tug_example_msgs/msg/RecoverNotFetchingBoxFeedback.js"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/tug_example_msgs_generate_messages_nodejs.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,572 @@
+[0.110s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'omron_os32c_driver']
+[0.110s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths='.', build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base='log', log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f0754b71978>>, merge_install=False, metas='./colcon.meta', packages_above=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['omron_os32c_driver'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f0754b71978>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f0754b71c88>)
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.140s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/handsome/ros_ws/src/ros_base'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base) by extensions ['ignore', 'ignore_ament_install']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base) by extension 'ignore'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base) by extension 'ignore_ament_install'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base) by extensions ['colcon_pkg']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base) by extension 'colcon_pkg'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base) by extensions ['colcon_meta']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base) by extension 'colcon_meta'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base) by extensions ['ros']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base) by extension 'ros'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base) by extensions ['cmake', 'python']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base) by extension 'cmake'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base) by extension 'python'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base) by extensions ['python_setup_py']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base) by extension 'python_setup_py'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/botcmd_msgs ) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/botcmd_msgs ) by extension 'ignore'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/botcmd_msgs ) by extension 'ignore_ament_install'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/botcmd_msgs ) by extensions ['colcon_pkg']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/botcmd_msgs ) by extension 'colcon_pkg'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/botcmd_msgs ) by extensions ['colcon_meta']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/botcmd_msgs ) by extension 'colcon_meta'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/botcmd_msgs ) by extensions ['ros']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/botcmd_msgs ) by extension 'ros'
+[0.152s] DEBUG:colcon.colcon_core.package_identification:Package '/home/handsome/ros_ws/src/ros_base/botcmd_msgs ' with type 'ros.catkin' and name 'botcmd_msgs'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/build) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/build) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/build) ignored
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/install) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/install) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/install) ignored
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/lino_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/lino_msgs) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/lino_msgs) by extension 'ignore_ament_install'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/lino_msgs) by extensions ['colcon_pkg']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/lino_msgs) by extension 'colcon_pkg'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/lino_msgs) by extensions ['colcon_meta']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/lino_msgs) by extension 'colcon_meta'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/lino_msgs) by extensions ['ros']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/lino_msgs) by extension 'ros'
+[0.154s] DEBUG:colcon.colcon_core.package_identification:Package '/home/handsome/ros_ws/src/ros_base/lino_msgs' with type 'ros.catkin' and name 'lino_msgs'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/linorobot) by extensions ['ignore', 'ignore_ament_install']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/linorobot) by extension 'ignore'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/linorobot) by extension 'ignore_ament_install'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/linorobot) by extensions ['colcon_pkg']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/linorobot) by extension 'colcon_pkg'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/linorobot) by extensions ['colcon_meta']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/linorobot) by extension 'colcon_meta'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/linorobot) by extensions ['ros']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/linorobot) by extension 'ros'
+[0.155s] DEBUG:colcon.colcon_core.package_identification:Package '/home/handsome/ros_ws/src/ros_base/linorobot' with type 'ros.catkin' and name 'linorobot'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/log) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/log) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/log) ignored
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/omron) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/omron) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/omron) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/omron) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/omron) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/omron) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/omron) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/omron) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/omron) by extension 'ros'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/omron) by extensions ['cmake', 'python']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/omron) by extension 'cmake'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/omron) by extension 'python'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/omron) by extensions ['python_setup_py']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/omron) by extension 'python_setup_py'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver) by extension 'ignore'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver) by extension 'ros'
+[0.158s] DEBUG:colcon.colcon_core.package_identification:Package '/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver' with type 'ros.catkin' and name 'omron_os32c_driver'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/razor_imu_9dof) by extensions ['ignore', 'ignore_ament_install']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/razor_imu_9dof) by extension 'ignore'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/razor_imu_9dof) by extension 'ignore_ament_install'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/razor_imu_9dof) by extensions ['colcon_pkg']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/razor_imu_9dof) by extension 'colcon_pkg'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/razor_imu_9dof) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/razor_imu_9dof) by extension 'colcon_meta'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/razor_imu_9dof) by extensions ['ros']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/razor_imu_9dof) by extension 'ros'
+[0.159s] DEBUG:colcon.colcon_core.package_identification:Package '/home/handsome/ros_ws/src/ros_base/razor_imu_9dof' with type 'ros.catkin' and name 'razor_imu_9dof'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_control_manager) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_control_manager) by extension 'ignore'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_control_manager) by extension 'ignore_ament_install'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_control_manager) by extensions ['colcon_pkg']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_control_manager) by extension 'colcon_pkg'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_control_manager) by extensions ['colcon_meta']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_control_manager) by extension 'colcon_meta'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_control_manager) by extensions ['ros']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_control_manager) by extension 'ros'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_control_manager) by extensions ['cmake', 'python']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_control_manager) by extension 'cmake'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_control_manager) by extension 'python'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_control_manager) by extensions ['python_setup_py']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_control_manager) by extension 'python_setup_py'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_control_manager/robot_control_manager) by extensions ['ignore', 'ignore_ament_install']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_control_manager/robot_control_manager) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_control_manager/robot_control_manager) by extension 'ignore_ament_install'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_control_manager/robot_control_manager) by extensions ['colcon_pkg']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_control_manager/robot_control_manager) by extension 'colcon_pkg'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_control_manager/robot_control_manager) by extensions ['colcon_meta']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_control_manager/robot_control_manager) by extension 'colcon_meta'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_control_manager/robot_control_manager) by extensions ['ros']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_control_manager/robot_control_manager) by extension 'ros'
+[0.162s] DEBUG:colcon.colcon_core.package_identification:Package '/home/handsome/ros_ws/src/ros_base/robot_control_manager/robot_control_manager' with type 'ros.catkin' and name 'robot_control_manager'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_control_manager/robot_control_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_control_manager/robot_control_msgs) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_control_manager/robot_control_msgs) by extension 'ignore_ament_install'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_control_manager/robot_control_msgs) by extensions ['colcon_pkg']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_control_manager/robot_control_msgs) by extension 'colcon_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_control_manager/robot_control_msgs) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_control_manager/robot_control_msgs) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_control_manager/robot_control_msgs) by extensions ['ros']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_control_manager/robot_control_msgs) by extension 'ros'
+[0.164s] DEBUG:colcon.colcon_core.package_identification:Package '/home/handsome/ros_ws/src/ros_base/robot_control_manager/robot_control_msgs' with type 'ros.catkin' and name 'robot_control_msgs'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_localization) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_localization) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_localization) by extension 'ignore_ament_install'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_localization) by extensions ['colcon_pkg']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_localization) by extension 'colcon_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_localization) by extensions ['colcon_meta']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_localization) by extension 'colcon_meta'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_localization) by extensions ['ros']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_localization) by extension 'ros'
+[0.166s] DEBUG:colcon.colcon_core.package_identification:Package '/home/handsome/ros_ws/src/ros_base/robot_localization' with type 'ros.catkin' and name 'robot_localization'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation) by extension 'ignore_ament_install'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation) by extension 'colcon_pkg'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation) by extensions ['colcon_meta']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation) by extension 'colcon_meta'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation) by extensions ['ros']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation) by extension 'ros'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation) by extensions ['cmake', 'python']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation) by extension 'cmake'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation) by extension 'python'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation) by extensions ['python_setup_py']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation) by extension 'python_setup_py'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/costmap_queue) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/costmap_queue) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/costmap_queue) by extension 'ignore_ament_install'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/costmap_queue) by extensions ['colcon_pkg']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/costmap_queue) by extension 'colcon_pkg'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/costmap_queue) by extensions ['colcon_meta']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/costmap_queue) by extension 'colcon_meta'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/costmap_queue) by extensions ['ros']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/costmap_queue) by extension 'ros'
+[0.168s] DEBUG:colcon.colcon_core.package_identification:Package '/home/handsome/ros_ws/src/ros_base/robot_navigation/costmap_queue' with type 'ros.catkin' and name 'costmap_queue'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dlux_global_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dlux_global_planner) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dlux_global_planner) by extension 'ignore_ament_install'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dlux_global_planner) by extensions ['colcon_pkg']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dlux_global_planner) by extension 'colcon_pkg'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dlux_global_planner) by extensions ['colcon_meta']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dlux_global_planner) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dlux_global_planner) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dlux_global_planner) by extension 'ros'
+[0.170s] DEBUG:colcon.colcon_core.package_identification:Package '/home/handsome/ros_ws/src/ros_base/robot_navigation/dlux_global_planner' with type 'ros.catkin' and name 'dlux_global_planner'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dlux_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dlux_plugins) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dlux_plugins) by extension 'ignore_ament_install'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dlux_plugins) by extensions ['colcon_pkg']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dlux_plugins) by extension 'colcon_pkg'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dlux_plugins) by extensions ['colcon_meta']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dlux_plugins) by extension 'colcon_meta'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dlux_plugins) by extensions ['ros']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dlux_plugins) by extension 'ros'
+[0.171s] DEBUG:colcon.colcon_core.package_identification:Package '/home/handsome/ros_ws/src/ros_base/robot_navigation/dlux_plugins' with type 'ros.catkin' and name 'dlux_plugins'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dwb_critics) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dwb_critics) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dwb_critics) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dwb_critics) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dwb_critics) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dwb_critics) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dwb_critics) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dwb_critics) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dwb_critics) by extension 'ros'
+[0.173s] DEBUG:colcon.colcon_core.package_identification:Package '/home/handsome/ros_ws/src/ros_base/robot_navigation/dwb_critics' with type 'ros.catkin' and name 'dwb_critics'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dwb_local_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dwb_local_planner) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dwb_local_planner) by extension 'ignore_ament_install'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dwb_local_planner) by extensions ['colcon_pkg']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dwb_local_planner) by extension 'colcon_pkg'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dwb_local_planner) by extensions ['colcon_meta']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dwb_local_planner) by extension 'colcon_meta'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dwb_local_planner) by extensions ['ros']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dwb_local_planner) by extension 'ros'
+[0.174s] DEBUG:colcon.colcon_core.package_identification:Package '/home/handsome/ros_ws/src/ros_base/robot_navigation/dwb_local_planner' with type 'ros.catkin' and name 'dwb_local_planner'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dwb_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dwb_msgs) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dwb_msgs) by extension 'ignore_ament_install'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dwb_msgs) by extensions ['colcon_pkg']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dwb_msgs) by extension 'colcon_pkg'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dwb_msgs) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dwb_msgs) by extension 'colcon_meta'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dwb_msgs) by extensions ['ros']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dwb_msgs) by extension 'ros'
+[0.176s] DEBUG:colcon.colcon_core.package_identification:Package '/home/handsome/ros_ws/src/ros_base/robot_navigation/dwb_msgs' with type 'ros.catkin' and name 'dwb_msgs'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dwb_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dwb_plugins) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dwb_plugins) by extension 'ignore_ament_install'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dwb_plugins) by extensions ['colcon_pkg']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dwb_plugins) by extension 'colcon_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dwb_plugins) by extensions ['colcon_meta']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dwb_plugins) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dwb_plugins) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/dwb_plugins) by extension 'ros'
+[0.177s] DEBUG:colcon.colcon_core.package_identification:Package '/home/handsome/ros_ws/src/ros_base/robot_navigation/dwb_plugins' with type 'ros.catkin' and name 'dwb_plugins'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/global_planner_tests) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/global_planner_tests) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/global_planner_tests) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/global_planner_tests) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/global_planner_tests) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/global_planner_tests) by extensions ['colcon_meta']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/global_planner_tests) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/global_planner_tests) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/global_planner_tests) by extension 'ros'
+[0.178s] DEBUG:colcon.colcon_core.package_identification:Package '/home/handsome/ros_ws/src/ros_base/robot_navigation/global_planner_tests' with type 'ros.catkin' and name 'global_planner_tests'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/locomotor) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/locomotor) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/locomotor) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/locomotor) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/locomotor) by extension 'colcon_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/locomotor) by extensions ['colcon_meta']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/locomotor) by extension 'colcon_meta'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/locomotor) by extensions ['ros']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/locomotor) by extension 'ros'
+[0.180s] DEBUG:colcon.colcon_core.package_identification:Package '/home/handsome/ros_ws/src/ros_base/robot_navigation/locomotor' with type 'ros.catkin' and name 'locomotor'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/locomotor_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/locomotor_msgs) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/locomotor_msgs) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/locomotor_msgs) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/locomotor_msgs) by extension 'colcon_pkg'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/locomotor_msgs) by extensions ['colcon_meta']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/locomotor_msgs) by extension 'colcon_meta'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/locomotor_msgs) by extensions ['ros']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/locomotor_msgs) by extension 'ros'
+[0.182s] DEBUG:colcon.colcon_core.package_identification:Package '/home/handsome/ros_ws/src/ros_base/robot_navigation/locomotor_msgs' with type 'ros.catkin' and name 'locomotor_msgs'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/locomove_base) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/locomove_base) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/locomove_base) by extension 'ignore_ament_install'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/locomove_base) by extensions ['colcon_pkg']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/locomove_base) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/locomove_base) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/locomove_base) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/locomove_base) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/locomove_base) by extension 'ros'
+[0.183s] DEBUG:colcon.colcon_core.package_identification:Package '/home/handsome/ros_ws/src/ros_base/robot_navigation/locomove_base' with type 'ros.catkin' and name 'locomove_base'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_2d_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_2d_msgs) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_2d_msgs) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_2d_msgs) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_2d_msgs) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_2d_msgs) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_2d_msgs) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_2d_msgs) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_2d_msgs) by extension 'ros'
+[0.184s] DEBUG:colcon.colcon_core.package_identification:Package '/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_2d_msgs' with type 'ros.catkin' and name 'nav_2d_msgs'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_2d_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_2d_utils) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_2d_utils) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_2d_utils) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_2d_utils) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_2d_utils) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_2d_utils) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_2d_utils) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_2d_utils) by extension 'ros'
+[0.186s] DEBUG:colcon.colcon_core.package_identification:Package '/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_2d_utils' with type 'ros.catkin' and name 'nav_2d_utils'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_core2) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_core2) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_core2) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_core2) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_core2) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_core2) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_core2) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_core2) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_core2) by extension 'ros'
+[0.194s] DEBUG:colcon.colcon_core.package_identification:Package '/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_core2' with type 'ros.catkin' and name 'nav_core2'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_core_adapter) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_core_adapter) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_core_adapter) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_core_adapter) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_core_adapter) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_core_adapter) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_core_adapter) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_core_adapter) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_core_adapter) by extension 'ros'
+[0.195s] DEBUG:colcon.colcon_core.package_identification:Package '/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_core_adapter' with type 'ros.catkin' and name 'nav_core_adapter'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_grid) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_grid) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_grid) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_grid) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_grid) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_grid) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_grid) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_grid) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_grid) by extension 'ros'
+[0.196s] DEBUG:colcon.colcon_core.package_identification:Package '/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_grid' with type 'ros.catkin' and name 'nav_grid'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_grid_iterators) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_grid_iterators) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_grid_iterators) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_grid_iterators) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_grid_iterators) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_grid_iterators) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_grid_iterators) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_grid_iterators) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_grid_iterators) by extension 'ros'
+[0.198s] DEBUG:colcon.colcon_core.package_identification:Package '/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_grid_iterators' with type 'ros.catkin' and name 'nav_grid_iterators'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_grid_pub_sub) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_grid_pub_sub) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_grid_pub_sub) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_grid_pub_sub) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_grid_pub_sub) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_grid_pub_sub) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_grid_pub_sub) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_grid_pub_sub) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_grid_pub_sub) by extension 'ros'
+[0.199s] DEBUG:colcon.colcon_core.package_identification:Package '/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_grid_pub_sub' with type 'ros.catkin' and name 'nav_grid_pub_sub'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/robot_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/robot_navigation) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/robot_navigation) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/robot_navigation) by extensions ['colcon_pkg']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/robot_navigation) by extension 'colcon_pkg'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/robot_navigation) by extensions ['colcon_meta']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/robot_navigation) by extension 'colcon_meta'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/robot_navigation) by extensions ['ros']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/robot_navigation/robot_navigation) by extension 'ros'
+[0.200s] DEBUG:colcon.colcon_core.package_identification:Package '/home/handsome/ros_ws/src/ros_base/robot_navigation/robot_navigation' with type 'ros.catkin' and name 'robot_navigation'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/ros_utility_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/ros_utility_tools) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/ros_utility_tools) by extension 'ignore_ament_install'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/ros_utility_tools) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/ros_utility_tools) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/ros_utility_tools) by extensions ['colcon_meta']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/ros_utility_tools) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/ros_utility_tools) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/ros_utility_tools) by extension 'ros'
+[0.202s] DEBUG:colcon.colcon_core.package_identification:Package '/home/handsome/ros_ws/src/ros_base/ros_utility_tools' with type 'ros.catkin' and name 'ros_utility_tools'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/samsungcmd_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/samsungcmd_msgs) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/samsungcmd_msgs) by extension 'ignore_ament_install'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/samsungcmd_msgs) by extensions ['colcon_pkg']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/samsungcmd_msgs) by extension 'colcon_pkg'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/samsungcmd_msgs) by extensions ['colcon_meta']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/samsungcmd_msgs) by extension 'colcon_meta'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/samsungcmd_msgs) by extensions ['ros']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/samsungcmd_msgs) by extension 'ros'
+[0.203s] DEBUG:colcon.colcon_core.package_identification:Package '/home/handsome/ros_ws/src/ros_base/samsungcmd_msgs' with type 'ros.catkin' and name 'samsungcmd_msgs'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/sensor_source) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/sensor_source) by extension 'ignore'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/sensor_source) by extension 'ignore_ament_install'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/sensor_source) by extensions ['colcon_pkg']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/sensor_source) by extension 'colcon_pkg'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/sensor_source) by extensions ['colcon_meta']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/sensor_source) by extension 'colcon_meta'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/sensor_source) by extensions ['ros']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/sensor_source) by extension 'ros'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/sensor_source) by extensions ['cmake', 'python']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/sensor_source) by extension 'cmake'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/sensor_source) by extension 'python'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/sensor_source) by extensions ['python_setup_py']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/sensor_source) by extension 'python_setup_py'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/turtlebot_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/turtlebot_teleop) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/turtlebot_teleop) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/turtlebot_teleop) by extensions ['colcon_pkg']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/turtlebot_teleop) by extension 'colcon_pkg'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/turtlebot_teleop) by extensions ['colcon_meta']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/turtlebot_teleop) by extension 'colcon_meta'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/turtlebot_teleop) by extensions ['ros']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/turtlebot_teleop) by extension 'ros'
+[0.205s] DEBUG:colcon.colcon_core.package_identification:Package '/home/handsome/ros_ws/src/ros_base/turtlebot_teleop' with type 'ros.catkin' and name 'turtlebot_teleop'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/yocs_cmd_vel_mux) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/yocs_cmd_vel_mux) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/yocs_cmd_vel_mux) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/yocs_cmd_vel_mux) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/yocs_cmd_vel_mux) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/yocs_cmd_vel_mux) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/yocs_cmd_vel_mux) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/yocs_cmd_vel_mux) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/handsome/ros_ws/src/ros_base/yocs_cmd_vel_mux) by extension 'ros'
+[0.207s] DEBUG:colcon.colcon_core.package_identification:Package '/home/handsome/ros_ws/src/ros_base/yocs_cmd_vel_mux' with type 'ros.catkin' and name 'yocs_cmd_vel_mux'
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.209s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:linorobot depends on lino_msgs which has version 0.0.1: constraints {}
+[0.209s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:nav_2d_utils depends on nav_core2 which has version 0.2.4: constraints {}
+[0.209s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:nav_2d_utils depends on nav_2d_msgs which has version 0.2.4: constraints {}
+[0.209s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:nav_2d_utils depends on nav_grid which has version 0.2.4: constraints {}
+[0.209s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:robot_navigation depends on global_planner_tests which has version 0.2.4: constraints {}
+[0.209s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:robot_navigation depends on dlux_plugins which has version 0.2.4: constraints {}
+[0.209s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:robot_navigation depends on nav_core2 which has version 0.2.4: constraints {}
+[0.209s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:robot_navigation depends on nav_2d_utils which has version 0.2.4: constraints {}
+[0.209s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:robot_navigation depends on nav_2d_msgs which has version 0.2.4: constraints {}
+[0.209s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:robot_navigation depends on dwb_plugins which has version 0.2.4: constraints {}
+[0.209s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:robot_navigation depends on locomove_base which has version 0.2.4: constraints {}
+[0.209s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:robot_navigation depends on dwb_local_planner which has version 0.2.4: constraints {}
+[0.209s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:robot_navigation depends on locomotor_msgs which has version 0.2.4: constraints {}
+[0.209s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:robot_navigation depends on nav_grid_pub_sub which has version 0.2.4: constraints {}
+[0.209s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:robot_navigation depends on dlux_global_planner which has version 0.2.4: constraints {}
+[0.209s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:robot_navigation depends on dwb_critics which has version 0.2.4: constraints {}
+[0.209s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:robot_navigation depends on nav_grid which has version 0.2.4: constraints {}
+[0.209s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:robot_navigation depends on costmap_queue which has version 0.2.4: constraints {}
+[0.209s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:robot_navigation depends on nav_grid_iterators which has version 0.2.4: constraints {}
+[0.210s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:robot_navigation depends on dwb_msgs which has version 0.2.4: constraints {}
+[0.210s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:robot_navigation depends on nav_core_adapter which has version 0.2.4: constraints {}
+[0.210s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:robot_navigation depends on locomotor which has version 0.2.4: constraints {}
+[0.210s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:dlux_global_planner depends on nav_core2 which has version 0.2.4: constraints {}
+[0.210s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:dlux_global_planner depends on nav_2d_utils which has version 0.2.4: constraints {}
+[0.210s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:dlux_global_planner depends on nav_2d_msgs which has version 0.2.4: constraints {}
+[0.210s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:dlux_global_planner depends on nav_grid_pub_sub which has version 0.2.4: constraints {}
+[0.210s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:dlux_global_planner depends on nav_grid which has version 0.2.4: constraints {}
+[0.210s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:dlux_plugins depends on global_planner_tests which has version 0.2.4: constraints {}
+[0.210s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:dlux_plugins depends on nav_core2 which has version 0.2.4: constraints {}
+[0.210s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:dlux_plugins depends on dlux_global_planner which has version 0.2.4: constraints {}
+[0.210s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:dlux_plugins depends on nav_grid which has version 0.2.4: constraints {}
+[0.210s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:global_planner_tests depends on nav_core2 which has version 0.2.4: constraints {}
+[0.210s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:nav_grid_iterators depends on nav_2d_utils which has version 0.2.4: constraints {}
+[0.210s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:nav_grid_iterators depends on nav_2d_msgs which has version 0.2.4: constraints {}
+[0.210s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:nav_grid_iterators depends on nav_grid which has version 0.2.4: constraints {}
+[0.210s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:nav_grid_pub_sub depends on nav_core2 which has version 0.2.4: constraints {}
+[0.210s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:nav_grid_pub_sub depends on nav_2d_utils which has version 0.2.4: constraints {}
+[0.210s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:nav_grid_pub_sub depends on nav_2d_msgs which has version 0.2.4: constraints {}
+[0.210s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:nav_grid_pub_sub depends on nav_grid which has version 0.2.4: constraints {}
+[0.210s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:nav_grid_pub_sub depends on nav_grid_iterators which has version 0.2.4: constraints {}
+[0.210s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:dwb_local_planner depends on nav_core2 which has version 0.2.4: constraints {}
+[0.210s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:dwb_local_planner depends on nav_2d_msgs which has version 0.2.4: constraints {}
+[0.210s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:dwb_local_planner depends on nav_2d_utils which has version 0.2.4: constraints {}
+[0.210s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:dwb_local_planner depends on dwb_msgs which has version 0.2.4: constraints {}
+[0.211s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:nav_core_adapter depends on nav_core2 which has version 0.2.4: constraints {}
+[0.211s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:nav_core_adapter depends on nav_2d_msgs which has version 0.2.4: constraints {}
+[0.211s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:nav_core_adapter depends on dwb_plugins which has version 0.2.4: constraints {}
+[0.211s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:nav_core_adapter depends on nav_2d_utils which has version 0.2.4: constraints {}
+[0.211s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:nav_core_adapter depends on dwb_local_planner which has version 0.2.4: constraints {}
+[0.211s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:nav_core_adapter depends on nav_grid which has version 0.2.4: constraints {}
+[0.211s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:nav_core_adapter depends on dwb_critics which has version 0.2.4: constraints {}
+[0.211s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:locomotor_msgs depends on nav_2d_msgs which has version 0.2.4: constraints {}
+[0.211s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:robot_control_manager depends on samsungcmd_msgs which has version 0.1.0: constraints {}
+[0.211s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:robot_control_manager depends on ros_utility_tools which has version 0.1.1: constraints {}
+[0.211s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:robot_control_manager depends on botcmd_msgs which has version 0.1.0: constraints {}
+[0.211s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:robot_control_manager depends on robot_control_msgs which has version 0.1.0: constraints {}
+[0.211s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:robot_control_manager depends on lino_msgs which has version 0.0.1: constraints {}
+[0.211s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:costmap_queue depends on nav_core2 which has version 0.2.4: constraints {}
+[0.211s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:dwb_msgs depends on nav_2d_msgs which has version 0.2.4: constraints {}
+[0.211s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:locomove_base depends on locomotor which has version 0.2.4: constraints {}
+[0.211s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:locomove_base depends on nav_2d_utils which has version 0.2.4: constraints {}
+[0.211s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:locomove_base depends on nav_core_adapter which has version 0.2.4: constraints {}
+[0.211s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:dwb_plugins depends on nav_core2 which has version 0.2.4: constraints {}
+[0.211s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:dwb_plugins depends on nav_2d_utils which has version 0.2.4: constraints {}
+[0.211s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:dwb_plugins depends on nav_2d_msgs which has version 0.2.4: constraints {}
+[0.211s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:dwb_plugins depends on dwb_local_planner which has version 0.2.4: constraints {}
+[0.211s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:dwb_critics depends on nav_core2 which has version 0.2.4: constraints {}
+[0.211s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:dwb_critics depends on nav_2d_utils which has version 0.2.4: constraints {}
+[0.211s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:dwb_critics depends on nav_2d_msgs which has version 0.2.4: constraints {}
+[0.212s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:dwb_critics depends on dwb_local_planner which has version 0.2.4: constraints {}
+[0.212s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:dwb_critics depends on nav_grid_iterators which has version 0.2.4: constraints {}
+[0.212s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:dwb_critics depends on costmap_queue which has version 0.2.4: constraints {}
+[0.212s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:nav_core2 depends on nav_2d_msgs which has version 0.2.4: constraints {}
+[0.212s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:nav_core2 depends on nav_grid which has version 0.2.4: constraints {}
+[0.212s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:locomotor depends on nav_core2 which has version 0.2.4: constraints {}
+[0.212s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:locomotor depends on nav_2d_utils which has version 0.2.4: constraints {}
+[0.212s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:locomotor depends on nav_2d_msgs which has version 0.2.4: constraints {}
+[0.212s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:locomotor depends on locomotor_msgs which has version 0.2.4: constraints {}
+[0.212s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:locomotor depends on nav_core_adapter which has version 0.2.4: constraints {}
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'botcmd_msgs' in '/home/handsome/ros_ws/src/ros_base/botcmd_msgs '
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'lino_msgs' in '/home/handsome/ros_ws/src/ros_base/lino_msgs'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'nav_2d_msgs' in '/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_2d_msgs'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'nav_grid' in '/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_grid'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'razor_imu_9dof' in '/home/handsome/ros_ws/src/ros_base/razor_imu_9dof'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'robot_control_msgs' in '/home/handsome/ros_ws/src/ros_base/robot_control_manager/robot_control_msgs'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'robot_localization' in '/home/handsome/ros_ws/src/ros_base/robot_localization'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ros_utility_tools' in '/home/handsome/ros_ws/src/ros_base/ros_utility_tools'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'samsungcmd_msgs' in '/home/handsome/ros_ws/src/ros_base/samsungcmd_msgs'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'turtlebot_teleop' in '/home/handsome/ros_ws/src/ros_base/turtlebot_teleop'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'yocs_cmd_vel_mux' in '/home/handsome/ros_ws/src/ros_base/yocs_cmd_vel_mux'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dwb_msgs' in '/home/handsome/ros_ws/src/ros_base/robot_navigation/dwb_msgs'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'linorobot' in '/home/handsome/ros_ws/src/ros_base/linorobot'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'locomotor_msgs' in '/home/handsome/ros_ws/src/ros_base/robot_navigation/locomotor_msgs'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'nav_core2' in '/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_core2'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'robot_control_manager' in '/home/handsome/ros_ws/src/ros_base/robot_control_manager/robot_control_manager'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'costmap_queue' in '/home/handsome/ros_ws/src/ros_base/robot_navigation/costmap_queue'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'global_planner_tests' in '/home/handsome/ros_ws/src/ros_base/robot_navigation/global_planner_tests'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'nav_2d_utils' in '/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_2d_utils'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dwb_local_planner' in '/home/handsome/ros_ws/src/ros_base/robot_navigation/dwb_local_planner'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'nav_grid_iterators' in '/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_grid_iterators'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dwb_critics' in '/home/handsome/ros_ws/src/ros_base/robot_navigation/dwb_critics'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dwb_plugins' in '/home/handsome/ros_ws/src/ros_base/robot_navigation/dwb_plugins'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'nav_grid_pub_sub' in '/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_grid_pub_sub'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dlux_global_planner' in '/home/handsome/ros_ws/src/ros_base/robot_navigation/dlux_global_planner'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'nav_core_adapter' in '/home/handsome/ros_ws/src/ros_base/robot_navigation/nav_core_adapter'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dlux_plugins' in '/home/handsome/ros_ws/src/ros_base/robot_navigation/dlux_plugins'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'locomotor' in '/home/handsome/ros_ws/src/ros_base/robot_navigation/locomotor'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'locomove_base' in '/home/handsome/ros_ws/src/ros_base/robot_navigation/locomove_base'
+[0.216s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'robot_navigation' in '/home/handsome/ros_ws/src/ros_base/robot_navigation/robot_navigation'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'omron_os32c_driver' build argument 'cmake_args' from command line to 'None'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'omron_os32c_driver' build argument 'cmake_target' from command line to 'None'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'omron_os32c_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'omron_os32c_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'omron_os32c_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'omron_os32c_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'omron_os32c_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'omron_os32c_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.218s] Level 5:colcon.colcon_core.verb:set package 'omron_os32c_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.218s] DEBUG:colcon.colcon_core.verb:Building package 'omron_os32c_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/handsome/ros_ws/src/ros_base/install/omron_os32c_driver', 'merge_install': False, 'path': '/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver', 'symlink_install': False, 'test_result_base': None}
+[0.220s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.220s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.220s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver' with build type 'catkin'
+[0.220s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver'
+[0.223s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.223s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.223s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.225s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/melodic'
+[0.232s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver': /usr/bin/cmake --build /home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver -- -j12 -l12
+[6.155s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver -- -j12 -l12
+[6.201s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver': /usr/bin/cmake --build /home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver --target tests -- -j12 -l12
+[9.822s] Level 1:colcon.colcon_core.shell:create_environment_hook('omron_os32c_driver', 'ros_package_path')
+[9.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/handsome/ros_ws/src/ros_base/install/omron_os32c_driver/share/omron_os32c_driver/hook/ros_package_path.ps1'
+[9.823s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver' returned '2': /usr/bin/cmake --build /home/handsome/ros_ws/src/ros_base/build/omron_os32c_driver --target tests -- -j12 -l12
+[9.824s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/handsome/ros_ws/src/ros_base/install/omron_os32c_driver/share/omron_os32c_driver/hook/ros_package_path.dsv'
+[9.824s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/handsome/ros_ws/src/ros_base/install/omron_os32c_driver/share/omron_os32c_driver/hook/ros_package_path.sh'
+[9.825s] Level 1:colcon.colcon_ros.task.catkin:checking '/home/handsome/ros_ws/src/ros_base/install/omron_os32c_driver/lib/python2.7/dist-packages'
+[9.825s] Level 1:colcon.colcon_ros.task.catkin:checking '/home/handsome/ros_ws/src/ros_base/install/omron_os32c_driver/lib/python2.7/site-packages'
+[9.825s] Level 1:colcon.colcon_core.shell:create_environment_hook('omron_os32c_driver', 'pkg_config_path')
+[9.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/handsome/ros_ws/src/ros_base/install/omron_os32c_driver/share/omron_os32c_driver/hook/pkg_config_path.ps1'
+[9.826s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/handsome/ros_ws/src/ros_base/install/omron_os32c_driver/share/omron_os32c_driver/hook/pkg_config_path.dsv'
+[9.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/handsome/ros_ws/src/ros_base/install/omron_os32c_driver/share/omron_os32c_driver/hook/pkg_config_path.sh'
+[9.828s] Level 1:colcon.colcon_core.shell:create_environment_hook('omron_os32c_driver', 'pkg_config_path_multiarch')
+[9.829s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/handsome/ros_ws/src/ros_base/install/omron_os32c_driver/share/omron_os32c_driver/hook/pkg_config_path_multiarch.ps1'
+[9.830s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/handsome/ros_ws/src/ros_base/install/omron_os32c_driver/share/omron_os32c_driver/hook/pkg_config_path_multiarch.dsv'
+[9.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/handsome/ros_ws/src/ros_base/install/omron_os32c_driver/share/omron_os32c_driver/hook/pkg_config_path_multiarch.sh'
+[9.831s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omron_os32c_driver)
+[9.834s] Level 1:colcon.colcon_core.environment:checking '/home/handsome/ros_ws/src/ros_base/install/omron_os32c_driver' for CMake module files
+[9.835s] Level 1:colcon.colcon_core.environment:checking '/home/handsome/ros_ws/src/ros_base/install/omron_os32c_driver' for CMake config files
+[9.835s] Level 1:colcon.colcon_core.environment:checking '/home/handsome/ros_ws/src/ros_base/install/omron_os32c_driver/bin'
+[9.835s] Level 1:colcon.colcon_core.environment:checking '/home/handsome/ros_ws/src/ros_base/install/omron_os32c_driver/lib/pkgconfig/omron_os32c_driver.pc'
+[9.835s] Level 1:colcon.colcon_core.environment:checking '/home/handsome/ros_ws/src/ros_base/install/omron_os32c_driver/lib/python3.6/site-packages'
+[9.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/handsome/ros_ws/src/ros_base/install/omron_os32c_driver/share/omron_os32c_driver/package.ps1'
+[9.837s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/handsome/ros_ws/src/ros_base/install/omron_os32c_driver/share/omron_os32c_driver/package.dsv'
+[9.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/handsome/ros_ws/src/ros_base/install/omron_os32c_driver/share/omron_os32c_driver/package.sh'
+[9.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/handsome/ros_ws/src/ros_base/install/omron_os32c_driver/share/omron_os32c_driver/package.bash'
+[9.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/handsome/ros_ws/src/ros_base/install/omron_os32c_driver/share/omron_os32c_driver/package.zsh'
+[9.840s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/handsome/ros_ws/src/ros_base/install/omron_os32c_driver/share/colcon-core/packages/omron_os32c_driver)
+[9.840s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.841s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.841s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[9.841s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.846s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.846s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.846s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.848s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.849s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/handsome/ros_ws/src/ros_base/install/local_setup.ps1'
+[9.851s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/handsome/ros_ws/src/ros_base/install/setup.ps1'
+[9.853s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/handsome/ros_ws/src/ros_base/install/local_setup.sh'
+[9.854s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/handsome/ros_ws/src/ros_base/install/_local_setup_util_sh.py'
+[9.855s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/handsome/ros_ws/src/ros_base/install/setup.sh'
+[9.857s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/handsome/ros_ws/src/ros_base/install/local_setup.bash'
+[9.857s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/handsome/ros_ws/src/ros_base/install/setup.bash'
+[9.859s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/handsome/ros_ws/src/ros_base/install/local_setup.zsh'
+[9.860s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/handsome/ros_ws/src/ros_base/install/setup.zsh'

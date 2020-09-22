@@ -1,0 +1,8 @@
+Invoking command in '/home/handsome/ros_ws_test/build/i_robot_stage': /usr/bin/cmake /home/handsome/ros_ws_test/src/ros_base/i_robot/i_robot_stage -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/handsome/ros_ws_test/install/i_robot_stage
+Invoked command in '/home/handsome/ros_ws_test/build/i_robot_stage' returned '0': /usr/bin/cmake /home/handsome/ros_ws_test/src/ros_base/i_robot/i_robot_stage -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/handsome/ros_ws_test/install/i_robot_stage
+Invoking command in '/home/handsome/ros_ws_test/build/i_robot_stage': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/i_robot_stage -- -j12 -l12
+Invoked command in '/home/handsome/ros_ws_test/build/i_robot_stage' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/i_robot_stage -- -j12 -l12
+Invoking command in '/home/handsome/ros_ws_test/build/i_robot_stage': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/i_robot_stage --target tests -- -j12 -l12
+Invoked command in '/home/handsome/ros_ws_test/build/i_robot_stage' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/i_robot_stage --target tests -- -j12 -l12
+Invoking command in '/home/handsome/ros_ws_test/build/i_robot_stage': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/i_robot_stage --target install -- -j12 -l12
+Invoked command in '/home/handsome/ros_ws_test/build/i_robot_stage' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/i_robot_stage --target install -- -j12 -l12

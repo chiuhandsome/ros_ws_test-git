@@ -1,0 +1,6 @@
+Invoking command in '/home/handsome/ros_ws_test/build/nav_2d_msgs': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/nav_2d_msgs -- -j12 -l12
+Invoked command in '/home/handsome/ros_ws_test/build/nav_2d_msgs' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/nav_2d_msgs -- -j12 -l12
+Invoking command in '/home/handsome/ros_ws_test/build/nav_2d_msgs': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/nav_2d_msgs --target tests -- -j12 -l12
+Invoked command in '/home/handsome/ros_ws_test/build/nav_2d_msgs' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/nav_2d_msgs --target tests -- -j12 -l12
+Invoking command in '/home/handsome/ros_ws_test/build/nav_2d_msgs': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/nav_2d_msgs --target install -- -j12 -l12
+Invoked command in '/home/handsome/ros_ws_test/build/nav_2d_msgs' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/nav_2d_msgs --target install -- -j12 -l12

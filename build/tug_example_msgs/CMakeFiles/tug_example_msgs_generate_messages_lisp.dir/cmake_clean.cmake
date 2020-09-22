@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/tug_example_msgs_generate_messages_lisp"
+  "devel/share/common-lisp/ros/tug_example_msgs/msg/RecoverNotFetchingBoxActionGoal.lisp"
+  "devel/share/common-lisp/ros/tug_example_msgs/msg/RecoverTimedOutResult.lisp"
+  "devel/share/common-lisp/ros/tug_example_msgs/msg/TransportBoxActionGoal.lisp"
+  "devel/share/common-lisp/ros/tug_example_msgs/msg/RecoverTimedOutAction.lisp"
+  "devel/share/common-lisp/ros/tug_example_msgs/msg/FetchBoxAction.lisp"
+  "devel/share/common-lisp/ros/tug_example_msgs/msg/PutBoxActionGoal.lisp"
+  "devel/share/common-lisp/ros/tug_example_msgs/msg/FetchBoxGoal.lisp"
+  "devel/share/common-lisp/ros/tug_example_msgs/msg/TransportBoxAction.lisp"
+  "devel/share/common-lisp/ros/tug_example_msgs/msg/PutBoxAction.lisp"
+  "devel/share/common-lisp/ros/tug_example_msgs/msg/FetchBoxActionGoal.lisp"
+  "devel/share/common-lisp/ros/tug_example_msgs/msg/FetchBoxResult.lisp"
+  "devel/share/common-lisp/ros/tug_example_msgs/msg/PutBoxGoal.lisp"
+  "devel/share/common-lisp/ros/tug_example_msgs/msg/FetchBoxFeedback.lisp"
+  "devel/share/common-lisp/ros/tug_example_msgs/msg/FetchBoxActionResult.lisp"
+  "devel/share/common-lisp/ros/tug_example_msgs/msg/TransportBoxGoal.lisp"
+  "devel/share/common-lisp/ros/tug_example_msgs/msg/RecoverNotFetchingBoxActionFeedback.lisp"
+  "devel/share/common-lisp/ros/tug_example_msgs/msg/RecoverTimedOutGoal.lisp"
+  "devel/share/common-lisp/ros/tug_example_msgs/msg/TransportBoxResult.lisp"
+  "devel/share/common-lisp/ros/tug_example_msgs/msg/TransportBoxActionFeedback.lisp"
+  "devel/share/common-lisp/ros/tug_example_msgs/msg/PutBoxResult.lisp"
+  "devel/share/common-lisp/ros/tug_example_msgs/msg/RecoverTimedOutActionGoal.lisp"
+  "devel/share/common-lisp/ros/tug_example_msgs/msg/RecoverNotFetchingBoxAction.lisp"
+  "devel/share/common-lisp/ros/tug_example_msgs/msg/TransportBoxActionResult.lisp"
+  "devel/share/common-lisp/ros/tug_example_msgs/msg/PutBoxActionResult.lisp"
+  "devel/share/common-lisp/ros/tug_example_msgs/msg/RecoverNotFetchingBoxGoal.lisp"
+  "devel/share/common-lisp/ros/tug_example_msgs/msg/PutBoxActionFeedback.lisp"
+  "devel/share/common-lisp/ros/tug_example_msgs/msg/RecoverTimedOutActionResult.lisp"
+  "devel/share/common-lisp/ros/tug_example_msgs/msg/RecoverTimedOutActionFeedback.lisp"
+  "devel/share/common-lisp/ros/tug_example_msgs/msg/RecoverNotFetchingBoxActionResult.lisp"
+  "devel/share/common-lisp/ros/tug_example_msgs/msg/FetchBoxActionFeedback.lisp"
+  "devel/share/common-lisp/ros/tug_example_msgs/msg/TransportBoxFeedback.lisp"
+  "devel/share/common-lisp/ros/tug_example_msgs/msg/RecoverNotFetchingBoxResult.lisp"
+  "devel/share/common-lisp/ros/tug_example_msgs/msg/PutBoxFeedback.lisp"
+  "devel/share/common-lisp/ros/tug_example_msgs/msg/RecoverTimedOutFeedback.lisp"
+  "devel/share/common-lisp/ros/tug_example_msgs/msg/RecoverNotFetchingBoxFeedback.lisp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/tug_example_msgs_generate_messages_lisp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

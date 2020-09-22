@@ -1,0 +1,11 @@
+int8 cmd_id         # 1:Add , 2:modify , 3:delete , 4:query , 5:refresh	 		
+string query_base_index 	
+string query_opt_index
+string query_parameter 
+cell_agv_imu request_data	 
+---
+bool result
+string error_code
+string primary_id
+string update_time
+cell_agv_imu[] response_data

@@ -1,0 +1,17 @@
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_server/src/private_actions/robot_run_state_ac.cpp:[m[K In member function ‘[01m[Kint robot_run_state_ac::evalCondition(std::__cxx11::string)[m[K’:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_server/src/private_actions/robot_run_state_ac.cpp:79:10:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kbool just_17[m[K’
+     bool [01;31m[Kjust_17[m[K = (condition == "rcvr_none") &&
+          [01;31m[K^~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_server/src/private_actions/robot_run_state_ac.cpp:66:10:[m[K [01;36m[Knote: [m[K‘[01m[Kbool just_17[m[K’ previously declared here
+     bool [01;36m[Kjust_17[m[K = (condition == "m_none") &&
+          [01;36m[K^~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_server/src/private_actions/robot_run_state_ac.cpp:81:10:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kbool just_18[m[K’
+     bool [01;31m[Kjust_18[m[K = (condition == "rcvr_plan_to_exec") &&
+          [01;31m[K^~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_server/src/private_actions/robot_run_state_ac.cpp:68:10:[m[K [01;36m[Knote: [m[K‘[01m[Kbool just_18[m[K’ previously declared here
+     bool [01;36m[Kjust_18[m[K = (condition == "m_plan_to_exec") &&
+          [01;36m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/robot_scheduling_server_node.dir/src/private_actions/robot_run_state_ac.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/robot_scheduling_server_node.dir/all] Error 2
+make: *** [all] Error 2

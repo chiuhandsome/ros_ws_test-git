@@ -1,0 +1,195 @@
+-- Using CATKIN_DEVEL_PREFIX: /home/handsome/ros_ws_test/build/car_db_manager_action/devel
+-- Using CMAKE_PREFIX_PATH: /home/handsome/ros_ws_test/install/mongodb_store;/home/handsome/ros_ws_test/install/ros_utility_tools;/home/handsome/ros_ws_test/install/mongodb_store_msgs;/home/handsome/ros_ws_test/install/car_db_manager_msgs;/home/handsome/ros_ws_test/install/yocs_cmd_vel_mux;/home/handsome/ros_ws_test/install/turtlebot_teleop;/home/handsome/ros_ws_test/install/tug_example_pnp_server;/home/handsome/ros_ws_test/install/tug_example_actions;/home/handsome/ros_ws_test/install/tug_example_msgs;/home/handsome/ros_ws_test/install/timed_roslaunch;/home/handsome/ros_ws_test/install/teb2_local_planner;/home/handsome/ros_ws_test/install/stated_roslaunch;/home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer;/home/handsome/ros_ws_test/install/robot_udp_bridge;/home/handsome/ros_ws_test/install/robot_database_bridge;/home/handsome/ros_ws_test/install/samsungcmd_msgs;/home/handsome/ros_ws_test/install/rplidar_ros;/home/handsome/ros_ws_test/install/rp_action;/home/handsome/ros_ws_test/install/rp_action_msgs;/home/handsome/ros_ws_test/install/robot_scheduling_actions;/home/handsome/ros_ws_test/install/cellctrl_qtgui_bridge;/home/handsome/ros_ws_test/install/car_db_manager_qtgui;/home/handsome/ros_ws_test/install/car_db_manager_bridge;/home/handsome/ros_ws_test/install/car_db_manager_action;/home/handsome/ros_ws_test/install/robot_scheduling_server;/home/handsome/ros_ws_test/install/robot_scheduling_msgs;/home/handsome/ros_ws_test/install/robot_localization;/home/handsome/ros_ws_test/install/robot_control_msgs;/home/handsome/ros_ws_test/install/reset_location;/home/handsome/ros_ws_test/install/razor_imu_9dof;/home/handsome/ros_ws_test/install/pnp_rosplan;/home/handsome/ros_ws_test/install/pnp_ros;/home/handsome/ros_ws_test/install/pnp_msgs;/home/handsome/ros_ws_test/install/open_auto_dock;/home/handsome/ros_ws_test/install/open_auto_dock_msgs;/home/handsome/ros_ws_test/install/omron_os32c_driver;/home/handsome/ros_ws_test/install/dlux_plugins;/home/handsome/ros_ws_test/install/dlux_global_planner;/home/handsome/ros_ws_test/install/nav_grid_pub_sub;/home/handsome/ros_ws_test/install/dwb_critics;/home/handsome/ros_ws_test/install/nav_grid_iterators;/home/handsome/ros_ws_test/install/locomove_base;/home/handsome/ros_ws_test/install/locomotor;/home/handsome/ros_ws_test/install/nav_core_adapter;/home/handsome/ros_ws_test/install/dwb_plugins;/home/handsome/ros_ws_test/install/dwb_local_planner;/home/handsome/ros_ws_test/install/nav_2d_utils;/home/handsome/ros_ws_test/install/global_planner_tests;/home/handsome/ros_ws_test/install/costmap_queue;/home/handsome/ros_ws_test/install/nav_core2;/home/handsome/ros_ws_test/install/nav_grid;/home/handsome/ros_ws_test/install/actionlib_modules_msgs;/home/handsome/ros_ws_test/install/locomotor_msgs;/home/handsome/ros_ws_test/install/dwb_msgs;/home/handsome/ros_ws_test/install/nav_2d_msgs;/home/handsome/ros_ws_test/install/mongodb_log;/home/handsome/ros_ws_test/install/ca_driver;/home/handsome/ros_ws_test/install/libcreate;/home/handsome/ros_ws_test/install/i_robot_stage;/home/handsome/ros_ws_test/install/i_robot_navigation;/home/handsome/ros_ws_test/install/cellctrl_control_msgs;/home/handsome/ros_ws_test/install/ca_tools;/home/handsome/ros_ws_test/install/ca_msgs;/home/handsome/ros_ws_test/install/ca_description;/home/handsome/ros_ws_test/install/botcmd_msgs;/opt/ros/melodic
+-- This workspace overlays: /home/handsome/ros_ws_test/install/mongodb_store;/home/handsome/ros_ws_test/install/ros_utility_tools;/home/handsome/ros_ws_test/install/mongodb_store_msgs;/home/handsome/ros_ws_test/install/car_db_manager_msgs;/home/handsome/ros_ws_test/install/yocs_cmd_vel_mux;/home/handsome/ros_ws_test/install/turtlebot_teleop;/home/handsome/ros_ws_test/install/tug_example_pnp_server;/home/handsome/ros_ws_test/install/tug_example_actions;/home/handsome/ros_ws_test/install/tug_example_msgs;/home/handsome/ros_ws_test/install/timed_roslaunch;/home/handsome/ros_ws_test/install/teb2_local_planner;/home/handsome/ros_ws_test/install/stated_roslaunch;/home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer;/home/handsome/ros_ws_test/install/robot_udp_bridge;/home/handsome/ros_ws_test/install/robot_database_bridge;/home/handsome/ros_ws_test/install/samsungcmd_msgs;/home/handsome/ros_ws_test/install/rplidar_ros;/home/handsome/ros_ws_test/install/rp_action;/home/handsome/ros_ws_test/install/rp_action_msgs;/home/handsome/ros_ws_test/install/robot_scheduling_actions;/home/handsome/ros_ws_test/install/cellctrl_qtgui_bridge;/home/handsome/ros_ws_test/install/car_db_manager_qtgui;/home/handsome/ros_ws_test/install/car_db_manager_bridge;/home/handsome/ros_ws_test/install/car_db_manager_action;/home/handsome/ros_ws_test/install/robot_scheduling_server;/home/handsome/ros_ws_test/install/robot_scheduling_msgs;/home/handsome/ros_ws_test/install/robot_localization;/home/handsome/ros_ws_test/install/robot_control_msgs;/home/handsome/ros_ws_test/install/reset_location;/home/handsome/ros_ws_test/install/razor_imu_9dof;/home/handsome/ros_ws_test/install/pnp_rosplan;/home/handsome/ros_ws_test/install/pnp_ros;/home/handsome/ros_ws_test/install/pnp_msgs;/home/handsome/ros_ws_test/install/open_auto_dock;/home/handsome/ros_ws_test/install/open_auto_dock_msgs;/home/handsome/ros_ws_test/install/omron_os32c_driver;/home/handsome/ros_ws_test/install/dlux_plugins;/home/handsome/ros_ws_test/install/dlux_global_planner;/home/handsome/ros_ws_test/install/nav_grid_pub_sub;/home/handsome/ros_ws_test/install/dwb_critics;/home/handsome/ros_ws_test/install/nav_grid_iterators;/home/handsome/ros_ws_test/install/locomove_base;/home/handsome/ros_ws_test/install/locomotor;/home/handsome/ros_ws_test/install/nav_core_adapter;/home/handsome/ros_ws_test/install/dwb_plugins;/home/handsome/ros_ws_test/install/dwb_local_planner;/home/handsome/ros_ws_test/install/nav_2d_utils;/home/handsome/ros_ws_test/install/global_planner_tests;/home/handsome/ros_ws_test/install/costmap_queue;/home/handsome/ros_ws_test/install/nav_core2;/home/handsome/ros_ws_test/install/nav_grid;/home/handsome/ros_ws_test/install/actionlib_modules_msgs;/home/handsome/ros_ws_test/install/locomotor_msgs;/home/handsome/ros_ws_test/install/dwb_msgs;/home/handsome/ros_ws_test/install/nav_2d_msgs;/home/handsome/ros_ws_test/install/mongodb_log;/home/handsome/ros_ws_test/install/ca_driver;/home/handsome/ros_ws_test/install/i_robot_stage;/home/handsome/ros_ws_test/install/i_robot_navigation;/home/handsome/ros_ws_test/install/cellctrl_control_msgs;/home/handsome/ros_ws_test/install/ca_tools;/home/handsome/ros_ws_test/install/ca_msgs;/home/handsome/ros_ws_test/install/ca_description;/home/handsome/ros_ws_test/install/botcmd_msgs;/opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/handsome/ros_ws_test/build/car_db_manager_action/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.28
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Boost version: 1.65.1
+-- Boost version: 1.65.1
+-- Found the following Boost libraries:
+--   system
+--   thread
+--   program_options
+--   filesystem
+--   chrono
+--   date_time
+--   atomic
+-- Found MongoClient: /usr/include, /usr/lib/x86_64-linux-gnu/libmongoclient.so;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_thread.so;/usr/lib/x86_64-linux-gnu/libboost_program_options.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;/usr/lib/x86_64-linux-gnu/libpthread.so;/usr/lib/x86_64-linux-gnu/libssl.so;/usr/lib/x86_64-linux-gnu/libcrypto.so
+-- MongoClient using new interface: YES
+-- Configuring done
+WARNING: Target "car_db_manager_action_node" requests linking to directory "/usr/include".  Targets may link only to libraries.  CMake is dropping the item.
+-- Generating done
+-- Build files have been written to: /home/handsome/ros_ws_test/build/car_db_manager_action
+[35m[1mScanning dependencies of target car_db_manager_action_node[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/car_db_manager_action_node.dir/src/car_db_control_module.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/car_db_manager_action_node.dir/src/car_db_manager_action_if.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/car_db_manager_action_node.dir/src/car_db_manager_action.cpp.o[0m
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/car_data_management/car_db_manager_action/include/car_db_control_module.h:59:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/car_data_management/car_db_manager_action/src/car_db_control_module.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:[m[K In member function ‘[01m[Kbool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::mongo_table_Insert(const boost::shared_ptr<X>&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:96:27:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kget_Now_LocalTime[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kget_Now_LocalTime[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+    (*_data).update_time = [01;35m[Kget_Now_LocalTime[m[K();  //-- from tools
+                           [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:[m[K In member function ‘[01m[Kbool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::mongo_table_modify(const boost::shared_ptr<X>&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:107:27:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kget_Now_LocalTime[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kget_Now_LocalTime[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+    (*_data).update_time = [01;35m[Kget_Now_LocalTime[m[K();
+                           [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:[m[K In member function ‘[01m[Kbool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::response_table_data_Query(std::__cxx11::string, std::__cxx11::string, std::__cxx11::string, MsgType_resp&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:391:16:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kstrtoint[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kstrtoint[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+    int _type = [01;35m[Kstrtoint[m[K(base_index,-1); //-- search type
+                [01;35m[K^~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:[m[K In member function ‘[01m[Kbool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::srv_Eval_db_table_srv_service(MsgType_req&, MsgType_resp&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:470:25:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kconvert_str[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kconvert_str[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+       resp.error_code = [01;35m[Kconvert_str[m[K((int)table_srv_error_type) ;
+                         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:479:25:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kconvert_str[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kconvert_str[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+       resp.error_code = [01;35m[Kconvert_str[m[K((int)table_srv_error_type) ;
+                         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:487:25:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kconvert_str[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kconvert_str[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+       resp.error_code = [01;35m[Kconvert_str[m[K((int)edb_tb_err_type_none) ;
+                         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:504:25:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kconvert_str[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kconvert_str[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+       resp.error_code = [01;35m[Kconvert_str[m[K((int)edb_tb_err_type_none) ;
+                         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:509:25:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kconvert_str[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kconvert_str[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+       resp.error_code = [01;35m[Kconvert_str[m[K((int)table_srv_error_type) ;
+                         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:520:25:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kconvert_str[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kconvert_str[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+       resp.error_code = [01;35m[Kconvert_str[m[K((int)edb_tb_err_type_none) ;
+                         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:525:25:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kconvert_str[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kconvert_str[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+       resp.error_code = [01;35m[Kconvert_str[m[K((int)table_srv_error_type) ;
+                         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:533:24:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kconvert_str[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kconvert_str[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+      resp.error_code = [01;35m[Kconvert_str[m[K((int)edb_tb_err_type_none) ;
+                        [01;35m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/car_data_management/car_db_manager_action/src/car_db_control_module.cpp:2:0[m[K:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/ros_tools.h:[m[K In function ‘[01m[Kstd::__cxx11::string double_str_prec(const T&, int)[m[K’:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/ros_tools.h:33:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kss[m[K’ was not declared in this scope
+    str = [01;31m[Kss[m[K.str();
+          [01;31m[K^~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/ros_tools.h:33:10:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kos[m[K’
+    str = [01;36m[Kss[m[K.str();
+          [01;36m[K^~[m[K
+          [32m[Kos[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/car_data_management/car_db_manager_action/include/car_db_control_module.h:59:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/car_data_management/car_db_manager_action/include/car_db_manager_action_if.h:4[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/car_data_management/car_db_manager_action/src/car_db_manager_action_if.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:[m[K In member function ‘[01m[Kbool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::mongo_table_Insert(const boost::shared_ptr<X>&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:96:27:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kget_Now_LocalTime[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kget_Now_LocalTime[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+    (*_data).update_time = [01;35m[Kget_Now_LocalTime[m[K();  //-- from tools
+                           [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:[m[K In member function ‘[01m[Kbool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::mongo_table_modify(const boost::shared_ptr<X>&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:107:27:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kget_Now_LocalTime[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kget_Now_LocalTime[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+    (*_data).update_time = [01;35m[Kget_Now_LocalTime[m[K();
+                           [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/car_data_management/car_db_manager_action/include/car_db_control_module.h:59:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/car_data_management/car_db_manager_action/include/car_db_manager_action_if.h:4[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/car_data_management/car_db_manager_action/include/car_db_manager_action.h:4[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/car_data_management/car_db_manager_action/src/car_db_manager_action.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:[m[K In member function ‘[01m[Kbool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::mongo_table_Insert(const boost::shared_ptr<X>&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:96:27:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kget_Now_LocalTime[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kget_Now_LocalTime[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+    (*_data).update_time = [01;35m[Kget_Now_LocalTime[m[K();  //-- from tools
+                           [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:[m[K In member function ‘[01m[Kbool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::mongo_table_modify(const boost::shared_ptr<X>&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:107:27:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kget_Now_LocalTime[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kget_Now_LocalTime[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+    (*_data).update_time = [01;35m[Kget_Now_LocalTime[m[K();
+                           [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:[m[K In member function ‘[01m[Kbool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::response_table_data_Query(std::__cxx11::string, std::__cxx11::string, std::__cxx11::string, MsgType_resp&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:391:16:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kstrtoint[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kstrtoint[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+    int _type = [01;35m[Kstrtoint[m[K(base_index,-1); //-- search type
+                [01;35m[K^~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:[m[K In member function ‘[01m[Kbool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::srv_Eval_db_table_srv_service(MsgType_req&, MsgType_resp&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:470:25:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kconvert_str[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kconvert_str[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+       resp.error_code = [01;35m[Kconvert_str[m[K((int)table_srv_error_type) ;
+                         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:479:25:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kconvert_str[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kconvert_str[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+       resp.error_code = [01;35m[Kconvert_str[m[K((int)table_srv_error_type) ;
+                         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:487:25:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kconvert_str[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kconvert_str[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+       resp.error_code = [01;35m[Kconvert_str[m[K((int)edb_tb_err_type_none) ;
+                         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:504:25:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kconvert_str[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kconvert_str[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+       resp.error_code = [01;35m[Kconvert_str[m[K((int)edb_tb_err_type_none) ;
+                         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:509:25:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kconvert_str[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kconvert_str[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+       resp.error_code = [01;35m[Kconvert_str[m[K((int)table_srv_error_type) ;
+                         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:520:25:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kconvert_str[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kconvert_str[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+       resp.error_code = [01;35m[Kconvert_str[m[K((int)edb_tb_err_type_none) ;
+                         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:525:25:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kconvert_str[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kconvert_str[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+       resp.error_code = [01;35m[Kconvert_str[m[K((int)table_srv_error_type) ;
+                         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:533:24:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kconvert_str[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kconvert_str[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+      resp.error_code = [01;35m[Kconvert_str[m[K((int)edb_tb_err_type_none) ;
+                        [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:[m[K In member function ‘[01m[Kbool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::response_table_data_Query(std::__cxx11::string, std::__cxx11::string, std::__cxx11::string, MsgType_resp&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:391:16:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kstrtoint[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kstrtoint[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+    int _type = [01;35m[Kstrtoint[m[K(base_index,-1); //-- search type
+                [01;35m[K^~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:[m[K In member function ‘[01m[Kbool table_mongodbstore_client<MsgType, MsgType_req, MsgType_resp>::srv_Eval_db_table_srv_service(MsgType_req&, MsgType_resp&)[m[K’:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:470:25:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kconvert_str[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kconvert_str[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+       resp.error_code = [01;35m[Kconvert_str[m[K((int)table_srv_error_type) ;
+                         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:479:25:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kconvert_str[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kconvert_str[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+       resp.error_code = [01;35m[Kconvert_str[m[K((int)table_srv_error_type) ;
+                         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:487:25:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kconvert_str[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kconvert_str[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+       resp.error_code = [01;35m[Kconvert_str[m[K((int)edb_tb_err_type_none) ;
+                         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:504:25:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kconvert_str[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kconvert_str[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+       resp.error_code = [01;35m[Kconvert_str[m[K((int)edb_tb_err_type_none) ;
+                         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:509:25:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kconvert_str[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kconvert_str[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+       resp.error_code = [01;35m[Kconvert_str[m[K((int)table_srv_error_type) ;
+                         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:520:25:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kconvert_str[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kconvert_str[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+       resp.error_code = [01;35m[Kconvert_str[m[K((int)edb_tb_err_type_none) ;
+                         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:525:25:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kconvert_str[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kconvert_str[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+       resp.error_code = [01;35m[Kconvert_str[m[K((int)table_srv_error_type) ;
+                         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/table_mongodbstore_client.h:533:24:[m[K [01;35m[Kwarning: [m[Kthere are no arguments to ‘[01m[Kconvert_str[m[K’ that depend on a template parameter, so a declaration of ‘[01m[Kconvert_str[m[K’ must be available [[01;35m[K-fpermissive[m[K]
+      resp.error_code = [01;35m[Kconvert_str[m[K((int)edb_tb_err_type_none) ;
+                        [01;35m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/car_data_management/car_db_manager_action/src/car_db_manager_action_if.cpp:2:0[m[K:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/ros_tools.h:[m[K In function ‘[01m[Kstd::__cxx11::string double_str_prec(const T&, int)[m[K’:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/ros_tools.h:33:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kss[m[K’ was not declared in this scope
+    str = [01;31m[Kss[m[K.str();
+          [01;31m[K^~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/ros_tools.h:33:10:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kos[m[K’
+    str = [01;36m[Kss[m[K.str();
+          [01;36m[K^~[m[K
+          [32m[Kos[m[K
+In file included from [01m[K/home/handsome/ros_ws_test/src/ros_base/car_data_management/car_db_manager_action/src/car_db_manager_action.cpp:2:0[m[K:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/ros_tools.h:[m[K In function ‘[01m[Kstd::__cxx11::string double_str_prec(const T&, int)[m[K’:
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/ros_tools.h:33:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kss[m[K’ was not declared in this scope
+    str = [01;31m[Kss[m[K.str();
+          [01;31m[K^~[m[K
+[01m[K/home/handsome/ros_ws_test/install/ros_utility_tools/include/ros_utility_tools/ros_tools.h:33:10:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kos[m[K’
+    str = [01;36m[Kss[m[K.str();
+          [01;36m[K^~[m[K
+          [32m[Kos[m[K
+make[2]: *** [CMakeFiles/car_db_manager_action_node.dir/src/car_db_control_module.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+CMakeFiles/car_db_manager_action_node.dir/build.make:110: recipe for target 'CMakeFiles/car_db_manager_action_node.dir/src/car_db_control_module.cpp.o' failed
+make[2]: *** [CMakeFiles/car_db_manager_action_node.dir/src/car_db_manager_action.cpp.o] Error 1
+CMakeFiles/car_db_manager_action_node.dir/build.make:62: recipe for target 'CMakeFiles/car_db_manager_action_node.dir/src/car_db_manager_action.cpp.o' failed
+make[2]: *** [CMakeFiles/car_db_manager_action_node.dir/src/car_db_manager_action_if.cpp.o] Error 1
+CMakeFiles/car_db_manager_action_node.dir/build.make:86: recipe for target 'CMakeFiles/car_db_manager_action_node.dir/src/car_db_manager_action_if.cpp.o' failed
+make[1]: *** [CMakeFiles/car_db_manager_action_node.dir/all] Error 2
+CMakeFiles/Makefile2:1923: recipe for target 'CMakeFiles/car_db_manager_action_node.dir/all' failed
+make: *** [all] Error 2
+Makefile:140: recipe for target 'all' failed

@@ -1,0 +1,65 @@
+[0.068s] Invoking command in '/home/handsome/ros_ws_test/build/razor_imu_9dof': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/razor_imu_9dof -- -j12 -l12
+[0.232s] [ 33%] Built target razor_imu_9dof_gencfg
+[0.339s] [100%] Built target razor_imu_9dof_node
+[0.590s] Invoked command in '/home/handsome/ros_ws_test/build/razor_imu_9dof' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/razor_imu_9dof -- -j12 -l12
+[1.574s] Invoking command in '/home/handsome/ros_ws_test/build/razor_imu_9dof': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/razor_imu_9dof --target tests -- -j12 -l12
+[1.987s] Built target tests
+[2.216s] Invoked command in '/home/handsome/ros_ws_test/build/razor_imu_9dof' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/razor_imu_9dof --target tests -- -j12 -l12
+[2.969s] Invoking command in '/home/handsome/ros_ws_test/build/razor_imu_9dof': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/razor_imu_9dof --target install -- -j12 -l12
+[3.528s] [ 33%] Built target razor_imu_9dof_gencfg
+[3.701s] [100%] Built target razor_imu_9dof_node
+[3.859s] [36mInstall the project...[0m
+[3.892s] -- Install configuration: ""
+[3.892s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/include/razor_imu_9dof/imuConfig.h
+[3.893s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/lib/python2.7/dist-packages/razor_imu_9dof/__init__.py
+[3.956s] Listing /home/handsome/ros_ws_test/build/razor_imu_9dof/devel/lib/python2.7/dist-packages/razor_imu_9dof/cfg ...
+[3.960s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/lib/python2.7/dist-packages/razor_imu_9dof/cfg
+[3.960s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/lib/python2.7/dist-packages/razor_imu_9dof/cfg/imuConfig.pyc
+[3.960s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/lib/python2.7/dist-packages/razor_imu_9dof/cfg/__init__.py
+[3.960s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/lib/python2.7/dist-packages/razor_imu_9dof/cfg/imuConfig.py
+[3.960s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/lib/python2.7/dist-packages/razor_imu_9dof/cfg/__init__.pyc
+[3.961s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/lib/pkgconfig/razor_imu_9dof.pc
+[3.961s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/cmake/razor_imu_9dofConfig.cmake
+[3.961s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/cmake/razor_imu_9dofConfig-version.cmake
+[3.961s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/package.xml
+[3.961s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/lib/razor_imu_9dof/razor_imu_9dof_node
+[3.963s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/launch
+[3.963s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/launch/razor-pub-diags.launch
+[3.963s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/launch/razor-cpp-pub.launch
+[3.963s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/launch/razor-cpp-pub-and-display.launch
+[3.963s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/launch/razor-pub.launch
+[3.963s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/launch/razor-pub-and-display.launch
+[3.963s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/launch/razor-display.launch
+[3.963s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/launch/razor-cpp-pub-diags.launch
+[3.964s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/config
+[3.964s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/config/my_razor_default.yaml
+[3.964s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/config/razor_diags.yaml
+[3.964s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/config/imu.py
+[3.964s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/config/my_razor.yaml
+[3.965s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/config/razor.yaml
+[3.965s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/cfg
+[3.965s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/cfg/imu.cfg
+[3.965s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/src
+[3.966s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/src/razor_imu_9dof_node.cpp
+[3.966s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/src/Razor_AHRS
+[3.966s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/src/Razor_AHRS/Razor_AHRS.ino
+[3.966s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/src/Razor_AHRS/Sensors.ino
+[3.966s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/src/Razor_AHRS/Compass.ino
+[3.966s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/src/Razor_AHRS/DCM.ino
+[3.966s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/src/Razor_AHRS/Math.ino
+[3.966s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/src/Razor_AHRS/Output.ino
+[3.966s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/src/razor_imu_9dof_node_old.cpp
+[3.966s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/magnetometer_calibration
+[3.967s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/magnetometer_calibration/Matlab
+[3.967s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/magnetometer_calibration/Matlab/magnetometer_calibration
+[3.973s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/magnetometer_calibration/Matlab/magnetometer_calibration/ellipsoid_fit.m
+[3.974s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/magnetometer_calibration/Matlab/magnetometer_calibration/magnetometer_calibration.m
+[3.974s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/magnetometer_calibration/Matlab/magnetometer_calibration/ellipsoid_fit_license.txt
+[3.974s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/magnetometer_calibration/Processing
+[3.974s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/magnetometer_calibration/Processing/Magnetometer_calibration
+[3.974s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/magnetometer_calibration/Processing/Magnetometer_calibration/Magnetometer_calibration.pde
+[3.975s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/magnetometer_calibration/Processing/Magnetometer_calibration/data
+[3.975s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/magnetometer_calibration/Processing/Magnetometer_calibration/data/Univers-66.vlw
+[3.975s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/nodes/imu_node.py
+[3.975s] -- Up-to-date: /home/handsome/ros_ws_test/install/razor_imu_9dof/share/razor_imu_9dof/nodes/display_3D_visualization.py
+[4.038s] Invoked command in '/home/handsome/ros_ws_test/build/razor_imu_9dof' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/razor_imu_9dof --target install -- -j12 -l12

@@ -1,0 +1,8 @@
+prefix=/home/handsome/ros_ws_test/build/actionlib_modules_controller/devel
+
+Name: actionlib_modules_controller
+Description: Description of actionlib_modules_controller
+Version: 0.0.1
+Cflags: -I/home/handsome/ros_ws_test/src/ros_base/actionlib_controller/actionlib_modules_controller/include
+Libs: -L${prefix}/lib -lactionlib_modules_controller
+Requires: actionlib move_base pnp_ros roscpp rospy std_msgs tf geometry_msgs locomotor_msgs fetch_auto_dock_msgs actionlib_modules_msgs

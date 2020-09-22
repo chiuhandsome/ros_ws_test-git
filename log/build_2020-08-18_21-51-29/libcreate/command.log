@@ -1,0 +1,3 @@
+Invoking command in '/home/handsome/ros_ws_test/build/libcreate': /usr/bin/cmake /home/handsome/ros_ws_test/src/ros_base/i_robot/libcreate -DCMAKE_INSTALL_PREFIX=/home/handsome/ros_ws_test/install/libcreate
+Invoked command in '/home/handsome/ros_ws_test/build/libcreate' returned '0': /usr/bin/cmake /home/handsome/ros_ws_test/src/ros_base/i_robot/libcreate -DCMAKE_INSTALL_PREFIX=/home/handsome/ros_ws_test/install/libcreate
+Invoking command in '/home/handsome/ros_ws_test/build/libcreate': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/libcreate -- -j12 -l12

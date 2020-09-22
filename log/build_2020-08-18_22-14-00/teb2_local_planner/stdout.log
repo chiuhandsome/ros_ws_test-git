@@ -1,0 +1,302 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/handsome/ros_ws_test/build/teb2_local_planner/devel
+-- Using CMAKE_PREFIX_PATH: /home/handsome/ros_ws_test/install/nav_core_adapter;/home/handsome/ros_ws_test/install/nav_2d_utils;/home/handsome/ros_ws_test/install/nav_core2;/home/handsome/ros_ws_test/install/nav_grid;/home/handsome/ros_ws_test/install/nav_2d_msgs;/home/handsome/ros_ws/install/yocs_cmd_vel_mux;/home/handsome/ros_ws/install/urdf_tutorial;/home/handsome/ros_ws/install/tuw_waypoint_to_spline_msgs;/home/handsome/ros_ws/install/tuw_multi_robot_router;/home/handsome/ros_ws/install/tuw_voronoi_graph;/home/handsome/ros_ws/install/tuw_vehicle_msgs;/home/handsome/ros_ws/install/tuw_order_planner;/home/handsome/ros_ws/install/tuw_object_rviz;/home/handsome/ros_ws/install/tuw_object_msgs;/home/handsome/ros_ws/install/tuw_nav_rviz;/home/handsome/ros_ws/install/tuw_multi_robot_local_behavior_controller;/home/handsome/ros_ws/install/tuw_multi_robot_ctrl;/home/handsome/ros_ws/install/tuw_nav_msgs;/home/handsome/ros_ws/install/tuw_multi_robot_rviz;/home/handsome/ros_ws/install/tuw_multi_robot_goal_generator;/home/handsome/ros_ws/install/robot_scheduling_utility;/home/handsome/ros_ws/install/robot_scheduling_actions;/home/handsome/ros_ws/install/actionlib_modules_bridge;/home/handsome/ros_ws/install/tuw_multi_robot_msgs;/home/handsome/ros_ws/install/tuw_multi_robot_demo;/home/handsome/ros_ws/install/tuw_local_controller_msgs;/home/handsome/ros_ws/install/tuw_geometry_rviz;/home/handsome/ros_ws/install/tuw_geometry_msgs;/home/handsome/ros_ws/install/tuw_geometry;/home/handsome/ros_ws/install/tuw_gazebo_msgs;/home/handsome/ros_ws/install/tuw_control;/home/handsome/ros_ws/install/tuw_airskin_msgs;/home/handsome/ros_ws/install/turtlebot_teleop;/home/handsome/ros_ws/install/tug_example_pnp_server;/home/handsome/ros_ws/install/tug_example_actions;/home/handsome/ros_ws/install/tug_example_msgs;/home/handsome/ros_ws/install/timed_roslaunch;/home/handsome/ros_ws/install/teb2_local_planner;/home/handsome/ros_ws/install/stated_roslaunch;/home/handsome/ros_ws/install/spatio_temporal_voxel_layer;/home/handsome/ros_ws/install/robot_udp_bridge;/home/handsome/ros_ws/install/robot_database_bridge;/home/handsome/ros_ws/install/samsungcmd_msgs;/home/handsome/ros_ws/install/rplidar_ros;/home/handsome/ros_ws/install/rp_action;/home/handsome/ros_ws/install/rp_action_msgs;/home/handsome/ros_ws/install/rosserial_xbee;/home/handsome/ros_ws/install/rosserial_windows;/home/handsome/ros_ws/install/rosserial_tivac;/home/handsome/ros_ws/install/rosserial_test;/home/handsome/ros_ws/install/rosserial_server;/home/handsome/ros_ws/install/rosserial_python;/home/handsome/ros_ws/install/rosserial_mbed;/home/handsome/ros_ws/install/rosserial_embeddedlinux;/home/handsome/ros_ws/install/rosserial_arduino;/home/handsome/ros_ws/install/rosserial_client;/home/handsome/ros_ws/install/rosserial_msgs;/home/handsome/ros_ws/install/cellctrl_qtgui_bridge;/home/handsome/ros_ws/install/car_db_manager_qtgui;/home/handsome/ros_ws/install/car_db_manager_bridge;/home/handsome/ros_ws/install/car_db_manager_action;/home/handsome/ros_ws/install/ros_utility_tools;/home/handsome/ros_ws/install/ros_package_test;/home/handsome/ros_ws/install/ros_package_manager;/home/handsome/ros_ws/install/robot_scheduling_server;/home/handsome/ros_ws/install/robot_scheduling_msgs;/home/handsome/ros_ws/install/robot_localization;/home/handsome/ros_ws/install/robot_control_msgs;/home/handsome/ros_ws/install/reset_location;/home/handsome/ros_ws/install/razor_imu_9dof;/home/handsome/ros_ws/install/pnp_rosplan;/home/handsome/ros_ws/install/actionlib_pnp_controller;/home/handsome/ros_ws/install/actionlib_modules_controller;/home/handsome/ros_ws/install/pnp_ros;/home/handsome/ros_ws/install/pnp_msgs;/home/handsome/ros_ws/install/open_auto_dock;/home/handsome/ros_ws/install/open_auto_dock_msgs;/home/handsome/ros_ws/install/omron_os32c_driver;/home/handsome/ros_ws/install/dlux_plugins;/home/handsome/ros_ws/install/dlux_global_planner;/home/handsome/ros_ws/install/nav_grid_pub_sub;/home/handsome/ros_ws/install/dwb_critics;/home/handsome/ros_ws/install/nav_grid_iterators;/home/handsome/ros_ws/install/locomove_base;/home/handsome/ros_ws/install/locomotor;/home/handsome/ros_ws/install/nav_core_adapter;/home/handsome/ros_ws/install/dwb_plugins;/home/handsome/ros_ws/install/dwb_local_planner;/home/handsome/ros_ws/install/nav_2d_utils;/home/handsome/ros_ws/install/global_planner_tests;/home/handsome/ros_ws/install/costmap_queue;/home/handsome/ros_ws/install/nav_core2;/home/handsome/ros_ws/install/nav_grid;/home/handsome/ros_ws/install/car_schedule_msgs;/home/handsome/ros_ws/install/actionlib_modules_msgs;/home/handsome/ros_ws/install/locomotor_msgs;/home/handsome/ros_ws/install/dwb_msgs;/home/handsome/ros_ws/install/nav_2d_msgs;/home/handsome/ros_ws/install/mongodb_log;/home/handsome/ros_ws/install/mongodb_store;/home/handsome/ros_ws/install/mongodb_store_msgs;/home/handsome/ros_ws/install/ca_driver;/home/handsome/ros_ws/install/libcreate;/home/handsome/ros_ws/install/i_robot_stage;/home/handsome/ros_ws/install/i_robot_navigation;/home/handsome/ros_ws/install/hyc_order_planner;/home/handsome/ros_ws/install/hyc_multi_robot_msgs;/home/handsome/ros_ws/install/fetch_open_auto_dock;/home/handsome/ros_ws/install/fetch_auto_dock_msgs;/home/handsome/ros_ws/install/change_teb2_max_vel_x_onfly;/home/handsome/ros_ws/install/cellctrl_control_msgs;/home/handsome/ros_ws/install/car_db_manager_msgs;/home/handsome/ros_ws/install/ca_msgs;/home/handsome/ros_ws/install/ca_description;/home/handsome/ros_ws/install/botcmd_msgs;/opt/ros/melodic
+-- This workspace overlays: /home/handsome/ros_ws_test/install/nav_core_adapter;/home/handsome/ros_ws_test/install/nav_2d_utils;/home/handsome/ros_ws_test/install/nav_core2;/home/handsome/ros_ws_test/install/nav_grid;/home/handsome/ros_ws_test/install/nav_2d_msgs;/home/handsome/ros_ws/install/yocs_cmd_vel_mux;/home/handsome/ros_ws/install/urdf_tutorial;/home/handsome/ros_ws/install/tuw_waypoint_to_spline_msgs;/home/handsome/ros_ws/install/tuw_multi_robot_router;/home/handsome/ros_ws/install/tuw_voronoi_graph;/home/handsome/ros_ws/install/tuw_vehicle_msgs;/home/handsome/ros_ws/install/tuw_order_planner;/home/handsome/ros_ws/install/tuw_object_rviz;/home/handsome/ros_ws/install/tuw_object_msgs;/home/handsome/ros_ws/install/tuw_nav_rviz;/home/handsome/ros_ws/install/tuw_multi_robot_local_behavior_controller;/home/handsome/ros_ws/install/tuw_multi_robot_ctrl;/home/handsome/ros_ws/install/tuw_nav_msgs;/home/handsome/ros_ws/install/tuw_multi_robot_rviz;/home/handsome/ros_ws/install/tuw_multi_robot_goal_generator;/home/handsome/ros_ws/install/robot_scheduling_utility;/home/handsome/ros_ws/install/robot_scheduling_actions;/home/handsome/ros_ws/install/actionlib_modules_bridge;/home/handsome/ros_ws/install/tuw_multi_robot_msgs;/home/handsome/ros_ws/install/tuw_multi_robot_demo;/home/handsome/ros_ws/install/tuw_local_controller_msgs;/home/handsome/ros_ws/install/tuw_geometry_rviz;/home/handsome/ros_ws/install/tuw_geometry_msgs;/home/handsome/ros_ws/install/tuw_geometry;/home/handsome/ros_ws/install/tuw_gazebo_msgs;/home/handsome/ros_ws/install/tuw_control;/home/handsome/ros_ws/install/tuw_airskin_msgs;/home/handsome/ros_ws/install/turtlebot_teleop;/home/handsome/ros_ws/install/tug_example_pnp_server;/home/handsome/ros_ws/install/tug_example_actions;/home/handsome/ros_ws/install/tug_example_msgs;/home/handsome/ros_ws/install/timed_roslaunch;/home/handsome/ros_ws/install/teb2_local_planner;/home/handsome/ros_ws/install/stated_roslaunch;/home/handsome/ros_ws/install/spatio_temporal_voxel_layer;/home/handsome/ros_ws/install/robot_udp_bridge;/home/handsome/ros_ws/install/robot_database_bridge;/home/handsome/ros_ws/install/samsungcmd_msgs;/home/handsome/ros_ws/install/rplidar_ros;/home/handsome/ros_ws/install/rp_action;/home/handsome/ros_ws/install/rp_action_msgs;/home/handsome/ros_ws/install/rosserial_xbee;/home/handsome/ros_ws/install/rosserial_windows;/home/handsome/ros_ws/install/rosserial_tivac;/home/handsome/ros_ws/install/rosserial_test;/home/handsome/ros_ws/install/rosserial_server;/home/handsome/ros_ws/install/rosserial_python;/home/handsome/ros_ws/install/rosserial_mbed;/home/handsome/ros_ws/install/rosserial_embeddedlinux;/home/handsome/ros_ws/install/rosserial_arduino;/home/handsome/ros_ws/install/rosserial_client;/home/handsome/ros_ws/install/rosserial_msgs;/home/handsome/ros_ws/install/cellctrl_qtgui_bridge;/home/handsome/ros_ws/install/car_db_manager_qtgui;/home/handsome/ros_ws/install/car_db_manager_bridge;/home/handsome/ros_ws/install/car_db_manager_action;/home/handsome/ros_ws/install/ros_utility_tools;/home/handsome/ros_ws/install/ros_package_test;/home/handsome/ros_ws/install/ros_package_manager;/home/handsome/ros_ws/install/robot_scheduling_server;/home/handsome/ros_ws/install/robot_scheduling_msgs;/home/handsome/ros_ws/install/robot_localization;/home/handsome/ros_ws/install/robot_control_msgs;/home/handsome/ros_ws/install/reset_location;/home/handsome/ros_ws/install/razor_imu_9dof;/home/handsome/ros_ws/install/pnp_rosplan;/home/handsome/ros_ws/install/actionlib_pnp_controller;/home/handsome/ros_ws/install/actionlib_modules_controller;/home/handsome/ros_ws/install/pnp_ros;/home/handsome/ros_ws/install/pnp_msgs;/home/handsome/ros_ws/install/open_auto_dock;/home/handsome/ros_ws/install/open_auto_dock_msgs;/home/handsome/ros_ws/install/omron_os32c_driver;/home/handsome/ros_ws/install/dlux_plugins;/home/handsome/ros_ws/install/dlux_global_planner;/home/handsome/ros_ws/install/nav_grid_pub_sub;/home/handsome/ros_ws/install/dwb_critics;/home/handsome/ros_ws/install/nav_grid_iterators;/home/handsome/ros_ws/install/locomove_base;/home/handsome/ros_ws/install/locomotor;/home/handsome/ros_ws/install/nav_core_adapter;/home/handsome/ros_ws/install/dwb_plugins;/home/handsome/ros_ws/install/dwb_local_planner;/home/handsome/ros_ws/install/nav_2d_utils;/home/handsome/ros_ws/install/global_planner_tests;/home/handsome/ros_ws/install/costmap_queue;/home/handsome/ros_ws/install/nav_core2;/home/handsome/ros_ws/install/nav_grid;/home/handsome/ros_ws/install/car_schedule_msgs;/home/handsome/ros_ws/install/actionlib_modules_msgs;/home/handsome/ros_ws/install/locomotor_msgs;/home/handsome/ros_ws/install/dwb_msgs;/home/handsome/ros_ws/install/nav_2d_msgs;/home/handsome/ros_ws/install/mongodb_log;/home/handsome/ros_ws/install/mongodb_store;/home/handsome/ros_ws/install/mongodb_store_msgs;/home/handsome/ros_ws/install/ca_driver;/home/handsome/ros_ws/install/i_robot_stage;/home/handsome/ros_ws/install/i_robot_navigation;/home/handsome/ros_ws/install/hyc_order_planner;/home/handsome/ros_ws/install/hyc_multi_robot_msgs;/home/handsome/ros_ws/install/fetch_open_auto_dock;/home/handsome/ros_ws/install/fetch_auto_dock_msgs;/home/handsome/ros_ws/install/change_teb2_max_vel_x_onfly;/home/handsome/ros_ws/install/cellctrl_control_msgs;/home/handsome/ros_ws/install/car_db_manager_msgs;/home/handsome/ros_ws/install/ca_msgs;/home/handsome/ros_ws/install/ca_description;/home/handsome/ros_ws/install/botcmd_msgs;/opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/handsome/ros_ws_test/build/teb2_local_planner/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.28
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- System: Linux-5.4.0-42-generic
+-- /opt/ros/melodic/share/cmake_modules/cmake/../../../share/cmake_modules/cmake/Modules;/home/handsome/ros_ws_test/src/ros_base/teb2_local_planner/cmake_modules
+-- Boost version: 1.65.1
+-- Found the following Boost libraries:
+--   system
+--   thread
+--   graph
+--   chrono
+--   date_time
+--   atomic
+-- Found SuiteSparse
+-- Searching for g2o ...
+-- Found g2o headers in: /opt/ros/melodic/include/g2o
+-- Found libg2o: /opt/ros/melodic/lib/libg2o_csparse_extension.so;/opt/ros/melodic/lib/libg2o_core.so;/opt/ros/melodic/lib/libg2o_stuff.so;/opt/ros/melodic/lib/libg2o_types_slam2d.so;/opt/ros/melodic/lib/libg2o_types_slam3d.so;/opt/ros/melodic/lib/libg2o_solver_cholmod.so;/opt/ros/melodic/lib/libg2o_solver_pcg.so;/opt/ros/melodic/lib/libg2o_solver_csparse.so;/opt/ros/melodic/lib/libg2o_incremental.so
+-- Performing Test COMPILER_SUPPORTS_CXX11
+-- Performing Test COMPILER_SUPPORTS_CXX11 - Success
+-- Performing Test COMPILER_SUPPORTS_CXX0X
+-- Performing Test COMPILER_SUPPORTS_CXX0X - Success
+-- teb2_local_planner: 3 messages, 0 services
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/handsome/ros_ws_test/build/teb2_local_planner
+[35m[1mScanning dependencies of target _teb2_local_planner_generate_messages_check_deps_FeedbackMsg[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target costmap_converter_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target _teb2_local_planner_generate_messages_check_deps_TrajectoryPointMsg[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target costmap_converter_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target teb2_local_planner_gencfg[0m
+[35m[1mScanning dependencies of target _teb2_local_planner_generate_messages_check_deps_TrajectoryMsg[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target costmap_converter_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target costmap_converter_generate_messages_nodejs
+[  3%] [34m[1mGenerating dynamic reconfigure files from cfg/Teb2LocalPlannerReconfigure.cfg: /home/handsome/ros_ws_test/build/teb2_local_planner/devel/include/teb2_local_planner/Teb2LocalPlannerReconfigureConfig.h /home/handsome/ros_ws_test/build/teb2_local_planner/devel/lib/python2.7/dist-packages/teb2_local_planner/cfg/Teb2LocalPlannerReconfigureConfig.py[0m
+[  3%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target costmap_converter_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[  3%] Built target geometry_msgs_generate_messages_lisp
+[  3%] Built target std_msgs_generate_messages_eus
+[  3%] Built target geometry_msgs_generate_messages_nodejs
+[  3%] Built target geometry_msgs_generate_messages_eus
+[  3%] Built target costmap_converter_generate_messages_lisp
+[  3%] Built target _teb2_local_planner_generate_messages_check_deps_FeedbackMsg
+[  3%] Built target _teb2_local_planner_generate_messages_check_deps_TrajectoryPointMsg
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target costmap_converter_generate_messages_py[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  3%] Built target _teb2_local_planner_generate_messages_check_deps_TrajectoryMsg
+[35m[1mScanning dependencies of target costmap_converter_generate_messages_eus[0m
+[  3%] Built target costmap_converter_generate_messages_py
+[  3%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  3%] Built target geometry_msgs_generate_messages_py
+[  3%] Built target costmap_converter_generate_messages_eus
+[35m[1mScanning dependencies of target teb2_local_planner_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target teb2_local_planner_generate_messages_cpp[0m
+[  3%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target teb2_local_planner_generate_messages_py[0m
+[  6%] [34m[1mGenerating C++ code from teb2_local_planner/TrajectoryPointMsg.msg[0m
+[35m[1mScanning dependencies of target teb2_local_planner_generate_messages_eus[0m
+[ 10%] [34m[1mGenerating C++ code from teb2_local_planner/FeedbackMsg.msg[0m
+[ 13%] [34m[1mGenerating Javascript code from teb2_local_planner/TrajectoryPointMsg.msg[0m
+[ 16%] [34m[1mGenerating Javascript code from teb2_local_planner/TrajectoryMsg.msg[0m
+[ 20%] [34m[1mGenerating Javascript code from teb2_local_planner/FeedbackMsg.msg[0m
+[ 23%] [34m[1mGenerating C++ code from teb2_local_planner/TrajectoryMsg.msg[0m
+Generating reconfiguration files for Teb2LocalPlannerReconfigure in teb2_local_planner
+[35m[1mScanning dependencies of target teb2_local_planner_generate_messages_lisp[0m
+[ 26%] [34m[1mGenerating Python from MSG teb2_local_planner/FeedbackMsg[0m
+[ 30%] [34m[1mGenerating Python from MSG teb2_local_planner/TrajectoryMsg[0m
+[ 33%] [34m[1mGenerating Python from MSG teb2_local_planner/TrajectoryPointMsg[0m
+Wrote header file in /home/handsome/ros_ws_test/build/teb2_local_planner/devel/include/teb2_local_planner/Teb2LocalPlannerReconfigureConfig.h
+[ 36%] [34m[1mGenerating EusLisp code from teb2_local_planner/TrajectoryPointMsg.msg[0m
+[ 40%] [34m[1mGenerating Lisp code from teb2_local_planner/TrajectoryPointMsg.msg[0m
+[ 43%] [34m[1mGenerating EusLisp code from teb2_local_planner/TrajectoryMsg.msg[0m
+[ 43%] Built target teb2_local_planner_generate_messages_nodejs
+[ 46%] [34m[1mGenerating EusLisp code from teb2_local_planner/FeedbackMsg.msg[0m
+[ 50%] [34m[1mGenerating EusLisp manifest code for teb2_local_planner[0m
+[ 50%] Built target teb2_local_planner_gencfg
+[ 53%] [34m[1mGenerating Lisp code from teb2_local_planner/FeedbackMsg.msg[0m
+[ 56%] [34m[1mGenerating Lisp code from teb2_local_planner/TrajectoryMsg.msg[0m
+[ 56%] Built target teb2_local_planner_generate_messages_cpp
+[35m[1mScanning dependencies of target teb2_local_planner[0m
+[ 60%] [34m[1mGenerating Python msg __init__.py for teb2_local_planner[0m
+[ 60%] Built target teb2_local_planner_generate_messages_lisp
+[ 60%] Built target teb2_local_planner_generate_messages_py
+[ 63%] [32mBuilding CXX object CMakeFiles/teb2_local_planner.dir/src/timed_elastic_band.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/teb2_local_planner.dir/src/optimal_planner.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/teb2_local_planner.dir/src/visualization.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/teb2_local_planner.dir/src/obstacles.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/teb2_local_planner.dir/src/recovery_behaviors.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/teb2_local_planner.dir/src/teb2_config.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/teb2_local_planner.dir/src/homotopy_class_planner.cpp.o[0m
+[ 83%] Built target teb2_local_planner_generate_messages_eus
+[35m[1mScanning dependencies of target teb2_local_planner_generate_messages[0m
+[ 83%] Built target teb2_local_planner_generate_messages
+[ 90%] [32mBuilding CXX object CMakeFiles/teb2_local_planner.dir/src/teb2_local_planner_ros.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/teb2_local_planner.dir/src/graph_search.cpp.o[0m
+[ 93%] [32m[1mLinking CXX shared library devel/lib/libteb2_local_planner.so[0m
+[ 93%] Built target teb2_local_planner
+[35m[1mScanning dependencies of target test_optim_node[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/test_optim_node.dir/src/test_optim_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable devel/lib/teb2_local_planner/test_optim_node[0m
+[100%] Built target test_optim_node
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target costmap_converter_generate_messages_cpp
+[  0%] Built target costmap_converter_generate_messages_nodejs
+[  3%] Built target teb2_local_planner_gencfg
+[  3%] Built target std_msgs_generate_messages_nodejs
+[  3%] Built target costmap_converter_generate_messages_lisp
+[  3%] Built target std_msgs_generate_messages_eus
+[  3%] Built target costmap_converter_generate_messages_py
+[  3%] Built target std_msgs_generate_messages_lisp
+[  3%] Built target std_msgs_generate_messages_py
+[  3%] Built target costmap_converter_generate_messages_eus
+[  3%] Built target geometry_msgs_generate_messages_py
+[  3%] Built target geometry_msgs_generate_messages_eus
+[  3%] Built target _teb2_local_planner_generate_messages_check_deps_FeedbackMsg
+[  3%] Built target _teb2_local_planner_generate_messages_check_deps_TrajectoryMsg
+[  3%] Built target _teb2_local_planner_generate_messages_check_deps_TrajectoryPointMsg
+[ 46%] Built target teb2_local_planner_generate_messages_cpp
+[ 46%] Built target teb2_local_planner_generate_messages_lisp
+[ 50%] Built target teb2_local_planner_generate_messages_nodejs
+[ 53%] Built target teb2_local_planner_generate_messages_eus
+[ 60%] Built target teb2_local_planner_generate_messages_py
+[ 60%] Built target teb2_local_planner_generate_messages
+[ 93%] Built target teb2_local_planner
+[100%] Built target test_optim_node
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/share/teb2_local_planner/msg/TrajectoryPointMsg.msg
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/share/teb2_local_planner/msg/TrajectoryMsg.msg
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/share/teb2_local_planner/msg/FeedbackMsg.msg
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/share/teb2_local_planner/cmake/teb2_local_planner-msg-paths.cmake
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/include/teb2_local_planner
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/include/teb2_local_planner/FeedbackMsg.h
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/include/teb2_local_planner/TrajectoryMsg.h
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/include/teb2_local_planner/Teb2LocalPlannerReconfigureConfig.h
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/include/teb2_local_planner/TrajectoryPointMsg.h
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/share/roseus/ros/teb2_local_planner
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/share/roseus/ros/teb2_local_planner/msg
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/share/roseus/ros/teb2_local_planner/msg/FeedbackMsg.l
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/share/roseus/ros/teb2_local_planner/msg/TrajectoryPointMsg.l
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/share/roseus/ros/teb2_local_planner/msg/TrajectoryMsg.l
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/share/roseus/ros/teb2_local_planner/manifest.l
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/share/common-lisp/ros/teb2_local_planner
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/share/common-lisp/ros/teb2_local_planner/msg
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/share/common-lisp/ros/teb2_local_planner/msg/TrajectoryPointMsg.lisp
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/share/common-lisp/ros/teb2_local_planner/msg/teb2_local_planner-msg.asd
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/share/common-lisp/ros/teb2_local_planner/msg/_package.lisp
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/share/common-lisp/ros/teb2_local_planner/msg/_package_TrajectoryMsg.lisp
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/share/common-lisp/ros/teb2_local_planner/msg/FeedbackMsg.lisp
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/share/common-lisp/ros/teb2_local_planner/msg/TrajectoryMsg.lisp
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/share/common-lisp/ros/teb2_local_planner/msg/_package_TrajectoryPointMsg.lisp
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/share/common-lisp/ros/teb2_local_planner/msg/_package_FeedbackMsg.lisp
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/share/gennodejs/ros/teb2_local_planner
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/share/gennodejs/ros/teb2_local_planner/msg
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/share/gennodejs/ros/teb2_local_planner/msg/_index.js
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/share/gennodejs/ros/teb2_local_planner/msg/TrajectoryMsg.js
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/share/gennodejs/ros/teb2_local_planner/msg/TrajectoryPointMsg.js
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/share/gennodejs/ros/teb2_local_planner/msg/FeedbackMsg.js
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/share/gennodejs/ros/teb2_local_planner/_index.js
+Listing /home/handsome/ros_ws_test/build/teb2_local_planner/devel/lib/python2.7/dist-packages/teb2_local_planner ...
+Compiling /home/handsome/ros_ws_test/build/teb2_local_planner/devel/lib/python2.7/dist-packages/teb2_local_planner/__init__.py ...
+Listing /home/handsome/ros_ws_test/build/teb2_local_planner/devel/lib/python2.7/dist-packages/teb2_local_planner/cfg ...
+Compiling /home/handsome/ros_ws_test/build/teb2_local_planner/devel/lib/python2.7/dist-packages/teb2_local_planner/cfg/Teb2LocalPlannerReconfigureConfig.py ...
+Compiling /home/handsome/ros_ws_test/build/teb2_local_planner/devel/lib/python2.7/dist-packages/teb2_local_planner/cfg/__init__.py ...
+Listing /home/handsome/ros_ws_test/build/teb2_local_planner/devel/lib/python2.7/dist-packages/teb2_local_planner/msg ...
+Compiling /home/handsome/ros_ws_test/build/teb2_local_planner/devel/lib/python2.7/dist-packages/teb2_local_planner/msg/_FeedbackMsg.py ...
+Compiling /home/handsome/ros_ws_test/build/teb2_local_planner/devel/lib/python2.7/dist-packages/teb2_local_planner/msg/_TrajectoryMsg.py ...
+Compiling /home/handsome/ros_ws_test/build/teb2_local_planner/devel/lib/python2.7/dist-packages/teb2_local_planner/msg/_TrajectoryPointMsg.py ...
+Compiling /home/handsome/ros_ws_test/build/teb2_local_planner/devel/lib/python2.7/dist-packages/teb2_local_planner/msg/__init__.py ...
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/lib/python2.7/dist-packages/teb2_local_planner
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/lib/python2.7/dist-packages/teb2_local_planner/msg
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/lib/python2.7/dist-packages/teb2_local_planner/msg/_TrajectoryMsg.py
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/lib/python2.7/dist-packages/teb2_local_planner/msg/__init__.py
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/lib/python2.7/dist-packages/teb2_local_planner/msg/_TrajectoryMsg.pyc
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/lib/python2.7/dist-packages/teb2_local_planner/msg/_FeedbackMsg.pyc
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/lib/python2.7/dist-packages/teb2_local_planner/msg/_TrajectoryPointMsg.pyc
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/lib/python2.7/dist-packages/teb2_local_planner/msg/_TrajectoryPointMsg.py
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/lib/python2.7/dist-packages/teb2_local_planner/msg/_FeedbackMsg.py
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/lib/python2.7/dist-packages/teb2_local_planner/msg/__init__.pyc
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/lib/python2.7/dist-packages/teb2_local_planner/__init__.py
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/lib/python2.7/dist-packages/teb2_local_planner/__init__.pyc
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/lib/python2.7/dist-packages/teb2_local_planner/cfg
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/lib/python2.7/dist-packages/teb2_local_planner/cfg/Teb2LocalPlannerReconfigureConfig.py
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/lib/python2.7/dist-packages/teb2_local_planner/cfg/__init__.py
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/lib/python2.7/dist-packages/teb2_local_planner/cfg/Teb2LocalPlannerReconfigureConfig.pyc
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/lib/python2.7/dist-packages/teb2_local_planner/cfg/__init__.pyc
+-- Up-to-date: /home/handsome/ros_ws_test/install/teb2_local_planner/include/teb2_local_planner/Teb2LocalPlannerReconfigureConfig.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/teb2_local_planner/lib/python2.7/dist-packages/teb2_local_planner/__init__.py
+Listing /home/handsome/ros_ws_test/build/teb2_local_planner/devel/lib/python2.7/dist-packages/teb2_local_planner/cfg ...
+-- Up-to-date: /home/handsome/ros_ws_test/install/teb2_local_planner/lib/python2.7/dist-packages/teb2_local_planner/cfg
+-- Up-to-date: /home/handsome/ros_ws_test/install/teb2_local_planner/lib/python2.7/dist-packages/teb2_local_planner/cfg/Teb2LocalPlannerReconfigureConfig.py
+-- Up-to-date: /home/handsome/ros_ws_test/install/teb2_local_planner/lib/python2.7/dist-packages/teb2_local_planner/cfg/__init__.py
+-- Up-to-date: /home/handsome/ros_ws_test/install/teb2_local_planner/lib/python2.7/dist-packages/teb2_local_planner/cfg/Teb2LocalPlannerReconfigureConfig.pyc
+-- Up-to-date: /home/handsome/ros_ws_test/install/teb2_local_planner/lib/python2.7/dist-packages/teb2_local_planner/cfg/__init__.pyc
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/lib/pkgconfig/teb2_local_planner.pc
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/share/teb2_local_planner/cmake/teb2_local_planner-msg-extras.cmake
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/share/teb2_local_planner/cmake/teb2_local_plannerConfig.cmake
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/share/teb2_local_planner/cmake/teb2_local_plannerConfig-version.cmake
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/share/teb2_local_planner/package.xml
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/lib/libteb2_local_planner.so
+-- Set runtime path of "/home/handsome/ros_ws_test/install/teb2_local_planner/lib/libteb2_local_planner.so" to ""
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/lib/teb2_local_planner/test_optim_node
+-- Set runtime path of "/home/handsome/ros_ws_test/install/teb2_local_planner/lib/teb2_local_planner/test_optim_node" to ""
+-- Up-to-date: /home/handsome/ros_ws_test/install/teb2_local_planner/include/teb2_local_planner
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/include/teb2_local_planner/recovery_behaviors.h
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/include/teb2_local_planner/optimal_planner.h
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/include/teb2_local_planner/equivalence_relations.h
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/include/teb2_local_planner/g2o_types
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/include/teb2_local_planner/g2o_types/edge_prefer_rotdir.h
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/include/teb2_local_planner/g2o_types/edge_dynamic_obstacle.h
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/include/teb2_local_planner/g2o_types/edge_kinematics.h
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/include/teb2_local_planner/g2o_types/penalties.h
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/include/teb2_local_planner/g2o_types/base_teb_edges.h
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/include/teb2_local_planner/g2o_types/vertex_pose.h
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/include/teb2_local_planner/g2o_types/edge_time_optimal.h
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/include/teb2_local_planner/g2o_types/vertex_timediff.h
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/include/teb2_local_planner/g2o_types/edge_via_point.h
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/include/teb2_local_planner/g2o_types/edge_acceleration.h
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/include/teb2_local_planner/g2o_types/edge_obstacle.h
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/include/teb2_local_planner/g2o_types/edge_velocity.h
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/include/teb2_local_planner/visualization.h
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/include/teb2_local_planner/planner_interface.h
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/include/teb2_local_planner/robot_footprint_model.h
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/include/teb2_local_planner/pose_se2.h
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/include/teb2_local_planner/graph_search.h
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/include/teb2_local_planner/homotopy_class_planner.hpp
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/include/teb2_local_planner/misc.h
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/include/teb2_local_planner/visualization.hpp
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/include/teb2_local_planner/distance_calculations.h
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/include/teb2_local_planner/obstacles.h
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/include/teb2_local_planner/teb2_local_planner_ros.h
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/include/teb2_local_planner/timed_elastic_band.h
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/include/teb2_local_planner/timed_elastic_band.hpp
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/include/teb2_local_planner/homotopy_class_planner.h
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/include/teb2_local_planner/teb2_config.h
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/include/teb2_local_planner/h_signature.h
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/share/teb2_local_planner/teb2_local_planner_plugin.xml
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/share/teb2_local_planner/launch
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/share/teb2_local_planner/launch/test_optim_node.launch
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/share/teb2_local_planner/cfg
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/share/teb2_local_planner/cfg/Teb2LocalPlannerReconfigure.cfg
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/share/teb2_local_planner/cfg/rviz_test_optim.rviz
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/share/teb2_local_planner/scripts
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/share/teb2_local_planner/scripts/cmd_vel_to_ackermann_drive.py
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/share/teb2_local_planner/scripts/export_to_svg.py
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/share/teb2_local_planner/scripts/publish_test_obstacles.py
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/share/teb2_local_planner/scripts/export_to_mat.py
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/share/teb2_local_planner/scripts/publish_dynamic_obstacle.py
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/share/teb2_local_planner/scripts/visualize_velocity_profile.py
+-- Installing: /home/handsome/ros_ws_test/install/teb2_local_planner/share/teb2_local_planner/scripts/publish_viapoints.py

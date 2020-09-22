@@ -1,0 +1,87 @@
+[0.014s] Invoking command in '/home/handsome/ros_ws_test/build/i_robot_stage': /usr/bin/cmake /home/handsome/ros_ws_test/src/ros_base/i_robot/i_robot_stage -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/handsome/ros_ws_test/install/i_robot_stage
+[0.326s] -- The C compiler identification is GNU 7.5.0
+[0.601s] -- The CXX compiler identification is GNU 7.5.0
+[0.609s] -- Check for working C compiler: /usr/bin/cc
+[0.674s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.675s] -- Detecting C compiler ABI info
+[0.758s] -- Detecting C compiler ABI info - done
+[0.770s] -- Detecting C compile features
+[1.121s] -- Detecting C compile features - done
+[1.127s] -- Check for working CXX compiler: /usr/bin/c++
+[1.279s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.280s] -- Detecting CXX compiler ABI info
+[1.372s] -- Detecting CXX compiler ABI info - done
+[1.379s] -- Detecting CXX compile features
+[1.878s] -- Detecting CXX compile features - done
+[1.886s] -- Using CATKIN_DEVEL_PREFIX: /home/handsome/ros_ws_test/build/i_robot_stage/devel
+[1.887s] -- Using CMAKE_PREFIX_PATH: /home/handsome/ros_ws_test/install/yocs_cmd_vel_mux;/home/handsome/ros_ws_test/install/turtlebot_teleop;/home/handsome/ros_ws_test/install/tug_example_pnp_server;/home/handsome/ros_ws_test/install/tug_example_actions;/home/handsome/ros_ws_test/install/tug_example_msgs;/home/handsome/ros_ws_test/install/timed_roslaunch;/home/handsome/ros_ws_test/install/teb2_local_planner;/home/handsome/ros_ws_test/install/stated_roslaunch;/home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer;/home/handsome/ros_ws_test/install/robot_udp_bridge;/home/handsome/ros_ws_test/install/robot_database_bridge;/home/handsome/ros_ws_test/install/samsungcmd_msgs;/home/handsome/ros_ws_test/install/rplidar_ros;/home/handsome/ros_ws_test/install/rp_action;/home/handsome/ros_ws_test/install/rp_action_msgs;/home/handsome/ros_ws_test/install/robot_scheduling_actions;/home/handsome/ros_ws_test/install/cellctrl_qtgui_bridge;/home/handsome/ros_ws_test/install/car_db_manager_qtgui;/home/handsome/ros_ws_test/install/car_db_manager_bridge;/home/handsome/ros_ws_test/install/car_db_manager_action;/home/handsome/ros_ws_test/install/ros_utility_tools;/home/handsome/ros_ws_test/install/robot_scheduling_server;/home/handsome/ros_ws_test/install/robot_scheduling_msgs;/home/handsome/ros_ws_test/install/robot_localization;/home/handsome/ros_ws_test/install/robot_control_msgs;/home/handsome/ros_ws_test/install/reset_location;/home/handsome/ros_ws_test/install/razor_imu_9dof;/home/handsome/ros_ws_test/install/pnp_rosplan;/home/handsome/ros_ws_test/install/pnp_ros;/home/handsome/ros_ws_test/install/pnp_msgs;/home/handsome/ros_ws_test/install/open_auto_dock;/home/handsome/ros_ws_test/install/open_auto_dock_msgs;/home/handsome/ros_ws_test/install/omron_os32c_driver;/home/handsome/ros_ws_test/install/dlux_plugins;/home/handsome/ros_ws_test/install/dlux_global_planner;/home/handsome/ros_ws_test/install/nav_grid_pub_sub;/home/handsome/ros_ws_test/install/dwb_critics;/home/handsome/ros_ws_test/install/nav_grid_iterators;/home/handsome/ros_ws_test/install/locomove_base;/home/handsome/ros_ws_test/install/locomotor;/home/handsome/ros_ws_test/install/nav_core_adapter;/home/handsome/ros_ws_test/install/dwb_plugins;/home/handsome/ros_ws_test/install/dwb_local_planner;/home/handsome/ros_ws_test/install/nav_2d_utils;/home/handsome/ros_ws_test/install/global_planner_tests;/home/handsome/ros_ws_test/install/costmap_queue;/home/handsome/ros_ws_test/install/nav_core2;/home/handsome/ros_ws_test/install/nav_grid;/home/handsome/ros_ws_test/install/actionlib_modules_msgs;/home/handsome/ros_ws_test/install/locomotor_msgs;/home/handsome/ros_ws_test/install/dwb_msgs;/home/handsome/ros_ws_test/install/nav_2d_msgs;/home/handsome/ros_ws_test/install/mongodb_log;/home/handsome/ros_ws_test/install/mongodb_store;/home/handsome/ros_ws_test/install/mongodb_store_msgs;/home/handsome/ros_ws_test/install/ca_driver;/home/handsome/ros_ws_test/install/libcreate;/home/handsome/ros_ws_test/install/i_robot_stage;/home/handsome/ros_ws_test/install/i_robot_navigation;/home/handsome/ros_ws_test/install/cellctrl_control_msgs;/home/handsome/ros_ws_test/install/car_db_manager_msgs;/home/handsome/ros_ws_test/install/ca_tools;/home/handsome/ros_ws_test/install/ca_msgs;/home/handsome/ros_ws_test/install/ca_description;/home/handsome/ros_ws_test/install/botcmd_msgs;/opt/ros/melodic
+[1.889s] -- This workspace overlays: /home/handsome/ros_ws_test/install/yocs_cmd_vel_mux;/home/handsome/ros_ws_test/install/turtlebot_teleop;/home/handsome/ros_ws_test/install/tug_example_pnp_server;/home/handsome/ros_ws_test/install/tug_example_actions;/home/handsome/ros_ws_test/install/tug_example_msgs;/home/handsome/ros_ws_test/install/timed_roslaunch;/home/handsome/ros_ws_test/install/teb2_local_planner;/home/handsome/ros_ws_test/install/stated_roslaunch;/home/handsome/ros_ws_test/install/spatio_temporal_voxel_layer;/home/handsome/ros_ws_test/install/robot_udp_bridge;/home/handsome/ros_ws_test/install/robot_database_bridge;/home/handsome/ros_ws_test/install/samsungcmd_msgs;/home/handsome/ros_ws_test/install/rplidar_ros;/home/handsome/ros_ws_test/install/rp_action;/home/handsome/ros_ws_test/install/rp_action_msgs;/home/handsome/ros_ws_test/install/robot_scheduling_actions;/home/handsome/ros_ws_test/install/cellctrl_qtgui_bridge;/home/handsome/ros_ws_test/install/car_db_manager_qtgui;/home/handsome/ros_ws_test/install/car_db_manager_bridge;/home/handsome/ros_ws_test/install/car_db_manager_action;/home/handsome/ros_ws_test/install/ros_utility_tools;/home/handsome/ros_ws_test/install/robot_scheduling_server;/home/handsome/ros_ws_test/install/robot_scheduling_msgs;/home/handsome/ros_ws_test/install/robot_localization;/home/handsome/ros_ws_test/install/robot_control_msgs;/home/handsome/ros_ws_test/install/reset_location;/home/handsome/ros_ws_test/install/razor_imu_9dof;/home/handsome/ros_ws_test/install/pnp_rosplan;/home/handsome/ros_ws_test/install/pnp_ros;/home/handsome/ros_ws_test/install/pnp_msgs;/home/handsome/ros_ws_test/install/open_auto_dock;/home/handsome/ros_ws_test/install/open_auto_dock_msgs;/home/handsome/ros_ws_test/install/omron_os32c_driver;/home/handsome/ros_ws_test/install/dlux_plugins;/home/handsome/ros_ws_test/install/dlux_global_planner;/home/handsome/ros_ws_test/install/nav_grid_pub_sub;/home/handsome/ros_ws_test/install/dwb_critics;/home/handsome/ros_ws_test/install/nav_grid_iterators;/home/handsome/ros_ws_test/install/locomove_base;/home/handsome/ros_ws_test/install/locomotor;/home/handsome/ros_ws_test/install/nav_core_adapter;/home/handsome/ros_ws_test/install/dwb_plugins;/home/handsome/ros_ws_test/install/dwb_local_planner;/home/handsome/ros_ws_test/install/nav_2d_utils;/home/handsome/ros_ws_test/install/global_planner_tests;/home/handsome/ros_ws_test/install/costmap_queue;/home/handsome/ros_ws_test/install/nav_core2;/home/handsome/ros_ws_test/install/nav_grid;/home/handsome/ros_ws_test/install/actionlib_modules_msgs;/home/handsome/ros_ws_test/install/locomotor_msgs;/home/handsome/ros_ws_test/install/dwb_msgs;/home/handsome/ros_ws_test/install/nav_2d_msgs;/home/handsome/ros_ws_test/install/mongodb_log;/home/handsome/ros_ws_test/install/mongodb_store;/home/handsome/ros_ws_test/install/mongodb_store_msgs;/home/handsome/ros_ws_test/install/ca_driver;/home/handsome/ros_ws_test/install/cellctrl_control_msgs;/home/handsome/ros_ws_test/install/car_db_manager_msgs;/home/handsome/ros_ws_test/install/ca_tools;/home/handsome/ros_ws_test/install/ca_msgs;/home/handsome/ros_ws_test/install/ca_description;/home/handsome/ros_ws_test/install/botcmd_msgs;/opt/ros/melodic
+[1.912s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.913s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.913s] -- Using Debian Python package layout
+[1.914s] -- Using empy: /usr/bin/empy
+[2.038s] -- Using CATKIN_ENABLE_TESTING: ON
+[2.038s] -- Call enable_testing()
+[2.041s] -- Using CATKIN_TEST_RESULTS_DIR: /home/handsome/ros_ws_test/build/i_robot_stage/test_results
+[2.074s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[2.074s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[2.090s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[2.092s] -- Looking for pthread.h
+[2.163s] -- Looking for pthread.h - found
+[2.163s] -- Looking for pthread_create
+[2.233s] -- Looking for pthread_create - not found
+[2.234s] -- Looking for pthread_create in pthreads
+[2.300s] -- Looking for pthread_create in pthreads - not found
+[2.300s] -- Looking for pthread_create in pthread
+[2.391s] -- Looking for pthread_create in pthread - found
+[2.392s] -- Found Threads: TRUE  
+[2.399s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[2.456s] -- catkin 0.7.28
+[2.456s] -- BUILD_SHARED_LIBS is on
+[2.880s] -- Configuring done
+[2.888s] -- Generating done
+[2.889s] -- Build files have been written to: /home/handsome/ros_ws_test/build/i_robot_stage
+[2.892s] Invoked command in '/home/handsome/ros_ws_test/build/i_robot_stage' returned '0': /usr/bin/cmake /home/handsome/ros_ws_test/src/ros_base/i_robot/i_robot_stage -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/handsome/ros_ws_test/install/i_robot_stage
+[2.895s] Invoking command in '/home/handsome/ros_ws_test/build/i_robot_stage': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/i_robot_stage -- -j12 -l12
+[2.936s] Invoked command in '/home/handsome/ros_ws_test/build/i_robot_stage' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/i_robot_stage -- -j12 -l12
+[2.969s] Invoking command in '/home/handsome/ros_ws_test/build/i_robot_stage': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/i_robot_stage --target tests -- -j12 -l12
+[3.036s] [35m[1mScanning dependencies of target tests[0m
+[3.052s] Built target tests
+[3.067s] Invoked command in '/home/handsome/ros_ws_test/build/i_robot_stage' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/i_robot_stage --target tests -- -j12 -l12
+[3.130s] Invoking command in '/home/handsome/ros_ws_test/build/i_robot_stage': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/i_robot_stage --target install -- -j12 -l12
+[3.209s] [36mInstall the project...[0m
+[3.224s] -- Install configuration: ""
+[3.224s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_stage/lib/pkgconfig/i_robot_stage.pc
+[3.225s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/cmake/i_robot_stageConfig.cmake
+[3.225s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/cmake/i_robot_stageConfig-version.cmake
+[3.225s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/package.xml
+[3.225s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_stage/etc/catkin/profile.d/25.i-robot-stage.sh
+[3.225s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/catkin_env_hook/25.i-robot-stage.sh
+[3.225s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/launch
+[3.226s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/launch/i_robot_teb_in_stage.launch
+[3.226s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/launch/i_robot_in_stage.launch
+[3.226s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/launch/i_robot_locomotor_teb_in_stage.launch
+[3.226s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/launch/i_robot_real_teb.launch
+[3.226s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/launch/locomotor.launch
+[3.226s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/param
+[3.226s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/param/mux.yaml
+[3.226s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/maps
+[3.226s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/maps/maze.yaml
+[3.226s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/maps/robopark_plan.yaml
+[3.226s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/maps/robopark2.bmp
+[3.233s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/maps/maze123.pgm
+[3.234s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/maps/stage
+[3.234s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/maps/stage/maze_back.world
+[3.234s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/maps/stage/robopark_plan.world
+[3.234s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/maps/stage/turtlebot.inc
+[3.234s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/maps/stage/mymap.world
+[3.235s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/maps/stage/maze.world
+[3.235s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/maps/mymap.yaml
+[3.235s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/maps/maze123.yaml
+[3.235s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/maps/mymap.pgm
+[3.235s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/maps/maze.png
+[3.235s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/rviz
+[3.235s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/rviz/robot_teb_navigation.rviz
+[3.235s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/rviz/robot_teb_navigation_hyc.rviz
+[3.235s] -- Installing: /home/handsome/ros_ws_test/install/i_robot_stage/share/i_robot_stage/rviz/robot_navigation.rviz
+[3.238s] Invoked command in '/home/handsome/ros_ws_test/build/i_robot_stage' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/i_robot_stage --target install -- -j12 -l12

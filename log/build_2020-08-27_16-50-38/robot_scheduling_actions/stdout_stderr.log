@@ -1,0 +1,85 @@
+[35m[1mScanning dependencies of target robot_scheduling_actions_node[0m
+[  4%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/public_actions/self_turn_action.cpp.o[0m
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/include/public_actions/self_turn_action.h:4[m[K,
+                 from [01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:1[m[K:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:[m[K In member function ‘[01m[Kvoid robot_turn_action_client::ac_feedbackCb(const self_turn_toFeedbackConstPtr&)[m[K’:
+[01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects a matching ‘[01m[Kint[m[K’ argument [[01;35m[K-Wformat=[m[K]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;35m[K)[m[K
+                                                                                                                                                                                [01;35m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:301:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+         [01;36m[KR[m[KOS_INFO("bTimeoutFlag:%d");
+         [01;36m[K^[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:[m[K In member function ‘[01m[Kvoid self_turn_action::self_turn_to_CB(const self_turn_toGoalConstPtr&)[m[K’:
+[01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 8 has type ‘[01m[Kint[m[K’ [[01;35m[K-Wformat=[m[K]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;35m[K)[m[K
+                                                                                                                                                                                [01;35m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:468:29:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+                             [01;36m[KR[m[KOS_INFO("timeout!==>%f",Period_timeout);
+                             [01;36m[K^[m[K
+[  9%] [32m[1mLinking CXX executable devel/lib/robot_scheduling_actions/robot_scheduling_actions_node[0m
+[100%] Built target robot_scheduling_actions_node
+Built target tests
+[100%] Built target robot_scheduling_actions_node
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/lib/pkgconfig/robot_scheduling_actions.pc
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/share/robot_scheduling_actions/cmake/robot_scheduling_actionsConfig.cmake
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/share/robot_scheduling_actions/cmake/robot_scheduling_actionsConfig-version.cmake
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/share/robot_scheduling_actions/package.xml
+-- Installing: /home/handsome/ros_ws_test/install/robot_scheduling_actions/lib/robot_scheduling_actions/robot_scheduling_actions_node
+-- Set runtime path of "/home/handsome/ros_ws_test/install/robot_scheduling_actions/lib/robot_scheduling_actions/robot_scheduling_actions_node" to ""
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/share/robot_scheduling_actions/launch
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/share/robot_scheduling_actions/launch/robot_scheduling_action.launch
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/share/robot_scheduling_actions/config
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/share/robot_scheduling_actions/config/scheduling_params.yaml
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/public_actions
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/public_actions/db_process_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/public_actions/function_run_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/public_actions/worksheetrun_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/public_actions/pose_move_to_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/public_actions/undock_to_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/public_actions/self_turn_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/public_actions/time_wait_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/public_actions/turn_pid.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/public_actions/pose_recognize_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/public_actions/dock_to_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/robot_scheduling_parameter.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/private_actions
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/private_actions/robot_if_params_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/private_actions/robot_if_process_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/private_actions/robot_power_charge_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/private_actions/robot_if_proc_lower_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/private_actions/robot_command_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/private_actions/interrupt_info_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/private_actions/robot_if_proc_upper_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/private_actions/robot_run_state_action.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/robot_scheduling_actions.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/robot_scheduling_service.h
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions
+-- Up-to-date: /home/handsome/ros_ws_test/install/robot_scheduling_actions/include/robot_scheduling_actions/scheduling_params.yaml

@@ -1,0 +1,8 @@
+prefix=/home/handsome/ros_ws_test/install/locomotor_msgs
+
+Name: locomotor_msgs
+Description: Description of locomotor_msgs
+Version: 0.2.4
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: actionlib_msgs message_runtime nav_2d_msgs

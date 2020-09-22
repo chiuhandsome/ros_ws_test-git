@@ -1,0 +1,136 @@
+[0.235s] Invoking command in '/home/handsome/ros_ws_test/build/open_auto_dock': CMAKE_PREFIX_PATH=/home/handsome/ros_ws_test/install/open_auto_dock_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/handsome/ros_ws_test/install/open_auto_dock_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/handsome/ros_ws_test/build/open_auto_dock -- -j12 -l12
+[0.457s] [  0%] Built target tf_generate_messages_nodejs
+[0.485s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[0.490s] [  0%] Built target open_auto_dock_msgs_generate_messages_nodejs
+[0.500s] [  0%] Built target tf2_msgs_generate_messages_eus
+[0.505s] [  0%] Built target tf_generate_messages_lisp
+[0.528s] [  0%] Built target sensor_msgs_generate_messages_py
+[0.534s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[0.536s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[0.591s] [  0%] Built target tf_generate_messages_py
+[0.631s] [  0%] Built target tf_generate_messages_eus
+[0.638s] [  0%] Built target tf_generate_messages_cpp
+[0.654s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[0.664s] [  0%] Built target tf2_msgs_generate_messages_py
+[0.698s] [  0%] Built target geometry_msgs_generate_messages_py
+[0.699s] [  0%] Built target nav_msgs_generate_messages_eus
+[0.718s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[0.731s] [  0%] Built target nav_msgs_generate_messages_cpp
+[0.748s] [  0%] Built target nav_msgs_generate_messages_py
+[0.750s] [  0%] Built target nav_msgs_generate_messages_lisp
+[0.757s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[0.765s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[0.825s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[0.880s] [  0%] Built target std_msgs_generate_messages_eus
+[0.913s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[0.922s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[0.933s] [  0%] Built target actionlib_generate_messages_lisp
+[0.947s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[0.952s] [  0%] Built target actionlib_generate_messages_nodejs
+[0.955s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[0.995s] [  0%] Built target actionlib_generate_messages_py
+[0.997s] [  0%] Built target actionlib_generate_messages_eus
+[1.037s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[1.041s] [  0%] Built target std_msgs_generate_messages_cpp
+[1.059s] [  0%] Built target nav_msgs_generate_messages_nodejs
+[1.126s] [  0%] Built target actionlib_generate_messages_cpp
+[1.153s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[1.159s] [  0%] Built target std_msgs_generate_messages_lisp
+[1.172s] [  0%] Built target std_msgs_generate_messages_nodejs
+[1.178s] [  0%] Built target roscpp_generate_messages_cpp
+[1.206s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[1.209s] [  0%] Built target open_auto_dock_msgs_generate_messages_eus
+[1.228s] [  0%] Built target std_msgs_generate_messages_py
+[1.258s] [  0%] Built target sensor_msgs_generate_messages_eus
+[1.288s] [  0%] Built target open_auto_dock_msgs_generate_messages_lisp
+[1.297s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[1.340s] [  0%] Built target _catkin_empty_exported_target
+[1.351s] [  0%] Built target roscpp_generate_messages_eus
+[1.376s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[1.388s] [  0%] Built target geometry_msgs_generate_messages_eus
+[1.388s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[1.418s] [  0%] Built target roscpp_generate_messages_lisp
+[1.442s] [  0%] Built target roscpp_generate_messages_nodejs
+[1.442s] [  0%] Built target roscpp_generate_messages_py
+[1.443s] [  0%] Built target open_auto_dock_msgs_generate_messages_py
+[1.471s] [  0%] Built target open_auto_dock_msgs_generate_messages_cpp
+[1.483s] [  0%] Built target actionlib_msgs_generate_messages_py
+[1.666s] [100%] Built target auto_dock
+[1.702s] Invoked command in '/home/handsome/ros_ws_test/build/open_auto_dock' returned '0': CMAKE_PREFIX_PATH=/home/handsome/ros_ws_test/install/open_auto_dock_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/handsome/ros_ws_test/install/open_auto_dock_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/handsome/ros_ws_test/build/open_auto_dock -- -j12 -l12
+[2.784s] Invoking command in '/home/handsome/ros_ws_test/build/open_auto_dock': CMAKE_PREFIX_PATH=/home/handsome/ros_ws_test/install/open_auto_dock_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/handsome/ros_ws_test/install/open_auto_dock_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/handsome/ros_ws_test/build/open_auto_dock --target tests -- -j12 -l12
+[2.961s] [ 25%] Built target gtest
+[3.043s] [ 62%] Built target test_icp
+[3.061s] [100%] Built target test_low_pass_filter
+[3.188s] [100%] Built target tests
+[3.247s] Invoked command in '/home/handsome/ros_ws_test/build/open_auto_dock' returned '0': CMAKE_PREFIX_PATH=/home/handsome/ros_ws_test/install/open_auto_dock_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/handsome/ros_ws_test/install/open_auto_dock_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/handsome/ros_ws_test/build/open_auto_dock --target tests -- -j12 -l12
+[3.816s] Invoking command in '/home/handsome/ros_ws_test/build/open_auto_dock': CMAKE_PREFIX_PATH=/home/handsome/ros_ws_test/install/open_auto_dock_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/handsome/ros_ws_test/install/open_auto_dock_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/handsome/ros_ws_test/build/open_auto_dock --target install -- -j12 -l12
+[3.966s] [  0%] Built target tf2_msgs_generate_messages_eus
+[3.967s] [  0%] Built target open_auto_dock_msgs_generate_messages_nodejs
+[3.975s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[3.975s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[3.987s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[3.991s] [  0%] Built target tf_generate_messages_lisp
+[3.991s] [  0%] Built target sensor_msgs_generate_messages_py
+[4.002s] [  0%] Built target tf_generate_messages_eus
+[4.002s] [  0%] Built target tf_generate_messages_nodejs
+[4.011s] [  0%] Built target tf_generate_messages_py
+[4.014s] [  0%] Built target tf2_msgs_generate_messages_py
+[4.032s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[4.038s] [  0%] Built target tf_generate_messages_cpp
+[4.055s] [  0%] Built target nav_msgs_generate_messages_eus
+[4.097s] [  0%] Built target nav_msgs_generate_messages_lisp
+[4.098s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[4.098s] [  0%] Built target geometry_msgs_generate_messages_py
+[4.104s] [  0%] Built target nav_msgs_generate_messages_cpp
+[4.122s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[4.123s] [  0%] Built target nav_msgs_generate_messages_py
+[4.123s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[4.128s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[4.134s] [  0%] Built target actionlib_generate_messages_nodejs
+[4.137s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[4.137s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[4.158s] [  0%] Built target actionlib_generate_messages_py
+[4.228s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[4.244s] [  0%] Built target nav_msgs_generate_messages_nodejs
+[4.253s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[4.268s] [  0%] Built target actionlib_generate_messages_lisp
+[4.288s] [  0%] Built target std_msgs_generate_messages_eus
+[4.301s] [  0%] Built target roscpp_generate_messages_cpp
+[4.302s] [  0%] Built target std_msgs_generate_messages_cpp
+[4.302s] [  0%] Built target actionlib_generate_messages_cpp
+[4.302s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[4.339s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[4.363s] [  0%] Built target actionlib_generate_messages_eus
+[4.364s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[4.378s] [  0%] Built target std_msgs_generate_messages_lisp
+[4.410s] [  0%] Built target std_msgs_generate_messages_nodejs
+[4.420s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[4.426s] [  0%] Built target open_auto_dock_msgs_generate_messages_eus
+[4.521s] [  0%] Built target roscpp_generate_messages_lisp
+[4.602s] [  0%] Built target roscpp_generate_messages_py
+[4.683s] [  0%] Built target open_auto_dock_msgs_generate_messages_cpp
+[4.758s] [  0%] Built target actionlib_msgs_generate_messages_py
+[4.836s] [  0%] Built target open_auto_dock_msgs_generate_messages_py
+[4.929s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[5.008s] [  0%] Built target geometry_msgs_generate_messages_eus
+[5.026s] [  0%] Built target roscpp_generate_messages_eus
+[5.051s] [  0%] Built target roscpp_generate_messages_nodejs
+[5.086s] [  0%] Built target _catkin_empty_exported_target
+[5.096s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[5.117s] [  0%] Built target sensor_msgs_generate_messages_eus
+[5.182s] [  0%] Built target open_auto_dock_msgs_generate_messages_lisp
+[5.205s] [  0%] Built target std_msgs_generate_messages_py
+[5.300s] [100%] Built target auto_dock
+[5.357s] [36mInstall the project...[0m
+[5.379s] -- Install configuration: ""
+[5.380s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock/lib/pkgconfig/open_auto_dock.pc
+[5.380s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock/share/open_auto_dock/cmake/open_auto_dockConfig.cmake
+[5.380s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock/share/open_auto_dock/cmake/open_auto_dockConfig-version.cmake
+[5.380s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock/share/open_auto_dock/package.xml
+[5.380s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock/lib/open_auto_dock/auto_dock
+[5.380s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock/share/open_auto_dock/launch
+[5.381s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock/share/open_auto_dock/launch/arm_params.yaml
+[5.381s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock/share/open_auto_dock/launch/auto_dock_params.yaml
+[5.381s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock/share/open_auto_dock/launch/hyc_auto_core.launch
+[5.381s] -- Up-to-date: /home/handsome/ros_ws_test/install/open_auto_dock/share/open_auto_dock/launch/arm_params_test.yaml
+[5.388s] Invoked command in '/home/handsome/ros_ws_test/build/open_auto_dock' returned '0': CMAKE_PREFIX_PATH=/home/handsome/ros_ws_test/install/open_auto_dock_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/handsome/ros_ws_test/install/open_auto_dock_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/handsome/ros_ws_test/install/open_auto_dock_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/handsome/ros_ws_test/build/open_auto_dock --target install -- -j12 -l12

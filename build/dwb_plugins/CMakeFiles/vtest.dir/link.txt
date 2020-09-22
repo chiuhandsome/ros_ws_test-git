@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/vtest.dir/test/velocity_iterator_test.cpp.o  -o devel/lib/dwb_plugins/vtest  -L/home/handsome/ros_ws_test/build/dwb_plugins/gtest -Wl,-rpath,/home/handsome/ros_ws_test/build/dwb_plugins/gtest:/home/handsome/ros_ws_test/build/dwb_plugins/gtest/googlemock/gtest gtest/googlemock/gtest/libgtest.so -lpthread 

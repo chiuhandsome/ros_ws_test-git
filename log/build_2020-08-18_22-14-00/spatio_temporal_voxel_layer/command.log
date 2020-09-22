@@ -1,0 +1,6 @@
+Invoking command in '/home/handsome/ros_ws_test/build/spatio_temporal_voxel_layer': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/spatio_temporal_voxel_layer -- -j12 -l12
+Invoked command in '/home/handsome/ros_ws_test/build/spatio_temporal_voxel_layer' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/spatio_temporal_voxel_layer -- -j12 -l12
+Invoking command in '/home/handsome/ros_ws_test/build/spatio_temporal_voxel_layer': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/spatio_temporal_voxel_layer --target tests -- -j12 -l12
+Invoked command in '/home/handsome/ros_ws_test/build/spatio_temporal_voxel_layer' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/spatio_temporal_voxel_layer --target tests -- -j12 -l12
+Invoking command in '/home/handsome/ros_ws_test/build/spatio_temporal_voxel_layer': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/spatio_temporal_voxel_layer --target install -- -j12 -l12
+Invoked command in '/home/handsome/ros_ws_test/build/spatio_temporal_voxel_layer' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/spatio_temporal_voxel_layer --target install -- -j12 -l12

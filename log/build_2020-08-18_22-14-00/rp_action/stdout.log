@@ -1,0 +1,16 @@
+[ 27%] Built target turn
+[ 45%] Built target gotopose
+[ 81%] Built target mypnpas
+[100%] Built target stopmove
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[ 18%] Built target gotopose
+[ 45%] Built target turn
+[ 81%] Built target mypnpas
+[100%] Built target stopmove
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/handsome/ros_ws_test/install/rp_action/lib/pkgconfig/rp_action.pc
+-- Installing: /home/handsome/ros_ws_test/install/rp_action/share/rp_action/cmake/rp_actionConfig.cmake
+-- Installing: /home/handsome/ros_ws_test/install/rp_action/share/rp_action/cmake/rp_actionConfig-version.cmake
+-- Installing: /home/handsome/ros_ws_test/install/rp_action/share/rp_action/package.xml

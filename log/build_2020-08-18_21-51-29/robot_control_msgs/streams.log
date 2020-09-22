@@ -1,0 +1,179 @@
+[0.157s] Invoking command in '/home/handsome/ros_ws_test/build/robot_control_msgs': /usr/bin/cmake /home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_control_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/handsome/ros_ws_test/install/robot_control_msgs
+[1.416s] -- The C compiler identification is GNU 7.5.0
+[2.876s] -- The CXX compiler identification is GNU 7.5.0
+[2.896s] -- Check for working C compiler: /usr/bin/cc
+[4.183s] -- Check for working C compiler: /usr/bin/cc -- works
+[4.184s] -- Detecting C compiler ABI info
+[5.150s] -- Detecting C compiler ABI info - done
+[5.197s] -- Detecting C compile features
+[7.446s] -- Detecting C compile features - done
+[7.451s] -- Check for working CXX compiler: /usr/bin/c++
+[8.251s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[8.252s] -- Detecting CXX compiler ABI info
+[8.916s] -- Detecting CXX compiler ABI info - done
+[8.980s] -- Detecting CXX compile features
+[11.807s] -- Detecting CXX compile features - done
+[11.864s] -- Using CATKIN_DEVEL_PREFIX: /home/handsome/ros_ws_test/build/robot_control_msgs/devel
+[11.909s] -- Using CMAKE_PREFIX_PATH: /home/handsome/ros_ws/install/yocs_cmd_vel_mux;/home/handsome/ros_ws/install/urdf_tutorial;/home/handsome/ros_ws/install/tuw_waypoint_to_spline_msgs;/home/handsome/ros_ws/install/tuw_multi_robot_router;/home/handsome/ros_ws/install/tuw_voronoi_graph;/home/handsome/ros_ws/install/tuw_vehicle_msgs;/home/handsome/ros_ws/install/tuw_order_planner;/home/handsome/ros_ws/install/tuw_object_rviz;/home/handsome/ros_ws/install/tuw_object_msgs;/home/handsome/ros_ws/install/tuw_nav_rviz;/home/handsome/ros_ws/install/tuw_multi_robot_local_behavior_controller;/home/handsome/ros_ws/install/tuw_multi_robot_ctrl;/home/handsome/ros_ws/install/tuw_nav_msgs;/home/handsome/ros_ws/install/tuw_multi_robot_rviz;/home/handsome/ros_ws/install/tuw_multi_robot_goal_generator;/home/handsome/ros_ws/install/robot_scheduling_utility;/home/handsome/ros_ws/install/robot_scheduling_actions;/home/handsome/ros_ws/install/actionlib_modules_bridge;/home/handsome/ros_ws/install/tuw_multi_robot_msgs;/home/handsome/ros_ws/install/tuw_multi_robot_demo;/home/handsome/ros_ws/install/tuw_local_controller_msgs;/home/handsome/ros_ws/install/tuw_geometry_rviz;/home/handsome/ros_ws/install/tuw_geometry_msgs;/home/handsome/ros_ws/install/tuw_geometry;/home/handsome/ros_ws/install/tuw_gazebo_msgs;/home/handsome/ros_ws/install/tuw_control;/home/handsome/ros_ws/install/tuw_airskin_msgs;/home/handsome/ros_ws/install/turtlebot_teleop;/home/handsome/ros_ws/install/tug_example_pnp_server;/home/handsome/ros_ws/install/tug_example_actions;/home/handsome/ros_ws/install/tug_example_msgs;/home/handsome/ros_ws/install/timed_roslaunch;/home/handsome/ros_ws/install/teb2_local_planner;/home/handsome/ros_ws/install/stated_roslaunch;/home/handsome/ros_ws/install/spatio_temporal_voxel_layer;/home/handsome/ros_ws/install/robot_udp_bridge;/home/handsome/ros_ws/install/robot_database_bridge;/home/handsome/ros_ws/install/samsungcmd_msgs;/home/handsome/ros_ws/install/rplidar_ros;/home/handsome/ros_ws/install/rp_action;/home/handsome/ros_ws/install/rp_action_msgs;/home/handsome/ros_ws/install/rosserial_xbee;/home/handsome/ros_ws/install/rosserial_windows;/home/handsome/ros_ws/install/rosserial_tivac;/home/handsome/ros_ws/install/rosserial_test;/home/handsome/ros_ws/install/rosserial_server;/home/handsome/ros_ws/install/rosserial_python;/home/handsome/ros_ws/install/rosserial_mbed;/home/handsome/ros_ws/install/rosserial_embeddedlinux;/home/handsome/ros_ws/install/rosserial_arduino;/home/handsome/ros_ws/install/rosserial_client;/home/handsome/ros_ws/install/rosserial_msgs;/home/handsome/ros_ws/install/cellctrl_qtgui_bridge;/home/handsome/ros_ws/install/car_db_manager_qtgui;/home/handsome/ros_ws/install/car_db_manager_bridge;/home/handsome/ros_ws/install/car_db_manager_action;/home/handsome/ros_ws/install/ros_utility_tools;/home/handsome/ros_ws/install/ros_package_test;/home/handsome/ros_ws/install/ros_package_manager;/home/handsome/ros_ws/install/robot_scheduling_server;/home/handsome/ros_ws/install/robot_scheduling_msgs;/home/handsome/ros_ws/install/robot_localization;/home/handsome/ros_ws/install/robot_control_msgs;/home/handsome/ros_ws/install/reset_location;/home/handsome/ros_ws/install/razor_imu_9dof;/home/handsome/ros_ws/install/pnp_rosplan;/home/handsome/ros_ws/install/actionlib_pnp_controller;/home/handsome/ros_ws/install/actionlib_modules_controller;/home/handsome/ros_ws/install/pnp_ros;/home/handsome/ros_ws/install/pnp_msgs;/home/handsome/ros_ws/install/open_auto_dock;/home/handsome/ros_ws/install/open_auto_dock_msgs;/home/handsome/ros_ws/install/omron_os32c_driver;/home/handsome/ros_ws/install/dlux_plugins;/home/handsome/ros_ws/install/dlux_global_planner;/home/handsome/ros_ws/install/nav_grid_pub_sub;/home/handsome/ros_ws/install/dwb_critics;/home/handsome/ros_ws/install/nav_grid_iterators;/home/handsome/ros_ws/install/locomove_base;/home/handsome/ros_ws/install/locomotor;/home/handsome/ros_ws/install/nav_core_adapter;/home/handsome/ros_ws/install/dwb_plugins;/home/handsome/ros_ws/install/dwb_local_planner;/home/handsome/ros_ws/install/nav_2d_utils;/home/handsome/ros_ws/install/global_planner_tests;/home/handsome/ros_ws/install/costmap_queue;/home/handsome/ros_ws/install/nav_core2;/home/handsome/ros_ws/install/nav_grid;/home/handsome/ros_ws/install/car_schedule_msgs;/home/handsome/ros_ws/install/actionlib_modules_msgs;/home/handsome/ros_ws/install/locomotor_msgs;/home/handsome/ros_ws/install/dwb_msgs;/home/handsome/ros_ws/install/nav_2d_msgs;/home/handsome/ros_ws/install/mongodb_log;/home/handsome/ros_ws/install/mongodb_store;/home/handsome/ros_ws/install/mongodb_store_msgs;/home/handsome/ros_ws/install/ca_driver;/home/handsome/ros_ws/install/libcreate;/home/handsome/ros_ws/install/i_robot_stage;/home/handsome/ros_ws/install/i_robot_navigation;/home/handsome/ros_ws/install/hyc_order_planner;/home/handsome/ros_ws/install/hyc_multi_robot_msgs;/home/handsome/ros_ws/install/fetch_open_auto_dock;/home/handsome/ros_ws/install/fetch_auto_dock_msgs;/home/handsome/ros_ws/install/change_teb2_max_vel_x_onfly;/home/handsome/ros_ws/install/cellctrl_control_msgs;/home/handsome/ros_ws/install/car_db_manager_msgs;/home/handsome/ros_ws/install/ca_msgs;/home/handsome/ros_ws/install/ca_description;/home/handsome/ros_ws/install/botcmd_msgs;/opt/ros/melodic
+[11.953s] -- This workspace overlays: /home/handsome/ros_ws/install/yocs_cmd_vel_mux;/home/handsome/ros_ws/install/urdf_tutorial;/home/handsome/ros_ws/install/tuw_waypoint_to_spline_msgs;/home/handsome/ros_ws/install/tuw_multi_robot_router;/home/handsome/ros_ws/install/tuw_voronoi_graph;/home/handsome/ros_ws/install/tuw_vehicle_msgs;/home/handsome/ros_ws/install/tuw_order_planner;/home/handsome/ros_ws/install/tuw_object_rviz;/home/handsome/ros_ws/install/tuw_object_msgs;/home/handsome/ros_ws/install/tuw_nav_rviz;/home/handsome/ros_ws/install/tuw_multi_robot_local_behavior_controller;/home/handsome/ros_ws/install/tuw_multi_robot_ctrl;/home/handsome/ros_ws/install/tuw_nav_msgs;/home/handsome/ros_ws/install/tuw_multi_robot_rviz;/home/handsome/ros_ws/install/tuw_multi_robot_goal_generator;/home/handsome/ros_ws/install/robot_scheduling_utility;/home/handsome/ros_ws/install/robot_scheduling_actions;/home/handsome/ros_ws/install/actionlib_modules_bridge;/home/handsome/ros_ws/install/tuw_multi_robot_msgs;/home/handsome/ros_ws/install/tuw_multi_robot_demo;/home/handsome/ros_ws/install/tuw_local_controller_msgs;/home/handsome/ros_ws/install/tuw_geometry_rviz;/home/handsome/ros_ws/install/tuw_geometry_msgs;/home/handsome/ros_ws/install/tuw_geometry;/home/handsome/ros_ws/install/tuw_gazebo_msgs;/home/handsome/ros_ws/install/tuw_control;/home/handsome/ros_ws/install/tuw_airskin_msgs;/home/handsome/ros_ws/install/turtlebot_teleop;/home/handsome/ros_ws/install/tug_example_pnp_server;/home/handsome/ros_ws/install/tug_example_actions;/home/handsome/ros_ws/install/tug_example_msgs;/home/handsome/ros_ws/install/timed_roslaunch;/home/handsome/ros_ws/install/teb2_local_planner;/home/handsome/ros_ws/install/stated_roslaunch;/home/handsome/ros_ws/install/spatio_temporal_voxel_layer;/home/handsome/ros_ws/install/robot_udp_bridge;/home/handsome/ros_ws/install/robot_database_bridge;/home/handsome/ros_ws/install/samsungcmd_msgs;/home/handsome/ros_ws/install/rplidar_ros;/home/handsome/ros_ws/install/rp_action;/home/handsome/ros_ws/install/rp_action_msgs;/home/handsome/ros_ws/install/rosserial_xbee;/home/handsome/ros_ws/install/rosserial_windows;/home/handsome/ros_ws/install/rosserial_tivac;/home/handsome/ros_ws/install/rosserial_test;/home/handsome/ros_ws/install/rosserial_server;/home/handsome/ros_ws/install/rosserial_python;/home/handsome/ros_ws/install/rosserial_mbed;/home/handsome/ros_ws/install/rosserial_embeddedlinux;/home/handsome/ros_ws/install/rosserial_arduino;/home/handsome/ros_ws/install/rosserial_client;/home/handsome/ros_ws/install/rosserial_msgs;/home/handsome/ros_ws/install/cellctrl_qtgui_bridge;/home/handsome/ros_ws/install/car_db_manager_qtgui;/home/handsome/ros_ws/install/car_db_manager_bridge;/home/handsome/ros_ws/install/car_db_manager_action;/home/handsome/ros_ws/install/ros_utility_tools;/home/handsome/ros_ws/install/ros_package_test;/home/handsome/ros_ws/install/ros_package_manager;/home/handsome/ros_ws/install/robot_scheduling_server;/home/handsome/ros_ws/install/robot_scheduling_msgs;/home/handsome/ros_ws/install/robot_localization;/home/handsome/ros_ws/install/robot_control_msgs;/home/handsome/ros_ws/install/reset_location;/home/handsome/ros_ws/install/razor_imu_9dof;/home/handsome/ros_ws/install/pnp_rosplan;/home/handsome/ros_ws/install/actionlib_pnp_controller;/home/handsome/ros_ws/install/actionlib_modules_controller;/home/handsome/ros_ws/install/pnp_ros;/home/handsome/ros_ws/install/pnp_msgs;/home/handsome/ros_ws/install/open_auto_dock;/home/handsome/ros_ws/install/open_auto_dock_msgs;/home/handsome/ros_ws/install/omron_os32c_driver;/home/handsome/ros_ws/install/dlux_plugins;/home/handsome/ros_ws/install/dlux_global_planner;/home/handsome/ros_ws/install/nav_grid_pub_sub;/home/handsome/ros_ws/install/dwb_critics;/home/handsome/ros_ws/install/nav_grid_iterators;/home/handsome/ros_ws/install/locomove_base;/home/handsome/ros_ws/install/locomotor;/home/handsome/ros_ws/install/nav_core_adapter;/home/handsome/ros_ws/install/dwb_plugins;/home/handsome/ros_ws/install/dwb_local_planner;/home/handsome/ros_ws/install/nav_2d_utils;/home/handsome/ros_ws/install/global_planner_tests;/home/handsome/ros_ws/install/costmap_queue;/home/handsome/ros_ws/install/nav_core2;/home/handsome/ros_ws/install/nav_grid;/home/handsome/ros_ws/install/car_schedule_msgs;/home/handsome/ros_ws/install/actionlib_modules_msgs;/home/handsome/ros_ws/install/locomotor_msgs;/home/handsome/ros_ws/install/dwb_msgs;/home/handsome/ros_ws/install/nav_2d_msgs;/home/handsome/ros_ws/install/mongodb_log;/home/handsome/ros_ws/install/mongodb_store;/home/handsome/ros_ws/install/mongodb_store_msgs;/home/handsome/ros_ws/install/ca_driver;/home/handsome/ros_ws/install/i_robot_stage;/home/handsome/ros_ws/install/i_robot_navigation;/home/handsome/ros_ws/install/hyc_order_planner;/home/handsome/ros_ws/install/hyc_multi_robot_msgs;/home/handsome/ros_ws/install/fetch_open_auto_dock;/home/handsome/ros_ws/install/fetch_auto_dock_msgs;/home/handsome/ros_ws/install/change_teb2_max_vel_x_onfly;/home/handsome/ros_ws/install/cellctrl_control_msgs;/home/handsome/ros_ws/install/car_db_manager_msgs;/home/handsome/ros_ws/install/ca_msgs;/home/handsome/ros_ws/install/ca_description;/home/handsome/ros_ws/install/botcmd_msgs;/opt/ros/melodic
+[12.058s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[12.059s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[12.059s] -- Using Debian Python package layout
+[12.062s] -- Using empy: /usr/bin/empy
+[12.712s] -- Using CATKIN_ENABLE_TESTING: ON
+[12.714s] -- Call enable_testing()
+[12.730s] -- Using CATKIN_TEST_RESULTS_DIR: /home/handsome/ros_ws_test/build/robot_control_msgs/test_results
+[12.819s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[12.820s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[12.917s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[12.919s] -- Looking for pthread.h
+[13.450s] -- Looking for pthread.h - found
+[13.451s] -- Looking for pthread_create
+[13.845s] -- Looking for pthread_create - not found
+[13.845s] -- Looking for pthread_create in pthreads
+[14.122s] -- Looking for pthread_create in pthreads - not found
+[14.123s] -- Looking for pthread_create in pthread
+[14.354s] -- Looking for pthread_create in pthread - found
+[14.356s] -- Found Threads: TRUE  
+[14.367s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[14.493s] -- catkin 0.7.28
+[14.493s] -- BUILD_SHARED_LIBS is on
+[15.241s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[15.864s] -- robot_control_msgs: 8 messages, 3 services
+[16.333s] -- Configuring done
+[16.396s] -- Generating done
+[16.410s] -- Build files have been written to: /home/handsome/ros_ws_test/build/robot_control_msgs
+[16.425s] Invoked command in '/home/handsome/ros_ws_test/build/robot_control_msgs' returned '0': /usr/bin/cmake /home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_control_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/handsome/ros_ws_test/install/robot_control_msgs
+[16.427s] Invoking command in '/home/handsome/ros_ws_test/build/robot_control_msgs': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/robot_control_msgs -- -j12 -l12
+[16.573s] [35m[1mScanning dependencies of target std_srvs_generate_messages_nodejs[0m
+[16.607s] [  0%] Built target std_srvs_generate_messages_nodejs
+[16.637s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[16.680s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[16.732s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[16.778s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[16.850s] [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[16.917s] [  0%] Built target std_msgs_generate_messages_nodejs
+[16.983s] [35m[1mScanning dependencies of target _robot_control_msgs_generate_messages_check_deps_robot_ctrl_roslog_cmd[0m
+[17.104s] [  0%] Built target _robot_control_msgs_generate_messages_check_deps_robot_ctrl_roslog_cmd
+[17.134s] [35m[1mScanning dependencies of target std_srvs_generate_messages_py[0m
+[17.166s] [  0%] Built target std_srvs_generate_messages_py
+[17.191s] [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[17.219s] [  0%] Built target std_msgs_generate_messages_py
+[17.249s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[17.278s] [  0%] Built target actionlib_msgs_generate_messages_py
+[17.307s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[17.335s] [  0%] Built target geometry_msgs_generate_messages_py
+[17.363s] [35m[1mScanning dependencies of target std_srvs_generate_messages_eus[0m
+[17.399s] [  0%] Built target std_srvs_generate_messages_eus
+[17.427s] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[17.459s] [  0%] Built target std_msgs_generate_messages_eus
+[17.488s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[17.518s] [  0%] Built target geometry_msgs_generate_messages_eus
+[17.545s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[17.575s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[17.607s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[17.637s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[17.666s] [35m[1mScanning dependencies of target std_srvs_generate_messages_lisp[0m
+[17.695s] [  0%] Built target std_srvs_generate_messages_lisp
+[17.728s] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[17.769s] [  0%] Built target std_msgs_generate_messages_lisp
+[17.795s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[17.825s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[17.854s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[17.883s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[17.911s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[17.940s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[17.966s] [35m[1mScanning dependencies of target std_srvs_generate_messages_cpp[0m
+[18.011s] [  0%] Built target std_srvs_generate_messages_cpp
+[18.083s] [35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[18.128s] [  0%] Built target std_msgs_generate_messages_cpp
+[18.161s] [35m[1mScanning dependencies of target _robot_control_msgs_generate_messages_check_deps_hyc_RobotInfo[0m
+[18.270s] [  0%] Built target _robot_control_msgs_generate_messages_check_deps_hyc_RobotInfo
+[18.306s] [35m[1mScanning dependencies of target _robot_control_msgs_generate_messages_check_deps_robot_ctrl_alarmHistory_cmd[0m
+[18.424s] [  0%] Built target _robot_control_msgs_generate_messages_check_deps_robot_ctrl_alarmHistory_cmd
+[18.453s] [35m[1mScanning dependencies of target _robot_control_msgs_generate_messages_check_deps_PID[0m
+[18.561s] [  0%] Built target _robot_control_msgs_generate_messages_check_deps_PID
+[18.588s] [35m[1mScanning dependencies of target _robot_control_msgs_generate_messages_check_deps_robot_ctrl_alarmCode[0m
+[18.699s] [  0%] Built target _robot_control_msgs_generate_messages_check_deps_robot_ctrl_alarmCode
+[18.725s] [35m[1mScanning dependencies of target _robot_control_msgs_generate_messages_check_deps_Imu[0m
+[18.875s] [  0%] Built target _robot_control_msgs_generate_messages_check_deps_Imu
+[18.932s] [35m[1mScanning dependencies of target _robot_control_msgs_generate_messages_check_deps_robot_ctrl_roslog[0m
+[19.083s] [  0%] Built target _robot_control_msgs_generate_messages_check_deps_robot_ctrl_roslog
+[19.116s] [35m[1mScanning dependencies of target _robot_control_msgs_generate_messages_check_deps_robot_ctrl_alarmHistory[0m
+[19.232s] [  0%] Built target _robot_control_msgs_generate_messages_check_deps_robot_ctrl_alarmHistory
+[19.261s] [35m[1mScanning dependencies of target _robot_control_msgs_generate_messages_check_deps_hyc_heartbeat[0m
+[19.487s] [  0%] Built target _robot_control_msgs_generate_messages_check_deps_hyc_heartbeat
+[19.488s] [35m[1mScanning dependencies of target _robot_control_msgs_generate_messages_check_deps_Velocities[0m
+[19.555s] [  0%] Built target _robot_control_msgs_generate_messages_check_deps_Velocities
+[19.556s] [35m[1mScanning dependencies of target _robot_control_msgs_generate_messages_check_deps_robot_ctrl_alarmCode_cmd[0m
+[19.656s] [  0%] Built target _robot_control_msgs_generate_messages_check_deps_robot_ctrl_alarmCode_cmd
+[19.684s] [35m[1mScanning dependencies of target robot_control_msgs_generate_messages_nodejs[0m
+[19.711s] [  1%] [34m[1mGenerating Javascript code from robot_control_msgs/PID.msg[0m
+[19.840s] [  3%] [34m[1mGenerating Javascript code from robot_control_msgs/Velocities.msg[0m
+[19.972s] [  5%] [34m[1mGenerating Javascript code from robot_control_msgs/robot_ctrl_roslog_cmd.srv[0m
+[20.104s] [  6%] [34m[1mGenerating Javascript code from robot_control_msgs/robot_ctrl_alarmCode_cmd.srv[0m
+[20.233s] [  8%] [34m[1mGenerating Javascript code from robot_control_msgs/robot_ctrl_alarmHistory_cmd.srv[0m
+[20.381s] [ 10%] [34m[1mGenerating Javascript code from robot_control_msgs/Imu.msg[0m
+[20.508s] [ 12%] [34m[1mGenerating Javascript code from robot_control_msgs/hyc_RobotInfo.msg[0m
+[20.649s] [ 13%] [34m[1mGenerating Javascript code from robot_control_msgs/robot_ctrl_alarmHistory.msg[0m
+[20.785s] [ 15%] [34m[1mGenerating Javascript code from robot_control_msgs/hyc_heartbeat.msg[0m
+[20.916s] [ 17%] [34m[1mGenerating Javascript code from robot_control_msgs/robot_ctrl_alarmCode.msg[0m
+[21.048s] [ 18%] [34m[1mGenerating Javascript code from robot_control_msgs/robot_ctrl_roslog.msg[0m
+[21.187s] [ 18%] Built target robot_control_msgs_generate_messages_nodejs
+[21.217s] [35m[1mScanning dependencies of target robot_control_msgs_generate_messages_cpp[0m
+[21.251s] [ 20%] [34m[1mGenerating C++ code from robot_control_msgs/PID.msg[0m
+[21.569s] [ 22%] [34m[1mGenerating C++ code from robot_control_msgs/robot_ctrl_roslog_cmd.srv[0m
+[22.061s] [ 24%] [34m[1mGenerating C++ code from robot_control_msgs/robot_ctrl_alarmCode_cmd.srv[0m
+[22.555s] [ 25%] [34m[1mGenerating C++ code from robot_control_msgs/robot_ctrl_alarmHistory_cmd.srv[0m
+[23.045s] [ 27%] [34m[1mGenerating C++ code from robot_control_msgs/Velocities.msg[0m
+[23.363s] [ 29%] [34m[1mGenerating C++ code from robot_control_msgs/Imu.msg[0m
+[23.663s] [ 31%] [34m[1mGenerating C++ code from robot_control_msgs/hyc_RobotInfo.msg[0m
+[23.993s] [ 32%] [34m[1mGenerating C++ code from robot_control_msgs/robot_ctrl_alarmHistory.msg[0m
+[24.298s] [ 34%] [34m[1mGenerating C++ code from robot_control_msgs/hyc_heartbeat.msg[0m
+[24.599s] [ 36%] [34m[1mGenerating C++ code from robot_control_msgs/robot_ctrl_alarmCode.msg[0m
+[24.898s] [ 37%] [34m[1mGenerating C++ code from robot_control_msgs/robot_ctrl_roslog.msg[0m
+[25.230s] [ 37%] Built target robot_control_msgs_generate_messages_cpp
+[25.266s] [35m[1mScanning dependencies of target robot_control_msgs_generate_messages_lisp[0m
+[25.298s] [ 39%] [34m[1mGenerating Lisp code from robot_control_msgs/PID.msg[0m
+[25.434s] [ 41%] [34m[1mGenerating Lisp code from robot_control_msgs/robot_ctrl_alarmCode_cmd.srv[0m
+[25.567s] [ 43%] [34m[1mGenerating Lisp code from robot_control_msgs/robot_ctrl_alarmHistory_cmd.srv[0m
+[25.693s] [ 44%] [34m[1mGenerating Lisp code from robot_control_msgs/robot_ctrl_roslog_cmd.srv[0m
+[25.818s] [ 46%] [34m[1mGenerating Lisp code from robot_control_msgs/Velocities.msg[0m
+[25.957s] [ 48%] [34m[1mGenerating Lisp code from robot_control_msgs/Imu.msg[0m
+[26.091s] [ 50%] [34m[1mGenerating Lisp code from robot_control_msgs/hyc_RobotInfo.msg[0m
+[26.235s] [ 51%] [34m[1mGenerating Lisp code from robot_control_msgs/robot_ctrl_alarmHistory.msg[0m
+[26.365s] [ 53%] [34m[1mGenerating Lisp code from robot_control_msgs/hyc_heartbeat.msg[0m
+[26.498s] [ 55%] [34m[1mGenerating Lisp code from robot_control_msgs/robot_ctrl_alarmCode.msg[0m
+[26.628s] [ 56%] [34m[1mGenerating Lisp code from robot_control_msgs/robot_ctrl_roslog.msg[0m
+[26.768s] [ 56%] Built target robot_control_msgs_generate_messages_lisp
+[26.802s] [35m[1mScanning dependencies of target robot_control_msgs_generate_messages_eus[0m
+[26.840s] [ 58%] [34m[1mGenerating EusLisp code from robot_control_msgs/PID.msg[0m
+[27.010s] [ 60%] [34m[1mGenerating EusLisp code from robot_control_msgs/robot_ctrl_alarmHistory_cmd.srv[0m
+[27.181s] [ 62%] [34m[1mGenerating EusLisp manifest code for robot_control_msgs[0m
+[29.041s] [ 63%] [34m[1mGenerating EusLisp code from robot_control_msgs/robot_ctrl_alarmCode_cmd.srv[0m
+[29.198s] [ 65%] [34m[1mGenerating EusLisp code from robot_control_msgs/robot_ctrl_roslog_cmd.srv[0m
+[29.403s] [ 67%] [34m[1mGenerating EusLisp code from robot_control_msgs/Velocities.msg[0m
+[29.583s] [ 68%] [34m[1mGenerating EusLisp code from robot_control_msgs/Imu.msg[0m
+[29.758s] [ 70%] [34m[1mGenerating EusLisp code from robot_control_msgs/hyc_RobotInfo.msg[0m
+[29.925s] [ 72%] [34m[1mGenerating EusLisp code from robot_control_msgs/robot_ctrl_alarmHistory.msg[0m
+[30.050s] [ 74%] [34m[1mGenerating EusLisp code from robot_control_msgs/hyc_heartbeat.msg[0m
+[30.211s] [ 75%] [34m[1mGenerating EusLisp code from robot_control_msgs/robot_ctrl_alarmCode.msg[0m
+[30.326s] [ 77%] [34m[1mGenerating EusLisp code from robot_control_msgs/robot_ctrl_roslog.msg[0m
+[30.483s] [ 77%] Built target robot_control_msgs_generate_messages_eus
+[30.509s] [35m[1mScanning dependencies of target robot_control_msgs_generate_messages_py[0m
+[30.530s] [ 79%] [34m[1mGenerating Python from MSG robot_control_msgs/PID[0m
+[30.699s] [ 81%] [34m[1mGenerating Python code from SRV robot_control_msgs/robot_ctrl_alarmHistory_cmd[0m
+[30.919s] [ 82%] [34m[1mGenerating Python code from SRV robot_control_msgs/robot_ctrl_alarmCode_cmd[0m
+[31.075s] [ 84%] [34m[1mGenerating Python code from SRV robot_control_msgs/robot_ctrl_roslog_cmd[0m
+[31.279s] [ 86%] [34m[1mGenerating Python from MSG robot_control_msgs/Velocities[0m
+[31.460s] [ 87%] [34m[1mGenerating Python from MSG robot_control_msgs/Imu[0m
+[31.620s] [ 89%] [34m[1mGenerating Python from MSG robot_control_msgs/hyc_RobotInfo[0m
+[31.792s] [ 91%] [34m[1mGenerating Python from MSG robot_control_msgs/robot_ctrl_alarmHistory[0m
+[31.997s] [ 93%] [34m[1mGenerating Python from MSG robot_control_msgs/hyc_heartbeat[0m
+[32.145s] [ 94%] [34m[1mGenerating Python from MSG robot_control_msgs/robot_ctrl_alarmCode[0m
+[32.370s] [ 96%] [34m[1mGenerating Python from MSG robot_control_msgs/robot_ctrl_roslog[0m
+[32.574s] [ 98%] [34m[1mGenerating Python msg __init__.py for robot_control_msgs[0m
+[32.800s] [100%] [34m[1mGenerating Python srv __init__.py for robot_control_msgs[0m
+[33.022s] [100%] Built target robot_control_msgs_generate_messages_py
+[33.065s] [35m[1mScanning dependencies of target robot_control_msgs_generate_messages[0m
+[33.089s] [100%] Built target robot_control_msgs_generate_messages

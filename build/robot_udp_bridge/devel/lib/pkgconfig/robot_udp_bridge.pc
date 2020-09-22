@@ -1,0 +1,8 @@
+prefix=/home/handsome/ros_ws_test/build/robot_udp_bridge/devel
+
+Name: robot_udp_bridge
+Description: Description of robot_udp_bridge
+Version: 1.0.0
+Cflags: -I/home/handsome/ros_ws_test/src/ros_base/robot_control_manager/robot_udp_bridge/include
+Libs: -L${prefix}/lib -lrobot_udp_bridge
+Requires: tf roscpp roslib actionlib rospy std_msgs samsungcmd_msgs botcmd_msgs mongodb_store_msgs mongodb_store ros_utility_tools robot_control_msgs

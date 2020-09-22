@@ -1,0 +1,8 @@
+prefix=/home/handsome/ros_ws_test/build/locomotor/devel
+
+Name: locomotor
+Description: Description of locomotor
+Version: 0.2.4
+Cflags: -I/home/handsome/ros_ws_test/src/ros_base/robot_navigation/locomotor/include
+Libs: -L${prefix}/lib -llocomotor
+Requires: actionlib geometry_msgs locomotor_msgs nav_2d_msgs nav_2d_utils nav_core2 nav_core_adapter nav_msgs pluginlib roscpp rospy

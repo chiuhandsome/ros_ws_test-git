@@ -1,0 +1,23 @@
+[01m[K/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver/test/os32c_test.cpp:[m[K In member function ‘[01m[Kvirtual void omron_os32c_driver::OS32CTest_test_select_beams_Test::TestBody()[m[K’:
+[01m[K/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver/test/os32c_test.cpp:222:3:[m[K [01;31m[Kerror: [m[Knarrowing conversion of ‘[01m[K178[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kchar[m[K’ inside { } [[01;31m[K-Wnarrowing[m[K]
+   [01;31m[K}[m[K;
+   [01;31m[K^[m[K
+[01m[K/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver/test/os32c_test.cpp:222:3:[m[K [01;31m[Kerror: [m[Knarrowing conversion of ‘[01m[K144[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kchar[m[K’ inside { } [[01;31m[K-Wnarrowing[m[K]
+[01m[K/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver/test/os32c_test.cpp:[m[K In member function ‘[01m[Kvirtual void omron_os32c_driver::OS32CTest_test_receive_measurement_report_Test::TestBody()[m[K’:
+[01m[K/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver/test/os32c_test.cpp:454:3:[m[K [01;31m[Kerror: [m[Knarrowing conversion of ‘[01m[K128[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kchar[m[K’ inside { } [[01;31m[K-Wnarrowing[m[K]
+   [01;31m[K}[m[K;
+   [01;31m[K^[m[K
+[01m[K/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver/test/os32c_test.cpp:454:3:[m[K [01;31m[Kerror: [m[Knarrowing conversion of ‘[01m[K177[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kchar[m[K’ inside { } [[01;31m[K-Wnarrowing[m[K]
+[01m[K/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver/test/os32c_test.cpp:454:3:[m[K [01;31m[Kerror: [m[Knarrowing conversion of ‘[01m[K161[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kchar[m[K’ inside { } [[01;31m[K-Wnarrowing[m[K]
+[01m[K/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver/test/os32c_test.cpp:454:3:[m[K [01;31m[Kerror: [m[Knarrowing conversion of ‘[01m[K150[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kchar[m[K’ inside { } [[01;31m[K-Wnarrowing[m[K]
+[01m[K/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver/test/os32c_test.cpp:454:3:[m[K [01;31m[Kerror: [m[Knarrowing conversion of ‘[01m[K190[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kchar[m[K’ inside { } [[01;31m[K-Wnarrowing[m[K]
+[01m[K/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver/test/os32c_test.cpp:454:3:[m[K [01;31m[Kerror: [m[Knarrowing conversion of ‘[01m[K151[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kchar[m[K’ inside { } [[01;31m[K-Wnarrowing[m[K]
+[01m[K/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver/test/os32c_test.cpp:454:3:[m[K [01;31m[Kerror: [m[Knarrowing conversion of ‘[01m[K138[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kchar[m[K’ inside { } [[01;31m[K-Wnarrowing[m[K]
+[01m[K/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver/test/os32c_test.cpp:454:3:[m[K [01;31m[Kerror: [m[Knarrowing conversion of ‘[01m[K167[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kchar[m[K’ inside { } [[01;31m[K-Wnarrowing[m[K]
+[01m[K/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver/test/os32c_test.cpp:454:3:[m[K [01;31m[Kerror: [m[Knarrowing conversion of ‘[01m[K136[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kchar[m[K’ inside { } [[01;31m[K-Wnarrowing[m[K]
+[01m[K/home/handsome/ros_ws/src/ros_base/omron/omron_os32c_driver/test/os32c_test.cpp:454:3:[m[K [01;31m[Kerror: [m[Knarrowing conversion of ‘[01m[K174[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kchar[m[K’ inside { } [[01;31m[K-Wnarrowing[m[K]
+make[3]: *** [CMakeFiles/omron_os32c_driver-test.dir/test/os32c_test.cpp.o] Error 1
+make[3]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/omron_os32c_driver-test.dir/all] Error 2
+make[1]: *** [CMakeFiles/tests.dir/rule] Error 2
+make: *** [tests] Error 2

@@ -1,0 +1,8 @@
+prefix=/home/handsome/ros_ws_test/build/mongodb_store/devel
+
+Name: mongodb_store
+Description: Description of mongodb_store
+Version: 0.5.0
+Cflags: -I/home/handsome/ros_ws_test/build/mongodb_store/devel/include -I/home/handsome/ros_ws_test/src/ros_base/mongodb_store/mongodb_store/include
+Libs: -L${prefix}/lib -lmessage_store /usr/include /usr/lib/x86_64-linux-gnu/libmongoclient.so /usr/lib/x86_64-linux-gnu/libboost_system.so /usr/lib/x86_64-linux-gnu/libboost_thread.so /usr/lib/x86_64-linux-gnu/libboost_program_options.so /usr/lib/x86_64-linux-gnu/libboost_filesystem.so /usr/lib/x86_64-linux-gnu/libboost_chrono.so /usr/lib/x86_64-linux-gnu/libboost_date_time.so /usr/lib/x86_64-linux-gnu/libboost_atomic.so /usr/lib/x86_64-linux-gnu/libpthread.so /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so
+Requires: mongodb_store_msgs topic_tools

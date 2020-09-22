@@ -1,0 +1,8 @@
+prefix=/home/handsome/ros_ws_test/build/nav_2d_msgs/devel
+
+Name: nav_2d_msgs
+Description: Description of nav_2d_msgs
+Version: 0.2.4
+Cflags: -I/home/handsome/ros_ws_test/build/nav_2d_msgs/devel/include
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs message_runtime std_msgs

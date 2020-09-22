@@ -1,0 +1,8 @@
+prefix=/home/handsome/ros_ws_test/install/robot_control_msgs
+
+Name: robot_control_msgs
+Description: Description of robot_control_msgs
+Version: 0.1.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp actionlib_msgs std_msgs geometry_msgs std_srvs message_runtime

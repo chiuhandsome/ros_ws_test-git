@@ -1,0 +1,220 @@
+[0.018s] Invoking command in '/home/handsome/ros_ws_test/build/reset_location': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/reset_location -- -j12 -l12
+[0.110s] [  2%] [32mBuilding CXX object CMakeFiles/reset_location_ac_node.dir/src/reset_location_ac_node.cpp.o[0m
+[0.110s] [  2%] Built target std_msgs_generate_messages_lisp
+[0.112s] [  2%] Built target actionlib_msgs_generate_messages_py
+[0.115s] [  2%] Built target actionlib_msgs_generate_messages_lisp
+[0.116s] [  6%] Built target reset_location_node
+[0.169s] [  6%] Built target actionlib_msgs_generate_messages_nodejs
+[0.178s] [  6%] Built target std_msgs_generate_messages_py
+[0.189s] [  6%] Built target std_msgs_generate_messages_nodejs
+[0.202s] [  6%] Built target actionlib_msgs_generate_messages_cpp
+[0.204s] [  6%] Built target _reset_location_generate_messages_check_deps_TrilaterationFeedback
+[0.208s] [  6%] Built target _reset_location_generate_messages_check_deps_TrilaterationActionResult
+[0.208s] [  6%] Built target _reset_location_generate_messages_check_deps_TrilaterationAction
+[0.208s] [  6%] Built target _reset_location_generate_messages_check_deps_TrilaterationActionFeedback
+[0.213s] [  6%] Built target _reset_location_generate_messages_check_deps_TrilaterationActionGoal
+[0.215s] [  6%] Built target _reset_location_generate_messages_check_deps_TrilaterationResult
+[0.218s] [  6%] Built target _reset_location_generate_messages_check_deps_TrilaterationGoal
+[0.230s] [  6%] Built target std_msgs_generate_messages_cpp
+[0.236s] [  6%] Built target actionlib_msgs_generate_messages_eus
+[0.251s] [  6%] Built target std_msgs_generate_messages_eus
+[0.254s] [  6%] Built target actionlib_generate_messages_py
+[0.261s] [  6%] Built target actionlib_generate_messages_eus
+[0.262s] [  6%] Built target actionlib_generate_messages_nodejs
+[0.264s] [  6%] Built target rosgraph_msgs_generate_messages_nodejs
+[0.269s] [  6%] Built target rosgraph_msgs_generate_messages_py
+[0.269s] [  6%] Built target actionlib_generate_messages_lisp
+[0.270s] [  6%] Built target rosgraph_msgs_generate_messages_lisp
+[0.281s] [  6%] Built target rosgraph_msgs_generate_messages_eus
+[0.281s] [  6%] Built target rosgraph_msgs_generate_messages_cpp
+[0.289s] [  6%] Built target roscpp_generate_messages_py
+[0.303s] [  6%] Built target geometry_msgs_generate_messages_eus
+[0.307s] [  6%] Built target roscpp_generate_messages_nodejs
+[0.307s] [  6%] Built target roscpp_generate_messages_eus
+[0.315s] [  6%] Built target roscpp_generate_messages_lisp
+[0.318s] [  6%] Built target actionlib_generate_messages_cpp
+[0.318s] [  6%] Built target tf2_msgs_generate_messages_eus
+[0.319s] [  6%] Built target roscpp_generate_messages_cpp
+[0.328s] [  6%] Built target geometry_msgs_generate_messages_nodejs
+[0.334s] [  6%] Built target geometry_msgs_generate_messages_cpp
+[0.335s] [  6%] Built target tf2_msgs_generate_messages_nodejs
+[0.340s] [  6%] Built target geometry_msgs_generate_messages_lisp
+[0.355s] [  6%] Built target geometry_msgs_generate_messages_py
+[0.358s] [  6%] Built target tf2_msgs_generate_messages_cpp
+[0.359s] [  6%] Built target tf2_msgs_generate_messages_py
+[0.361s] [  6%] Built target tf2_msgs_generate_messages_lisp
+[0.368s] [ 23%] Built target reset_location_generate_messages_cpp
+[0.369s] [ 41%] Built target reset_location_generate_messages_py
+[0.374s] [ 88%] Built target reset_location_generate_messages_nodejs
+[0.374s] [ 88%] Built target reset_location_generate_messages_lisp
+[0.374s] [ 93%] Built target reset_location_generate_messages_eus
+[0.396s] [ 97%] Built target reset_location_as_node
+[0.400s] [ 97%] Built target reset_location_generate_messages
+[3.209s] [100%] [32m[1mLinking CXX executable devel/lib/reset_location/reset_location_ac_node[0m
+[3.403s] [100%] Built target reset_location_ac_node
+[3.415s] Invoked command in '/home/handsome/ros_ws_test/build/reset_location' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/reset_location -- -j12 -l12
+[3.509s] Invoking command in '/home/handsome/ros_ws_test/build/reset_location': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/reset_location --target tests -- -j12 -l12
+[3.587s] [35m[1mScanning dependencies of target tests[0m
+[3.601s] Built target tests
+[3.615s] Invoked command in '/home/handsome/ros_ws_test/build/reset_location' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/reset_location --target tests -- -j12 -l12
+[3.795s] Invoking command in '/home/handsome/ros_ws_test/build/reset_location': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/reset_location --target install -- -j12 -l12
+[3.932s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[3.932s] [  0%] Built target std_msgs_generate_messages_lisp
+[3.940s] [  4%] Built target actionlib_msgs_generate_messages_py
+[3.940s] [  9%] Built target reset_location_ac_node
+[3.940s] [  9%] Built target reset_location_node
+[3.986s] [  9%] Built target std_msgs_generate_messages_py
+[3.990s] [  9%] Built target std_msgs_generate_messages_nodejs
+[3.990s] [  9%] Built target actionlib_msgs_generate_messages_nodejs
+[3.992s] [  9%] Built target std_msgs_generate_messages_cpp
+[3.994s] [  9%] Built target actionlib_msgs_generate_messages_cpp
+[3.996s] [  9%] Built target _reset_location_generate_messages_check_deps_TrilaterationAction
+[3.997s] [  9%] Built target _reset_location_generate_messages_check_deps_TrilaterationActionResult
+[3.998s] [  9%] Built target _reset_location_generate_messages_check_deps_TrilaterationFeedback
+[3.999s] [  9%] Built target _reset_location_generate_messages_check_deps_TrilaterationGoal
+[4.001s] [  9%] Built target _reset_location_generate_messages_check_deps_TrilaterationActionFeedback
+[4.004s] [  9%] Built target _reset_location_generate_messages_check_deps_TrilaterationResult
+[4.006s] [  9%] Built target _reset_location_generate_messages_check_deps_TrilaterationActionGoal
+[4.036s] [  9%] Built target actionlib_generate_messages_eus
+[4.038s] [  9%] Built target actionlib_msgs_generate_messages_eus
+[4.038s] [  9%] Built target std_msgs_generate_messages_eus
+[4.038s] [  9%] Built target actionlib_generate_messages_py
+[4.039s] [  9%] Built target actionlib_generate_messages_lisp
+[4.045s] [  9%] Built target rosgraph_msgs_generate_messages_nodejs
+[4.050s] [  9%] Built target actionlib_generate_messages_nodejs
+[4.050s] [  9%] Built target rosgraph_msgs_generate_messages_py
+[4.054s] [  9%] Built target rosgraph_msgs_generate_messages_eus
+[4.054s] [  9%] Built target rosgraph_msgs_generate_messages_cpp
+[4.055s] [  9%] Built target rosgraph_msgs_generate_messages_lisp
+[4.057s] [  9%] Built target roscpp_generate_messages_py
+[4.090s] [  9%] Built target roscpp_generate_messages_eus
+[4.091s] [  9%] Built target geometry_msgs_generate_messages_eus
+[4.092s] [  9%] Built target roscpp_generate_messages_nodejs
+[4.092s] [  9%] Built target roscpp_generate_messages_lisp
+[4.099s] [  9%] Built target tf2_msgs_generate_messages_eus
+[4.106s] [  9%] Built target geometry_msgs_generate_messages_nodejs
+[4.108s] [  9%] Built target tf2_msgs_generate_messages_nodejs
+[4.109s] [  9%] Built target actionlib_generate_messages_cpp
+[4.112s] [  9%] Built target geometry_msgs_generate_messages_cpp
+[4.113s] [  9%] Built target roscpp_generate_messages_cpp
+[4.115s] [  9%] Built target geometry_msgs_generate_messages_py
+[4.118s] [  9%] Built target geometry_msgs_generate_messages_lisp
+[4.135s] [  9%] Built target tf2_msgs_generate_messages_cpp
+[4.143s] [  9%] Built target tf2_msgs_generate_messages_py
+[4.144s] [ 27%] Built target reset_location_generate_messages_py
+[4.145s] [ 27%] Built target tf2_msgs_generate_messages_lisp
+[4.146s] [ 46%] Built target reset_location_generate_messages_eus
+[4.146s] [ 62%] Built target reset_location_generate_messages_nodejs
+[4.148s] [ 95%] Built target reset_location_generate_messages_cpp
+[4.148s] [ 95%] Built target reset_location_generate_messages_lisp
+[4.177s] [ 95%] Built target reset_location_generate_messages
+[4.181s] [100%] Built target reset_location_as_node
+[4.204s] [36mInstall the project...[0m
+[4.214s] -- Install configuration: ""
+[4.215s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/reset_location/action/Trilateration.action
+[4.215s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/reset_location/msg/TrilaterationAction.msg
+[4.215s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/reset_location/msg/TrilaterationActionGoal.msg
+[4.215s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/reset_location/msg/TrilaterationActionResult.msg
+[4.215s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/reset_location/msg/TrilaterationActionFeedback.msg
+[4.215s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/reset_location/msg/TrilaterationGoal.msg
+[4.215s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/reset_location/msg/TrilaterationResult.msg
+[4.215s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/reset_location/msg/TrilaterationFeedback.msg
+[4.216s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/reset_location/cmake/reset_location-msg-paths.cmake
+[4.216s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/include/reset_location
+[4.216s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/include/reset_location/TrilaterationResult.h
+[4.216s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/include/reset_location/TrilaterationGoal.h
+[4.216s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/include/reset_location/TrilaterationAction.h
+[4.217s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/include/reset_location/TrilaterationActionGoal.h
+[4.217s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/include/reset_location/TrilaterationFeedback.h
+[4.217s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/include/reset_location/TrilaterationActionFeedback.h
+[4.217s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/include/reset_location/TrilaterationActionResult.h
+[4.217s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/roseus/ros/reset_location
+[4.217s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/roseus/ros/reset_location/msg
+[4.217s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/roseus/ros/reset_location/msg/TrilaterationActionFeedback.l
+[4.217s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/roseus/ros/reset_location/msg/TrilaterationResult.l
+[4.218s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/roseus/ros/reset_location/msg/TrilaterationGoal.l
+[4.218s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/roseus/ros/reset_location/msg/TrilaterationActionGoal.l
+[4.218s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/roseus/ros/reset_location/msg/TrilaterationFeedback.l
+[4.218s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/roseus/ros/reset_location/msg/TrilaterationAction.l
+[4.218s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/roseus/ros/reset_location/msg/TrilaterationActionResult.l
+[4.218s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/roseus/ros/reset_location/manifest.l
+[4.218s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/common-lisp/ros/reset_location
+[4.219s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/common-lisp/ros/reset_location/msg
+[4.219s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/common-lisp/ros/reset_location/msg/TrilaterationActionFeedback.lisp
+[4.219s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/common-lisp/ros/reset_location/msg/_package_TrilaterationActionFeedback.lisp
+[4.219s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/common-lisp/ros/reset_location/msg/TrilaterationFeedback.lisp
+[4.219s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/common-lisp/ros/reset_location/msg/reset_location-msg.asd
+[4.219s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/common-lisp/ros/reset_location/msg/_package_TrilaterationAction.lisp
+[4.219s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/common-lisp/ros/reset_location/msg/_package_TrilaterationActionResult.lisp
+[4.220s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/common-lisp/ros/reset_location/msg/TrilaterationActionResult.lisp
+[4.220s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/common-lisp/ros/reset_location/msg/_package_TrilaterationFeedback.lisp
+[4.220s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/common-lisp/ros/reset_location/msg/_package_TrilaterationActionGoal.lisp
+[4.220s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/common-lisp/ros/reset_location/msg/_package_TrilaterationResult.lisp
+[4.221s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/common-lisp/ros/reset_location/msg/_package.lisp
+[4.221s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/common-lisp/ros/reset_location/msg/_package_TrilaterationGoal.lisp
+[4.221s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/common-lisp/ros/reset_location/msg/TrilaterationGoal.lisp
+[4.221s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/common-lisp/ros/reset_location/msg/TrilaterationResult.lisp
+[4.221s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/common-lisp/ros/reset_location/msg/TrilaterationAction.lisp
+[4.222s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/common-lisp/ros/reset_location/msg/TrilaterationActionGoal.lisp
+[4.222s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/gennodejs/ros/reset_location
+[4.222s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/gennodejs/ros/reset_location/msg
+[4.222s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/gennodejs/ros/reset_location/msg/TrilaterationActionFeedback.js
+[4.222s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/gennodejs/ros/reset_location/msg/TrilaterationAction.js
+[4.222s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/gennodejs/ros/reset_location/msg/TrilaterationActionResult.js
+[4.223s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/gennodejs/ros/reset_location/msg/TrilaterationFeedback.js
+[4.223s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/gennodejs/ros/reset_location/msg/_index.js
+[4.223s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/gennodejs/ros/reset_location/msg/TrilaterationResult.js
+[4.223s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/gennodejs/ros/reset_location/msg/TrilaterationGoal.js
+[4.223s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/gennodejs/ros/reset_location/msg/TrilaterationActionGoal.js
+[4.223s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/gennodejs/ros/reset_location/_index.js
+[4.250s] Listing /home/handsome/ros_ws_test/build/reset_location/devel/lib/python2.7/dist-packages/reset_location ...
+[4.250s] Compiling /home/handsome/ros_ws_test/build/reset_location/devel/lib/python2.7/dist-packages/reset_location/__init__.py ...
+[4.250s] Listing /home/handsome/ros_ws_test/build/reset_location/devel/lib/python2.7/dist-packages/reset_location/msg ...
+[4.251s] Compiling /home/handsome/ros_ws_test/build/reset_location/devel/lib/python2.7/dist-packages/reset_location/msg/_TrilaterationAction.py ...
+[4.251s] Compiling /home/handsome/ros_ws_test/build/reset_location/devel/lib/python2.7/dist-packages/reset_location/msg/_TrilaterationActionFeedback.py ...
+[4.251s] Compiling /home/handsome/ros_ws_test/build/reset_location/devel/lib/python2.7/dist-packages/reset_location/msg/_TrilaterationActionGoal.py ...
+[4.251s] Compiling /home/handsome/ros_ws_test/build/reset_location/devel/lib/python2.7/dist-packages/reset_location/msg/_TrilaterationActionResult.py ...
+[4.251s] Compiling /home/handsome/ros_ws_test/build/reset_location/devel/lib/python2.7/dist-packages/reset_location/msg/_TrilaterationFeedback.py ...
+[4.251s] Compiling /home/handsome/ros_ws_test/build/reset_location/devel/lib/python2.7/dist-packages/reset_location/msg/_TrilaterationGoal.py ...
+[4.251s] Compiling /home/handsome/ros_ws_test/build/reset_location/devel/lib/python2.7/dist-packages/reset_location/msg/_TrilaterationResult.py ...
+[4.251s] Compiling /home/handsome/ros_ws_test/build/reset_location/devel/lib/python2.7/dist-packages/reset_location/msg/__init__.py ...
+[4.254s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/lib/python2.7/dist-packages/reset_location
+[4.254s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/lib/python2.7/dist-packages/reset_location/msg
+[4.254s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/lib/python2.7/dist-packages/reset_location/msg/_TrilaterationActionResult.pyc
+[4.254s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/lib/python2.7/dist-packages/reset_location/msg/__init__.py
+[4.254s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/lib/python2.7/dist-packages/reset_location/msg/_TrilaterationActionGoal.py
+[4.255s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/lib/python2.7/dist-packages/reset_location/msg/_TrilaterationAction.pyc
+[4.255s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/lib/python2.7/dist-packages/reset_location/msg/_TrilaterationFeedback.pyc
+[4.255s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/lib/python2.7/dist-packages/reset_location/msg/_TrilaterationResult.pyc
+[4.255s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/lib/python2.7/dist-packages/reset_location/msg/_TrilaterationFeedback.py
+[4.255s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/lib/python2.7/dist-packages/reset_location/msg/_TrilaterationGoal.py
+[4.255s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/lib/python2.7/dist-packages/reset_location/msg/_TrilaterationAction.py
+[4.255s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/lib/python2.7/dist-packages/reset_location/msg/_TrilaterationActionFeedback.py
+[4.255s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/lib/python2.7/dist-packages/reset_location/msg/_TrilaterationGoal.pyc
+[4.255s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/lib/python2.7/dist-packages/reset_location/msg/__init__.pyc
+[4.255s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/lib/python2.7/dist-packages/reset_location/msg/_TrilaterationActionResult.py
+[4.255s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/lib/python2.7/dist-packages/reset_location/msg/_TrilaterationResult.py
+[4.255s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/lib/python2.7/dist-packages/reset_location/msg/_TrilaterationActionGoal.pyc
+[4.255s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/lib/python2.7/dist-packages/reset_location/msg/_TrilaterationActionFeedback.pyc
+[4.255s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/lib/python2.7/dist-packages/reset_location/__init__.py
+[4.256s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/lib/python2.7/dist-packages/reset_location/__init__.pyc
+[4.256s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/lib/pkgconfig/reset_location.pc
+[4.256s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/reset_location/cmake/reset_location-msg-extras.cmake
+[4.256s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/reset_location/cmake/reset_locationConfig.cmake
+[4.256s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/reset_location/cmake/reset_locationConfig-version.cmake
+[4.256s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/reset_location/package.xml
+[4.256s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/lib/reset_location/reset_location_node
+[4.259s] -- Set runtime path of "/home/handsome/ros_ws_test/install/reset_location/lib/reset_location/reset_location_node" to ""
+[4.259s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/lib/reset_location/reset_location_as_node
+[4.264s] -- Set runtime path of "/home/handsome/ros_ws_test/install/reset_location/lib/reset_location/reset_location_as_node" to ""
+[4.265s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/lib/reset_location/reset_location_ac_node
+[4.266s] -- Set runtime path of "/home/handsome/ros_ws_test/install/reset_location/lib/reset_location/reset_location_ac_node" to ""
+[4.266s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/reset_location/launch
+[4.266s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/reset_location/launch/fake_reset_location_as.launch
+[4.266s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/reset_location/launch/vo_filter.launch
+[4.267s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/reset_location/launch/fake_reset_location.launch
+[4.267s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/reset_location/config
+[4.267s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/reset_location/config/reset_location_parameters.yaml
+[4.267s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/reset_location/cfg
+[4.267s] -- Installing: /home/handsome/ros_ws_test/install/reset_location/share/reset_location/cfg/imu.cfg
+[4.271s] Invoked command in '/home/handsome/ros_ws_test/build/reset_location' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/reset_location --target install -- -j12 -l12

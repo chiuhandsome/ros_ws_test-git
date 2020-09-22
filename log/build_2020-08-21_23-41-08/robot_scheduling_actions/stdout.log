@@ -1,0 +1,9 @@
+[35m[1mScanning dependencies of target robot_scheduling_actions_node[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/private_actions/robot_if_proc_lower_action.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/robot_scheduling_service.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/private_actions/robot_if_proc_upper_action.cpp.o[0m
+CMakeFiles/robot_scheduling_actions_node.dir/build.make:110: recipe for target 'CMakeFiles/robot_scheduling_actions_node.dir/src/robot_scheduling_service.cpp.o' failed
+CMakeFiles/robot_scheduling_actions_node.dir/build.make:182: recipe for target 'CMakeFiles/robot_scheduling_actions_node.dir/src/private_actions/robot_if_proc_upper_action.cpp.o' failed
+CMakeFiles/robot_scheduling_actions_node.dir/build.make:158: recipe for target 'CMakeFiles/robot_scheduling_actions_node.dir/src/private_actions/robot_if_proc_lower_action.cpp.o' failed
+CMakeFiles/Makefile2:227: recipe for target 'CMakeFiles/robot_scheduling_actions_node.dir/all' failed
+Makefile:140: recipe for target 'all' failed

@@ -1,0 +1,33 @@
+[0.075s] Invoking command in '/home/handsome/ros_ws_test/build/omron_os32c_driver': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/omron_os32c_driver -- -j12 -l12
+[0.350s] [ 33%] Built target omron_os32c
+[0.570s] [ 66%] Built target omron_os32c_node
+[0.575s] [100%] Built target scanner_node
+[0.719s] Invoked command in '/home/handsome/ros_ws_test/build/omron_os32c_driver' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/omron_os32c_driver -- -j12 -l12
+[1.710s] Invoking command in '/home/handsome/ros_ws_test/build/omron_os32c_driver': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/omron_os32c_driver --target tests -- -j12 -l12
+[2.055s] [ 18%] Built target omron_os32c
+[2.075s] [ 36%] Built target gtest
+[2.266s] [100%] Built target omron_os32c_driver-test
+[2.410s] [100%] Built target tests
+[2.500s] Invoked command in '/home/handsome/ros_ws_test/build/omron_os32c_driver' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/omron_os32c_driver --target tests -- -j12 -l12
+[4.035s] Invoking command in '/home/handsome/ros_ws_test/build/omron_os32c_driver': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/omron_os32c_driver --target install -- -j12 -l12
+[4.328s] [ 33%] Built target omron_os32c
+[4.338s] [ 66%] Built target scanner_node
+[4.453s] [100%] Built target omron_os32c_node
+[4.552s] [36mInstall the project...[0m
+[4.576s] -- Install configuration: ""
+[4.577s] -- Up-to-date: /home/handsome/ros_ws_test/install/omron_os32c_driver/lib/pkgconfig/omron_os32c_driver.pc
+[4.577s] -- Up-to-date: /home/handsome/ros_ws_test/install/omron_os32c_driver/share/omron_os32c_driver/cmake/omron_os32c_driverConfig.cmake
+[4.577s] -- Up-to-date: /home/handsome/ros_ws_test/install/omron_os32c_driver/share/omron_os32c_driver/cmake/omron_os32c_driverConfig-version.cmake
+[4.577s] -- Up-to-date: /home/handsome/ros_ws_test/install/omron_os32c_driver/share/omron_os32c_driver/package.xml
+[4.577s] -- Up-to-date: /home/handsome/ros_ws_test/install/omron_os32c_driver/lib/libomron_os32c.so
+[4.578s] -- Up-to-date: /home/handsome/ros_ws_test/install/omron_os32c_driver/lib/omron_os32c_driver/omron_os32c_node
+[4.579s] -- Up-to-date: /home/handsome/ros_ws_test/install/omron_os32c_driver/lib/omron_os32c_driver/scanner_node
+[4.580s] -- Up-to-date: /home/handsome/ros_ws_test/install/omron_os32c_driver/include/omron_os32c_driver
+[4.580s] -- Up-to-date: /home/handsome/ros_ws_test/install/omron_os32c_driver/include/omron_os32c_driver/measurement_report_header.h
+[4.580s] -- Up-to-date: /home/handsome/ros_ws_test/install/omron_os32c_driver/include/omron_os32c_driver/measurement_report.h
+[4.581s] -- Up-to-date: /home/handsome/ros_ws_test/install/omron_os32c_driver/include/omron_os32c_driver/measurement_report_config.h
+[4.581s] -- Up-to-date: /home/handsome/ros_ws_test/install/omron_os32c_driver/include/omron_os32c_driver/range_and_reflectance_measurement.h
+[4.581s] -- Up-to-date: /home/handsome/ros_ws_test/install/omron_os32c_driver/include/omron_os32c_driver/os32c.h
+[4.581s] -- Up-to-date: /home/handsome/ros_ws_test/install/omron_os32c_driver/share/omron_os32c_driver/launch
+[4.581s] -- Up-to-date: /home/handsome/ros_ws_test/install/omron_os32c_driver/share/omron_os32c_driver/launch/os32c.launch
+[4.588s] Invoked command in '/home/handsome/ros_ws_test/build/omron_os32c_driver' returned '0': /usr/bin/cmake --build /home/handsome/ros_ws_test/build/omron_os32c_driver --target install -- -j12 -l12

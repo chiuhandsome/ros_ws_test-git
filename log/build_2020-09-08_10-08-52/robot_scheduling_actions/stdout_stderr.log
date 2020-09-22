@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target robot_scheduling_actions_node[0m
+[  4%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/robot_scheduling_service.cpp.o[0m
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:[m[K In member function ‘[01m[Kbool robot_scheduling_service::split_condition(std::__cxx11::string)[m[K’:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/robot_scheduling_service.cpp:92:17:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kstd::__cxx11::string cond[m[K’ shadows a parameter
+     std::string [01;31m[Kcond[m[K = "," ;
+                 [01;31m[K^~~~[m[K
+CMakeFiles/robot_scheduling_actions_node.dir/build.make:110: recipe for target 'CMakeFiles/robot_scheduling_actions_node.dir/src/robot_scheduling_service.cpp.o' failed
+make[2]: *** [CMakeFiles/robot_scheduling_actions_node.dir/src/robot_scheduling_service.cpp.o] Error 1
+CMakeFiles/Makefile2:483: recipe for target 'CMakeFiles/robot_scheduling_actions_node.dir/all' failed
+make[1]: *** [CMakeFiles/robot_scheduling_actions_node.dir/all] Error 2
+make: *** [all] Error 2
+Makefile:140: recipe for target 'all' failed

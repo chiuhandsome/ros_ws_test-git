@@ -1,0 +1,27 @@
+[100%] Built target car_db_manager_bridge
+[35m[1mScanning dependencies of target tests[0m
+Built target tests
+[100%] Built target car_db_manager_bridge
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/handsome/ros_ws_test/install/car_db_manager_bridge/lib/pkgconfig/car_db_manager_bridge.pc
+-- Installing: /home/handsome/ros_ws_test/install/car_db_manager_bridge/share/car_db_manager_bridge/cmake/car_db_manager_bridgeConfig.cmake
+-- Installing: /home/handsome/ros_ws_test/install/car_db_manager_bridge/share/car_db_manager_bridge/cmake/car_db_manager_bridgeConfig-version.cmake
+-- Installing: /home/handsome/ros_ws_test/install/car_db_manager_bridge/share/car_db_manager_bridge/package.xml
+-- Installing: /home/handsome/ros_ws_test/install/car_db_manager_bridge/lib/car_db_manager_bridge/car_db_manager_bridge
+-- Set runtime path of "/home/handsome/ros_ws_test/install/car_db_manager_bridge/lib/car_db_manager_bridge/car_db_manager_bridge" to ""
+-- Installing: /home/handsome/ros_ws_test/install/car_db_manager_bridge/share/car_db_manager_bridge/launch
+-- Installing: /home/handsome/ros_ws_test/install/car_db_manager_bridge/share/car_db_manager_bridge/launch/car_db_manager_bridge.launch
+-- Installing: /home/handsome/ros_ws_test/install/car_db_manager_bridge/share/car_db_manager_bridge/config
+-- Installing: /home/handsome/ros_ws_test/install/car_db_manager_bridge/share/car_db_manager_bridge/config/robot_control_manage_params.yaml
+-- Installing: /home/handsome/ros_ws_test/install/car_db_manager_bridge/include/car_db_manager_bridge
+-- Installing: /home/handsome/ros_ws_test/install/car_db_manager_bridge/include/car_db_manager_bridge/car_db_manager_tables
+-- Installing: /home/handsome/ros_ws_test/install/car_db_manager_bridge/include/car_db_manager_bridge/car_db_manager_tables/parameters_tables_process.h
+-- Installing: /home/handsome/ros_ws_test/install/car_db_manager_bridge/include/car_db_manager_bridge/car_db_manager_tables/parameters_tables.h
+-- Installing: /home/handsome/ros_ws_test/install/car_db_manager_bridge/include/car_db_manager_bridge/car_db_manager
+-- Installing: /home/handsome/ros_ws_test/install/car_db_manager_bridge/include/car_db_manager_bridge/car_db_manager/control_mongodbstore_client.h
+-- Installing: /home/handsome/ros_ws_test/install/car_db_manager_bridge/include/car_db_manager_bridge/car_db_manager/car_db_manager_bridge.h
+-- Installing: /home/handsome/ros_ws_test/install/car_db_manager_bridge/include/car_db_manager_bridge/car_db_manager/car_db_manager_Interface.h
+-- Installing: /home/handsome/ros_ws_test/install/car_db_manager_bridge/include/car_db_manager_bridge/car_db_related_tables
+-- Installing: /home/handsome/ros_ws_test/install/car_db_manager_bridge/include/car_db_manager_bridge/car_db_related_tables/worksheet_data_tables.h
+-- Installing: /home/handsome/ros_ws_test/install/car_db_manager_bridge/include/car_db_manager_bridge/car_db_related_tables/worksheet_data_process.h

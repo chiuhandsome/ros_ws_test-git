@@ -1,0 +1,15 @@
+[35m[1mScanning dependencies of target robot_scheduling_actions_node[0m
+[  4%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/robot_scheduling_actions.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/public_actions/function_run_action.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/public_actions/self_turn_action.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/robot_scheduling_actions_node.dir/src/public_actions/pose_recognize_action.cpp.o[0m
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_actions/src/public_actions/self_turn_action.cpp:194:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+ [01;31m[K}[m[K
+ [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/robot_scheduling_actions_node.dir/src/public_actions/self_turn_action.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+CMakeFiles/robot_scheduling_actions_node.dir/build.make:374: recipe for target 'CMakeFiles/robot_scheduling_actions_node.dir/src/public_actions/self_turn_action.cpp.o' failed
+make[1]: *** [CMakeFiles/robot_scheduling_actions_node.dir/all] Error 2
+CMakeFiles/Makefile2:227: recipe for target 'CMakeFiles/robot_scheduling_actions_node.dir/all' failed
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

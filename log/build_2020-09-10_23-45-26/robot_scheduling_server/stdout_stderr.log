@@ -1,0 +1,14 @@
+[  3%] [32mBuilding CXX object CMakeFiles/robot_scheduling_server_node.dir/src/robot_scheduling_pnp_server.cpp.o[0m
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_server/src/robot_scheduling_pnp_server.cpp:[m[K In constructor ‘[01m[Krobot_scheduling_pnp_server::robot_scheduling_pnp_server()[m[K’:
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_server/src/robot_scheduling_pnp_server.cpp:84:83:[m[K [01;31m[Kerror: [m[K‘[01m[KsetRemoteRun[m[K’ is not a member of ‘[01m[Krobot_scheduling_pnp_server[m[K’
+                                         boost::bind(&robot_scheduling_pnp_server::[01;31m[KsetRemoteRun[m[K,this, _1,_2)));
+                                                                                   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/handsome/ros_ws_test/src/ros_base/robot_scheduling/robot_scheduling_server/src/robot_scheduling_pnp_server.cpp:86:83:[m[K [01;31m[Kerror: [m[K‘[01m[KsetRemoteStop[m[K’ is not a member of ‘[01m[Krobot_scheduling_pnp_server[m[K’
+                                         boost::bind(&robot_scheduling_pnp_server::[01;31m[KsetRemoteStop[m[K,this, _1,_2)));
+                                                                                   [01;31m[K^~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/robot_scheduling_server_node.dir/src/robot_scheduling_pnp_server.cpp.o] Error 1
+CMakeFiles/robot_scheduling_server_node.dir/build.make:86: recipe for target 'CMakeFiles/robot_scheduling_server_node.dir/src/robot_scheduling_pnp_server.cpp.o' failed
+make[1]: *** [CMakeFiles/robot_scheduling_server_node.dir/all] Error 2
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/robot_scheduling_server_node.dir/all' failed
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

@@ -1,0 +1,23 @@
+# Define the goal
+string  pose_id
+string frame_id
+uint8 CMD_MOVE=1
+uint8 CMD_STOP=2
+#uint8 CMD_INTERRUPE=99
+uint8  command
+string move_ac_name
+---
+# Define the result
+uint8 OK=1
+uint8 NOT_OK=2
+uint8 TIMED_OUT=3
+uint8 OUT_OF_TIMES=4
+uint8 NOT_POSE_ID=5
+uint8 result
+locomotor_msgs/ResultCode result_code
+---
+# Define a feedback message
+locomotor_msgs/NavigationState state
+float32 percent_complete
+float32 distance_traveled
+float32 estimated_distance_remaining

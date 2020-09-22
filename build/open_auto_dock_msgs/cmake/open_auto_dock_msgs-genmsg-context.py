@@ -1,0 +1,11 @@
+# generated from genmsg/cmake/pkg-genmsg.context.in
+
+messages_str = "/home/handsome/ros_ws_test/build/open_auto_dock_msgs/devel/share/open_auto_dock_msgs/msg/DockAction.msg;/home/handsome/ros_ws_test/build/open_auto_dock_msgs/devel/share/open_auto_dock_msgs/msg/DockActionGoal.msg;/home/handsome/ros_ws_test/build/open_auto_dock_msgs/devel/share/open_auto_dock_msgs/msg/DockActionResult.msg;/home/handsome/ros_ws_test/build/open_auto_dock_msgs/devel/share/open_auto_dock_msgs/msg/DockActionFeedback.msg;/home/handsome/ros_ws_test/build/open_auto_dock_msgs/devel/share/open_auto_dock_msgs/msg/DockGoal.msg;/home/handsome/ros_ws_test/build/open_auto_dock_msgs/devel/share/open_auto_dock_msgs/msg/DockResult.msg;/home/handsome/ros_ws_test/build/open_auto_dock_msgs/devel/share/open_auto_dock_msgs/msg/DockFeedback.msg;/home/handsome/ros_ws_test/build/open_auto_dock_msgs/devel/share/open_auto_dock_msgs/msg/UndockAction.msg;/home/handsome/ros_ws_test/build/open_auto_dock_msgs/devel/share/open_auto_dock_msgs/msg/UndockActionGoal.msg;/home/handsome/ros_ws_test/build/open_auto_dock_msgs/devel/share/open_auto_dock_msgs/msg/UndockActionResult.msg;/home/handsome/ros_ws_test/build/open_auto_dock_msgs/devel/share/open_auto_dock_msgs/msg/UndockActionFeedback.msg;/home/handsome/ros_ws_test/build/open_auto_dock_msgs/devel/share/open_auto_dock_msgs/msg/UndockGoal.msg;/home/handsome/ros_ws_test/build/open_auto_dock_msgs/devel/share/open_auto_dock_msgs/msg/UndockResult.msg;/home/handsome/ros_ws_test/build/open_auto_dock_msgs/devel/share/open_auto_dock_msgs/msg/UndockFeedback.msg"
+services_str = "/home/handsome/ros_ws_test/src/ros_base/open_auto_dock/open_auto_dock_msgs/srv/Cloud.srv"
+pkg_name = "open_auto_dock_msgs"
+dependencies_str = "actionlib_msgs;geometry_msgs"
+langs = "gencpp;geneus;genlisp;gennodejs;genpy"
+dep_include_paths_str = "open_auto_dock_msgs;/home/handsome/ros_ws_test/build/open_auto_dock_msgs/devel/share/open_auto_dock_msgs/msg;actionlib_msgs;/opt/ros/melodic/share/actionlib_msgs/cmake/../msg;geometry_msgs;/opt/ros/melodic/share/geometry_msgs/cmake/../msg;std_msgs;/opt/ros/melodic/share/std_msgs/cmake/../msg"
+PYTHON_EXECUTABLE = "/usr/bin/python2"
+package_has_static_sources = '' == 'TRUE'
+genmsg_check_deps_script = "/opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py"

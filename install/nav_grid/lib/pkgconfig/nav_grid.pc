@@ -1,0 +1,8 @@
+prefix=/home/handsome/ros_ws_test/install/nav_grid
+
+Name: nav_grid
+Description: Description of nav_grid
+Version: 0.2.4
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 
